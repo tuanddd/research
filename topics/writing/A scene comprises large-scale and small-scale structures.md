@@ -26,9 +26,9 @@ The small scale structure of the scene facilitates execution of the actual parag
 
 The small structure follows this pattern.
 
--   Feeling
--   Reflex
--   Rational action and/or speech
+- Feeling
+- Reflex
+- Rational action and/or speech
 
 The reaction operates on a different time scale than the motivation; structure it in terms of the fastest time scale to the slowest: feeling, reflex, rational action. Some of these might be left out, but there must be at least one and if there are multiples they must be presented in the correct order.
 
@@ -40,7 +40,7 @@ Each scene and sequel is a series of MRUs.
 
 #### Related
 
--   [[§ Writing]]
+- [[§ Writing]]
 
 #### Citation
 

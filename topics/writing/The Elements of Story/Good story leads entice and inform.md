@@ -10,7 +10,7 @@ One common approach to a lead is to use an anecdote. But for this to be effectiv
 
 #### Related
 
--   [[Stories need action and commentary]]
+- [[Stories need action and commentary]]
 
 #### Citations
 

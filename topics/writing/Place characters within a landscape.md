@@ -8,7 +8,7 @@ The landscape a character inhabits can provide a glimpse into their character. R
 
 #### Related
 
--   [[§ Writing]]
+- [[§ Writing]]
 
 #### Citations
 

@@ -14,8 +14,8 @@ In his _Story Grid_ approach to writing a novel, Shawn Coyne lists five commandm
 
 #### Related
 
--   [[A scene comprises large-scale and small-scale structures]] - An alternative scene framework.
--   [[§ Writing]]
+- [[A scene comprises large-scale and small-scale structures]] - An alternative scene framework.
+- [[§ Writing]]
 
 #### Citations
 

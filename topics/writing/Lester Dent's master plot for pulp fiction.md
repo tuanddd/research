@@ -10,35 +10,35 @@ A 6000-word story will comprise four 1500-word sections:
 
 **First 1500 words**
 
--   Introduce the hero as soon as possible (in the first line if possible) and immediately put him in danger or trobule
--   The hero tries the solve the problem
--   Introduce all the other characters
--   The hero's efforts put him in actual physical conflict near the end of the first 1500 words
+- Introduce the hero as soon as possible (in the first line if possible) and immediately put him in danger or trobule
+- The hero tries the solve the problem
+- Introduce all the other characters
+- The hero's efforts put him in actual physical conflict near the end of the first 1500 words
 
 The story needs suspense, a meaningful threat or menace, and it must fit together logically. The first 1500 words should propel the reader into the next 1500.
 
 **Second 1500 words**
 
--   Introduce more problems and challenges for the hero
--   The hero must struggle, leading to...
--   Another physical conflict and
--   A surprising plot twist near the end of the second section
+- Introduce more problems and challenges for the hero
+- The hero must struggle, leading to...
+- Another physical conflict and
+- A surprising plot twist near the end of the second section
 
 The menace must grow in the second section, and the hero must take his lumps.
 
 **Third 1500 words**
 
--   More grief for the hero
--   The hero should make progress, and corner the villain (or one of his agents) in...
--   Physical conflict
--   Followed by another plot twist, which constitutes a major setback for the hero
+- More grief for the hero
+- The hero should make progress, and corner the villain (or one of his agents) in...
+- Physical conflict
+- Followed by another plot twist, which constitutes a major setback for the hero
 
 Avoid monotony. Change up the physical threats. Build atmosphere with sensual imagery. Make every word count.
 
 **Fourth 1500 words**
 
--   More difficulties for our hero
--   The hero must get buried: this is the moment when everything is lost
--   The hero must extricate himself from his troubles through his own skills, training, or strength
--   Introduce a final twist, e.g. the villain is an unexpected person; the treasure is worthless
--   Have a great punch line at the end that leaves the reader with a warm feeling
+- More difficulties for our hero
+- The hero must get buried: this is the moment when everything is lost
+- The hero must extricate himself from his troubles through his own skills, training, or strength
+- Introduce a final twist, e.g. the villain is an unexpected person; the treasure is worthless
+- Have a great punch line at the end that leaves the reader with a warm feeling

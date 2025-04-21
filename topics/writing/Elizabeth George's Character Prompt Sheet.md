@@ -39,7 +39,7 @@ In _Mastering the Process: From Idea to Novel_, Elizabeth George offers a prompt
 
 #### Related
 
--   [[§ Writing]]
+- [[§ Writing]]
 
 #### Related
 

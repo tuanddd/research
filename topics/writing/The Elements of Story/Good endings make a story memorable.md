@@ -8,7 +8,7 @@ Writing a "kicker" ending is challenging. A good ending isn't a bare summary or 
 
 #### Related
 
--   [[Good story leads entice and inform]] - A good ending needs a good beginning
+- [[Good story leads entice and inform]] - A good ending needs a good beginning
 
 #### Citations
 

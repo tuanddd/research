@@ -8,7 +8,7 @@ Use dialogue to show your reader the nature of the character. Their words should
 
 #### Related
 
--   [[§ Writing]]
+- [[§ Writing]]
 
 #### Citations
 

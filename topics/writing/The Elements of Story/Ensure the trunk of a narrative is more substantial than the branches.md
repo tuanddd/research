@@ -8,8 +8,8 @@ When writing, ensure that the core theme of an idea isn't overshadowed by subord
 
 #### Related
 
--   [[Build organizations around a long-term narrative]] - An extension of narrative to business development: for businesses, as for a good story, there will be things that must be left aside or skimmed over to pursue what really matters
--   [[Good strategy simplifies a complex problem space]] - A strategy is a narrative that makes judicious cuts to avoid distraction
+- [[Build organizations around a long-term narrative]] - An extension of narrative to business development: for businesses, as for a good story, there will be things that must be left aside or skimmed over to pursue what really matters
+- [[Good strategy simplifies a complex problem space]] - A strategy is a narrative that makes judicious cuts to avoid distraction
 
 #### Citations
 

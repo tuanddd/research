@@ -10,7 +10,7 @@ Action may be direct and natural, hidden and potential, or mental; it should be 
 
 #### Related
 
--   [[§ Writing]]
+- [[§ Writing]]
 
 #### Citations
 
