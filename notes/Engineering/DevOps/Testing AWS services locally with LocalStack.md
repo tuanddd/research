@@ -1,9 +1,18 @@
 ---
-tags: engineering/devops, devops, aws, aws-s3, localstack
-authors: Nguyen Dinh Nam
-github_id: nguyend-nam
+title: null
 date: 2023-03-17
+description: LocalStack lets developers locally test and develop AWS services like S3, Lambda, and DynamoDB without AWS costs, speeding up cloud application development with a simple, cost-free environment.
+authors:
+  - Nguyen Dinh Nam
+github_id: nguyend-nam
 icy: 10
+tags:
+  - engineering
+  - devops
+  - devops
+  - aws
+  - aws-s3
+  - localstack
 ---
 
 **Amazon Web Services** (AWS) provides a wide range of cloud computing services that can be used to build and deploy applications at scale. However, using AWS can be costly, especially for small-scale projects or for developers who are just starting out. That's where [LocalStack](https://localstack.cloud/) comes in. LocalStack is an open-source tool that enables **local development** and **testing** of cloud applications by emulating various AWS services on a developer's local side. It can be used to test and develop applications **without** incurring the cost and complexity of using live AWS environment.
@@ -146,13 +155,14 @@ Some of the emulation services for other AWS APIs that LocalStack supports:
 There are several advantages of using LocalStack over the original AWS solutions:
 
 1.  Cost-saving: LocalStack is free to use and doesn't incur any AWS usage costs.
-    
+
 2.  Faster development: Since LocalStack is a local development environment, we don't need to deploy code to a remote environment for testing, hence save time and increase development speed.
-    
+
 3.  Better control: LocalStack provides developers with greater control over their testing environment. Developers can create custom test scenarios and modify the environment as needed, without affecting any live AWS environments.
-    
+
 4.  Improved accuracy: LocalStack's local environment allows developers to test their code more accurately, as they can simulate real-world scenarios without the risk of impacting live data or users.
 
 ## Reference
 - https://docs.localstack.cloud/user-guide/aws/s3/
 - https://aws.amazon.com/s3/?nc2=h_ql_prod_st_s3
+

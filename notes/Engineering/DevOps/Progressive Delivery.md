@@ -1,8 +1,15 @@
 ---
-tags: engineering/devops, progressive-delivery, DORA
-authors: Pham Duc Thanh
-github_id: zlatanpham
+title: null
 date: 2022-09-25
+description: Progressive delivery lets teams release new software features gradually using feature flags and mature CI/CD pipelines to reduce risks and improve user experience.
+authors:
+  - thanh
+github_id: zlatanpham
+tags:
+  - engineering
+  - devops
+  - progressive-delivery
+  - dora
 ---
 
 Progressive delivery is a modern software development methodology for gradually rolling out new features in order to assess the user response and limit the potential negative impact. With progressive delivery, features are released first to an internal QA team, then to real users in a controlled, measured manner.
@@ -42,3 +49,4 @@ Feature flags are one of the core components of progressive delivery. Without th
 - https://www.optimizely.com/optimization-glossary/progressive-delivery/
 - https://handbook.sourcegraph.com/departments/engineering/dev/tools/continuous_releasability/
 - https://www.cloudbees.com/blog/progressive-delivery-vs-continuous-delivery
+

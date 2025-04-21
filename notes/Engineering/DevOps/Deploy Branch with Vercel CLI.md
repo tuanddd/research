@@ -1,8 +1,19 @@
 ---
-tags: engineering/devops, nghenhan, hedge-foundation, remote-caching, deployment, target-branch, vercel
-authors: Chinh Le
-github_id: chinhld12
+title: null
 date: 2023-06-16
+description: Learn how to deploy specific apps in a monorepo to Vercel using GitHub Actions and Vercel CLI, optimizing builds by detecting changes and managing branch-based environments effectively.
+authors:
+  - Chinh Le
+github_id: chinhld12
+tags:
+  - engineering
+  - devops
+  - nghenhan
+  - hedge-foundation
+  - remote-caching
+  - deployment
+  - target-branch
+  - vercel
 ---
 
 ## Introduction
@@ -401,3 +412,4 @@ Although the proposed solution provides significant advantages, it does come wit
 
 ## Conclusion
 In summary, implementing the strategy of retrieving environment variables, configuring, building, and deploying on the established platform proves to be a successful solution for targeted branch deployments.
+
