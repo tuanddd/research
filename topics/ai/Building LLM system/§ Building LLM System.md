@@ -15,8 +15,8 @@ In recent years, the emergence of large language models (LLMs) has revolutionize
 
 The rise of AI applications, especially LLMs, has unlocked diverse use cases across industries like customer support, content generation, and programming assistance. Building a scalable LLM system requires not only choosing the right model but also following architecture best practices and integrating a robust tech stack.
 
-- [The rise of AI applications with LLM](the-rise-of-AI-applications-with-LLM.md)
-- [Use cases](use-cases-for-LLM-applications.md)
+- [The rise of AI applications with LLM](the-rise-of-ai-applications-with-llm.md)
+- [Use cases](use-cases-for-llm-applications.md)
 - Architecture and stack
 
 ## Model select and customization
@@ -81,12 +81,12 @@ LLM systems need to handle complex reasoning, task delegation, and actions based
 
 Using right metrics and method for specific use case in LLM.
 
-- [Evaluation metrics](evaluation-guideline-for-LLM-application.md)
+- [Evaluation metrics](evaluation-guideline-for-llm-application.md)
 - [AI-as-a-judge](llm-as-a-judge.md)
 
 ## Observability and orchestration
 
 Monitoring the system's performance and orchestrating the complex AI workflows that tie the components together.
 
-- [Observability in AI platforms](observability-in-AI-platforms.md)
+- [Observability in AI platforms](observability-in-ai-platforms.md)
 - AI pipeline orchestration
