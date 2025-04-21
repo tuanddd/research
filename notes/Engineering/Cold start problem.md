@@ -19,5 +19,6 @@ The cold start time is around 0.5s to 2s but increases based on the function siz
 While keeping the function size small or increasing the memory could partly speed up the load time, the latency is still in complain because > 1s request cannot ensure a good user experience. One way to fix it is to make sure the container is always in "hot" state. This can be achieved by running a scheduler to send a request to reset the cycle time of the function.
 
 #### References
-- https://dashbird.io/blog/can-we-solve-serverless-cold-starts/
-- https://www.serverless.com/blog/keep-your-lambdas-warm/
+
+- <https://dashbird.io/blog/can-we-solve-serverless-cold-starts/>
+- <https://www.serverless.com/blog/keep-your-lambdas-warm/>

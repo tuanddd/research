@@ -1,8 +1,8 @@
 ---
-tags: engineering, database, transaction
 authors: Nguyen Xuan Anh
 github_id: monotykamary
 date: 2022-04-18
+tags: engineering, database, transaction
 ---
 
 ## What is the ACID model?
