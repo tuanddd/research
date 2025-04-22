@@ -16,7 +16,7 @@ Firstly, using Nix, we can specify exactly the version of each package and its d
 
 To achieve it, Nix originally combined two mechanisms, Pinning nixpkgs and Fixed-output derivation.
 
-- [Pinning nixpkgs](./Pinning%20nixpkgs.md)
-- [Fixed-output derivation](./Fixed-output%20derivation.md)
+- [Pinning nixpkgs](./pinning-nixpkgs.md)
+- [Fixed-output derivation](./fixed-output-derivation.md)
 
 Above is not all. Nix raised a new feature called [Flake](../introduction/¶%20Nix%20Flakes.md) that has input and output that are determined exactly. To do it, Flake defines a standard structure for a Nix project where input (dependencies) and output are specified and locked. So your build now can avoid the dependency on the global state of Nix.
