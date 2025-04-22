@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-09-19
-description: null
+date: 2022-09-19T00:00:00.000Z
+description: Learn how stream-aligned teams enable fast delivery by owning end-to-end work, reducing hand-offs, and adapting quickly to change for better software flow and customer feedback.
 authors:
   - Pham Duc Thanh
 github_id: zlatanpham

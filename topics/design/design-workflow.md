@@ -1,7 +1,7 @@
 ---
 title: Design Workflow
-date: 2018-03-22
-description: null
+date: 2018-03-22T00:00:00.000Z
+description: Learn how to improve product design with user research, job stories, guerrilla usability testing, wireframing, UI principles, prototyping, and design systems for consistent and effective user interfaces.
 tags:
   - design
 ---

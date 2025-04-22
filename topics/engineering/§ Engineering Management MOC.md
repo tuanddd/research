@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Explore key engineering management concepts like Conway's law, team topologies, backlog grooming, and quality assurance to improve product development and team performance effectively.
 recurringTemplate: true
 recurringTemplateName: engineering-management-moc
 ---

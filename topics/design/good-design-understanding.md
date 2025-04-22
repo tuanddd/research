@@ -1,7 +1,7 @@
 ---
 title: Good Design Understanding
-date: 2018-04-02
-description: null
+date: 2018-04-02T00:00:00.000Z
+description: Learn what makes good UX and UI design by exploring key factors like usability, accessibility, credibility, color, typography, and layout to create effective, user-friendly digital products.
 tags:
   - design
 ---

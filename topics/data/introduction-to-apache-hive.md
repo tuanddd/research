@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-11-10
-description: null
+date: 2022-11-10T00:00:00.000Z
+description: Learn how Apache Hive simplifies big data analysis by enabling SQL queries on Hadoop datasets using tables, making MapReduce easier for developers and data analysts.
 authors:
   - Dung Ho
 github_id: dudaka

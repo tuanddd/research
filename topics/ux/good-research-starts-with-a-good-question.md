@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Effective research starts with a clear, focused question that guides inquiry and helps find solutions, making the process more targeted and valuable.
 tags:
   - ux
   - research

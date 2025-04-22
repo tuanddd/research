@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-05-22
-description: null
+date: 2022-05-22T00:00:00.000Z
+description: Learn how statecharts solve the state explosion problem in state machines using parallel states, hierarchical states, and guard conditions for simpler and more efficient designs.
 authors:
   - Nguyen Xuan Anh
 github_id: monotykamary

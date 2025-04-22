@@ -1,7 +1,7 @@
 ---
 title: The Principle Of Spacing In Ui Design Part 2
-date: 2018-11-01
-description: null
+date: 2018-11-01T00:00:00.000Z
+description: Learn the best UI design spacing tips for vertical and horizontal elements, including line-height, paragraph spacing, input fields, and icon alignment to improve readability and user experience.
 tags:
   - design
   - technique

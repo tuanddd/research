@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-12-05
-description: null
+date: 2022-12-05T00:00:00.000Z
+description: Event sourcing records all changes as events, allowing e-commerce platforms to track detailed order history and generate flexible analytics for better business insights and future-proof data management.
 authors:
   - M.Vu Cuong(Jim)
 github_id: R-Jim

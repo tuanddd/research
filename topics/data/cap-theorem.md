@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-04-18
-description: null
+date: 2022-04-18T00:00:00.000Z
+description: Learn about the CAP theorem, which explains how distributed databases balance consistency, availability, and partition tolerance, and how different database types prioritize these guarantees.
 authors:
   - Nguyen Xuan Anh
 github_id: monotykamary

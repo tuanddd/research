@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-09-18
-description: null
+date: 2022-09-18T00:00:00.000Z
+description: Learn how to build powerful Xcode command line tools using Swift, covering CLI app structure, commands, options, flags, and creating custom build tools for automation and safer coding.
 authors:
   - Phan Viet Trung
 github_id: viettrungphan

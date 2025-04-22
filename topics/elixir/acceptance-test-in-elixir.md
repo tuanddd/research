@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-07-13
-description: null
+date: 2022-07-13T00:00:00.000Z
+description: Learn how to automate End2End acceptance tests in Elixir using Hound and WebDriver to run browser tests efficiently and reduce manual testing time.
 authors:
   - Hieu Phan
 github_id: hieuphq

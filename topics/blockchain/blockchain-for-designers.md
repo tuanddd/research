@@ -1,7 +1,7 @@
 ---
 title: Blockchain For Designers
-date: 2020-05-04
-description: null
+date: 2020-05-04T00:00:00.000Z
+description: Learn how blockchain technology solves trust issues with decentralization, transparency, and immutability, and discover key design principles to create user-friendly blockchain products.
 tags:
   - design
   - blockchain

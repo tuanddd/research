@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2023-11-09
-description: null
+date: 2023-11-09T00:00:00.000Z
+description: Discover the eight essential UX research methods like Lean Canvas, user journey mapping, and competitor analysis to create user-friendly digital products that meet real user needs effectively.
 authors:
   - Nam Bui
 github_id: Maniub102

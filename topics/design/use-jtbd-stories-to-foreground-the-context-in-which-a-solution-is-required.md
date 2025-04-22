@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn how job stories focus on user context and motivations to improve product design, offering a clear alternative to traditional user stories by highlighting real user needs and situations.
 tags:
   - ux
   - design

@@ -1,7 +1,7 @@
 ---
 title: The Principle Of Spacing In Ui Design Part 1
-date: 2018-01-18
-description: null
+date: 2018-01-18T00:00:00.000Z
+description: Learn why spacing is key in design, affecting content, graphics, navigation, and overall aesthetics to create a balanced, clear, and engaging user interface.
 tags:
   - design
   - technique

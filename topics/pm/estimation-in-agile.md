@@ -1,7 +1,7 @@
 ---
 title: Estimation In Agile
-date: 2016-02-12
-description: null
+date: 2016-02-12T00:00:00.000Z
+description: Learn how to estimate work using story points, time, and planning poker for accurate project planning, with tips on improving quality through adjusted estimates and workflow practices.
 tags:
   - agile
 ---

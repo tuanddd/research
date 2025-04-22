@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Measuring behavior often changes it, as people and organizations adjust actions to improve scores, making metrics unreliable and potentially harming long-term goals and trust.
 tags:
   - ux
   - researchquantitative

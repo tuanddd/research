@@ -1,7 +1,7 @@
 ---
 title: Domain Glossary
-date: 2020-04-19
-description: null
+date: 2020-04-19T00:00:00.000Z
+description: Discover how Retail 2.0 enhances shopping with AR, VR, AI, and personalized experiences, while open banking uses APIs to securely share financial data and transform the banking industry.
 tags:
   - design
 ---

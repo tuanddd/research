@@ -1,7 +1,7 @@
 ---
 title: Build A Passcode View With Swift
-date: 2019-06-22
-description: null
+date: 2019-06-22T00:00:00.000Z
+description: Learn how to build a custom passcode input view in Swift that shows the keyboard, handles user input, and displays PIN dots with easy-to-follow UIKeyInput and UIView techniques.
 tags:
   - swift
 ---

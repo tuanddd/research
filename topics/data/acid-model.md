@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-04-18
-description: null
+date: 2022-04-18T00:00:00.000Z
+description: Learn how the ACID model ensures database transaction reliability with atomicity, consistency, isolation, and durability for accurate, secure, and concurrent data management in ACID-compliant systems.
 authors:
   - Nguyen Xuan Anh
 github_id: monotykamary

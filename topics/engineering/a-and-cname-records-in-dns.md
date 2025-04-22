@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-01-06
-description: null
+date: 2022-01-06T00:00:00.000Z
+description: Learn the key differences between A records and CNAME records in DNS, including their uses for domain mapping, subdomains, and IP address management to optimize your website setup.
 authors:
   - Tran Hoang Nam
 github_id: namtrhg

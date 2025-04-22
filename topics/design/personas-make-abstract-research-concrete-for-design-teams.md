@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Personas help design teams focus on real user needs by creating detailed, memorable models of single users, improving product decisions without relying on personal assumptions.
 tags:
   - ux
   - design

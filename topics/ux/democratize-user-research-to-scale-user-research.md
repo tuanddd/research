@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn how democratizing research by sharing tasks with non-researchers helps large organizations scale insights and avoid bottlenecks without expanding research teams.
 tags:
   - ux
   - research

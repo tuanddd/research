@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-12-15
-description: null
+date: 2022-12-15T00:00:00.000Z
+description: Learn how Data Vault architecture builds flexible, scalable data lakes using hubs, links, and satellites to manage business keys and historical data with pros and cons explained.
 authors:
   - Bach Phuong
 github_id: Bachpx2911

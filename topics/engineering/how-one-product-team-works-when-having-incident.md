@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-10-15
-description: null
+date: 2022-10-15T00:00:00.000Z
+description: Learn two effective ways to handle customer-reported software incidents, including using an engineering support SWAT team and creating incident channels for faster communication and resolution.
 authors:
   - Nhut Huynh
 github_id: nhuthm

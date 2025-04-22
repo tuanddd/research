@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-09-25
-description: null
+date: 2022-09-25T00:00:00.000Z
+description: Learn how the Pomodoro Technique boosts productivity by breaking work into focused 25-minute intervals with short breaks, helping you manage time and reduce mental fatigue effectively.
 authors:
   - Tran Hoang Nam
 github_id: namtrhg

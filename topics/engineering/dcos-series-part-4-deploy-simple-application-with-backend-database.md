@@ -1,7 +1,7 @@
 ---
 title: Dcos Series Part 4 Deploy Simple Application With Backend Database
-date: 2017-06-10
-description: null
+date: 2017-06-10T00:00:00.000Z
+description: Learn how to build and deploy a Golang todolist backend with PostgreSQL on DC/OS using Docker, including database setup, Dockerfile creation, and Marathon deployment configuration.
 tags:
   - dcos
 ---

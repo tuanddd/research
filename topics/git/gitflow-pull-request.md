@@ -1,7 +1,7 @@
 ---
 title: Gitflow Pull Request
-date: 2021-04-10
-description: null
+date: 2021-04-10T00:00:00.000Z
+description: Learn the best Git workflows, branching models, commit message tips, pull request strategies, code review practices, and merge vs rebase guidance to boost team productivity and code quality.
 tags:
   - git
 ---

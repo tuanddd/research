@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Discover Elizabeth George’s character development prompt sheet from *Mastering the Process* to create rich, believable characters using simple, freewriting prompts that inspire story depth and detail.
 tags:
   - writing
   - story-telling

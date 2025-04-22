@@ -1,7 +1,7 @@
 ---
 title: Dcos Series Part 3 Service Discovery And Load Balancing
-date: 2017-05-17
-description: null
+date: 2017-05-17T00:00:00.000Z
+description: Learn how to use Marathon Load Balancer in Mesosphere DCOS for efficient service discovery, load balancing, and virtual host routing with HAProxy in your containerized apps.
 tags:
   - dcos
 ---

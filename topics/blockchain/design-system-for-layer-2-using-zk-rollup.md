@@ -1,7 +1,7 @@
 ---
 title: Design System For Layer 2 Using Zk Rollup
-date: 2023-04-24
-description: null
+date: 2023-04-24T00:00:00.000Z
+description: Learn how Layer 2 blockchain design using zkEVM and zero-knowledge proofs enables scalable, secure token transfers and smart contract execution with efficient transaction batching and Ethereum compatibility.
 tags:
   - blockchain
 ---

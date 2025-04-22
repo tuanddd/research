@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-03-17
-description: null
+date: 2022-03-17T00:00:00.000Z
+description: Discover Deno, a secure JavaScript runtime built in Rust with native TypeScript, WASM, and ESM support, designed for modern web APIs and easy deployment without complex build tools.
 authors:
   - Giang Ngoc Huy
 github_id: huygn

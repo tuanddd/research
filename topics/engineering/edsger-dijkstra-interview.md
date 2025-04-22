@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-05-09
-description: null
+date: 2022-05-09T00:00:00.000Z
+description: Discover Edsger W. Dijkstra's insights on programming, software elegance, testing limits, and the challenges of writing code, revealing why simplicity and hard work lead to successful software development.
 authors:
   - Pham Duc Thanh
 github_id: zlatanpham

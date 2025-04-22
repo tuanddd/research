@@ -1,9 +1,9 @@
 ---
 title: Cognitive functions stack
 date: null
-description: null
-tag: MBTI, function
-URL: https://personalityjunkie.com/functional-stack-type-dynamics-theory/
+description: Discover how cognitive functions explain the deeper traits behind MBTI personality types and learn how to calculate your unique cognitive function stack for better self-awareness.
+tag: 'MBTI, function'
+URL: 'https://personalityjunkie.com/functional-stack-type-dynamics-theory/'
 ---
 
 * https://www.youtube.com/watch?v=9xf13VRNPp8

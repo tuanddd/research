@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Discover how adding randomness to knowledge systems can spark creativity and reveal unexpected connections, avoiding narrow thinking and boosting new insights.
 tags:
   - zettelkasten
 ---

@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn how giving abstract concepts a human face makes economic and market topics relatable and impactful by showing real people with genuine stakes.
 tags:
   - writing
 ---

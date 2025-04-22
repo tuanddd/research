@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn how Sönke Ahrens' zettelkasten method helps writers develop ideas from notes to drafts, avoiding blank pages and creating clear, connected, and well-organized articles.
 tags:
   - zettelkasten
   - writing

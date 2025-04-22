@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-12-10
-description: null
+date: 2022-12-10T00:00:00.000Z
+description: Learn how Apache Hive buckets solve issues with dynamic partitions by reducing tiny files, enabling efficient sampling, and improving query performance through bucketing and partitioning techniques.
 authors:
   - Dung Ho
 github_id: dudaka

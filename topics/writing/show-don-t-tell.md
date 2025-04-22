@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn how "show, don't tell" enhances writing and business communication by using vivid details and sharing information to engage audiences more effectively than simple statements.
 tags:
   - sharing
   - communication

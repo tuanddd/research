@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Explore key engineering concepts in data, including Google Dataproc, Apache Hive, data pipelines, and big data tools like Hadoop, to enhance your understanding of data processing and state management.
 recurringTemplate: true
 recurringTemplateName: engineering-data-moc
 ---

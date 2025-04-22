@@ -1,7 +1,7 @@
 ---
 title: Design Resourcestools
-date: 2018-03-25
-description: null
+date: 2018-03-25T00:00:00.000Z
+description: Discover top UX design resources, including expert articles, communities, podcasts, books, and tools to improve user experience and master UX design techniques effectively.
 tags:
   - design
 ---

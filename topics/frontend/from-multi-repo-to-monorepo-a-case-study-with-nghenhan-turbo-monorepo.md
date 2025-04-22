@@ -1,7 +1,7 @@
 ---
 title: From Multi Repo To Monorepo A Case Study With Nghenhan Turbo Monorepo
-date: 2023-03-20
-description: null
+date: 2023-03-20T00:00:00.000Z
+description: Learn how migrating to a Turbo-powered monorepo cut build times by 60%, boosted developer productivity by 40%, and simplified dependency management in a real trading platform case study.
 tags:
   - engineering
   - technique

@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-10-04
-description: null
+date: 2022-10-04T00:00:00.000Z
+description: Learn how Software Quality Assurance ensures software meets requirements through testing, planning, and process control to improve reliability, usability, and maintainability in development projects.
 authors:
   - Ngo Trong Khoi
 github_id: trkhoi

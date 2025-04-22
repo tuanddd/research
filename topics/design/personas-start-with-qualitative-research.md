@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Discover how effective user personas emerge from qualitative research and sensemaking to capture rich user experiences, helping teams design better products by focusing on real user needs and behaviors.
 tags:
   - ux
   - design

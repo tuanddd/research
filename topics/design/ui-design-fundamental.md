@@ -1,7 +1,7 @@
 ---
 title: Ui Design Fundamental
-date: 2018-03-20
-description: null
+date: 2018-03-20T00:00:00.000Z
+description: Learn how to design effective user interfaces by focusing on aesthetics, content, and interaction to create user-centered apps and websites that engage and meet user needs.
 tags:
   - design
 ---

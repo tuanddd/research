@@ -1,7 +1,7 @@
 ---
 title: Recursively Export File Pattern In Javascript Es6 Application
-date: 2019-09-07
-description: null
+date: 2019-09-07T00:00:00.000Z
+description: Learn how to simplify JavaScript ES6 imports by using recursive re-export patterns and automate index file creation with the @autogen-export package for cleaner component management.
 tags:
   - js
 ---

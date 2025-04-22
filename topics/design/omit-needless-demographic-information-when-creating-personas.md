@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn why demographic information in user personas often hinders empathy and how focusing on user needs can improve digital product design without unnecessary details.
 tags:
   - ux
   - design

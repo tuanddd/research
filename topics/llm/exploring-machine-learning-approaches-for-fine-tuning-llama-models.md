@@ -1,7 +1,7 @@
 ---
 title: Exploring Machine Learning Approaches For Fine Tuning Llama Models
-date: 2023-05-04
-description: null
+date: 2023-05-04T00:00:00.000Z
+description: Learn how to fine-tune LLaMA large language models efficiently using PEFT LoRA for cost-effective, private AI customization with step-by-step guidance and open-source tools.
 tags:
   - machine-learning
   - llm

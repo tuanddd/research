@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Discover how detailed landscapes and settings reveal a character's personality and make them feel real before, during, and after the story.
 tags:
   - writing
 ---

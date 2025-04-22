@@ -1,7 +1,7 @@
 ---
 title: Design Tips Tricks
-date: 2018-03-24
-description: null
+date: 2018-03-24T00:00:00.000Z
+description: Discover key UX design principles to create user-friendly forms, avoid common product design mistakes, and simplify online checkout processes for better user experience and higher conversion rates.
 tags:
   - design
 ---

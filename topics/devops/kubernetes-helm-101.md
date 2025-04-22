@@ -1,7 +1,7 @@
 ---
 title: Kubernetes Helm 101
-date: 2019-10-30
-description: null
+date: 2019-10-30T00:00:00.000Z
+description: Learn how Helm, the Kubernetes package manager and deployment tool, simplifies application deployment with charts, releases, and repositories for faster, easier Kubernetes management.
 tags:
   - k8s
 ---

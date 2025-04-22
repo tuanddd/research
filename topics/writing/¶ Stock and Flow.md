@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn how Robin Sloan's "stock and flow" theory helps creators balance evergreen content with fresh updates to grow long-term traffic and audience engagement effectively.
 tags:
   - writing
 ---

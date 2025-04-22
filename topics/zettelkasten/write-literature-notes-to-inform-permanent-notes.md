@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn how to make effective literature notes by summarizing texts in your own words, avoiding information overload, and linking notes to develop new ideas for better understanding and writing.
 tags:
   - zettelkasten
   - noteliterature

@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn why embracing uncertainty and spending more time understanding problems leads to better solutions by avoiding assumptions and applying thoughtful analysis in decision-making.
 tags:
   - ux
   - research

@@ -1,7 +1,7 @@
 ---
 title: Reusability In Software Development
-date: 2020-05-05
-description: null
+date: 2020-05-05T00:00:00.000Z
+description: Learn how software reuse strategies, including component reuse, frameworks, and product lines, speed development, cut costs, and improve quality while facing challenges like maintenance and tool support.
 tags:
   - engineering
 ---

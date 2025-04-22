@@ -1,7 +1,7 @@
 ---
 title: Data Analyst In Retail Trading
-date: 2022-08-29
-description: null
+date: 2022-08-29T00:00:00.000Z
+description: Discover how data analysts use tools like Power BI and SQL to transform retail trading data into actionable business insights on sales, finance, and marketing performance.
 tags:
   - engineering
   - practice

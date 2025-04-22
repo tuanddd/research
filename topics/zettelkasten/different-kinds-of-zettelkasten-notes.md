@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn how the Zettelkasten method uses fleeting, permanent, and project notes to boost writing and thinking by capturing and rephrasing ideas for better understanding and lasting value.
 tags:
   - zettelkasten
   - notepermanent

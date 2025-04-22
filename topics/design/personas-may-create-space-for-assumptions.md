@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn why personas can mislead design teams by including unnecessary demographic details and how focusing on real user research improves understanding and creates better user experiences.
 tags:
   - ux
   - design

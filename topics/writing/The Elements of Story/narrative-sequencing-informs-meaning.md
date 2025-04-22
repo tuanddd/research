@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn how the sequence of information in a story shapes meaning and persuasion, and why adjusting your approach is key when your goal is to inform rather than persuade.
 tags:
   - story-telling
   - communication

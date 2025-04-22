@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn the key differences between qualitative and quantitative research, including their goals, methods, and how mixed-methods combine objective data with human context and meaning.
 tags:
   - ux
   - researchqualitative

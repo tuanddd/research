@@ -1,7 +1,7 @@
 ---
 title: Our Daily Standup Format
-date: 2018-07-23
-description: null
+date: 2018-07-23T00:00:00.000Z
+description: Create clear daily reports with this simple template to track tasks, progress, and blockers efficiently for your team’s smooth project management.
 tags:
   - scrum
 ---

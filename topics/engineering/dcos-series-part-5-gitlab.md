@@ -1,7 +1,7 @@
 ---
 title: Dcos Series Part 5 Gitlab
-date: 2017-06-11
-description: null
+date: 2017-06-11T00:00:00.000Z
+description: Learn how to install and secure Gitlab on DC/OS with HTTPS, configure domain and email settings, and manage private Git repositories for small teams using step-by-step instructions.
 tags:
   - dcos
 ---

@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-11-23
-description: null
+date: 2022-11-23T00:00:00.000Z
+description: Learn how to optimize Hive queries by using ORDER BY, SORT BY, DISTRIBUTE BY, and CLUSTER BY to efficiently order large datasets with multiple reducers and improve performance.
 authors:
   - Dung Ho
 github_id: dudaka

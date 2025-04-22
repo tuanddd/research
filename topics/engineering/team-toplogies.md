@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-08-15
-description: null
+date: 2022-08-15T00:00:00.000Z
+description: Discover how Team Topologies improves software delivery by organizing teams into four types and using three interaction modes to boost collaboration, reduce cognitive load, and enhance flow.
 authors:
   - Pham Duc Thanh
 github_id: zlatanpham

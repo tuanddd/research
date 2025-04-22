@@ -1,7 +1,7 @@
 ---
 title: Sdk Event Sourcing
-date: 2020-05-21
-description: null
+date: 2020-05-21T00:00:00.000Z
+description: Learn how Software Development Kits (SDKs) provide tools and APIs for app development, and discover how Event Sourcing manages data communication between systems efficiently.
 tags:
   - event-sourcing
 ---

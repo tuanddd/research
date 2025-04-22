@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2023-01-17
-description: null
+date: 2023-01-17T00:00:00.000Z
+description: Learn the key differences between Project Manager, Program Manager, and Portfolio Manager roles in software development and how they manage teams to meet client requirements effectively.
 authors:
   - Nhut Huynh
 github_id: nhuthm

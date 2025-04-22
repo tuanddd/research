@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-11-08
-description: null
+date: 2022-11-08T00:00:00.000Z
+description: Learn how to improve QA testing records with clear documentation formats for Mobile, BackEnd, and FrontEnd teams to track test status, scenarios, and related tickets effectively.
 authors:
   - Nhut Huynh
 github_id: nhuthm

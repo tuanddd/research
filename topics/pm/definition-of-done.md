@@ -1,7 +1,7 @@
 ---
 title: Definition Of Done
-date: 2016-02-14
-description: null
+date: 2016-02-14T00:00:00.000Z
+description: Definition of Done (DoD) is a checklist ensuring product features meet quality and functionality standards before release, helping teams clearly confirm when work is complete.
 tags:
   - agile
 ---

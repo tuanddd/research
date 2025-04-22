@@ -1,7 +1,7 @@
 ---
 title: The 10x Engineer
-date: 2016-03-01
-description: null
+date: 2016-03-01T00:00:00.000Z
+description: Discover what makes a 10x engineer highly productive with skills in software development, communication, innovation, and problem-solving, and why tech companies seek these exceptional engineers.
 tags:
   - engineering
 ---

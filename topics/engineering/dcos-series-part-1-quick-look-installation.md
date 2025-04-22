@@ -1,7 +1,7 @@
 ---
 title: Dcos Series Part 1 Quick Look Installation
-date: 2017-05-04
-description: null
+date: 2017-05-04T00:00:00.000Z
+description: Learn how to install and set up DC/OS, a data center OS based on Apache Mesos, for managing modern containerized applications across master, public, and private agent nodes.
 tags:
   - dcos
 ---

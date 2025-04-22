@@ -1,9 +1,9 @@
 ---
 title: 8 preferences
 date: null
-description: null
-tag: MBTI, preferences
-URL: "https://personalityjunkie.com/typology-101/#anchor1"
+description: Learn about Personality Types and MBTI to better understand yourself and others, improve interactions, and gain insights for personal growth and career direction using four key preference pairs.
+tag: 'MBTI, preferences'
+URL: 'https://personalityjunkie.com/typology-101/#anchor1'
 ---
 
 Why learn about Personality Type (PT)?

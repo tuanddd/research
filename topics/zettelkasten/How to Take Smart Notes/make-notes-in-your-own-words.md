@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn how reformulating text in your own words boosts understanding and memory, while copying notes hinders critical thinking, using the Zettelkasten method to deepen learning and writing skills.
 tags:
   - zettelkasten
   - note

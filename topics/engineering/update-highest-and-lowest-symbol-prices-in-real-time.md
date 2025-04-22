@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2023-06-07
-description: null
+date: 2023-06-07T00:00:00.000Z
+description: Learn how to update highest and lowest symbol prices in real-time using Binance WebSocket and in-memory caching to reduce database load and improve price peak tracking efficiency.
 authors:
   - Minh Tran
 github_id: thminhVN

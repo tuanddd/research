@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-10-24
-description: null
+date: 2022-10-24T00:00:00.000Z
+description: Learn how key statistical distributions like uniform, normal, and Pareto help analyze data accurately and make better business decisions with meaningful insights.
 authors:
   - Bach Phuong
 github_id: Bachpx2911

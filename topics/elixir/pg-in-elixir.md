@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-11-01
-description: null
+date: 2022-11-01T00:00:00.000Z
+description: Learn how to use Erlang's pg library for process groups to broadcast messages across clustered Elixir services, enabling scalable WebSocket communication without third-party tools.
 authors:
   - Hieu Phan
 github_id: hieuphq

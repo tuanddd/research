@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Discover a step-by-step interview guide to uncover customer jobs-to-be-done, including how to explore tasks, needs, feelings, and circumstances for better product and service insights.
 tags:
   - ux
   - research

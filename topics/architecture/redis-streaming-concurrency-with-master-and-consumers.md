@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2023-05-16
-description: null
+date: 2023-05-16T00:00:00.000Z
+description: Learn how to implement a Redis streaming master-consumers pattern to delegate messages, handle concurrency, and avoid data conflicts using Redis commands like XREADGROUP and XCLAIM.
 authors:
   - M.Vu Cuong(Jim)
 github_id: R-Jim

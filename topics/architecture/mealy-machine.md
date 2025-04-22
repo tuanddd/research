@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-06-28
-description: null
+date: 2022-06-28T00:00:00.000Z
+description: Learn what a Mealy machine is, its mathematical model, and how it differs from Moore machines and finite-state transducers in this clear explanation of finite-state automata concepts.
 authors:
   - Nguyen Xuan Anh
 github_id: monotykamary

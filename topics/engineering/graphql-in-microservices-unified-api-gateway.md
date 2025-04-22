@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2023-03-29
-description: null
+date: 2023-03-29T00:00:00.000Z
+description: Discover how Bramble, an open-source GraphQL federation gateway, unifies multiple APIs into a single scalable schema with fine-grained access control and easy deployment for modern microservice architectures.
 authors:
   - Khoi Nguyen
 github_id: mirageruler

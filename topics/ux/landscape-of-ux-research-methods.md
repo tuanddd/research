@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn how UX research methods are organized by attitudinal vs behavioural, qualitative vs quantitative, and context of use to uncover valuable user insights and improve product design.
 tags:
   - ux
   - research

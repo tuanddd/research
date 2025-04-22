@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-11-18
-description: null
+date: 2022-11-18T00:00:00.000Z
+description: Learn how to run effective Backlog Grooming meetings in Agile teams to prioritize user stories, manage backlog tasks, and prepare for sprint planning while saving time and improving focus.
 authors:
   - Nhut Huynh
 github_id: nhuthm

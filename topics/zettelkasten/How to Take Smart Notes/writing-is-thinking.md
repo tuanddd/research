@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Writing is a powerful tool for thinking, as putting ideas into your own words deepens understanding and reveals gaps in logic or contradictions.
 tags:
   - writing
 ---

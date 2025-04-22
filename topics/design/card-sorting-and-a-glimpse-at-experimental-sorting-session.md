@@ -1,7 +1,7 @@
 ---
 title: Card Sorting And A Glimpse At Experimental Sorting Session
-date: 2018-08-26
-description: null
+date: 2018-08-26T00:00:00.000Z
+description: Learn how card sorting improves information architecture and user experience by organizing content based on real user feedback for clearer navigation in websites and digital products.
 tags:
   - design
   - technique

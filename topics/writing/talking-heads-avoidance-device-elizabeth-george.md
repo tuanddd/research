@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: The talking heads avoidance device (THAD) adds action to dialogue scenes, revealing character traits, emotions, and setting details while increasing tension and enhancing story depth.
 tags:
   - writing
   - story-telling

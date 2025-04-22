@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Quantitative analysis can be biased and limited, as data selection and interpretation depend on human judgment and may overlook context and deeper understanding of human behavior.
 ---
 
 It’s naive to assume that quantitative analysis is inherently a more reliable or scientific than human judgment. Quantitative data, too, is the product of bias.

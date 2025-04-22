@@ -1,7 +1,7 @@
 ---
 title: Well Crafted Software
-date: 2020-01-19
-description: null
+date: 2020-01-19T00:00:00.000Z
+description: Discover how software craftsmanship enhances coding skills, promotes clean design, and drives continuous improvement for developers committed to building well-crafted, maintainable software.
 authors:
   - tieubao
 tags:

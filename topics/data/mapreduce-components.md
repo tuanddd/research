@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-10-24
-description: null
+date: 2022-10-24T00:00:00.000Z
+description: Learn how MapReduce processes large stock data to find maximum closing prices using map, shuffle, reduce phases, input splits, and optional combiners for efficient distributed computing and performance.
 authors:
   - Dung Ho
 github_id: dudaka

@@ -1,7 +1,7 @@
 ---
 title: Getting Started With Webflow
-date: 2021-01-23
-description: null
+date: 2021-01-23T00:00:00.000Z
+description: Learn how to design responsive, high-quality websites quickly with Webflow’s no-code platform, featuring visual design tools, CMS, hosting, and easy animations for faster web development.
 tags:
   - nocode
 ---

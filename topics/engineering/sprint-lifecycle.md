@@ -1,7 +1,7 @@
 ---
 title: Sprint Lifecycle
-date: 2016-02-10
-description: null
+date: 2016-02-10T00:00:00.000Z
+description: Learn the strict sprint lifecycle rules including sprint start, automatic closure, code release timing, and deployment schedules to ensure smooth project management and timely deliveries.
 tags:
   - agile
 ---

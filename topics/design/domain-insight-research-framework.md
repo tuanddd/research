@@ -1,7 +1,7 @@
 ---
 title: Domain Insight Research Framework
-date: 2020-10-21
-description: null
+date: 2020-10-21T00:00:00.000Z
+description: Learn how Domain Insight Research (DIR) helps UX researchers quickly understand industries, analyze markets, and design user-focused digital products using market research, competitor analysis, and technology trends.
 tags:
   - design
 ---

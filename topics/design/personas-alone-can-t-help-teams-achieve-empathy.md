@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Discover why personas alone may not build true user empathy in design teams and how relying on them can create a false sense of user understanding in product development.
 tags:
   - ux
   - design

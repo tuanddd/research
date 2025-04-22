@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-04-18
-description: null
+date: 2022-04-18T00:00:00.000Z
+description: The BASE model is a flexible NoSQL data approach focusing on Basic Availability, Soft-state, and Eventual consistency to enable scalable and loosely consistent distributed databases.
 authors:
   - Nguyen Xuan Anh
 github_id: monotykamary

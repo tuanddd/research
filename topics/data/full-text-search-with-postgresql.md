@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-07-12
-description: null
+date: 2022-07-12T00:00:00.000Z
+description: Learn how to boost PostgreSQL search performance using full-text search with GIN indexes, stop words, and custom configurations for faster and flexible text queries on large datasets.
 authors:
   - Hoang Nguyen
 github_id: nnhuyhoang

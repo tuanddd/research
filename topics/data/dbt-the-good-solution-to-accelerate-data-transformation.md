@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-11-21
-description: null
+date: 2022-11-21T00:00:00.000Z
+description: Discover how DBT (data build tool) simplifies data transformation in warehouses with modular SQL, automation, and software engineering practices for faster, reliable analytics and trusted data delivery.
 authors:
   - Bach Phuong
 github_id: Bachpx2911

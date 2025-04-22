@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn how user research teams act as multipliers to share customer insights across organizations, enabling confident, customer-focused solutions through training, best practices, and collaboration.
 tags:
   - ux
   - research

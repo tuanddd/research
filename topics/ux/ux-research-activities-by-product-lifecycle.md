@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn how different UX research methods fit each product lifecycle phase to improve design, reduce risks, and ensure usability with effective discovery, exploration, testing, and listening techniques.
 tags:
   - ux
   - research

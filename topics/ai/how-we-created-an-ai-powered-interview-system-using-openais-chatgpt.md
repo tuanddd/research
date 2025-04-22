@@ -1,7 +1,7 @@
 ---
 title: How We Created An Ai Powered Interview System Using Openais Chatgpt
-date: 2023-05-29
-description: null
+date: 2023-05-29T00:00:00.000Z
+description: Discover InterviewGPT, an AI-powered ChatGPT system that automates technical interviews by generating tailored questions and evaluating answers for engineers at all experience levels.
 tags:
   - llm
   - ai

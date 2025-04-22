@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Discover how long-term change unfolds through subtle signals and storytelling, and learn why we often underestimate its impact over ten years despite early weak signs.
 tags:
   - innovation
 ---

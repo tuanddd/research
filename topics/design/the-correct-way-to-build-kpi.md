@@ -1,7 +1,7 @@
 ---
 title: The Correct Way To Build Kpi
-date: 2020-11-03
-description: null
+date: 2020-11-03T00:00:00.000Z
+description: Discover how mindful meditation can transform your view on KPIs, promoting positive communication and reducing workplace stress for a healthier business environment.
 tags:
   - tips
   - productivity

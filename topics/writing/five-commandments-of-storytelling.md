@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn Shawn Coyne's five essential Story Grid commandments—Inciting Incident, Crisis, Climax, and Resolution—to craft powerful, effective scenes in fiction writing.
 tags:
   - writing
   - story-telling

@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-12-11
-description: null
+date: 2022-12-11T00:00:00.000Z
+description: Learn the difference between data race and race condition in multithreaded programming, and discover how mutex and atomic operations ensure data safety by controlling access to shared resources.
 authors:
   - Pham The Hung
 github_id: pthung1311

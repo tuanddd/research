@@ -1,7 +1,7 @@
 ---
 title: Grid And Layout
-date: 2020-08-17
-description: null
+date: 2020-08-17T00:00:00.000Z
+description: Learn how to create strong digital design layouts using grids, columns, gutters, and responsive techniques to make your graphic and web designs look clean and professional.
 tags:
   - design
   - technique

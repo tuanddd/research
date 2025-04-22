@@ -1,7 +1,7 @@
 ---
 title: Managing Dataflow And Sql Database With Concurrency Control
-date: 2023-05-04
-description: null
+date: 2023-05-04T00:00:00.000Z
+description: Learn how explicit locking in PostgreSQL helps manage concurrency control in high-workload databases by preventing data conflicts with table-level, row-level, and advisory locks.
 tags:
   - rd
   - data

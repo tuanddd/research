@@ -1,7 +1,7 @@
 ---
 title: Ui Design Best Practices Dwarves
-date: 2020-11-24
-description: null
+date: 2020-11-24T00:00:00.000Z
+description: Learn essential Figma best practices for designers to ensure smooth handovers to developers, including version control, layer management, naming conventions, and effective communication for high-quality UI projects.
 tags:
   - design
   - process

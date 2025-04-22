@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Falsifiability is the ability to prove a statement false and helps turn observations into scientific laws by seeking disconfirming evidence rather than just confirming data.
 tags:
   - ux
   - research

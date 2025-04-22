@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn how evidence communication promotes honest, transparent sharing of research by presenting uncertainties and conflicts to inform audiences without persuasion or bias.
 tags:
   - communication
 ---

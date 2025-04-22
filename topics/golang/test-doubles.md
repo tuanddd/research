@@ -1,12 +1,12 @@
 ---
 title: null
-date: 2023-08-08
-description: null
+date: 2023-08-08T00:00:00.000Z
+description: Learn how to use Test Doubles like Dummies, Stubs, Spies, Mocks, and Fakes in Go to isolate dependencies, improve unit testing, and enhance software reliability and maintainability.
 authors:
   - Pham Van Dat
 github_id: datphamcode295
 icy: 15
-blog: https://dwarvesf.hashnode.dev/understanding-test-doubles-an-in-depth-look
+blog: 'https://dwarvesf.hashnode.dev/understanding-test-doubles-an-in-depth-look'
 tags:
   - backend
   - engineeringbackend

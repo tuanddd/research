@@ -1,7 +1,7 @@
 ---
 title: A Quick Intro To Webassembly
-date: 2020-06-15
-description: null
+date: 2020-06-15T00:00:00.000Z
+description: Discover how WebAssembly, a fast, portable binary format designed for running C, C++, and Rust on the web, outperforms JavaScript by enabling near-native execution speeds in browsers and servers.
 tags:
   - wasm
 ---

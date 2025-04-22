@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-10-16
-description: null
+date: 2022-10-16T00:00:00.000Z
+description: Learn how to use JavaScript console methods like console.log, console.assert, console.dir, console.time, and the debugger statement to effectively debug code in Chrome DevTools.
 authors:
   - Tran Hoang Nam
 github_id: namtrhg

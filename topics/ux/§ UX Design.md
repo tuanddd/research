@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn why the three clicks rule is a myth and how understanding personas and avoiding skeuomorphic designs can boost innovation and improve user experience.
 tags:
   - moc
   - ux

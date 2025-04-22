@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2023-04-20
-description: null
+date: 2023-04-20T00:00:00.000Z
+description: Learn the SOLID principles of object-oriented design to create clean, maintainable, and flexible code with key concepts like Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion.
 authors:
   - Nguyen Dinh Nam
 github_id: nguyend-nam

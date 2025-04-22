@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-11-22
-description: null
+date: 2022-11-22T00:00:00.000Z
+description: Learn how equivalence partitioning and boundary value analysis reduce test cases while ensuring full functional testing coverage for software input ranges and boundary conditions.
 authors:
   - Binh Le
 github_id: binhle59

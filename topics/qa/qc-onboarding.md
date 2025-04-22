@@ -1,7 +1,7 @@
 ---
 title: Qc Onboarding
-date: 2017-07-13
-description: null
+date: 2017-07-13T00:00:00.000Z
+description: Learn how to access QA resources and use gitlab-issues-tools for managing tasks, cloning issues, and exporting defect reports with step-by-step commands and templates.
 tags:
   - people
   - process

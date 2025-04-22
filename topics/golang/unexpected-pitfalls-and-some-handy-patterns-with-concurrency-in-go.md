@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-10-11
-description: null
+date: 2022-10-11T00:00:00.000Z
+description: Learn about common Go concurrency pitfalls and master handy patterns like goroutines, channels, fan-in, timeouts, and replication to build fast, robust concurrent programs with easy-to-use synchronization.
 authors:
   - Khoi Nguyen
 github_id: mirageruler

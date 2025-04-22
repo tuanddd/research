@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn how balancing strong action with insightful commentary can create compelling stories using vivid verbs and clear interpretation to engage readers effectively.
 tags:
   - writing
 ---

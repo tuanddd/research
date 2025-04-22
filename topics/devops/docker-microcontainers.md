@@ -1,7 +1,7 @@
 ---
 title: Docker Microcontainers
-date: 2016-02-04
-description: null
+date: 2016-02-04T00:00:00.000Z
+description: Learn how to create ultra-small Docker images using the scratch image to deploy Go web apps with minimal size and faster downloads by cross-compiling and building lightweight containers.
 tags:
   - docker
 ---

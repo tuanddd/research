@@ -1,9 +1,10 @@
 ---
 title: Introverted Feeling (Fi)
 date: null
-description: null
-tag: MBTI, function
-URL: https://drive.google.com/file/d/1n8ID_iXqzs6cMZlRS0Su7lQUhrfd7khh/view?usp=sharing
+description: Discover the IFP personality type known for deep personal values, emotional sensitivity, and caring nature, common in INFPs and ISFPs who champion justice and individuality.
+tag: 'MBTI, function'
+URL: >-
+  https://drive.google.com/file/d/1n8ID_iXqzs6cMZlRS0Su7lQUhrfd7khh/view?usp=sharing
 ---
 
 Book: My True Type, page 102 - 108

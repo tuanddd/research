@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn how effective dialogue reveals character traits and drives your story by showing emotions, intentions, and conflicts that engage readers and advance the plot.
 tags:
   - writing
   - story-telling

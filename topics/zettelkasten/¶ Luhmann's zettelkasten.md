@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Discover how Niklas Luhmann's zettelkasten system uses linked note cards to organize ideas, boost creativity, and generate new knowledge through unique indexing and connections.
 tags:
   - zettelkasten
 ---

@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-03-24
-description: null
+date: 2022-03-24T00:00:00.000Z
+description: Learn why blaming frameworks for project failures misses the real issue and how embracing simplicity and changing thinking can improve code quality and successful implementation.
 authors:
   - Pham Duc Thanh
 github_id: zlatanpham

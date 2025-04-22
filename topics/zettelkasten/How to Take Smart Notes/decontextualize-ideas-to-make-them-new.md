@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn how decontextualizing ideas and breaking familiar patterns boosts creativity and critical thinking by embracing uncertainty, divergent thinking, and fresh perspectives to generate new knowledge.
 tags:
   - decontextualize
 ---

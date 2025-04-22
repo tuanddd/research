@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-03-21
-description: null
+date: 2022-03-21T00:00:00.000Z
+description: Discover how Facebook fosters innovation by trusting engineers to take risks, leading to breakthrough tools like React and GraphQL that transform software development worldwide.
 authors:
   - Pham Duc Thanh
 github_id: zlatanpham

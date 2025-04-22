@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-09-06
-description: null
+date: 2022-09-06T00:00:00.000Z
+description: Learn Kotlin coroutines basics, structured concurrency, and how lightweight threads improve concurrent programming with examples of coroutine cancellation and job lifecycle.
 authors:
   - Truong Hung Khanh
 github_id: khanhtruong

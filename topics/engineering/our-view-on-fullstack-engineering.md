@@ -1,7 +1,7 @@
 ---
 title: Our View On Fullstack Engineering
-date: 2023-08-30
-description: null
+date: 2023-08-30T00:00:00.000Z
+description: Discover what full-stack engineering truly means, exploring how skilled developers blend frontend, backend, and infrastructure knowledge to create seamless, user-focused software solutions.
 authors:
   - Thanh Pham
 tags:

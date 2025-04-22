@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-11-02
-description: null
+date: 2022-11-02T00:00:00.000Z
+description: Learn how to set up Elixir node clustering with Libcluster on Kubernetes to build scalable, high-performance applications using Erlang features and reduce operational costs effectively.
 authors:
   - Hieu Phan
 github_id: hieuphq

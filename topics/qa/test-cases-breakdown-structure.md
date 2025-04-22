@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-12-12
-description: null
+date: 2022-12-12T00:00:00.000Z
+description: Learn how to manage manual and automated test cases in one documentation using clear naming, separating functional and non-functional tests, and updating early for efficient software testing.
 authors:
   - Binh Le
 github_id: binhle59

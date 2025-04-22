@@ -1,9 +1,10 @@
 ---
 title: Strategies for Accurate Typing
 date: null
-description: null
+description: Discover how to understand your personality type using the function stack framework through tests, self-reflection, and discussion, while exploring childhood memories and balancing inconsistencies for deeper insight.
 tag: MBTI
-URL: https://drive.google.com/file/d/1n8ID_iXqzs6cMZlRS0Su7lQUhrfd7khh/view?usp=sharing
+URL: >-
+  https://drive.google.com/file/d/1n8ID_iXqzs6cMZlRS0Su7lQUhrfd7khh/view?usp=sharing
 ---
 
 Book: My True Type, page 18 - 22

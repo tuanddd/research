@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Discover how organizing notes with a Zettelkasten method helps you find ideas when you need them, boosting learning and creativity through surprising connections.
 tags:
   - zettelkasten
 ---

@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn how applying multiple mental models and diverse perspectives improves decision-making by revealing hidden insights and overcoming narrow, specialized thinking.
 tags:
   - communication
   - thinkingintegrative

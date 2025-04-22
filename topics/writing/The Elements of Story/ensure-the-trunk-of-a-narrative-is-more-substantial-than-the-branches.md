@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn how to keep your writing focused by emphasizing the main idea over qualifiers and details, ensuring your core theme remains clear and compelling.
 tags:
   - writing
   - narrative

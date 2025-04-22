@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-06-21
-description: null
+date: 2022-06-21T00:00:00.000Z
+description: Domain Driven Design (DDD) improves software by creating clear domain models and shared language between developers and business experts, helping solve complex business problems effectively.
 authors:
   - M.Vu Cuong(Jim)
 github_id: R-Jim

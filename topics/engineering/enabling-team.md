@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-08-15
-description: null
+date: 2022-08-15T00:00:00.000Z
+description: Learn how enabling teams support stream-aligned teams by bridging skill gaps, sharing expertise, and improving delivery through collaboration, technical guidance, and knowledge transfer.
 authors:
   - Pham Duc Thanh
 github_id: zlatanpham

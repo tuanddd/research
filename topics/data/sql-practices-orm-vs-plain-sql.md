@@ -1,7 +1,7 @@
 ---
 title: Sql Practices Orm Vs Plain Sql
-date: 2021-07-07
-description: null
+date: 2021-07-07T00:00:00.000Z
+description: Learn how to choose between raw SQL, ORM, and SQL generators, optimize database performance with smart indexing, avoid rounding errors, and write efficient queries for better security and speed.
 tags:
   - sql
   - database

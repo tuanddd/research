@@ -1,7 +1,7 @@
 ---
 title: About Devops
-date: 2018-07-23
-description: null
+date: 2018-07-23T00:00:00.000Z
+description: Learn how DevOps improves software delivery with continuous integration, automation, testing, and collaboration between development and operations for faster, reliable releases.
 tags:
   - devops
 ---

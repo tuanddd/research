@@ -1,7 +1,7 @@
 ---
 title: Are We Really Engineers
-date: 2021-03-08
-description: null
+date: 2021-03-08T00:00:00.000Z
+description: Explore why software engineering is truly engineering, highlighting its use of discrete math, agile methods, professionalism, and unique tools like version control that set it apart yet align it with traditional engineering.
 tags:
   - engineering
 ---

@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-06-28
-description: null
+date: 2022-06-28T00:00:00.000Z
+description: Learn about Moore machines, a type of finite-state machine where outputs depend only on current states, and explore their differences from Mealy machines and formal definitions.
 authors:
   - Nguyen Xuan Anh
 github_id: monotykamary

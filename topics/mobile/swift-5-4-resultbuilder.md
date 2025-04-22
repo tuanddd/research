@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-08-31
-description: null
+date: 2022-08-31T00:00:00.000Z
+description: Learn how to use Swift’s @resultBuilder and UIKit Builder pattern to create flexible container views like UIStackView with clean, DSL-style code for easier UI development in Swift.
 authors:
   - Phan Viet Trung
 github_id: viettrungphan

@@ -1,7 +1,7 @@
 ---
 title: Fundamental End To End Frontend Testing With Cypress
-date: 2019-08-02
-description: null
+date: 2019-08-02T00:00:00.000Z
+description: Learn how to perform end-to-end frontend testing with Cypress on a React autocomplete textbox, including setup, writing tests, and using Cypress with Mocha and Chai for assertions.
 tags:
   - js
   - testing

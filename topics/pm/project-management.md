@@ -1,7 +1,7 @@
 ---
 title: Project Management
-date: 2020-01-12
-description: null
+date: 2020-01-12T00:00:00.000Z
+description: Learn essential project manager skills like organizing tasks, managing client expectations, leading teams without micromanaging, anticipating problems, and keeping clients informed for smooth project success.
 tags:
   - operation
   - pm

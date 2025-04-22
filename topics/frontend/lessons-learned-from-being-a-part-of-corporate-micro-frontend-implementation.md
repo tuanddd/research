@@ -1,7 +1,7 @@
 ---
 title: Lessons Learned From Being A Part Of Corporate Micro Frontend Implementation
-date: 2023-04-24
-description: null
+date: 2023-04-24T00:00:00.000Z
+description: Discover how micro-frontend architecture boosts large-scale frontend development with independent teams, shared components, and efficient communication for scalable, maintainable, and collaborative web applications.
 tags:
   - web
   - micro-frontend

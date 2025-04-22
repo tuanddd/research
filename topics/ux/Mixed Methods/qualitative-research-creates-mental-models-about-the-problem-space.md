@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Qualitative research builds deep understanding of people’s motivations and contexts, helping create better products by revealing what truly matters through open-ended, narrative-driven insights.
 tags:
   - ux
   - researchqualitative

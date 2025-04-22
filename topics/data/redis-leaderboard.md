@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2023-08-08
-description: null
+date: 2023-08-08T00:00:00.000Z
+description: Learn how to build a fast user leaderboard system using Redis sorted sets and hashes to track scores and store user profiles like usernames and avatars.
 authors:
   - Pham Minh Tuan
 github_id: Tuanpm31

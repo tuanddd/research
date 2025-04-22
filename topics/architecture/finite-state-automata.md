@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-06-28
-description: null
+date: 2022-06-28T00:00:00.000Z
+description: Learn what finite-state automata are, how they model systems using states and transitions, and see practical examples of state machines in programming with key concepts like states, events, and transitions.
 authors:
   - Nguyen Xuan Anh
 github_id: monotykamary

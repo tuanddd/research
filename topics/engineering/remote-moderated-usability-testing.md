@@ -1,7 +1,7 @@
 ---
 title: Remote Moderated Usability Testing
-date: 2020-05-10
-description: null
+date: 2020-05-10T00:00:00.000Z
+description: Learn how remote moderated usability testing helped improve Purchasing Care's B2B supplier sourcing tool during COVID-19, enhancing user experience and product performance efficiently.
 tags:
   - testing
 ---

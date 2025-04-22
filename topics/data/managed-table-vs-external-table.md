@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-11-16
-description: null
+date: 2022-11-16T00:00:00.000Z
+description: Learn the key differences between Hive managed tables and external tables, including when to use each type and how dropping tables affects their underlying data in HDFS.
 authors:
   - Dung Ho
 github_id: dudaka

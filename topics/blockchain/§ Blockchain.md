@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Explore a comprehensive blockchain map covering foundational topics like blocks and PoS, plus advanced concepts such as zk-SNARKs, Layer 2 solutions, smart contracts, and blockchain oracles.
 recurringTemplate: true
 recurringTemplateName: blockchain-moc
 tags:

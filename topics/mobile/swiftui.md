@@ -1,7 +1,7 @@
 ---
 title: Swiftui
-date: 2020-02-07
-description: null
+date: 2020-02-07T00:00:00.000Z
+description: Discover the basics of SwiftUI, Apple's declarative UI framework for building cross-platform apps with easy layouts, state management, and integration with UIKit using Xcode Canvas and Combine framework.
 tags:
   - swift
 ---

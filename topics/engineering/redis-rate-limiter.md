@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2023-06-01
-description: null
+date: 2023-06-01T00:00:00.000Z
+description: Learn how to implement basic rate limiting in Redis using counters and lists to control user access by IP address, preventing too many requests in a set time period.
 authors:
   - Pham Minh Tuan
 github_id: Tuanpm31

@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Lean design focuses on fast delivery and efficiency but can overlook ethical impacts and long-term value, urging designers to consider user and societal well-being beyond quick market feedback.
 ---
 
 Design and product development methodologies like Lean are biased toward delivery. They're intended to limit waste and drive efficiency through "just in time" delivery of minimum viable solutions. This approach is intended to rapidly gather feedback from the market in order to drive continuous iteration on the product.

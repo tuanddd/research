@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Discover the four temperaments—Guardians, Artisans, Idealists, and Rationals—and how they shape communication, action, and personality based on Myers-Briggs and David Keirsey's insights.
 tags:
   - mbti
   - team-building

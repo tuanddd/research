@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-11-14
-description: null
+date: 2022-11-14T00:00:00.000Z
+description: Learn how to simplify Android app navigation with Jetpack Navigation Component, handling fragment transitions, dynamic start destinations, modular flows, and integration with Firebase Analytics.
 authors:
   - Nguyen Xuan Truong
 github_id: truong-dwarvesv

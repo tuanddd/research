@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-09-15
-description: null
+date: 2022-09-15T00:00:00.000Z
+description: Learn how agile teams use story points and collaborative methods like Planning Poker to estimate workloads accurately, improving sprint planning and product development efficiency.
 authors:
   - Nhut Huynh
 github_id: nhuthm

@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn how to write clearly by cutting unnecessary words and focusing only on impactful details that support your main theme for stronger, more effective storytelling.
 tags:
   - writing
 ---

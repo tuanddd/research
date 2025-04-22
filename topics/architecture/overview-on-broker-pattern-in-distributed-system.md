@@ -1,7 +1,7 @@
 ---
 title: Overview On Broker Pattern In Distributed System
-date: 2019-08-24
-description: null
+date: 2019-08-24T00:00:00.000Z
+description: Learn how the broker pattern structures distributed systems by decoupling clients and servers, enabling scalable communication through proxies and brokers for dynamic, independent agent interaction.
 tags:
   - distributed
 ---

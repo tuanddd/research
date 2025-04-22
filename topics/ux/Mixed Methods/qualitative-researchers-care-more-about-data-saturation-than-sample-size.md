@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn how qualitative UX research focuses on data saturation over sample size to uncover key user insights and improve products through ongoing Agile feedback and diverse user interviews.
 tags:
   - ux
   - researchqualitative

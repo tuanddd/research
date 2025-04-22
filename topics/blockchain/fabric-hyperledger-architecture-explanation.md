@@ -1,7 +1,7 @@
 ---
 title: Fabric Hyperledger Architecture Explanation
-date: 2019-05-15
-description: null
+date: 2019-05-15T00:00:00.000Z
+description: Learn how Hyperledger's open source blockchain frameworks and tools enable secure, permissioned enterprise networks with smart contracts, distributed ledgers, and flexible governance models.
 tags:
   - blockchain
   - architecture

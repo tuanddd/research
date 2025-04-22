@@ -1,7 +1,7 @@
 ---
 title: Daemons And Services Programming Guide
-date: 2020-05-11
-description: null
+date: 2020-05-11T00:00:00.000Z
+description: Learn how to design and manage macOS daemons and services, including login items, XPC services, launch agents, and daemons, with best practices for background processes and interprocess communication.
 tags:
   - macos
 ---

@@ -1,7 +1,7 @@
 ---
 title: Applied Security Basis
-date: 2020-02-25
-description: null
+date: 2020-02-25T00:00:00.000Z
+description: Learn the basics of software security with an easy guide to Blockchain, SSH, and SSL protocols, explaining how they protect data through encryption, authentication, and decentralization.
 tags:
   - security
 ---

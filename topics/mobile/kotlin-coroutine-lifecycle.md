@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-10-10
-description: null
+date: 2022-10-10T00:00:00.000Z
+description: Learn the difference between CoroutineScope and CoroutineContext, understand the Job lifecycle states, and discover how cooperative cancellation works in Kotlin coroutines for effective concurrency control.
 authors:
   - Truong Hung Khanh
 github_id: khanhtruong

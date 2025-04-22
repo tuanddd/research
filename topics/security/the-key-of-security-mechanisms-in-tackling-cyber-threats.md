@@ -1,7 +1,7 @@
 ---
 title: The Key Of Security Mechanisms In Tackling Cyber Threats
-date: 2022-12-26
-description: null
+date: 2022-12-26T00:00:00.000Z
+description: Learn essential cybersecurity tips from expert Hieu PC on building secure products, protecting data, and staying updated on security standards to prevent hacking and safeguard your code effectively.
 tags:
   - security
   - engineering

@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-08-28
-description: null
+date: 2022-08-28T00:00:00.000Z
+description: Learn how cognitive load affects mental effort and team performance, and why managing it is key to reducing overload and improving focus in business and technology teams.
 authors:
   - Pham Duc Thanh
 github_id: zlatanpham

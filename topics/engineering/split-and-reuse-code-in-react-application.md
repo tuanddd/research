@@ -1,7 +1,7 @@
 ---
 title: Split And Reuse Code In React Application
-date: 2019-05-02
-description: null
+date: 2019-05-02T00:00:00.000Z
+description: Learn how to split and reuse repetitive React code using render props pattern, higher-order components, and React hooks like useState for efficient modal state management.
 tags:
   - engineering
 ---

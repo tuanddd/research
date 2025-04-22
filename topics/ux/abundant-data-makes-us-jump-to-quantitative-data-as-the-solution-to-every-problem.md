@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Explore why collecting too much data can mislead decision-making, highlighting the limits of quantitative analysis and the risks of relying on lagging indicators in uncertain situations.
 tags:
   - ux
   - researchquantitative

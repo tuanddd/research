@@ -1,7 +1,7 @@
 ---
 title: Playaround With Rust
-date: 2019-08-30
-description: null
+date: 2019-08-30T00:00:00.000Z
+description: Learn how Mozilla uses Rust to build safer, parallel browsers by leveraging Rust's ownership, immutability, lifetime tracking, and expression-based design for error-free, efficient code.
 tags:
   - rust
 ---

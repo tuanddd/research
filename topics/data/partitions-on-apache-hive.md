@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-12-02
-description: null
+date: 2022-12-02T00:00:00.000Z
+description: Learn how Hive partitions and dynamic partitions optimize query performance by targeting specific data subsets, reducing scan times, and efficiently managing large datasets for faster Hive queries.
 authors:
   - Dung Ho
 github_id: dudaka

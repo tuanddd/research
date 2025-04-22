@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-11-14
-description: null
+date: 2022-11-14T00:00:00.000Z
+description: Apache Pig simplifies Hadoop data processing by converting easy-to-write Pig Latin scripts into MapReduce jobs, enabling non-programmers to handle big data without coding in Java or Python.
 authors:
   - Dung Ho
 github_id: dudaka

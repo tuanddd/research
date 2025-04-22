@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-05-22
-description: null
+date: 2022-05-22T00:00:00.000Z
+description: Learn how frontend reducers act as single state machines with non-deterministic states, using algebraic data types for clear state management and enabling parallelizable operations in React and Redux.
 authors:
   - Nguyen Xuan Anh
 github_id: monotykamary

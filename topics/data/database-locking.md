@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2023-04-22
-description: null
+date: 2023-04-22T00:00:00.000Z
+description: Learn how explicit locking techniques in PostgreSQL help manage concurrency control and prevent data conflicts in high workload databases by using table-level, row-level, and advisory locks effectively.
 authors:
   - Bien Vo
 github_id: vhbien000

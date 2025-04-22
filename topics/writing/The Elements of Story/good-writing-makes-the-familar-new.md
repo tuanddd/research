@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Discover how good writing transforms the familiar into something fresh by creating new perspectives and focusing on themes without distracting the reader.
 tags:
   - writing
 ---

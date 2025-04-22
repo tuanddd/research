@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-06-15
-description: null
+date: 2022-06-15T00:00:00.000Z
+description: Learn why Hadoop Distributed File System (HDFS) is essential for big data, enabling block-based storage, fault tolerance through replication, and scalable distributed file management across clusters.
 authors:
   - Dung Ho
 github_id: dudaka

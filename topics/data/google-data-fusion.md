@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2024-01-22
-description: null
+date: 2024-01-22T00:00:00.000Z
+description: Learn how to use Google Cloud Data Fusion to build and manage ETL pipelines with a simple drag-and-drop interface, integrating data from cloud storage to BigQuery for fast analytics.
 authors:
   - Nguyen Hieu Nghia
 github_id: mickwan1234

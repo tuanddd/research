@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Personas should be based on user research to provide accurate insights, while proto-personas rely on assumptions that require careful validation to avoid misleading design decisions.
 tags:
   - ux
   - design

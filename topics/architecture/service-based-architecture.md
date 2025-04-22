@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-06-21
-description: null
+date: 2022-06-21T00:00:00.000Z
+description: Service-based architecture offers a flexible, middle-ground approach between monoliths and microservices, ideal for managing complex business needs without the overhead of full microservice complexity.
 authors:
   - Nguyen Xuan Anh
 github_id: monotykamary

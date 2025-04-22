@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Skeuomorphism is a design approach that mimics familiar objects to help users understand new technology, but it can also limit innovation by sticking to old models.
 tags:
   - ux
   - design

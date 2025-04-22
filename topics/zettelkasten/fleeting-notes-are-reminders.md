@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Fleeting notes are quick reminders taken during reading or thinking to capture ideas, best processed soon after to avoid forgetting and improve understanding through rewording.
 tags:
   - zettelkasten
   - notefleeting

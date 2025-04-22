@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Explore key engineering concepts in AI, including large language models, reinforcement learning, chatbot building, and strategies to improve LLM performance and memory handling.
 recurringTemplate: true
 recurringTemplateName: engineering-ai-moc
 ---

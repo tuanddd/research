@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-08-26
-description: null
+date: 2022-08-26T00:00:00.000Z
+description: Learn how JavaScript’s single-threaded event loop enables asynchronous, non-blocking concurrency using callbacks, Promises, and async/await to handle tasks efficiently and avoid callback hell.
 authors:
   - Hieu Phan
 github_id: hieuphq

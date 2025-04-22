@@ -1,7 +1,7 @@
 ---
 title: Understanding An Application Design
-date: 2021-07-09
-description: null
+date: 2021-07-09T00:00:00.000Z
+description: Learn how to design web applications by choosing the right project type, rendering technique, atomic components, and frameworks like Next.js or Ant-design for fast, SEO-friendly websites.
 tags:
   - design
 ---

@@ -1,7 +1,7 @@
 ---
 title: Git Commit Message Convention
-date: 2021-04-06
-description: null
+date: 2021-04-06T00:00:00.000Z
+description: Learn how to write clear git commit messages using types, scopes, and subjects with practical examples to improve your team's coding workflow and commit history.
 tags:
   - git
 ---

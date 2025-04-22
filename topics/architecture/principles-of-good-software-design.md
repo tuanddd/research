@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn how software design breaks complex systems into simple, manageable modules with deep interfaces, error prevention, and effective design reviews to create better APIs and reduce complexity.
 ---
 
 - Software design is a process of decomposition: breaking down large systems into manageable units for independent implementation.

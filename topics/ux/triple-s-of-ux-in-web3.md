@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-08-05
-description: null
+date: 2022-08-05T00:00:00.000Z
+description: Discover the Triple S of UX—Simple, Secure, and Self-custodial designs that make Web3 easy and safe for users to access and control decentralized applications.
 authors:
   - Nam Bui
 github_id: Maniub102

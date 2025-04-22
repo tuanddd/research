@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2023-06-07
-description: null
+date: 2023-06-07T00:00:00.000Z
+description: Learn how to speed up Binance Kline API data retrieval by using a cached table to efficiently get highest and lowest cryptocurrency prices and timestamps within large date ranges.
 authors:
   - Minh Tran
 github_id: thminhVN

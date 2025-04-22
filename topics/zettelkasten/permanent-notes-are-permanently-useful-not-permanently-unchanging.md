@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn the difference between permanent and literature notes in the zettelkasten method, focusing on creating flexible, permanently useful notes that evolve with new ideas.
 tags:
   - zettelkasten
   - notepermanent

@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-09-09
-description: null
+date: 2022-09-09T00:00:00.000Z
+description: Learn the best ways to securely manage and store secrets in iOS apps, from code obfuscation to why keeping secrets off the client is the safest approach for developers.
 authors:
   - Phuc Le Dien
 tags:

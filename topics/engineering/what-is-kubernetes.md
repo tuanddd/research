@@ -1,7 +1,7 @@
 ---
 title: What Is Kubernetes
-date: 2019-09-27
-description: null
+date: 2019-09-27T00:00:00.000Z
+description: Kubernetes is an open-source platform for managing containerized applications with features like automated rollouts, self-healing, and load balancing, enabling scalable and portable cloud deployments.
 tags:
   - engineering
 ---

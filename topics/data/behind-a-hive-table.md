@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-11-11
-description: null
+date: 2022-11-11T00:00:00.000Z
+description: Learn how to create and understand Hive tables, including table structure, storage formats, SerDe functions, HDFS data location, and metadata management in the Hive metastore.
 authors:
   - Dung Ho
 github_id: dudaka

@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-08-09
-description: null
+date: 2022-08-09T00:00:00.000Z
+description: Learn how to solve race conditions in Go by using the sync/atomic package for atomic operations and pointers, offering faster and simpler alternatives to mutex locks in concurrent programming.
 authors:
   - Hieu Phan
 github_id: hieuphq

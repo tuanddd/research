@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Discover how surprising connections between ideas spark new insights and why broad reading and random linking in knowledge systems boost creativity and understanding.
 tags:
   - zettelkasten
 ---

@@ -1,7 +1,7 @@
 ---
 title: Radio Talk 61 Monorepo
-date: 2023-03-27
-description: null
+date: 2023-03-27T00:00:00.000Z
+description: Learn how adopting monorepos and tools like Turborepo and Nx can simplify code management, reduce duplication, and boost developer productivity for faster, cost-effective software development.
 tags:
   - engineering
   - web

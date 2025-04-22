@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn how to craft powerful scenes using large-scale structures like goals, conflicts, and disasters, plus small-scale motivation-reaction units to engage readers and build compelling fiction.
 tags:
   - writing
 ---

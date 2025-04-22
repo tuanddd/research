@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Writing by hand activates more brain areas and helps improve memory and understanding compared to typing, making note-taking more mindful and effective for learning.
 tags:
   - writing
 ---

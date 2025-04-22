@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-12-12
-description: null
+date: 2022-12-12T00:00:00.000Z
+description: Learn how to use Hive window and analytical functions to calculate complex metrics like a 10-day moving average on stock data with easy-to-understand SQL examples and syntax.
 authors:
   - Dung Ho
 github_id: dudaka

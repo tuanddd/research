@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Discover how sensemaking, a humanities-based approach, helps businesses gain deep cultural insight beyond data by using thick data and intuition to understand people and contexts.
 ---
 
 ## Summary

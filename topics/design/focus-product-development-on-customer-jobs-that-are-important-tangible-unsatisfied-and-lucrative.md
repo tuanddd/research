@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn how to identify high-value customer jobs by focusing on important, tangible, unsatisfied, and lucrative needs to create effective value propositions that drive business success.
 tags:
   - ux
   - research

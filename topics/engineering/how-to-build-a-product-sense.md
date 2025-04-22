@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2023-02-23
-description: null
+date: 2023-02-23T00:00:00.000Z
+description: Learn how to improve your product sense to create user-focused products by observing users, analyzing everyday products, learning from experts, and staying updated with technology trends.
 authors:
   - Nhut Huynh
 github_id: nhuthm

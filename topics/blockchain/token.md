@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Learn about frontrunning risks in EIP-20 token approvals and the importance of following accepted Ethereum token standards like EIP-20 and EIP-721 for secure smart contracts.
 ---
 
 ## Frontrunning

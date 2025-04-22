@@ -1,7 +1,7 @@
 ---
 title: An Alternative To Tm
-date: 2020-05-09
-description: null
+date: 2020-05-09T00:00:00.000Z
+description: Discover why Atomic replaces "time and materials" with "fixed budget, scope-controlled" projects to deliver efficient, well-estimated custom software within set budgets and clear progress updates.
 tags:
   - pm
 ---

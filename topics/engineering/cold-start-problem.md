@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-03-28
-description: null
+date: 2022-03-28T00:00:00.000Z
+description: Learn how to reduce serverless function cold start delays by keeping containers warm with scheduled requests, improving performance for faster response times and better user experience.
 authors:
   - Pham Duc Thanh
 github_id: zlatanpham

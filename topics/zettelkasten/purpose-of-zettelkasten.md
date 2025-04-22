@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: null
+description: Discover how the Zettelkasten method boosts productivity and creativity by organizing notes to generate new ideas and insights for effective knowledge work and writing.
 tags:
   - zettelkasten
 ---

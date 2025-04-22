@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2023-06-02
-description: null
+date: 2023-06-02T00:00:00.000Z
+description: Learn how Discord migrated from MongoDB to Cassandra for scalable, low-maintenance data storage, handling billions of messages with predictable performance and eventual consistency.
 authors:
   - Phat Nguyen
 github_id: fuatto

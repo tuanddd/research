@@ -1,7 +1,7 @@
 ---
 title: Bunk License Check
-date: 2020-02-05
-description: null
+date: 2020-02-05T00:00:00.000Z
+description: Glice is a Golang license and dependency checker that lists all dependencies, their usage count, licenses, and saves license files for easy compliance tracking.
 tags:
   - golang
   - license

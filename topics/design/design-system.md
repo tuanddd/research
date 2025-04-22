@@ -1,7 +1,7 @@
 ---
 title: Design System
-date: 2018-03-23
-description: null
+date: 2018-03-23T00:00:00.000Z
+description: Learn how to create a design system that unites teams, speeds up design workflows, and improves product quality with reusable components, visual language, design tokens, and UI libraries.
 tags:
   - design
 ---

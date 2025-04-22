@@ -1,12 +1,13 @@
 ---
 title: null
-date: 2023-08-08
-description: null
+date: 2023-08-08T00:00:00.000Z
+description: Learn how to use Gomock in Go to create mock objects, isolate dependencies, and write effective unit tests that improve code quality and detect bugs early.
 authors:
   - Pham Van Dat
 github_id: datphamcode295
 icy: 15
-blog: https://dwarvesf.hashnode.dev/level-up-your-testing-game-harnessing-gomock-for-unbeatable-unit-testing-in-go
+blog: >-
+  https://dwarvesf.hashnode.dev/level-up-your-testing-game-harnessing-gomock-for-unbeatable-unit-testing-in-go
 tags:
   - backend
   - engineeringbackend

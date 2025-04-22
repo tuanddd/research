@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-04-18
-description: null
+date: 2022-04-18T00:00:00.000Z
+description: Learn how question trees help brainstorm research questions and explore business problems, guiding decision-making with clear, broad inquiries beyond simple yes or no answers.
 authors:
   - Nguyen Xuan Anh
 github_id: monotykamary

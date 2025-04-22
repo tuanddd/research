@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2023-01-17
-description: null
+date: 2023-01-17T00:00:00.000Z
+description: Learn how the Law of Demeter reduces object dependencies by promoting loose coupling and improving code flexibility, maintainability, and testability in object-oriented programming.
 authors:
   - Tran Hoang Nam
 github_id: namtrhg
