@@ -23,8 +23,8 @@ authors:
 ## From Zero to Hero
 
 - [Craft Your Perfect Shell with Devbox](guide/Run%20your%20own%20shell.md)
-- [Devbox.json: The Blueprint of Your Dev Environment](guide/devbox.json.md)
-- [Beyond Containers: Devbox's Containerless Revolution](guide/Containerless.md)
+- [Devbox.json: The Blueprint of Your Dev Environment](guide/devbox-json.md)
+- [Beyond Containers: Devbox's Containerless Revolution](guide/containerless.md)
 
 ## What's Next?
 
