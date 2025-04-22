@@ -12,11 +12,11 @@ According to [Sam Ladner](https://publish.obsidian.md/mobydiction/notes/%E2%89%8
 
 #### Related
 
--   [[¶ Deductive reasoning]]
--   [[¶ Abductive reasoning]]
--   [[Qualitative research creates mental models about the problem space]]
+- [[¶ Deductive reasoning]]
+- [[¶ Abductive reasoning]]
+- [[Qualitative research creates mental models about the problem space]]
 
 #### Citations
 
--   [Chin - Good Synthesis is the Start of Good Sensemaking](https://publish.obsidian.md/mobydiction/Chin+-+Good+Synthesis+is+the+Start+of+Good+Sensemaking)
--   [≈ Ladner - Mixed Methods](https://publish.obsidian.md/mobydiction/notes/%E2%89%88+Ladner+-+Mixed+Methods)
+- [Chin - Good Synthesis is the Start of Good Sensemaking](https://publish.obsidian.md/mobydiction/Chin+-+Good+Synthesis+is+the+Start+of+Good+Sensemaking)
+- [≈ Ladner - Mixed Methods](https://publish.obsidian.md/mobydiction/notes/%E2%89%88+Ladner+-+Mixed+Methods)

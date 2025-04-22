@@ -55,7 +55,7 @@ tags:
 
 - Use `iframe` to connect other micro frontends
 
-````javascript
+`````javascript
 	<html>
 
 	  <head>
@@ -87,8 +87,8 @@ tags:
 	  </body>
 
 	</html>
-	````  
-  
+	````
+
 
 ### Cons
 
@@ -147,7 +147,7 @@ tags:
   </body>
 
 </html>
-````
+`````
 
 ## Run-time integration via [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components)
 
@@ -239,4 +239,3 @@ tags:
 - [Micro Frontends from Martinfowler](https://martinfowler.com/articles/micro-frontends.html)
 - [Micro frontends—a microservice approach to front-end web development](https://www.tomsoderlund.com/programming/micro-frontends-a-microservice-approach-to-front-end-web-development)
 - [Awesome Micro Frontends](https://github.com/ChristianUlbrich/awesome-microfrontends)
-

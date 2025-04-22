@@ -59,4 +59,3 @@ However, most of OpenCL based frameworks developed during the period are no long
 - https://www.khronos.org/registry/webcl/specs/latest/1.0/#3.1
 - https://en.wikipedia.org/wiki/WebCL
 - https://intellabs.github.io/RiverTrail/
-

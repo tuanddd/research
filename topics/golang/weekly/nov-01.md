@@ -167,10 +167,6 @@ Conclusion:
 
 - Can detect hard-to-spot bugs with weird unexpected inputs
 
-
 ---
 
 https://packagemain.tech/p/fuzzing-http-services-golang
-
-
-

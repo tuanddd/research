@@ -1,6 +1,6 @@
 ---
 title: null
-date: 2022-04-18T00:00:00.000Z
+date: 2022-04-18
 description: The BASE model is a flexible NoSQL data approach focusing on Basic Availability, Soft-state, and Eventual consistency to enable scalable and loosely consistent distributed databases.
 authors:
   - Nguyen Xuan Anh
@@ -12,6 +12,7 @@ tags:
 ---
 
 ## What is the BASE model?
+
 BASE is an acronym for describing a flexible way to manipulate data. With requirements for NoSQL databases, the BASE model came to be as a less pessimistic approach of the [[ACID model]] when handling data. The acronym stands for:
 
 - **Basic Availability:** The database is available and should work most of the time.
@@ -25,6 +26,6 @@ BASE properties are significantly looser than ACID, but the tradeoff allows for 
 The BASE model loosely refers to distributed data stores, which means these databases require different approaches when handling transactions and events asynchronously. This will also mean a tradeoff of availability for consistency in the presence of a network partition or power outage; this is more deeply covered in [[CAP theorem]].
 
 #### Reference
+
 - https://phoenixnap.com/kb/acid-vs-base
 - https://neo4j.com/blog/acid-vs-base-consistency-models-explained/
-

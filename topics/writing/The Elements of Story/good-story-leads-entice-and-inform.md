@@ -19,4 +19,3 @@ One common approach to a lead is to use an anecdote. But for this to be effectiv
 #### Citations
 
 Flaherty, Francis. _The Elements of Story: Field Notes on Nonfiction Writing._ Reprint edition. Harper Perennial, 2010.
-

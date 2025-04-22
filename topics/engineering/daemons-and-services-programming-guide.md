@@ -1,6 +1,6 @@
 ---
 title: Daemons And Services Programming Guide
-date: 2020-05-11T00:00:00.000Z
+date: 2020-05-11
 description: Learn how to design and manage macOS daemons and services, including login items, XPC services, launch agents, and daemons, with best practices for background processes and interprocess communication.
 tags:
   - macos
@@ -81,4 +81,3 @@ If you want to see the daemons currently running on your system, use the Activit
 Note: If you want to know more about the services provided by a particular daemon, consult the man page for that daemon. You can also view the manual pages online by reading OS X Man Pages.
 
 ![](assets/daemons-and-services-programming-guide_6b7ebc46edfa8c99dbdbfb540f15bb11_md5.webp)
-

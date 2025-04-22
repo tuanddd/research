@@ -1,6 +1,6 @@
 ---
 title: null
-date: 2022-12-11T00:00:00.000Z
+date: 2022-12-11
 description: Learn the difference between data race and race condition in multithreaded programming, and discover how mutex and atomic operations ensure data safety by controlling access to shared resources.
 authors:
   - Pham The Hung
@@ -20,10 +20,13 @@ This article will present a concept, which is `Data Race`. And what are we going
 Also, a concept quite related to this topic is `Race Condition`. If you don't know yet, try to learn it.
 
 ## What is Data race?
+
 In fact, I think some people are quite confusing of `Data race` concept and `Race Condition` concept.
 
 ### Concept
+
 `Data Race` occurs when two or more threads access a `shared resource` with at least one thread changing the value on that memory area.
+
 > It's look similar to the concept of `Race Condition`. We will analyze those two relationships in the following section.
 
 The conditions for `Data Race` to occur are as follows:
@@ -32,9 +35,11 @@ The conditions for `Data Race` to occur are as follows:
 - There is at least one thread that changes the value of that variable or object. If all threads only read data, there will be no data race.
 
 ### For example
+
 In fact, an example of a `Data Race` is the classic ATM withdrawal problem. Suppose you have 1 ATM card and 1 Visa Debit card with the same link to a bank account and withdraw money at the same time. There is still 50 \$ in the account, just enough to make a bowl of really cool vermicelli and a cup of iced tea. I simultaneously withdraw at both ATMs 50 \$. If I don't process the data race, I will be lucky to withdraw a total of 100 \$ on both machines.
 
 ### Solution
+
 When there are many threads reading and writing to the shared resource, the probability of a data race is very high. So solving this problem is also quite simple.
 
 - We need to ensure that only one thread can access the shared resource at a time.
@@ -49,9 +54,10 @@ That sequence of actions is called an `atomic operation` with the following prop
 
 - Execute as a `single operation`.
 - Execution is not interrupted by any thread.
-And you also have to pay attention to the Dead Lock problem when locked forever.
+  And you also have to pay attention to the Dead Lock problem when locked forever.
 
 ## Data Race vs. Race Condition
+
 The two problems `Data Race and Race Condition` are often equated as one. However, it describes two different problems in `multi-thread` programming.
 
 **Race Condition**
@@ -67,6 +73,7 @@ The two problems `Data Race and Race Condition` are often equated as one. Howeve
 The solutions to these two problems are quite similar. Just make sure one thread is accessing the critical section at a time.
 
 ### Relationship
+
 In fact, `Race Condition` occurs due to `Data Race` and `Data Race` leads to `Race Condition`. Not very different, but these two issues are not dependent on each other.
 
 - A program can have a `data race` without a `race condition`.
@@ -111,6 +118,7 @@ You can also easily see the results of different runs `(25 & 0)`. It is also the
 - If dividing first, it will be `0`
 
 ### Other cases
+
 It do have a reciprocal relationship. However, there are many cases where one does not have the other. I can summarize as follows:
 
 - Having a `Race Condition` leads to a `Data Race` (example above)
@@ -146,14 +154,16 @@ DispatchQueue.concurrentPerform(iterations: 500) { i in
 }
 print(number)
 ```
+
 Each time you execute it, you will get a different result. The main cause is `DispatchQueue.concurrentPerform`, which executes the code on `different Threads`. The number of Threads depends on the decision system.
 
 Together these threads change the value of `number`. Almost everything happens instantaneously together. There is no conflict between Threads. Or does one affect the other. Therefore, the phenomenon of Race Condition almost does not occur.
 
 ## Summarize
+
 In this article, we know the difference between `Race Condition` and `Data Race`. And relationship between `Race Condition` and `Data Race`. Race conditions and Data Races can lead to unexpected behavior in our code. So it would be best if you have aware about this.
 
 ## References
+
 - [Race condition vs. Data Race: the differences explained](https://www.avanderlee.com/swift/race-condition-vs-data-race)
 - [Data race và Mutual exclusion](https://viblo.asia/p/007-data-race-va-mutual-exclusion-4dbZNGvmlYM)
-

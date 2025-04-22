@@ -1,6 +1,6 @@
 ---
 title: null
-date: 2022-03-28T00:00:00.000Z
+date: 2022-03-28
 description: Learn how to reduce serverless function cold start delays by keeping containers warm with scheduled requests, improving performance for faster response times and better user experience.
 authors:
   - Pham Duc Thanh
@@ -27,4 +27,3 @@ While keeping the function size small or increasing the memory could partly spee
 
 - <https://dashbird.io/blog/can-we-solve-serverless-cold-starts/>
 - <https://www.serverless.com/blog/keep-your-lambdas-warm/>
-

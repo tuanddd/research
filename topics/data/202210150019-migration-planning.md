@@ -13,6 +13,7 @@ https://newsletter.pragmaticengineer.com/p/real-world-engineering-challenges
 tl;dr
 **Migration plan**
 What do we need to consider?
+
 - Downtime
 - Data consistency
 - Rollback plan
@@ -20,9 +21,9 @@ What do we need to consider?
 - Team awareness
 
 Common steps
+
 - Dual reads / writes -> old database is primary
 - Backfilling
 - Compare and validate the new database
 - Dual reads / writes -> new database is primary
 - Remove old database
-

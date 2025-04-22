@@ -17,9 +17,9 @@ Data that are easiest to come by—and likely more abundant—are more likely to
 
 #### Related
 
--   [Metric fixation is a symptom of a decline in social trust](https://publish.obsidian.md/mobydiction/notes/Metric+fixation+is+a+symptom+of+a+decline+in+social+trust): metrics become a substitute for meaningful interpersonal relationships within organizations and in society more general
--   [[Quant data is lossy]] suggests that quantitative data is highly compresses and loses information in the process of abstraction
--   [[Quantitative analysis is not inherently more reliable than qualitative data]] argues that in spite of feeling more concrete quantitative data isn't inherently "better" than qualitative data
+- [Metric fixation is a symptom of a decline in social trust](https://publish.obsidian.md/mobydiction/notes/Metric+fixation+is+a+symptom+of+a+decline+in+social+trust): metrics become a substitute for meaningful interpersonal relationships within organizations and in society more general
+- [[Quant data is lossy]] suggests that quantitative data is highly compresses and loses information in the process of abstraction
+- [[Quantitative analysis is not inherently more reliable than qualitative data]] argues that in spite of feeling more concrete quantitative data isn't inherently "better" than qualitative data
 
 #### Citation
 

@@ -1,6 +1,6 @@
 ---
 title: null
-date: 2022-12-12T00:00:00.000Z
+date: 2022-12-12
 description: Learn how to use Hive window and analytical functions to calculate complex metrics like a 10-day moving average on stock data with easy-to-understand SQL examples and syntax.
 authors:
   - Dung Ho
@@ -83,4 +83,3 @@ The `ROWS BETWEEN 9 PRECEDING and CURRENT ROW` clause defines the frames. If we 
 The window and analytical functions are now powerful with frames, each record in the window has its own frame and it is dynamic at runtime. There is an important difference between window and frames: windows are not overlapping but frames could be overlapping. The row clause is optional, i.e. if it is not mentioned, rows between unbounded proceeding and current row is applied behind the scenes by default. This means a frame would include the current row and the rows behind the current row within the window.
 
 In summary, we understand the need for window and analytical functions. Then, we introduced the basics of window and frames. Finally, we learned the syntax for creating windows and using analytical functions in Hive by calculating a 10-day moving average with stocks data set.
-

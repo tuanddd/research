@@ -35,11 +35,11 @@ If you can do only one thing, do qualitative (think-aloud) usability testing. Ni
 
 #### Related
 
--   [[Landscape of UX research methods]]
--   [Base strategy on leading, not lagging, indicators](https://publish.obsidian.md/mobydiction/notes/Base+strategy+on+leading%2C+not+lagging%2C+indicators)
--   [De-risk innovation by making smaller bets](https://publish.obsidian.md/mobydiction/notes/De-risk+innovation+by+making+smaller+bets)
--   [Qualitative research creates mental models about the problem space.](https://publish.obsidian.md/mobydiction/notes/Qualitative+research+creates+mental+models+about+the+problem+space.)
--   [Qualitative researchers care more about data saturation than sample size](https://publish.obsidian.md/mobydiction/notes/Qualitative+researchers+care+more+about+data+saturation+than+sample+size)
+- [[Landscape of UX research methods]]
+- [Base strategy on leading, not lagging, indicators](https://publish.obsidian.md/mobydiction/notes/Base+strategy+on+leading%2C+not+lagging%2C+indicators)
+- [De-risk innovation by making smaller bets](https://publish.obsidian.md/mobydiction/notes/De-risk+innovation+by+making+smaller+bets)
+- [Qualitative research creates mental models about the problem space.](https://publish.obsidian.md/mobydiction/notes/Qualitative+research+creates+mental+models+about+the+problem+space.)
+- [Qualitative researchers care more about data saturation than sample size](https://publish.obsidian.md/mobydiction/notes/Qualitative+researchers+care+more+about+data+saturation+than+sample+size)
 
 #### Citations
 

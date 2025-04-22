@@ -27,13 +27,9 @@ This gives you a bare-bones `devbox.json`:
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.12.0/.schema/devbox.schema.json",
   "packages": [],
   "shell": {
-    "init_hook": [
-      "echo 'Welcome to devbox!' > /dev/null"
-    ],
+    "init_hook": ["echo 'Welcome to devbox!' > /dev/null"],
     "scripts": {
-      "test": [
-        "echo \"Error: no test specified\" && exit 1"
-      ]
+      "test": ["echo \"Error: no test specified\" && exit 1"]
     }
   }
 }
@@ -165,7 +161,7 @@ Remember that `devbox.json` we started with? Forget it. Let's look at a real-wor
     },
     "kafkactl": "5.0.6",
     "zookeeper": "3.9.2"
-  },
+  }
   // ... (env and shell configurations omitted for brevity)
 }
 ```
@@ -218,4 +214,3 @@ Ready to leave containers behind? Give Devbox a shot. Your future self (and your
 - [Devbox Services Guide](https://www.jetify.com/devbox/docs/guides/services/)
 - [Devbox Plugins Guide](https://www.jetify.com/devbox/docs/guides/plugins/)
 - [Creating Custom Devbox Plugins](https://www.jetify.com/devbox/docs/guides/creating_plugins/)
-

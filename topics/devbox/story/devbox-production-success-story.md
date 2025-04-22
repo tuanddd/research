@@ -14,13 +14,14 @@ Remember when setting up a new project felt like assembling IKEA furniture blind
 
 ## The Big Picture: Devbox Across Our Projects
 
-We didn't just dip our toes into Devbox - we dove in headfirst. **Two main projects** and a handful of side projects later, we're swimming in efficiency. 
+We didn't just dip our toes into Devbox - we dove in headfirst. **Two main projects** and a handful of side projects later, we're swimming in efficiency.
 
 ## The Spotlight
 
 ### Dev Environment: From Hours to Minutes
 
 Before Devbox:
+
 1. Clone repo
 2. Install dependencies (pray for version compatibility)
 3. Set up databases
@@ -29,6 +30,7 @@ Before Devbox:
 6. Maybe start coding
 
 With Devbox:
+
 1. Clone repo
 2. `devbox shell`
 3. Start coding
@@ -37,16 +39,9 @@ Yeah, it's that simple. Our `devbox.json` looks something like this:
 
 ```json
 {
-  "packages": [
-    "nodejs@14",
-    "postgresql@13",
-    "redis@6"
-  ],
+  "packages": ["nodejs@14", "postgresql@13", "redis@6"],
   "shell": {
-    "init_hook": [
-      "npm install",
-      "npm run db:setup"
-    ]
+    "init_hook": ["npm install", "npm run db:setup"]
   }
 }
 ```
@@ -78,7 +73,7 @@ We didn't stop at basic Devbox usage. We dove into the world of Nix Flakes to cr
 
   outputs = { self, nixpkgs, flake-utils }:
     flake-utils.lib.eachDefaultSystem (system:
-      let 
+      let
         pkgs = import nixpkgs {
           inherit system;
           config.allowUnfree = true;
@@ -107,11 +102,10 @@ Why is this cool? Let me count the ways:
 - **Versioning**: We're using PostgreSQL 15 here. Want to test with 14? Just change one number.
 
 But the real magic happens when we use this in a Devbox project. We just add this to our devbox.json:
+
 ```json
 {
-  "packages": [
-    "path:/path/to/our/postgresql-flake"
-  ]
+  "packages": ["path:/path/to/our/postgresql-flake"]
 }
 ```
 
@@ -191,48 +185,48 @@ version: "0.5"
 processes:
   postgresql:
     command: |
-      rm -rf ${PGDATA} 
+      rm -rf ${PGDATA}
       initdb --username=postgres
       if ! grep -q "shared_preload_libraries = 'timescaledb'" $PGDATA/postgresql.conf; then
         echo "shared_preload_libraries = 'timescaledb'" >> $PGDATA/postgresql.conf
       fi
       pg_ctl start -o "-k $PGHOST"
     is_daemon: true
-    shutdown: 
+    shutdown:
       command: "pg_ctl stop -m fast"
     availability:
       restart: "always"
     readiness_probe:
       exec:
         command: "pg_isready"
-        
+
   redis:
     command: "redis-server $REDIS_CONF --port $REDIS_PORT"
     availability:
       restart: on_failure
       max_restarts: 5
-      
+
   zookeeper:
     command: "devbox run zookeeper-daemon"
     is_daemon: true
     shutdown:
       command: "devbox run zookeeper-stop"
     availability:
-      restart: "always"    
+      restart: "always"
     readiness_probe:
       exec:
         command: "sudo devbox run zookeeper-status | grep -q 'Mode: standalone'"
         interval: 20s
         timeout: 20s
         retries: 5
-  
+
   kafka:
     command: "devbox run kafka-daemon"
     is_daemon: true
     shutdown:
       command: "devbox run kafka-stop"
     availability:
-      restart: "always"    
+      restart: "always"
     depends_on:
       zookeeper:
         condition: process_healthy
@@ -275,4 +269,3 @@ Devbox didn't just change our tools; it changed our culture. "It's too complex t
 Is it perfect? No. Sometimes we still need to dive into Nix for complex setups. But for 90% of our needs, Devbox is our go-to.
 
 Life's too short for bad dev environments. Make yours awesome with Devbox.
-

@@ -10,7 +10,7 @@ tags:
   - devbox
 ---
 
-Pinning nixpkgs means you can choose the version of nixpkgs, and then all packages required for building your application and its dependencies are fetched from this nixpkgs version where the version of each package is specified and not changed over time. 
+Pinning nixpkgs means you can choose the version of nixpkgs, and then all packages required for building your application and its dependencies are fetched from this nixpkgs version where the version of each package is specified and not changed over time.
 
 ```nix
 let
@@ -21,9 +21,11 @@ let
   pkgs = import nixpkgs {};
 in
 ```
-What happens once you do not specify the pinning version of nixpkgs? In this case, Nix uses your local nixpkgs version by default. 
+
+What happens once you do not specify the pinning version of nixpkgs? In this case, Nix uses your local nixpkgs version by default.
 
 ---
-#### References
-*FAQ/Pinning Nixpkgs*. (n.d.). NixOS Wiki. Retrieved August 2, 2024, from https://nixos.wiki/wiki/FAQ/Pinning_Nixpkgs
 
+#### References
+
+_FAQ/Pinning Nixpkgs_. (n.d.). NixOS Wiki. Retrieved August 2, 2024, from https://nixos.wiki/wiki/FAQ/Pinning_Nixpkgs

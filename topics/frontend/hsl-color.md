@@ -77,4 +77,3 @@ hsla(349, 73%, 56%, 0.5)
 - https://css-tricks.com/hsl-hsla-is-great-for-programmatic-color-control/
 - https://www.smashingmagazine.com/2021/07/hsl-colors-css/
 - https://tsh.io/blog/why-should-you-use-hsl-color-representation-in-css/
-

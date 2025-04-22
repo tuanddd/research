@@ -27,25 +27,25 @@ tags:
 ### Example using validate method
 
 ```ts
-const z = require('zod')
+const z = require("zod");
 
 // Define a schema for the input data
 const schema = z.object({
   name: z.string(),
   phone_number: z.number().min(0).max(12),
   email: z.string().email(),
-})
+});
 
 // Input data to be validated and coerced
 const input = {
-  name: 'Dwarves Foundation',
+  name: "Dwarves Foundation",
   phone_number: 123456,
-  email: 'team@dwarves.foundation',
-}
+  email: "team@dwarves.foundation",
+};
 
 // Validate and coerce the input data
-const data = schema.validate(input)
-console.log(data)
+const data = schema.validate(input);
+console.log(data);
 /*
 {
   name: 'Dwarves Foundation',
@@ -122,4 +122,3 @@ Both Zod and Yup are robust validation libraries, and the choice between them is
 - <https://github.com/jquense/yup>
 - <https://blog.logrocket.com/comparing-schema-validation-libraries-zod-vs-yup/>
 - <https://blog.logrocket.com/schema-validation-typescript-zod/>
-

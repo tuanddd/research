@@ -102,4 +102,3 @@ Effective database evolution requires structured communication, versioned change
 ## References
 
 - [https://martinfowler.com/articles/evodb.html#DbasCollaborateCloselyWithDevelopers](https://martinfowler.com/articles/evodb.html#DbasCollaborateCloselyWithDevelopers)
-

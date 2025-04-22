@@ -20,4 +20,3 @@ Writing a "kicker" ending is challenging. A good ending isn't a bare summary or 
 #### Citations
 
 Flaherty, Francis. _The Elements of Story: Field Notes on Nonfiction Writing_. Reprint edition. Harper Perennial, 2010.
-

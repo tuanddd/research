@@ -120,4 +120,3 @@ One recent hack was Solana's Wormhole Bridge, where 120k wETH ($325 million USD)
 - [Multichain Users Lose $1.4M Due to Bridge Bug](https://cryptobriefing.com/multichain-users-lose-1-4m-due-bridge-bug/)
 - [Vitalik Buterin Skeptical of Cross-Chain Bridges](https://cryptobriefing.com/vitalik-buterin-skeptical-of-cross-chain-bridges/)
 - [Latest DeFi bridge exploit results in $4.4M losses for Meter](https://cointelegraph.com/news/latest-defi-bridge-exploit-results-in-4-4m-losses-for-meter)
-

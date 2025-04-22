@@ -23,12 +23,11 @@ Collectively, we rely on each of these theories of truth in different situations
 
 #### Related
 
--   [[¶ Falsifiability]]
--   [Objectivism assumes a concrete, knowable world](https://publish.obsidian.md/mobydiction/notes/Objectivism+assumes+a+concrete%2C+knowable+world)
--   [Quantitative analysis is not inherently more reliable than qualitative data](https://publish.obsidian.md/mobydiction/notes/Quantitative+analysis+is+not+inherently+more+reliable+than+qualitative+data)
--   [§ Research](https://publish.obsidian.md/mobydiction/notes/%C2%A7+Research)
+- [[¶ Falsifiability]]
+- [Objectivism assumes a concrete, knowable world](https://publish.obsidian.md/mobydiction/notes/Objectivism+assumes+a+concrete%2C+knowable+world)
+- [Quantitative analysis is not inherently more reliable than qualitative data](https://publish.obsidian.md/mobydiction/notes/Quantitative+analysis+is+not+inherently+more+reliable+than+qualitative+data)
+- [§ Research](https://publish.obsidian.md/mobydiction/notes/%C2%A7+Research)
 
 #### Citations
 
 Chin, Cedric. “The Four Theories of Truth As a Method for Critical Thinking.” Commonplace - The Commoncog Blog (blog), September 15, 2020. [Link](https://commoncog.com/blog/four-theories-of-truth/).
-

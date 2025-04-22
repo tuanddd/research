@@ -248,4 +248,3 @@ SUBCOMMANDS:
 - https://book.anchor-lang.com/introduction/what_is_anchor.html
 - https://www.rust-lang.org
 - https://docs.rs/solana/latest/solana/
-

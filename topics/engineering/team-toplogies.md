@@ -1,6 +1,6 @@
 ---
 title: null
-date: 2022-08-15T00:00:00.000Z
+date: 2022-08-15
 description: Discover how Team Topologies improves software delivery by organizing teams into four types and using three interaction modes to boost collaboration, reduce cognitive load, and enhance flow.
 authors:
   - Pham Duc Thanh
@@ -39,6 +39,6 @@ Effective software delivery requires the combination of specific team types, but
 ![](assets/team-toplogies_3-team-interaction-modes.webp)
 
 ## References
+
 - _Team Topologies: Organizing Business and Technology Teams for Fast Flow by Manuel Pais and Matthew Skelton_
 - https://teamtopologies.com/key-concepts
-

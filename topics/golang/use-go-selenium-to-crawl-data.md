@@ -111,4 +111,3 @@ Well, we got all the needed information.
 ## Conclusion
 
 Above is my knowledge when having problems with crawl in developing software. Here is Go software programming language. Selenium also helps us in other cases, like pages need login, web pages request captcha, etc. If anyone has other experiences, I hope to hear from you.
-

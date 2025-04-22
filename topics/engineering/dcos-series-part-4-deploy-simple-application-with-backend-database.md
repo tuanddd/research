@@ -1,6 +1,6 @@
 ---
 title: Dcos Series Part 4 Deploy Simple Application With Backend Database
-date: 2017-06-10T00:00:00.000Z
+date: 2017-06-10
 description: Learn how to build and deploy a Golang todolist backend with PostgreSQL on DC/OS using Docker, including database setup, Dockerfile creation, and Marathon deployment configuration.
 tags:
   - dcos
@@ -46,10 +46,10 @@ func main() {
 
 Above code allow us easy to customize configuration of database connection. When we deploy application, we just need to change these settings below which are environment variables:
 
-* DB_USER
-* DB_PASSWORD
-* DB_HOST
-* DB_NAME
+- DB_USER
+- DB_PASSWORD
+- DB_HOST
+- DB_NAME
 
 After that, We need to do some stuffs to dockerize application and push it to docker hub or private docker registry. To do that, let’s create a Dockerfile first:
 
@@ -184,4 +184,3 @@ As my expectation, it will be like this:
 Everything is available now. Let’s check it:
 
 ![](assets/dcos-series-part-4---deploy-simple-application-with-backend-database_91935fc991d145d9dec0c0a5a1703c2e_md5.webp)
-

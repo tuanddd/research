@@ -64,4 +64,3 @@ High demand -> Need to scale without sacrificing decentralization and security =
 ## References
 
 - https://ethereum.org/en/layer-2
-

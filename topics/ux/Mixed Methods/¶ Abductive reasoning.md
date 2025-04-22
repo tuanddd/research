@@ -18,9 +18,9 @@ Roger Martin identifies a capacity for abductive reasoning as a key quality of i
 
 #### Related
 
--   [[¶ Inductive reasoning]] develops a cogent position or hypothesis that is likely true given available data
--   [[¶ Deductive reasoning]] begins with a general theory and then tests against data to prove or disprove it
--   [[¶ OODA Loop]] is a decision-making concept that relies heavily on abductive reasoning in its observe and orient phases
+- [[¶ Inductive reasoning]] develops a cogent position or hypothesis that is likely true given available data
+- [[¶ Deductive reasoning]] begins with a general theory and then tests against data to prove or disprove it
+- [[¶ OODA Loop]] is a decision-making concept that relies heavily on abductive reasoning in its observe and orient phases
 
 #### Citations
 

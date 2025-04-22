@@ -67,4 +67,3 @@ kind-2
 - https://github.com/go-echarts/go-echarts
 - https://github.com/alexellis/kubetrim
 - https://youtube.com/playlist?list=PLDWZ5uzn69ezR6D6FUj_iBSOyRc9xaZFP&si=IdFGYzOivQqFRsVb
-

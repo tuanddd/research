@@ -5,6 +5,7 @@ description: Learn how to enforce smart contract invariants in Solidity using as
 ---
 
 #### Enforce invariants with `assert()`
+
 An assert guard triggers when an assertion fails - such as an invariant property changing. For
 example, the token to ether issuance ratio, in a token issuance contract, may be fixed. You can
 verify that this is the case at all times with an `assert()`. Assert guards should often be
@@ -26,13 +27,14 @@ contract Token {
 }
 ```
 
-Note that the assertion is *not* a strict equality of the balance because the contract can be
+Note that the assertion is _not_ a strict equality of the balance because the contract can be
 [forcibly sent ether](#remember-that-ether-can-be-forcibly-sent-to-an-account) without going
 through the `deposit()` function!
 
 #### Use `assert()`, `require()`, `revert()` properly
+
 !!! Info
-    The convenience functions **assert** and **require** can be used to check for conditions and throw an exception if the condition is not met.
+The convenience functions **assert** and **require** can be used to check for conditions and throw an exception if the condition is not met.
 
 The **assert** function should only be used to test for internal errors, and to check invariants.
 
@@ -59,4 +61,3 @@ contract Sharer {
 ```
 
 See [SWC-110](https://swcregistry.io/docs/SWC-110) & [SWC-123](https://swcregistry.io/docs/SWC-123)
-

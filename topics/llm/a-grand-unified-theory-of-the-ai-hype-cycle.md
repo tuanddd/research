@@ -59,4 +59,3 @@ I cannot tell you when the current mania will end and this bubble will burst. If
 ---
 
 https://blog.glyph.im/2024/05/grand-unified-ai-hype.html
-

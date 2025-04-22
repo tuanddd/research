@@ -84,4 +84,3 @@ There are two main areas for potential improvement:
 ## Conclusion
 
 Our Discord bot implementation demonstrates the practical application of agent supervisors in creating intelligent, multi-faceted systems. By combining SQL capabilities with semantic search and wrapping it in a user-friendly interface, we've created a powerful tool for generating insights from both structured and unstructured data sources. As we continue to refine and expand this system, we anticipate even greater capabilities in bridging the gap between user queries and valuable insights.
-

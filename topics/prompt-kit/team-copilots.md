@@ -61,4 +61,3 @@ Effective team management requires efficient task management, clear communicatio
 - [https://prompt.d.foundation/chat/cZmU6hYmwWpk2AmW](https://prompt.d.foundation/chat/cZmU6hYmwWpk2AmW)
 - Generates transcripts for YouTube videos, enhancing accessibility and content review.
 - ![YouTube Transcript Copilot](assets/youtube-transcriber.mp4)
-

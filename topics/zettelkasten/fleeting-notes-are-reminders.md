@@ -19,9 +19,9 @@ Because fleeting notes are reminders, they can be trashed after they've been pro
 
 #### Related
 
--   [[Make notes in your own words]]
--   [[Permanent notes develop new ideas]]
--   [[Write literature notes to inform permanent notes]]
+- [[Make notes in your own words]]
+- [[Permanent notes develop new ideas]]
+- [[Write literature notes to inform permanent notes]]
 
 #### Citations
 

@@ -99,4 +99,3 @@ Extism is a lightweight, universal framework for building with WebAssembly (Wasm
 - [Technical Debt and Interop Challenges in the Web Platform](https://bkardell.com/blog/debt.html)
 - [Impressions of React and TypeScript from an Elixir/Elm Developer: A Tale of Two Ecosystems](https://korban.net/posts/elm/2024-11-16-typescript-react-impressions/)
 - [PostHog's Engineering: Solving challenges with trust and future-focused tech decisions](https://dub.link/bytes-nov25)
-

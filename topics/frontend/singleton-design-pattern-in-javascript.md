@@ -29,36 +29,36 @@ Which can be accessed in all components, and functions without recreating or con
 
 class MyNameClass {
   constructor() {
-    this._name
+    this._name;
   }
 
   set name(value) {
-    this._name = value
+    this._name = value;
   }
 
   get name() {
-    return this._name
+    return this._name;
   }
 }
 
 const Singleton = function () {
-  let instance
+  let instance;
 
   function createInstance() {
-    return new MyNameClass()
+    return new MyNameClass();
   }
 
   return {
     getInstance: function () {
       if (!instance) {
-        instance = createInstance()
+        instance = createInstance();
       }
-      return instance
+      return instance;
     },
-  }
-}
+  };
+};
 
-export const singleton = Singleton()
+export const singleton = Singleton();
 ```
 
 The `createInstance` function for creating the instance of `MyNameClass`.
@@ -68,21 +68,21 @@ When requested the instance from `MyNameClass`, the method `getInstance` will be
 ```javascript
 // Filename: index.js
 
-import { singleton } from './Singleton'
+import { singleton } from "./Singleton";
 
 function main() {
-  const instanceOne = singleton.getInstance()
-  instanceOne.name = 'John Doe'
+  const instanceOne = singleton.getInstance();
+  instanceOne.name = "John Doe";
 
-  const instanceTwo = singleton.getInstance()
-  console.log('The second instance with name: ', instanceTwo.name)
+  const instanceTwo = singleton.getInstance();
+  console.log("The second instance with name: ", instanceTwo.name);
   // Output - The second instance with name: John Doe
 
-  console.log('Is same instance? ', instanceOne === instanceTwo)
+  console.log("Is same instance? ", instanceOne === instanceTwo);
   // Output - Is same instance?  true
 }
 
-main()
+main();
 ```
 
 - At first we assign `instanceOne` variable with the instance returned from the `singleton.getInstance()`
@@ -106,4 +106,3 @@ main()
 ## Conclusion
 
 With the only initialized once and can use in the global context, the singleton design pattern is very useful for some specific cases where we only need to store the data that using in the global and fewer changes like database connection, user profile account config...
-

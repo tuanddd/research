@@ -18,12 +18,12 @@ This isn't to say that quantitative analysis is not without merit; however, it m
 
 #### Related
 
--   [[Quant data is lossy]]
--   [[Qualitative and quantitative research represent different philosophies of knowledge]]
+- [[Quant data is lossy]]
+- [[Qualitative and quantitative research represent different philosophies of knowledge]]
 
 #### Citations
 
--   [[≈ Mixed Methods]]
--   [Madsbjerg, Christian. Sensemaking: The Power of the Humanities in the Age of the Algorithm. Hachette Books, 2017.](https://publish.obsidian.md/mobydiction/notes/%E2%89%88+Madsbjerg+-+Sensemaking)
--   [≈ Muller - The Tyranny of Metrics](https://publish.obsidian.md/mobydiction/notes/%E2%89%88+Muller+-+The+Tyranny+of+Metrics)
--   [Sutherland - Alchemy](https://publish.obsidian.md/mobydiction/Sutherland+-+Alchemy)
+- [[≈ Mixed Methods]]
+- [Madsbjerg, Christian. Sensemaking: The Power of the Humanities in the Age of the Algorithm. Hachette Books, 2017.](https://publish.obsidian.md/mobydiction/notes/%E2%89%88+Madsbjerg+-+Sensemaking)
+- [≈ Muller - The Tyranny of Metrics](https://publish.obsidian.md/mobydiction/notes/%E2%89%88+Muller+-+The+Tyranny+of+Metrics)
+- [Sutherland - Alchemy](https://publish.obsidian.md/mobydiction/Sutherland+-+Alchemy)

@@ -16,8 +16,8 @@ Roger L. Martin suggests that organizing teams for diverse specializations can a
 
 #### Related
 
--   [[Specialization narrows our perspective on what is salient to a problem]] - Specialization offers mastery of some mental models, but filters our view of the problem.
--   [[¶ Consilience]] - A concept describing the synthesis of knowledge produced from disparate fields
+- [[Specialization narrows our perspective on what is salient to a problem]] - Specialization offers mastery of some mental models, but filters our view of the problem.
+- [[¶ Consilience]] - A concept describing the synthesis of knowledge produced from disparate fields
 
 #### Citation
 

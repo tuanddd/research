@@ -14,6 +14,7 @@ tags:
 One common issue we often tackle in backend engineering is writing test cases. In this article, we will explore the techniques for crafting effective tests in Go, discussing best practices for writing unit tests and utilizing mocks to achieve better isolation. Although our primary focus lies in unit testing-related practices, it is important to note that Golang also supports integration testing. We will also tackle the subject of integration testing in a future article, where we will examine the details and best practices for integration testing in Golang.
 
 ## Introduction
+
 ### Importance of testing in software development
 
 Testing is crucial in software development to catch bugs and errors, ensure maintainability and modularity, and improve security, and overall software quality. With the rise of cybersecurity threats, testing is becoming increasingly important to ensure software systems are secure and reliable.
@@ -246,4 +247,3 @@ Remember, testing is not a one-time task but an ongoing process that should be i
 [https://www.freecodecamp.org/news/a-beginners-guide-to-testing-implement-these-quick-checks-to-test-your-code-d50027ad5eed/](https://www.freecodecamp.org/news/a-beginners-guide-to-testing-implement-these-quick-checks-to-test-your-code-d50027ad5eed/)
 
 [https://testing.googleblog.com/2020/08/code-coverage-best-practices.html](https://testing.googleblog.com/2020/08/code-coverage-best-practices.html)
-

@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: Discover how detailed landscapes and settings reveal a character's personality and make them feel real before, during, and after the story.
+description: "Discover how detailed landscapes and settings reveal a character's personality and make them feel real before, during, and after the story."
 tags:
   - writing
 ---
@@ -17,4 +17,3 @@ The landscape a character inhabits can provide a glimpse into their character. R
 #### Citations
 
 George, Elizabeth. _Mastering the Process: From Idea to Novel_. Viking, 2020.
-

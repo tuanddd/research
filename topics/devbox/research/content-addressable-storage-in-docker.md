@@ -30,6 +30,7 @@ Here's where Devbox shines:
 2. **Simple Interface**: Compare these:
 
    Nix:
+
    ```nix
    { pkgs ? import <nixpkgs> {} }:
    pkgs.mkShell {
@@ -38,6 +39,7 @@ Here's where Devbox shines:
    ```
 
    Devbox:
+
    ```json
    {
      "packages": ["nodejs", "yarn"]
@@ -67,4 +69,3 @@ Ready to make your dev setup both bulletproof and brain-dead simple? Give Devbox
 - [Devbox: Improving on Nix](https://www.reddit.com/r/NixOS/comments/z97cwy/devbox_predictable_development_environments/)
 - [Devbox on Hacker News](https://news.ycombinator.com/item?id=32600821)
 - [Nix Language Documentation](https://nix.dev/manual/nix/2.18/language/)
-

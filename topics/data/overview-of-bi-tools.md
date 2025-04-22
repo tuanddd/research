@@ -1,6 +1,6 @@
 ---
 title: null
-date: 2022-11-21T00:00:00.000Z
+date: 2022-11-21
 description: Compare top data visualization tools like Tableau, Power BI, and Google Data Studio to find the best business intelligence software for interactive dashboards, ease of use, pricing, and integration.
 authors:
   - Bach Phuong
@@ -25,5 +25,5 @@ your business uses Microsoft tools and you have your human resources who are Exc
 The last tool in my article is Google Data Studio. Data Studio is a business intelligence tool from Google provided as a completely managed web service. Data Studio provides an intuitive interface to explore and build insights using data. It is built on top of the Google app ecosystem and offers tight integrations to Google based data sources like Big Query, Google Analytics, Google Sheets, etc. Tight integration with Google ecosystem, free and easy to use may be the advantage of Google data studio. However, this app also lack of real-time updates in dashboard and lack of data modelling. Creating a complicated report with huge volume of live connections data may be difficult with Google data studio.
 
 ## References
-- https://improvado.io/blog/review-the-best-data-visualization-tools
 
+- https://improvado.io/blog/review-the-best-data-visualization-tools

@@ -15,7 +15,8 @@ tags:
 
 ## Problem statement
 
-We want a copy of an object, but the config only initialized at runtime, its fields and methods were private, or its properties were manipulated through multiple processes, so it is difficult to recreate the object. For example: 
+We want a copy of an object, but the config only initialized at runtime, its fields and methods were private, or its properties were manipulated through multiple processes, so it is difficult to recreate the object. For example:
+
 - DB Access Object with credentials only provide in runtime.
 - A ledger object has transaction histories, which are protected through private fields, and exposes a Total() function to get the total balance. To replicate the whole ledger, we must recreate all its transaction histories.
 
@@ -28,9 +29,9 @@ The target object must turn into a 'Prototype' by having a Clone() function to m
 ```
 //The following example is in Go. We are building an RPG with a Hero object, and a new Skill called 'Mimic' needs to create a copy of the Hero with the same level.
 type Hero struct {       // level, experience, and killLogIDs are private to avoid editing the Hero object
- level         int64    
- experience    int64   
- killLogIDs    []int64 
+ level         int64
+ experience    int64
+ killLogIDs    []int64
 }
 
 type (h *Hero) KillConfirm(targetID int64) {
@@ -43,7 +44,7 @@ type (h *Hero) KillConfirm(targetID int64) {
  }
 }
 
-// Creates a clone of the Hero without repeating the whole kill log 
+// Creates a clone of the Hero without repeating the whole kill log
 type (h *Hero) Clone() Hero {
  return Hero {
  level: h.level,
@@ -56,15 +57,15 @@ type (h *Hero) Clone() Hero {
 ## Case by case
 
 When developing a system, the Prototype design pattern works in tandem with other creation patterns:
+
 - Factories, abstract factories, and builders help create the original object. Prototype provides a clone of the object without the need to call the above patterns
 - Prototype behaves opposite to the singleton pattern. Singleton pattern focuses on having a single instance for operational flow. Prototype can Clone the object in the middle of its processing flow for other uses without changing the original object.
 
 The most common use cases for Prototype design patterns are:
+
 - Credential/Access objects for Database or external services
 - Ledger/Bank statement objects, we clone the object to the statistics and simulations.
-
 
 ## Reference
 
 - https://refactoring.guru/design-patterns/prototype
-

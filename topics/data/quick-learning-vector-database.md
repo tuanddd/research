@@ -31,6 +31,7 @@ tags:
 - Indexing the data in the database, Indexing Algorithms: Flat, HNSW, IVF ==> I think we have room for optimizing the caches and indexes.
 
 - Working flow of Vector Database with Gen AI:
+
   - An embedding model converts the data to a vector data structure. (We need to optimize the algorithm for the huge of parameters)
   - Convert the input(end-user) to a vector.
   - Querying data in the database.
@@ -41,12 +42,14 @@ tags:
 ![](assets/quick-learning-vector-database_ab8dc870fb19553f7616442fe4e9e6c5_md5.webp)
 
 - Benefits:
+
   - Flexibility: schemaless, non-structured
   - Scalability: bucketing data, dynamic programming
   - Speed/ performance: Search vector
   - Standardization: formatting all data into a single format
 
 - Use cases:
+
   - Feeding Realtime data for LLMs models
   - Resolving searching problems
   - Serving Video/Image recognition problems
@@ -57,4 +60,3 @@ tags:
   - Optimize long-term caching memory
   - Hardware optimization for hosting and computing data
   - Improve KNN performance models
-

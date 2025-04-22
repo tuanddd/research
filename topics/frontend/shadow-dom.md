@@ -34,8 +34,8 @@ When working with the shadow DOM, you have the power to manipulate its nodes jus
 Now that we understand the importance of Shadow DOM, let's explore how to create and manipulate Shadow DOM. You can create Shadow Dom by attaching a shadow root to any element using the `Element.attachShadow()` method. This takes as its parameter an options object that contains one option — `mode` — with a value of `open` or `closed`:
 
 ```js
-const shadowOpen = host.attachShadow({ mode: 'open' })
-const shadowClosed = host.attachShadow({ mode: 'closed' })
+const shadowOpen = host.attachShadow({ mode: "open" });
+const shadowClosed = host.attachShadow({ mode: "closed" });
 ```
 
 - `open`: The shadow DOM/ internal DOM of the component is accessible from outside JavaScript.
@@ -48,4 +48,3 @@ Shadow DOM provides a powerful tool for developers creating website extensions, 
 ## References
 
 - https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM
-

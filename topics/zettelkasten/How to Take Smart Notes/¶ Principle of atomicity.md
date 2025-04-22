@@ -19,10 +19,10 @@ But, notes should not be so narrowly focused that they become fragments. If note
 
 #### Related
 
--   [[Ideas are constellations]]
--   [[People fill information gaps with assumptions]]
--   [[Writing is thinking]]
-   
+- [[Ideas are constellations]]
+- [[People fill information gaps with assumptions]]
+- [[Writing is thinking]]
+
 #### Citations
 
 Ahrens, Sönke. _How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers_. Sönke Ahrens, 2017.

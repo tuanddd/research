@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-06-12T00:00:00.000Z
-description: Conway's Law explains how a company's communication structure shapes its software design, highlighting the need to align team organization with system architecture for better development outcomes.
+date: 2022-06-12
+description: "Conway's Law explains how a company's communication structure shapes its software design, highlighting the need to align team organization with system architecture for better development outcomes."
 authors:
   - Pham Duc Thanh
 github_id: zlatanpham
@@ -26,6 +26,6 @@ In reverse words, the way a company or a team is structured will determine how i
 - It tells us that organizational hierarchies should change as fast as either the need for internal innovation or external market pressure.
 
 #### References
+
 - https://intenseminimalism.com/2013/conways-law/
 - http://www.melconway.com/Home/Conways_Law.htmlConway
-

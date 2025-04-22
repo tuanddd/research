@@ -52,4 +52,3 @@ To conclude, when it comes to picking a language for application development, Go
 - Rob Pike. _"Go at Google: Language Design in the Service of Software Engineering"_, Google Inc, October 25, 2012. [Link](https://go.dev/talks/2012/splash.article)
 - Technoidentity. _"Opinion: Go vs Java Microservices"_, Technoidentity. [Link](https://www.technoidentity.com/insights/opinion-go-vs-java-microservices/)
 - Russell Cohen. _"Why you can have millions of Goroutines but only thousands of Java Threads"_, RCoh's Blog, April 12, 2018. [Link](https://rcoh.me/posts/why-you-can-have-a-million-go-routines-but-only-1000-java-threads/)
-

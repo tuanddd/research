@@ -86,7 +86,7 @@ func GetConfig() (Config, error) {
 
 ```go
 // If f panics, the returned function will panic with the same value on every call. (cached)
-func OnceFunc(f func()) func() { 
+func OnceFunc(f func()) func() {
   ...
 }
 
@@ -133,6 +133,7 @@ type Once struct {
 - Simply use mutex to lock and allows only 1 goroutine to enter; then if `done` is still 0 (function f hasn't run yet) set done to 1 and runs f()
 
 => Original version of sync.Once, written by Rob Pike in 2010
+
 ```go
 func (o *Once) Do(f func()) {
 	o.m.Lock()

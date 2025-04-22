@@ -1,6 +1,6 @@
 ---
 title: null
-date: 2023-06-07T00:00:00.000Z
+date: 2023-06-07
 description: Learn how to speed up Binance Kline API data retrieval by using a cached table to efficiently get highest and lowest cryptocurrency prices and timestamps within large date ranges.
 authors:
   - Minh Tran
@@ -17,12 +17,15 @@ tags:
 ---
 
 ## Introduction
+
 The Binance Kline API provides valuable data on cryptocurrency prices and timestamps. However, working with this API poses certain challenges, such as limitations on the number of records per request and requests per minute. This technical document proposes a solution to efficiently handle large date ranges and multiple symbols by utilizing a cached table.
 
 ## Requirement
+
 The main requirement is to obtain the highest and lowest prices along with their corresponding timestamps within a given date range. This information needs to be retrieved within a reasonable time frame, considering the limitations of the Binance Kline API.
 
 ## Challenge
+
 There are two primary challenges associated with working with the Binance Kline API:
 
 1. Limitations on records and requests: The API restricts each request to a maximum of 1000 records and allows only 2400 requests per minute. Consequently, processing long date ranges could take a significant amount of time. For example, a two-year date range would require approximately 10250 requests per symbol.
@@ -31,6 +34,7 @@ There are two primary challenges associated with working with the Binance Kline 
 To address these challenges, the solution aims to ensure a wait time of less than 10 seconds.
 
 ## Approach
+
 The proposed approach involves caching the highest and lowest price values, along with their timestamps, to expedite data retrieval. A table called "market_data_symbols" will be created and structured as follows:
 
 1. symbol: Represents the cryptocurrency symbol.
@@ -41,6 +45,7 @@ The proposed approach involves caching the highest and lowest price values, alon
 6. date: Represents the date for which the data is cached.
 
 ## Implementation
+
 The implementation of this approach consists of the following steps:
 
 1. Retrieve the list of symbols from the Binance exchange API.
@@ -52,17 +57,20 @@ The implementation of this approach consists of the following steps:
 ![[utilizing-cached-table-for-binance-kline-api-data-processing.png|500]]
 
 ## Results and Limitation
+
 ### Result
+
 Upon successful creation of the cached table, the following results can be observed:
 
 - Data retrieval for more than 200 symbols within a 2-year date range can be accomplished in less than 10 seconds.
 - There is no need to make additional requests to the Binance Kline API, as the cached table provides the required data efficiently.
 
 ### Limitation
+
 While the proposed solution offers significant advantages, it also has certain limitations:
 
 - The initial creation of the cached table may require a substantial amount of time. To mitigate this, the use of multiple threads and proxies can help bypass quota limitations imposed by Binance.
 
 ### Conclusion
-By employing a cached table to store and retrieve Binance Kline API data, the challenges of working with limited records and requests can be addressed effectively.
 
+By employing a cached table to store and retrieve Binance Kline API data, the challenges of working with limited records and requests can be addressed effectively.

@@ -9,6 +9,7 @@ tags:
 ---
 
 This is a [[Map of Content]] related to the blockchain.
+
 ## Foundational Topics
 
 - [[Blocks|Blocks]]
@@ -41,6 +42,4 @@ This is a [[Map of Content]] related to the blockchain.
 - [[Anchor framework|Anchor framework]]
 - [[Zero-knowledge Proofs|Zero-knowledge Proofs]]
 
-
-*This page was last modified at 2024-03-15T05:48:36.016Z*.
-
+_This page was last modified at 2024-03-15T05:48:36.016Z_.

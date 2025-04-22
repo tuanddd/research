@@ -24,10 +24,10 @@ Personas should be living, breathing documents. As knowledge about the user or c
 
 #### Related
 
--   [[§ Personas]]
--   [[Personas make abstract research concrete for design teams]]
--   [[Personas document shared understanding about users]]
--   [[Personas communicate research or they communicate assumptions]]
+- [[§ Personas]]
+- [[Personas make abstract research concrete for design teams]]
+- [[Personas document shared understanding about users]]
+- [[Personas communicate research or they communicate assumptions]]
 
 #### Related
 

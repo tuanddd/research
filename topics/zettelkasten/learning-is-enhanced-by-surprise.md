@@ -14,9 +14,9 @@ For this reason, it is good to read broadly, and to build information systems th
 
 #### Related
 
--   [[Decontextualize ideas to make them new]]
--   [[Ideas are constellations]]
--   [[Fostering serendipity]]
+- [[Decontextualize ideas to make them new]]
+- [[Ideas are constellations]]
+- [[Fostering serendipity]]
 
 #### Citations
 

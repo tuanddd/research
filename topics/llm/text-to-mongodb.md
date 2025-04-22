@@ -37,7 +37,7 @@ It's worth noting that the system prompts and the analysis itself was composed w
 
 Let's examine a system prompt developed for converting natural language to MongoDB queries:
 
-```markdown
+````markdown
 # System Prompt: Natural Language to MongoDB Query Converter
 
 You are an AI assistant that converts natural language queries into MongoDB queries. Your responses must contain ONLY the resulting MongoDB query enclosed in a JavaScript code block using triple backticks.
@@ -54,11 +54,12 @@ You are an AI assistant that converts natural language queries into MongoDB quer
    - Start with three backticks followed by 'js' (```js)
    - On a new line, write the MongoDB query
    - End with three backticks (```) on a new line
-8. If the intent is unclear or you cannot generate a valid query, respond with: ```js\nInvalid input\n```
+8. If the intent is unclear or you cannot generate a valid query, respond with: `js\nInvalid input\n`
 
 ## Prisma Schema Handling:
 
 When a Prisma schema is provided or mentioned:
+
 1. Use singular PascalCase for collection names (e.g., "User" instead of "users", "Task" instead of "tasks").
 2. Apply this naming convention to all references to collections, including in $lookup stages.
 3. Ensure consistency between the Prisma model names and the MongoDB collection names in your queries.
@@ -91,7 +92,7 @@ Remember to maintain case sensitivity for predefined constants and enum-like val
 
 Base your query on this schema (and constants):
 {{schema}}
-```
+````
 
 The scope of this system prompt is scaled down to some of the patterns present in an existing project of ours, but can be generally applied to any MongoDB database given the right schema. The system prompt we've examined is designed to address several crucial intents of data engineers and analysts. Let's explore each of these in more detail:
 
@@ -116,29 +117,29 @@ graph TD
 ```
 
 1. **Query Generation**:
-    - Intent: To quickly create valid database queries without manual coding.
-    - Implementation: The prompt interprets natural language and constructs corresponding MongoDB queries, reducing the time and expertise required for query formulation.
+   - Intent: To quickly create valid database queries without manual coding.
+   - Implementation: The prompt interprets natural language and constructs corresponding MongoDB queries, reducing the time and expertise required for query formulation.
 2. **Schema Consistency**:
-    - Intent: To maintain coherence between ORM models and database queries.
-    - Implementation: The prompt enforces the use of singular PascalCase for collection names when working with Prisma schemas, ensuring that generated queries align with the defined data models.
+   - Intent: To maintain coherence between ORM models and database queries.
+   - Implementation: The prompt enforces the use of singular PascalCase for collection names when working with Prisma schemas, ensuring that generated queries align with the defined data models.
 3. **Error Prevention**:
-    - Intent: To minimize common mistakes in query construction.
-    - Implementation: The prompt includes specific error handling guidelines, such as ensuring correct operator usage and proper formatting of conditions, reducing the likelihood of runtime errors.
+   - Intent: To minimize common mistakes in query construction.
+   - Implementation: The prompt includes specific error handling guidelines, such as ensuring correct operator usage and proper formatting of conditions, reducing the likelihood of runtime errors.
 4. **Complex Query Support**:
-    - Intent: To enable the creation of sophisticated queries involving multiple operations.
-    - Implementation: The system can identify and incorporate various elements like filters, sort orders, and aggregations, allowing for the generation of multi-stage pipeline queries.
+   - Intent: To enable the creation of sophisticated queries involving multiple operations.
+   - Implementation: The system can identify and incorporate various elements like filters, sort orders, and aggregations, allowing for the generation of multi-stage pipeline queries.
 5. **Code Formatting**:
-    - Intent: To produce clean, readable, and immediately executable query outputs.
-    - Implementation: The prompt specifies a consistent format for query output, using JavaScript code blocks, which facilitates easy integration into development environments.
+   - Intent: To produce clean, readable, and immediately executable query outputs.
+   - Implementation: The prompt specifies a consistent format for query output, using JavaScript code blocks, which facilitates easy integration into development environments.
 6. **Ambiguity Handling**:
-    - Intent: To manage unclear or incomplete query requests effectively.
-    - Implementation: The system is instructed to respond with "Invalid input" when the intent is unclear, prompting users to refine their requests and avoid misinterpretation.
+   - Intent: To manage unclear or incomplete query requests effectively.
+   - Implementation: The system is instructed to respond with "Invalid input" when the intent is unclear, prompting users to refine their requests and avoid misinterpretation.
 7. **ORM Integration**:
-    - Intent: To seamlessly work with Object-Relational Mapping systems, particularly Prisma.
-    - Implementation: By adhering to Prisma's naming conventions and schema structure, the generated queries can be more easily integrated into applications using Prisma as an ORM.
+   - Intent: To seamlessly work with Object-Relational Mapping systems, particularly Prisma.
+   - Implementation: By adhering to Prisma's naming conventions and schema structure, the generated queries can be more easily integrated into applications using Prisma as an ORM.
 8. **Date Handling**:
-    - Intent: To correctly process and query temporal data.
-    - Implementation: The prompt emphasizes the use of proper Date objects or ISODate() in queries, ensuring accurate handling of date-based operations and comparisons.
+   - Intent: To correctly process and query temporal data.
+   - Implementation: The prompt emphasizes the use of proper Date objects or ISODate() in queries, ensuring accurate handling of date-based operations and comparisons.
 
 By addressing these key intents, the system prompt enables a more efficient and error-resistant query generation process. It bridges the gap between natural language communication and database operations, making data querying more accessible to a broader range of users while still maintaining the precision required for effective data manipulation and analysis.
 
@@ -158,43 +159,44 @@ The use of advanced LLMs like Claude 3.5 Sonnet in natural language to database 
 The development of natural language to database query systems, powered by advanced AI models, has significant implications:
 
 1. **Democratizing Data Access**:
-    - Non-technical users can formulate complex queries without specialized knowledge.
-    - Data scientists can test hypotheses more quickly.
-    - Potential for cross-database compatibility, simplifying access across varied data stores.
+   - Non-technical users can formulate complex queries without specialized knowledge.
+   - Data scientists can test hypotheses more quickly.
+   - Potential for cross-database compatibility, simplifying access across varied data stores.
 2. **Enabling Near-Real-Time Analytics**:
-    - Reduces time from question to answer by eliminating manual query construction.
-    - Facilitates interactive, conversational data exploration.
-    - Enables on-the-fly, data-driven decision making for business users.
+   - Reduces time from question to answer by eliminating manual query construction.
+   - Facilitates interactive, conversational data exploration.
+   - Enables on-the-fly, data-driven decision making for business users.
 3. **Powering Agentic Workflows**:
-    
-    ```mermaid
-    graph LR
-        A[User Input] --> B[LLM Interpreter]
-        B --> C{Query Intent Clear?}
-        C -- Yes --> D[Generate Query]
-        C -- No --> E[Request Clarification]
-        E --> A
-        D --> F[Optimize Query]
-        F --> G[Execute Query]
-        G --> H[Return Results]
-        H --> I[LLM Explanation]
-        I --> J[User Review]
-    ```
-    
-    - AI agents can autonomously formulate and execute queries based on high-level instructions.
-    - Enables dynamic data interaction, with queries adapting based on intermediate results.
-    - Facilitates cross-domain integration through a common natural language interface.
+
+   ```mermaid
+   graph LR
+       A[User Input] --> B[LLM Interpreter]
+       B --> C{Query Intent Clear?}
+       C -- Yes --> D[Generate Query]
+       C -- No --> E[Request Clarification]
+       E --> A
+       D --> F[Optimize Query]
+       F --> G[Execute Query]
+       G --> H[Return Results]
+       H --> I[LLM Explanation]
+       I --> J[User Review]
+   ```
+
+   - AI agents can autonomously formulate and execute queries based on high-level instructions.
+   - Enables dynamic data interaction, with queries adapting based on intermediate results.
+   - Facilitates cross-domain integration through a common natural language interface.
+
 4. **Impact on Data Professionals**:
-    - Shift in skill set focus towards data interpretation and strategic analysis.
-    - Increased need for robust data governance frameworks.
-    - Growing importance of automated query optimization.
-    - Potential for more interdisciplinary collaboration in data-driven organizations.
+   - Shift in skill set focus towards data interpretation and strategic analysis.
+   - Increased need for robust data governance frameworks.
+   - Growing importance of automated query optimization.
+   - Potential for more interdisciplinary collaboration in data-driven organizations.
 5. **Challenges and Considerations**:
-    - Ensuring accurate interpretation of potentially ambiguous natural language.
-    - Minimizing performance overhead from the translation layer.
-    - Maintaining data literacy despite lowered technical barriers.
-    - Mitigating risks of overreliance on automated systems.
-    - Addressing ethical considerations and potential biases in AI-generated queries.
+   - Ensuring accurate interpretation of potentially ambiguous natural language.
+   - Minimizing performance overhead from the translation layer.
+   - Maintaining data literacy despite lowered technical barriers.
+   - Mitigating risks of overreliance on automated systems.
+   - Addressing ethical considerations and potential biases in AI-generated queries.
 
 ## Conclusion
 
@@ -318,7 +320,7 @@ ASSISTANT: """
           $filter: {
             input: "$userTasks",
             as: "task",
-            cond: { 
+            cond: {
               $and: [
                 { $ne: ["$$task.startDate", null] },
                 { $ne: ["$$task.endDate", null] }

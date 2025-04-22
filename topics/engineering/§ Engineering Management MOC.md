@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: Explore key engineering management concepts like Conway's law, team topologies, backlog grooming, and quality assurance to improve product development and team performance effectively.
+description: "Explore key engineering management concepts like Conway's law, team topologies, backlog grooming, and quality assurance to improve product development and team performance effectively."
 recurringTemplate: true
 recurringTemplateName: engineering-management-moc
 ---
@@ -31,6 +31,4 @@ This is a [[Map of Content]] related to the engineering concepts around manageme
 - [[Why DOM manipulation is slow?|Why DOM manipulation is slow?]]
 - [[Why Virtual DOM is fast?|Why Virtual DOM is fast?]]
 
-
-*This page was last modified at 2024-03-15T05:48:35.886Z*.
-
+_This page was last modified at 2024-03-15T05:48:35.886Z_.

@@ -36,6 +36,7 @@ tags:
 - a CNN (convolutional neural network) without any Python, training it on [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)
 
 as expected, Go code is longer and more explicit
+
 ```go
 // define the model graph
 func C10ConvModel(mlxctx *mlxcontext.Context, spec any, inputs []*graph.Node) []*graph.Node {

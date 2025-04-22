@@ -31,10 +31,7 @@ With Nix, "works on my machine" becomes "works on every machine." Here's why:
 
 - **Deterministic Builds**: Nix locks down every dependency, right down to the system libraries. Same inputs always equal the same outputs.
 - **Reproducibility**: Build an image today,
-Claude can make mistakes. Please double-check responses.
-
-
-
+  Claude can make mistakes. Please double-check responses.
 
 Docker's great, but let's face it: building images can be a pain. Enter Nix, the tool that's about to change your Docker game forever.
 
@@ -129,4 +126,3 @@ So, are you ready to take your Docker game to the next level? Give Nix a shot. Y
 - [Nix Pills Tutorial](https://nixos.org/guides/nix-pills/)
 - [NixOS Docker Tools](https://nixos.org/manual/nixpkgs/stable/#sec-pkgs-dockerTools)
 - [Docker Best Practices](https://docs.docker.com/develop/develop-images)
-

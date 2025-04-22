@@ -5,7 +5,15 @@ description: An introduction to Generative UI (genUI), a user interface that gen
 authors:
   - namnanh14mn
   - TheCodister
-hashnode_meta: {"coverImageOptions":{"coverImageURL":"https://memo.d.foundation/playground/ai/assets/generative-ui-example1.webp"},"id":"670f4d4eb25a9930f0551618","slug":"what-is-generative-ui"}
+hashnode_meta:
+  {
+    "coverImageOptions":
+      {
+        "coverImageURL": "https://memo.d.foundation/playground/ai/assets/generative-ui-example1.webp",
+      },
+    "id": "670f4d4eb25a9930f0551618",
+    "slug": "what-is-generative-ui",
+  }
 sync: hashnode
 tags:
   - ai
@@ -51,43 +59,45 @@ const askGPT = async () => {
   const ui = createStreamableUI()(
     // invoke some task
     async () => {
-      workflow = createAgentExecutor()
+      workflow = createAgentExecutor();
       // handle stream events from LLM
-      for await (const streamEvent of (runnable as Runnable<RunInput, RunOutput>).streamEvents(inputs, {
-        version: 'v2',
+      for await (const streamEvent of (
+        runnable as Runnable<RunInput, RunOutput>
+      ).streamEvents(inputs, {
+        version: "v2",
       })) {
         // handle event stream from LLM
-        ui.update(<UI props={data} />)
+        ui.update(<UI props={data} />);
       }
     },
-  )()
+  )();
 
-  return ui
-}
+  return ui;
+};
 ```
 
 ```tsx
 const Chat = () => {
-  const [elements, setElements] = useState([])
+  const [elements, setElements] = useState([]);
 
   const handleSubmit = (message: string) => {
     const ui = askGPT({
       message: message,
-    })
-    setElements([...elements, ui])
-  }
+    });
+    setElements([...elements, ui]);
+  };
 
   return (
     <form
       onSubmit={() => {
-        handleSubmit(inputValue)
+        handleSubmit(inputValue);
       }}
     >
       {elements}
       <input />
     </form>
-  )
-}
+  );
+};
 ```
 
 ### Pros:
@@ -126,19 +136,19 @@ By observing the behavior of Vercel AI SDK, we came up with a general idea and 2
 
 ```tsx
 // Example final message
-;[
+[
   {
-    type: 'text',
-    data: '......',
+    type: "text",
+    data: "......",
   },
   {
-    type: 'movie-search-tool',
+    type: "movie-search-tool",
     data: {
-      title: '.....',
-      description: '....',
+      title: ".....",
+      description: "....",
     },
   },
-]
+];
 ```
 
 ### Approach 2

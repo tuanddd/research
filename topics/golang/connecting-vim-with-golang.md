@@ -137,19 +137,19 @@ Next, continue typing command to install Go binaries
 You can basically code Go with only Vim go, but to make things easier, and also enhance its efficiency, you can research and add up some plugins as below
 
 ```javascript
-ack.vim
-bclose.vim
-bufexplorer
-nerdtree
-nerdcommenter
-csapprox
-vim - fugitive
-gitv
-vim - gitgutter
-syntastic
-neocomplete.vim
-neosnippet.vim
-auto - pairs
+ack.vim;
+bclose.vim;
+bufexplorer;
+nerdtree;
+nerdcommenter;
+csapprox;
+vim - fugitive;
+gitv;
+vim - gitgutter;
+syntastic;
+neocomplete.vim;
+neosnippet.vim;
+auto - pairs;
 ```
 
 In these:
@@ -218,4 +218,3 @@ Everything is ready! Your only job is to:
 - The key strong point in vim is customization, you should try to figure out how to create new mappings or function that helps fasten your coding process.
 
 These aspects is what I have learnt about Vim and how to code Go using Vim. There are a lot of things to discover in the world of Vim and I would love to hear all of your comments or sharing.
-

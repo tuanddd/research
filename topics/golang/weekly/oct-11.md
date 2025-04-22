@@ -12,9 +12,9 @@ tags:
 
 ## [Using Go Embed](https://www.bytesizego.com/blog/go-embed)
 
-- The ```go:embed``` directive tells the Go compiler to include files and folders into the compiled binary at build time. This means your application can access these resources directly from memory without needing to read from the disk at runtime.
+- The `go:embed` directive tells the Go compiler to include files and folders into the compiled binary at build time. This means your application can access these resources directly from memory without needing to read from the disk at runtime.
 
-- Usage: 
+- Usage:
 
   - with a single file message.txt ("hello from bytesizego!")
 
@@ -76,7 +76,6 @@ tags:
   }
   ```
 
-
 - Limitations:
 
   - File Size: Embedding large files can significantly increase your binary size.
@@ -84,39 +83,38 @@ tags:
 
 ## [Reflecting on Go Reflection](https://www.dolthub.com/blog/2024-10-04-reflecting-on-reflect/)
 
-  - Context: using generative AI tooling, generated code using Reflect package
+- Context: using generative AI tooling, generated code using Reflect package
 
-  ```go
-  bsVal := reflect.ValueOf(blockStore).Elem()
+```go
+bsVal := reflect.ValueOf(blockStore).Elem()
 
-  tables := bsVal.FieldByName("tables")
+tables := bsVal.FieldByName("tables")
 
-  typ := tables.Type()
-  fmt.Printf("tables.Type: %v\n", typ)
-  for i := 0; i < typ.NumField(); i++ {
-    fmt.Printf("tables %d: %s\n", i, typ.Field(i).Name)
-  }
-  for i := 0; i < typ.NumMethod(); i++ {
-    fmt.Printf("method %d: %s\n", i, typ.Method(i).Name)
-  }
-  ```
+typ := tables.Type()
+fmt.Printf("tables.Type: %v\n", typ)
+for i := 0; i < typ.NumField(); i++ {
+  fmt.Printf("tables %d: %s\n", i, typ.Field(i).Name)
+}
+for i := 0; i < typ.NumMethod(); i++ {
+  fmt.Printf("method %d: %s\n", i, typ.Method(i).Name)
+}
+```
 
-  - [Laws of Reflection](https://go.dev/blog/laws-of-reflection)
+- [Laws of Reflection](https://go.dev/blog/laws-of-reflection)
 
-    - Reflection goes from interface value to reflection object
+  - Reflection goes from interface value to reflection object
 
-    - Reflection goes from reflection object to interface value
+  - Reflection goes from reflection object to interface value
 
-    - To modify a reflection object, the value must be settable
+  - To modify a reflection object, the value must be settable
 
-    => In short, the *Interface* method is the inverse of the *ValueOf* function, except that its result is always of static type interface{}.
-    Reiterating: Reflection goes from interface values to reflection objects and back again.
+  => In short, the _Interface_ method is the inverse of the _ValueOf_ function, except that its result is always of static type interface{}.
+  Reiterating: Reflection goes from interface values to reflection objects and back again.
 
-  - Zeroth Law: Use reflect at your own peril. Misuse it, and it will *panic* with no regrets.
+- Zeroth Law: Use reflect at your own peril. Misuse it, and it will _panic_ with no regrets.
 
 ---
 
 https://www.bytesizego.com/blog/go-embed
 
 https://www.dolthub.com/blog/2024-10-04-reflecting-on-reflect/
-

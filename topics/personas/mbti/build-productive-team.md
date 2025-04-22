@@ -15,4 +15,5 @@ Here are a few ways you can use personality assessments to improve your teams an
 - Know your own style
 
 ### Citations
+
 [Practices from Zapier](https://zapier.com/blog/personality-tests/)

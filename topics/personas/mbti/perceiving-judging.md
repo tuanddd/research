@@ -2,14 +2,14 @@
 title: Perceiving vs Judging
 date: null
 description: Discover the key traits of J and P personality types, including their decision-making styles, work preferences, and communication habits to better understand behavior and learning approaches.
-tag: 'MBTI, preferences'
-URL: >-
-  https://drive.google.com/file/d/1n8ID_iXqzs6cMZlRS0Su7lQUhrfd7khh/view?usp=sharing
+tag: MBTI, preferences
+URL: "https://drive.google.com/file/d/1n8ID_iXqzs6cMZlRS0Su7lQUhrfd7khh/view?usp=sharing"
 ---
 
 Book: My True Type, page 46 - 57
 
 > Characteristics of J Types:
+
 - Outwardly firm, direct, and opinionated
 - Undeterred from directly expressing their views or wishes (especially EJs); utilize declarative statements
 - Tone and mannerisms convey a sense of closure, seriousness, or formalness
@@ -22,6 +22,7 @@ Book: My True Type, page 46 - 57
 - Less restless and less dependent on a breadth of activities for stimulation (especially IJs)
 
 > Characteristics of P Types:
+
 - Outwardly open, receptive, and adaptable
 - Can be reluctant to state things directly (especially IPs); may express themselves in a more tangential fashion (e.g., using hints or questions)
 - Are typically unenthusiastic about making detailed plans, especially when involving other people; enjoy the uncertainty of leaving things open-ended

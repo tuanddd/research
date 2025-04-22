@@ -4,7 +4,15 @@ date: 2024-10-11
 description: Logs are like the footprints of your LLM, tracking every move it makes. We will look at how logging can help you see beneath the top layer of a system, which can help you troubleshoot problems and better understand the system behavior.
 authors:
   - datnguyennnx
-hashnode_meta: {"coverImageOptions":{"coverImageURL":"https://memo.d.foundation/playground/ai/building-llm-system/assets/logs-pillar-sample-rag-system.webp"},"id":"670f4d47aec5a6a939f51323","slug":"logging"}
+hashnode_meta:
+  {
+    "coverImageOptions":
+      {
+        "coverImageURL": "https://memo.d.foundation/playground/ai/building-llm-system/assets/logs-pillar-sample-rag-system.webp",
+      },
+    "id": "670f4d47aec5a6a939f51323",
+    "slug": "logging",
+  }
 sync: hashnode
 tags:
   - llm
@@ -135,4 +143,3 @@ While logging might feel like a small detail in the bigger picture of generative
 - https://docs.smith.langchain.com/old/cookbook/tracing-examples/traceable
 - https://medium.com/@simon_attard/leveraging-large-language-models-in-your-software-applications-9ea520fb2f34
 - https://www.researchgate.net/figure/An-LLM-based-agent-autonomously-reasons-about-tasks-and-composes-external-tools-to_fig1_376401381
-

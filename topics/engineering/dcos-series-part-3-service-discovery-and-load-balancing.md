@@ -1,6 +1,6 @@
 ---
 title: Dcos Series Part 3 Service Discovery And Load Balancing
-date: 2017-05-17T00:00:00.000Z
+date: 2017-05-17
 description: Learn how to use Marathon Load Balancer in Mesosphere DCOS for efficient service discovery, load balancing, and virtual host routing with HAProxy in your containerized apps.
 tags:
   - dcos
@@ -10,12 +10,12 @@ The Mesosphere Datacenter Operating System (DCOS) provides useful tooling for se
 
 After you boot a DCOS cluster, all tasks can be discovered by using Mesos-DNS. Discovery through DNS, however, has some limitations that include:
 
-* DNS does not identify service ports, unless you use an SRV query; most apps are not able to use SRV records “out of the box.”
-* DNS does not have fast failover.
-* DNS records have a TTL (time to live) and Mesos-DNS uses polling to create the DNS records; this can result in stale records.
-* DNS records do not provide any service health data.
-* Some applications and libraries do not correctly handle multiple A records; in some cases the query might be cached and not correctly reloaded as required.
-* To address these concerns, we provide a tool for Marathon called Marathon Load Balancer, or marathon-lb for short.
+- DNS does not identify service ports, unless you use an SRV query; most apps are not able to use SRV records “out of the box.”
+- DNS does not have fast failover.
+- DNS records have a TTL (time to live) and Mesos-DNS uses polling to create the DNS records; this can result in stale records.
+- DNS records do not provide any service health data.
+- Some applications and libraries do not correctly handle multiple A records; in some cases the query might be cached and not correctly reloaded as required.
+- To address these concerns, we provide a tool for Marathon called Marathon Load Balancer, or marathon-lb for short.
 
 Marathon-lb is based on HAProxy, a rapid proxy and load balancer. HAProxy provides proxying and load balancing for TCP and HTTP based applications, with features such as SSL support, HTTP compression, health checking, Lua scripting and more. Marathon-lb subscribes to Marathon’s event bus and updates the HAProxy configuration in real time.
 
@@ -234,4 +234,3 @@ So, your configuration file will be like this:
 or, you also can access by this way `<public-node-elb>`:`<service-port>`
 
 ![](assets/dcos-series-part-3---service-discovery-and-load-balancing_d90d63eed205052f3f560b4a6ebd5fba_md5.webp)
-

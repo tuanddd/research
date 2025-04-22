@@ -35,7 +35,7 @@ Shopify overhauled its decade-old mobile app using React Native, reducing 1.8M l
 
 ### [Exploring Next.js 15: What's new and why it's better than ever](https://aviral-blogs.hashnode.dev/exploring-nextjs-15-whats-new-and-why-its-better-than-ever)
 
-Next.js 15 enhances build speed, improves developer experience, and adds new features like full support for React Server Components and expanded App Router functionality. It also improves image optimization with dynamic resizing and global caching. 
+Next.js 15 enhances build speed, improves developer experience, and adds new features like full support for React Server Components and expanded App Router functionality. It also improves image optimization with dynamic resizing and global caching.
 
 ### [Advanced search param filtering](https://aurorascharff.no/posts/managing-advanced-search-param-filtering-next-app-router/)
 
@@ -62,7 +62,6 @@ Container queries enable responsive design by allowing elements to adjust based 
 - [HTML login form best practices](https://evilmartians.com/chronicles/html-best-practices-for-login-and-signup-forms)
 
 ## Trending
-
 
 ### [TanStack Start: A Full-Stack React framework for modern web apps](https://tanstack.com/start/latest)
 
@@ -95,4 +94,3 @@ Storybook Test revolutionizes frontend testing by integrating component, visual,
 - [Why a perfect Lighthouse score isn't everything](https://www.smashingmagazine.com/2024/11/why-optimizing-lighthouse-score-not-enough-fast-website/)
 - [Headless components](https://www.subframe.com/blog/how-headless-components-became-the-future-for-building-ui-libraries)
 - [State of CSS survey analysis](https://www.oddbird.net/2024/11/04/css-demographics/)
-

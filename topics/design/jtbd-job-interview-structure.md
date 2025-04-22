@@ -46,8 +46,8 @@ This interview structure can be used to uncover customer jobs-to-be-done.
 
 #### Related
 
--   [[¶ Persona]]
--   [[Methods to overcome the limitations of personas]]
+- [[¶ Persona]]
+- [[Methods to overcome the limitations of personas]]
 
 #### Citations
 

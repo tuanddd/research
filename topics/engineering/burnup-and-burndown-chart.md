@@ -1,6 +1,6 @@
 ---
 title: null
-date: 2023-02-28T00:00:00.000Z
+date: 2023-02-28
 description: Learn how Burnup and Burndown charts help project managers track product development progress by showing completed work, remaining tasks, and timeline status clearly to clients.
 authors:
   - Nhut Huynh
@@ -23,6 +23,7 @@ Then, definitely, they will need some type of the report like the specific chart
 There are 2 different types of chart can follow up: Burnup and Burndown.
 
 ## What is a Burndown chart?
+
 For this chart, we are using for visualizing the amount of work left to complete in a specific project development, to see if how quickly a team is moving forward to reach the common goal.
 
 ![](assets/burnup-and-burndown-chart_burndown_chart_example.webp)
@@ -35,6 +36,7 @@ Based on the reference documents, those are 4 items to show how and when we use 
 > - Remaining tasks versus time remaining
 
 ## What is a Burnup chart?
+
 With this chart, it is used to track how much of a specific project, features has been completed within a planning timeline. To see if the product team is making thing on the exact timeline that they had planned.
 
 ![](assets/burnup-and-burndown-chart_burnup_chart.webp)
@@ -47,9 +49,10 @@ Same with the Burndown chart, we will have 4 items to show how and when we use t
 > - Work that is added to the scope or into an existing sprint
 
 ## Differences between Burndown and Burnup
+
 Basically, when wanting to see what is left to be completed on the giving timeline, we can use Burndown chart to track. On the other hands, if we want to see what are the things that the team had done to highlight, also for checking if there any popup work is added into the timeline to have an impact on it.
 
 ## Reference
+
 - [Burndown and Burnup charts: What's the Difference and How to use them](https://rindle.com/blog/burndown-and-burnup-charts-whats-the-difference-and-how-to-use-them)
 - [Burndown vs Burnup Chart](https://www.projectmanagement.com/blog/blogPostingView.cfm?blogPostingID=40731&thisPageURL=/blog-post/40731/Burndown-vs-Burnup-Chart#_=_)
-

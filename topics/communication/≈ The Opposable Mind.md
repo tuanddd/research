@@ -15,14 +15,14 @@ The most successful leaders practice what Martin calls "integrative thinking": a
 
 ### Integrative thinking
 
--   [[Qualities of an integrative thinker]]
--   [[Put mental models in conversation with one another]]
--   [Perspective comprises our stance, our tools, and our experience](https://publish.obsidian.md/mobydiction/notes/Perspective+comprises+our+stance%2C+our+tools%2C+and+our+experience)
+- [[Qualities of an integrative thinker]]
+- [[Put mental models in conversation with one another]]
+- [Perspective comprises our stance, our tools, and our experience](https://publish.obsidian.md/mobydiction/notes/Perspective+comprises+our+stance%2C+our+tools%2C+and+our+experience)
 
 ### Salience
 
--   [[Salience is subjective]]
--   [Specialization narrows our perspective on what is salient to a problem](https://publish.obsidian.md/mobydiction/notes/Specialization+narrows+our+perspective+on+what+is+salient+to+a+problem)
+- [[Salience is subjective]]
+- [Specialization narrows our perspective on what is salient to a problem](https://publish.obsidian.md/mobydiction/notes/Specialization+narrows+our+perspective+on+what+is+salient+to+a+problem)
 
 #### Citation
 

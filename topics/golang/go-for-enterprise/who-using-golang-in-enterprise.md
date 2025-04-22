@@ -11,6 +11,7 @@ tags:
 ---
 
 ## Who is using Go in enterprise?
+
 ### Technology Giants
 
 - Google
@@ -98,4 +99,3 @@ https://einride.engineering/docs/tech-radar/backend#go
 https://github.com/cloudflare?language=go
 
 https://github.com/dropbox?language=go
-

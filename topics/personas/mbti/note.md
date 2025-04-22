@@ -5,4 +5,3 @@ description: Discover detailed insights into the 16 personality types, helping y
 ---
 
 https://www.16personalities.com/personality-types
-

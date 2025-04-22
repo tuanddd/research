@@ -16,8 +16,8 @@ This can be problematic. As Alan Klement argues, in the absence of this informat
 
 #### Related
 
--   [[Narratives generate real-world effects]]
--   [[People fill information gaps with assumptions]]
+- [[Narratives generate real-world effects]]
+- [[People fill information gaps with assumptions]]
 
 #### Citations
 

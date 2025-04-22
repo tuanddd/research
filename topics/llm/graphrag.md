@@ -72,4 +72,3 @@ GraphRAG is ideal for tackling complex tasks such as multi-hop reasoning and ans
 - https://arxiv.org/abs/2404.16130
 - https://microsoft.github.io/graphrag/
 - https://medium.com/@zilliz_learn/graphrag-explained-enhancing-rag-with-knowledge-graphs-3312065f99e1
-

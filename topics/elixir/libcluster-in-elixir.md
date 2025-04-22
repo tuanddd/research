@@ -1,6 +1,6 @@
 ---
 title: null
-date: 2022-11-02T00:00:00.000Z
+date: 2022-11-02
 description: Learn how to set up Elixir node clustering with Libcluster on Kubernetes to build scalable, high-performance applications using Erlang features and reduce operational costs effectively.
 authors:
   - Hieu Phan
@@ -16,22 +16,26 @@ tags:
 ---
 
 In the Dwarves Foundation, we applied some practices to decrease the operation cost. We set up the runtime environments in the team.
+
 - We are using docker and docker-compose in the development environment.
 - Apply CI/CD in the development life cycle.
 - Apply K8s in the production.
-We have followed and used the Elixir stack for several years. In the beginning, we used docker for production and vertical scaling. We didn't use the super-powerful of [Erlang and OTP](https://www.erlang.org/). When constructing Elixir applications, setting up an Erlang node cluster could be required for several factors, including high availability, redundancy, or the requirement to share a global state without relying on an external DBMS.
+  We have followed and used the Elixir stack for several years. In the beginning, we used docker for production and vertical scaling. We didn't use the super-powerful of [Erlang and OTP](https://www.erlang.org/). When constructing Elixir applications, setting up an Erlang node cluster could be required for several factors, including high availability, redundancy, or the requirement to share a global state without relying on an external DBMS.
 
 ## The problem and Motivation
+
 We consistently applied the latest practice in the development life cycle. Dwarves Foundation changed languages, toolsets, architectures, and development processes to build high-performance products. We're using Golang and Elixir in the production environment.
+
 - From Golang's side, the application(Server, CLI tool) is small and does a specific task. In the [microservices](https://microservices.io/patterns/microservices.html) architecture or [event sourcing](https://microservices.io/patterns/data/event-sourcing.html) architecture, Golang's applications as know as the workers. We can easy horizontal scale up the Golang workers; however, each worker is separated in the cluster. They don't communicate about their task to share the workload or collaboration. The Golang has no built-in technique for sending messages between servers.
 - On the other side, Elixir, we may create modularized applications with an excellent performance by building on top of GenServers and Supervision trees. The mindset changed from an imperative to a declarative paradigm. Each module in Elixir looks like a service in the microservice architecture; they do the separating tasks. Your production infrastructure is generally not designed to support OTP apps if you're only beginning to integrate Elixir into your stack.
-**Libcluster** makes it simple to accomplish this. It supports a variety of techniques, as can be seen [in the documentation](https://hexdocs.pm/libcluster/readme.html). In this document, we go through the Libcluster's feature and set up a cluster in Kubernetes.
+  **Libcluster** makes it simple to accomplish this. It supports a variety of techniques, as can be seen [in the documentation](https://hexdocs.pm/libcluster/readme.html). In this document, we go through the Libcluster's feature and set up a cluster in Kubernetes.
 
 ## Setup K8s in the Elixir project
+
 - Prepare the environment.
 - Make `Dockerfile` to build a docker image.
 - Apply the configuration to K8s
-In the Elixir toolset, they supported the release feature as a standard. We can make a release preparation using some commands.
+  In the Elixir toolset, they supported the release feature as a standard. We can make a release preparation using some commands.
 
 ```bash
 mix release.init
@@ -71,25 +75,30 @@ ENTRYPOINT ["_build/prod/rel/ex_cluster/bin/ex_cluster", "start"]
 ```
 
 Build the image using the docker and running.
+
 ```bash
 docker build -t ex_cluster:local .
 docker run --rm ex_cluster:local
 ```
 
 ## Libcluster and integration with Kubernetes
+
 "Libcluster provides a mechanism for automatically forming clusters of Erlang nodes, with either static or dynamic node membership. It provides a pluggable "strategy" system, with various strategies provided out of the box."
 
 ### Connection [strategies](https://github.com/bitwalker/libcluster#clustering)
+
 This document goes through some strategies in the DF team's practice. You can browse the detail in the original library document.
 
 1. `Cluster.Strategy.Epmd`, which relies on Erlang's built-in distribution protocol. We can use this strategy for locally.
 2. `Cluster.Strategy.Kubernetes`, which uses the Kubernetes Metadata API to query nodes based on a label selector and basename.
 3. `Cluster.Kubernetes.DNS`, which uses DNS to join nodes under a shared headless service in a given namespace. This clustering strategy works by loading all your Erlang nodes (within Pods) in the current [Kubernetes namespace](https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/). It will fetch the addresses of all pods under a shared headless service and attempt to connect. It will continually monitor and update its connections every 5s.
-We will set up the production and development follow below steps
+   We will set up the production and development follow below steps
+
 - Integrate Libcluster: add the library, and configure the project in config.
 - K8s deployment configuration
 
 ### Integrate library
+
 Add the libray to project and make some configuration
 
 ```elixir
@@ -111,7 +120,9 @@ mix deps.get
 ```
 
 ### K8s configuration
+
 Ideally, Libcluster read the information about the neighbor pod using Kubernestes Metadata API. Therefore we need to grant the permission to pod using [service account](https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/) feature. Each node is setup a name follow the format `app@127.0.0.1`, the app name and pod's IP will setup in configuration file `rel/env.sh.eex`.
+
 - Setup the env in `rel` folder.
 - Grant permissions and setup the service configuration files.
 
@@ -121,6 +132,7 @@ export POD_A_RECORD=$(echo $POD_IP | sed 's/\./-/g')
 export RELEASE_DISTRIBUTION=name
 export RELEASE_NODE=ex-cluster@$(echo $POD_IP)
 ```
+
 We prepare the `POD_IP` env variable when setup the K8s deployment
 
 ```yaml
@@ -205,13 +217,14 @@ spec:
   selector:
     app: ex-cluster
   ports:
-  - name: epmd
-    port: 4369
+    - name: epmd
+      port: 4369
 ```
 
 We can see the `ports` attribute is different with normal way. This configuration help Libcluster can communicate via port 4369.
 
 ### Setup the development and production config
+
 In Elixir, the configs are placed in the `config` folder. We can config the Libcluster's connection strategy for each environment. `Cluster.Strategy.Epmd` for development and `Cluster.Strategy.Kubernetes.DNS` for production.
 
 ```elixir
@@ -229,6 +242,7 @@ config :libcluster,
 ```
 
 We used the service names `ex-cluster-svc` and application names for the setup.
+
 ```elixir
 # config/prod.exs
 config :libcluster,
@@ -264,6 +278,7 @@ end
 ```
 
 ### Run locally
+
 ```bash
 iex --name a@127.0.0.1 --cookie secret -S mix
 
@@ -277,6 +292,7 @@ iex(b@127.0.0.1)> Node.list()
 We can see the `b@127.0.0.1` connect with `a@127.0.0.1` automatically.
 
 ### Apply configuration for K8s
+
 ```bash
 kubectl apply -f k8s/
 
@@ -286,12 +302,13 @@ kubectl logs ex-cluster-f8fcd4f46-22hkw
 The services will start completely.
 
 ## Conclusion
+
 In the meantime, we can take advantage of Elixir's power. We can easy to scale the service in a cluster using K8s, and they can communicate via the Erlang features. The cost-cutting may include reducing 3rd-party service and communication logic in the code base.
 
 ## References
+
 - https://github.com/bitwalker/libcluster
 - https://github.com/bitwalker/libcluster/issues/54
 - https://medium.com/@groksrc/elixir-kubernetes-part-3-9bbd71c9c370
 - https://mbuffa.github.io/tips/20201022-elixir-clustering-on-kubernetes/
 - https://github.com/hieuphq/ex_cluster
-

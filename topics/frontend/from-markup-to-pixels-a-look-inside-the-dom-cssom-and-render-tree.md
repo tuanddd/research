@@ -94,4 +94,3 @@ _Image Source: [Inside look at modern web browser (part 3)](https://developer.ch
 - https://blog.logrocket.com/how-browser-rendering-works-behind-scenes/
 - https://dev.to/arikaturika/series/17842
 - https://twitter.com/alexxubyte/status/1534201516063461376
-

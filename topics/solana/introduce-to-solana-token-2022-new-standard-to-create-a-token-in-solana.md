@@ -93,4 +93,3 @@ Token extensions are already seeing adoption across the ecosystem.
 ## References
 
 https://solana.com/developers/guides/token-extensions/getting-started
-

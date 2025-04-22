@@ -1,6 +1,6 @@
 ---
 title: null
-date: 2022-09-18T00:00:00.000Z
+date: 2022-09-18
 description: Learn how to build powerful Xcode command line tools using Swift, covering CLI app structure, commands, options, flags, and creating custom build tools for automation and safer coding.
 authors:
   - Phan Viet Trung
@@ -14,7 +14,8 @@ tags:
 ---
 
 ## How to create an XCode build tools with Swift
-As a developer, we are using command line tool apps frequently, like for simple tasks such as: navigation between directories with `cd /Desktop`, making a new folder with `mkdir newfolder` , deleting files with `rm -f filename` - as well as friendly GIT commands: `git checkout master`,  `git pull`, etc. Command line tools are easy to use, very lightweight and run very fast, by avoiding to use a full user interface.
+
+As a developer, we are using command line tool apps frequently, like for simple tasks such as: navigation between directories with `cd /Desktop`, making a new folder with `mkdir newfolder` , deleting files with `rm -f filename` - as well as friendly GIT commands: `git checkout master`, `git pull`, etc. Command line tools are easy to use, very lightweight and run very fast, by avoiding to use a full user interface.
 
 A lot of them are built directly in your machine. You can easly find them in the following paths: `/usr/bin` and `/usr/local/bin`
 
@@ -31,11 +32,13 @@ In this series of `Command line tools`, we cover through three main topics:
     3. Create an XCode build tools using Swift CLI.
 
 ## The structure of the CommandLine tool app
-```command [arguments] [options] [flag]```
+
+`command [arguments] [options] [flag]`
 
 Ex: `git push origin master -f`
 
 ### Command
+
 `command` is the beginning or start of a CLI command, we also call it the main command, because we have a subcommand and default command later. Think it like the way we open an app.
 
 Ex: `git, cd, ls, mkdir` are very popular commands.
@@ -43,6 +46,7 @@ Ex: `git, cd, ls, mkdir` are very popular commands.
 _Note: Somewhere may call the main command as `app` and subcommand as `command`_
 
 ### Arguments
+
 `arguments` are used to pass data to commandline app.
 
 `command arg1 arg2`
@@ -63,6 +67,7 @@ Ex: We are in master branch, default remote is origin and run:
 In this example, the above argument `origin` is not required and is automatically set based on the current checkout branch.
 
 ### Options
+
 `Options` are named parameters that can be passed to a command and are represented by key-value pairs.
 
 `Options` are generally preceded by a hyphen (-), and for most commands, more than one option can be strung together.
@@ -73,32 +78,37 @@ If the parameter is required, using `Arguments` instead.
 
 `command -[option][option][option]`
 
-Ex: ```git commit --message "commit message"```
+Ex: `git commit --message "commit message"`
 
 `--message` is the key and `"commit message"` is the value.
 
 ### Flag
+
 Flag is the 'Options' that don't required value
 
 Ex: `git push -f`. `-f` is the optional to tell we want force push, ignore and replace all contents of the current remote brand.
 
 ### Long and sort options
+
 Unlike `Arguments` using its position to determine what the argument is intended for, the position of `Optional` does not matter. We use 'Key' to filter the type of Option, hence the name may be long to type.
 
 To quick and easy to type we can add a shorter version of the 'Key' with Flags
 
 Ex:
+
 - `git push --force` or `git push -f`,
 - `npm install --help`
 
 Here we can see many forms of `--help` flag like: `-h, -?, -H`, that is the shorter version of `--help`.
 
 ### The Subcommands
+
 The CommandLine tool app usually have many features, is easy to use, and especially uses subcommands to separate intent.
 
 A subcommand is passed following the main command. It has its own set of `Option(s)` and `Flag(s)`.
 
 Ex:
+
 - `git checkout`
 - `git commit`
 
@@ -111,6 +121,7 @@ Using subcommands are not only easy to use and read, but also helps us to easily
 The `Help` command and related flags will be covered later.
 
 ### The default command
+
 The default command is the command called when you pass nothing to the app.
 
 Ex: `git`
@@ -124,6 +135,7 @@ usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
 ```
 
 ### The `help` command/flags for documentation
+
 The lack of a user interface means we require some guide on how to use the command line app.
 There are 2 types of help: the subcommand and the flag.
 
@@ -175,8 +187,8 @@ Commit message options
 ............
 ```
 
-_Note: The inclusion of `help`  is not required, but is highly recommended to have it in your CLI app._
+_Note: The inclusion of `help` is not required, but is highly recommended to have it in your CLI app._
 
 ## Reference
-- <https://dev.to/paulasantamaria/command-line-interfaces-structure-syntax-2533>
 
+- <https://dev.to/paulasantamaria/command-line-interfaces-structure-syntax-2533>

@@ -5,7 +5,15 @@ description: This article explores Langchain document loaders, explaining their 
 authors:
   - monotykamary
 github_id: monotykamary
-hashnode_meta: {"coverImageOptions":{"coverImageURL":"https://memo.d.foundation/playground/ai/assets/working-with-langchain-document-loaders_langchain-document-loader-flow.webp"},"id":"670f4d4b4d1924a802ea8937","slug":"working-with-langchain-document-loaders"}
+hashnode_meta:
+  {
+    "coverImageOptions":
+      {
+        "coverImageURL": "https://memo.d.foundation/playground/ai/assets/working-with-langchain-document-loaders_langchain-document-loader-flow.webp",
+      },
+    "id": "670f4d4b4d1924a802ea8937",
+    "slug": "working-with-langchain-document-loaders",
+  }
 sync: hashnode
 tags:
   - ai
@@ -38,6 +46,7 @@ In order to get question and answering from prompts, we follow 4 steps with lang
 Below is an example using a CSV file through an agent. This CSV contains `red-alert` channel data from Dwarves' discord as the context for our questions that we will be asking later.
 
 0. First we load all of our `pip` packages
+
 ```sh
 pip install langchain openai huggingface_hub gitpython chromadb tiktoken google-api-python-client llama-cpp-python
 ```

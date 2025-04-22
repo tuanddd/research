@@ -98,7 +98,7 @@ The browser provide an API for creating and managing WebSocket connection as wel
 We can instantiate a new WebSocket connection, linking to the WebSocket server, and it will start connecting immediately.
 
 ```typescript
-const socket = new WebSocket('ws://localhost:8080')
+const socket = new WebSocket("ws://localhost:8080");
 ```
 
 ### WebSocket Events
@@ -107,13 +107,13 @@ In total, there are 4 events we can listen to are `open`, `message`, `error`, an
 
 ```typescript
 // Connection opened
-socket.addEventListener('open', (event) => {})
+socket.addEventListener("open", (event) => {});
 // Receive messages from server
-socket.addEventListener('message', (event) => {})
+socket.addEventListener("message", (event) => {});
 // Connection Error
-socket.addEventListener('error', (event) => {})
+socket.addEventListener("error", (event) => {});
 // After connection closed
-socket.addEventListener('close', (event) => {})
+socket.addEventListener("close", (event) => {});
 ```
 
 **Sending message** The `socket.send(body)` method allow sending a message to the server. The `body` argument can be a `string` or `binary format type` such as `ArrayBuffer`, `Blob`.
@@ -124,22 +124,22 @@ Access `event.data` for incomming message
 
 ```typescript
 socket.onmessage = (event) => {
-  console.log(event.data)
-}
+  console.log(event.data);
+};
 ```
 
 - For Text message, `event.data` will always be `string`
 - For `binary type` message, user can choose between `Blob` and `ArrayBuffer` by assign `WebSocket.binaryType='arraybuffer` _(default is `blob`)_ then `event.data` will be the appropriate type
 
 ```typescript
-socket.binaryType = 'arraybuffer'
+socket.binaryType = "arraybuffer";
 socket.onmessage = (event) => {
   if (event.data instanceof ArrayBuffer) {
     // Handling binary message
-    return
+    return;
   }
   // Handling String message
-}
+};
 ```
 
 ### Rate Limiting
@@ -150,7 +150,7 @@ When user has a slow network connection. After calling `WebSocket.send(...)` the
 
 ```typescript
 if (socket.bufferedAmount === 0) {
-  socket.send(moreData())
+  socket.send(moreData());
 }
 ```
 
@@ -159,12 +159,12 @@ if (socket.bufferedAmount === 0) {
 For sending `close frame` from browser WebSocket, simply call `WebSocket.close(code, reason)`.
 
 ```typescript
-socket.close(1000, 'Complete') // both argument is optional
+socket.close(1000, "Complete"); // both argument is optional
 socket.onclose = (event) => {
-  const { code, reason, wasClean } = event
-  console.log({ code, reason, wasClean })
+  const { code, reason, wasClean } = event;
+  console.log({ code, reason, wasClean });
   // { code: 1000, reason: "Complete", wasClean: true }
-}
+};
 ```
 
 #### \*Common code
@@ -182,4 +182,3 @@ User can access `WebSocket.readyState` for getting the current state of a WebSoc
 - `1`: OPEN - Connection is open and ready to communicate
 - `2`: CLOSING - Connection is in closing process
 - `3`: CLOSED - Connection is closed or could not be opened
-

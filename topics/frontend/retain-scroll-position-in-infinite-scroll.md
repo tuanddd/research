@@ -87,4 +87,3 @@ This makes sense since as mentioned above, when user clicks on an item and is na
 ## Reference
 
 - https://www.explainxkcd.com/wiki/index.php/1309:_Infinite_Scrolling
-

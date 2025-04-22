@@ -81,4 +81,3 @@ So the next time you're adding a package to your Devbox project, remember: there
 - [Creating Custom Devbox Plugins](https://www.jetify.com/devbox/docs/guides/creating_plugins/)
 - [Nix Package Manager](https://nixos.org/)
 - [Nginx Documentation](https://nginx.org/en/docs/)
-

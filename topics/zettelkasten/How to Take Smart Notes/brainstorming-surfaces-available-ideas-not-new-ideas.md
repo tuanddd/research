@@ -18,12 +18,11 @@ Ideally, you should never be in a position where you _have_ to brainstorm. Inste
 
 #### Related
 
--   [[Knowledge work means transforming old ideas into new ones]]
--   [[Optimize to be wrong, not right]]
+- [[Knowledge work means transforming old ideas into new ones]]
+- [[Optimize to be wrong, not right]]
 
 #### Citation
 
 Ahrens, Sönke. _How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers_. Sönke Ahrens, 2017.
 
 Johnson, Steven. _Where Good Ideas Come from: The Seven Patterns of Innovation_. London: Penguin, 2011.
-

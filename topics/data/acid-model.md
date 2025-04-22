@@ -1,6 +1,6 @@
 ---
 title: null
-date: 2022-04-18T00:00:00.000Z
+date: 2022-04-18
 description: Learn how the ACID model ensures database transaction reliability with atomicity, consistency, isolation, and durability for accurate, secure, and concurrent data management in ACID-compliant systems.
 authors:
   - Nguyen Xuan Anh
@@ -12,6 +12,7 @@ tags:
 ---
 
 ## What is the ACID model?
+
 ACID is an acronym that generally describes the necessity for consistency of a transaction in a database. The acronym stands for:
 
 - **Atomicity**: Each transaction is handled as a unit of work that is either properly carried out or halted. When it is halted, the transaction is reverted to the previous state before the transaction to ensure validity of all data in the database.
@@ -22,6 +23,7 @@ ACID is an acronym that generally describes the necessity for consistency of a t
 ![](assets/acid-model_acid_acronym_diagram.webp)
 
 ## Why use ACID?
+
 ACID is particularly important for businesses when there is a high requirement for consistent and durable data. Data consistency or loss of data would eventually translate to loss of revenue, especially if the software in question is critical for daily operations or strategic analysis. Thresholds for requiring an ACID compliant database would be:
 
 - Requirement in order of transactions and activities
@@ -30,6 +32,7 @@ ACID is particularly important for businesses when there is a high requirement f
 - Low to zero tolerance for showing stale data to users
 
 ## What is ACID compliance?
+
 Successfully hitting the requirements for the acronym would essentially give the database ACID compliance. When the database has proof ACID-compliant documents and management, business get to benefit for the insurance of:
 
 - **Less user disruptions**: When a system or business logic fails to handle a case, database durability should prevent users from noticing big issues.
@@ -39,10 +42,11 @@ Successfully hitting the requirements for the acronym would essentially give the
 - **Precise timeliness:** Record access of ACID compliant data means that data will always be up-to-date, regardless of what transactions are currently in progress. ACID compliance ensures concurrency control such that, transactions must reach a state that is consistent to the user accessing the data.
 
 ## What databases are ACID compliant?
+
 Most relational databases are ACID compliant, such as MySQL, PostgreSQL, Oracle, SQLite, and Microsoft SQL Server. NoSQL databases such as Apache's CouchDB, ArangoDB, or IBM's Db2 also implement or follow a close implementation of ACID for compliance.
 
 #### Reference
+
 - https://database.guide/what-is-acid-in-databases/
 - https://phoenixnap.com/kb/acid-vs-base
 - https://www.indeed.com/career-advice/career-development/acid-database
-

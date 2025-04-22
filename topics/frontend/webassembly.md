@@ -49,4 +49,3 @@ WebAssembly isn’t interpreted but, rather, is compiled into the WebAssembly bi
 ### Reference
 
 https://developer.mozilla.org/en-US/docs/WebAssembly https://webassembly.org/ https://livebook.manning.com/book/webassembly-in-action/chapter-1/ https://www.xenonstack.com/insights/a-beginners-guide-to-webassembly
-

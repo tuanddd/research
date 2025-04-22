@@ -36,8 +36,8 @@ Some crucial attributes:
 - **near** and **far**: Clipping planes at 2 points on the z axis. Note that objects with z position outside the `(near, far)` interval will **not** be displayed.
 
 ```javascript
-const camera = new THREE.PerspectiveCamera(45, 16 / 9, 1, 1000)
-scene.add(camera)
+const camera = new THREE.PerspectiveCamera(45, 16 / 9, 1, 1000);
+scene.add(camera);
 ```
 
 In the example above, a perspective camera is initialized with `fov` of 45 degree, `aspect-ratio` of 16 / 9, `near` and `far` of 1 and 1000 respectively.
@@ -56,8 +56,8 @@ Some crucial attributes:
 - **near** and **far**: Same as for perspective camera.
 
 ```javascript
-const camera = new THREE.OrthographicCamera(-2, 2, 1, -1, 1, 1000)
-scene.add(camera)
+const camera = new THREE.OrthographicCamera(-2, 2, 1, -1, 1, 1000);
+scene.add(camera);
 ```
 
 In the example above, an orthographic camera is initialized with `left`, `right`, `top` and `bottom` equal -2, 2, 1 and -1 respectively. The last 2 numbers represent `near` and `far`.
@@ -81,4 +81,3 @@ Beside those 2 most frequently used cameras, ThreeJS also provides various optio
 - https://www.vectorstock.com/royalty-free-vector/isometric-and-perspective-drawings-vector-7297379
 - https://wiki.freecadweb.org/index.php?title=File:Orthographic_Perspective.gif
 - https://www.celestron.com/blogs/knowledgebase/what-is-the-field-of-view-of-a-pair-of-binoculars
-

@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: Discover how Niklas Luhmann's zettelkasten system uses linked note cards to organize ideas, boost creativity, and generate new knowledge through unique indexing and connections.
+description: "Discover how Niklas Luhmann's zettelkasten system uses linked note cards to organize ideas, boost creativity, and generate new knowledge through unique indexing and connections."
 tags:
   - zettelkasten
 ---
@@ -12,10 +12,11 @@ When writing his notes, Luhmann would think about what was already in his slip b
 
 Schmidt suggests that the essential characteristics of Luhmann's #zettelkasten was that it involved a specific system of organization and card integration based on specific rules of numbering, an internal system of linking, and a comprehensive keyword index.
 
-Schmidt adds that Luhmann used three specific kinds of links: 
-1) references in the context of a larger structural outline (similar to a table of contents or _outline_ or _MOC_); 
-2) a subject-area index of references or _tag_; 
-3) individual references from one note zettel to another or _related link_. 
+Schmidt adds that Luhmann used three specific kinds of links:
+
+1. references in the context of a larger structural outline (similar to a table of contents or _outline_ or _MOC_);
+2. a subject-area index of references or _tag_;
+3. individual references from one note zettel to another or _related link_.
 
 Understanding effective linking is important, because without links, it's easy for a note to get lost.
 

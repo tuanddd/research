@@ -23,4 +23,3 @@ Technical debt is a common issue faced by teams that use the Scrum framework. He
 6. Communicate with stakeholders about the technical debt and your plan to address it. This will help ensure that everyone is on the same page and working towards the same goals.
 
 #scrum #technicaldebt #projectmanagement
-

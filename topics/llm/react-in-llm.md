@@ -105,51 +105,57 @@ Answer: Belgrade, Serbia
 
 Now it's your turn:
 --------------------
-messages: {input}`
+messages: {input}`;
 ```
 
 Now let start with Nodes:
 
 ```ts
-const toolNode = async (data: typeof AgentState.State, config?: RunnableConfig): Promise<Partial<typeof AgentState.State>> => {
-  const { messages } = data
-  const lastMsg = messages[messages.length - 1].content.toString()
+const toolNode = async (
+  data: typeof AgentState.State,
+  config?: RunnableConfig,
+): Promise<Partial<typeof AgentState.State>> => {
+  const { messages } = data;
+  const lastMsg = messages[messages.length - 1].content.toString();
 
-  const pattern = new RegExp('Action:\\s*(\\w+):\\s*"(.*?)"')
-  const match = lastMsg.match(pattern)
+  const pattern = new RegExp('Action:\\s*(\\w+):\\s*"(.*?)"');
+  const match = lastMsg.match(pattern);
   if (match) {
-    const toolName = match[1]
-    const toolInput = match[2]
-    const tool = tools.find((tool) => tool.name === toolName)
+    const toolName = match[1];
+    const toolInput = match[2];
+    const tool = tools.find((tool) => tool.name === toolName);
     if (tool) {
-      const result = await tool.invoke(toolInput)
+      const result = await tool.invoke(toolInput);
       return {
         messages: [new AIMessage({ content: result })],
-      }
+      };
     }
   }
   return {
-    messages: [new AIMessage({ content: 'Invalid tool call' })],
-  }
-}
+    messages: [new AIMessage({ content: "Invalid tool call" })],
+  };
+};
 ```
 
 ```ts
-const callModel = async (data: typeof AgentState.State, config?: RunnableConfig): Promise<Partial<typeof AgentState.State>> => {
-  const { messages } = data
-  const lastMsg = messages[messages.length - 1]
-  if (lastMsg._getType() !== 'human') {
-    messages[messages.length - 1].content = 'Observation: ' + lastMsg.content
+const callModel = async (
+  data: typeof AgentState.State,
+  config?: RunnableConfig,
+): Promise<Partial<typeof AgentState.State>> => {
+  const { messages } = data;
+  const lastMsg = messages[messages.length - 1];
+  if (lastMsg._getType() !== "human") {
+    messages[messages.length - 1].content = "Observation: " + lastMsg.content;
   }
-  const chat = messages.map((msg) => msg.content).join('\n')
-  const promptTemplate = ChatPromptTemplate.fromMessages([['system', prompt]])
-  const pipe = promptTemplate.pipe(llm)
-  const result = await pipe.invoke({ input: chat }, config)
+  const chat = messages.map((msg) => msg.content).join("\n");
+  const promptTemplate = ChatPromptTemplate.fromMessages([["system", prompt]]);
+  const pipe = promptTemplate.pipe(llm);
+  const result = await pipe.invoke({ input: chat }, config);
 
   return {
     messages: [result],
-  }
-}
+  };
+};
 ```
 
 And final is construct a graph:
@@ -157,24 +163,24 @@ And final is construct a graph:
 ```ts
 const workflow = new StateGraph(AgentState)
   // Define the two nodes we will cycle between
-  .addNode('callModel', callModel)
-  .addNode('executeTools', toolNode)
+  .addNode("callModel", callModel)
+  .addNode("executeTools", toolNode)
   // Set the entrypoint as `callModel`
   // This means that this node is the first one called
-  .addEdge(START, 'callModel')
+  .addEdge(START, "callModel")
   // We now add a conditional edge
   .addConditionalEdges(
     // First, we define the start node. We use `callModel`.
     // This means these are the edges taken after the `agent` node is called.
-    'callModel',
+    "callModel",
     // Next, we pass in the function that will determine which node is called next.
     shouldContinue,
   )
   // We now add a normal edge from `tools` to `agent`.
   // This means that after `tools` is called, `agent` node is called next.
-  .addEdge('executeTools', 'callModel')
+  .addEdge("executeTools", "callModel");
 
-const app = workflow.compile()
+const app = workflow.compile();
 ```
 
 Now let test with question: "How many times is Germany's GDP larger than Austria's?
@@ -189,4 +195,3 @@ ReAct play a significant role of the LLM development, it leverage the power of L
 
 - https://arxiv.org/abs/2210.03629
 - https://www.promptingguide.ai/techniques/react
-

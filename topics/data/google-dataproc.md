@@ -1,6 +1,6 @@
 ---
 title: null
-date: 2024-01-22T00:00:00.000Z
+date: 2024-01-22
 description: Learn how to set up and use Google Dataproc for fast, scalable Apache Spark and Hadoop data processing on Google Cloud, including cluster creation, job submission, and pricing details.
 authors:
   - Nguyen Hieu Nghia
@@ -17,6 +17,7 @@ tags:
 ---
 
 ## Introduction
+
 Google Dataproc is a fast and easy-to-use, fully managed cloud service for running Apache Spark and Hadoop workloads. It allows users to process and analyze large-scale data efficiently and at scale. Key features and benefits of Google Dataproc include:
 
 - **Fast and Scalable Processing**: Dataproc enables users to run Apache Spark and Hadoop workloads on Google Cloud Platform, taking advantage of its scalable infrastructure and resources.
@@ -27,6 +28,7 @@ Google Dataproc is a fast and easy-to-use, fully managed cloud service for runni
 Overall, Google Dataproc simplifies big data processing and analysis by providing a fast, scalable, and integrated platform for running Apache Spark and Hadoop workloads on Google Cloud Platform.
 
 ## Use cases
+
 Google Cloud Dataproc has a wide range of use cases for processing large datasets and running big data applications. Here are some of the most popular examples:
 
 **Batch processing:**
@@ -50,6 +52,7 @@ Google Cloud Dataproc has a wide range of use cases for processing large dataset
 - **Genomics:** Dataproc can be used to analyze large genomic datasets for research and clinical applications.
 
 ## Pricing
+
 [Dataproc on Compute Engine](https://cloud.google.com/dataproc) pricing is based on the size of Dataproc clusters and the duration of time that they run. The size of a cluster is based on the aggregate number of [virtual CPUs (vCPUs)](https://cloud.google.com/compute/docs/machine-types) across the entire cluster, including the master and worker nodes. The duration of a cluster is the length of time between cluster creation and cluster stopping or deletion.
 
 The Dataproc pricing formula is: `$0.010 * # of vCPUs * hourly duration`.
@@ -60,10 +63,10 @@ Dataproc pricing is in addition to the [Compute Engine per-instance price](http
 
 As an example, consider a cluster (with master and worker nodes) that has the following configuration:
 
-|Item|Machine Type|Virtual CPUs|Attached persistent disk|Number in cluster|
-|---|---|---|---|---|
-|Master Node|n1-standard-4|4|500 GB|1|
-|Worker Nodes|n1-standard-4|4|500 GB|5|
+| Item         | Machine Type  | Virtual CPUs | Attached persistent disk | Number in cluster |
+| ------------ | ------------- | ------------ | ------------------------ | ----------------- |
+| Master Node  | n1-standard-4 | 4            | 500 GB                   | 1                 |
+| Worker Nodes | n1-standard-4 | 4            | 500 GB                   | 5                 |
 
 This Dataproc cluster has 24 virtual CPUs, 4 for the master and 20 spread across the workers. For Dataproc billing purposes, the pricing for this cluster would be based on those 24 virtual CPUs and the length of time the cluster ran (assuming no nodes are scaled down or preempted). If the cluster runs for 2 hours, the Dataproc pricing would use the following formula:
 
@@ -72,75 +75,81 @@ This Dataproc cluster has 24 virtual CPUs, 4 for the master and 20 spread across
 In this example, the cluster would also incur charges for Compute Engine and Standard Persistent Disk Provisioned Space in addition to the Dataproc charge (see [Use of other Google Cloud resources](https://cloud.google.com/dataproc/pricing#use_of_other_google_cloud_resources)). The [billing calculator](https://cloud.google.com/products/calculator) can be used to determine separate Google Cloud resource costs.
 
 ## How to setup a Dataproc cluster
+
 ### Prerequisites:
+
 1. **Google Cloud Platform Account:**
-    - You need a GCP account. If you don't have one, you can sign up for a free trial at [Google Cloud Console](https://console.cloud.google.com/).
+   - You need a GCP account. If you don't have one, you can sign up for a free trial at [Google Cloud Console](https://console.cloud.google.com/).
 2. **Enable Billing:**
-    - Make sure you have billing enabled for your GCP project.
+   - Make sure you have billing enabled for your GCP project.
 3. **Install Google Cloud SDK:**
-    - Install the [Google Cloud SDK](https://cloud.google.com/sdk/docs/install) on your local machine. This SDK includes the **`gcloud`** command-line tool, which you'll use to interact with GCP.
+   - Install the [Google Cloud SDK](https://cloud.google.com/sdk/docs/install) on your local machine. This SDK includes the **`gcloud`** command-line tool, which you'll use to interact with GCP.
 4. **Create a GCP Project:**
-    - Create a GCP project if you don't already have one. You can do this through the [GCP Console](https://console.cloud.google.com/).
+   - Create a GCP project if you don't already have one. You can do this through the [GCP Console](https://console.cloud.google.com/).
 5. **Enable APIs:**
-    - Enable the necessary APIs for Dataproc and other services. You can do this through the [APIs & Services > Dashboard](https://console.cloud.google.com/apis/dashboard) section in the GCP Console.
+   - Enable the necessary APIs for Dataproc and other services. You can do this through the [APIs & Services > Dashboard](https://console.cloud.google.com/apis/dashboard) section in the GCP Console.
 
 ### Set Up a Dataproc Cluster:
+
 Now that you have the prerequisites in place, you can proceed to set up a Dataproc cluster:
 
 1. **Open Cloud Shell:**
-    
-    - Open the [Google Cloud Console](https://console.cloud.google.com/).
-    - Click on the "Activate Cloud Shell" button in the upper right corner.
+
+   - Open the [Google Cloud Console](https://console.cloud.google.com/).
+   - Click on the "Activate Cloud Shell" button in the upper right corner.
+
 2. **Create a Dataproc Cluster:**
-    
-    - Use the following **`gcloud`** command to create a Dataproc cluster. Adjust the parameters as needed.
-        
-        ```bash
-        bashCopy code
-        gcloud dataproc clusters create CLUSTER_NAME \\
-          --region REGION \\
-          --num-workers NUM_WORKERS \\
-          --worker-machine-type MACHINE_TYPE \\
-          --master-machine-type MASTER_MACHINE_TYPE
-        ```
-        
-        Replace the placeholders (**`CLUSTER_NAME`**, **`REGION`**, **`NUM_WORKERS`**, **`MACHINE_TYPE`**, **`MASTER_MACHINE_TYPE`**) with your desired values.
-        
+
+   - Use the following **`gcloud`** command to create a Dataproc cluster. Adjust the parameters as needed.
+     ```bash
+     bashCopy code
+     gcloud dataproc clusters create CLUSTER_NAME \\
+       --region REGION \\
+       --num-workers NUM_WORKERS \\
+       --worker-machine-type MACHINE_TYPE \\
+       --master-machine-type MASTER_MACHINE_TYPE
+     ```
+     Replace the placeholders (**`CLUSTER_NAME`**, **`REGION`**, **`NUM_WORKERS`**, **`MACHINE_TYPE`**, **`MASTER_MACHINE_TYPE`**) with your desired values.
+
 3. **Access the Cluster:**
-    
-    - Once the cluster is created, you can access the master node using SSH. You can find the SSH command in the Dataproc cluster details in the GCP Console.
+
+   - Once the cluster is created, you can access the master node using SSH. You can find the SSH command in the Dataproc cluster details in the GCP Console.
+
 4. **Run Jobs:**
-    
-    - Submit jobs to your Dataproc cluster using tools like Apache Spark or Hadoop. You can submit jobs using the **`gcloud dataproc jobs submit`** command.
+
+   - Submit jobs to your Dataproc cluster using tools like Apache Spark or Hadoop. You can submit jobs using the **`gcloud dataproc jobs submit`** command.
+
 5. **Delete the Cluster:**
-    
-    - When you're done with the cluster, remember to delete it to avoid incurring unnecessary costs.
-        
-        ```bash
-        bashCopy code
-        gcloud dataproc clusters delete CLUSTER_NAME --region REGION
-        ```
-        
-        Replace the placeholders with your cluster's name and region.
-        
+
+   - When you're done with the cluster, remember to delete it to avoid incurring unnecessary costs.
+     ```bash
+     bashCopy code
+     gcloud dataproc clusters delete CLUSTER_NAME --region REGION
+     ```
+     Replace the placeholders with your cluster's name and region.
 
 ## How to deploy a Spark job on Dataproc (Using Google cloud console)
+
 ### Step 1: In the created cluster click on `Submit Job` button on the top right of the main console screen
+
 ![](assets/google-dataproc-20240122130334062.webp)
 
 ### Step 2: Fill all necessary field in the job creation modal:
+
 ![](assets/google-dataproc-20240122130408379.webp)
+
 - Job ID: job unique name across the cluster
 - Job Type: the type of the job that you submit to Dataproc including (in this demo we’ll use PySpark):
-![](assets/google-dataproc-20240122130427570.webp)
+  ![](assets/google-dataproc-20240122130427570.webp)
 - Main file: the directory of main job file from GCS or HDFS or inside the compute engine.
 - All others field is optional.
 - After you fill in the necessary input i should be something like this:
-![](assets/google-dataproc-20240122130457028.webp)
+  ![](assets/google-dataproc-20240122130457028.webp)
 
 - Then press `Submit` to submit the job
 
 ### Step 3:
+
 After submitting the job you should be able to similar screen to this:
 ![](assets/google-dataproc-20240122130525347.webp)
 
@@ -150,4 +159,3 @@ Wait for the job status change to succeeded (or failed):
 And that is how you run a Spark ( or Hadoop) job on Google Cloud Dataproc.
 Full video step by step:
 ![[_assets/Google Dataproc/830c086903ad2dcaf7bdece0af8e3647_MD5.mp4]]
-

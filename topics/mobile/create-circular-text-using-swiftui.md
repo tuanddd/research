@@ -1,6 +1,6 @@
 ---
 title: Create Circular Text Using Swiftui
-date: 2020-03-23T00:00:00.000Z
+date: 2020-03-23
 description: Learn how to create circular text in SwiftUI by splitting strings, measuring character sizes with GeometryReader, and rotating each character to form a smooth circle with adjustable spacing.
 tags:
   - swift
@@ -73,4 +73,3 @@ If you want to make it center, simple ask the angle of last character divide by 
 We are done, hope you enjoy and have fun with SwiftUI.
 
 View more at: [https://github.com/viettrungphan/SwiftUIGeometryPractice](https://github.com/viettrungphan/SwiftUIGeometryPractice)
-

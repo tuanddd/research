@@ -126,4 +126,3 @@ plotcore.NewPlotEditor(b).SetSlice([]Data{
 - https://groups.google.com/g/golang-dev/c/0OqBkS2RzWw/m/GzWvX5u6AQAJ?pli=1
 - https://go.googlesource.com/oscar/+/refs/heads/master/README.md
 - https://go.googlesource.com/oscar/+/refs/heads/master/internal
-

@@ -118,4 +118,3 @@ Zod has problems: it's slow, causes TypeScript to lag, and doesn't fully follow 
 - [Why developers hate linters?](https://www.coderabbit.ai/blog/why-developers-hate-linters)
 - [Will AI eat the browser?](https://crazystupidtech.com/archive/will-ai-eat-the-browser/)
 - [HTML is actually a programming language. Fight me](https://www.wired.com/story/html-is-actually-a-programming-language-fight-me/)
-

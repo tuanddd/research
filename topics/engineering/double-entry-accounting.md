@@ -1,6 +1,6 @@
 ---
 title: null
-date: 2022-08-24T00:00:00.000Z
+date: 2022-08-24
 description: Learn the basics of double-entry accounting, including assets, liabilities, equity, and how this system improves accuracy over single-entry bookkeeping for better financial tracking and reporting.
 authors:
   - Nguyen Xuan Anh
@@ -101,7 +101,7 @@ For database design, refer to [[Database design for double-entry accounting | da
 ## Accounting types
 
 ### Assets
->
+
 > **"How much do I have?"**
 
 Assets refer to anything of value that an entity owns. They are represented as a **debit balance**. Assets are generally divided into 2 categories:
@@ -113,7 +113,7 @@ Assets refer to anything of value that an entity owns. They are represented as a
 - **Fixed assets**: assets which are purchased for long-term use and are not likely to be converted quickly into cash within a year; these include, but are not limited to: buildings, land, machinery, vehicles, software, etc.
 
 ### Liabilities
->
+
 > **"How much do I owe?"**
 
 Liabilities refer to any debts the entity has. They are represented as a **credit balance**. Liabilities are divided into 3 categories:
@@ -132,7 +132,7 @@ Liabilities refer to any debts the entity has. They are represented as a **credi
   - _Product warrenties_: a guarantee a manufacture or similar party regarding the condition of the product
 
 ### Equity
->
+
 > **"How much is left over?"**
 
 If we follow the equation for net worth, assets minus liabilities would give us our total equity. However, equity from the perspective of a transaction refers to the value of something. Say, for instance, when you start a ledger, there was $100 in your checking account. Where will that money come from? The answer is **your equity**.
@@ -248,4 +248,3 @@ $ hledger -f transactions.journal balance -t
 - <https://www.investopedia.com/terms/m/mortgage.asp>
 - <https://www.investopedia.com/terms/w/warranty.asp#:~:text=our%20editorial%20policies-,What%20Is%20a%20Warranty%3F,as%20originally%20described%20or%20intended>.
 - <https://www.ledger-cli.org/3.0/doc/ledger3.html#Understanding-Equity>
-

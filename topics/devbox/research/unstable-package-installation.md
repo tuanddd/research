@@ -35,7 +35,7 @@ In this way, the instability can be decreased but can not resolve the issue comp
 - Ubuntu mirrors aka copies of main Ubuntu repositories can be changed also. Once the packages that you need, are not available, the building will fail.
 
 We have some keywords related to better solutions that I only list here for reference.
+
 - Local cache
 - Private registry
 - Multistage builds
-

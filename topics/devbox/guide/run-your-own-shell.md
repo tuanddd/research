@@ -52,13 +52,9 @@ Here's how it works:
      "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.12.0/.schema/devbox.schema.json",
      "packages": ["go@latest"],
      "shell": {
-       "init_hook": [
-         "echo 'Welcome to devbox!' > /dev/null"
-       ],
+       "init_hook": ["echo 'Welcome to devbox!' > /dev/null"],
        "scripts": {
-         "test": [
-           "echo \"Error: no test specified\" && exit 1"
-         ]
+         "test": ["echo \"Error: no test specified\" && exit 1"]
        }
      }
    }
@@ -120,4 +116,3 @@ So what are you waiting for? Fire up Devbox and start building something amazing
 - [Create a Dev Environment with Devbox](https://www.jetify.com/devbox/docs/quickstart/)
 - [Use Devbox as your Primary Package Manager](https://www.jetify.com/devbox/docs/devbox_global/)
 - [Nix Shell: The Foundation](../introduction/¶%20Nix%20Shell.md)
-

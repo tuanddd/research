@@ -43,4 +43,3 @@ tags:
 - [Nix Shell: The Foundation of Rock-Solid Environments](introduction/¶%20Nix%20Shell.md)
 - [Nix Flakes: Package Management Reimagined](introduction/¶%20Nix%20Flakes.md)
 - [Devbox vs Nix: Simplicity Meets Power](introduction/Why%20Devbox%20But%20Not%20Nix.md)
-

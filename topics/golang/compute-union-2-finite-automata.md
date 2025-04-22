@@ -144,4 +144,3 @@ func mergeFAStates(state1, state2 *faState, keyMemo map[faStepKey]*faState, prin
 - Performance depends on the structure of the input automata and can vary significantly based on their complexity.
 
 In practice, this implementation provides a good balance between theoretical correctness and practical efficiency for the pattern matching tasks Quamina is designed to handle. It allows for the combination of multiple patterns into a single automaton structure that can be efficiently traversed during the matching process.
-

@@ -1,6 +1,6 @@
 ---
 title: Blockchain oracle
-date: 2022-03-17T00:00:00.000Z
+date: 2022-03-17
 description: Learn how blockchain oracles solve the oracle problem by connecting smart contracts with real-world data, enabling secure input, output, cross-chain communication, and off-chain computing.
 authors:
   - khacvy
@@ -52,4 +52,3 @@ This type of oracle provides decentralized services with secure, off-chain compu
 - [Wikipedia - Blockchain oracle](https://en.wikipedia.org/wiki/Blockchain_oracle#:~:text=A%20blockchain%20oracle%20is%20a,that%20decentralised%20knowledge%20is%20obtained.)
 - [https://chain.link/education/blockchain-oracles](https://chain.link/education/blockchain-oracles)
 - [https://coin98.net/what-is-blockchain-oracle](https://coin98.net/what-is-blockchain-oracle)
-

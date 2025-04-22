@@ -43,7 +43,7 @@ Get the highlights from Next.js Conf 2024, featuring exciting updates on React S
 
 ## Others
 
-### [State of Frontend 2024  - The Rise of Full-stack development](https://tsh.io/state-of-frontend/)
+### [State of Frontend 2024 - The Rise of Full-stack development](https://tsh.io/state-of-frontend/)
 
 Full-stack developers now outnumber senior frontend roles, with performance as a top challenge prompting simpler applications. Nearly 69% of companies plan to integrate AI for developer support, and remote work remains popular.
 

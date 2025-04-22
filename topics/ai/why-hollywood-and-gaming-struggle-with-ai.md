@@ -18,5 +18,5 @@ Incumbent entertainment and video game companies are experiencing friction in ex
 5. **Difficulty in hiring AI engineers**: The high demand and cost for top AI talent make it challenging for established companies to recruit necessary expertise.
 
 ---
-https://andrewchen.substack.com/p/why-hollywood-and-aaa-gaming-cant
 
+https://andrewchen.substack.com/p/why-hollywood-and-aaa-gaming-cant

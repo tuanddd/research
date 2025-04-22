@@ -14,7 +14,7 @@ Demographic information is a common feature of user personas. But often this inf
 
 #### Related
 
--   [[§ Personas]]
--   [[Personas alone can't help teams achieve empathy]]
--   [[Personas lack rich context]]
--   [[Personas may create space for assumptions]]
+- [[§ Personas]]
+- [[Personas alone can't help teams achieve empathy]]
+- [[Personas lack rich context]]
+- [[Personas may create space for assumptions]]

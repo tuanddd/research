@@ -30,4 +30,3 @@ It's noteworthy that the use of foundation models isn't confined to language tas
 
 - https://research.ibm.com/blog/what-are-foundation-models
 - [What are Generative AI models](https://www.youtube.com/watch?v=hfIUstzHs9A)
-

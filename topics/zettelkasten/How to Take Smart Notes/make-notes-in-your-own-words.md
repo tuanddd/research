@@ -22,7 +22,7 @@ One of the benefits of the #Zettelkasten method is that it involves multiple act
 
 #### Related
 
--   [[Decontextualize ideas to make them new]]
+- [[Decontextualize ideas to make them new]]
 
 #### Citations
 

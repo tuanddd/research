@@ -73,8 +73,10 @@ Variable fonts are loaded though the same `@font-face` mechanism as traditional 
 
 ```css
 @font-face {
-  font-family: 'Roboto Flex';
-  src: url('RobotoFlex-VF.woff2') format('woff2') tech('variations'), url('RobotoFlex-VF.woff2') format('woff2-variations');
+  font-family: "Roboto Flex";
+  src:
+    url("RobotoFlex-VF.woff2") format("woff2") tech("variations"),
+    url("RobotoFlex-VF.woff2") format("woff2-variations");
 }
 ```
 
@@ -111,4 +113,3 @@ Beyond that, we depends on how the fonts were built & what custom axes they are 
 - https://www.youtube.com/watch?v=0fVymQ7SZw0&list=WL&index=1&t=247s&ab_channel=KevinPowell
 - https://fonts.google.com/knowledge/introducing_type/introducing_variable_fonts
 - https://web.dev/variable-fonts/
-

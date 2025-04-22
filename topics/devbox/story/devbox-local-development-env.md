@@ -33,7 +33,7 @@ Once the project scales and team grows, the complexity of managing dependencies,
 
 Dwarves experienced this complexity firsthand as we welcomed a lot of new talents and projects with varying sizes and tech stacks. Team members are rotated to another project once the current project is done. Because each project has different scales and requirements, each time onboarding happens, team members need to install different tools to begin developing. This situation causes their machine to be filled with a lot of redundant applications and dependencies over time.
 
-Besides, we have no way to track what dependencies are installed or not currently. So we must install them one by one until the project can be executed. You can have your checklist in the *README*. But it just only helps you manually checking it is installed or not, you can’t make sure the installed stuff is compatible with your available applications and you also don’t know the exact version of them. The challenge of managing different tools and dependencies became evident. It forces our members to spend a lot of time setting up new projects under anxiety.
+Besides, we have no way to track what dependencies are installed or not currently. So we must install them one by one until the project can be executed. You can have your checklist in the _README_. But it just only helps you manually checking it is installed or not, you can’t make sure the installed stuff is compatible with your available applications and you also don’t know the exact version of them. The challenge of managing different tools and dependencies became evident. It forces our members to spend a lot of time setting up new projects under anxiety.
 
 ## The road to Devbox
 
@@ -55,7 +55,7 @@ devbox shell --pure
 
 In the above commands, when `--pure` is specified, Devbox creates an isolated shell inheriting almost no variables from the current environment. A few variables, in particular `$HOME`, `$USER`, and `$DISPLAY`, are retained.
 
-Once Devbox shell is shown, we can install everything for running our the project including database, git, programming language, code editor, etc. Powered by Nix, Devbox has more than 80,000 packages containing everything you want.  You can also specify what is the version that you want when installing it.
+Once Devbox shell is shown, we can install everything for running our the project including database, git, programming language, code editor, etc. Powered by Nix, Devbox has more than 80,000 packages containing everything you want. You can also specify what is the version that you want when installing it.
 
 ```shell
 devbox add go@1.21.3
@@ -134,4 +134,3 @@ You can find a practical example of using Devbox in [our memo repository](https:
 ## Conclusion
 
 In this installment, we've moved from theory to practice, demonstrating how Devbox creates an isolated, reproducible, and portable development environment. We've shown how to set up Devbox, install dependencies, and integrate it with a Makefile for ease of use. By addressing container runtime challenges, we've ensured a smooth development experience. We hope these insights help streamline your own workflows and enhance your development practices. Thank you for following along, and happy coding!
-

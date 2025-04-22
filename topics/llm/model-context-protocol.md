@@ -41,7 +41,11 @@ Examples of using the Claude Desktop as an MCP client ( MCP Host ) might look li
   "mcpServers": {
     "filesystem": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/allowed/files"]
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/path/to/allowed/files"
+      ]
     },
     "git": {
       "command": "uvx",
@@ -56,7 +60,11 @@ Examples of using the Claude Desktop as an MCP client ( MCP Host ) might look li
     },
     "postgres": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-postgres", "postgresql://localhost/mydb"]
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-postgres",
+        "postgresql://localhost/mydb"
+      ]
     }
   }
 }
@@ -105,4 +113,3 @@ MCP is already being used by companies like Block and Apollo, showing how handy 
 - https://www.metadocs.co/2024/11/29/anthropic-model-context-protocol-how-to-give-wings-to-local-mode/
 - https://www.infoworld.com/article/3613143/anthropic-introduces-the-model-context-protocol.html
 - https://salesforcedevops.net/index.php/2024/11/29/anthropics-model-context-protocol/
-

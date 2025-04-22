@@ -109,4 +109,3 @@ That's it! With just a few lines of CSS code, we've created an awesome scroll an
 - https://scroll-driven-animations.style
 - https://developer.chrome.com/articles/scroll-driven-animations
 - https://www.youtube.com/watch?v=oDcb3fvtETs&t=335s
-

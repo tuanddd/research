@@ -125,4 +125,3 @@ tags:
 - https://consensys.net/blog/developers/introduction-to-zk-snarks/
 - https://ethereum.org/en/developers/docs/scaling/zk-rollups/
 - https://vitalik.eth.limo/general/2022/06/15/using_snarks.html
-

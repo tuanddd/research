@@ -73,7 +73,7 @@ The ONLY way for steps to share context is by including #E<step> within the argu
 Begin!
 Describe your plans with rich details. Each Plan should be followed by only one #E.
 
-Task: {task}`
+Task: {task}`;
 
 const solverPrompt = `Solve the following task or problem. To solve the problem, we have made step-by-step Plan and
 retrieved corresponding Evidence to each Plan. Use them with caution since long evidence might
@@ -85,86 +85,101 @@ Now solve the question or task according to provided Evidence above. Respond wit
 directly with no extra words.
 
 Task: {task}
-Response:`
+Response:`;
 ```
 
 - Secondly, we craete nodes for each components:
 
 ```ts
-async function Planner(state: typeof GraphState.State, config?: RunnableConfig) {
-  console.log('---GET PLAN---')
-  const task = state.task
-  const result = await planner.invoke({ task }, config)
+async function Planner(
+  state: typeof GraphState.State,
+  config?: RunnableConfig,
+) {
+  console.log("---GET PLAN---");
+  const task = state.task;
+  const result = await planner.invoke({ task }, config);
 
-  const regexPattern = new RegExp('Plan\\s*(?:\\d+)?:\\s*(.*?)\\s+(#E\\d+)\\s*=\\s*(\\w+)\\[(.*?)\\]', 'gs')
+  const regexPattern = new RegExp(
+    "Plan\\s*(?:\\d+)?:\\s*(.*?)\\s+(#E\\d+)\\s*=\\s*(\\w+)\\[(.*?)\\]",
+    "gs",
+  );
   // Find all matches in the sample text.
-  const matches = result.content.toString().matchAll(regexPattern)
-  let steps: string[][] = []
+  const matches = result.content.toString().matchAll(regexPattern);
+  let steps: string[][] = [];
   for (const match of matches) {
-    console.log(match)
+    console.log(match);
 
-    const item = [match[1], match[2], match[3], match[4], match[0]]
+    const item = [match[1], match[2], match[3], match[4], match[0]];
     if (item.some((i) => i === undefined)) {
-      throw new Error('Invalid match')
+      throw new Error("Invalid match");
     }
-    steps.push(item as string[])
+    steps.push(item as string[]);
   }
   return {
     steps,
     planString: result.content.toString(),
-  }
+  };
 }
 
 async function Worker(state: typeof GraphState.State, config?: RunnableConfig) {
-  console.log('---EXECUTE TOOL---')
-  const _step = _getCurrentTask(state)
+  console.log("---EXECUTE TOOL---");
+  const _step = _getCurrentTask(state);
   if (_step === null) {
-    throw new Error('No current task found')
+    throw new Error("No current task found");
   }
-  const [_, stepName, tool, toolInputTemplate] = state.steps[_step - 1]
-  let toolInput = toolInputTemplate
-  const _results = state.results || {}
+  const [_, stepName, tool, toolInputTemplate] = state.steps[_step - 1];
+  let toolInput = toolInputTemplate;
+  const _results = state.results || {};
   for (const [k, v] of Object.entries(_results)) {
-    toolInput = toolInput.replace(k, v)
+    toolInput = toolInput.replace(k, v);
   }
-  console.log(tool)
+  console.log(tool);
 
-  let result
-  if (tool === 'Google') {
-    result = await search.invoke(toolInput.replaceAll('"', ''), config)
-  } else if (tool === 'LLM') {
-    result = await model.invoke(toolInput, config)
+  let result;
+  if (tool === "Google") {
+    result = await search.invoke(toolInput.replaceAll('"', ""), config);
+  } else if (tool === "LLM") {
+    result = await model.invoke(toolInput, config);
   } else {
-    throw new Error('Invalid tool specified')
+    throw new Error("Invalid tool specified");
   }
-  _results[stepName] = JSON.stringify(_parseResult(result), null, 2)
-  return { results: _results }
+  _results[stepName] = JSON.stringify(_parseResult(result), null, 2);
+  return { results: _results };
 }
 
 async function Solver(state: typeof GraphState.State, config?: RunnableConfig) {
-  console.log('---SOLVE---')
-  let plan = ''
-  const _results = state.results || {}
+  console.log("---SOLVE---");
+  let plan = "";
+  const _results = state.results || {};
   for (let [_plan, stepName, tool, toolInput] of state.steps) {
     for (const [k, v] of Object.entries(_results)) {
-      toolInput = toolInput.replace(k, v)
+      toolInput = toolInput.replace(k, v);
     }
-    plan += `Plan: ${_plan}\n${stepName} = ${tool}[${toolInput}]\n`
+    plan += `Plan: ${_plan}\n${stepName} = ${tool}[${toolInput}]\n`;
   }
-  const result = await solvePrompt.pipe(model).invoke({ plan, task: state.task }, config)
+  const result = await solvePrompt
+    .pipe(model)
+    .invoke({ plan, task: state.task }, config);
   return {
     result: result.content.toString(),
-  }
+  };
 }
 ```
 
 - Finally we will construct a graph"
 
 ```ts
-const workflow = new StateGraph(GraphState).addNode('plan', Planner).addNode('tool', Worker).addNode('solve', Solver).addEdge('plan', 'tool').addEdge('solve', END).addConditionalEdges('tool', _route).addEdge(START, 'plan')
+const workflow = new StateGraph(GraphState)
+  .addNode("plan", Planner)
+  .addNode("tool", Worker)
+  .addNode("solve", Solver)
+  .addEdge("plan", "tool")
+  .addEdge("solve", END)
+  .addConditionalEdges("tool", _route)
+  .addEdge(START, "plan");
 
 // Compile
-const app = workflow.compile()
+const app = workflow.compile();
 ```
 
 Now let test with question: "What is the mass of earth and how many natural satelite of it. Calculate different in mass of Jupyter and Earth?"
@@ -191,4 +206,3 @@ The development of LLM is cannot be denial, many new techniques are being develo
 - https://arxiv.org/abs/2305.18323
 - https://medium.com/@minhleduc_0210/on-short-of-rewoo-decoupling-reasoning-from-observations-for-efficient-augmented-language-models-151f53f09630
 - https://langchain-ai.github.io/langgraph/tutorials/rewoo/rewoo/
-

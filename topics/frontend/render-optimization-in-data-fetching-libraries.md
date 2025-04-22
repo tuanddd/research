@@ -69,7 +69,7 @@ This comes in very handy when using selectors for partial subscriptions:
 ```js
 // ✅ will only re-render if _something_ within todo with id:2 changes
 // thanks to structural sharing
-const { data } = useTodo(2)
+const { data } = useTodo(2);
 ```
 
 In some instances, especially when having very large datasets, structural sharing *can* be a bottleneck. Let's use it carefully.
@@ -80,4 +80,3 @@ In some instances, especially when having very large datasets, structural sharin
 - https://nextjs.org/docs/app/building-your-application/data-fetching
 - https://swr.vercel.app/docs/advanced/performance
 - https://tanstack.com/query/latest/docs/react/guides/caching
-

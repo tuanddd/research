@@ -16,8 +16,8 @@ This can keep teams manage the scope of their project. Alan Cooper suggests that
 
 #### Related
 
--   [[Personas alone can't help teams achieve empathy]]
--   [[¶ Persona]]
+- [[Personas alone can't help teams achieve empathy]]
+- [[¶ Persona]]
 
 #### Citations
 

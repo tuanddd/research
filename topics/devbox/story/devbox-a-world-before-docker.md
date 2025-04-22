@@ -25,9 +25,9 @@ Sometimes, in my software development team, a strange issue is raised. Nobody ca
 
 ![](assets/devbox-a-world-before-docker_untitled.webp)
 
-Positively, It is fine because the software actually works somewhere. So you can scope the area of issue and try troubleshooting. But, it is also a red alert on our development process. 
+Positively, It is fine because the software actually works somewhere. So you can scope the area of issue and try troubleshooting. But, it is also a red alert on our development process.
 
-I believe it's not just my problem. Throughout the ongoing evolution of software development, others have likely encountered similar problem. This leads me to wonder, 'Have they implemented strategies to address these issues over time?' 
+I believe it's not just my problem. Throughout the ongoing evolution of software development, others have likely encountered similar problem. This leads me to wonder, 'Have they implemented strategies to address these issues over time?'
 
 Right, as software technology develops, we always have ways to improve the output. It encompasses more than just a solution, it represents a rich evolutionary history within the realm of software development.
 
@@ -51,21 +51,21 @@ While everyone is struggling with VM, the modern containerization movement of th
 
 Have a lot of things to discuss, but we can distill the variances between VMs and Containers into the following summary
 
-|  | Container | Virtual Machine | Conclusion |
-| --- | --- | --- | --- |
-| Isolation | Share host kernel, lightweight | Run full OS, heavier | VM is heavier |
-| Resource Overhead | Minimal, efficient use of resources | Higher, each VM requires its own OS | VM is heavier |
-| Startup Time | Almost instant | Slower due to booting entire OS | VM is heavier |
-| Security | Good isolation, but potential risks if host kernel is compromised | Strong isolation between VMs, larger attack surface | VM is heavier |
-| Deployment | Highly portable | Flexible but heavier | VM is heavier |
+|                   | Container                                                         | Virtual Machine                                     | Conclusion    |
+| ----------------- | ----------------------------------------------------------------- | --------------------------------------------------- | ------------- |
+| Isolation         | Share host kernel, lightweight                                    | Run full OS, heavier                                | VM is heavier |
+| Resource Overhead | Minimal, efficient use of resources                               | Higher, each VM requires its own OS                 | VM is heavier |
+| Startup Time      | Almost instant                                                    | Slower due to booting entire OS                     | VM is heavier |
+| Security          | Good isolation, but potential risks if host kernel is compromised | Strong isolation between VMs, larger attack surface | VM is heavier |
+| Deployment        | Highly portable                                                   | Flexible but heavier                                | VM is heavier |
 
 ## The opening act with Linux Containers
 
 As I mentioned above, Linux Containers (LXC) was perhaps the first implementation of a complete container manager. It provide a lightweight and efficient approach to deploying and isolating applications
 
-Unlike VM, which require the overhead of running multiple operating system instances, Linux containers share the host operating system's kernel while maintaining separate namespaces for processes, networking, and file systems. This results in faster startup times, lower resource consumption, and greater scalability compared to VMs. 
+Unlike VM, which require the overhead of running multiple operating system instances, Linux containers share the host operating system's kernel while maintaining separate namespaces for processes, networking, and file systems. This results in faster startup times, lower resource consumption, and greater scalability compared to VMs.
 
-However, one disadvantage of using Linux Containers directly is the potential lack of comprehensive tooling and ecosystem support, which can lead to integration challenges and a less streamlined development and deployment experience. 
+However, one disadvantage of using Linux Containers directly is the potential lack of comprehensive tooling and ecosystem support, which can lead to integration challenges and a less streamlined development and deployment experience.
 
 In that situation, Docker was born with more innovations.
 
@@ -82,4 +82,3 @@ Consequently, Docker emerges as the quintessential choice for modern containeriz
 ## Final thoughts
 
 In summary, the transition from traditional Virtual Machines (VMs) to containerization, epitomized by Docker, represents a pivotal advancement in software development. Docker's lightweight, portable containers have revolutionized software development and deployment. However, this transformation is not merely about adopting a new technology; it's a journey marked by adaptation and discovery. In the [Devbox #2: Our Docker adoption and its challenges](https://memo.d.foundation/playground/_memo/devbox-docker-adoption-and-challenges), we will uncover the story: how Docker is adopted in my development team and its challenges encountered along the way.
-

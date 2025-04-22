@@ -4,7 +4,15 @@ date: 2024-10-01
 description: Discover how the rapid surge in artificial intelligence, led by models like ChatGPT, Claude, and Gemini, is reshaping industries and democratizing AI development. This article explores the rise of model-as-a-service, the economic impact of AI, and how accessible APIs are transforming productivity, creativity, and innovation across sectors.
 authors:
   - thanh
-hashnode_meta: {"coverImageOptions":{"coverImageURL":"https://memo.d.foundation/playground/ai/building-llm-system/assets/the-rise-of-ai-applications-with-llm-20241001172500969.webp"},"id":"670f4d4a340553308e8ff9e7","slug":"the-rise-of-ai-applications-with-llm"}
+hashnode_meta:
+  {
+    "coverImageOptions":
+      {
+        "coverImageURL": "https://memo.d.foundation/playground/ai/building-llm-system/assets/the-rise-of-ai-applications-with-llm-20241001172500969.webp",
+      },
+    "id": "670f4d4a340553308e8ff9e7",
+    "slug": "the-rise-of-ai-applications-with-llm",
+  }
 sync: hashnode
 tags:
   - llm
@@ -76,4 +84,3 @@ To conclude, it is evident that AI has become one of the most disruptive forces 
 ---
 
 > Next: [Use cases](use-cases-for-llm-applications.md)
-

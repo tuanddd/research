@@ -37,6 +37,7 @@ func (lw LoggingWriter) Write(p []byte) (n int, err error) {
 ```
 
 Usage:
+
 ```go
 func main() {
     var writer io.Writer = LoggingWriter{Writer: os.Stdout}
@@ -235,9 +236,10 @@ func main() {
     fmt.Println(prefixedUser.String())  // Output: User: John
 }
 ```
+
 This wraps the original `fmt.Stringer` and adds a prefix to the output.
 
-----
+---
 
 That's good as far as it goes, but I think the key part of extension interfaces is why they're useful and how they're used -- they can add optional functionality to an API which (according to the statically-checked type signature) only takes the "base" interface.
 
@@ -270,4 +272,3 @@ if d, ok := f.(ReadDirFile); ok {
 ```
 
 [Source](https://www.reddit.com/r/golang/comments/i6yehu/what_is_the_extension_interface_pattern_in_go/)
-

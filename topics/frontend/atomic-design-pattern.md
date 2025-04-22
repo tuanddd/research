@@ -72,4 +72,3 @@ This is an example of an application folder structure using atomic design, as yo
 - https://bradfrost.com/blog/post/atomic-web-design/#atoms
 - https://andela.com/insights/structuring-your-react-application-atomic-design-principles/
 - https://blog.ippon.tech/atomic-design-in-practice/
-

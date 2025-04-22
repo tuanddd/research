@@ -85,25 +85,16 @@ Here's what a fully-loaded `devbox.json` might look like:
 
 ```json
 {
-  "packages": [
-    "rustup@latest",
-    "libiconv@latest"
-  ],
+  "packages": ["rustup@latest", "libiconv@latest"],
   "env": {
     "PROJECT_DIR": "$PWD"
   },
   "shell": {
-    "init_hook": [
-      ". conf/set-env.sh",
-      "rustup default stable",
-      "cargo fetch"
-    ],
+    "init_hook": [". conf/set-env.sh", "rustup default stable", "cargo fetch"],
     "scripts": {
       "build-docs": "cargo doc",
       "start": "cargo run",
-      "run_test": [
-        "cargo test -- --show-output"
-      ]
+      "run_test": ["cargo test -- --show-output"]
     }
   },
   "include": [
@@ -116,7 +107,7 @@ Here's what a fully-loaded `devbox.json` might look like:
 
 ## The Bottom Line
 
-Your `devbox.json` is more than just a config file - it's a blueprint for the perfect dev environment. Spend some time getting it right, and you'll save countless hours down the road. 
+Your `devbox.json` is more than just a config file - it's a blueprint for the perfect dev environment. Spend some time getting it right, and you'll save countless hours down the road.
 
 Remember, a well-crafted `devbox.json` is like a good pair of shoes: it should fit perfectly and take you anywhere you want to go.
 
@@ -125,4 +116,3 @@ Remember, a well-crafted `devbox.json` is like a good pair of shoes: it should f
 - [Devbox.json Configuration Reference](https://www.jetify.com/devbox/docs/configuration/)
 - [Devbox Search Command](https://www.jetify.com/devbox/docs/cli_reference/devbox_search/)
 - [Devbox Plugins Guide](https://www.jetify.com/devbox/docs/guides/plugins/)
-

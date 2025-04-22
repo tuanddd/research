@@ -16,10 +16,10 @@ Note-taking is therefore critical for knowledge work. By capturing ideas as note
 
 #### Related
 
--   [[Ideas are constellations]]
--   [[¶ Principle of atomicity]]
--   [[Decontextualize ideas to make them new]]
--   [[Ideas are remixes]]
+- [[Ideas are constellations]]
+- [[¶ Principle of atomicity]]
+- [[Decontextualize ideas to make them new]]
+- [[Ideas are remixes]]
 
 #### Citations
 

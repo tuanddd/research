@@ -1,6 +1,6 @@
 ---
 title: null
-date: 2022-06-28T00:00:00.000Z
+date: 2022-06-28
 description: Learn what a Mealy machine is, its mathematical model, and how it differs from Moore machines and finite-state transducers in this clear explanation of finite-state automata concepts.
 authors:
   - Nguyen Xuan Anh
@@ -13,11 +13,13 @@ tags:
 ---
 
 ## What is a Mealy machine?
+
 A Mealy machine is a [[Finite-state automata]] where the output values are determined by its current state and current inputs. It is the closest definition to a deterministic [[Finite-state transducer]].
 
 ![](assets/mealy-machine_mealy_machine.webp)
 
 ## Mathematical Model
+
 As per the general classification noted on [UC Davis outline on transducers](https://www.cs.ucdavis.edu/~rogaway/classes/120/spring13/eric-transducers) (formatted with similar variables to [[Finite-state automata]]s), a deterministic Mealy machine has 6 main variables associated with its definition (a sextuple): ($\Sigma$, $S$, $\Gamma$, $\delta$, $\omega$, $s_0$).
 
 - $\Sigma$ is the _input alphabet_ (a finite non-empty set of symbols) -> our events;
@@ -26,7 +28,7 @@ As per the general classification noted on [UC Davis outline on transducers](htt
 - $\delta$ is the state-transition function: $\delta: S \times \Sigma \rightarrow S$
 - $\omega$ is the output-transition function: $\omega: S \times \Sigma \rightarrow \Gamma$
 - $s_0$ is an _initial state_, an element of $S$; and
-- $\delta \subseteq S \times (\Sigma \cup \{\epsilon\}) \times (\Gamma \cup \{\epsilon\}) \times S$ (where ε is the [empty string](https://en.wikipedia.org/wiki/Empty_string 'Empty string')) is the *transition relation*.
+- $\delta \subseteq S \times (\Sigma \cup \{\epsilon\}) \times (\Gamma \cup \{\epsilon\}) \times S$ (where ε is the [empty string](https://en.wikipedia.org/wiki/Empty_string "Empty string")) is the *transition relation*.
 
 Some formulations also allow transition and output functions to be combined as a single function:
 
@@ -45,6 +47,7 @@ $$
 $$
 
 ## Examples of basic Mealy machines
+
 Our example from [[Finite-state transducer]]s fits perfectly here as our transition and output function are coalesced as a single function.
 
 ```typescript
@@ -78,16 +81,19 @@ let transition = (state, input) =>
 ```
 
 ## Differences between
+
 ### With formal [[Finite-state transducer]]s
+
 Mealy machines are a type of generator and are not used in processing language. As such, they do not have a concept of a final state.
 
 ### With [[Moore machine]]s
+
 oth Mealy and Moore machines are generator-type state machines and can be used to parse [regular language](https://en.wikipedia.org/wiki/Regular_language). The outputs on a Mealy machine depend on **both the state and inputs**, whereas a Moore machine have their outputs **synchronously change with the state.**
 
 > Every Moore machine can be converted to a Mealy machine and every Mealy machine can be converted to a Moore machine. Moore machine and Mealy machine are equivalent.
 
 ## Reference
+
 - https://en.wikipedia.org/wiki/Mealy_machine
 - https://www.cs.ucdavis.edu/~rogaway/classes/120/spring13/eric-transducers
 - https://unstop.com/blog/difference-between-mealy-and-moore-machine
-

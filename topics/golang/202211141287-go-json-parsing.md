@@ -15,9 +15,10 @@ tags:
 
 ### Go JSON parser: number <-> interface
 
-**TLDR**; be careful when using  map[string]interface{} to hold json number value, use custom decoder with newDecoder.UseNumber() to decode the json string.
+**TLDR**; be careful when using map[string]interface{} to hold json number value, use custom decoder with newDecoder.UseNumber() to decode the json string.
 
 The problem
+
 ```go
 type payload struct { ID int64 `json:"id"` }
 p := payload{ ID: 98470950831393239 }
@@ -37,6 +38,7 @@ Ref: https://cs.opensource.google/go/go/+/refs/tags/go1.19.3:src/encoding/json/d
 
 Solution
 To resolve we need custom decoder with UseNumber
+
 ```go
 var obj map[string]interface{}
 decoder := json.NewDecoder(strings.NewReader(string(raw)))
@@ -45,4 +47,3 @@ decoder.Decode(&obj)
 interfaceRaw, _ := json.Marshal(obj)
 fmt.Printf("version2 is %s\n", interfaceRaw) // {"id":98470950831393239 }
 ```
-

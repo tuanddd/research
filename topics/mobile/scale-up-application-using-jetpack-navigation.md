@@ -1,6 +1,6 @@
 ---
 title: null
-date: 2022-11-14T00:00:00.000Z
+date: 2022-11-14
 description: Learn how to simplify Android app navigation with Jetpack Navigation Component, handling fragment transitions, dynamic start destinations, modular flows, and integration with Firebase Analytics.
 authors:
   - Nguyen Xuan Truong
@@ -12,14 +12,16 @@ tags:
   - jetpack
 ---
 
-In the past, to implement based on fragment navigation, we used `FragmentManager` and `FragmentTransaction` to 
+In the past, to implement based on fragment navigation, we used `FragmentManager` and `FragmentTransaction` to
+
 - Manage add/place embbeeded fragments in activity
 - Backstack state management
 - Ovveride transition animation
 
-In order to enhance stability for this approaching, we need to spend much time and effort, not to mention the UI testing compatibility 
+In order to enhance stability for this approaching, we need to spend much time and effort, not to mention the UI testing compatibility
 
 ## Jetpack Navigation
+
 From 2018, the Google introduced the navigation component alpha version and mark it stable version 1.0.0 in early 2019
 It wrapppers all complex scenarios in low tier, and provide some definitions to help developer easy to navigate between fragments
 
@@ -35,17 +37,20 @@ In [documentation](https://developer.android.com/guide/navigation), you can foun
 
 Beside above benefits, the navigation component also give us some disadvantages
 
-- The navigation graph included in XML, our fragment code in kotlin file. The time switching among them could take us more time. 
-- In addition, we need to define each action for each navigation and the argument for each navigation if you have.  
+- The navigation graph included in XML, our fragment code in kotlin file. The time switching among them could take us more time.
+- In addition, we need to define each action for each navigation and the argument for each navigation if you have.
 - We need to add one more step it make it compatition with Firebase analysic automatically ([Guideline](https://techdroid.kbeanie.com/2020/08/30/jetpack-navigation-and-firebase-analytics/))
 
 ## Problems
+
 1. Imagine we build a fintech application having ~ 100 screens, the xml code to define action, argument, destination is large numbers, so it could make us a messive navigation graph file.
 2. Each navigation has to define `startDestination`, how we can make it dynamically E.g: Depend on login state, we should navigate to correctly tartget fragment?
 
 ## Solution
+
 1. Modular application to each modular (Authentication, HomePage, Account, Payment and Transfer), each modular will be preseting by an activity with own navigation graph. So how we can handle user scenarion between each activity and get the result
-- Start activity for each flow by setting up each sequence as navigator 
+
+- Start activity for each flow by setting up each sequence as navigator
 
 ```Kotlin
 /**
@@ -59,10 +64,11 @@ sealed class TransferNavigator : Parcelable {
     data class ViewAllTransfers(val listTransfers: List<TransferModel>) : TransferNavigator()
 }
 ```
+
 - To launch activity, we will do
 
-``` Kotlin
-private val transferDetailResult = 
+```Kotlin
+private val transferDetailResult =
     registerForActivityResult(TransferDetailContract()){ result ->
         result.doOnSuccess {
             // TODO: Handle result
@@ -80,7 +86,7 @@ context.goToTransferDetail(transferDetailResult, item)
 
 - To receive the result, you should define contract and provide given expect result like below
 
-``` Kotlin
+```Kotlin
 class TransferDetailContract : ActivityResultContract<TransferNavigator, NavigatorResult<String>>() {
 
     override fun createIntent(context: Context, input: TransferNavigator): Intent {
@@ -95,17 +101,20 @@ class TransferDetailContract : ActivityResultContract<TransferNavigator, Navigat
     }
 }
 ```
- and set result in detail activity
 
-``` Kotlin
+and set result in detail activity
+
+```Kotlin
 val intent = Intent().apply {
       putExtra(Arg.TransferParam, "Success")
 }
 requireActivity().setResult(Activity.RESULT_OK, intent)
 requireActivity().finish()
 ```
+
 - To remove extra action, argument, we should define navigation graph as below
-``` XML
+
+```XML
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -126,9 +135,10 @@ requireActivity().finish()
 ```
 
 2. To resolve the fixed `startDestination` in each navigation graph, you can follow as below
-- Each module (activity) will have a fragment named EntryFragment as app:startDestination to handle navigation state in initalization time. 
 
-``` Kotlin
+- Each module (activity) will have a fragment named EntryFragment as app:startDestination to handle navigation state in initalization time.
+
+```Kotlin
 @AndroidEntryPoint
 class EntryFragment : Fragment() {
 
@@ -146,14 +156,14 @@ class EntryFragment : Fragment() {
             is TransferNavigator.TransferDetail -> {
                  val bundle = bundleOf(
                     Arg.TRANSFER_MODEL to navigator.transferModel,
-               
+
                 )
                 findNavController().navigate(R.id.TransferDetail, bundle, navOptions)
             }
             is TransferNavigator.ViewAllTransfer -> {
                   val bundle = bundleOf(
                     Arg.LIST_MODEL to navigator.listTransfers,
-               
+
                 )
                 findNavController().navigate(R.id.ViewAllTransfers, bundle, navOptions)
             }
@@ -162,7 +172,7 @@ class EntryFragment : Fragment() {
 ```
 
 ## References
+
 - [PROS and CONS of Android Jetpack Navigation Component](https://medium.com/accenture-ix-turkey/pros-and-cons-of-android-jetpack-navigation-component-d7a5e3bcfe50)
 - [Jetpack Navigation Documentation](https://developer.android.com/jetpack/androidx/releases/navigation)
 - [Firebase Analytics with Jetpack Navigation](https://techdroid.kbeanie.com/2020/08/30/jetpack-navigation-and-firebase-analytics/)
-

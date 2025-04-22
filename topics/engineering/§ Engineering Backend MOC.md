@@ -28,6 +28,4 @@ This is a [[Map of Content]] related to the engineering concepts around backend.
 - [[libcluster in elixir|libcluster in elixir]]
 - [[pg in elixir|pg in elixir]]
 
-
-*This page was last modified at 2024-03-15T05:48:36.000Z*.
-
+_This page was last modified at 2024-03-15T05:48:36.000Z_.

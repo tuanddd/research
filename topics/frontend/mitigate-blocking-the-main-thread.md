@@ -36,19 +36,19 @@ Generators was introduced in ES6, adding the capability of suspending and resumi
 
 ```javascript
 function* numberGen(maxValue = 100) {
-  let currentValue = 0
+  let currentValue = 0;
   while (currentValue < maxValue) {
-    currentValue++
-    yield currentValue
+    currentValue++;
+    yield currentValue;
   }
 }
 
 // Generate and get numbers
-const sequence = numberGen()
-console.log(sequence.next()) // Prints : { value: 1, done: false }
-console.log(sequence.next()) // Prints : { value: 2, done: false }
+const sequence = numberGen();
+console.log(sequence.next()); // Prints : { value: 1, done: false }
+console.log(sequence.next()); // Prints : { value: 2, done: false }
 // When it reaches the 99th call
-console.log(sequence.next()) // Prints : { value: 99, done: true }
+console.log(sequence.next()); // Prints : { value: 99, done: true }
 ```
 
 So, ES6 generator allows us to run code and yield values whenever we like but it's still a rough tool, for our problem we need to combine generator with browser's `requestIdleCallback()` to request main thread to do an amount of work when it's idle, then see if there is enough time left to do more work, if not yield control back to main thread then queue another run the next time main thread is idle. Luckily somebody smart already thought of that, you can checkout [js-coroutines]([https://github.com/miketalbot/js-coroutines/) for a complete implementation and evaluate if it solves your app's problem.
@@ -59,4 +59,3 @@ So, ES6 generator allows us to run code and yield values whenever we like but it
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator
 - https://javascript.info/generators
 - https://developer.mozilla.org/en-US/docs/Web/API/Window/requestIdleCallback
-

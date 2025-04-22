@@ -14,7 +14,7 @@ Blastland et al. found that expressing uncertainty did not have a negative impac
 
 #### Related
 
--   [[Inform rather than persuade]]
+- [[Inform rather than persuade]]
 
 #### Citations
 

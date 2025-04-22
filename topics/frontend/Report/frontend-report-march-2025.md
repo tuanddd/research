@@ -13,6 +13,7 @@ tags:
 ![](assets/frontend-report-202503.png)
 
 ## React
+
 ### [Common React libraries architecture](https://www.felgus.dev/blog/common-react-lib-architecture)
 
 Most React libraries share a similar architecture: a core with the main logic and a binding (hooks/components) for React integration. The core object is often created externally and connected via Context API. Libraries use the Observer pattern to notify React of changes, triggering re-renders with useSyncExternalStore or custom hooks
@@ -126,4 +127,3 @@ Chrome 133 enhances CSS with two main features: `attr()` for all properties and 
 - [The end of JavaScript fatigue? Don't count on it](https://allenpike.com/2025/javascript-fatigue-ssr)
 - [Decoding the debate around signals in the world of React](https://www.felgus.dev/blog/signals-in-react)
 - [Local-first is the future (but not without challenges)](https://rxdb.info/articles/local-first-future.html)
-

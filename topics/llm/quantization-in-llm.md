@@ -36,7 +36,7 @@ Two primary approaches exist for LLM quantization:
 
 There are many quantization schema to reduce the size of the model. One technique is called Linear Qunatization - which is used to map the floating point values to the smaller range of values by shifting and scaling. There are 2 main modes in this technique:
 
-- **Symmetric**: The zero-point is zero ,  i.e. 0.0 of the floating point range is the same as 0 in the quantized range. Typically, this is more efficient to compute at runtime but may result in lower accuracy if the floating point range is unequally distributed around the floating point 0.0.
+- **Symmetric**: The zero-point is zero , i.e. 0.0 of the floating point range is the same as 0 in the quantized range. Typically, this is more efficient to compute at runtime but may result in lower accuracy if the floating point range is unequally distributed around the floating point 0.0.
 - **Asymmetric**: Zero-point that is non-zero in value. This can result in higher accuracy but may be less efficient to compute at runtime.
 
 In this part, we focus on the asymmetric mode.
@@ -66,11 +66,11 @@ The process maps values from higher to lower precision (e.g., `FP32` to `INT8`).
 
 <div align="center">
 
-| Original Value | Quantized Value |
-|---------------|-----------------|
+| Original Value                        | Quantized Value    |
+| ------------------------------------- | ------------------ |
 | $w = [-24.43, -17.4, 1.2345, 12.654]$ | $q = [-128, +127]$ |
-| $w_{max} = 12.654$ | $q_{max} = 127$ |
-| $w_{min} = -24.43$ | $q_{min} = -128$ |
+| $w_{max} = 12.654$                    | $q_{max} = 127$    |
+| $w_{min} = -24.43$                    | $q_{min} = -128$   |
 
 </div>
 
@@ -81,6 +81,7 @@ s = \frac{q_{max} - q_{min}}{w_{max} - w_{min}}
 $$
 
 Example calculation:
+
 $$
 s = \frac{127-(-128)}{12.654-(-24.43)} = 6.8763
 $$
@@ -92,6 +93,7 @@ z = q_{min} - round(s * w_{min})
 $$
 
 Example calculation:
+
 $$
 z = -128 - round(6.8763 * (-24.43)) = 40
 $$
@@ -103,6 +105,7 @@ q = round(s * w + z)
 $$
 
 Resulting values:
+
 $$
 q = [-128, -100, 41, 86]
 $$
@@ -114,6 +117,7 @@ w = \frac{q - z}{s}
 $$
 
 To reproduce the 1st original value:
+
 $$
 w = \frac{-128 - 40}{6.8763} = -24.431743
 $$
@@ -152,4 +156,3 @@ Quantization stands as a pivotal technique in LLM optimization, enabling efficie
 - <https://www.datacamp.com/tutorial/quantization-for-large-language-models>
 - <https://medium.com/@vimalkansal/understanding-the-gguf-format-a-comprehensive-guide-67de48848256>
 - <https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-quantization>
-

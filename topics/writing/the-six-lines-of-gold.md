@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-09-26T00:00:00.000Z
-description: Discover Tim Ferriss's Six Lines of Gold method to quickly learn key language structures and common phrases, helping you grasp syntax, semantics, and fluency basics in just one hour.
+date: 2022-09-26
+description: "Discover Tim Ferriss's Six Lines of Gold method to quickly learn key language structures and common phrases, helping you grasp syntax, semantics, and fluency basics in just one hour."
 authors:
   - Nguyen Xuan Anh
 github_id: monotykamary
@@ -14,9 +14,11 @@ tags:
 ---
 
 ## Introduction
+
 The Six Lines of Gold are a series of phrases organized by Tim Ferriss. It essentially includes a technique to learn, but not master, any language within an hour. Although time to learn varies per person, these lines hint at several distinctions related to variations in [[Syntax and Semantics in Language|syntax and semantics]] across languages.
 
 ## Reasoning
+
 The reasoning behind using these phrases is to cover a good portion of commonly spoken and written variations of related thematic roles. The technique helps to deconstruct the language to focus on key nuances and idiosyncracies that come with conversational and written languages.
 
 In essence, they ask the following questions (taken from [Tim's blog](https://tim.blog/2007/11/07/how-to-learn-but-not-master-any-language-in-1-hour-plus-a-favor/)):
@@ -38,22 +40,25 @@ The idea of finding similarities is to also help acquire fluency faster while al
 Fluency encompasses not only general understanding of the native writing system, but also sounds, phonetics, and tones.
 
 ## Examples
+
 ### Canonical example in English
-1) The apple is red.
-2) It is John’s apple.
-3) I give John the apple.
-4) We give him the apple.
-5) He gives it to John.
-6) She gives it to him.
+
+1. The apple is red.
+2. It is John’s apple.
+3. I give John the apple.
+4. We give him the apple.
+5. He gives it to John.
+6. She gives it to him.
 
 ### Example in Vietnamese
-1) Quả táo đỏ.
-2) Đó là quả táo của John.
-3) Tôi đưa cho John quả táo.
-4) Chúng tôi đưa cho anh ta quả táo.
-5) Ông đưa nó cho John.
-6) Cô ấy đưa nó cho anh ta.
+
+1. Quả táo đỏ.
+2. Đó là quả táo của John.
+3. Tôi đưa cho John quả táo.
+4. Chúng tôi đưa cho anh ta quả táo.
+5. Ông đưa nó cho John.
+6. Cô ấy đưa nó cho anh ta.
 
 ## Reference
-- https://tim.blog/2007/11/07/how-to-learn-but-not-master-any-language-in-1-hour-plus-a-favor/
 
+- https://tim.blog/2007/11/07/how-to-learn-but-not-master-any-language-in-1-hour-plus-a-favor/

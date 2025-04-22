@@ -10,6 +10,7 @@ tags:
 ---
 
 ## **Introduction**
+
 In the world of programming, errors are inevitable. Rust, a modern systems programming language, takes a unique approach to error handling by categorizing errors into two main types: **unrecoverable** and **recoverable**. This distinction allows developers to manage errors more effectively, ensuring robust and reliable code.
 
 ### **Unrecoverable Errors: The Power of Panic!**
@@ -123,7 +124,7 @@ fn read_file_content(file_path: &str) -> Result<String, io::Error> {
 
     // Read the content of the file into a String
     let mut content = String::new();
-    
+
     // Use the ? operator to handle the Result returned by read_to_string
     // If an error occurs, it is returned immediately.
     file.read_to_string(&mut content)?;
@@ -252,6 +253,6 @@ impl std::fmt::Display for MyError {
 ```
 
 ## References:
+
 - https://doc.rust-lang.org/book/ch09-00-error-handling.html
 - https://blog.burntsushi.net/rust-error-handling/
-

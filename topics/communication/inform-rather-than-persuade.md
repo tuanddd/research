@@ -16,10 +16,10 @@ Misunderstandings and misconceptions should be anticipated and "pre-bunked," and
 
 #### Related
 
--   [[Expressing uncertainty doesn't undermine authority]] - Blastland et al. found that identifying uncertainties did not undermine audience trust in the research
--   [[Narrative helps the human mind make sense of events]] - Narratives simplify, but in so doing help us comprehend complexity
--   [[Narratives enable us to act decisively in conditions of uncertainty]] - When driving action, narratives may help promote decisiveness
--   [[Narrative sequencing informs meaning]] - The arrangement of insights informs how we interpret them; our aims—persuasion or information—inform that arrangement.
+- [[Expressing uncertainty doesn't undermine authority]] - Blastland et al. found that identifying uncertainties did not undermine audience trust in the research
+- [[Narrative helps the human mind make sense of events]] - Narratives simplify, but in so doing help us comprehend complexity
+- [[Narratives enable us to act decisively in conditions of uncertainty]] - When driving action, narratives may help promote decisiveness
+- [[Narrative sequencing informs meaning]] - The arrangement of insights informs how we interpret them; our aims—persuasion or information—inform that arrangement.
 
 #### Citations
 

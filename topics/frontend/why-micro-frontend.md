@@ -150,4 +150,3 @@ Until next time!
 - [Micro-Frontend—Why and How? | Syncfusion Blogs](https://www.syncfusion.com/blogs/post/micro-frontend-why-and-how.aspx)
 - [Microfrontends Anti-Patterns: Seven Years in the Trenches](https://www.infoq.com/presentations/microfrontend-antipattern/)
 - [Micro Frontends - extending the microservice idea to frontend development (micro-frontends.org)](https://micro-frontends.org/)
-

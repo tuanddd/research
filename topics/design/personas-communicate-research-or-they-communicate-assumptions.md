@@ -18,13 +18,13 @@ Personas in general are a form of narrative. This means that they must be approa
 
 #### Related
 
--   [[Focus personas on tasks, goals, and motivations]]
--   [[Personas document shared understanding about users]]
--   [[Personas may create space for assumptions]]
--   [[Personas lack rich context]]
--   [[People fill information gaps with assumptions]]
--   [[¶ Persona]]
--   [[§ Personas]]
+- [[Focus personas on tasks, goals, and motivations]]
+- [[Personas document shared understanding about users]]
+- [[Personas may create space for assumptions]]
+- [[Personas lack rich context]]
+- [[People fill information gaps with assumptions]]
+- [[¶ Persona]]
+- [[§ Personas]]
 
 #### Citations
 

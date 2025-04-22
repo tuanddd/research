@@ -1,7 +1,7 @@
 ---
 title: null
-date: 2022-05-09T00:00:00.000Z
-description: Discover Edsger W. Dijkstra's insights on programming, software elegance, testing limits, and the challenges of writing code, revealing why simplicity and hard work lead to successful software development.
+date: 2022-05-09
+description: "Discover Edsger W. Dijkstra's insights on programming, software elegance, testing limits, and the challenges of writing code, revealing why simplicity and hard work lead to successful software development."
 authors:
   - Pham Duc Thanh
 github_id: zlatanpham
@@ -37,5 +37,5 @@ Edsger W. Dijkstra was an influential computer scientist and is well known for h
 11. Why do so few people pursue elegance? This is the truth of it: If there is a downside to elegance, it's that you need to work hard to get it, and good education to appreciate it.
 
 #### References
-- https://www.youtube.com/watch?v=mLEOZO1GwVc&ab_channel=HansOtten
 
+- https://www.youtube.com/watch?v=mLEOZO1GwVc&ab_channel=HansOtten

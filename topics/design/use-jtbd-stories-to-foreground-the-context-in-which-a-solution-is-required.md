@@ -29,10 +29,10 @@ Job stories do not offer solutions; they describe the context for which the solu
 
 #### Related
 
--   [[Focus personas on tasks, goals, and motivations]]
--   [[Personas make abstract research concrete for design teams]]
--   [[Methods to overcome the limitations of personas]]
--   [[JTBD Job Interview Structure]]
+- [[Focus personas on tasks, goals, and motivations]]
+- [[Personas make abstract research concrete for design teams]]
+- [[Methods to overcome the limitations of personas]]
+- [[JTBD Job Interview Structure]]
 
 #### Citations
 

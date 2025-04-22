@@ -20,10 +20,10 @@ Mixed-methods research means combining philosophical points of view. Whereas qua
 
 #### Related
 
--   [[Four Theories of Truth]]
--   [[Quant data is lossy]]
--   [[Quantitative analysis is not inherently more reliable than qualitative data]]
+- [[Four Theories of Truth]]
+- [[Quant data is lossy]]
+- [[Quantitative analysis is not inherently more reliable than qualitative data]]
 
 #### Citations
 
--   [[≈ Mixed Methods]]
+- [[≈ Mixed Methods]]

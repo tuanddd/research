@@ -17,14 +17,17 @@ tags:
 Swapping ICY tokens for Bitcoin means exchanging one type of digital currency for another across different blockchain systems. Since ICY tokens (on the Base chain) and Bitcoin (on its own blockchain) operate on incompatible networks, specific tools are needed to make this process work. Below, I’ll explain the tools, why a direct swap isn’t possible, how the swap happens, and how the price is determined.
 
 ## Tools Used in the Swap
+
 Swap Contracts: Automated programs on the Base chain that securely manage the swap process.
 Treasury Wallets: Digital wallets that hold ICY tokens and Bitcoin during the exchange.
 Icy-Backend: A system that receives your swap request, tracks it, and triggers the Bitcoin transfer.
 
 ## Why It’s Not a Direct Swap
+
 A direct swap isn’t possible because ICY tokens and Bitcoin use different blockchains. The Base chain is a modern system with advanced features, while Bitcoin’s blockchain is older and more limited. These differences prevent direct transfers, so tools like swap contracts and oracles are used to bridge the gap.
 
 ## How the Swap Works
+
 Swapping ICY tokens for Bitcoin is a straightforward process that combines user actions, system automation, and secure on-chain technology. Here’s how it works in a concise, step-by-step breakdown:
 
 **Initiate the Swap**
@@ -46,4 +49,5 @@ The backend regularly checks events on the Swap Contract to detect your swap req
 For more details on how the price is set, please refer to the [How much is your ICY worth](https://memo.d.foundation/playbook/community/how-to-swap-icy-to-btc-copy/) guide.
 
 ## Conclusion
+
 This process uses specialized tools and steps to securely swap ICY tokens for Bitcoin, overcoming the challenges of their different blockchain systems while maintaining fairness in pricing.

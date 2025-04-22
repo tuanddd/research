@@ -270,4 +270,3 @@ There is no universal standard for writing Multisig Wallet, but we can refer to 
 - https://www.binance.vision/security/what-is-a-multisig-wallet
 - https://medium.com/hellogold/ethereum-multi-signature-wallets-77ab926ab63b
 - https://www.gemini.com/cryptopedia/what-is-a-multi-sig-wallet-crypto-multi-signature-wallet
-

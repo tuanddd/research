@@ -1,7 +1,7 @@
 ---
 title: "Parse, don't validate in TypeScript"
 date: 2023-01-05
-description: "The \"parse, don't validate\" approach is about processing incoming data and failing in a controlled manner if parsing fails."
+description: 'The "parse, don''t validate" approach is about processing incoming data and failing in a controlled manner if parsing fails.'
 authors:
   - namtrhg
 github_id: namtrhg
@@ -27,25 +27,25 @@ Parsing is better than validation because it requires you to explicitly handle e
 #### Example
 
 ```ts
-import * as yup from 'yup'
+import * as yup from "yup";
 
 let schema = yup.object().shape({
   name: yup.string().required(),
   age: yup.number().required().positive().integer(),
   email: yup.string().email(),
-})
+});
 // data from an API, from user, etc. Note that the type would be `any`
 // (or perhaps `unkown`) as we don't really know what it looks like
 // if it comes from outside
 const data: any = {
-  name: 'jimmy',
+  name: "jimmy",
   age: 24,
-}
+};
 // check validity
 schema.isValid(data).then(function (valid) {
-  console.log('isValid?', valid) // => true
+  console.log("isValid?", valid); // => true
   // do something with the data, however, it's still `any`/`unkown`....
-})
+});
 ```
 
 We still don't have a _type_ for our 'data,' as you can see. It remains 'any/unknown'. Sure, we can typecast it, but it introduces a problem: we now have to maintain a'schema' and a 'type' separately, by hand, with nothing ensuring they match.
@@ -57,17 +57,17 @@ let userSchema = yup.object().shape({
   name: yup.string().required(),
   age: yup.number().required().positive().integer(),
   email: yup.string().email(),
-})
+});
 
 type UserType = {
-  name: string
-  age: number
-  email: string
-}
+  name: string;
+  age: number;
+  email: string;
+};
 // check validity
 schema.isValid(data).then(function (valid) {
-  const user = data as UserType // it's valid so let's cast!
-})
+  const user = data as UserType; // it's valid so let's cast!
+});
 ```
 
 Still, how can you ensure that 'userSchema' and 'UserType' are in sync? Do they even stand for the same thing?
@@ -76,38 +76,40 @@ Still, how can you ensure that 'userSchema' and 'UserType' are in sync? Do they 
 
 ```ts
 // Let's use some custom type aliases for readability
-type PositiveInteger = number
-type Email = string
-type URL = string
+type PositiveInteger = number;
+type Email = string;
+type URL = string;
 // Type guards to validate invidiual values, fields
-const isPositiveInteger = (x: any): x is PositiveInteger => yup.number().required().positive().integer().isType(x)
-const isEmail = (x: any): x is Email => yup.string().required().email().isType(x)
-const isString = (x: any): x is string => yup.string().required().isType(x)
+const isPositiveInteger = (x: any): x is PositiveInteger =>
+  yup.number().required().positive().integer().isType(x);
+const isEmail = (x: any): x is Email =>
+  yup.string().required().email().isType(x);
+const isString = (x: any): x is string => yup.string().required().isType(x);
 // UserType again, now with our custom type aliases
 type UserType = {
-  name: string
-  age: PositiveInteger
-  email?: Email
-}
+  name: string;
+  age: PositiveInteger;
+  email?: Email;
+};
 /**
 parse, don't validate
 compiler can help us quite a bit here to make sure the parsing
 is actually correct
 */
 const parseToUserType = (x: any): UserType | Error => {
-  let { name, age, email, website, createdOn } = x
-  if (!isString(name)) return new Error('invalid name')
-  if (!isPositiveInteger(age)) return new Error('invalid age')
-  email = isEmail(email) ? email : undefined // optional, silently drop invalid values
-  return { age, name, createdOn, email, website }
-}
+  let { name, age, email, website, createdOn } = x;
+  if (!isString(name)) return new Error("invalid name");
+  if (!isPositiveInteger(age)) return new Error("invalid age");
+  email = isEmail(email) ? email : undefined; // optional, silently drop invalid values
+  return { age, name, createdOn, email, website };
+};
 // Business logic is pretty awesome now!
 function myHandler(): Response {
-  const userType: UserType | Error = parseToUserType(data)
+  const userType: UserType | Error = parseToUserType(data);
 
-  if (userType instanceof Error) return { error: 'Ohh there was a 400 error' }
+  if (userType instanceof Error) return { error: "Ohh there was a 400 error" };
   // use UserType normally, do what ever you want
-  return { message: `Welcome, ${userType.name}` }
+  return { message: `Welcome, ${userType.name}` };
 }
 ```
 
@@ -119,4 +121,3 @@ function myHandler(): Response {
 ### Reference
 
 https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/ https://en.wikipedia.org/wiki/Parsing https://itnext.io/parse-dont-validate-incoming-data-in-typescript-d6d5bfb092c8
-

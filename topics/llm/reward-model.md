@@ -83,4 +83,3 @@ However, determining a suitable reward model is not always easy. Sometimes, defi
 - https://explodinggradients.com/reward-modeling-for-large-language-models-with-code
 - https://huggingface.co/docs/trl/main/en/detoxifying_a_lm
 - https://openai.com/blog/chatgpt
-

@@ -5,11 +5,14 @@ description: Learn best practices for Solidity smart contracts including abstrac
 ---
 
 ### 1. Abstract-vs-interfaces
+
 Be aware of the tradeoffs between abstract contracts and interfaces.
 Both interfaces and abstract contracts provide one with a customizable and re-usable approach for smart contracts. Interfaces, which were introduced in Solidity 0.4.11, are similar to abstract contracts but cannot have any functions implemented. Interfaces also have limitations such as not being able to access storage or inherit from other interfaces which generally makes abstract contracts more practical. Although, interfaces are certainly useful for designing contracts prior to implementation. Additionally, it is important to keep in mind that if a contract inherits from an abstract contract it must implement all non-implemented functions via overriding or it will be abstract as well.
 
 ### 2. assert require revert
+
 #### Enforce invariants with `assert()`
+
 An assert guard triggers when an assertion fails - such as an invariant property changing. For
 example, the token to ether issuance ratio, in a token issuance contract, may be fixed. You can
 verify that this is the case at all times with an `assert()`. Assert guards should often be
@@ -31,13 +34,14 @@ contract Token {
 }
 ```
 
-Note that the assertion is *not* a strict equality of the balance because the contract can be
+Note that the assertion is _not_ a strict equality of the balance because the contract can be
 [forcibly sent ether](#remember-that-ether-can-be-forcibly-sent-to-an-account) without going
 through the `deposit()` function!
 
 #### Use `assert()`, `require()`, `revert()` properly
+
 !!! Info
-    The convenience functions **assert** and **require** can be used to check for conditions and throw an exception if the condition is not met.
+The convenience functions **assert** and **require** can be used to check for conditions and throw an exception if the condition is not met.
 
 The **assert** function should only be used to test for internal errors, and to check invariants.
 
@@ -66,6 +70,7 @@ contract Sharer {
 See [SWC-110](https://swcregistry.io/docs/SWC-110) & [SWC-123](https://swcregistry.io/docs/SWC-123)
 
 ## 3.Complex inheritance
+
 When utilizing multiple inheritance in Solidity, it is important to understand how the compiler
 composes the inheritance graph.
 
@@ -105,7 +110,7 @@ contract A is B, C {
 }
 ```
 
-When a contract is deployed, the compiler will *linearize* the inheritance from right to left
+When a contract is deployed, the compiler will _linearize_ the inheritance from right to left
 (after the keyword _is_ the parents are listed from the most base-like to the most derived). Here
 is contract A's linearization:
 
@@ -126,6 +131,7 @@ inheritance-related issues.
 See [SWC-125](https://swcregistry.io/docs/SWC-125)
 
 ## 4. Event monitoring
+
 It can be useful to have a way to monitor the contract's activity after it was deployed. One way to
 accomplish this is to look at all transactions of the contract, however that may be insufficient,
 as message calls between contracts are not recorded in the blockchain. Moreover, it shows only the
@@ -184,12 +190,13 @@ contract Game {
 Here, all transactions that go through the `Charity` contract, either directly or not, will show up
 in the event list of that contract along with the amount of donated money.
 
-______________________________________________________________________
+---
 
 !!! Note "Prefer newer Solidity constructs"
-    Prefer constructs/aliases such as `selfdestruct` (over `suicide`) and `keccak256` (over `sha3`).  Patterns like `require(msg.sender.send(1 ether))` can also be simplified to using `transfer()`, as in `msg.sender.transfer(1 ether)`. Check out [Solidity Change log](https://github.com/ethereum/solidity/blob/develop/Changelog.md) for more similar changes.
+Prefer constructs/aliases such as `selfdestruct` (over `suicide`) and `keccak256` (over `sha3`). Patterns like `require(msg.sender.send(1 ether))` can also be simplified to using `transfer()`, as in `msg.sender.transfer(1 ether)`. Check out [Solidity Change log](https://github.com/ethereum/solidity/blob/develop/Changelog.md) for more similar changes.
 
 ## 5. Extcodesize checks
+
 Avoid using `extcodesize` to check for Externally Owned Accounts.
 
 The following modifier (or a similar check) is often used to verify whether a call was made from an
@@ -213,7 +220,7 @@ while the constructor is running, it can make calls to other contracts, but `ext
 address returns zero. Below is a minimal example that shows how this check can be circumvented:
 
 ```sol
-contract OnlyForEOA {    
+contract OnlyForEOA {
     uint public flag;
 
     // bad
@@ -242,12 +249,14 @@ which is empty at block `n`, but which has a contract deployed to it at some blo
 `n`.
 
 !!! Warning "This issue is nuanced."
-    If your goal is to prevent other contracts from being able to call your contract, the `extcodesize` check is probably sufficient. An alternative approach is to check the value of `(tx.origin == msg.sender)`, though this also has drawbacks.
+If your goal is to prevent other contracts from being able to call your contract, the `extcodesize` check is probably sufficient. An alternative approach is to check the value of `(tx.origin == msg.sender)`, though this also has drawbacks.
 
     There may be other situations in which the `extcodesize` check serves your purpose. Describing all of them here is out of scope. Understand the underlying behaviors of the EVM and use your Judgement.
 
 ## 6. Fallback functions
+
 #### Keep fallback functions simple
+
 [Fallback functions](http://solidity.readthedocs.io/en/latest/contracts.html#fallback-function) are
 called when a contract is sent a message with no arguments (or when no function matches), and only
 has access to 2,300 gas when called from a `.send()` or `.transfer()`. If you wish to be able to
@@ -265,6 +274,7 @@ function() payable { require(msg.data.length == 0); emit LogDepositReceived(msg.
 ```
 
 #### Check data length in fallback functions
+
 Since the
 [fallback functions](http://solidity.readthedocs.io/en/latest/contracts.html#fallback-function) is
 not only called for plain ether transfers (without data) but also when no other function matches,
@@ -281,6 +291,7 @@ function() payable { require(msg.data.length == 0); emit LogDepositReceived(msg.
 ```
 
 ## 7. Integer Division
+
 All integer division rounds down to the nearest integer. If you need more precision, consider using
 a multiplier, or store both the numerator and denominator.
 
@@ -312,6 +323,7 @@ uint denominator = 2;
 ```
 
 ## 8. interface types
+
 When a function takes a contract address as an argument, it is better to pass an interface or
 contract type rather than a raw `address`. If the function is called elsewhere within the source
 code, the compiler will provide additional type safety guarantees.
@@ -360,6 +372,7 @@ contract Auction is TypeSafeAuction {
 ```
 
 ## 9. Locking pragmas
+
 Contracts should be deployed with the same compiler version and flags that they have been tested
 the most with. Locking the pragma helps ensure that contracts do not accidentally get deployed
 using, for example, the latest compiler which may have higher risks of undiscovered bugs. Contracts
@@ -378,13 +391,14 @@ Note: a floating pragma version (ie. `^0.4.25`) will compile fine with `0.4.26-n
 however nightly builds should never be used to compile code for production.
 
 !!! Warning
-    Pragma statements can be allowed to float when a contract is intended for consumption
-    by other developers, as in the case with contracts in a library or EthPM package. Otherwise, the
-    developer would need to manually update the pragma in order to compile locally.
+Pragma statements can be allowed to float when a contract is intended for consumption
+by other developers, as in the case with contracts in a library or EthPM package. Otherwise, the
+developer would need to manually update the pragma in order to compile locally.
 
     See [SWC-103](https://swcregistry.io/docs/SWC-103)
 
 ## 10. Modifier
+
 The code inside a modifier is usually executed before the function body, so any state changes or
 external calls will violate the
 [Checks-Effects-Interactions](https://solidity.readthedocs.io/en/develop/security-considerations.html#use-the-checks-effects-interactions-pattern)
@@ -419,20 +433,22 @@ In this case, the `Registry` contract can make a reentrancy attack by calling `E
 inside `isVoter()`.
 
 !!! Note
-    Use [modifiers](https://solidity.readthedocs.io/en/develop/contracts.html#function-modifiers) to
-    replace duplicate condition checks in multiple functions, such as `isOwner()`, otherwise use
-    `require` or `revert` inside the function. This makes your smart contract code more readable and
-    easier to audit.
+Use [modifiers](https://solidity.readthedocs.io/en/develop/contracts.html#function-modifiers) to
+replace duplicate condition checks in multiple functions, such as `isOwner()`, otherwise use
+`require` or `revert` inside the function. This makes your smart contract code more readable and
+easier to audit.
 
 ## 11. payability
+
 Starting from Solidity `0.4.0`, every function that is receiving ether must use `payable` modifier,
 otherwise if the transaction has `msg.value > 0` will revert
 (except when forced).
 
 !!! Note
-    Something that might not be obvious: The `payable` modifier only applies to calls from *external* contracts. If I call a non-payable function in the payable function in the same contract, the non-payable function won't fail, though `msg.value` is still set.
+Something that might not be obvious: The `payable` modifier only applies to calls from _external_ contracts. If I call a non-payable function in the payable function in the same contract, the non-payable function won't fail, though `msg.value` is still set.
 
 ## 12. Shadowing
+
 It is currently possible to [shadow](https://en.wikipedia.org/wiki/Variable_shadowing) built-in
 globals in Solidity. This allows contracts to override the functionality of built-ins such as `msg`
 and `revert()`. Although this [is intended](https://github.com/ethereum/solidity/issues/1249), it
@@ -454,10 +470,12 @@ Contract users (and auditors) should be aware of the full smart contract source 
 application they intend to use.
 
 ## 13. timestamp-dependence
+
 There are three main considerations when using a timestamp to execute a critical function in a
 contract, especially when actions involve fund transfer.
 
 #### Timestamp Manipulation
+
 Be aware that the timestamp of the block can be manipulated by a miner. Consider this
 [contract](https://etherscan.io/address/0xcac337492149bdb66b088bf5914bedfbf78ccc18#code):
 
@@ -482,6 +500,7 @@ precompute an option more favorable to their chances in the lottery. Timestamps 
 should not be used in that context.
 
 #### The 15-second Rule
+
 The [Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf) (Ethereum's reference
 specification) does not specify a constraint on how much blocks can drift in time, but
 [it does specify](https://ethereum.stackexchange.com/a/5926/46821) that each timestamp should be
@@ -493,10 +512,11 @@ both reject blocks with timestamp more than 15 seconds in future. Therefore, a g
 in evaluating timestamp usage is:
 
 !!! Note
-    If the scale of your time-dependent event can vary by 15 seconds and maintain integrity,
-    it is safe to use a `block.timestamp`.
+If the scale of your time-dependent event can vary by 15 seconds and maintain integrity,
+it is safe to use a `block.timestamp`.
 
 #### Avoid using `block.number` as a timestamp
+
 It is possible to estimate a time delta using the `block.number` property and
 [average block time](https://etherscan.io/chart/blocktime), however this is not future proof as
 block times may change (such as
@@ -507,6 +527,7 @@ the 15-second rule allows one to achieve a more reliable estimate of time.
 See [SWC-116](https://swcregistry.io/docs/SWC-116)
 
 ## 14. tx-origin
+
 Never use `tx.origin` for authorization, another contract can have a method which will call your
 contract (where the user has some funds for instance) and your contract will authorize that
 transaction as your address is in `tx.origin`.
@@ -552,10 +573,10 @@ You can read more about it here:
 [Solidity docs](https://solidity.readthedocs.io/en/develop/security-considerations.html#tx-origin)
 
 !!! Warning
-    Besides the issue with authorization, there is a chance that `tx.origin` will be
-    removed from the Ethereum protocol in the future, so code that uses `tx.origin` won't be compatible
-    with future releases
-    [Vitalik: 'Do NOT assume that tx.origin will continue to be usable or meaningful.'](https://ethereum.stackexchange.com/questions/196/how-do-i-make-my-dapp-serenity-proof/200#200)
+Besides the issue with authorization, there is a chance that `tx.origin` will be
+removed from the Ethereum protocol in the future, so code that uses `tx.origin` won't be compatible
+with future releases
+[Vitalik: 'Do NOT assume that tx.origin will continue to be usable or meaningful.'](https://ethereum.stackexchange.com/questions/196/how-do-i-make-my-dapp-serenity-proof/200#200)
 
     It's also worth mentioning that by using `tx.origin` you're limiting interoperability between
     contracts because the contract that uses tx.origin cannot be used by another contract as a contract
@@ -564,6 +585,7 @@ You can read more about it here:
     See [SWC-115](https://swcregistry.io/docs/SWC-115)
 
 ## 15. Visibility
+
 Explicitly label the visibility of functions and state variables. Functions can be specified as
 being `external`, `public`, `internal` or `private`. Please understand the differences between
 them, for example, `external` may be sufficient instead of `public`. For state variables,
@@ -603,7 +625,7 @@ function internalAction() internal {
 }
 ```
 
-### See 
+### See
+
 - [SWC-100](https://swcregistry.io/docs/SWC-100) and
 - [SWC-108](https://swcregistry.io/docs/SWC-108)
-

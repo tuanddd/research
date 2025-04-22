@@ -40,8 +40,6 @@ func Test(t *testing.T) {
 
 - It's still flaky because it depends on the system clock.
 
-
-
 ### Solution
 
 - The `testing/synctest` package is an experiment to provide a more deterministic way to test time and concurrency in Go.

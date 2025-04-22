@@ -17,8 +17,8 @@ Still, as Kay points out, researchers should take care the sample size is approp
 
 #### Related
 
--   [[How many users should you interview]]
--   [[Qualitative and quantitative research represent different philosophies of knowledge]]
+- [[How many users should you interview]]
+- [[Qualitative and quantitative research represent different philosophies of knowledge]]
 
 #### Citations
 

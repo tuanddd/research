@@ -31,11 +31,11 @@ There are five key points to remember:
 
 #### Related
 
--   [[¶ Persona]]
--   [[Methods to overcome the limitations of personas]]
--   [[JTBD Job Interview Structure]]
--   [[Use JTBD stories to foreground the context in which a solution is required]]
--   [[Focus product development on customer jobs that are important, tangible, unsatisfied, and lucrative]]
+- [[¶ Persona]]
+- [[Methods to overcome the limitations of personas]]
+- [[JTBD Job Interview Structure]]
+- [[Use JTBD stories to foreground the context in which a solution is required]]
+- [[Focus product development on customer jobs that are important, tangible, unsatisfied, and lucrative]]
 
 #### Citations
 

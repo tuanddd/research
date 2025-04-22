@@ -14,7 +14,7 @@ Writing by hand forces us to slow down and write and take notes more mindfully, 
 
 #### Related
 
--   [[Writing is thinking]]
+- [[Writing is thinking]]
 
 #### Citations
 

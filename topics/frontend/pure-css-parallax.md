@@ -143,4 +143,3 @@ You can try out all the common practices I have mentioned in the CodePen below:
 - https://keithclark.co.uk/articles/pure-css-parallax-websites/
 - https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style
 - https://www.youtube.com/watch?v=1wfeqDyMUx4
-

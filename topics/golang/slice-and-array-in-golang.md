@@ -166,4 +166,3 @@ The interesting thing is how Go decide how much capacity the new slice is. As yo
 
 - [https://golang.org/doc/effective_go.html#slices](https://golang.org/doc/effective_go.html#slices)
 - [https://blog.golang.org/slices](https://blog.golang.org/slices)
-

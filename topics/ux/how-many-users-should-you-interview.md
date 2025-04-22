@@ -20,8 +20,8 @@ Finally, a more experienced researcher can do more with less. With qualitative r
 
 #### Related
 
--   [[UX researchers should care about strength of evidence]]
--   [[Qualitative researchers care more about data saturation than sample size]]
+- [[UX researchers should care about strength of evidence]]
+- [[Qualitative researchers care more about data saturation than sample size]]
 
 #### Citations
 

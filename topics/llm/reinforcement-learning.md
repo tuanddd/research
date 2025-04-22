@@ -62,4 +62,3 @@ While RL can be applied to various domains, it requires significant time and com
 - Agent: The interacting entity operates with the environment, and its actions are controlled by an algorithm.
 - MDP: Markov decision process
 - LLM: Large language model
-

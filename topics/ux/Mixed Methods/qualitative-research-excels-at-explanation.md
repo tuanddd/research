@@ -12,7 +12,7 @@ Neither qualitative nor quantitative research methods are inherently superior to
 
 #### Related
 
--   [[§ UX Research]]
+- [[§ UX Research]]
 
 #### Citations
 

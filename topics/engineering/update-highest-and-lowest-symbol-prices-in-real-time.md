@@ -1,6 +1,6 @@
 ---
 title: null
-date: 2023-06-07T00:00:00.000Z
+date: 2023-06-07
 description: Learn how to update highest and lowest symbol prices in real-time using Binance WebSocket and in-memory caching to reduce database load and improve price peak tracking efficiency.
 authors:
   - Minh Tran
@@ -15,15 +15,19 @@ tags:
 ---
 
 ## Introduction
+
 This technical document outlines a solution to update the highest and lowest prices of millions of symbols in a database in real-time. By leveraging Binance socket data, the aim is to ensure efficient updates without overloading the database with frequent queries.
 
 ## Requirement
+
 The primary requirement is to update the highest and lowest prices of a large number of symbols stored in a database. The updates should be based on real-time data received from the Binance socket.
 
 ## Challenge
+
 The main challenge arises from the large number of symbol records in the database. Frequent queries to retrieve and update prices for each symbol can lead to unnecessary resource consumption and potentially result in performance issues.
 
 ## Approach
+
 To address the challenge mentioned above, the following approach is proposed:
 
 - Maintain an in-memory cache to store the highest and lowest prices for each symbol.
@@ -33,6 +37,7 @@ To address the challenge mentioned above, the following approach is proposed:
 - Only query the database if a change in the highest or lowest prices is detected.
 
 ## Implementation
+
 The implementation of the approach involves the following steps:
 
 1. Establish a WebSocket connection to listen for real-time mark prices from Binance.
@@ -42,25 +47,29 @@ The implementation of the approach involves the following steps:
 5. Employ appropriate locking mechanisms to ensure data consistency and prevent conflicts when users modify the date range or access the data concurrently.
 
 ### Diagram
+
 A diagram depicting the flow of the implementation can be included here.
 
 ![[update-highest-and-lowest-symbol-prices-in-real-time.png|500]]
 
 ## Results and Limitations
+
 ### Results
+
 By implementing the proposed solution, the following results can be achieved:
 
 - Real-time updates of the second and third peaks for symbol prices can be accomplished without the need for heavy database queries.
 - The in-memory cache allows for efficient comparisons and reduces unnecessary database interactions.
 
 ### Limitations
+
 The solution has the following limitations:
 
 - Binance socket data updates occur every 1 second, which means there is a possibility of missing new lows or highs during rapid market price fluctuations.
 
 ## Work-Around Solution
+
 To mitigate the limitations mentioned above and ensure accurate updates of the second and third peaks, a work-around solution is proposed:
 
 - Implement a long polling service that continuously retrieves data from Binance at shorter intervals.
 - By reducing the interval between data retrievals, the likelihood of missing price movements during rapid market changes can be minimized, thus ensuring more accurate updates of the second and third peaks.
-

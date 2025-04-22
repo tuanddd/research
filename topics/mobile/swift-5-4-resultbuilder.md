@@ -1,6 +1,6 @@
 ---
 title: null
-date: 2022-08-31T00:00:00.000Z
+date: 2022-08-31
 description: Learn how to use Swift’s @resultBuilder and UIKit Builder pattern to create flexible container views like UIStackView with clean, DSL-style code for easier UI development in Swift.
 authors:
   - Phan Viet Trung
@@ -14,7 +14,9 @@ tags:
 The [[UIKit Builder pattern]] enables us to create and configure a UIView object. This article is part two of the series that explains how we can wrap a container element in Swift by using the builder pattern.
 
 ## How can we wrap the container elements using Swift builder?
+
 ### Function Builder
+
 Function Builders are used in SwiftUI to create VStacks. If you've heard about the VStack component, it was built using Function Builders.
 
 ```Swift
@@ -25,6 +27,7 @@ VStack {
 ```
 
 ### `@resultBuilder`
+
 Swift 5.4 introduces @resultBuilder, a new feature that makes it even easier to use SwiftUI. This new feature also extends Swift's DSL capabilities to standard Swift language, allowing you to take advantage of DSLs in more areas of your codebase (the detail can be found [here](https://github.com/apple/swift-evolution/blob/main/proposals/0289-result-builders.md)).
 
 From now on you can easily write HTML forms in Swift as follows:
@@ -64,6 +67,7 @@ UIHStack {
 ```
 
 ### Turn UIKit into DSL styling
+
 Let's define a DSL UIViewBuilder. A DSL UIViewBuilder turns a list of UIViews into a UIView.
 
 ```Swift
@@ -174,7 +178,9 @@ UIZStack(spacing: 16) {
 ```
 
 ### Bonus parts
+
 #### Support `if-else` and `loop`
+
 The `@resultBuilder` module has a static function named `buildEither` that can be used to add if-else statements to your DSL as well as a function named `builderArray` that can be used to loop through data. These two functions work just like `buildBlock` does:
 
 ```Swift
@@ -201,6 +207,7 @@ UIHStack {
 ```
 
 #### Config container
+
 Adding configuration to the init method to set the container view.
 
 ```Swift
@@ -218,4 +225,3 @@ UIHStack(alignment: .trailling, spacing: 8) {
 
 }
 ```
-

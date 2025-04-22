@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: Learn Shawn Coyne's five essential Story Grid commandments—Inciting Incident, Crisis, Climax, and Resolution—to craft powerful, effective scenes in fiction writing.
+description: "Learn Shawn Coyne's five essential Story Grid commandments—Inciting Incident, Crisis, Climax, and Resolution—to craft powerful, effective scenes in fiction writing."
 tags:
   - writing
   - story-telling
@@ -27,4 +27,3 @@ In his _Story Grid_ approach to writing a novel, Shawn Coyne lists five commandm
 Coyne, Shawn, and Steven Pressfield. _The Story Grid: What Good Editors Know_. Illustrated edition. Black Irish Entertainment LLC, 2015.
 
 Kerry, Abigail K. “Use The Story Grid Scene Analysis Template to Read With Purpose,” March 30, 2020. [Link](https://diymfa.com/reading/story-grid-scene-analysis-template).
-

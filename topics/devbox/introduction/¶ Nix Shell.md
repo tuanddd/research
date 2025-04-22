@@ -48,7 +48,7 @@ Nix creates a sandbox just for you. Install packages without begging for sudo. I
 
 ## The Bottom Line
 
-Nix Shell isn't just a tool; it's a philosophy. It says, "Hey, your development environment should be rock-solid, portable, and pain-free." 
+Nix Shell isn't just a tool; it's a philosophy. It says, "Hey, your development environment should be rock-solid, portable, and pain-free."
 
 Imagine never again fighting with conflicting versions. Picture spinning up the exact same environment on any machine in seconds. That's the Nix Shell promise.
 
@@ -59,4 +59,3 @@ Ready to give it a shot? Trust us, your dev life is about to get a whole lot smo
 - [Nix Shell Manual](https://nix.dev/manual/nix/2.22/command-ref/nix-shell)
 - [Why You Should Try Nix](https://nixos.org/guides/nix-pills/01-why-you-should-give-it-a-try)
 - [Nix Package Manager](https://nixos.org/)
-

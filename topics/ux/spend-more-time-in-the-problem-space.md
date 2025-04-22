@@ -17,8 +17,8 @@ Only when we acknowledge uncertainty can we overcome uncertainty. As Erika Hall 
 
 #### Related
 
--   [[People fill information gaps with assumptions]]
--   [[Salience is subjective]] - What we deem salient to a situation is a product of our subjective perspective
+- [[People fill information gaps with assumptions]]
+- [[Salience is subjective]] - What we deem salient to a situation is a product of our subjective perspective
 
 #### Citations
 

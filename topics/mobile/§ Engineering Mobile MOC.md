@@ -14,6 +14,4 @@ This is a [[Map of Content]] related to the engineering concepts around mobile.
 - [[The structure of the command line app|The structure of the command line app]]
 - [[UIKit Builder pattern|UIKit Builder pattern]]
 
-
-*This page was last modified at 2024-03-15T05:48:35.867Z*.
-
+_This page was last modified at 2024-03-15T05:48:35.867Z_.

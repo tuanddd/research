@@ -55,19 +55,19 @@ IFFEs or Immediately invoked function expression was used with closures to keep 
 ```js
 var Dialogue = function () {
   //private variables
-  var dialogue
+  var dialogue;
   //exposed functions
   return {
     hello: function () {
-      dialog = 'Hello Dwarves!'
-      console.log(dialogue)
+      dialog = "Hello Dwarves!";
+      console.log(dialogue);
     },
     goodbye: function () {
-      dialog = 'Goodbye Dwarves!'
-      console.log(dialogue)
+      dialog = "Goodbye Dwarves!";
+      console.log(dialogue);
     },
-  }
-}
+  };
+};
 ```
 
 At this stage we have solve the Global namespace pollution problem but we haven't got to the point that we can swapping modules with one another and copy/paste function happens all the time.
@@ -91,9 +91,9 @@ This was design for server development.
 #### Node module wrapper function
 
 ```js
-;(function (exports, require, module, __filename, __dirname) {
+(function (exports, require, module, __filename, __dirname) {
   // Module code actually lives in here
-})
+});
 ```
 
 #### Example
@@ -108,7 +108,7 @@ module.exports = getDialogue;
 
 ```js
 //main.js
-const sayHello = require('./dialogue.js')
+const sayHello = require("./dialogue.js");
 ```
 
 At this time, CommonJs is a real noviation, organizing files and maintaining code has become much easier.
@@ -146,10 +146,10 @@ export const getMinutes = () => //do something;
 ```js
 //Import syntax
 
-import dialog from './dialog.js'
+import dialog from "./dialog.js";
 
-import * as utility from './utils.js'
-import { getHours, getMinutes } from './utils.js'
+import * as utility from "./utils.js";
+import { getHours, getMinutes } from "./utils.js";
 ```
 
 #### ESM in the browsers
@@ -182,4 +182,3 @@ Although CommonJS can still be used for server development since synchronous was
 - https://www.w3schools.com/js/js_modules.asp
 - https://nodejs.org/api/modules.html
 - https://www.infoworld.com/article/2653798/javascript-creator-ponders-past--future.html
-

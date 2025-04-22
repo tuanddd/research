@@ -46,7 +46,7 @@ The system context abstractions include:
 
 - The user of the system(people or machine), the context that the user was placed in, and the pain points.
 - The main software system, the provided solution, and how it solves pain points.
-- Dependent systems, why those are needed, and which information is required from the main software system.  
+- Dependent systems, why those are needed, and which information is required from the main software system.
 
 ### Container
 
@@ -90,4 +90,3 @@ The C4 model’s diagram, for the amount of effort and the value that it brings,
 ## Reference
 
 - <https://c4model.com/>
-

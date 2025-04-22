@@ -12,9 +12,9 @@ Accruing more knowledge also creates conditions under which serendipity can flou
 
 #### Related
 
--   [[Decontextualize ideas to make them new]]
--   ! [[Intuition is under-valued]]
+- [[Decontextualize ideas to make them new]]
+- ! [[Intuition is under-valued]]
 
 #### Citations
 
--   [[≈ Where Good Ideas Come From]]
+- [[≈ Where Good Ideas Come From]]

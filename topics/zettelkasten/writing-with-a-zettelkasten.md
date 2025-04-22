@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: Learn how Sönke Ahrens' zettelkasten method helps writers develop ideas from notes to drafts, avoiding blank pages and creating clear, connected, and well-organized articles.
+description: "Learn how Sönke Ahrens' zettelkasten method helps writers develop ideas from notes to drafts, avoiding blank pages and creating clear, connected, and well-organized articles."
 tags:
   - zettelkasten
   - writing
@@ -13,6 +13,7 @@ tags:
 Sönke Ahrens describes his method for writing an article with a zettelkasten. Writing should not start with a blank sheet of paper, but emerge from the bottom up through conversation with one's notes. Writing does not begin with a blank page.
 
 **Ahrens' process:**
+
 1.  Make fleeting notes on what you read
 2.  Put them in one place (an inbox) and process them
 3.  Make literature notes, documenting briefly what you don't want to forget or might use later
@@ -28,12 +29,10 @@ The translation phase is critical; an essay that is assembled from modular notes
 
 #### Related
 
--   [[Narrative sequencing informs meaning]] - The sequence in which the zettelkasten forms ideas may not make for a good reading experience
--   [[Good research starts with a good question]] - Look to the zettelkasten first to see how it might inform your answer and guide your subsequent research
--   [[≈ The Elements of Story]] - Flaherty, Francis. The Elements of Story: Field Notes on Nonfiction Writing. Reprint edition. Harper Perennial, 2010.
+- [[Narrative sequencing informs meaning]] - The sequence in which the zettelkasten forms ideas may not make for a good reading experience
+- [[Good research starts with a good question]] - Look to the zettelkasten first to see how it might inform your answer and guide your subsequent research
+- [[≈ The Elements of Story]] - Flaherty, Francis. The Elements of Story: Field Notes on Nonfiction Writing. Reprint edition. Harper Perennial, 2010.
 
 #### Citations
 
 Ahrens, Sönke. _How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers_. Sönke Ahrens, 2017.
-
-

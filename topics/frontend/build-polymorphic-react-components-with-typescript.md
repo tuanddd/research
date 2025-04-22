@@ -103,9 +103,9 @@ To solve second issue, once again, React provides us a useful type `React.Compon
 
 ```typescript
 type TextProps<C extends React.ElementType> = {
-  children: React.ReactNode
-  as?: C
-} & React.ComponentPropsWithoutRef<C>
+  children: React.ReactNode;
+  as?: C;
+} & React.ComponentPropsWithoutRef<C>;
 ```
 
 Essentially, the type of `TextProps` is an object type containing `children`, `as` and all valid component properties that correlates with `as` tag.
@@ -205,15 +205,16 @@ Our reuseable solution will look like
 
 ```typescript
 type AsProp<C extends React.ElementType> = {
-  as?: C
-}
+  as?: C;
+};
 
-type PropWithAs<C extends React.ElementType, P = {}> = P & AsProp<C>
+type PropWithAs<C extends React.ElementType, P = {}> = P & AsProp<C>;
 
 export type PolymorphicComponentProps<
   C extends React.ElementType,
   Props = {}, // adding one more generic type
-> = PropWithAs<C, Props> & Omit<React.ComponentPropsWithoutRef<C>, keyof PropWithAs<C, Props>>
+> = PropWithAs<C, Props> &
+  Omit<React.ComponentPropsWithoutRef<C>, keyof PropWithAs<C, Props>>;
 ```
 
 Now we can go ahead and use `PolymorphicComponentProps` on our components as follows:
@@ -329,7 +330,7 @@ const Button = React.forwardRef(<C extends React.ElementType = 'button'>(props: 
 Our `Button` component still isn't strongly typed. We need to explicitly defined the type annotation for it. `Button` component will be receive `ButtonProps` and return a JSX
 
 ```typescript
-type ButtonComponent = (props: ButtonProps) => React.ReactElement | null
+type ButtonComponent = (props: ButtonProps) => React.ReactElement | null;
 ```
 
 The final step is to update `ButtonProp` to support `PolymorphicRef`
@@ -443,4 +444,3 @@ const Button: ButtonComponent = React.forwardRef(<C extends React.ElementType = 
 ```
 
 Congratulation, we have successfully built a strongly typed Polymorphic React Component with Typescript. 🎉🎉🎉🎉
-

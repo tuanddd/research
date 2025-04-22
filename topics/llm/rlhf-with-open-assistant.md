@@ -50,6 +50,7 @@ Our training for the model will use the typical Pytorch and Jupyter setup. There
 ### Setup environment
 
 There are a few nuances with using `cuda` with specialized NVidia GPUs in the cloud. For our case on Redmond, we have to use Python 3.10 and `cuda` versions 11.8 to avoid any errors specific to our hardware.
+
 ```bash
 mambaforge/bin/mamba install jupyterlab code-server jupyterhub jupyter-vscode-proxy jupyterlab-git python=3.10 pytorch pytorch-cuda=11.8 cuda=11.8 cuda-nvcc=11.8 ninja cxx-compiler==1.5.2 -c nvidia -c pytorch -y
 ```
@@ -155,4 +156,3 @@ In conclusion, Open Assistant (OA) is a chat-based, open-source assistant design
 - https://projects.laion.ai/Open-Assistant/docs/guides/developers
 - https://open-assistant.io/
 - https://huggingface.co/EleutherAI
-

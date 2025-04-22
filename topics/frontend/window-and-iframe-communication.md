@@ -40,8 +40,8 @@ In the case of same origin communication:
 <script>
   iframe.onload = function () {
     // just do anything
-    iframe.contentDocument.body.prepend('Hello, world!')
-  }
+    iframe.contentDocument.body.prepend("Hello, world!");
+  };
 </script>
 ```
 
@@ -65,25 +65,25 @@ Here's an example of cross origin communication:
 ```html
 <iframe src="http://example.com" name="example"></iframe>
 <script>
-  let iframe = window.frames.example
+  let iframe = window.frames.example;
   // target origin is *
-  iframe.contentWindow.postMessage('message', '*')
+  iframe.contentWindow.postMessage("message", "*");
 </script>
 ```
 
 ```js
 // http://example.com internal script
-window.addEventListener('message', function (event) {
-  if (event.origin != 'http://source.com') {
+window.addEventListener("message", function (event) {
+  if (event.origin != "http://source.com") {
     // something from an unknown domain, let's ignore it
-    return
+    return;
   }
 
-  alert('received: ' + event.data)
+  alert("received: " + event.data);
 
   // can message back using event.source.postMessage(...)
   // or window.parent.postMessage(...)
-})
+});
 ```
 
 Use cases for cross origin communication include embedded widgets like chatboxes. ![](assets/window-and-iframe-communication_window-iframe-chatbox.webp)
@@ -95,4 +95,3 @@ In summary, communication between a window and an iframe is facilitated through 
 - https://javascript.info/cross-window-communication
 - https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage
 - [Two way iframe communication](https://gist.github.com/pbojinov/8965299)
-

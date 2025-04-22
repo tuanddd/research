@@ -20,8 +20,8 @@ A user persona should be realistic, not idealized, and serve to help teams under
 
 #### Related
 
--   [[Personas alone can't help teams achieve empathy]]
--   [[Personas document shared understanding about users]]
+- [[Personas alone can't help teams achieve empathy]]
+- [[Personas document shared understanding about users]]
 
 #### Citations
 

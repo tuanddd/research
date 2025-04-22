@@ -1,6 +1,6 @@
 ---
 title: null
-date: 2022-03-21T00:00:00.000Z
+date: 2022-03-21
 description: Discover how Facebook fosters innovation by trusting engineers to take risks, leading to breakthrough tools like React and GraphQL that transform software development worldwide.
 authors:
   - Pham Duc Thanh
@@ -21,5 +21,5 @@ Experiments like this are risky because they could be not exciting to other or t
 Every single project could face considerable internal opposition. There will be people who want a project to admit failure earlier. And yet they continued. Facebook has both the engineering management philosophy as well as some great engineering managers who know how important it is to trust your people. Despite opposition from some trusted co-workers, despite not yet understanding the value, despite there being more important things to work on, good managers trust individuals to take the right risks and focus their time where they believe they will find impact.
 
 #### Reference
-- https://leebyron.com/why-invest-in-tools/
 
+- https://leebyron.com/why-invest-in-tools/

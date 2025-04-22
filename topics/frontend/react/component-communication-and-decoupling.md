@@ -4,16 +4,16 @@ date: null
 description: Learn key React component communication methods like props drilling, Context API, event emitters, global stores, and custom hooks to build decoupled, maintainable, and flexible applications.
 ---
 
-```markdown
+````markdown
 ---
 authors:
-  - 'thanh'
-date: '2024-10-29'
-description: 'Explore essential techniques like props drilling, Context API, custom hooks, and event emitters'
+  - "thanh"
+date: "2024-10-29"
+description: "Explore essential techniques like props drilling, Context API, custom hooks, and event emitters"
 tags:
-  - 'react'
-title: 'Component communication and decoupling in React'
-short_title: 'Component communication and decoupling'
+  - "react"
+title: "Component communication and decoupling in React"
+short_title: "Component communication and decoupling"
 ---
 
 Component communication and decoupling are crucial in React, especially for large applications where components may need to share data or trigger actions without being tightly coupled. Decoupling allows components to be reusable, maintainable, and flexible, reducing the risk of cascading changes across the app.
@@ -35,19 +35,20 @@ Props drilling refers to passing data through multiple component layers until it
 
 ```js
 function Parent() {
-  const [message, setMessage] = useState('Hello from Parent!')
+  const [message, setMessage] = useState("Hello from Parent!");
 
-  return <Child message={message} />
+  return <Child message={message} />;
 }
 
 function Child({ message }) {
-  return <GrandChild message={message} />
+  return <GrandChild message={message} />;
 }
 
 function GrandChild({ message }) {
-  return <div>{message}</div>
+  return <div>{message}</div>;
 }
 ```
+````
 
 **When to use props drilling**:
 
@@ -67,27 +68,27 @@ Lifting state up means moving the shared state to the closest common ancestor of
 
 ```js
 function Form() {
-  const [formState, setFormState] = useState({ name: '', email: '' })
+  const [formState, setFormState] = useState({ name: "", email: "" });
 
   const handleChange = (e) => {
-    const { name, value } = e.target
-    setFormState((prev) => ({ ...prev, [name]: value }))
-  }
+    const { name, value } = e.target;
+    setFormState((prev) => ({ ...prev, [name]: value }));
+  };
 
   return (
     <div>
       <NameField value={formState.name} onChange={handleChange} />
       <EmailField value={formState.email} onChange={handleChange} />
     </div>
-  )
+  );
 }
 
 function NameField({ value, onChange }) {
-  return <input name="name" value={value} onChange={onChange} />
+  return <input name="name" value={value} onChange={onChange} />;
 }
 
 function EmailField({ value, onChange }) {
-  return <input name="email" value={value} onChange={onChange} />
+  return <input name="email" value={value} onChange={onChange} />;
 }
 ```
 
@@ -105,25 +106,29 @@ function EmailField({ value, onChange }) {
 The Context API enables you to share data across components without drilling props down through multiple layers. It’s ideal for relatively static or infrequently updated global state, such as theme or user settings.
 
 ```js
-const ThemeContext = React.createContext()
+const ThemeContext = React.createContext();
 
 function ThemeProvider({ children }) {
-  const [theme, setTheme] = useState('light')
+  const [theme, setTheme] = useState("light");
 
   const toggleTheme = () => {
-    setTheme((prev) => (prev === 'light' ? 'dark' : 'light'))
-  }
+    setTheme((prev) => (prev === "light" ? "dark" : "light"));
+  };
 
-  return <ThemeContext.Provider value={{ theme, toggleTheme }}>{children}</ThemeContext.Provider>
+  return (
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+      {children}
+    </ThemeContext.Provider>
+  );
 }
 
 function ThemedComponent() {
-  const { theme, toggleTheme } = useContext(ThemeContext)
+  const { theme, toggleTheme } = useContext(ThemeContext);
   return (
     <div className={`app ${theme}`}>
       <button onClick={toggleTheme}>Toggle Theme</button>
     </div>
-  )
+  );
 }
 ```
 
@@ -150,29 +155,30 @@ You could create a simple event emitter utility to allow different parts of the 
 export const EventEmitter = {
   events: {},
   subscribe(event, callback) {
-    if (!this.events[event]) this.events[event] = []
-    this.events[event].push(callback)
+    if (!this.events[event]) this.events[event] = [];
+    this.events[event].push(callback);
   },
   emit(event, data) {
-    if (this.events[event]) this.events[event].forEach((callback) => callback(data))
+    if (this.events[event])
+      this.events[event].forEach((callback) => callback(data));
   },
-}
+};
 
 // Usage in components:
 function ComponentA() {
   useEffect(() => {
-    EventEmitter.emit('message', 'Hello from ComponentA')
-  }, [])
+    EventEmitter.emit("message", "Hello from ComponentA");
+  }, []);
 
-  return <div>Component A</div>
+  return <div>Component A</div>;
 }
 
 function ComponentB() {
   useEffect(() => {
-    EventEmitter.subscribe('message', (msg) => alert(msg))
-  }, [])
+    EventEmitter.subscribe("message", (msg) => alert(msg));
+  }, []);
 
-  return <div>Component B</div>
+  return <div>Component B</div>;
 }
 ```
 
@@ -196,36 +202,37 @@ Using Redux for managing notifications, components can dispatch actions to add o
 
 ```js
 // notificationSlice.js
-import { createSlice } from '@reduxjs/toolkit'
+import { createSlice } from "@reduxjs/toolkit";
 
 const notificationSlice = createSlice({
-  name: 'notifications',
+  name: "notifications",
   initialState: [],
   reducers: {
     addNotification: (state, action) => {
-      state.push(action.payload)
+      state.push(action.payload);
     },
     removeNotification: (state, action) => {
-      return state.filter((notif) => notif.id !== action.payload)
+      return state.filter((notif) => notif.id !== action.payload);
     },
   },
-})
+});
 
-export const { addNotification, removeNotification } = notificationSlice.actions
-export default notificationSlice.reducer
+export const { addNotification, removeNotification } =
+  notificationSlice.actions;
+export default notificationSlice.reducer;
 
 // Usage in components:
 function AddNotificationButton() {
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
   const handleAddNotification = () => {
-    dispatch(addNotification({ id: Date.now(), message: 'New Notification' }))
-  }
+    dispatch(addNotification({ id: Date.now(), message: "New Notification" }));
+  };
 
-  return <button onClick={handleAddNotification}>Add Notification</button>
+  return <button onClick={handleAddNotification}>Add Notification</button>;
 }
 
 function NotificationList() {
-  const notifications = useSelector((state) => state.notifications)
+  const notifications = useSelector((state) => state.notifications);
 
   return (
     <ul>
@@ -233,7 +240,7 @@ function NotificationList() {
         <li key={notif.id}>{notif.message}</li>
       ))}
     </ul>
-  )
+  );
 }
 ```
 
@@ -255,28 +262,28 @@ Custom hooks are a highly effective way to encapsulate and share logic, especial
 
 ```jsx
 function useFetch(url) {
-  const [data, setData] = useState(null)
-  const [error, setError] = useState(null)
-  const [loading, setLoading] = useState(true)
+  const [data, setData] = useState(null);
+  const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setLoading(true)
+    setLoading(true);
     fetch(url)
       .then((response) => response.json())
       .then((data) => setData(data))
       .catch((error) => setError(error))
-      .finally(() => setLoading(false))
-  }, [url])
+      .finally(() => setLoading(false));
+  }, [url]);
 
-  return { data, error, loading }
+  return { data, error, loading };
 }
 
 // Usage in components:
 function UserList() {
-  const { data: users, loading, error } = useFetch('/api/users')
+  const { data: users, loading, error } = useFetch("/api/users");
 
-  if (loading) return <div>Loading...</div>
-  if (error) return <div>Error loading users</div>
+  if (loading) return <div>Loading...</div>;
+  if (error) return <div>Error loading users</div>;
 
   return (
     <ul>
@@ -284,7 +291,7 @@ function UserList() {
         <li key={user.id}>{user.name}</li>
       ))}
     </ul>
-  )
+  );
 }
 ```
 
@@ -305,4 +312,7 @@ function UserList() {
 - **Event emitters** allow decoupled, loosely coupled communication but can lead to debugging complexity.
 - **Global store (Redux, Zustand**) is essential for complex, cross-cutting state needs.
 - **Custom hooks** are ideal for encapsulating reusable side effects and shared logic without extra component layers.
+
+```
+
 ```

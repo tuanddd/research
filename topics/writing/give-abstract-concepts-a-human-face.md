@@ -21,4 +21,3 @@ But this doesn't mean just conveying an anecdote, or interviewing any person thi
 #### Citations
 
 Flaherty, Francis. _The Elements of Story: Field Notes on Nonfiction Writing_. Reprint edition. Harper Perennial, 2010.
-

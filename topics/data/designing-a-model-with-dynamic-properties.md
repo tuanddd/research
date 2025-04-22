@@ -45,7 +45,7 @@ Table fields {
 }
 ```
 
-The `fields` table is where the magic begins. The `type` column can be `text`, `checkbox`, `select`, `users`, etc., determining how a field's value should be extracted from `values` and how it should be handled on the front-end. 
+The `fields` table is where the magic begins. The `type` column can be `text`, `checkbox`, `select`, `users`, etc., determining how a field's value should be extracted from `values` and how it should be handled on the front-end.
 
 For select-type fields, options are saved through a many-to-many relation with the `options` table.
 
@@ -81,7 +81,7 @@ Lastly, the `options` table stores the available options for select-type fields,
 
 ### Decision 1: Break things down into smaller models
 
-When building an extensible object, separating the object from its fields was essential. By doing this, adding or removing fields became as simple as adding or removing a relation, allowing one task to have a completely different set of fields from another. Select options are also meant to be extensible, so we decided to move them into their own table as well. 
+When building an extensible object, separating the object from its fields was essential. By doing this, adding or removing fields became as simple as adding or removing a relation, allowing one task to have a completely different set of fields from another. Select options are also meant to be extensible, so we decided to move them into their own table as well.
 
 ### Decision 2: `tasks` should hold relations to `values` instead of `fields`
 
@@ -95,15 +95,15 @@ Doing things this way might feel a bit counter-intuitive, in the sense that the 
 
 ### Filtering & Pagination
 
-One of the main challenges we encountered was filtering and pagination. With our model involving multiple tables—tasks, fields, values, and options—queries often required complex joins. This setup had the potential to cause performance issues, especially as the dataset grew. 
+One of the main challenges we encountered was filtering and pagination. With our model involving multiple tables—tasks, fields, values, and options—queries often required complex joins. This setup had the potential to cause performance issues, especially as the dataset grew.
 
 We rely heavily on Common Table Expressions (CTEs) to streamline our queries and improve performance. However, this solution still required careful management to ensure that the system remained efficient under heavy loads.
 
 ### Cross-team collaboration
 
-Another challenge we faced was enabling cross-team collaboration. Since fields are scoped to each team, it became tricky when users needed to collaborate across different teams. 
+Another challenge we faced was enabling cross-team collaboration. Since fields are scoped to each team, it became tricky when users needed to collaborate across different teams.
 
-For instance, a field that exists in one team might not be present in another team where they are invited as guests. This limitation made collaboration difficult for our specific use case, as we don’t currently support a unified team workspace. 
+For instance, a field that exists in one team might not be present in another team where they are invited as guests. This limitation made collaboration difficult for our specific use case, as we don’t currently support a unified team workspace.
 
 While we’ve implemented some solutions to mitigate this issue, it remains an ongoing challenge, and we’re still exploring better approaches to handle this scenario.
 

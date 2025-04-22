@@ -32,12 +32,14 @@ The Catch Chicken Machine is a simple yet illustrative example of a finite state
 ## Implementation Practices
 
 1. **Define States and Events**: Clearly define each state and the events that trigger transitions.
+
    ```erlang
    -define(STATES, [idle, searching, catching, resting]).
    -define(EVENTS, [start, chicken_spotted, chicken_caught, chicken_escaped, rest]).
    ```
 
 2. **State Transition Logic**: Use Erlang's pattern matching to implement transition logic.
+
    ```erlang
    handle_event(start, idle) ->
        {next_state, searching};
@@ -52,6 +54,7 @@ The Catch Chicken Machine is a simple yet illustrative example of a finite state
    ```
 
 3. **Concurrency and Messaging**: Leverage Erlang's messaging capabilities to handle state transitions.
+
    ```erlang
    loop(State) ->
        receive
@@ -76,4 +79,3 @@ The Catch Chicken Machine is a simple yet illustrative example of a finite state
 ## Conclusion
 
 Erlang's unique features make it an excellent choice for implementing finite state machines. By following best practices and leveraging the language's strengths, developers can create robust, scalable, and reliable FSMs. The Catch Chicken Machine example demonstrates how Erlang's concurrency, fault tolerance, and clear syntax contribute to effective FSM implementation. Embrace Erlang for your FSM needs and experience the benefits firsthand.
-

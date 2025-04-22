@@ -13,6 +13,7 @@ Remember the last time you onboarded a new developer? Or tried a new tool withou
 ## The Dev Environment Dream
 
 Imagine this:
+
 - Your whole team works in identical environments
 - You test new tools without fear
 - Your dev setup is lightning fast
@@ -35,19 +36,12 @@ Here's what a `devbox.json` looks like:
 
 ```json
 {
-  "packages": [
-    "nodejs@14",
-    "python@3.9",
-    "postgresql@13"
-  ],
+  "packages": ["nodejs@14", "python@3.9", "postgresql@13"],
   "env": {
     "DATABASE_URL": "postgresql://localhost/myapp"
   },
   "shell": {
-    "init_hook": [
-      "npm install",
-      "flask db upgrade"
-    ]
+    "init_hook": ["npm install", "flask db upgrade"]
   }
 }
 ```
@@ -84,6 +78,7 @@ Boom. You've got a pristine environment with Node.js and Python, ready to rock.
 Devbox is Nix with training wheels. It's for developers who want the power without the learning curve. Think of it as a race car with an automatic transmission.
 
 Want to dive deeper?
+
 - [Nix Shell: The Foundation](https://nixos.org/manual/nix/stable/command-ref/nix-shell.html)
 - [Why Choose Devbox Over Plain Nix](https://www.jetify.com/devbox/docs/devbox_vs_other_tools)
 
@@ -101,4 +96,3 @@ Ready to supercharge your dev setup? Give Devbox a shot. Your future self (and y
 - [Nix Package Manager](https://nixos.org/)
 - [Nixpkgs Repository](https://github.com/NixOS/nixpkgs)
 - [Nix Flakes](https://nixos.wiki/wiki/Flakes)
-

@@ -11,6 +11,7 @@ tags:
 ---
 
 ## Profiling in Go: Gotta catch 'em all
+
 ### Introduction
 
 Those of you who have watched the Pokemon series will undoubtedly recognize the famous catchphrase - "Gotta catch 'em all" - that refers to the main character's goal of catching all the Pokemon in the world. In the same way, profiling is a useful way to catch all the problems in your code and ensure that it's running smoothly. It's a powerful tool that can help you identify and fix the subtle issues in your code quickly and efficiently.
@@ -643,4 +644,3 @@ In conclusion, profiling is an essential tool for any Go developer looking to bu
 As you continue to work on your Go projects, keep in mind the importance of profiling and the various tools and techniques available to help you optimize your code. By doing so, you'll be well on your way to becoming a more efficient and effective developer.
 
 So go ahead, catch 'em all!
-

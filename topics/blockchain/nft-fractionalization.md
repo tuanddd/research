@@ -33,4 +33,3 @@ To break this NFT into fractions, it must first be locked in a smart contract, w
 - https://learn.bybit.com/nft/what-are-fractional-nfts/
 - https://www.leewayhertz.com/fractional-nft/
 - https://medium.com/fractional-art/what-is-fractional-dd4f86e6458a
-

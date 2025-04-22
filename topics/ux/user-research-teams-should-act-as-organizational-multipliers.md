@@ -17,8 +17,8 @@ They should develop and communicate processes that clearly delineate the roles a
 
 #### Related
 
--   [[UX research activities by product lifecycle]] - Different kinds of activities user researchers perform and/or support
--   [[Information is abundant; perspective is scarce]] - Information is readily available but there's need to develop new ways to look at and interpret it.
+- [[UX research activities by product lifecycle]] - Different kinds of activities user researchers perform and/or support
+- [[Information is abundant; perspective is scarce]] - Information is readily available but there's need to develop new ways to look at and interpret it.
 
 #### Citations
 

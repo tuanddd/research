@@ -1,6 +1,6 @@
 ---
 title: null
-date: 2022-09-19T00:00:00.000Z
+date: 2022-09-19
 description: Learn how stream-aligned teams enable fast delivery by owning end-to-end work, reducing hand-offs, and adapting quickly to change for better software flow and customer feedback.
 authors:
   - Pham Duc Thanh
@@ -30,6 +30,7 @@ Generally, stream-aligned teams require capabilities to progress work from its i
 - User experience (UX)
 
 ## Expected Behaviors
+
 - A stream-aligned team attempts to deliver a steady stream of features.
 - Stream-aligned teams are capable of quickly adapting to changes as they arise.
 - A stream-aligned team is experimental and adaptable, allowing it to learn from its mistakes as it goes.
@@ -40,5 +41,5 @@ Generally, stream-aligned teams require capabilities to progress work from its i
 - A stream-aligned team members feel they are on the path to achieving “autonomy, mastery and purpose.”
 
 ## Reference
-- _Team Topologies: Organizing Business and Technology Teams for Fast Flow by Manuel Pais and Matthew Skelton_
 
+- _Team Topologies: Organizing Business and Technology Teams for Fast Flow by Manuel Pais and Matthew Skelton_

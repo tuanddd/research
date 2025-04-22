@@ -60,4 +60,3 @@ Monitoring LLMs presents several challenges:
 
 - https://theblue.ai/blog/llm-observability-en/
 - https://medium.com/@aiswaryasomanathan4/logging-traces-and-metrics-whats-the-difference-c796ea276c98
-

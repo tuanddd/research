@@ -23,4 +23,3 @@ tags:
 - [Reclaiming CPU for free with PGO (Blog post)](https://blog.cloudflare.com/reclaiming-cpu-for-free-with-pgo/)
 
 - [1.5 Million PDFs in 25 Minutes (Blog post)](https://zerodha.tech/blog/1-5-million-pdfs-in-25-minutes/)
-

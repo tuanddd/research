@@ -57,4 +57,3 @@ For example, if you create a counter program that lets you increment a counter, 
 
 - https://docs.solana.com/developing/programming-model/accounts
 - https://solanacookbook.com/core-concepts/accounts.html
-

@@ -10,8 +10,8 @@ Research is not useful it is stuck on a PowerPoint slide and stored on somebody'
 
 #### Related
 
--   [[User research teams should act as organizational multipliers]] - The role of a UX research team is to multiply organizational capabilities through knowledge
--   [[Research repositories should generate new knowledge]] - Repositories should not just catalogue information but facilitate the generation of new insights.
+- [[User research teams should act as organizational multipliers]] - The role of a UX research team is to multiply organizational capabilities through knowledge
+- [[Research repositories should generate new knowledge]] - Repositories should not just catalogue information but facilitate the generation of new insights.
 
 #### Citations
 

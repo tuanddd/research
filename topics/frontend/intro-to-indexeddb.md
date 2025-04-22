@@ -54,7 +54,7 @@ Object store is an individual bucket to store data. It is the **core concept** o
 ![](assets/cYgLD5U.png)
 
 ```javascript
-db.createObjectStore('books' /* name */, { keyPath: 'id' })
+db.createObjectStore("books" /* name */, { keyPath: "id" });
 ```
 
 > [Read more](https://developer.mozilla.org/en-US/docs/Web/API/IDBObjectStore) about **IDBObjectStore**, an interface of IndexDB API that represents object stores.
@@ -110,7 +110,9 @@ With a huge object store, bigger than the available memory, `getAll` might fai
 **A cursor is a special object that traverses the object storage using a given query, and returns one key/value at a time, thus saving memory**.
 
 ```javascript
-const request = store.openCursor('id' /* query */, ['next' /* or 'prev', 'nextunique'... */])
+const request = store.openCursor("id" /* query */, [
+  "next" /* or 'prev', 'nextunique'... */,
+]);
 
 // to get keys only, you can use 'openKeyCursor' instead of 'openCursor'
 ```
@@ -137,4 +139,3 @@ Using IndexedDB is also likely to require **a lot more coding** than localStorag
 - https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB
 - https://www.javascripttutorial.net/web-apis/javascript-indexeddb/
 - https://web.dev/indexeddb/
-

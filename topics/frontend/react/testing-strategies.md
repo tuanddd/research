@@ -44,7 +44,7 @@ Suppose we have a `Button` component that accepts a label and an onClick handler
 ```js
 // Button.js
 export default function Button({ label, onClick }) {
-  return <button onClick={onClick}>{label}</button>
+  return <button onClick={onClick}>{label}</button>;
 }
 ```
 
@@ -52,20 +52,20 @@ export default function Button({ label, onClick }) {
 
 ```jsx
 // Button.test.js
-import { render, screen, fireEvent } from '@testing-library/react'
-import Button from './Button'
+import { render, screen, fireEvent } from "@testing-library/react";
+import Button from "./Button";
 
-test('renders the button with a label', () => {
-  render(<Button label="Click me" />)
-  expect(screen.getByText('Click me')).toBeInTheDocument()
-})
+test("renders the button with a label", () => {
+  render(<Button label="Click me" />);
+  expect(screen.getByText("Click me")).toBeInTheDocument();
+});
 
-test('calls the onClick handler when clicked', () => {
-  const handleClick = jest.fn()
-  render(<Button label="Click me" onClick={handleClick} />)
-  fireEvent.click(screen.getByText('Click me'))
-  expect(handleClick).toHaveBeenCalledTimes(1)
-})
+test("calls the onClick handler when clicked", () => {
+  const handleClick = jest.fn();
+  render(<Button label="Click me" onClick={handleClick} />);
+  fireEvent.click(screen.getByText("Click me"));
+  expect(handleClick).toHaveBeenCalledTimes(1);
+});
 ```
 
 Explanation:
@@ -88,24 +88,32 @@ Suppose we have a form component with name and email fields and a submit button.
 
 ```jsx
 // Form.js
-import { useState } from 'react'
+import { useState } from "react";
 
 export default function Form({ onSubmit }) {
-  const [name, setName] = useState('')
-  const [email, setEmail] = useState('')
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
 
   const handleSubmit = (e) => {
-    e.preventDefault()
-    onSubmit({ name, email })
-  }
+    e.preventDefault();
+    onSubmit({ name, email });
+  };
 
   return (
     <form onSubmit={handleSubmit}>
-      <input placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} />
-      <input placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
+      <input
+        placeholder="Name"
+        value={name}
+        onChange={(e) => setName(e.target.value)}
+      />
+      <input
+        placeholder="Email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+      />
       <button type="submit">Submit</button>
     </form>
-  )
+  );
 }
 ```
 
@@ -113,19 +121,26 @@ export default function Form({ onSubmit }) {
 
 ```jsx
 // Form.test.js
-import { render, screen, fireEvent } from '@testing-library/react'
-import Form from './Form'
+import { render, screen, fireEvent } from "@testing-library/react";
+import Form from "./Form";
 
-test('submits form with name and email', () => {
-  const handleSubmit = jest.fn()
-  render(<Form onSubmit={handleSubmit} />)
+test("submits form with name and email", () => {
+  const handleSubmit = jest.fn();
+  render(<Form onSubmit={handleSubmit} />);
 
-  fireEvent.change(screen.getByPlaceholderText('Name'), { target: { value: 'John' } })
-  fireEvent.change(screen.getByPlaceholderText('Email'), { target: { value: 'john@example.com' } })
-  fireEvent.click(screen.getByText('Submit'))
+  fireEvent.change(screen.getByPlaceholderText("Name"), {
+    target: { value: "John" },
+  });
+  fireEvent.change(screen.getByPlaceholderText("Email"), {
+    target: { value: "john@example.com" },
+  });
+  fireEvent.click(screen.getByText("Submit"));
 
-  expect(handleSubmit).toHaveBeenCalledWith({ name: 'John', email: 'john@example.com' })
-})
+  expect(handleSubmit).toHaveBeenCalledWith({
+    name: "John",
+    email: "john@example.com",
+  });
+});
 ```
 
 Explanation:
@@ -161,17 +176,17 @@ Suppose we have a login form where users enter an email and password to authenti
 
 ```jsx
 // cypress/integration/login.spec.js
-describe('Login Flow', () => {
-  it('logs in a user with valid credentials', () => {
-    cy.visit('/login')
-    cy.get('input[name=email]').type('john@example.com')
-    cy.get('input[name=password]').type('password123')
-    cy.get('button[type=submit]').click()
+describe("Login Flow", () => {
+  it("logs in a user with valid credentials", () => {
+    cy.visit("/login");
+    cy.get("input[name=email]").type("john@example.com");
+    cy.get("input[name=password]").type("password123");
+    cy.get("button[type=submit]").click();
 
-    cy.url().should('include', '/dashboard')
-    cy.contains('Welcome, John').should('be.visible')
-  })
-})
+    cy.url().should("include", "/dashboard");
+    cy.contains("Welcome, John").should("be.visible");
+  });
+});
 ```
 
 Explanation:
@@ -192,13 +207,13 @@ Snapshot tests capture the current state of a component's output (i.e., its rend
 
 ```jsx
 // Header.test.js
-import { render } from '@testing-library/react'
-import Header from './Header'
+import { render } from "@testing-library/react";
+import Header from "./Header";
 
-test('renders the header correctly', () => {
-  const { asFragment } = render(<Header title="Hello, World!" />)
-  expect(asFragment()).toMatchSnapshot()
-})
+test("renders the header correctly", () => {
+  const { asFragment } = render(<Header title="Hello, World!" />);
+  expect(asFragment()).toMatchSnapshot();
+});
 ```
 
 Explanation:
@@ -233,4 +248,3 @@ Incorporating a comprehensive testing strategy helps ensure code quality, user e
 - **End-to-end testing**: Use Cypress to cover full workflows and user journeys, verifying app behavior across pages.
 - **Snapshot testing**: Capture and compare UI structures, helpful for components with complex, static layouts.
 - **Best practices**: Adopt the testing pyramid, test from the user's perspective, mock dependencies, and automate tests in CI/CD
-

@@ -14,7 +14,7 @@ This roundup covers the latest in React, Next.js, and web development. React Ser
 
 ## React
 
-### [Server Functions are Here! (They Used to be Server Actions)](https://19.react.dev/reference/rsc/server-functions 'https://19.react.dev/reference/rsc/server-functions')
+### [Server Functions are Here! (They Used to be Server Actions)](https://19.react.dev/reference/rsc/server-functions "https://19.react.dev/reference/rsc/server-functions")
 
 React's Server Actions got a name change! Now they're Server Functions, and they're not just for mutations anymore.
 
@@ -116,4 +116,3 @@ This is not supposed to be a template, boilerplate or a framework, but more of a
 - [Why Gumroad Didn't Choose htmx](https://htmx.org/essays/why-gumroad-didnt-choose-htmx/)
 - [Something went wrong – Ways out of the JavaScript crisis](https://molily.de/something-went-wrong/)
 - [The hardest bug investigation of my career and the insane code that caused it](https://www.reddit.com/r/ExperiencedDevs/comments/1fu0e5q/the_hardest_bug_investigation_of_my_career_and/)
-

@@ -61,4 +61,3 @@ This copilot ensures smooth transitions between team members by:
   - **Number of version(s)**: How many versions you want to generate
 
 ![Announcement Copilot](assets/announcement-writer.mp4)
-

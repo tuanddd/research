@@ -1,6 +1,6 @@
 ---
 title: Our Daily Standup Format
-date: 2018-07-23T00:00:00.000Z
+date: 2018-07-23
 description: Create clear daily reports with this simple template to track tasks, progress, and blockers efficiently for your team’s smooth project management.
 tags:
   - scrum
@@ -30,7 +30,7 @@ Blockers
 Team: Mobile - iOS
 
 Yesterday
-+ Sprint Planing 
++ Sprint Planing
 + MOB-1204 Start do refactor VehicleCheck from Oleg, in order to implement new VC feature. I realize the current structure, which implemented by Oleg doesn't work well with new feature.
 + MOB-1204: Start fetching Vechicle Check data and fill to data source.
 + Participate LLRA Android app meeting
@@ -42,4 +42,3 @@ Today
 Blockers
 + None
 ```
-

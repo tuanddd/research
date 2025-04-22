@@ -1,6 +1,6 @@
 ---
 title: null
-date: 2022-07-13T00:00:00.000Z
+date: 2022-07-13
 description: Learn how to automate End2End acceptance tests in Elixir using Hound and WebDriver to run browser tests efficiently and reduce manual testing time.
 authors:
   - Hieu Phan
@@ -18,6 +18,7 @@ The WebDriver is an interface to automate browsers. We can use WebDriver impleme
 Hound is an Elixir library to write WebDriver. Writing End2End test with Hound is very similar to writing a normal ExUnit test. An advantage to writing automation tests is the same code base.
 
 ### Common Web Drivers
+
 https://github.com/HashNuke/hound/wiki/Starting-a-webdriver-server
 
 [**Selenium**](https://selenium-release.storage.googleapis.com/index.html)
@@ -51,6 +52,7 @@ $ phantomjs --wd
 ```
 
 ### Configure Hound
+
 Add dependency to `mix.exs`:
 
 ```elixir
@@ -74,6 +76,7 @@ Application.ensure_all_started(:hound)
 ```
 
 ### Make an unit test
+
 As any unit test we need a module to store the test cases. We implement the `setup` func for Web driver initial `Hound.Helpers` provides the functions to control the browser easier. We can navigate, inspect html element, make the click action via this package. Use `assert` to validate the result
 
 ```elixir
@@ -94,5 +97,5 @@ end
 ```
 
 ### Note
-Before run test we MUST start the web driver first https://hexdocs.pm/hound/Hound.Helpers.Navigation.html
 
+Before run test we MUST start the web driver first https://hexdocs.pm/hound/Hound.Helpers.Navigation.html

@@ -1,6 +1,6 @@
 ---
 title: Adoption Of Pnpm
-date: 2023-07-31T00:00:00.000Z
+date: 2023-07-31
 description: The Dwarves team switched from Yarn to pnpm for faster, more efficient package management, improving development speed and saving disk space across their projects and clients.
 authors:
   - thanh
@@ -23,4 +23,3 @@ Now, we have successfully migrated all major internal tools to pnpm, and it's al
 Though we encountered some difficulties with hoisted dependencies in monorepos during the migration process, the overall effort was worthwhile, contributing to our team's enhanced efficiency.
 
 We extend our thanks to the [Toan Ho](https://www.linkedin.com/in/toanhq/), [Hai Huynh](https://www.linkedin.com/in/hthai2201/), [Hien Le](https://www.linkedin.com/in/hien-le-duy/) and [Chinh Le](https://www.linkedin.com/in/chinh-ld/) who actively participated in the evaluation and migration process. Your help has been crucial in this successful adoption.
-

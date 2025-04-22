@@ -22,8 +22,8 @@ The process could be illustrated by the picture below:
 
 Liquidity pools form the backbone of DEX by applying the automated market maker (AMM) system. Here’s the main formula that mathematically determines what the market price of the token in the pool should be:
 
-$$ 
-x * y = k 
+$$
+x * y = k
 $$
 
 Where x and y represent the respective token balance of a pairing and **k is a constant that will never change**.
@@ -32,20 +32,22 @@ Let's use the ETH-DAI pair as an example, with 10 ETH and 1,000 DAI in the liqui
 
 The k constant is 10,000 since there are 10 ETH and 1,000 DAI.
 
-$$ 
-10 \text{ ETH} * 1,000 \text{ DAI} = 10,000 
+$$
+10 \text{ ETH} * 1,000 \text{ DAI} = 10,000
 $$
 
 If the buyer withdraws 1 ETH, he has to deposit some DAI into the pool so that k remains constant.
 
-$$ 
-(10 - 1) \text{ ETH} * (1,000 - y) = 10,000 
 $$
-$$ 
-1,000 - y =\frac{10000}{10 - 1} 
+(10 - 1) \text{ ETH} * (1,000 - y) = 10,000
 $$
+
 $$
- y = 111.11 
+1,000 - y =\frac{10000}{10 - 1}
+$$
+
+$$
+ y = 111.11
 $$
 
 And because we have no limit orders in AMM, the smart contract would automatically compute y to determine the price to pay and that is approximately 111.11 DAI.
@@ -90,32 +92,36 @@ Suppose the price of ETH in our LP is $100. What if the price of ETH on Coinbase
 
 Let’s use a pool that has 100 ETH and 10,000 DAI. The relation between x, y, k, and ETH price could be shown by:
 
-$$ 
-x * y = k 
 $$
+x * y = k
 $$
-x = \frac{k}{\text{ETH price}} 
+
+$$
+x = \frac{k}{\text{ETH price}}
 $$
 
 We could easily calculate x and y by k and ETH price:
 
-$$ 
-x = \sqrt{\frac{k}{\text{ETH price}}} 
 $$
-$$ 
-y = \sqrt{k * \text{ETH price}} 
+x = \sqrt{\frac{k}{\text{ETH price}}}
+$$
+
+$$
+y = \sqrt{k * \text{ETH price}}
 $$
 
 Assume someone supplies 1 ETH and 100 DAI into the pool. How much ETH and DAI he could get back if the ETH price pumps to $120?
 
-$$ 
-k = 100 * 10,000 = 1,000,000 
 $$
-$$ 
-x = \sqrt{\frac{1,000,000}{120}} = 91.29 
+k = 100 * 10,000 = 1,000,000
 $$
-$$ 
-y = \sqrt{1,000,000 * 120} = 10,954.45 
+
+$$
+x = \sqrt{\frac{1,000,000}{120}} = 91.29
+$$
+
+$$
+y = \sqrt{1,000,000 * 120} = 10,954.45
 $$
 
 Since his share in the pool is 1%, the LP gets back 0.9129 ETH and 109.5445 DAI if he wants to withdraw his stake in the pool. The total value of his stake would be 0.9129 ETH \* $120 + $109.54, which totals up to be $219.09.
@@ -130,4 +136,3 @@ That is what we call impermanent loss. It is impermanent because it only becomes
 
 - https://www.jumpstartmag.com/how-do-crypto-liquidity-pools-work/
 - https://www.theancientbabylonians.com/what-is-liquidity-pool-lp-in-defi/#:~:text=To%20sum%20up%20what%20liquidity,%3A%20x%20*%20y%20%3D%20k
-

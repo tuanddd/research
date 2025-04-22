@@ -276,14 +276,14 @@ These aren't task schedulers – they're system choreographers:
 
 The transition from application development to data engineering represents a fundamental shift in how we approach problems:
 
-| Aspect | Application Development (Bottom-Up) | Data Engineering (Top-Down) | Key Insight |
-| --- | --- | --- | --- |
-| **Problem Solving** | Feature-by-feature construction | System-level architecture | Solutions must scale with the organization |
-| **Data Flow** | Request-driven, immediate | Pattern-based, anticipatory | Design for data's natural movement |
-| **Scale Focus** | Linear (user by user) | Exponential (system capacity) | Build for tomorrow's scale today |
-| **System Boundaries** | Clear, limited scope | Fuzzy, evolving edges | Expect and design for change |
-| **Processing Mode** | Synchronous, immediate | Asynchronous, batch-oriented | Balance immediacy with efficiency |
-| **Development Flow** | Iterative feature addition | Holistic system evolution | Small changes have system-wide impacts |
+| Aspect                | Application Development (Bottom-Up) | Data Engineering (Top-Down)   | Key Insight                                |
+| --------------------- | ----------------------------------- | ----------------------------- | ------------------------------------------ |
+| **Problem Solving**   | Feature-by-feature construction     | System-level architecture     | Solutions must scale with the organization |
+| **Data Flow**         | Request-driven, immediate           | Pattern-based, anticipatory   | Design for data's natural movement         |
+| **Scale Focus**       | Linear (user by user)               | Exponential (system capacity) | Build for tomorrow's scale today           |
+| **System Boundaries** | Clear, limited scope                | Fuzzy, evolving edges         | Expect and design for change               |
+| **Processing Mode**   | Synchronous, immediate              | Asynchronous, batch-oriented  | Balance immediacy with efficiency          |
+| **Development Flow**  | Iterative feature addition          | Holistic system evolution     | Small changes have system-wide impacts     |
 
 ## The path forward: From components to systems
 

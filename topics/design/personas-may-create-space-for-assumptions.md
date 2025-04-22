@@ -26,8 +26,8 @@ Better than any persona is ongoing exposure to actual users.
 
 #### Related
 
--   [[People fill information gaps with assumptions]]
--   [[Personas lack rich context]]
+- [[People fill information gaps with assumptions]]
+- [[Personas lack rich context]]
 
 #### Related
 

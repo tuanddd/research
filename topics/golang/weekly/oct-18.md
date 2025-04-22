@@ -109,7 +109,6 @@ tags:
 
   - With **sync.Map.Range**, it’s designed to handle concurrent reads and writes during iteration without locking up the entire map. The trade-off, though, is that you might not get a perfectly consistent snapshot of the map while you’re iterating.
 
-
 - How it works:
 
   - two separate native maps: the readonly map and the dirty map.
@@ -132,8 +131,8 @@ tags:
     }
   ```
 
-  - readonly map is where the fast, lock-free lookups happen; built around an atomic.Pointer, which lets multiple goroutines access it without needing to lock anything. (ideal for scenarios where data is mostly being read and not frequently modified) 
-  => the readonly map might not always hold the most up-to-date data, therefore dirty map
+  - readonly map is where the fast, lock-free lookups happen; built around an atomic.Pointer, which lets multiple goroutines access it without needing to lock anything. (ideal for scenarios where data is mostly being read and not frequently modified)
+    => the readonly map might not always hold the most up-to-date data, therefore dirty map
 
   - dirty map stores any new entries that get added while the readonly map is still being used for lookups
 
@@ -155,8 +154,6 @@ tags:
 
   ![state_chart_syncmap](assets/state_chart_syncmap.png)
 
-
 ---
 
 https://victoriametrics.com/blog/go-sync-map/index.html
-

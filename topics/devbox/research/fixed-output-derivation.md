@@ -22,17 +22,18 @@ hash mismatch in fixed-output derivation '/nix/store/...':
   got:    sha256-ACTUALCORRECTHASHHEREXXXXXXXXXXXXXXXXXXXXX=
 ```
 
-This mechanism does not just only prevent Nix build from wrong global nixpkgs but also helps on tracking whether something, is 
+This mechanism does not just only prevent Nix build from wrong global nixpkgs but also helps on tracking whether something, is
 downloaded from the internet, is right.
 
-As you can see, even when Nix has mechanisms to decrease the risk of downloading resources from unreliable sources, it also can 
+As you can see, even when Nix has mechanisms to decrease the risk of downloading resources from unreliable sources, it also can
 control everything downloaded from the Internet, and can be used to build and result the same package at any time.
 
 ---
+
 #### References
-*Nix: what are fixed-output derivations and why use them?* (2023, February 24). Brian McGee. Retrieved August 2, 2024, from 
+
+_Nix: what are fixed-output derivations and why use them?_ (2023, February 24). Brian McGee. Retrieved August 2, 2024, from
 https://bmcgee.ie/posts/2023/02/nix-what-are-fixed-output-derivations-and-why-use-them/
 
-*Advanced Attributes - Nix Reference Manual*. (n.d.). nix.dev. Retrieved August 2, 2024, from https://nix.dev/manual/nix/2.18/
+_Advanced Attributes - Nix Reference Manual_. (n.d.). nix.dev. Retrieved August 2, 2024, from https://nix.dev/manual/nix/2.18/
 language/advanced-attributes.html?highlight=outputHash
-

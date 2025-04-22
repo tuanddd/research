@@ -1,6 +1,6 @@
 ---
 title: An Alternative To Tm
-date: 2020-05-09T00:00:00.000Z
+date: 2020-05-09
 description: Discover why Atomic replaces "time and materials" with "fixed budget, scope-controlled" projects to deliver efficient, well-estimated custom software within set budgets and clear progress updates.
 tags:
   - pm
@@ -49,4 +49,3 @@ We push hard on our clients to build the right features, and build them to the r
 The right level of complexity is achieved by managing the depth, breadth and scope of features. When you represent your product in a story map, you can hit your project budget by subordinating the scope of total experiences (breadth), tasks within an experience (depth), and level of ease (polish).
 
 ![](assets/an-alternative-to-tm_092695110fbd8d07129008b2f256b9d9_md5.webp)
-

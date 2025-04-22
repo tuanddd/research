@@ -16,7 +16,7 @@ A name and photo may be included if they help the team remember the persona. How
 
 #### Related
 
--   [[Omit needless demographic information when creating personas]]
+- [[Omit needless demographic information when creating personas]]
 
 #### Citations
 

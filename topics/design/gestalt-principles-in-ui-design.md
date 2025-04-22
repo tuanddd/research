@@ -1,6 +1,6 @@
 ---
 title: Gestalt Principles In Ui Design
-date: 2020-07-13T00:00:00.000Z
+date: 2020-07-13
 description: Learn how Gestalt principles like Proximity, Similarity, and Closure improve UI design by organizing elements for better usability, clear visual hierarchy, and enhanced user experience.
 tags:
   - design
@@ -11,7 +11,7 @@ tags:
 
 Take a second to look at the image above. How do you feel? Do you see that it is similar to an owl face? The answer to this phenomenon is called Isomorphism which is part of the 12 Gestalt rules. Just like Isomorphism, you will sometimes feel that a cloud is similar to a horse or a branding logo which is created by different shapes that can finally turn out to be a meaning object. Those logos embrace the brand mission, character, and business. So what are Gestalt Rules and how we can apply it to our UI Design? Let’s dive into it.
 
-## Introduction to Gestalt rules**
+## Introduction to Gestalt rules\*\*
 
 Gestalt is a word that is generated from Germany which means shape or form. Gestalt principles explain how humans perceive the outside world, how they recognize the pattern, and simplify complex images in daily life. In the User Interface Design field, we use Gestalt rules to make the design look more aesthetic and friendlier to users. In this article, we will discuss the 6 principles that are mostly used in every UI design.
 
@@ -82,4 +82,3 @@ User Interface isn't only about aesthetics. It's also about usability, performan
 Gestalt Principles will be an active supporter for us during our UI design process. Before we fully understand UI's beauty and how to create it, those principles are our guidance.
 
 However, never limit yourself to any line or principles. Rules are subjected to be broken. Feel free to stay creative. A great UI design is a harmonious combination of accessibility, feasibility, and art.
-

@@ -38,26 +38,26 @@ yarn add mixpanel-browser
 3. Import the Mixpanel library into your React component: In your React component, import the Mixpanel library as follows:
 
 ```ts
-import mixpanel from 'mixpanel-browser'
+import mixpanel from "mixpanel-browser";
 ```
 
 4. Initialize Mixpanel: In your component's constructor or useEffect hook, initialize Mixpanel with your project token:
 
 ```ts
 //index.tsx
-mixpanel.init('YOUR_MIXPANEL_PROJECT_TOKEN')
+mixpanel.init("YOUR_MIXPANEL_PROJECT_TOKEN");
 ```
 
 5. Track events: To track events in your React application, you can use the Mixpanel `track` method. For example:
 
 ```ts
-mixpanel.track('Button clicked')
+mixpanel.track("Button clicked");
 ```
 
 6. Use Mixpanel's identify method to track unique users: The Mixpanel `identify` method allows you to track unique users in your application. You can call this method with a unique identifier for the user, such as an email address or user ID:
 
 ```ts
-mixpanel.identify('user_id')
+mixpanel.identify("user_id");
 ```
 
 7. Additionally you could use people.set.method to create a profile for the users
@@ -69,7 +69,7 @@ mixpanel.people.set({
   $company_name: profile?.company?.name,
   $company_id: profile?.company?.id,
   $user_id: profile?.id,
-})
+});
 ```
 
 As you can see in the images bellow all users interact with the app will be listed. ![](assets/mixpanel_user_profiles.webp)
@@ -80,4 +80,3 @@ You can observe all the events created by the users. ![](assets/mixpanel_user_ac
 
 - <https://developer.mixpanel.com/docs>
 - <https://www.npmjs.com/package/mixpanel-browser>
-

@@ -51,7 +51,7 @@ require (
 
 Go’s git path-based imports connect package management directly to version control, prioritizing simplicity, clarity, and reusability—key reasons behind Go’s adoption as a preferred language for modular software development.
 
-----
+---
 
 ### Go's old $GOPATH story for development and dependencies
 
@@ -70,4 +70,3 @@ This story broadly assumes that updates to dependencies will normally be compati
 This story also leaves copying workspaces to give them to someone else (or to preserve them in their current state) as a problem for you, not Go. However, Go did add ['experimental' support for vendoring dependencies](https://go.dev/doc/go1.5) in Go 1.5, which allowed people to create self-contained objects that could be used with 'go get' or other simple repository copying and cloning. A package that had its dependencies fully vendored was effectively a miniature workspace, but this approach had some drawbacks of its own.
 
 I feel this original story, while limited, is broadly not unreasonable. It could have worked, at least in theory, in a world where preserving API compatibility (in a broad sense) is much more common than it clearly is (or isn't) in this one.
-

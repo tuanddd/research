@@ -13,7 +13,7 @@ Bài trắc nghiệm trên 16personalities còn kết hợp với Five Big perso
 
 - Conscientiousness > thái độ khi làm task (có chuẩn bị trc/lên kế hoạch không, details hay ko, thường trể deadline ko )
 
-- Extraversion 
+- Extraversion
 
 - Agreeableness (có cảm thông, quan tâm, thích giúp đỡ ng khác không)
 
@@ -23,11 +23,11 @@ Bài trắc nghiệm trên 16personalities còn kết hợp với Five Big perso
 
 - Traits của một người có thể thay đổi tuỳ theo tuổi tác, và có tính di truyền
 
-- Behavious = person's underlying personality + situational variables 
-
+- Behavious = person's underlying personality + situational variables
 
 ---
-URL: 
+
+URL:
 https://www.verywellmind.com/the-big-five-personality-dimensions-2795422#:~:text=The%20five%20broad%20personality%20traits,how%20many%20personality%20traits%20exist
 
 https://www.verywellmind.com/the-big-five-personality-dimensions-2795422#:~:text=The%20five%20broad%20personality%20traits,how%20many%20personality%20traits%20exist

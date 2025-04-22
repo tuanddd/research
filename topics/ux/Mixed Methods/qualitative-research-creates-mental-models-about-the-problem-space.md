@@ -17,9 +17,9 @@ A strong foundation of qualitative research can help us have a better intuition 
 
 #### Related
 
--   [[¶ Inductive reasoning]]
--   [[¶ Abductive reasoning]]
--   [[Questions about the sample size for qualitative research may indicate trust concerns]]
+- [[¶ Inductive reasoning]]
+- [[¶ Abductive reasoning]]
+- [[Questions about the sample size for qualitative research may indicate trust concerns]]
 
 #### Citations
 

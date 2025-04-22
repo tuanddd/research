@@ -1,6 +1,6 @@
 ---
 title: null
-date: 2022-08-05T00:00:00.000Z
+date: 2022-08-05
 description: Learn how to build reusable, flexible UIKit user interfaces using the builder pattern with Swift extensions and @discardableResult for cleaner, declarative UI code.
 authors:
   - Phan Viet Trung
@@ -49,6 +49,7 @@ let vStack = UIVStack {
 ```
 
 ### How can we build a UI using Builder pattern
+
 To write a simple Login form in the UIKit, we usually do:
 
 ```swift
@@ -104,6 +105,7 @@ extension UITextField {
 However, what happens if we need to customize other properties of UITextField or add a new custom function? How can we sync with the design and reuse code?
 
 ### Introduce to `@discardableResult`
+
 Swift language offers `@discardableResult`, a feature that allows you to use or ignore the return value of a function without compiler or editor complaints.
 
 For example, the following function returns a String:
@@ -134,6 +136,7 @@ Declare `hello()`, and no warning happens
 And you can assign a value to a variable with `let helloString = hello()`.
 
 ### Introduce to `Extension`
+
 The iOS-MacOS developer is familiar with the concept of Extensions. With an Extension, we can add more functionality to existing Objects. For example:
 
 ```swift
@@ -201,4 +204,3 @@ let redLabel = UILabel().text("I'm red").myRedStyle()
 ```
 
 Using `@discardableResult` with `Extension` gives us all of the benefits of reusability, flexibility, maintainability, and the ability to expand our code while retaining the original data type.
-

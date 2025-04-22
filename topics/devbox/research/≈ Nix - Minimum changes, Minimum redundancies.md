@@ -14,4 +14,3 @@ The reproducible issue is resolved in the [previous part](./≈%20Nix%20-%20Buil
 
 - [Content-addressable storage in Docker](./Content-addressable%20storage%20in%20Docker.md)
 - [Nix is faster than Docker build](./Nix%20is%20faster%20than%20Docker%20build.md)
-

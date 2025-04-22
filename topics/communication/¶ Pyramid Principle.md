@@ -42,20 +42,20 @@ Then, address each point in turn. Once again, ensure that your ideas are MECE. E
 
 Usually, starting with the answer (direct storytelling) is the best approach for persuasive writing. Use this approach when dealing with
 
--   friendly clients;
--   impatient clients; or
--   big-picture, strategic discussions in which there is already some acceptance around the proposed recommendations.
+- friendly clients;
+- impatient clients; or
+- big-picture, strategic discussions in which there is already some acceptance around the proposed recommendations.
 
 However, if you fear pushback, you may use indirect storytelling to ease the audience into accepting your recommendation. Use the indirect approach for
 
--   controversial recommendations
--   hostile audiences
--   analytical organizations and personalities
--   audiences who love data but are not impatient
+- controversial recommendations
+- hostile audiences
+- analytical organizations and personalities
+- audiences who love data but are not impatient
 
 ---
 
 #### Citations
 
--   https://strategyu.co/structure-your-ideas-pyramid-principle-part-1/
--   https://strategyu.co/pyramid-principle-part-2-communicate-top-down/
+- https://strategyu.co/structure-your-ideas-pyramid-principle-part-1/
+- https://strategyu.co/pyramid-principle-part-2-communicate-top-down/

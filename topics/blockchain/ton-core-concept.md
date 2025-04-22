@@ -99,4 +99,3 @@ TON does not automatically calculate gas. The entire transaction execution, with
 ## Conclusion
 
 With all the above concepts, we can now begin developing on TON. But these are actually not enough. We will continue diving deep into more complex concepts such as data format, transaction layout, or bounceable addresses when developing something in the next post.
-

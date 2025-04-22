@@ -1,6 +1,6 @@
 ---
 title: Data Analyst In Retail Trading
-date: 2022-08-29T00:00:00.000Z
+date: 2022-08-29
 description: Discover how data analysts use tools like Power BI and SQL to transform retail trading data into actionable business insights on sales, finance, and marketing performance.
 tags:
   - engineering
@@ -121,4 +121,3 @@ For the improved customer and good customer group, we have different strategies 
 ## Conclusion
 
 Hopefully, you were able to understand Data Analysts a little better, through the lens of retail trading. Data Analysts are one of the few jobs where they focus on gathering requirements and are dependent on those who collect and aggregate data. There are many types of Data Analysts, and they serve their role best in helping business gain better insight into how they operate and understand critical areas of concerns better.
-

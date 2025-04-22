@@ -32,8 +32,8 @@ Following is the implementation we normally do when setting up this feature. Thi
 ```js
 // main.js
 //...
-if (window.localStorage.getItem('theme') === 'dark') {
-  document.documentElement.classList.add('dark')
+if (window.localStorage.getItem("theme") === "dark") {
+  document.documentElement.classList.add("dark");
 }
 ```
 
@@ -45,8 +45,8 @@ To fix this, put the scripts inside the `<head>` tag, even before the `<link>` o
 <html>
   <head>
     <script type="text/javascript">
-      if (window.localStorage.getItem('theme') === 'dark') {
-        document.documentElement.classList.add('dark')
+      if (window.localStorage.getItem("theme") === "dark") {
+        document.documentElement.classList.add("dark");
       }
     </script>
     ...
@@ -65,4 +65,3 @@ By doing this, the page rendering will be blocked when the engine detects the `<
 ## Reference
 
 - https://stackoverflow.com/questions/63033412/dark-mode-flickers-a-white-background-for-a-millisecond-on-reload
-

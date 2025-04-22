@@ -163,4 +163,3 @@ There are four classes of events that occur in your Go programs that allow the s
 - The use of the keyword go
 - Garbage collection
 - System calls
-

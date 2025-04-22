@@ -43,42 +43,42 @@ _Make sure to replace the _`***sheetId***`_ and _`***sheetName***`_ with your ow
 
 ```javascript
 // Save on './public/spreadsheet.ts' file
-const sheetId = '<Sheet-ID>'
-const sheetName = '<sheet-name>'
-const baseUrl = `https://opensheet.elk.sh/${sheetId}/${sheetName}`
+const sheetId = "<Sheet-ID>";
+const sheetName = "<sheet-name>";
+const baseUrl = `https://opensheet.elk.sh/${sheetId}/${sheetName}`;
 
 // Path to store all translation data
-const translateDataPath = './public/locales/translate-data.json'
+const translateDataPath = "./public/locales/translate-data.json";
 
 export const getJsonData = async () => {
   const res = await fetch(baseUrl, {
-    method: 'GET',
+    method: "GET",
     headers: {
-      'Content-Type': 'application/json',
-      accept: '*/*',
-      authority: 'opensheet.elk.sh',
+      "Content-Type": "application/json",
+      accept: "*/*",
+      authority: "opensheet.elk.sh",
     },
-    mode: 'cors',
-    credentials: 'omit',
-  })
+    mode: "cors",
+    credentials: "omit",
+  });
 
   if (res.ok) {
-    return await res.json()
+    return await res.json();
   }
-}
+};
 
 getJsonData().then((data) => {
-  const fs = require('fs')
-  let myObject = data
+  const fs = require("fs");
+  let myObject = data;
 
   // Writing to our JSON file
-  var newData = JSON.stringify(myObject, null, 2)
+  var newData = JSON.stringify(myObject, null, 2);
   fs.writeFile(translateDataPath, newData, (err) => {
     // Error checking
-    if (err) throw err
-    console.log('New data added')
-  })
-})
+    if (err) throw err;
+    console.log("New data added");
+  });
+});
 ```
 
 **Step 3: **After having obtaining the translation data, generate locale files for supported languages using the following code:
@@ -165,4 +165,3 @@ In summary, `Solution 1` is a simpler and cheaper approach to manage translation
 ## Conclusion
 
 Multilingual support is a very important function for web or mobile applications nowadays. Users will come from all over the world and always ask for support for their language. The two options above have different advantages and disadvantages, so you need to consider the exact scope of the product to have the best choice for your team. Both methods can meet the needs of constantly translating products to support new features or new products, but it will cost production as well as quality assurance.
-

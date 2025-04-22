@@ -27,24 +27,24 @@ processes:
       fi
       pg_ctl start -o "-k $PGHOST"
     is_daemon: true
-    shutdown: 
+    shutdown:
       command: "pg_ctl stop -m fast"
     availability:
       restart: "always"
     readiness_probe:
       exec:
         command: "pg_isready"
-        
+
   telegram-bot:
     command: |
       cd telegram-bot
       make install
       make dev
     availability:
-      restart: "always"    
+      restart: "always"
     depends_on:
       postgresql:
-        condition: process_healthy    
+        condition: process_healthy
     readiness_probe:
       http_get:
         host: 127.0.0.1
@@ -72,7 +72,7 @@ postgresql:
     fi
     pg_ctl start -o "-k $PGHOST"
   is_daemon: true
-  shutdown: 
+  shutdown:
     command: "pg_ctl stop -m fast"
   availability:
     restart: "always"
@@ -99,10 +99,10 @@ telegram-bot:
     make install
     make dev
   availability:
-    restart: "always"    
+    restart: "always"
   depends_on:
     postgresql:
-      condition: process_healthy    
+      condition: process_healthy
   readiness_probe:
     http_get:
       host: 127.0.0.1
@@ -144,4 +144,3 @@ Devbox Services with process-compose gives you the power of containerized workfl
 - [Devbox Services Guide](https://www.jetify.com/devbox/docs/guides/services)
 - [PostgreSQL Documentation](https://www.postgresql.org/docs/)
 - [TimescaleDB Documentation](https://docs.timescale.com/)
-

@@ -1,6 +1,6 @@
 ---
 title: null
-date: 2022-12-10T00:00:00.000Z
+date: 2022-12-10
 description: Learn how Apache Hive buckets solve issues with dynamic partitions by reducing tiny files, enabling efficient sampling, and improving query performance through bucketing and partitioning techniques.
 authors:
   - Dung Ho
@@ -18,6 +18,7 @@ tags:
 ---
 
 With the understanding about partitions, the benefits of partitions and how to work with partitions from the article [[Partitions on Apache Hive]], we are going to see a couple of potential problems that we may see with partitions, especially, with dynamic partitions. And, of course, how to address them using buckets. In this article, we'll discuss about:
+
 - What are buckets?
 - The differences between buckets and partitions.
 - The benefits of using buckets in Hive.
@@ -33,6 +34,7 @@ The screenshot shows that this table has about 362 partitions. We see a lot of p
 
 As shown in the screenshot, there is a tiny file under the partition symbol `BUB` under year 2003.
 There are two problems here:
+
 - Problem 1: too many partitions. More symbol for a given year will end up with that many partitions. Meaning that for each year, based on the number of new symbols added to the exchange that year, the number of partitions can actually vary and it is not predictable.
 - Problem 2: tiny files under the partitions. We know that Hadoop is not an ideal platform to deal with tiny files. We may argue that symbol is not the best column to partition a data byte but nevertheless, we could be facing a similar scenario in our job.
 
@@ -102,4 +104,3 @@ FROM stocks_bucket TABLESAMPLE(BUCKET 3 OUT OF 5 ON symbol) s;
 In the first select, we're doing a table sample on a table `stocks` which is not bucketed and asking for bucket 3 out of 5 buckets based on the column symbol. Since this table is not bucketed, Hive has to randomly assign symbols into five buckets and rows which belong to the third bucket will be returned. The problem with this query is that: to return bucket number 3, the table sample needs to scan the entire table because the table is not bucketed and this is time intensive. On the other hand, the second select on the bucketized `stocks_buckets` table is efficient than the first one as the table we are sampling is bucketized and also the sampling is done on the bucketized column `symbol`. Hence, this query will be more efficient than the first one. The other benefits of buckets is its efficiency during map side joints. We'll look more detail into that in other article about optimizations.
 
 In summary, we now understood what buckets are. We saw the difference between buckets and partitions. And we also know how to work with buckets. There are three benefits of buckets: (1) unlike partitions the number of buckets is constant and solves the tiny files issue, (2) buckets are very efficient when sampling tables and (3) finally the benefit of using bucket is during map site joints which we'll discuss in more detail later.
-

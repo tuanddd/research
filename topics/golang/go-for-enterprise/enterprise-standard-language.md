@@ -23,4 +23,3 @@ tags:
 ### [When to use Go in enterprise?](when-to-use-golang-in-enterprise.md)
 
 ### [Aggregate use cases of successful enterprises using Go](aggregate-use-cases-of-successful-enterprises-using-go.md)
-

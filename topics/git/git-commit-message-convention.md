@@ -1,7 +1,7 @@
 ---
 title: Git Commit Message Convention
-date: 2021-04-06T00:00:00.000Z
-description: Learn how to write clear git commit messages using types, scopes, and subjects with practical examples to improve your team's coding workflow and commit history.
+date: 2021-04-06
+description: "Learn how to write clear git commit messages using types, scopes, and subjects with practical examples to improve your team's coding workflow and commit history."
 tags:
   - git
 ---
@@ -20,15 +20,15 @@ The blog post states out what a typical git commit message looks like
 
 in which
 
-* type: stands for the main action
-* scope: stands for the codebase section
-* subject: short description on the commit
+- type: stands for the main action
+- scope: stands for the codebase section
+- subject: short description on the commit
 
 and
 
-* `type` should follow some key actions: such as `build`,
-* `chore`, `feat`, `fix`, `refactor`, ...etc.; while `scope`
-* `subject` are optional.
+- `type` should follow some key actions: such as `build`,
+- `chore`, `feat`, `fix`, `refactor`, ...etc.; while `scope`
+- `subject` are optional.
 
 But how optional? My question exactly.
 
@@ -36,7 +36,7 @@ But how optional? My question exactly.
 
 We're currently using Outline as the knowledge hub, where every piece of accumulated processes, workflows, document material are stored. I did a round check just to realize we haven't had any notes on the git commit-msg convention.
 
-Working in an IT woodland, GitHub and Git commit -m isn't a new thing, but I never heard of any 'convention.' In fact, I didn't know we *should*. And therefore, I tend to make it with a text, randomly noting down the action I did. For example, if I were writing a new blog post, my commit-msg would likely be
+Working in an IT woodland, GitHub and Git commit -m isn't a new thing, but I never heard of any 'convention.' In fact, I didn't know we _should_. And therefore, I tend to make it with a text, randomly noting down the action I did. For example, if I were writing a new blog post, my commit-msg would likely be
 
 `create-f1` ; `edit-f1` ; `rename-f1` or `finetune-f1`
 
@@ -54,16 +54,16 @@ Examples for 2 scenarios:
 
 ![](assets/git-commit-message-convention_c3a26eeaa2a55880f60f0219fd54ecbe_md5.webp)
 
-* type: fix
-* scope: foundation
-* subject: ordered list doesn't show numbers
+- type: fix
+- scope: foundation
+- subject: ordered list doesn't show numbers
 
 ### 2. The commit affects the whole project
 
 ![](assets/git-commit-message-convention_a0d2b484d0d87baddace0446623c0af0_md5.webp)
 
-* type: chore
-* subject: upgrade tailwind and twin.macro
+- type: chore
+- subject: upgrade tailwind and twin.macro
 
 **Which leads me to our current state**
 We have a playbook - our guides on getting things done. Here's the old flow we have on git commit message.
@@ -71,4 +71,3 @@ We have a playbook - our guides on getting things done. Here's the old flow we h
 ![](assets/git-commit-message-convention_822a84298b02559d0d1224f7aa82e039_md5.webp)
 
 and I think it's time to update a new version. Check out our latest update at [dwarvesf/playbook/write-a-good-commit-message](https://github.com/dwarvesf/playbook/blob/master/engineering/git.md#write-a-good-commit-message).
-
