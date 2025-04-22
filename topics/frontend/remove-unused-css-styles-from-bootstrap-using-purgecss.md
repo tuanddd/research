@@ -1,12 +1,12 @@
 ---
-tags:
-  - css
-  - frontend
 title: Remove Unused CSS Styles From Bootstrap Using Purgecss
 date: 2019-02-01
 description: This article demonstrates how to use PurgeCSS to remove unused CSS styles from Bootstrap.
 authors:
- - nghiaphm
+  - nghiaphm
+tags:
+  - css
+  - frontend
 ---
 
 ![](assets/remove-unused-css-styles-from-bootstrap-using-purgecss_50067f1125ee42d2d68068bd93443235_md5.webp)
@@ -224,3 +224,4 @@ Full example repository: [https://github.com/PhmNgocNghia/purge\-css\-example\-w
 With PurgeCSS, our `bootstrap-grid.main.css` file reduce from **47kb** to **601byte**. All unused selectors has been removed. You can view the documentation at [https://www.purgecss.com/\](https://www.purgecss.com/%5C) which contain details instruction and api references.
 
 Not only bootstrap, you can use PurgeCSS with many css libraries such as TailwindCSS, Zurb foundation,... etc.
+

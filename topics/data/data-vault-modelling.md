@@ -1,9 +1,18 @@
 ---
-tags: engineering/data, data-warehouse, data-vault, data-modelling, dimension-table, fact-table
-authors: Bach Phuong
-github_id: Bachpx2911
+title: null
 date: 2022-12-15
+description: null
+authors:
+  - Bach Phuong
+github_id: Bachpx2911
 icy: 10
+tags:
+  - engineeringdata
+  - data-warehouse
+  - data-vault
+  - data-modelling
+  - dimension-table
+  - fact-table
 ---
 
 ## Introduction
@@ -154,3 +163,4 @@ Cons:
 ## References
  - https://www.phdata.io/blog/building-modern-data-platform-with-data-vault/
  - https://www.databricks.com/glossary/data-vault
+

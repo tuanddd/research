@@ -1,9 +1,17 @@
 ---
-tags: engineering, go, backend, load-balancing, circuit-breaker
-authors: M.Vu Cuong(Jim)
-github_id: R-Jim
+title: null
 date: 2023-07-02
+description: null
+authors:
+  - M.Vu Cuong(Jim)
+github_id: R-Jim
 icy: 10
+tags:
+  - engineering
+  - go
+  - backend
+  - load-balancing
+  - circuit-breaker
 ---
 
 ## The Problem Statement
@@ -138,3 +146,4 @@ We should apply the circuit breaker pattern when the application trying to invok
 ## References
 - [Azure's Circuit-breaker patterns](https://learn.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker)
 - [sony/gobreaker](https://github.com/sony/gobreaker)
+

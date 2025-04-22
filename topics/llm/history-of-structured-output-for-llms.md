@@ -1,12 +1,12 @@
 ---
+title: History of Structured Outputs for LLMs
+date: 2024-06-11
+description: When Large Language Models (LLMs) becomes popular and an essential tool for growing businesses, it signals a transition toward more complex and efficient data processing. Instead of outputting raw text, the models may now generate structured data in formats such as JSON or XML. This allowed the information to be directly integrated into company databases, removing the need for human processing. Businesses can use structured outputs to streamline their data workflows, decrease processing time, and improve the accuracy and reliability of their analytics.
+authors:
+  - datnguyennnx
 tags:
   - llm
   - history
-title: "History of Structured Outputs for LLMs"
-date: 2024-06-11
-description: "When Large Language Models (LLMs) becomes popular and an essential tool for growing businesses, it signals a transition toward more complex and efficient data processing. Instead of outputting raw text, the models may now generate structured data in formats such as JSON or XML. This allowed the information to be directly integrated into company databases, removing the need for human processing. Businesses can use structured outputs to streamline their data workflows, decrease processing time, and improve the accuracy and reliability of their analytics."
-authors:
-  - datnguyennnx
 ---
 
 ## Overview

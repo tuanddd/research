@@ -1,9 +1,9 @@
 ---
-tags: 
-  - rust
 title: Playaround With Rust
 date: 2019-08-30
 description: null
+tags:
+  - rust
 ---
 
 Mozilla intends to use Rust as a platform for prototyping experimental browser architectures.
@@ -136,3 +136,4 @@ fn largest(x: &i64, y: &i64) -> &i64 {
    }
 }
 ```
+

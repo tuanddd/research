@@ -1,18 +1,21 @@
 ---
+title: null
+date: 2024-01-22
+description: null
+authors:
+  - Nguyen Hieu Nghia
+github_id: mickwan1234
+icy: 10
 tags:
-  - engineering/data
+  - engineeringdata
   - devops
   - google-cloud
-  - Google-Data-Studio
+  - google-data-studio
   - google-data-fusion
-  - ETL
+  - etl
   - reliability
-  - CDAP
+  - cdap
   - data-engineering
-authors: Nguyen Hieu Nghia
-github_id: mickwan1234
-date: 2024-01-22
-icy: 10
 ---
 
 ## Introduction
@@ -170,3 +173,4 @@ In this demo we’ll setup a simple ETL pipeline to import, transform load a csv
 	- ![](assets/google-data-fusion-20240122121206926.webp)
 
 And that’s it, you’re done. Congrat on your first data pipeline with Google Data Fusion.
+

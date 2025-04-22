@@ -1,3 +1,9 @@
+---
+title: null
+date: null
+description: null
+---
+
 # Blockchain Security Checklist
 - [ ] Understanding the project
 
@@ -54,3 +60,4 @@
 
 ##### POTENTIAL ATTACK
 - [ ] Check for Potential Sandwich Attack
+

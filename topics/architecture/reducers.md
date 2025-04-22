@@ -1,8 +1,14 @@
 ---
-tags: engineering, state, domain
-authors: Nguyen Xuan Anh
-github_id: monotykamary
+title: null
 date: 2022-05-22
+description: null
+authors:
+  - Nguyen Xuan Anh
+github_id: monotykamary
+tags:
+  - engineering
+  - state
+  - domain
 ---
 
 _This note refers to frontend reducers, and not to be confused with other reducers like from MapReduce._
@@ -56,3 +62,4 @@ Here a reducer has no concept of a "finite" state here, such that state can be r
 - https://facebook.github.io/flux/
 - https://redux.js.org/understanding/history-and-design/prior-art
 - https://github.com/jas-chen/rx-redux
+

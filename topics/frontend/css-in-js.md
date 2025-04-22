@@ -1,13 +1,13 @@
 ---
-tags: 
- - frontend
- - css-in-js
-authors: 
- - khacvy
-description: CSS-in-JS is a styling technique where Javascript is used to style the component.
 title: CSS in JS
-github_id: trankhacvy
 date: 2022-08-11
+description: CSS-in-JS is a styling technique where Javascript is used to style the component.
+authors:
+  - khacvy
+github_id: trankhacvy
+tags:
+  - frontend
+  - css-in-js
 ---
 
 **CSS-in-JS** is a styling technique where Javascript is used to style the component. These are multiple implementations of this concept in the form of libraries such as [emotion](https://emotion.sh), [styled-component](https://styled-components.com/), [JSS](https://cssinjs.org). They aim to tackle the limitations of CSS, such as lack of dynamic functionality, scoping, and portability.
@@ -58,3 +58,4 @@ Adding another library to a web page increases the page size, which can negative
 - https://webdesign.tutsplus.com/articles/an-introduction-to-css-in-js-examples-pros-and-cons--cms-33574
 - https://medium.com/dailyjs/what-is-actually-css-in-js-f2f529a2757
 - https://github.com/styled-components/styled-components/issues/2377
+

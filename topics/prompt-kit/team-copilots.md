@@ -1,13 +1,13 @@
 ---
+title: Team Copilots
+date: 2024-11-14
+description: Team Copilots is a suite of AI assistants designed to enhance team collaboration and productivity. These copilots, built using Dify and custom implementations, help teams manage tasks, facilitate communication, and improve overall efficiency. This approach represents a shift towards AI-assisted team management, enhancing team performance and project success rates.
 authors:
-- "monotykamary"
-date: "2024-11-14"
-description: "Team Copilots is a suite of AI assistants designed to enhance team collaboration and productivity. These copilots, built using Dify and custom implementations, help teams manage tasks, facilitate communication, and improve overall efficiency. This approach represents a shift towards AI-assisted team management, enhancing team performance and project success rates."
+  - monotykamary
 tags:
-- "ai"
-- "team-management"
-- "copilots"
-title: "Team Copilots"
+  - ai
+  - team-management
+  - copilots
 ---
 
 ## Introduction to Team Copilots
@@ -61,3 +61,4 @@ Effective team management requires efficient task management, clear communicatio
 - [https://prompt.d.foundation/chat/cZmU6hYmwWpk2AmW](https://prompt.d.foundation/chat/cZmU6hYmwWpk2AmW)
 - Generates transcripts for YouTube videos, enhancing accessibility and content review.
 - ![YouTube Transcript Copilot](assets/youtube-transcriber.mp4)
+

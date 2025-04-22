@@ -1,13 +1,13 @@
 ---
+title: Frontend Report First Half of November 2024
+date: 2024-11-15
+description: "A comprehensive update on key advancements in frontend development for the first half of November 2024, highlighting React 19's full-stack capabilities, XState for state management, Shopify's React Native migration, Next.js 15 enhancements, and the impact of container queries on responsive design."
+authors:
+  - hthai2201
+short_title: Nov 2024 (First Half)
 tags:
   - frontend
   - market-report
-title: Frontend Report First Half of November 2024
-short_title: "Nov 2024 (First Half)"
-description: A comprehensive update on key advancements in frontend development for the first half of November 2024, highlighting React 19's full-stack capabilities, XState for state management, Shopify's React Native migration, Next.js 15 enhancements, and the impact of container queries on responsive design.
-date: 2024-11-15
-authors:
-  - hthai2201
 ---
 
 This report provides a detailed look at the significant developments in frontend development during the first half of November 2024. It covers the latest updates, tools, and approaches shaping the frontend scene, including React 19's full-stack features, XState for managing state, Shopify's move to React Native, improvements in Next.js 15, and how container queries impact responsive design.
@@ -95,3 +95,4 @@ Storybook Test revolutionizes frontend testing by integrating component, visual,
 - [Why a perfect Lighthouse score isn't everything](https://www.smashingmagazine.com/2024/11/why-optimizing-lighthouse-score-not-enough-fast-website/)
 - [Headless components](https://www.subframe.com/blog/how-headless-components-became-the-future-for-building-ui-libraries)
 - [State of CSS survey analysis](https://www.oddbird.net/2024/11/04/css-demographics/)
+

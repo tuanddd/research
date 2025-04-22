@@ -1,9 +1,9 @@
 ---
-tags: 
-  - dcos
 title: Dcos Series Part 3 Service Discovery And Load Balancing
 date: 2017-05-17
 description: null
+tags:
+  - dcos
 ---
 
 The Mesosphere Datacenter Operating System (DCOS) provides useful tooling for service discovery and load balancing. One of the primary tools is Marathon Load Balancer, which will be the focus of this post.
@@ -234,3 +234,4 @@ So, your configuration file will be like this:
 or, you also can access by this way `<public-node-elb>`:`<service-port>`
 
 ![](assets/dcos-series-part-3---service-discovery-and-load-balancing_d90d63eed205052f3f560b4a6ebd5fba_md5.webp)
+

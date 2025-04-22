@@ -1,13 +1,13 @@
 ---
+title: Frontend Report September 2024
+date: 2024-10-05
+description: "This roundup highlights the latest in React and Next.js, including Server Functions, the React 19 compiler, and self-hosting with OpenNext. Find tips on lazy loading, CSS Grid, JavaScript's evolution, plus new tools and expert insights."
+authors:
+  - mashiro5951
+short_title: September 2024
 tags:
   - frontend
   - market-report
-title: Frontend Report September 2024
-short_title: 'September 2024'
-description: This roundup highlights the latest in React and Next.js, including Server Functions, the React 19 compiler, and self-hosting with OpenNext. Find tips on lazy loading, CSS Grid, JavaScript's evolution, plus new tools and expert insights.
-date: 2024-10-05
-authors:
-  - mashiro5951
 ---
 
 This roundup covers the latest in React, Next.js, and web development. React Server Actions are now Server Functions, and there's a deep dive into the React 19 compiler. In Next.js news, OpenNext is enabling self-hosting, and there's fresh guidance on Progressive Web Apps. Plus, explore tips on lazy loading, CSS Grid, and JavaScript's evolution.
@@ -116,3 +116,4 @@ This is not supposed to be a template, boilerplate or a framework, but more of a
 - [Why Gumroad Didn't Choose htmx](https://htmx.org/essays/why-gumroad-didnt-choose-htmx/)
 - [Something went wrong – Ways out of the JavaScript crisis](https://molily.de/something-went-wrong/)
 - [The hardest bug investigation of my career and the insane code that caused it](https://www.reddit.com/r/ExperiencedDevs/comments/1fu0e5q/the_hardest_bug_investigation_of_my_career_and/)
+

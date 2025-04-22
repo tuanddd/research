@@ -1,5 +1,12 @@
 ---
-tags: ux, design, research, skeuomorphism
+title: null
+date: null
+description: null
+tags:
+  - ux
+  - design
+  - research
+  - skeuomorphism
 ---
 
 Skeuomorphism describes the creation of an object or design that contains elements that hearken back to attributes or structures of some other material or technique.

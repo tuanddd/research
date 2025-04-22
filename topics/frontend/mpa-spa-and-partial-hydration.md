@@ -1,13 +1,13 @@
 ---
-tags: 
- - frontend
- - engineering/frontend
-authors: 
- - huygn
-github_id: huygn
-description: MPA, SPA and Partial Hydration are three different approaches to building web applications.
 title: MPA, SPA and Partial Hydration
 date: 2022-03-24
+description: MPA, SPA and Partial Hydration are three different approaches to building web applications.
+authors:
+  - huygn
+github_id: huygn
+tags:
+  - frontend
+  - engineeringfrontend
 ---
 
 If you've been on Twitter lately, you might've seen the term "Partial Hydration" as well as MPA going along and hyped by web advocates, wondering what about them?
@@ -66,3 +66,4 @@ Same old answer: it depends. If you’re building an analytics dashboard, sports
 Otherwise, if it's your landing site, similar to [netlify.com](http://netlify.com/) or [dwarves.foundation](https://dwarves.foundation/), which essentially just has only 1-2 pieces of UI that require JavaScript to run, and you’re building it with React: try to apply Partial Hydration where possible. While `react-static` or `gatsby` does not (yet) support partial hydration, you can try out [astro.build](https://astro.build/). Here, partial hydration is a first class citizen, and it comes with a decent static site generator with good React support.
 
 For MPA, if you prefer to keep building your site with React, you can still make it with an MPA. Just do SSR on the server and AVOID hydrating the whole page on the client. Obviously interactive components won't be interactive, but at least it's a good start.
+

@@ -1,8 +1,14 @@
 ---
-tags: engineering, javascript, typescript
-authors: Giang Ngoc Huy
-github_id: huygn
+title: null
 date: 2022-03-17
+description: null
+authors:
+  - Giang Ngoc Huy
+github_id: huygn
+tags:
+  - engineering
+  - javascript
+  - typescript
 ---
 
 ## What
@@ -60,3 +66,4 @@ Interesting projects to follow:
 
 - https://github.com/exhibitionist-digital/ultra
 - https://github.com/lucacasonato/fresh
+

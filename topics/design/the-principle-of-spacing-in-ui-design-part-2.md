@@ -1,11 +1,12 @@
 ---
-tags: 
-  - design
-  - technique
 title: The Principle Of Spacing In Ui Design Part 2
 date: 2018-11-01
 description: null
+tags:
+  - design
+  - technique
 ---
+
 ## Vertical spacing
 
 ### Spacing within each paragraph
@@ -65,3 +66,4 @@ I used 8px for spacing between components with icons. It is a great number that 
 * Developers will become faster as they know all the rules of your spacing system.
 
 You can follow me on [https://dribbble.com/Anna23593](https://dribbble.com/Anna23593) and thank you for taking the time to read it.
+

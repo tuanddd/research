@@ -1,12 +1,12 @@
 ---
-tags: 
+title: Error handling on Rust
+date: 2024-07-03
+description: "nrecoverable errors are those that occur when something goes fundamentally wrong, and the program cannot safely proceed. For example, if a file that is essential for the program to run is missing or corrupted, the program can panic and display an appropriate error message. Rust provides a mechanism for handling such situations through the **`panic!`** macro. When a **`panic!`** occurs, the program stops execution, unwinding the stack and providing a clear panic message..."
+authors:
+  - trankhacvy
+tags:
   - rust
   - error-handling
-title: "Error handling on Rust"
-description: "nrecoverable errors are those that occur when something goes fundamentally wrong, and the program cannot safely proceed. For example, if a file that is essential for the program to run is missing or corrupted, the program can panic and display an appropriate error message. Rust provides a mechanism for handling such situations through the **`panic!`** macro. When a **`panic!`** occurs, the program stops execution, unwinding the stack and providing a clear panic message..."
-date: 2024-07-03
-authors: 
-  - trankhacvy
 ---
 
 ## **Introduction**
@@ -254,3 +254,4 @@ impl std::fmt::Display for MyError {
 ## References:
 - https://doc.rust-lang.org/book/ch09-00-error-handling.html
 - https://blog.burntsushi.net/rust-error-handling/
+

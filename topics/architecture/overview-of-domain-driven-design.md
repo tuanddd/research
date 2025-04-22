@@ -1,8 +1,14 @@
 ---
-tags: engineering, domain-driven-design, DDD
-authors: M.Vu Cuong(Jim)
-github_id: R-Jim
+title: null
 date: 2022-06-21
+description: null
+authors:
+  - M.Vu Cuong(Jim)
+github_id: R-Jim
+tags:
+  - engineering
+  - domain-driven-design
+  - ddd
 ---
 
 ### What is Domain Driven Design?
@@ -37,3 +43,4 @@ Here are some example domains that used DDD:
 ### References
 - https://herbertograca.com/category/development/book-notes/domain-driven-design-by-eric-evans/
 - Domain-driven design by Eric Evans
+

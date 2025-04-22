@@ -1,14 +1,13 @@
 ---
-tags: 
-- ai
-- vector database
-- llm
-title: 'Select Vector Database for LLM'
-github_id: thanhpn
+title: Select Vector Database for LLM
 date: 2023-05-18
-author: 
-- thanhpn
-description: 'An overview of vector databases and their application in LLM systems. This article covers the history and core concepts of vector databases, their use cases, implementation considerations with LLMs, and a comparison of popular vector database options.'
+description: An overview of vector databases and their application in LLM systems. This article covers the history and core concepts of vector databases, their use cases, implementation considerations with LLMs, and a comparison of popular vector database options.
+github_id: thanhpn
+author: ["thanhpn"]
+tags:
+  - ai
+  - vector-database
+  - llm
 ---
 
 During our research on applying LLM to real-world applications, we have observed the widespread usage and increasing popularity of Vector databases in various fields. Therefore, we have delved into understanding and summarizing what we have learned in this article.
@@ -96,3 +95,4 @@ These vector databases offer various features and optimizations to handle large-
 
 - [https://qdrant.tech/benchmarks/?gad=1&gclid=Cj0KCQjwsIejBhDOARIsANYqkD0ZtNrEujSDsjGPsOmSGRtJaIYvQct3kvojBEQPJxrcdL7lC9IaLVQaAnMjEALw_wcB](https://qdrant.tech/benchmarks/?gad=1&gclid=Cj0KCQjwsIejBhDOARIsANYqkD0ZtNrEujSDsjGPsOmSGRtJaIYvQct3kvojBEQPJxrcdL7lC9IaLVQaAnMjEALw_wcB)
 - [https://slashdot.org/software/comparison/Embeddinghub-vs-Milvus-Database-vs-chroma/](https://slashdot.org/software/comparison/Embeddinghub-vs-Milvus-Database-vs-chroma/)
+

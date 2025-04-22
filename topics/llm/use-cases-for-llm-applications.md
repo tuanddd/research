@@ -1,16 +1,14 @@
 ---
+title: Use cases for LLM applications
+date: 2024-10-04
+description: Explore the diverse applications of large language models (LLMs) and AI in both enterprise and consumer sectors. Learn about key use cases across data analysis, content creation, healthcare, education, and more.
 authors:
-  - 'thanh'
-date: '2024-10-04'
-description: 'Explore the diverse applications of large language models (LLMs) and AI in both enterprise and consumer sectors. Learn about key use cases across data analysis, content creation, healthcare, education, and more.'
-hashnode_meta:
-  id: '670f4d49340553308e8ff9e5'
-  slug: 'use-cases-for-llm-applications'
-sync: 'hashnode'
+  - thanh
+hashnode_meta: {"id":"670f4d49340553308e8ff9e5","slug":"use-cases-for-llm-applications"}
+sync: hashnode
 tags:
-  - 'llm'
-  - 'ai'
-title: 'Use cases for LLM applications'
+  - llm
+  - ai
 ---
 
 The potential applications of large language models (LLMs) and other AI foundation models seem truly endless. If you can dream it up, chances are there's an AI system out there that can help bring your vision to life. But attempting to categorize all the possible use cases is a daunting task - the possibilities are just too vast.
@@ -43,3 +41,4 @@ We hope this overview of common use cases inspires you to think boldly about how
 
 - https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders
 - https://huyenchip.com/llama-police
+

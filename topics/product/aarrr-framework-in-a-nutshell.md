@@ -1,11 +1,11 @@
 ---
-tags: 
-  - design
-  - framework
-  - practice
 title: Aarrr Framework In A Nutshell
 date: 2020-06-30
 description: null
+tags:
+  - design
+  - framework
+  - practice
 ---
 
 We could find a bunch of AARRR frameworks definition across the internet (Thanks to Google). I don’t intend to create another one here.
@@ -57,3 +57,4 @@ This could save you a lot of money.
 With AARRR Framework, we could build a product based on a concrete foundation and minimize the risks by defining what it takes to get the business goal and how to get there (metrics).
 
 Along the way, we could define the metrics for each stage and which one deserves the utmost focus in a matter of time. It creates our ability to do things in the right way.
+

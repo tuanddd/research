@@ -1,13 +1,13 @@
 ---
-tags: 
- - blockchain
- - proof-of-knowledge
-authors: 
- - thanhpn
-description: Plonky2 is a non-Interactive Proof of Proof of Knowledge (NIPoPoK) chain that reduces blockchain size and speeds up transaction confirmations. This article explores Plonky2's technology, its applications in various blockchain projects, and compares it with other scaling solutions.
-title: 'Plonky2'
-github_id: thanhpn
+title: Plonky2
 date: 2023-02-28
+description: "Plonky2 is a non-Interactive Proof of Proof of Knowledge (NIPoPoK) chain that reduces blockchain size and speeds up transaction confirmations. This article explores Plonky2's technology, its applications in various blockchain projects, and compares it with other scaling solutions."
+authors:
+  - thanhpn
+github_id: thanhpn
+tags:
+  - blockchain
+  - proof-of-knowledge
 ---
 
 ## Introduction
@@ -89,3 +89,4 @@ In addition, Plonky2 also depends on the security of the hash system and the ell
 - https://hackernoon.com/zero-knowledge-proof-algorithm-plonk-circuit-sin7y-tech-review-16
 - https://vitalik.ca/general/2019/09/22/plonk.html
 - https://zkresear.ch/t/composition-of-proof-systems/43
+

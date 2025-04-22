@@ -1,13 +1,13 @@
 ---
+title: Design feedback mechanism for LLM applications
+date: 2024-07-08
+description: Improving AI models requires collecting accurate user feedback,which can be difficult. The article explores more into the importance of collecting human feedback and discusses the need for creating an organized database to effectively store and use this valuable input. We hope to continuously improve our large language models, ensuring they deliver greater performance and match user expectations more effectively.
+authors:
+  - datnguyennnx
 tags:
   - llm
   - feedback
   - mechanism
-title: "Design feedback mechanism for LLM applications"
-date: 2024-07-08
-description: "Improving AI models requires collecting accurate user feedback,which can be difficult. The article explores more into the importance of collecting human feedback and discusses the need for creating an organized database to effectively store and use this valuable input. We hope to continuously improve our large language models, ensuring they deliver greater performance and match user expectations more effectively."
-authors:
-  - datnguyennnx
 ---
 
 Getting consistent and accurate answers from LLMs is a major challenge. One effective strategy to address this challenge is incorporating a robust feedback mechanism within the app to collect user feedback. The memo will focus on how we collect logs of this feedback, showing how important it is to have a system for collecting input from users. It will also dive into how we design a database to safely store all this valuable feedback, making sure it's organized and useful for improving our models.

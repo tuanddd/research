@@ -1,9 +1,9 @@
 ---
-tags: 
-  - git
 title: Gitflow Pull Request
 date: 2021-04-10
 description: null
+tags:
+  - git
 ---
 
 ![](assets/gitflow-pull-request_0150827f46aae013c7fa3a68c509e812_md5.webp)
@@ -196,3 +196,4 @@ You may write here the specifications like the version of the project, operating
 ### Logs / Stack trace
 Insert your log/stack trace here
 ```
+

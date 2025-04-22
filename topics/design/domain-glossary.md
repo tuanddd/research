@@ -1,9 +1,9 @@
 ---
-tags: 
-  - design
 title: Domain Glossary
 date: 2020-04-19
 description: null
+tags:
+  - design
 ---
 
 ## T1: Retail 2.0
@@ -48,3 +48,4 @@ Takeway
 
 Open banking is also known as "open bank data." Open banking is a banking practice that provides third-party financial service providers open access to consumer banking, transaction, and other financial data from banks and non-bank financial institutions through the use of application programming interfaces (APIs). Open banking will allow the networking of accounts and data across institutions for use by consumers, financial institutions, and third-party service providers.
 Open banking is becoming a major source of innovation that is poised to reshape the banking industry.
+

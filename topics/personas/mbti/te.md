@@ -1,8 +1,11 @@
 ---
+title: Extraverted Thinking (Te)
+date: null
+description: null
 tag: MBTI, function
 URL: https://drive.google.com/file/d/1n8ID_iXqzs6cMZlRS0Su7lQUhrfd7khh/view?usp=sharing,https://practicaltyping.com/thinking-functions-te-ti/
-title: Extraverted Thinking (Te)
 ---
+
 Book: My True Type, page 98 - 102
 
 - Primary roles: To succinctly express logic-based judgments; to understand or render systems and operations more rational, efficient, and effective

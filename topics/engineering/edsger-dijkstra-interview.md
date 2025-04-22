@@ -1,9 +1,17 @@
 ---
-tags: programming, engineering, principles, wisdom
-authors: Pham Duc Thanh
-github_id: zlatanpham
+title: null
 date: 2022-05-09
+description: null
+authors:
+  - Pham Duc Thanh
+github_id: zlatanpham
+tags:
+  - programming
+  - engineering
+  - principles
+  - wisdom
 ---
+
 Edsger W. Dijkstra was an influential computer scientist and is well known for his contributions to graph theory algorithms. But, in fact, he also had a deep programming perspective. Here are notes extracted from one of his interviews that give us so much insight.
 
 1. Software version numbers 2.6 or 2.7 are nonsense. While version 1 should have been the finished product, software companies always try to sell incomplete versions first. It needs not be any good. As long as they can fool people into buying it, you can always make better versions later.
@@ -30,3 +38,4 @@ Edsger W. Dijkstra was an influential computer scientist and is well known for h
 
 #### References
 - https://www.youtube.com/watch?v=mLEOZO1GwVc&ab_channel=HansOtten
+

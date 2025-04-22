@@ -1,4 +1,8 @@
-
+---
+title: null
+date: null
+description: null
+---
 
 Willpower is a finite resource, and difficult to sustain. Designing environments to facilitate desired behaviour is a much more effective approach in the long run.
 
@@ -16,3 +20,4 @@ Design environments to reduce friction associated with the behaviours we wish to
 #### Citations
 
 Ahrens, Sönke. _How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers_. Sönke Ahrens, 2017.
+

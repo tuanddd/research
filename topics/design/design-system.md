@@ -1,9 +1,9 @@
 ---
-tags: 
-  - design
 title: Design System
 date: 2018-03-23
 description: null
+tags:
+  - design
 ---
 
 Now having a Design System in place unites product teams around a common visual language, accelerates your design process ten-fold and gives you a strong foundation to build any project. Learn how you can create a design system and help your team improve product quality when increase the speed of your workflow.
@@ -155,3 +155,4 @@ Process: [https://medium.com/@jgunnison/pattern-library-workflow-ba9cc486159e](h
 
 After you understand this process of the design system, this guide will help you create a UI library in Sketch.
 Let’s take a step-by-step below here how you can create your design system.
+

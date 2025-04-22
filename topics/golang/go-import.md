@@ -1,7 +1,7 @@
 ---
-title: 'Go import design: using git repo path'
-description: Go’s use of git repository paths as package identifiers is a unique and powerful feature. Unlike most languages that rely on centralized package repositories, Go links directly to git paths.
+title: Go import design: using git repo path
 date: 2024-10-25
+description: Go’s use of git repository paths as package identifiers is a unique and powerful feature. Unlike most languages that rely on centralized package repositories, Go links directly to git paths.
 authors:
   - tieubao
 tags:
@@ -70,3 +70,4 @@ This story broadly assumes that updates to dependencies will normally be compati
 This story also leaves copying workspaces to give them to someone else (or to preserve them in their current state) as a problem for you, not Go. However, Go did add ['experimental' support for vendoring dependencies](https://go.dev/doc/go1.5) in Go 1.5, which allowed people to create self-contained objects that could be used with 'go get' or other simple repository copying and cloning. A package that had its dependencies fully vendored was effectively a miniature workspace, but this approach had some drawbacks of its own.
 
 I feel this original story, while limited, is broadly not unreasonable. It could have worked, at least in theory, in a world where preserving API compatibility (in a broad sense) is much more common than it clearly is (or isn't) in this one.
+

@@ -1,15 +1,15 @@
 ---
-tags:
-  - frontend
-  - engineering
-  - productivity
-  - DX
-  - radar
 title: Adoption Of Pnpm
 date: 2023-07-31
 description: null
 authors:
   - thanh
+tags:
+  - frontend
+  - engineering
+  - productivity
+  - dx
+  - radar
 ---
 
 ![](assets/adoption-of-pnpm_4601b8f71eebe7c7fbc4a6fc7925a8b6_md5.webp)
@@ -23,3 +23,4 @@ Now, we have successfully migrated all major internal tools to pnpm, and it's al
 Though we encountered some difficulties with hoisted dependencies in monorepos during the migration process, the overall effort was worthwhile, contributing to our team's enhanced efficiency.
 
 We extend our thanks to the [Toan Ho](https://www.linkedin.com/in/toanhq/), [Hai Huynh](https://www.linkedin.com/in/hthai2201/), [Hien Le](https://www.linkedin.com/in/hien-le-duy/) and [Chinh Le](https://www.linkedin.com/in/chinh-ld/) who actively participated in the evaluation and migration process. Your help has been crucial in this successful adoption.
+

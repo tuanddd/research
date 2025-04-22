@@ -1,3 +1,9 @@
+---
+title: null
+date: null
+description: null
+---
+
 A user's perception of an experience is not static. It can change over time. What upon first encounter seemed innovative or delightful can become familiar or even frustrating over time with repeated usage. For this reason, it is important to test experiences longitudinally in order to track changing perception.
 
 ---

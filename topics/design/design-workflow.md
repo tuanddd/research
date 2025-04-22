@@ -1,9 +1,9 @@
 ---
-tags: 
-  - design
 title: Design Workflow
 date: 2018-03-22
 description: null
+tags:
+  - design
 ---
 
 ## Project Research
@@ -146,3 +146,4 @@ This step will support the development team to understand what system you are do
 1. Use tools like Marvel, Figma to present your design. Marvel should be used when you want to present the interactive prototypes, while Figma is better to present general designs, just import your final design here to present & collect feedback. Don't forget to let people know by shooting a link via Slack/Hygger.
 2. Feedback shouldn't be taken personally.
 3. Feedback should be constructive given with reasons that aligned with listed goals of the product.
+

@@ -1,14 +1,15 @@
 ---
-tags: 
-  - docker
-  - devbox
-  - nix
-title: "Shadow Copies in Docker Builds"
+title: Shadow Copies in Docker Builds
 date: 2024-08-01
 description: An explanation of shadow copies in Docker builds
 authors:
   - bievh
+tags:
+  - docker
+  - devbox
+  - nix
 ---
+
 One more issue that comes from internet access of Docker build is Shadow copies aka redundant files that are not cleaned after new versions of packages are installed. 
 
 For example
@@ -33,3 +34,4 @@ But why do we not resolve all the above issues from its root cause?
 ---
 #### References
 *Understanding the image layers*. (n.d.). Docker Docs. Retrieved August 2, 2024, from https://docs.docker.com/guides/docker-concepts/building-images/understanding-image-layers/
+

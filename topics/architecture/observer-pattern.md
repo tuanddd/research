@@ -1,13 +1,13 @@
 ---
-tags:
-  - design-pattern
-  - gang-of-four 
-  - observer-pattern
-title: "Introduce the Observer pattern and its use cases"
+title: Introduce the Observer pattern and its use cases
 date: 2024-07-12
-description: "Concept of the Observer Pattern with its pros and cons."
+description: Concept of the Observer Pattern with its pros and cons.
 authors:
   - hienld
+tags:
+  - design-pattern
+  - gang-of-four
+  - observer-pattern
 ---
 
 ![](assets/observer-pattern.webp)
@@ -107,3 +107,4 @@ Cons:
 
 ## Reference
 - https://refactoring.guru/design-patterns/observer
+

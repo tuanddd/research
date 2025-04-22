@@ -1,3 +1,9 @@
+---
+title: null
+date: null
+description: null
+---
+
 - Software design is a process of decomposition: breaking down large systems into manageable units for independent implementation.
 - To manage complexity: eliminate it by
     - Avoiding special cases
@@ -9,3 +15,4 @@
 - When designing interfaces: consider the caller's perspective
 - **Design reviews and discussions**: these are important to get more viewpoints and when evaluating design tradeoffs.
     - John mentions a specific whiteboarding technique for achieving consensus in discussions – consider trying it out!
+

@@ -1,13 +1,13 @@
 ---
-tags: 
- - frontend
- - atomic-design
-authors: 
- - Tran Hoang Nam
-github_id: namtrhg
-description: Atomic design is a methodology for crafting design systems with five key fundamental building blocks, which, when combined, promote consistency, modularity, and scalability.
 title: Atomic Design Pattern
 date: 2022-06-15
+description: Atomic design is a methodology for crafting design systems with five key fundamental building blocks, which, when combined, promote consistency, modularity, and scalability.
+authors:
+  - Tran Hoang Nam
+github_id: namtrhg
+tags:
+  - frontend
+  - atomic-design
 ---
 
 ## Atomic design pattern
@@ -72,3 +72,4 @@ This is an example of an application folder structure using atomic design, as yo
 - https://bradfrost.com/blog/post/atomic-web-design/#atoms
 - https://andela.com/insights/structuring-your-react-application-atomic-design-principles/
 - https://blog.ippon.tech/atomic-design-in-practice/
+

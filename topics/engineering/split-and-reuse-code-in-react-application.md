@@ -1,9 +1,9 @@
 ---
-tags: 
-  - engineering
 title: Split And Reuse Code In React Application
 date: 2019-05-02
 description: null
+tags:
+  - engineering
 ---
 
 ![](assets/split-and-reuse-code-in-react-application_5f86abdbff47c3d17d6258e3b001ceb8_md5.webp)
@@ -305,3 +305,4 @@ Not only store data, you can also process data, fetch data from remote source, c
 React hooks used to be proposed specification but since react 16.8: the one with hooks, It’s has been made to become official feature so your guys can just use it sparingly to splitting your repetitive code into.
 
 Here is the full source code of our application: [https://github.com/phmngocnghia/modal-hook](https://github.com/phmngocnghia/modal-hook)
+

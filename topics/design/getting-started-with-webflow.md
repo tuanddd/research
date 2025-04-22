@@ -1,9 +1,9 @@
 ---
-tags: 
-  - nocode
 title: Getting Started With Webflow
 date: 2021-01-23
 description: null
+tags:
+  - nocode
 ---
 
 ![](assets/getting-started-with-webflow_5386df53f5360ba922dbe2c4b467dfdb_md5.webp)
@@ -167,3 +167,4 @@ Check out my **[full case study](https://kiwipay.webflow.io/)**. I added some ef
 Within a month of designing with Webflow, I can learn and practice much more to produce a more high-end website. Besides, I found out that this tool's Preview is sometimes unstable, which annoyed me, but the output was outstanding.
 
 Webflow is such a flexible tool, and now designers can work with design tools and a No-code platform for more fast and stunning achievement. I hope that these tips will spark some ideas and help you be a more efficient product designer.
+

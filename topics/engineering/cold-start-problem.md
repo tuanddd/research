@@ -1,8 +1,13 @@
 ---
-tags: engineering, serverless
-authors: Pham Duc Thanh
-github_id: zlatanpham
+title: null
 date: 2022-03-28
+description: null
+authors:
+  - Pham Duc Thanh
+github_id: zlatanpham
+tags:
+  - engineering
+  - serverless
 ---
 
 One of the biggest concern against Serverless Function is the problem of cold start. The first cold start happens when the first request comes in after deployment. After that request is handled, the instance stays alive to be reused by the upcoming requests. If the function, then, has not been invoked in a certain amount of time, it will change back to the cold state. In particular, the invocation steps are:
@@ -22,3 +27,4 @@ While keeping the function size small or increasing the memory could partly spee
 
 - <https://dashbird.io/blog/can-we-solve-serverless-cold-starts/>
 - <https://www.serverless.com/blog/keep-your-lambdas-warm/>
+

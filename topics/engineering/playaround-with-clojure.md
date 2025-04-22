@@ -1,9 +1,9 @@
 ---
-tags: 
-  - clojure
 title: Playaround With Clojure
 date: 2019-09-06
 description: null
+tags:
+  - clojure
 ---
 
 ## Definition
@@ -96,3 +96,4 @@ First and foremost, Clojure is dynamic. That means that a Clojure program is not
 
 ### Dynamic Compilation
 Clojure is a compiled language, so one might wonder when you have to run the compiler. You don’t. Anything you enter into the REPL or load using load-file is automatically compiled to JVM bytecode on the fly. Compiling ahead-of-time is also possible, but not required.
+

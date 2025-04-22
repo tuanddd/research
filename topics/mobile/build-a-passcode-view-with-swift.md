@@ -1,9 +1,9 @@
 ---
-tags: 
-  - swift
 title: Build A Passcode View With Swift
 date: 2019-06-22
 description: null
+tags:
+  - swift
 ---
 
 ![](assets/build-a-passcode-view-with-swift_38059dcec9bd2edb9ac9b1433eb8870c_md5.webp)
@@ -92,3 +92,4 @@ Full source code at:
 [https://github.com/viettrungphan/Passcode.git?source=post_page-----a6ddae69f405----------------------](https://github.com/viettrungphan/Passcode.git?source=post_page-----a6ddae69f405----------------------)
 
 Please notice the project written by Xcode 11 beta. Your can simple copy all Prefix Passxxx and Pin files to your xcode project to test.
+

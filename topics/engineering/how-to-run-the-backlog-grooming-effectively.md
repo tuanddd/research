@@ -1,9 +1,16 @@
 ---
-tags: engineering/management, management, process, backlog-grooming
-authors: Nhut Huynh
-github_id: nhuthm
+title: null
 date: 2022-11-18
+description: null
+authors:
+  - Nhut Huynh
+github_id: nhuthm
 icy: 10
+tags:
+  - engineeringmanagement
+  - management
+  - process
+  - backlog-grooming
 ---
 
 *The following entry is from the reality experience that I'm doing in the team project that is running with Agile.*
@@ -33,3 +40,4 @@ After everything is done, the team will start the Backlog Grooming as fast as po
 
 ## Reference
 - https://www.productplan.com/glossary/backlog-grooming/
+

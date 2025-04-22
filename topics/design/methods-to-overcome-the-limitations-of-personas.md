@@ -1,5 +1,11 @@
 ---
-tags: ux, design, personas
+title: null
+date: null
+description: null
+tags:
+  - ux
+  - design
+  - personas
 ---
 
 Personas have a number of shortcomings:

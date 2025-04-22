@@ -1,8 +1,16 @@
 ---
-tags: writing, english, language, fluency, phrasing
-authors: Nguyen Xuan Anh
-github_id: monotykamary
+title: null
 date: 2022-09-26
+description: null
+authors:
+  - Nguyen Xuan Anh
+github_id: monotykamary
+tags:
+  - writing
+  - english
+  - language
+  - fluency
+  - phrasing
 ---
 
 ## Introduction
@@ -48,3 +56,4 @@ Fluency encompasses not only general understanding of the native writing system,
 
 ## Reference
 - https://tim.blog/2007/11/07/how-to-learn-but-not-master-any-language-in-1-hour-plus-a-favor/
+

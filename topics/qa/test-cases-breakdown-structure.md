@@ -1,9 +1,16 @@
 ---
-tags: engineering/qa, writing-test-cases, test-cases, breakdown
-authors: Binh Le
-github_id: binhle59
+title: null
 date: 2022-12-12
+description: null
+authors:
+  - Binh Le
+github_id: binhle59
 icy: 10
+tags:
+  - engineeringqa
+  - writing-test-cases
+  - test-cases
+  - breakdown
 ---
 
 ## Note
@@ -40,3 +47,4 @@ When it comes through the high level business flow, the user selects the product
 - [Usage Of Heuristics And Mnemonics In Software Testing](https://testmatick.com/usage-of-heuristics-and-mnemonics-in-software-testing/)
 - [Test Case Design Techniques](https://www.botplayautomation.com/post/test-case-design-techniques)
 - [Software Testing Techniques with Test Case Design Examples](https://www.guru99.com/software-testing-techniques.html)
+

@@ -1,14 +1,14 @@
 ---
+title: Efficient Union of Finite Automata in Golang: A Practical Approach
+date: 2024-09-05
+description: An in-depth guide on implementing the union of finite automata in Golang, focusing on practical efficiency and performance considerations.
+authors:
+  - minhlq
 tags:
   - golang
   - finite-automata
   - pattern-matching
   - state-machines
-title: 'Efficient Union of Finite Automata in Golang: A Practical Approach'
-date: 2024-09-05
-description: An in-depth guide on implementing the union of finite automata in Golang, focusing on practical efficiency and performance considerations.
-authors:
-  - minhlq
 ---
 
 ## 1. What is Finite Automata? (A Simple Explanation)
@@ -144,3 +144,4 @@ func mergeFAStates(state1, state2 *faState, keyMemo map[faStepKey]*faState, prin
 - Performance depends on the structure of the input automata and can vary significantly based on their complexity.
 
 In practice, this implementation provides a good balance between theoretical correctness and practical efficiency for the pattern matching tasks Quamina is designed to handle. It allows for the combination of multiple patterns into a single automaton structure that can be efficiently traversed during the matching process.
+

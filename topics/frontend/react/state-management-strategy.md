@@ -1,12 +1,12 @@
 ---
+title: State management strategy in React
+date: 2024-10-29
+description: Discover state management strategies, best practices, and when to use each approach for scalable, efficient React applications
 authors:
-  - 'thanh'
-date: '2024-10-29'
-description: 'Discover state management strategies, best practices, and when to use each approach for scalable, efficient React applications'
+  - thanh
+short_title: State management strategy
 tags:
-  - 'React'
-title: 'State management strategy in React'
-short_title: 'State management strategy'
+  - react
 ---
 
 State management is a core architectural topic in React, especially as applications grow in complexity. While local component state (using `useState` or `useReducer`) is suitable for small to medium apps, more sophisticated state management strategies become essential as your app scales.
@@ -229,3 +229,4 @@ function UserComponent() {
 - **Redux/Zustand** for structured, complex state management across large applications.
 - **React Query/SWR** for async data, caching, and server-side synchronization.
 - **Combined approach** for scalable, maintainable architecture.
+

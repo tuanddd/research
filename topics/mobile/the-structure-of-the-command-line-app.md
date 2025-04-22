@@ -1,8 +1,16 @@
 ---
-tags: iOS, MacOS, Swift, engineering/mobile, cli
-authors: Phan Viet Trung
-github_id: viettrungphan
+title: null
 date: 2022-09-18
+description: null
+authors:
+  - Phan Viet Trung
+github_id: viettrungphan
+tags:
+  - i-os
+  - mac-os
+  - swift
+  - engineeringmobile
+  - cli
 ---
 
 ## How to create an XCode build tools with Swift
@@ -171,3 +179,4 @@ _Note: The inclusion of `help`  is not required, but is highly recommended to ha
 
 ## Reference
 - <https://dev.to/paulasantamaria/command-line-interfaces-structure-syntax-2533>
+

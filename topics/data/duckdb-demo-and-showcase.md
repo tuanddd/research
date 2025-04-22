@@ -1,4 +1,14 @@
 ---
+title: DuckDB demo and showcase
+date: 2023-11-23
+description: "DuckDB is a great starting point for modern stacks that don't need to worry about scalability, but want to derive hard analytics from the data that they have. This meeting will do a 3-part demo of DuckDB (15 minutes total):
+• Consolidate NYC taxi data in parallel (through map-reduce) over HTTPS
+• Aggregate IBM AML transactions (Anti-Money Laundering)
+• Some examples of how it is used to consolidate and do basic analytics on note.d and log.console.so"
+authors:
+  - monotykamary
+notice: This is an internal event demo workshop and showcase of DuckDB for evaluation and use for data science and analytical use-cases at our company.
+event_date: "2023-11-23T00:00:00.000Z"
 tags:
   - dwarves
   - work
@@ -9,17 +19,6 @@ tags:
   - demo
   - event
   - labs
-title: DuckDB demo and showcase
-date: 2023-11-23
-description: |-
-  DuckDB is a great starting point for modern stacks that don't need to worry about scalability, but want to derive hard analytics from the data that they have. This meeting will do a 3-part demo of DuckDB (15 minutes total):
-  • Consolidate NYC taxi data in parallel (through map-reduce) over HTTPS
-  • Aggregate IBM AML transactions (Anti-Money Laundering)
-  • Some examples of how it is used to consolidate and do basic analytics on note.d and log.console.so
-authors:
-  - monotykamary
-notice: This is an internal event demo workshop and showcase of DuckDB for evaluation and use for data science and analytical use-cases at our company.
-event_date: 2023-11-23
 ---
 
 | Event Date                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Discord Channel | Type     |
@@ -52,3 +51,4 @@ DuckDB is a great starting point for modern stacks that don't need to worry abou
 *This demo is taken from Modal's example of using [DuckDB to analyze taxi NYC data in parallel over HTTPFS](https://modal.com/docs/examples/duckdb_nyc_taxi). It shows the power of DuckDB as a database engine and the flexibilities of having a local tool as opposed to a server-instantiated database.*
 
 ![](assets/November Forward Engineering 2023-20231130165019170.webp)
+

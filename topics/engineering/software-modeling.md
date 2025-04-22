@@ -1,9 +1,9 @@
 ---
-tags: 
-  - modeling
 title: Software Modeling
 date: 2020-05-08
 description: null
+tags:
+  - modeling
 ---
 
 This is how I approach a new topic or knowledge, starts with why, understand the concept and figure out how to make it happen.
@@ -148,3 +148,4 @@ Software Modeling in Agile team
 * Every change can create a big impact on the system. In Agile, a product can be modified continuously, Software Modeling needs to be updated during the whole cycle to make sure the newbies can catch up
 
 When we have the insight and the view of the Product Owner, it's easier to create an effective and outstanding outcome. This also reveals the spirit we've been pursuing - Craftsmanship, by providing client with values from their own perspective.
+

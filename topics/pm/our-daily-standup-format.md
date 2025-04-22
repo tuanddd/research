@@ -1,9 +1,9 @@
 ---
-tags: 
-  - scrum
 title: Our Daily Standup Format
 date: 2018-07-23
 description: null
+tags:
+  - scrum
 ---
 
 ## Report Template
@@ -42,3 +42,4 @@ Today
 Blockers
 + None
 ```
+

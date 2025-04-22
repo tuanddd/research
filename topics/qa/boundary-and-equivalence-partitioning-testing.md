@@ -1,9 +1,15 @@
 ---
-tags: engineering/qa, testing-type, qa-terms
-authors: Binh Le
-github_id: binhle59
+title: null
 date: 2022-11-22
+description: null
+authors:
+  - Binh Le
+github_id: binhle59
 icy: 10
+tags:
+  - engineeringqa
+  - testing-type
+  - qa-terms
 ---
 
 ## Overview
@@ -73,3 +79,4 @@ The hypothesis behind this technique is that if one condition/value in a partiti
 ## Reference
 - [ISTQB Exam Questions On Equivalence Partitioning And Boundary Value Analysis](https://www.softwaretestinghelp.com/istqb-exam-questions-equivalence-partitioning-boundary-value-analysis/)
 - [Functional Testing Guide](https://www.softwaretestinghelp.com/guide-to-functional-testing/)
+

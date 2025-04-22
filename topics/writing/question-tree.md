@@ -1,8 +1,14 @@
 ---
-tags: writing, consulting, research
-authors: Nguyen Xuan Anh
-github_id: monotykamary
+title: null
 date: 2022-04-18
+description: null
+authors:
+  - Nguyen Xuan Anh
+github_id: monotykamary
+tags:
+  - writing
+  - consulting
+  - research
 ---
 
 ## What is a question tree?
@@ -23,3 +29,4 @@ Here are some examples of question trees of topics which have been investigated 
 #### Reference
 - [](https://wals.info/chapter/116)[https://wals.info/chapter/116](https://wals.info/chapter/116)
 - [](https://wals.info/chapter/93)[https://wals.info/chapter/93](https://wals.info/chapter/93)
+

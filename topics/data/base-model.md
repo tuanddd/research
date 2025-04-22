@@ -1,8 +1,14 @@
 ---
-tags: engineering, database, transaction
-authors: Nguyen Xuan Anh
-github_id: monotykamary
+title: null
 date: 2022-04-18
+description: null
+authors:
+  - Nguyen Xuan Anh
+github_id: monotykamary
+tags:
+  - engineering
+  - database
+  - transaction
 ---
 
 ## What is the BASE model?
@@ -21,3 +27,4 @@ The BASE model loosely refers to distributed data stores, which means these data
 #### Reference
 - https://phoenixnap.com/kb/acid-vs-base
 - https://neo4j.com/blog/acid-vs-base-consistency-models-explained/
+

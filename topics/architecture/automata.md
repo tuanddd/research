@@ -1,11 +1,11 @@
 ---
-tags:
-  - automata
-authors:
-  - tieubao
-description: Things about automata that devs should know
 title: Automata
 date: 2024-10-22
+description: Things about automata that devs should know
+authors:
+  - tieubao
+tags:
+  - automata
 ---
 
 ### What are Finite State Automata and why should a programmer know about them?
@@ -109,3 +109,4 @@ Some authors write `δ ⊆ Q×Σ → Q` in formal DFA definition that means `δ`
 #### Key Points:
 - **DFA**: One option at a time, very efficient but can be strict.
 - **NFA**: Many options at once, more flexible but can take more time to figure things out.
+

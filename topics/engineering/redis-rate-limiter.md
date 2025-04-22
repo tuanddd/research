@@ -1,9 +1,18 @@
 ---
-tags: engineering/backend, backend, redis, rate-limiting, lua, ip-address
-authors: Pham Minh Tuan
-github_id: Tuanpm31
+title: null
 date: 2023-06-01
+description: null
+authors:
+  - Pham Minh Tuan
+github_id: Tuanpm31
 icy: 10
+tags:
+  - engineeringbackend
+  - backend
+  - redis
+  - rate-limiting
+  - lua
+  - ip-address
 ---
 
 ## Introduction
@@ -58,3 +67,4 @@ Above are 2 simple examples exploring the usefulness of data types to help handl
 ## Reference
 - https://redis.com/glossary/rate-limiting/
 - https://redis.io/docs/data-types/lists/
+

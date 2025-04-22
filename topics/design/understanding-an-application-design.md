@@ -2,7 +2,7 @@
 title: Understanding An Application Design
 date: 2021-07-09
 description: null
-tags: 
+tags:
   - design
 ---
 
@@ -62,3 +62,4 @@ The basic elements to construct a finetune website
 ### Tips & Tricks
 
 Use User-Agent for render the right platform.
+

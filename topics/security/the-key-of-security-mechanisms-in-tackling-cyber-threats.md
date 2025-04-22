@@ -1,11 +1,11 @@
 ---
-tags: 
-  - security
-  - engineering
-  - dwarves
 title: The Key Of Security Mechanisms In Tackling Cyber Threats
 date: 2022-12-26
 description: null
+tags:
+  - security
+  - engineering
+  - dwarves
 ---
 
 *Hosted by Thanh Pham - Engineering Manager, Dwarves had a great time with the best minds in cybersecurity- Mr. Hieu PC to share his knowledge and experience. As someone who is always looking to improve skills, this event is extremely valuable. We learned a lot about the different elements of cybersecurity and how to better protect our code.*
@@ -57,3 +57,4 @@ Hope to see you again at future events that promise to be even more exciting.
 ---
 
 *Dwarves Foundation partners with communities and experts to bring real stories, professional points of view, and live-case practices in the tech talk series that accelerates your software career.*
+

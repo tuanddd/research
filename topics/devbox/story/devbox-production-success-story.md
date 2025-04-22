@@ -1,13 +1,13 @@
 ---
-title: "Devbox in Production: Our Success Story"
+title: Devbox in Production: Our Success Story
 date: 2024-08-09
-tags: 
-  - devbox
-  - nix
-  - case-study
 description: How we transformed our development and deployment process with Devbox.
 authors:
   - bievh
+tags:
+  - devbox
+  - nix
+  - case-study
 ---
 
 Remember when setting up a new project felt like assembling IKEA furniture blindfolded? Yeah, those days are over. Here's how Devbox revolutionized our workflow, from dev to production.
@@ -275,3 +275,4 @@ Devbox didn't just change our tools; it changed our culture. "It's too complex t
 Is it perfect? No. Sometimes we still need to dive into Nix for complex setups. But for 90% of our needs, Devbox is our go-to.
 
 Life's too short for bad dev environments. Make yours awesome with Devbox.
+

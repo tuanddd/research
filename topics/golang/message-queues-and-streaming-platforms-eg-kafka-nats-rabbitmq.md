@@ -1,13 +1,13 @@
 ---
-tags:
-  - backend
-  - golang
-  - engineering
 title: Message Queues And Streaming Platforms Eg Kafka Nats Rabbitmq
 date: 2023-05-04
 description: An in-depth exploration of message brokers, their use cases, and implementation examples using RabbitMQ in Go. Covers the basics of message queues, their advantages and disadvantages, and common patterns like work queues and publish/subscribe models.
 authors:
   - datpv
+tags:
+  - backend
+  - golang
+  - engineering
 ---
 
 We host a few learning sessions to understand some of the technology around us. We regularly pick up topics we find interesting to dive deeper into to understand them better and present our findings. One topic that piqued my interest was the use of message brokers, due to how prevalent their use case is in our projects._
@@ -442,3 +442,4 @@ func main() {
 ```
 
 To declare an exchange, we use the function:
+

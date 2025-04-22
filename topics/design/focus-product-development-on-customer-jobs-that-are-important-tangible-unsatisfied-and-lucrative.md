@@ -1,5 +1,13 @@
 ---
-tags: ux, research, design, personas, jtbd
+title: null
+date: null
+description: null
+tags:
+  - ux
+  - research
+  - design
+  - personas
+  - jtbd
 ---
 
 In value proposition design, focus your strongest efforts on customer jobs that fit in the middle of a Venn diagram comprising

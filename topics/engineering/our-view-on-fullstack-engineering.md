@@ -1,12 +1,12 @@
 ---
-tags: 
-  - engineering
-  - dwarves
 title: Our View On Fullstack Engineering
 date: 2023-08-30
 description: null
-authors: 
+authors:
   - Thanh Pham
+tags:
+  - engineering
+  - dwarves
 ---
 
 In tackling challenges in the world of software development, the term "full-stack engineer" often evokes a sense of wonder. I'm reminded of my school days when our chemistry teacher explained the fundamental principles behind chemical reactions. Just as every chemical reaction is governed by the behavior of atoms, there's an underlying principle in software development that defines full-stack engineering.
@@ -20,3 +20,4 @@ A true full-stack engineer comprehends this interdependence. They don't just wri
 With technology, especially AI, pushing the boundaries of possibility, we need engineers who can look beyond mere code. Engineers capable of harmonizing product and platform, as well as aligning technical solutions with user needs and business goals, will spearhead the next software evolution.
 
 In essence, full-stack engineering isn't just about skills; it's a philosophy. It delves into the heart of software delivery, balancing product and platform. As technology advances, these pioneers will be at the forefront, shaping software that's not just efficient but transformative.
+

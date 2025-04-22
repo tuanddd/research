@@ -1,9 +1,9 @@
 ---
-tags: 
-  - agile
 title: Estimation In Agile
 date: 2016-02-12
 description: null
+tags:
+  - agile
 ---
 
 **Estimation** (or **estimating**) is the process of finding an **estimate**, or approximation, which is a value that is usable for some purpose even if input data may be incomplete, uncertain, or unstable.
@@ -88,3 +88,4 @@ We do not want to complexify the way the estimation is done. The way we estimate
 However, after the team has given its final estimation for a story, the moderator will increase that number by going to the next fibonacci number. (ie. team estimate 3, moderator assigns 5 to the ticket)
 
 If after the moderator increases that number it is higher than 13, then the story will be broken down in smaller pieces and or sub tasks. This behaviour is standard, and now the expected norm.
+

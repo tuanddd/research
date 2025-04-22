@@ -1,9 +1,9 @@
 ---
-tags: 
-  - design
 title: Design Resourcestools
 date: 2018-03-25
 description: null
+tags:
+  - design
 ---
 
 Besides learning the UI design, the most important thing is to learn UX design to create a good user experience. Helps the user get the goal when in your app.
@@ -95,3 +95,4 @@ Part of the Lean Startup movement, this book introduces the process for Lean UX.
 ### Wireframes
 
 * **[Balsamiq](https://balsamiq.com/)** - Basic, straightforward wireframe tool with web and desktop versions.
+

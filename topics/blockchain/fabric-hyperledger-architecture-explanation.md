@@ -1,10 +1,10 @@
 ---
-tags: 
-  - blockchain
-  - architecture
 title: Fabric Hyperledger Architecture Explanation
 date: 2019-05-15
 description: null
+tags:
+  - blockchain
+  - architecture
 ---
 
 # What is Hyperledger
@@ -127,3 +127,4 @@ Identifies which Root CAs and Intermediate CAs are trusted to define the members
 * Every time a block is committed to a peer's ledger, that peer generates an appropriate event(include full block content)
 
 ![](assets/fabric-hyperledger-architecture-explanation_2e60ff9cb71f5ecb312418e4228c7964_md5.webp)
+

@@ -1,9 +1,9 @@
 ---
-tags: 
-  - dcos
 title: Dcos Series Part 5 Gitlab
 date: 2017-06-11
 description: null
+tags:
+  - dcos
 ---
 
 Gitlab an open source developer tool (like Github) that allows you to host git repositories, review code, track issues, host Docker images and perform continuous integration, and it is very compatible for a small team wit CE version.
@@ -70,3 +70,4 @@ sudo mv cert.pem /srv/marathon-lb/domains/ssl/example-git-domain.com
 * After updating those settings, you now can go to `your-gitlab-domain.com` to enjoy your result.
 
 If you face anything weird while setting up your Gitlab, you can contact me via `quang@dwarvesf.com.`
+

@@ -1,9 +1,9 @@
 ---
-tags: 
-  - design
 title: Competency Mapping
 date: 2018-04-01
 description: null
+tags:
+  - design
 ---
 
 We identified skills and actions showing someone has one competency or not.
@@ -120,3 +120,4 @@ Six levels to measure the level of knowledge:
 * Soft skills: Handle different personalities, time management, assertive communication, support the team decision.
 * Effectively synthesize the information and push the participants towards their workshop goals (effective decision making and action plan).
 * Ensure participants understand the workshop’s outcome and take further actions.
+

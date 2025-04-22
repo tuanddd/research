@@ -1,9 +1,9 @@
 ---
-tags: 
-  - design-thinking
 title: Six Things I Extracted From Design Thinking
 date: 2021-04-14
 description: null
+tags:
+  - design-thinking
 ---
 
 I’m Minh Truong, I've been working as a UI/UX Design for 2 years. I'm currently part of the [Dwarves Foundation](https://dwarves.foundation/) team. My intention has always been to become a better problem solver, with creativity and productivity being my main goals and focus.
@@ -104,3 +104,4 @@ How is your experience with Design Thinking? Join our [Discord](https://discord.
 If there are any topics you would like us to cover next, send us a message at [minhtk@d.foundation](mailto:minhtk@d.foundation)
 
 Thank you for taking the time.
+

@@ -1,8 +1,11 @@
 ---
+title: Introverted Sensing (Si)
+date: null
+description: null
 tag: MBTI, function
 URL: https://drive.google.com/file/d/1n8ID_iXqzs6cMZlRS0Su7lQUhrfd7khh/view?usp=sharing
-title: Introverted Sensing (Si)
 ---
+
 Book: My True Type, page 79 - 85
 
 - Primary roles: To retain, condense, and recollect information; to consult past experiences, routines, and traditions; to perceive inner bodily sensations

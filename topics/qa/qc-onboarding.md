@@ -1,10 +1,10 @@
 ---
-tags: 
-  - people
-  - process
 title: Qc Onboarding
 date: 2017-07-13
 description: null
+tags:
+  - people
+  - process
 ---
 
 ## General workflow
@@ -74,4 +74,5 @@ To clone export defect list for a milestone, we can use this command
 ```plain_text
 ./gitlab-issues-tools -t [YOUR_GITLAB_TOKEN] -p 228 --thing issue -a export --milestone 0.5.0
 ```
+
 

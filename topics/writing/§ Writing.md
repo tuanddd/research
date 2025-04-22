@@ -1,8 +1,12 @@
 ---
+title: null
+date: null
+description: null
 tags:
   - moc
   - writing
 ---
+
 ## Write better
 
 -   [[Give abstract concepts a human face]]

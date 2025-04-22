@@ -1,16 +1,16 @@
 ---
-tags: 
+title: Using Devbox to setup local development environment
+date: 2024-06-13
+description: Expanded section that focuses on Devbox and its practices on setup a local development environment.
+authors:
+  - .hnh
+  - bievh
+tags:
   - tooling
   - containerization
   - virtualization
   - docker
   - devbox
-title: "Using Devbox to setup local development environment"
-date: 2024-06-13
-description: Expanded section that focuses on Devbox and its practices on setup a local development environment.
-authors: 
-  - .hnh
-  - bievh
 ---
 
 Welcome back to our Devbox series! Previously, we've explored the journey from the early days of virtualization to the widespread adoption of Docker. Finally, we try using Nix and Devbox to enhance software development process. If you need to catch up, you can check out the earlier posts here:
@@ -134,3 +134,4 @@ You can find a practical example of using Devbox in [our memo repository](https:
 ## Conclusion
 
 In this installment, we've moved from theory to practice, demonstrating how Devbox creates an isolated, reproducible, and portable development environment. We've shown how to set up Devbox, install dependencies, and integrate it with a Makefile for ease of use. By addressing container runtime challenges, we've ensured a smooth development experience. We hope these insights help streamline your own workflows and enhance your development practices. Thank you for following along, and happy coding!
+

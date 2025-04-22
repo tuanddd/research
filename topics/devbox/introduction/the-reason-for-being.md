@@ -1,11 +1,11 @@
 ---
-tags:
-  - devbox
-title: "The reason for being"
+title: The reason for being
 date: 2024-08-01
 description: The reason why we use Devbox
 authors:
   - bievh
+tags:
+  - devbox
 ---
 
 ## The Pursuit of Consistency
@@ -42,3 +42,4 @@ The hash is different between versions of the same application. So we have diffe
 
 ## Conclusion
 Embracing Devbox has not only streamlined our development process but has also fostered a more collaborative and productive team dynamic. As we continue to scale our projects, Devbox's reproducibility and efficiency will undoubtedly remain key factors in our success.
+

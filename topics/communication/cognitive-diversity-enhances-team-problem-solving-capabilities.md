@@ -1,5 +1,11 @@
 ---
-tags: ux, research, cognitive
+title: null
+date: null
+description: null
+tags:
+  - ux
+  - research
+  - cognitive
 ---
 
 A study conducted by Alison Reynolds and David Lewis found that teams that comprised individuals representing a variety of thinking or information processing styles (i.e. cognitive diversity) solved problems faster than cognitively homogeneous groups. This suggests that organizations or teams that hire for "fit" may be hampering their own problem-solving capabilities and creative acuity.

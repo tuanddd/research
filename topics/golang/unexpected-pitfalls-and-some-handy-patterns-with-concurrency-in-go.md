@@ -1,8 +1,14 @@
 ---
-tags: engineering/backend, golang, concurrency
-authors: Khoi Nguyen
-github_id: mirageruler
+title: null
 date: 2022-10-11
+description: null
+authors:
+  - Khoi Nguyen
+github_id: mirageruler
+tags:
+  - engineeringbackend
+  - golang
+  - concurrency
 ---
 
 ## Preamble
@@ -920,3 +926,4 @@ More important, the individual elements of the program are all just straightforw
 - https://www.youtube.com/watch?v=f6kdp27TYZs
 - https://go101.org/article/concurrent-common-mistakes.html
 - https://pkg.go.dev/time
+

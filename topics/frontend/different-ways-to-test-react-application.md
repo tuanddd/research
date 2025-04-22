@@ -1,9 +1,9 @@
 ---
-tags: 
-  - react.js
 title: Different Ways To Test React Application
 date: 2019-06-06
 description: null
+tags:
+  - reactjs
 ---
 
 ![](assets/different-ways-to-test-react-application_b057b9816631efa15334f5edbd90c8ea_md5.webp)
@@ -346,3 +346,4 @@ Reference links:
 * [https://github.com/testing-library/react-testing-library](https://github.com/testing-library/react-testing-library)
 * [https://www.cypress.io/](https://www.cypress.io/)
 * [https://www.cypress.io/](https://www.cypress.io/)[https://jestjs.io/docs/en/expect.html](https://jestjs.io/docs/en/expect.html)
+

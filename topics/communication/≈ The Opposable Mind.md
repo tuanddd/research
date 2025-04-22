@@ -1,5 +1,10 @@
 ---
-tags: psychology, integrative-thinking
+title: null
+date: null
+description: null
+tags:
+  - psychology
+  - integrative-thinking
 ---
 
 ## Summary

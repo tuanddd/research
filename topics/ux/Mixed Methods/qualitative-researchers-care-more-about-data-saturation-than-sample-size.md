@@ -1,5 +1,10 @@
 ---
-tags: ux, research/qualitative
+title: null
+date: null
+description: null
+tags:
+  - ux
+  - researchqualitative
 ---
 
 Qualitative research is less concerned with reaching a particular sample size. Its focus isn't on measuring scale, but on discovering high-level problems and mental models. Instead of sample size, qualitative researchers strive for data saturation: the point at which new data yields only minor, incremental returns and the broad trends have been identified. Therefore, as Seaman and Yocco have each argued, the number of users interviewed may vary depending on factors such as the diversity of your audience, the experience of the researcher, and the extent of the problem space.

@@ -1,9 +1,9 @@
 ---
-tags: 
-  - engineering
 title: Skill Of Software Engineer
 date: 2017-03-14
 description: null
+tags:
+  - engineering
 ---
 
 1. **Read Code**
@@ -51,3 +51,4 @@ This is the ability to unit test code by writing automated tests.
 The ability to revise existing code without impacting its functional behavior.
 
 Beside that, please also pay attention to the soft skill: Teamwork, Management and Communication
+

@@ -1,8 +1,14 @@
 ---
-tags: engineering, javascript, concurrency
-authors: Hieu Phan
-github_id: hieuphq
+title: null
 date: 2022-08-26
+description: null
+authors:
+  - Hieu Phan
+github_id: hieuphq
+tags:
+  - engineering
+  - javascript
+  - concurrency
 ---
 
 Javascript is a single-threaded programming language that has single-threaded at the runtime. It has a single call stack so it can do one thing simultaneously. JavaScript has a runtime model based on an **event loop**, which is responsible for executing the code, collecting and processing events, and executing queued sub-tasks. Javascript is a single-threaded, non-blocking asynchronous concurrent language. A JavaScript runtime uses a message queue, a list of messages to be processed. Each message has an associated function that gets called to handle the message.
@@ -142,3 +148,4 @@ Concurrent code is preferable to sequential code because it is non-blocking and 
 
 ## References
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop https://www.promisejs.org/implementing/ https://www.geeksforgeeks.org/what-to-understand-callback-and-callback-hell-in-javascript https://javascript.info/promise-chaining https://www.javascripttutorial.net/es-next/javascript-async-await/
+

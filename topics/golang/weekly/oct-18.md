@@ -1,13 +1,13 @@
 ---
+title: "Go Commentary #16: Understand sync.Map"
+date: 2024-10-18
+description: Understanding sync.Map and using the right tools for atomic operations in Go.
+authors:
+  - fuatto
+short_title: "#16 Understand sync.Map"
 tags:
   - golang
   - go-weekly
-authors:
-  - fuatto
-title: 'Go Commentary #16: Understand sync.Map'
-short_title: '#16 Understand sync.Map'
-description: Understanding sync.Map and using the right tools for atomic operations in Go.
-date: 2024-10-18
 ---
 
 ## [Go sync.Map: The Right Tool for the Right Job](https://victoriametrics.com/blog/go-sync-map/index.html)
@@ -159,3 +159,4 @@ date: 2024-10-18
 ---
 
 https://victoriametrics.com/blog/go-sync-map/index.html
+

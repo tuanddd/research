@@ -1,11 +1,11 @@
 ---
-tags: 
-  - LLM
-  - AI
-  - engineering
 title: How We Created An Ai Powered Interview System Using Openais Chatgpt
 date: 2023-05-29
 description: null
+tags:
+  - llm
+  - ai
+  - engineering
 ---
 
 ![](assets/how-we-created-an-ai-powered-interview-system-using-openais-chatgpt_7fbe880aa3a51713c213dc3db6043fc7_md5.webp)
@@ -43,3 +43,4 @@ Overall, the automated interview system, driven by ChatGPT, offers significant c
 📍Join us to work with awesome people on awesome products: [https://careers.d.foundation/](https://careers.d.foundation/)
 
 ⚒️ Come and build with us: [https://dwarves.foundation/](https://dwarves.foundation/)
+

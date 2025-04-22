@@ -1,13 +1,13 @@
 ---
+title: "Go Commentary #23: Draft Release Notes for Go 1.24 and weak pointers in Go"
+date: 2024-12-06
+description: Draft Release Notes for Go 1.24 and the incoming of weak pointers in Go
+authors:
+  - fuatto
+short_title: "#23 Draft Release Notes for Go 1.24 and weak pointers in Go"
 tags:
   - golang
   - go-weekly
-authors:
-  - fuatto
-title: 'Go Commentary #23: Draft Release Notes for Go 1.24 and weak pointers in Go'
-short_title: '#23 Draft Release Notes for Go 1.24 and weak pointers in Go'
-description: Draft Release Notes for Go 1.24 and the incoming of weak pointers in Go
-date: 2024-12-06
 ---
 
 ## [Draft Release Notes Go 1.24](https://tip.golang.org/doc/go1.24)

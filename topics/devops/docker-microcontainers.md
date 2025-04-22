@@ -1,9 +1,9 @@
 ---
-tags: 
-  - docker
 title: Docker Microcontainers
 date: 2016-02-04
 description: null
+tags:
+  - docker
 ---
 
 When using Docker, you will quickly realize that the image using to run a project takes a big capacity. A simple image ubuntu took nearly 200MB, but you don’t take full advantage of its available tools. Other images like Node, Go, etc almost run in Ubuntu, debian and only set up more environments to easily deploy. However, downloading a new image takes more time because of its big capacity and it seems to be not necessary at all.
@@ -62,3 +62,4 @@ ENTRYPOINT ["/web/web"]
 * Your laptop had an image, which is beego-web
 
 ![](assets/docker-microcontainers_ae0b817a27464a31365a74e65dc37101_md5.webp)
+

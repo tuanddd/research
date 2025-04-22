@@ -72,3 +72,4 @@ The right approach explains the result from making that decision and how it adju
 [https://github.com/npryce/adr-tools/](https://github.com/npryce/adr-tools/)
 
 We also had some discussion afterward, demos, and Q&A sessions. But that was a brief intro of how an ADR practice should be adopted.
+

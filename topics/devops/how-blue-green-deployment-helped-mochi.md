@@ -1,11 +1,11 @@
 ---
+title: How Blue Green Deployment Helped Mochi
+date: 2023-04-03
+description: null
 tags:
   - devops
   - performance
   - engineering
-title: How Blue Green Deployment Helped Mochi
-date: 2023-04-03
-description: null
 ---
 
 *Our team has always faced some bit of friction when deploying apps for our clients. We’ve known about blue-green deployments for a while and were recently given the chance to evaluate and demonstrate them for one of our Discord bot projects.*
@@ -228,3 +228,4 @@ Follow our journey
 * Fanpage: [facebook.com/dwarvesf](http://facebook.com/dwarvesf)
 * LinkedIn: [linkedin.com/company/dwarvesf](http://linkedin.com/company/dwarvesf)
 * Substack: [https://memo.d.foundation/](https://memo.d.foundation/)
+

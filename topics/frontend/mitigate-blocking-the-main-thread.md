@@ -1,13 +1,13 @@
 ---
-tags: 
- - javascript
- - frontend/performance
-authors: 
- - phatgha
-description: We all know that for web applications, perceived performance is highly importance for our users. For data intensive SPAs with CPU-intensive tasks, the single-threaded nature of Javascript starts to hinder the application's perceived performance when you cannot fit those CPU-intensive tasks into a 16.67 ms/frame window (translates to 60fps). That doesn't even account for code execution time of frameworks (React, Vue...etc), which then leaves you with approximately only a 10 ms/frame window or less to complete all your tasks on the main thread to make user interaction feel smooth and snappy.
 title: Mitigate blocking the main thread
-github_id: yyyyaaa
 date: 2022-08-31
+description: "We all know that for web applications, perceived performance is highly importance for our users. For data intensive SPAs with CPU-intensive tasks, the single-threaded nature of Javascript starts to hinder the application's perceived performance when you cannot fit those CPU-intensive tasks into a 16.67 ms/frame window (translates to 60fps). That doesn't even account for code execution time of frameworks (React, Vue...etc), which then leaves you with approximately only a 10 ms/frame window or less to complete all your tasks on the main thread to make user interaction feel smooth and snappy."
+authors:
+  - phatgha
+github_id: yyyyaaa
+tags:
+  - javascript
+  - frontendperformance
 ---
 
 We all know that for web applications, perceived performance is highly importance for our users. For data intensive SPAs with CPU-intensive tasks, the single-threaded nature of Javascript starts to hinder the application's perceived performance when you cannot fit those CPU-intensive tasks into a 16.67 ms/frame window (translates to 60fps). That doesn't even account for code execution time of frameworks (React, Vue...etc), which then leaves you with approximately only a 10 ms/frame window or less to complete all your tasks on the main thread to make user interaction feel smooth and snappy.
@@ -59,3 +59,4 @@ So, ES6 generator allows us to run code and yield values whenever we like but it
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator
 - https://javascript.info/generators
 - https://developer.mozilla.org/en-US/docs/Web/API/Window/requestIdleCallback
+

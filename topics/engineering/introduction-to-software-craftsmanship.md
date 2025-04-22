@@ -1,9 +1,9 @@
 ---
-tags: 
-  - engineering
 title: Introduction To Software Craftsmanship
 date: 2020-04-24
 description: null
+tags:
+  - engineering
 ---
 
 Craftsmanship has been our motto since the first day. But to the newbies and even some current Dwarves, the real definition of software craftsmanship is still vague, or being understood in different ways.

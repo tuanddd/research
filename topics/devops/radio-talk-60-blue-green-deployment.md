@@ -1,13 +1,13 @@
 ---
-tags: 
-  - radar
-  - devops
-  - technique
 title: Radio Talk 60 Blue Green Deployment
 date: 2023-03-10
 description: null
-authors: 
+authors:
   - Thanh Pham
+tags:
+  - radar
+  - devops
+  - technique
 ---
 
 Blue-green deployment has become an important topic in modern software development, and this deployment strategy has become our focus on the [tech radar](https://radar.d.foundation/Blue-green-deployment-a93ea5c3d4d8439ba8701aec57d7ea3c). In a recent [radio talk](https://www.youtube.com/watch?v=R0FwoGw9raU), Quang Le, one of our DevOps engineers, presented the significance of blue-green deployment and its benefits. This memo is a quick recap of the talk.
@@ -38,3 +38,4 @@ There are several benefits to using blue-green deployment in modern software dev
 **Q: When do we need to apply blue-green deployment?**
 
 **A:** It is not recommended to use blue-green deployment at the beginning of a project or when the project does not have many users because it will require a certain effort to set up. It should only be applied to applications with many continuous users or any systems that cannot tolerate disruption, for example, finance.
+

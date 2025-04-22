@@ -1,14 +1,15 @@
 ---
-tags: 
-  - nix
-  - docker
-  - devbox
-title: "Nix is Faster Than Docker Build"
+title: Nix is Faster Than Docker Build
 date: 2024-08-01
 description: An exploration of how Nix outperforms Docker in building images, leveraging its deep understanding of package dependencies and content-addressable storage
 authors:
   - bievh
+tags:
+  - nix
+  - docker
+  - devbox
 ---
+
 As I mentioned in the [Build the same thing at any time](./≈%20Nix%20-%20Build%20the%20same%20thing%20at%20any%20time.md), Nix knows the exact content of packages and dependencies before builds. So it can take advantage of this characteristic to avoid duplicated building different layers with the same content but different instructions.
 
 It is even too great to take advantage of content-addressable storage. Nix can do more than that.
@@ -36,3 +37,4 @@ Wang, E. (2022, September 13). *Construction and analysis of the build and runti
 *What is the difference between a symbolic link and a hard link?* (2008, October 9). Stack Overflow. Retrieved August 2, 2024, from https://stackoverflow.com/questions/185899/what-is-the-difference-between-a-symbolic-link-and-a-hard-link
 
 Rugyt, A. (2024, March 15). *Nix is a better Docker image builder than Docker's image builder*. Xe Iaso. Retrieved August 2, 2024, from https://xeiaso.net/talks/2024/nix-docker-build/
+

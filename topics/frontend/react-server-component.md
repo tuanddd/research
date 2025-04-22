@@ -1,16 +1,16 @@
 ---
-tags: 
- - frontend
- - react
- - nextjs
- - server-component
- - caching-data
-authors: 
- - chinhld12
-github_id: chinhld12
+title: React Server Components, NextJs Route and Data Fetching
 date: 2023-05-28
 description: React Server Components (RSCs) offer the flexibility to decide where to render components based on their purpose, diverging from the client-side rendering approach of Single-Page Applications.
-title: React Server Components, NextJs Route and Data Fetching
+authors:
+  - chinhld12
+github_id: chinhld12
+tags:
+  - frontend
+  - react
+  - nextjs
+  - server-component
+  - caching-data
 ---
 
 ## React Server Components, NextJs Route and Data Fetching
@@ -169,3 +169,4 @@ In summary, React Server Components (RSCs) provide a powerful way to render Reac
 - [SSR | TanStack Query Docs](https://tanstack.com/query/v4/docs/react/guides/ssr#using-hydrate)
 - [Getting Started | Next.js (nextjs.org)](https://nextjs.org/docs/getting-started/react-essentials)
 - [Introducing Zero-Bundle-Size React Server Components – React](https://react.dev/blog/2020/12/21/data-fetching-with-react-server-components)
+

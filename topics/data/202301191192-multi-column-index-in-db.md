@@ -1,14 +1,14 @@
 ---
-authors:
- - hmhoang13
-description: Multi-column index in DB
 title: Multi-column index in DB
 date: 2023-01-19
+description: Multi-column index in DB
+authors:
+  - hmhoang13
 tags:
- - database
- - multi-column-index
- - index
- - composite-index
+  - database
+  - multi-column-index
+  - index
+  - composite-index
 ---
 
 **Multi-column index in DB**
@@ -40,3 +40,4 @@ SELECT * FROM tbl_name WHERE col2=val2 AND col3=val3;
 ```
 
 **Summary**: If the table has a multiple-column index, any leftmost prefix of the index can be used by the optimizer to look up rows.
+

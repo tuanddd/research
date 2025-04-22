@@ -1,5 +1,10 @@
 ---
-tags: writing, story-telling
+title: null
+date: null
+description: null
+tags:
+  - writing
+  - story-telling
 ---
 
 The talking heads avoidance device (THAD) is a technique coined by Elizabeth George. “By definition,” she writes, “it’s an action that accompanies dialogue.” It serves to avoid scenes that are nothing more than dialogue between two people by including some activity to help set the scene.
@@ -22,3 +27,4 @@ The THAD can be used to foreshadow things; to alter the tone of a scene; to set 
 #### Related
 
 George, Elizabeth. _Mastering the Process: From Idea to Novel_. Viking, 2020.
+

@@ -1,14 +1,14 @@
 ---
-discord_id: 0xLight#0002
-authors:
- - 0xLight
-description: How to deal with Technical debt in Scrum
 title: How to deal with technical debt in Scrum
 date: 2022-12-13
+description: How to deal with Technical debt in Scrum
+authors:
+  - 0xLight
+discord_id: "0xLight#0002"
 tags:
- - scrum
- - technicaldebt
- - projectmanagement
+  - scrum
+  - technicaldebt
+  - projectmanagement
 ---
 
 How to deal with Technical debt in Scrum:
@@ -23,3 +23,4 @@ Technical debt is a common issue faced by teams that use the Scrum framework. He
 6. Communicate with stakeholders about the technical debt and your plan to address it. This will help ensure that everyone is on the same page and working towards the same goals.
 
 #scrum #technicaldebt #projectmanagement
+

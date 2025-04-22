@@ -1,14 +1,14 @@
 ---
+title: Design system integration in react
+date: 2024-10-29
+description: Learn how to integrate design systems in React applications with comprehensive coverage of design tokens, atomic components, and accessibility standards.
 authors:
-  - 'thanh'
-date: '2024-10-29'
-description: 'Learn how to integrate design systems in React applications with comprehensive coverage of design tokens, atomic components, and accessibility standards.'
+  - thanh
+short_title: Design system integration
 tags:
-  - 'react'
-  - 'design-system'
-  - 'storybook'
-title: 'Design system integration in react'
-short_title: 'Design system integration'
+  - react
+  - design-system
+  - storybook
 ---
 
 Design system integration in React involves creating a set of reusable, consistent, and easily maintainable components that reflect your app’s design guidelines. Integrating a design system helps ensure visual and functional consistency across your application while allowing for scalability as new components and features are added. Design systems often include UI components, design tokens, typography, colors, icons, spacing guidelines, and accessibility standards.
@@ -292,3 +292,4 @@ function App() {
 | **Context and theming**             | Support adaptable designs, allowing for light and dark themes or other custom themes     |
 
 By integrating these techniques, you can build a design system that is robust, adaptable, and consistent, making it easier to scale and maintain the UI over time.
+

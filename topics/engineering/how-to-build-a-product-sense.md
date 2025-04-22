@@ -1,9 +1,19 @@
 ---
-tags: engineering/management, management, process, documentation, enhancements, management-skills, product-sense
-authors: Nhut Huynh
-github_id: nhuthm
+title: null
 date: 2023-02-23
+description: null
+authors:
+  - Nhut Huynh
+github_id: nhuthm
 icy: 10
+tags:
+  - engineeringmanagement
+  - management
+  - process
+  - documentation
+  - enhancements
+  - management-skills
+  - product-sense
 ---
 
 Product sense is one of the skill that we has been hearing until today for the Project Manager when he/she is wanting to improve the management skill better and better. On this note, I will summarize with my understanding after reading the documentation from the internet, the full link to the document will be including from the reference section.
@@ -39,3 +49,4 @@ This one can be the most difficult way from my point of view. But, it's still ve
 
 ## Reference
 - [How to develop product sense](https://www.lennysnewsletter.com/p/product-sense)
+

@@ -1,9 +1,9 @@
 ---
-tags: 
-  - dcos
 title: Dcos Series Part 1 Quick Look Installation
 date: 2017-05-04
 description: null
+tags:
+  - dcos
 ---
 
 ## What is DC/OS ?
@@ -154,3 +154,4 @@ curl -O http://<bootstrap-ip>:<your_port>/dcos_install.sh
 You can access to web interface at `http://<master-node-public-ip>/`and bingo !
 
 ![](assets/dcos-series-part-1---quick-look-installation_7e7988a963f67f1005ed0e19e2b93e01_md5.webp)
+

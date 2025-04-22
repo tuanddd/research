@@ -1,10 +1,10 @@
 ---
-tags:
-  - design
-  - technique
 title: Grid And Layout
 date: 2020-08-17
 description: null
+tags:
+  - design
+  - technique
 ---
 
 To almost fresher who started in Graphic design and Digital design, who wants to make our model look beautiful and right. When we - fresher receive brief directly from the client or leader, we start to search online for ideas. Honestly, those projects look pretty good, super clean, and all you want is your project look the same way as them, but you just CAN’T. That’s because you don’t do the same way they did. You might forget or skip the step called: “Build Layout.”
@@ -122,3 +122,4 @@ If your developer codes a fixed grid when you shrink from desktop to tablet, you
 Now comes the beauty of fluid grids! As you shrink the window, things will change dynamically, your text is wrapping, and elements are getting narrower. However, these elements of yours still won’t change layout until you hit the next breakpoint that you designed.
 
 And that’s it. I hope after reading this, you will have some sense to make your design look great started with good layout and grid
+

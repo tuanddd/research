@@ -7,8 +7,9 @@ authors:
 tags:
   - icy
   - blockchain
-  - AI
+  - ai
 ---
+
 ![](assets/build_custom_ai_agent_with_elizaos_intro.webp)
 
 DeFAI stands for Decentralized Finance Artificial Intelligence, which combines the principles of decentralized finance (DeFi) with artificial intelligence (AI) to enhance financial services by leveraging AI's predictive analytics and automation features.
@@ -208,3 +209,4 @@ We have developed an ICY Swap AI Agent that allows users to check their ICY bala
 ## Reference
 - https://github.com/elizaOS/eliza-plugin-starter
 - https://www.quicknode.com/guides/ai/how-to-setup-an-ai-agent-with-eliza-ai16z-framework
+

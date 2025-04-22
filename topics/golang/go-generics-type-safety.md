@@ -1,12 +1,12 @@
 ---
-tags:
-  - golang
-  - generics
-title: 'How does Go achieve type safety when it enables generics?'
+title: How does Go achieve type safety when it enables generics?
 date: 2024-10-14
 description: A quick note on How does Go achieve type safety when it enables generics
 authors:
   - tieubao
+tags:
+  - golang
+  - generics
 ---
 
 Go introduced generics with Go 1.18, which was officially released in March 2022. This update allowed Go developers to write more flexible and reusable code by supporting type parameters, enabling functions, and data structures to work with different types without sacrificing type safety.
@@ -97,3 +97,4 @@ In conclusion, Go achieves type safety with generics through a combination of co
 2. **Type constraints** to enforce rules about what types are allowed.
 3. **Compile-time type checking** to prevent invalid types from being used.
 4. **Simple and explicit type inference** while maintaining safety through constraints.
+

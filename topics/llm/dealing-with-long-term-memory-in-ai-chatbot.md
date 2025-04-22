@@ -1,13 +1,14 @@
 ---
-tags: 
-- ai
-- llm
-- vector-database
-authors: thanh
-title: 'Storing Long-Term Memory in ChatGPT Using VectorDB'
-description: An overview of how to implement long-term memory in a ChatGPT-based chatbot using a Vector Database (VectorDB) to store conversation history and retrieve the most relevant past interactions.
-github_id: zlatanpham
+title: Storing Long-Term Memory in ChatGPT Using VectorDB
 date: 2023-07-06
+description: An overview of how to implement long-term memory in a ChatGPT-based chatbot using a Vector Database (VectorDB) to store conversation history and retrieve the most relevant past interactions.
+authors:
+  - thanh
+github_id: zlatanpham
+tags:
+  - ai
+  - llm
+  - vector-database
 ---
 
 In the context of a chat application, one common challenge involves managing the growing volume of text in the context window of a Language Model. To overcome this, imagine utilizing a Vector Database to archive the conversation history, effectively transforming it into a form of "Long Term Memory". Such a setup can then query the database for the most pertinent details to feed into the model during an ongoing conversation. This approach significantly enhances the context window's length and imbues the application with increased robustness against abrupt topic shifts.
@@ -52,3 +53,4 @@ graph TD;
 ```
 
 Remember, this is a general overview of the process and the exact details might differ based on the specific requirements of your application and the specifics of your chatbot's design.
+

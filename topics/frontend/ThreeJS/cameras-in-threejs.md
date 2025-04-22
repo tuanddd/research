@@ -1,13 +1,13 @@
 ---
+title: Cameras in ThreeJS
+date: 2022-09-15
+description: "**ThreeJS** is a JavaScript 3D library that allows developers to develop and describe data in 3 dimensions, and then convert them into 2 dimensions and display them on [HTML Canvas](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement). [**Camera**](https://threejs.org/docs/index.html?q=camera#api/en/cameras/Camera) is one of the core elements of a ThreeJS project, beside [Scene](https://threejs.org/docs/index.html?q=scene#api/en/scenes/Scene), [Renderer](https://threejs.org/docs/index.html?q=renderer#api/en/renderers/WebGLRenderer) and 3D objects (can be formed with [Geometries](https://threejs.org/docs/index.html?q=geometry#api/en/geometries/BoxGeometry) and [Materials](https://threejs.org/docs/index.html?q=material#api/en/materials/MeshBasicMaterial))."
+authors:
+  - namnd
+github_id: nguyend-nam
 tags:
   - frontend
   - threejs
-authors:
-  - namnd
-description: "**ThreeJS** is a JavaScript 3D library that allows developers to develop and describe data in 3 dimensions, and then convert them into 2 dimensions and display them on [HTML Canvas](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement). [**Camera**](https://threejs.org/docs/index.html?q=camera#api/en/cameras/Camera) is one of the core elements of a ThreeJS project, beside [Scene](https://threejs.org/docs/index.html?q=scene#api/en/scenes/Scene), [Renderer](https://threejs.org/docs/index.html?q=renderer#api/en/renderers/WebGLRenderer) and 3D objects (can be formed with [Geometries](https://threejs.org/docs/index.html?q=geometry#api/en/geometries/BoxGeometry) and [Materials](https://threejs.org/docs/index.html?q=material#api/en/materials/MeshBasicMaterial))."
-title: Cameras in ThreeJS
-github_id: nguyend-nam
-date: 2022-09-15
 ---
 
 **ThreeJS** is a JavaScript 3D library that allows developers to develop and describe data in 3 dimensions, and then convert them into 2 dimensions and display them on [HTML Canvas](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement). [**Camera**](https://threejs.org/docs/index.html?q=camera#api/en/cameras/Camera) is one of the core elements of a ThreeJS project, beside [Scene](https://threejs.org/docs/index.html?q=scene#api/en/scenes/Scene), [Renderer](https://threejs.org/docs/index.html?q=renderer#api/en/renderers/WebGLRenderer) and 3D objects (can be formed with [Geometries](https://threejs.org/docs/index.html?q=geometry#api/en/geometries/BoxGeometry) and [Materials](https://threejs.org/docs/index.html?q=material#api/en/materials/MeshBasicMaterial)).
@@ -81,3 +81,4 @@ Beside those 2 most frequently used cameras, ThreeJS also provides various optio
 - https://www.vectorstock.com/royalty-free-vector/isometric-and-perspective-drawings-vector-7297379
 - https://wiki.freecadweb.org/index.php?title=File:Orthographic_Perspective.gif
 - https://www.celestron.com/blogs/knowledgebase/what-is-the-field-of-view-of-a-pair-of-binoculars
+

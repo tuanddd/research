@@ -1,10 +1,10 @@
 ---
-tags: 
-  - operation
-  - pm
 title: Project Management
 date: 2020-01-12
 description: null
+tags:
+  - operation
+  - pm
 ---
 
 A Project Manager (PM) job starts right after a new project has been sealed and assigned with a starting date, a deadline and a Team. As a PM it is absolutely fundamental you are an expert about our working methodologies, processes and communication
@@ -75,3 +75,4 @@ Never assume clients know what's happening. It is up to you to enlighten them;
 
 Never leave a client message un-replied. It regards the entire Team, but you particularly. As the person in charge it is up to you to take the lead and demonstrating how to behave;
 If you feel like scheduling a call at the end of each sprint and showcase the outcomes, we encourage you to do it.
+

@@ -1,9 +1,19 @@
 ---
-tags: engineering, event-sourcing, DDD, e-commerce, event-store, aggregation, requirement
-authors: M.Vu Cuong(Jim)
-github_id: R-Jim
+title: null
 date: 2022-12-05
+description: null
+authors:
+  - M.Vu Cuong(Jim)
+github_id: R-Jim
 icy: 10
+tags:
+  - engineering
+  - event-sourcing
+  - ddd
+  - e-commerce
+  - event-store
+  - aggregation
+  - requirement
 ---
 
 ## What is Event sourcing
@@ -110,3 +120,4 @@ To reduce composing time when number of events start to grow. Snapshot is a Stat
 - [Keynote: Event sourcing - Greg Young - DPC2016](https://www.youtube.com/watch?v=I3uH3iiiDqY)
 - [Learning-topics: Event sourcing](https://discord.com/channels/462663954813157376/1009812700022456400)
 - [Diagram about the thought process from normal CRUD operation into event sourcing](https://miro.com/app/board/uXjVPZswY00=/?share_link_id=338629629501)
+

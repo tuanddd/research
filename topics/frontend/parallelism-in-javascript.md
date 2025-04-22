@@ -1,15 +1,15 @@
 ---
-tags: 
- - javascript
- - concurrency
- - frontend
- - parallelism
-authors: 
- - thanh
-github_id: zlatanpham
-description: Parallelism in JavaScript is a technique to improve the performance of web applications by executing multiple tasks simultaneously.
 title: Parallelism in JavaScript
 date: 2022-04-04
+description: Parallelism in JavaScript is a technique to improve the performance of web applications by executing multiple tasks simultaneously.
+authors:
+  - thanh
+github_id: zlatanpham
+tags:
+  - javascript
+  - concurrency
+  - frontend
+  - parallelism
 ---
 
 Most of applications nowadays are created with the aim to be on the web. JavaScript has become a mainstream programming language to support the direction. However, being designed as a single-threaded language doesn't give JavaScript the power to support heavyweight applications as when we talk about image/video processing, online games or even data mining. This naturally creates a demand to support Parallelism in the language.
@@ -59,3 +59,4 @@ However, most of OpenCL based frameworks developed during the period are no long
 - https://www.khronos.org/registry/webcl/specs/latest/1.0/#3.1
 - https://en.wikipedia.org/wiki/WebCL
 - https://intellabs.github.io/RiverTrail/
+

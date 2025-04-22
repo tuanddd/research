@@ -1,9 +1,12 @@
 ---
-tags: 
-- zettelkasten
-- note/permanent
-- note/fleeting
-- note/literature
+title: null
+date: null
+description: null
+tags:
+  - zettelkasten
+  - notepermanent
+  - notefleeting
+  - noteliterature
 ---
 
 In the Zettelkasten method as described by Ahrens in [[≈ How to Take Smart Notes]], there are three kinds of notes:

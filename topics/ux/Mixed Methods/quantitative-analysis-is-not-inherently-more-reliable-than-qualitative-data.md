@@ -1,3 +1,9 @@
+---
+title: null
+date: null
+description: null
+---
+
 It’s naive to assume that quantitative analysis is inherently a more reliable or scientific than human judgment. Quantitative data, too, is the product of bias.
 
 Choices must be made about why, how, and what data is selected, collected, and weighed. Human beings are responsible for establishing the criteria for what “counts” from among the data available, and may be biased toward data that is easy to find and measure. As well, each analyst brings their own perspective to their interpretation of the data. Two analysts may well interpret the same date set in very different ways.

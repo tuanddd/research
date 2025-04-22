@@ -1,13 +1,13 @@
 ---
-tags: 
- - frontend
- - hsl
-authors: 
- - khacvy
-github_id: trankhacvy
-description: HSL is the answer to resolving all of the painful points of Hexadecimal color codes.
 title: HSL Color
 date: 2022-09-02
+description: HSL is the answer to resolving all of the painful points of Hexadecimal color codes.
+authors:
+  - khacvy
+github_id: trankhacvy
+tags:
+  - frontend
+  - hsl
 ---
 
 Frontend engineers use Hexadecimal color codes to represent colors, but they have some limitations:
@@ -77,3 +77,4 @@ hsla(349, 73%, 56%, 0.5)
 - https://css-tricks.com/hsl-hsla-is-great-for-programmatic-color-control/
 - https://www.smashingmagazine.com/2021/07/hsl-colors-css/
 - https://tsh.io/blog/why-should-you-use-hsl-color-representation-in-css/
+

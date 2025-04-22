@@ -1,8 +1,15 @@
 ---
-tags: engineering/data, mapreduce, distributed, hadoop
-authors: Dung Ho
-github_id: dudaka
+title: null
 date: 2022-10-24
+description: null
+authors:
+  - Dung Ho
+github_id: dudaka
+tags:
+  - engineeringdata
+  - mapreduce
+  - distributed
+  - hadoop
 ---
 
 ## Introduction
@@ -147,3 +154,4 @@ Intuitively, combiner is like a mini reducer that runs at the map phase. Combine
 ## Summary
 - the internals of map shuffle and reduced phases.
 - the benefit of using a combiner.
+

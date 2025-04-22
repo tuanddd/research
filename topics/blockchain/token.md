@@ -1,3 +1,8 @@
+---
+title: null
+date: null
+description: null
+---
 
 ## Frontrunning
 The EIP-20 token's `approve()` function creates the potential for an approved spender to spend more
@@ -16,3 +21,4 @@ Examples of currently accepted standards include:
 - [EIP20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md)
 - [EIP721](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md) (non-fungible token)
 - More at [eips.ethereum.org](https://eips.ethereum.org/erc#final)
+

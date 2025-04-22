@@ -1,12 +1,12 @@
 ---
+title: Quantization for large language models
+date: 2024-11-21
+description: As large language models (LLMs) continue to evolve, their parameter counts grow exponentially, with some models reaching trillions of parameters. This exponential growth presents significant challenges for deployment on edge devices and in resource-constrained environments due to extensive memory and computational requirements. Quantization emerges as a crucial technique to reduce model footprint while preserving acceptable performance.
+authors:
+  - hoangnnh
 tags:
   - llm
   - ai
-authors:
-  - hoangnnh
-date: 2024-11-21
-title: "Quantization for large language models"
-description: "As large language models (LLMs) continue to evolve, their parameter counts grow exponentially, with some models reaching trillions of parameters. This exponential growth presents significant challenges for deployment on edge devices and in resource-constrained environments due to extensive memory and computational requirements. Quantization emerges as a crucial technique to reduce model footprint while preserving acceptable performance."
 ---
 
 As large language models (LLMs) continue to evolve, their parameter counts grow exponentially, with some models reaching trillions of parameters. This exponential growth presents significant challenges for deployment on edge devices and in resource-constrained environments due to extensive memory and computational requirements. Quantization emerges as a crucial technique to reduce model footprint while preserving acceptable performance.
@@ -152,3 +152,4 @@ Quantization stands as a pivotal technique in LLM optimization, enabling efficie
 - <https://www.datacamp.com/tutorial/quantization-for-large-language-models>
 - <https://medium.com/@vimalkansal/understanding-the-gguf-format-a-comprehensive-guide-67de48848256>
 - <https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-quantization>
+

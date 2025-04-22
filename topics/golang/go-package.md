@@ -1,7 +1,7 @@
 ---
-title: 'Package first design'
-description: In Go, packages serve as the basic building blocks for creating modular, reusable, and maintainable software.
+title: Package first design
 date: 2024-10-25
+description: In Go, packages serve as the basic building blocks for creating modular, reusable, and maintainable software.
 authors:
   - tieubao
 tags:
@@ -173,3 +173,4 @@ Periodic refactoring keeps packages easy to understand, maintain, and reuse, avo
 - **Maintainability**: With a well-structured package layout, code becomes easier to maintain, modify, and extend.
 - **Collaboration**: Teams can work on separate packages concurrently, as each package represents an independent unit of functionality.
 - **Testing and debugging**: Since each package is modular, testing becomes easier, and debugging issues can be done within the context of specific packages.
+

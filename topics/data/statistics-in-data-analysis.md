@@ -1,8 +1,16 @@
 ---
-tags: engineering/data, statistics, data-analysis, distribution, pareto
-authors: Bach Phuong
-github_id: Bachpx2911
+title: null
 date: 2022-10-24
+description: null
+authors:
+  - Bach Phuong
+github_id: Bachpx2911
+tags:
+  - engineeringdata
+  - statistics
+  - data-analysis
+  - distribution
+  - pareto
 ---
 
 ## What is Statistics?
@@ -25,3 +33,4 @@ From my point of view, mastering distribution will bring huge benefit in underst
 ## Reference
 - https://thebusinessprofessor.com/en_US/research-analysis-decision-science/normal-distribution-definition
 - https://www.sciencedirect.com/topics/computer-science/pareto-distribution
+

@@ -1,14 +1,14 @@
 ---
-tags:
-  - llm
-  - rag
-  - search
-  - evaluation
 title: Evaluating search engine in RAG systems
 date: 2024-08-08
 description: "Hybrid search comes to solving problems in vector search and full-text search. Let's see how it works. In this article, we will know how hybrid search approach and how to evaluate each search method through metrics in information retrieval."
 authors:
   - datnguyennnx
+tags:
+  - llm
+  - rag
+  - search
+  - evaluation
 ---
 
 ## Introduction

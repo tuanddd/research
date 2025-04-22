@@ -1,14 +1,14 @@
 ---
+title: Introducing HTMX - Navigating the Advantages and Concerns
+date: 2023-12-18
+description: A comprehensive exploration of HTMX, a JavaScript library that extends HTML as a hypermedia, addressing the limitations of legacy HTML applications.
+authors:
+  - namanh
+github_id: tonible14012002
+icy: 10
 tags:
   - htmx
   - frontend
-authors:
-  - namanh
-title: Introducing HTMX - Navigating the Advantages and Concerns
-description: A comprehensive exploration of HTMX, a JavaScript library that extends HTML as a hypermedia, addressing the limitations of legacy HTML applications.
-github_id: tonible14012002
-date: 2023-12-18
-icy: 10
 ---
 
 ## What is HTMX
@@ -128,3 +128,4 @@ HTMX offers a fresh approach to web development, enhancing product agility and s
 - https://www.reddit.com/r/htmx/comments/r13e9i/xtmx_limitations_and_pitfalls/
 - https://www.builder.io/blog/htmx-vs-react
 - https://htmx.org/examples/
+

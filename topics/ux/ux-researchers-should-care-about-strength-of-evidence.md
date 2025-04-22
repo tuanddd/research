@@ -1,5 +1,10 @@
 ---
-tags: ux, research
+title: null
+date: null
+description: null
+tags:
+  - ux
+  - research
 ---
 
 UX researchers should care about strength of evidence

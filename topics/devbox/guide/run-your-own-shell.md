@@ -1,11 +1,11 @@
 ---
-tags: 
-  - devbox
-title: "Devbox Shell: Your Dev Environment, Your Rules"
+title: Devbox Shell: Your Dev Environment, Your Rules
 date: 2024-08-01
 description: Master the art of running your own shell with Devbox - locally or globally. No more environment headaches.
 authors:
   - bievh
+tags:
+  - devbox
 ---
 
 # Devbox Shell: Your Dev Environment, Your Rules
@@ -120,3 +120,4 @@ So what are you waiting for? Fire up Devbox and start building something amazing
 - [Create a Dev Environment with Devbox](https://www.jetify.com/devbox/docs/quickstart/)
 - [Use Devbox as your Primary Package Manager](https://www.jetify.com/devbox/docs/devbox_global/)
 - [Nix Shell: The Foundation](../introduction/¶%20Nix%20Shell.md)
+

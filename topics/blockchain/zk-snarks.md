@@ -1,14 +1,14 @@
 ---
-tags: 
- - blockchain
- - ethereum
- - zero-knowledge
-authors: 
- - bienvh
-title: 'zk-SNARKs'
-github_id: vhbien000
+title: zk-SNARKs
 date: 2022-12-09
 description: ZK-SNARKs is a type of zero-knowledge proof that allows one party to prove to another that a given statement is true, without revealing any additional information. This article provides an overview of zk-SNARKs, how they work, and their applications in blockchain technology.
+authors:
+  - bienvh
+github_id: vhbien000
+tags:
+  - blockchain
+  - ethereum
+  - zero-knowledge
 ---
 
 ## What is this?
@@ -125,3 +125,4 @@ description: ZK-SNARKs is a type of zero-knowledge proof that allows one party t
 - https://consensys.net/blog/developers/introduction-to-zk-snarks/
 - https://ethereum.org/en/developers/docs/scaling/zk-rollups/
 - https://vitalik.eth.limo/general/2022/06/15/using_snarks.html
+

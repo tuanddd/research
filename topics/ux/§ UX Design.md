@@ -1,4 +1,7 @@
 ---
+title: null
+date: null
+description: null
 tags:
   - moc
   - ux

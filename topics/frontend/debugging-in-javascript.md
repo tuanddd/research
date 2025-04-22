@@ -1,11 +1,19 @@
 ---
-tags: engineering, debug, console, debugger, javascript
-authors: Tran Hoang Nam
-github_id: namtrhg
+title: null
 date: 2022-10-16
+description: null
+authors:
+  - Tran Hoang Nam
+github_id: namtrhg
+tags:
+  - engineering
+  - debug
+  - console
+  - debugger
+  - javascript
 ---
 
-  *This note focus on utilizing some of the **` console`** object methods and the **` debugger`** statement to better debug JavaScript application in the [Chrome DevTools](https://developer.chrome.com/docs/devtools/).*
+*This note focus on utilizing some of the **` console`** object methods and the **` debugger`** statement to better debug JavaScript application in the [Chrome DevTools](https://developer.chrome.com/docs/devtools/).*
 
 ## The `console` object
 The **` console`** object provides access to the browser's debugging console. You can view it by right-clicking on your Chrome browser, selecting **Inspect**, and choosing **Console** in the tab.
@@ -126,3 +134,4 @@ When the `debugger` is invoked, execution is paused at the `debugger` statement 
  - [What is assert in JavaScript? - StackOverflow](https://stackoverflow.com/questions/15313418/what-is-assert-in-javascript)
  - [What is the difference between console.dir() and console.log()? - StackOverflow](https://stackoverflow.com/questions/11954152/whats-the-difference-between-console-dir-and-console-log)
  - [Tips and Tricks for Debugging JavaScript - James Q Quick](https://www.youtube.com/watch?v=_QtUGdaCb1c&t=701s)
+

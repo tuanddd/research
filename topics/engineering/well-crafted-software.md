@@ -4,7 +4,7 @@ date: 2020-01-19
 description: null
 authors:
   - tieubao
-tags: 
+tags:
   - engineering
 ---
 
@@ -23,3 +23,4 @@ A problem knocks on the door, we dig into the root cause and draft the first ver
 "Know-how" isn't a set of certificates. It's a progress of trial, fail and learn. You don't pour experience over your skin and hope it absorbs, you get to understand once you start doing it yourself. It's good to know what the final result could be, but putting that into practice is a whole different ball of wax.
 
 Craftsman don't form a reputation by preaching the craftsmanship philosophy. They live it.
+

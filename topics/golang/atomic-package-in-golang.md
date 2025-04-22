@@ -1,8 +1,15 @@
 ---
-tags: engineering/backend, golang, concurrency, race-condition
-authors: Hieu Phan
-github_id: hieuphq
+title: null
 date: 2022-08-09
+description: null
+authors:
+  - Hieu Phan
+github_id: hieuphq
+tags:
+  - engineeringbackend
+  - golang
+  - concurrency
+  - race-condition
 ---
 
 We often run some functions asynchronously in real projects using the go routine. The problem we're facing is race-condition when updating the same variable. The solutions can be using a mutex lock or concurrency patterns to change our situation using the channels. However, In this document, we want to solve this problem when we want to update the same memory resource. Go standard library provide `sync/atomic` package to solve our problem.
@@ -130,3 +137,4 @@ Atomic types in Go are a simple approach to handling shared resources. It elimin
 - https://pkg.go.dev/sync/atomic
 - https://www.geeksforgeeks.org/atomic-variable-in-golang/
 - https://betterprogramming.pub/atomic-pointers-in-go-1-19-cad312f82d5b
+

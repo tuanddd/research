@@ -1,9 +1,10 @@
 ---
-tags: 
-- MBTI
-- model
-
 title: OCEAN model
+date: null
+description: null
+tags:
+  - mbti
+  - model
 ---
 
 Bài trắc nghiệm trên 16personalities còn kết hợp với Five Big personalities traits (OCEAN model), nên kết qủa thường có 5 kí tự.

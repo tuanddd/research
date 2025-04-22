@@ -1,10 +1,10 @@
 ---
-tags: 
-  - design
-  - technique
 title: Gestalt Principles In Ui Design
 date: 2020-07-13
 description: null
+tags:
+  - design
+  - technique
 ---
 
 ![](assets/gestalt-principles-in-ui-design_261d02efd9a855cdb1eed8a98112d3ae_md5.webp)
@@ -82,3 +82,4 @@ User Interface isn't only about aesthetics. It's also about usability, performan
 Gestalt Principles will be an active supporter for us during our UI design process. Before we fully understand UI's beauty and how to create it, those principles are our guidance.
 
 However, never limit yourself to any line or principles. Rules are subjected to be broken. Feel free to stay creative. A great UI design is a harmonious combination of accessibility, feasibility, and art.
+

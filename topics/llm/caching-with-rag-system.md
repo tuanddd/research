@@ -1,14 +1,14 @@
 ---
-tags:
-  - llm
-  - rag
-  - caching
-title: 'Evaluating caching in RAG systems'
+title: Evaluating caching in RAG systems
 date: 2024-08-09
 description: "Caching is a vital technique that boosts performance by storing frequently accessed information. Let's see how it works with RAG. In this article, we will know how cache could be implement in RAG system."
 authors:
   - taynguyen
 sync: llm
+tags:
+  - llm
+  - rag
+  - caching
 ---
 
 ## Introduction
@@ -161,3 +161,4 @@ Caching is a vital technique that boosts performance by storing frequently acces
 - https://arxiv.org/pdf/2311.04934
 - https://github.com/UKPLab/sentence-transformers
 - https://huggingface.co/learn/cookbook/en/semantic_cache_chroma_vector_database
+

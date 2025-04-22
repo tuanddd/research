@@ -1,15 +1,15 @@
 ---
+title: Shadow DOM
+date: 2023-05-16
+description: Shadow DOM is a web standard that allows encapsulation of HTML, CSS, and JavaScript within a specific context.
+authors:
+  - khacvy
+github_id: trankhacvy
 tags:
   - frontend
   - shadow-dom
   - dom
   - web-api
-description: Shadow DOM is a web standard that allows encapsulation of HTML, CSS, and JavaScript within a specific context.
-title: Shadow DOM
-authors:
-  - khacvy
-github_id: trankhacvy
-date: 2023-05-16
 ---
 
 I'm currently working on a new application called Javis, which operates as a Chrome extension. Functioning as an AI assistant, Javis is designed to facilitate a smooth and enriching web browsing experience for users. During its testing phase in Chrome, I faced a unique challenge - **Javis's CSS clashed with the webpage's CSS**. The result was a distortion of both the application's and the webpage's interfaces. Following a research, I unearthed a potent solution - the Shadow DOM. In this piece, I aim to explain the concept of Shadow DOM and shed light on the its advantage of encapsulating style.
@@ -48,3 +48,4 @@ Shadow DOM provides a powerful tool for developers creating website extensions, 
 ## References
 
 - https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM
+

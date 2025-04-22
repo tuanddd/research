@@ -1,12 +1,12 @@
 ---
+title: Evolutionary Database Design: Managing Change and Scaling with the System
+date: 2025-03-07
+description: As systems scale to meet growing demands, databases must evolve alongside them to maintain performance and integrity. This document explores best practices for managing database changes, maintaining knowledge, and ensuring smooth integration. Topics covered include knowledge sharing, repository structuring, continuous integration, and database refactoring, with real-world examples illustrating their application.
+authors:
+  - jim
 tags:
   - software-development
   - database-management
-title: 'Evolutionary Database Design: Managing Change and Scaling with the System'
-date: 2025-03-07
-description: 'As systems scale to meet growing demands, databases must evolve alongside them to maintain performance and integrity. This document explores best practices for managing database changes, maintaining knowledge, and ensuring smooth integration. Topics covered include knowledge sharing, repository structuring, continuous integration, and database refactoring, with real-world examples illustrating their application.'
-authors:
-  - jim
 ---
 
 ## Problem Statement
@@ -102,3 +102,4 @@ Effective database evolution requires structured communication, versioned change
 ## References
 
 - [https://martinfowler.com/articles/evodb.html#DbasCollaborateCloselyWithDevelopers](https://martinfowler.com/articles/evodb.html#DbasCollaborateCloselyWithDevelopers)
+

@@ -1,8 +1,15 @@
 ---
-tags: engineering, state, diagram, machines
-authors: Nguyen Xuan Anh
-github_id: monotykamary
+title: null
 date: 2022-06-28
+description: null
+authors:
+  - Nguyen Xuan Anh
+github_id: monotykamary
+tags:
+  - engineering
+  - state
+  - diagram
+  - machines
 ---
 
 ## What are finite-state automata?
@@ -77,3 +84,4 @@ In [[Domain Driven Design]] (DDD) and in [[Event storming]], there doesn't seem 
 - https://wickstrom.tech/finite-state-machines/2017/11/10/finite-state-machines-part-1-modeling-with-haskell.html
 - https://dev.to/margaretkrutikova/modelling-domain-with-state-machines-in-reasonml-n29
 - https://blog.honosoft.com/2019/10/31/partial-state-machine/
+

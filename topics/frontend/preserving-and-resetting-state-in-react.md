@@ -1,15 +1,15 @@
 ---
-tags: 
- - fronten
- - react
- - hooks
- - state-management
-authors: 
- - toanbku
-description: State in React is tied to a position in the UI tree.
 title: Preserving and Resetting state in React
-github_id: toanbku
 date: 2023-02-27
+description: State in React is tied to a position in the UI tree.
+authors:
+  - toanbku
+github_id: toanbku
+tags:
+  - fronten
+  - react
+  - hooks
+  - state-management
 ---
 
 ## Why should you read this article?
@@ -174,3 +174,4 @@ Back to the example at the beginning of the article
 ## Reference
 
 - https://beta.reactjs.org/learn/preserving-and-resetting-state
+

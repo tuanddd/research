@@ -1,8 +1,15 @@
 ---
-tags: engineering, principle, conway-law, engineering/management
-authors: Pham Duc Thanh
-github_id: zlatanpham
+title: null
 date: 2022-06-12
+description: null
+authors:
+  - Pham Duc Thanh
+github_id: zlatanpham
+tags:
+  - engineering
+  - principle
+  - conway-law
+  - engineeringmanagement
 ---
 
 > Any organization that designs a system will produce a **design** whose structure is a **copy of the organization's communication structure**.
@@ -21,3 +28,4 @@ In reverse words, the way a company or a team is structured will determine how i
 #### References
 - https://intenseminimalism.com/2013/conways-law/
 - http://www.melconway.com/Home/Conways_Law.htmlConway
+

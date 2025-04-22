@@ -1,13 +1,13 @@
 ---
-tags: 
-- golang
-- engineering
-- profiling
-authors: 
-  - thangnt294
-title: 'Profiling in Go'
+title: Profiling in Go
 date: 2023-03-28
-description: Profiling in Go is a powerful tool that can help you identify and fix the subtle issues in your code quickly and efficiently. In this article, we'll explore the world of profiling in Go and show you how you can use it to catch all the issues in your code.
+description: "Profiling in Go is a powerful tool that can help you identify and fix the subtle issues in your code quickly and efficiently. In this article, we'll explore the world of profiling in Go and show you how you can use it to catch all the issues in your code."
+authors:
+  - thangnt294
+tags:
+  - golang
+  - engineering
+  - profiling
 ---
 
 ## Profiling in Go: Gotta catch 'em all
@@ -643,3 +643,4 @@ In conclusion, profiling is an essential tool for any Go developer looking to bu
 As you continue to work on your Go projects, keep in mind the importance of profiling and the various tools and techniques available to help you optimize your code. By doing so, you'll be well on your way to becoming a more efficient and effective developer.
 
 So go ahead, catch 'em all!
+

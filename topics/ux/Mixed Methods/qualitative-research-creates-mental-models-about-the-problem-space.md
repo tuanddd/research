@@ -1,5 +1,10 @@
 ---
-tags: ux, research/qualitative
+title: null
+date: null
+description: null
+tags:
+  - ux
+  - researchqualitative
 ---
 
 Qualitative research helps us build mental models about the contexts, problems, and motivations our products and designs must account for. It helps us understand what is important at a high level—what matters to people and how they understand their relationship to the world.

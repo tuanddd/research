@@ -1,15 +1,15 @@
 ---
+title: "The removal of Apache Kafka's dependency on Zookeeper"
+date: 2023-09-13
+description: Kafka has been using Zookeeper for a variety of important functions. It uses Zookeeper to keep track of which brokers are part of the Kafka cluster. This is a critical task, as it enables Kafka to ensure that each broker is working properly and that the entire cluster is functioning as intended...
+authors:
+  - fuatto
+github_id: fuatto
+icy: 10
 tags:
   - engineering
   - zookeeper
   - kafka
-authors:
-  - fuatto
-title: The removal of Apache Kafka's dependency on Zookeeper
-description: 'Kafka has been using Zookeeper for a variety of important functions. It uses Zookeeper to keep track of which brokers are part of the Kafka cluster. This is a critical task, as it enables Kafka to ensure that each broker is working properly and that the entire cluster is functioning as intended...'
-github_id: fuatto
-date: 2023-09-13
-icy: 10
 ---
 
 ## Before the removal
@@ -65,3 +65,4 @@ For simple local setup, can refer to [Apache Kafka's quickstart guide](https://k
 - [https://raft.github.io/](https://raft.github.io/ "https://raft.github.io/")
 - [https://cwiki.apache.org/confluence/display/KAFKA/KIP-500%3A+Replace+ZooKeeper+with+a+Self-Managed+Metadata+Quorum](https://cwiki.apache.org/confluence/display/KAFKA/KIP-500%3A+Replace+ZooKeeper+with+a+Self-Managed+Metadata+Quorum "https://cwiki.apache.org/confluence/display/KAFKA/KIP-500%3A+Replace+ZooKeeper+with+a+Self-Managed+Metadata+Quorum")
 - [https://kafka.apache.org/documentation/#zk](https://kafka.apache.org/documentation/#zk "https://kafka.apache.org/documentation/#zk")
+

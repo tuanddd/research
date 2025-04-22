@@ -1,5 +1,10 @@
 ---
-tags: writing, story-telling
+title: null
+date: null
+description: null
+tags:
+  - writing
+  - story-telling
 ---
 
 In _Mastering the Process: From Idea to Novel_ Elizabeth George suggests that two ingredients that help understand characters are their **core need** and their **psychopathology** or psychological maneuver.
@@ -51,3 +56,4 @@ Examples of a psychological maneuver might include:
 #### Citations
 
 George, Elizabeth. _Mastering the Process: From Idea to Novel_. Viking, 2020.
+

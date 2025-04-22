@@ -1,10 +1,10 @@
 ---
-tags: 
-  - R&D
-  - data
 title: Managing Dataflow And Sql Database With Concurrency Control
 date: 2023-05-04
 description: null
+tags:
+  - rd
+  - data
 ---
 
 ![](assets/managing-dataflow-and-sql-database-with-concurrency-control_c11c827159778f301fbd67b9d155b80b_md5.avif)
@@ -217,3 +217,4 @@ Explicit locking is the most accessible way to resolve concurrency control in hi
 [[4](https://publish.obsidian.md/#)]“Richard Clayton - Distributed Locking with Postgres Advisory Locks.” Richard Clayton, 16 February 2020, [https://rclayton.silvrback.com/distributed-locking-with-postgres-advisory-locks](https://rclayton.silvrback.com/distributed-locking-with-postgres-advisory-locks). Accessed 23 April 2023.
 
 [[5](https://publish.obsidian.md/#)]“Locking in Databases and Isolation Mechanisms | by Denny Sam | inspiringbrilliance.” Medium, [https://medium.com/inspiredbrilliance/what-are-database-locks-1aff9117c290](https://medium.com/inspiredbrilliance/what-are-database-locks-1aff9117c290). Accessed 23 April 2023.
+

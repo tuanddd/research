@@ -1,12 +1,12 @@
 ---
+title: Go extension interface pattern
+date: 2024-10-25
+description: Note about using Go extension interface pattern
+authors:
+  - tieubao
 tags:
   - golang
   - interface
-authors:
-  - tieubao
-description: Note about using Go extension interface pattern
-title: Go extension interface pattern
-date: 2024-10-25
 ---
 
 The extension interface pattern is when an interface embeds another one. The extension pattern helps to add new features to an existing object without changing its original code.
@@ -270,3 +270,4 @@ if d, ok := f.(ReadDirFile); ok {
 ```
 
 [Source](https://www.reddit.com/r/golang/comments/i6yehu/what_is_the_extension_interface_pattern_in_go/)
+

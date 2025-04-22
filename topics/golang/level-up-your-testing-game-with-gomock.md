@@ -1,10 +1,21 @@
 ---
-tags: backend, engineering/backend, testing, golang, best-practices, gomock, mocking, test-cases
-authors: Pham Van Dat
-github_id: datphamcode295
+title: null
 date: 2023-08-08
+description: null
+authors:
+  - Pham Van Dat
+github_id: datphamcode295
 icy: 15
 blog: https://dwarvesf.hashnode.dev/level-up-your-testing-game-harnessing-gomock-for-unbeatable-unit-testing-in-go
+tags:
+  - backend
+  - engineeringbackend
+  - testing
+  - golang
+  - best-practices
+  - gomock
+  - mocking
+  - test-cases
 ---
 
 In the Go programming language, a popular framework called Gomock provides a powerful solution for mocking dependencies during testing. Gomock simplifies the process of isolating units of code, enabling more focused and effective testing.
@@ -219,3 +230,4 @@ In conclusion, this article explores Gomock, a widely used Go framework designed
 - [https://betterprogramming.pub/a-gomock-quick-start-guide-71bee4b3a6f1](https://betterprogramming.pub/a-gomock-quick-start-guide-71bee4b3a6f1)
 
 You can find full source code in the repo: [gomock_testing_example](https://github.com/datphamcode295/gomock_testing_example)
+

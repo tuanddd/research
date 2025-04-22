@@ -1,3 +1,9 @@
+---
+title: null
+date: null
+description: null
+---
+
 In design, it can be tempting to rush to develop a prototype to get "real" feedback on an idea. Erika Hall posits that this is because a prototype, no matter how low fidelity, feels tangible: it provides physical, concrete evidence of progress.
 
 But a prototype assumes you're already answering the right question. If you rush to a prototype, you may end up polishing a concept that won't solve anyone's problem to begin with.

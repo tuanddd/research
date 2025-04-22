@@ -1,13 +1,13 @@
 ---
+title: Singleton Design Pattern in Javascript
+date: 2022-10-16
+description: The Singleton design pattern is a design pattern that restricts the instantiation of a class to one object.
+authors:
+  - chinhld12
+github_id: chinhld12
 tags:
   - frontend
   - design-pattern
-authors:
-  - chinhld12
-description: The Singleton design pattern is a design pattern that restricts the instantiation of a class to one object.
-title: Singleton Design Pattern in Javascript
-github_id: chinhld12
-date: 2022-10-16
 ---
 
 ## Overview
@@ -106,3 +106,4 @@ main()
 ## Conclusion
 
 With the only initialized once and can use in the global context, the singleton design pattern is very useful for some specific cases where we only need to store the data that using in the global and fewer changes like database connection, user profile account config...
+

@@ -1,8 +1,16 @@
 ---
-tags: engineering, finance, accounting, technique, design
-authors: Nguyen Xuan Anh
-github_id: monotykamary
+title: null
 date: 2022-08-24
+description: null
+authors:
+  - Nguyen Xuan Anh
+github_id: monotykamary
+tags:
+  - engineering
+  - finance
+  - accounting
+  - technique
+  - design
 ---
 
 ## Introduction
@@ -240,3 +248,4 @@ $ hledger -f transactions.journal balance -t
 - <https://www.investopedia.com/terms/m/mortgage.asp>
 - <https://www.investopedia.com/terms/w/warranty.asp#:~:text=our%20editorial%20policies-,What%20Is%20a%20Warranty%3F,as%20originally%20described%20or%20intended>.
 - <https://www.ledger-cli.org/3.0/doc/ledger3.html#Understanding-Equity>
+

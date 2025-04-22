@@ -1,8 +1,16 @@
 ---
-tags: engineering, state, diagram, machines, transducers
-authors: Nguyen Xuan Anh
-github_id: monotykamary
+title: null
 date: 2022-06-28
+description: null
+authors:
+  - Nguyen Xuan Anh
+github_id: monotykamary
+tags:
+  - engineering
+  - state
+  - diagram
+  - machines
+  - transducers
 ---
 
 ## What is finite-state transducer?
@@ -140,3 +148,4 @@ let transition = (state, input) =>
 - https://www.cs.ucdavis.edu/~rogaway/classes/120/spring13/eric-transducers
 - https://dl.acm.org/doi/10.5555/972695.972698
 - https://web.stanford.edu/~laurik/publications/ciaa-2000/fst-in-nlp/fst-in-nlp.html
+

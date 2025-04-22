@@ -1,9 +1,9 @@
 ---
-tags: 
-  - event-sourcing
 title: Sdk Event Sourcing
 date: 2020-05-21
 description: null
+tags:
+  - event-sourcing
 ---
 
 ## Software Development Kit (SDK)
@@ -51,3 +51,4 @@ The data between parties has a connection with each other, and it needs interact
 ## React Hook
 
 Hooks are functions that let you “hook into” React state and lifecycle features from function.
+

@@ -2,7 +2,7 @@
 title: The 10x Engineer
 date: 2016-03-01
 description: null
-tags: 
+tags:
   - engineering
 ---
 
@@ -56,3 +56,4 @@ Communication
 * Hand-on
 * Create / build sth people want: Inventor; Doer
 * Contribution: Bring value to people
+

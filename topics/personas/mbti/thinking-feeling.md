@@ -1,8 +1,11 @@
 ---
+title: Thinking vs Feeling
+date: null
+description: null
 tag: MBTI, preferences
 URL: https://drive.google.com/file/d/1n8ID_iXqzs6cMZlRS0Su7lQUhrfd7khh/view?usp=sharing
-title: Thinking vs Feeling
 ---
+
 Book: My True Type, page 39 - 45
 
 > Characteristics of Thinkers:

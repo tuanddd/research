@@ -1,13 +1,13 @@
 ---
-tags: 
-  - devbox
-  - nix
-  - docker
-title: "Nix: Revolutionizing Docker Image Builds"
+title: Nix: Revolutionizing Docker Image Builds
 date: 2024-08-01
 description: Ditch the Docker headaches. Learn how Nix brings sanity to image building with determinism and efficiency.
 authors:
   - bievh
+tags:
+  - devbox
+  - nix
+  - docker
 ---
 
 Docker's great, but let's face it: building images can be a pain. Enter Nix, the tool that's about to change your Docker game forever.
@@ -129,3 +129,4 @@ So, are you ready to take your Docker game to the next level? Give Nix a shot. Y
 - [Nix Pills Tutorial](https://nixos.org/guides/nix-pills/)
 - [NixOS Docker Tools](https://nixos.org/manual/nixpkgs/stable/#sec-pkgs-dockerTools)
 - [Docker Best Practices](https://docs.docker.com/develop/develop-images)
+

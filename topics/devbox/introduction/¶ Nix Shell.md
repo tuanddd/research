@@ -1,12 +1,12 @@
 ---
-tags: 
-  - devbox
-  - nix
-title: "Nix Shell: Bulletproof Development Environments"
+title: Nix Shell: Bulletproof Development Environments
 date: 2024-08-01
 description: Discover how Nix Shell creates rock-solid dev environments that work everywhere, every time.
 authors:
   - bievh
+tags:
+  - devbox
+  - nix
 ---
 
 Ever wished you could clone your perfect dev setup to any machine? Or test a new package without breaking your system? That's where Nix Shell shines. It's not just a tool; it's a game-changer for developers.
@@ -59,3 +59,4 @@ Ready to give it a shot? Trust us, your dev life is about to get a whole lot smo
 - [Nix Shell Manual](https://nix.dev/manual/nix/2.22/command-ref/nix-shell)
 - [Why You Should Try Nix](https://nixos.org/guides/nix-pills/01-why-you-should-give-it-a-try)
 - [Nix Package Manager](https://nixos.org/)
+

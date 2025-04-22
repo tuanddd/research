@@ -1,8 +1,13 @@
 ---
-tags: mobile, kotlin
-authors: Truong Hung Khanh
-github_id: khanhtruong
+title: null
 date: 2022-10-10
+description: null
+authors:
+  - Truong Hung Khanh
+github_id: khanhtruong
+tags:
+  - mobile
+  - kotlin
 ---
 
 As you may know about coroutine previously, coroutine is a structured concurrency, which means it can control flow to ensure that every concurrent tasks work well until it completed or being canceled. Because of that, each coroutine have it own lifecycle and scope, represent by CoroutineContext and CoroutineScope.
@@ -122,3 +127,4 @@ In this article, we know the difference between CoroutineScope and CoroutineCont
 - [Kotlin-doc: CoroutineContext & Dispatchers](https://kotlinlang.org/docs/coroutine-context-and-dispatchers.html)
 - [Kotlin-doc: Job](https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-job/)
 - [Kotlin-doc: Cancellation](https://kotlinlang.org/docs/cancellation-and-timeouts.html#cancellation-is-cooperative)
+

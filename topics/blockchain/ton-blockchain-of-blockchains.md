@@ -1,13 +1,13 @@
 ---
+title: Ton: Blockchain of blockchains
+date: 2024-07-11
+description: Talk about TON and its core technologies. Why do we call TON the "Blockchain of blockchains"?
+authors:
+  - bievh
 tags:
   - web3
   - blockchain
   - ton
-title: 'Ton: Blockchain of blockchains'
-date: 2024-07-11
-description: 'Talk about TON and its core technologies. Why do we call TON the "Blockchain of blockchains"?'
-authors:
-  - bievh
 ---
 
 TON (The Open Network) is a blockchain platform originally developed by the team behind Telegram Messenger. By taking advantage of unique sharding technology, Multi-blockchain architecture and Instant Hypercube Routing protocol, TON aims to enable fast transactions and smart contracts with a high level of scalability and security.
@@ -86,3 +86,4 @@ If it is hard to imagine, in some aspects, you can take a look at **E-Cube Routi
 ## Conclusion
 
 In summary, TON stands out as a “blockchain of blockchains” due to its advanced architecture and design principles. Its use of unique technologies like sharding, the Actor model, and Instant Hypercube Routing allows it to achieve high scalability, fast transactions, and robust security. By seamlessly integrating multiple blockchains into a unified network, TON not only enhances interoperability but also paves the way for a more connected and efficient decentralized ecosystem. Whether you’re a developer or a blockchain enthusiast, understanding the inner workings of TON offers valuable insights into the future of blockchain technology.
+

@@ -1,12 +1,12 @@
 ---
-tags:
-  - data-structures
-  - golang
-title: 'Slice And Array In Golang'
+title: Slice And Array In Golang
 date: 2018-03-13
 description: An in-depth exploration of arrays and slices in Go, covering their differences, internal implementations, and key operations like append. Learn about fixed-length arrays, flexible slices, and how Go manages memory allocation for growing slices.
 authors:
- - hieuthu1
+  - hieuthu1
+tags:
+  - data-structures
+  - golang
 ---
 
 ### Array
@@ -166,3 +166,4 @@ The interesting thing is how Go decide how much capacity the new slice is. As yo
 
 - [https://golang.org/doc/effective_go.html#slices](https://golang.org/doc/effective_go.html#slices)
 - [https://blog.golang.org/slices](https://blog.golang.org/slices)
+

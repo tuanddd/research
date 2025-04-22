@@ -1,13 +1,13 @@
 ---
-authors:
-  - datnguyennnx
+title: Intro to Model Context Protocol
 date: 2024-11-29
 description: "Explore Anthropic's Model Context Protocol (MCP) - a groundbreaking approach to enhancing AI assistants. Learn how MCP integrates with local and remote resources, enabling smarter interactions with tools and databases."
+authors:
+  - datnguyennnx
 tags:
   - llm
   - protocol
   - mcp
-title: 'Intro to Model Context Protocol'
 ---
 
 By making a new protocol known as the Model Context Protocol (MCP) open-source, Anthropic made a major change in AI. By overcoming the limitations of traditional data integration techniques and addressing the recurrent problem of data isolation, this protocol aims to enhance the connections between data hubs and AI systems.
@@ -105,3 +105,4 @@ MCP is already being used by companies like Block and Apollo, showing how handy 
 - https://www.metadocs.co/2024/11/29/anthropic-model-context-protocol-how-to-give-wings-to-local-mode/
 - https://www.infoworld.com/article/3613143/anthropic-introduces-the-model-context-protocol.html
 - https://salesforcedevops.net/index.php/2024/11/29/anthropics-model-context-protocol/
+

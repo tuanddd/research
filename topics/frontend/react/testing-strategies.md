@@ -1,13 +1,13 @@
 ---
+title: Testing strategies in React
+date: 2024-10-29
+description: React testing with unit, integration, and end-to-end approaches
 authors:
-  - 'thanh'
-date: '2024-10-29'
-description: 'React testing with unit, integration, and end-to-end approaches'
+  - thanh
+short_title: Testing strategies
 tags:
-  - 'react'
-  - 'testing'
-title: 'Testing strategies in React'
-short_title: 'Testing strategies'
+  - react
+  - testing
 ---
 
 Testing is essential for ensuring that your code works as expected, is maintainable, and doesn't introduce bugs with future changes. React testing involves **unit tests, integration tests, and end-to-end (e2e) tests**, each targeting different aspects of your application's functionality.
@@ -233,3 +233,4 @@ Incorporating a comprehensive testing strategy helps ensure code quality, user e
 - **End-to-end testing**: Use Cypress to cover full workflows and user journeys, verifying app behavior across pages.
 - **Snapshot testing**: Capture and compare UI structures, helpful for components with complex, static layouts.
 - **Best practices**: Adopt the testing pyramid, test from the user's perspective, mock dependencies, and automate tests in CI/CD
+

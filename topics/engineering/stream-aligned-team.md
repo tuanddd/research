@@ -1,8 +1,14 @@
 ---
-tags: engineering/management, management, team-topologies
-authors: Pham Duc Thanh
-github_id: zlatanpham
+title: null
 date: 2022-09-19
+description: null
+authors:
+  - Pham Duc Thanh
+github_id: zlatanpham
+tags:
+  - engineeringmanagement
+  - management
+  - team-topologies
 ---
 
 A stream is the continuous flow of work aligned to a business domain or organizational capability. A stream requires clear goals and responsibilities so that multiple teams can coexist, each with their own flow of work.
@@ -35,3 +41,4 @@ Generally, stream-aligned teams require capabilities to progress work from its i
 
 ## Reference
 - _Team Topologies: Organizing Business and Technology Teams for Fast Flow by Manuel Pais and Matthew Skelton_
+

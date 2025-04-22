@@ -1,11 +1,11 @@
 ---
-tags: 
-  - machine learning
-  - LLM
-  - engineering
 title: Exploring Machine Learning Approaches For Fine Tuning Llama Models
 date: 2023-05-04
 description: null
+tags:
+  - machine-learning
+  - llm
+  - engineering
 ---
 
 ![](assets/exploring-machine-learning-approaches-for-fine-tuning-llama-models_b6f4054793fd3b5ef748c5dcf072cc09_md5.webp)
@@ -259,3 +259,4 @@ In conclusion, after looking through a ton of resources, we were able to walk ou
 * [https://renaissancerachel.com/prompting/](https://renaissancerachel.com/prompting/)
 * [https://xiaosean5408.medium.com/fine-tuning-llms-made-easy-with-lora-and-generative-ai-stable-diffusion-lora-39ff27480fda](https://xiaosean5408.medium.com/fine-tuning-llms-made-easy-with-lora-and-generative-ai-stable-diffusion-lora-39ff27480fda)
 * [https://arxiv.org/abs/2206.15312](https://arxiv.org/abs/2206.15312)
+

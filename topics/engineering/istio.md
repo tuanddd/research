@@ -1,9 +1,9 @@
 ---
-tags: 
-  - tool
 title: Istio
 date: 2019-06-09
 description: null
+tags:
+  - tool
 ---
 
 Istio is an implementation of the Service mesh architecture, which is a network of microservices that interactive with each other to form an application. Besides Istio, there are several concept applying service mesh architecture such as Linkerd, Consul.

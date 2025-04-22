@@ -1,8 +1,14 @@
 ---
-authors: Nguyen Xuan Anh
-github_id: monotykamary
+title: null
 date: 2022-04-18
-tags: engineering, database, transaction
+description: null
+authors:
+  - Nguyen Xuan Anh
+github_id: monotykamary
+tags:
+  - engineering
+  - database
+  - transaction
 ---
 
 ## What is the ACID model?
@@ -39,3 +45,4 @@ Most relational databases are ACID compliant, such as MySQL, PostgreSQL, Oracle,
 - https://database.guide/what-is-acid-in-databases/
 - https://phoenixnap.com/kb/acid-vs-base
 - https://www.indeed.com/career-advice/career-development/acid-database
+

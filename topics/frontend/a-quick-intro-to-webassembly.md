@@ -1,9 +1,9 @@
 ---
-tags: 
-  - wasm
 title: A Quick Intro To Webassembly
 date: 2020-06-15
-description: null 
+description: null
+tags:
+  - wasm
 ---
 
 If you haven’t heard of WebAssembly yet, then you will soon. It’s one of the industry’s best-kept secrets, but it’s everywhere. It’s supported by all the major browsers, and it’s coming to the server-side, too. It’s fast. It’s being used for gaming. It’s an open standard from the World Wide Web Consortium (W3C), the main international standards organization for the web.
@@ -212,3 +212,4 @@ In this effort, the first blueprint of WebAssembly was conceptualized. **WebAss
 **What is a stack machine?**
 
 A `stack machine`, unlike a `register machine`, works with a `stack`. A stack is a data structure to store some data in linear order. You can push a value on the stack and it will go on the top of the previous value in the stack. However, you can not pull a value from anywhere. You can only pop or pull the value that is on the top of the stack.
+

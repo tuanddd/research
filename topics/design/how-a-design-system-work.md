@@ -1,10 +1,10 @@
 ---
-tags: 
-  - design
-  - technique
 title: How A Design System Work
 date: 2020-05-09
 description: null
+tags:
+  - design
+  - technique
 ---
 
 This talk is created from my experiences & lesson learnt, the rule and self-code I've built and believe to be applicable. So I can guarantee you may not find some of it in any other places on the internet.
@@ -58,3 +58,4 @@ If Variation and Type (kind) have complex modify, we can consider dividing the V
 * Helps to note down a detailed instruction for the team (with >2 designers). This drives better communication between designer-designer and designer-developer.
 
 ![](assets/how-a-design-system-work_462d264e13a03129c48869ecadc606ed_md5.webp)
+

@@ -1,13 +1,13 @@
 ---
+title: Hook architecture in react
+date: 2024-10-29
+description: React hooks architecture with in-depth coverage of custom hooks, state management, and side effects handling.
 authors:
-  - 'thanh'
-date: '2024-10-29'
-description: 'React hooks architecture with in-depth coverage of custom hooks, state management, and side effects handling.'
+  - thanh
+short_title: Hook architecture
 tags:
-  - 'react'
-  - 'hook'
-title: 'Hook architecture in react'
-short_title: 'Hook architecture'
+  - react
+  - hook
 ---
 
 Hooks architecture in React refers to the systematic approach of using hooks to manage state, side effects, and reusable logic across components. **Custom hooks** are one of the most powerful features, allowing you to encapsulate and reuse complex logic independently of component structure. Custom hooks improve code readability, keep components lean, and make stateful logic portable and composable.
@@ -319,3 +319,4 @@ By modularizing each piece of the authentication system into separate custom hoo
 ### Summary
 
 Custom hooks provide a powerful way to architect stateful and reusable logic in React applications. By following best practices and focusing on modularity, you can create hooks that are easy to test, maintain, and scale across complex applications. The approach to combining, organizing, and testing these hooks leads to clean, efficient, and high-quality code.
+

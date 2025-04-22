@@ -1,11 +1,11 @@
 ---
-tags: 
-  - engineering
-  - practice
-  - technique
 title: Be Careful With Your Code Splitting Setup
 date: 2017-07-17
 description: null
+tags:
+  - engineering
+  - practice
+  - technique
 ---
 
 I thought I have been through hell this evening. Took me 6 hours debugging in the deep dark of hell. Oh right.
@@ -89,3 +89,4 @@ It took me so long to notice this because chunks grouping are one of those easy-
 My guess it that it took time to load `item` chunk when navigate from `Explore` component, but theres no reason for the virtual list to reset its own `scrollTop` before navigating.
 
 Now that this is partly solved, I need to look deeper to the implementation of the virtual list to see if anything can lead to above problem. It could also due to my naive, immature understanding of how code-splitting works.
+

@@ -1,13 +1,13 @@
 ---
-tags:
-  - frontend
-  - social-networks
-description: Each social network has its own unique way of handling URLs, and understanding the correct formatting can make a significant difference in the visibility and engagement of your shared content.
 title: URL formats for sharing via social networks
+date: 2023-05-26
+description: Each social network has its own unique way of handling URLs, and understanding the correct formatting can make a significant difference in the visibility and engagement of your shared content.
 authors:
   - nguyend-nam
 github_id: nguyend-nam
-date: 2023-05-26
+tags:
+  - frontend
+  - social-networks
 ---
 
 ## Why?
@@ -62,3 +62,4 @@ Check out some other formats that allow you to share a URL via some social netwo
 | Twitter  | <pre>`http://twitter.com/share?url=${url}`</pre>                        |
 | Telegram | <pre>`https://telegram.me/share/?url=${url}`</pre>                      |
 | Reddit   | <pre>`https://www.reddit.com/submit?url=${url}&title=${title}`</pre>    |
+

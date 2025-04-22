@@ -1,8 +1,14 @@
 ---
-tags: engineering, domain-driven-design, DDD
-authors: M.Vu Cuong(Jim)
-github_id: R-Jim
+title: null
 date: 2022-07-02
+description: null
+authors:
+  - M.Vu Cuong(Jim)
+github_id: R-Jim
+tags:
+  - engineering
+  - domain-driven-design
+  - ddd
 ---
 
 ## What is Domain Model
@@ -35,3 +41,4 @@ A high-level structure consists of categorizations of functionality, represents 
 - https://creately.com/blog/diagrams/event-storming/
 - https://www.jamesmichaelhickey.com/domain-driven-design-aggregates/
 - https://serialized.io/java/working-with-aggregates/
+

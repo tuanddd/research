@@ -1,14 +1,14 @@
 ---
+title: Validation with Zod
+date: 2023-01-17
+description: Zod is the TypeScript-first schema validation library with static type inference.
+authors:
+  - namtrhg
+github_id: namtrhg
 tags:
   - frontend
   - parsing
   - typescript
-authors:
-  - namtrhg
-github_id: namtrhg
-date: 2023-01-17
-title: Validation with Zod
-description: Zod is the TypeScript-first schema validation library with static type inference.
 ---
 
 **Zod** is the TypeScript-first schema validation library with static type inference. It's functional approach to data validation is [[Parse, don't validate in TypeScript]] which parses the data in order to validate and catch errors.
@@ -122,3 +122,4 @@ Both Zod and Yup are robust validation libraries, and the choice between them is
 - <https://github.com/jquense/yup>
 - <https://blog.logrocket.com/comparing-schema-validation-libraries-zod-vs-yup/>
 - <https://blog.logrocket.com/schema-validation-typescript-zod/>
+

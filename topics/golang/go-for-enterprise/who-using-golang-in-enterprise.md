@@ -1,13 +1,13 @@
 ---
+title: Who is using Go in enterprise?
+date: 2024-09-13
+description: This content map explores the companies and organizations that have embraced Go as their primary programming language for enterprise-level applications.
+authors:
+  - fuatto
 tags:
   - enterprise
   - golang
   - language
-authors:
-  - fuatto
-title: 'Who is using Go in enterprise?'
-description: 'This content map explores the companies and organizations that have embraced Go as their primary programming language for enterprise-level applications.'
-date: 2024-09-13
 ---
 
 ## Who is using Go in enterprise?
@@ -98,3 +98,4 @@ https://einride.engineering/docs/tech-radar/backend#go
 https://github.com/cloudflare?language=go
 
 https://github.com/dropbox?language=go
+

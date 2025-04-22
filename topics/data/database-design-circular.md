@@ -1,13 +1,13 @@
 ---
-tags: 
+title: Database design Circular
+date: 2024-10-30
+description: A comprehensive guide to understanding circular references in database design, including types, challenges, real-world applications, and solutions for managing them effectively. Covers self-references, circular dependencies, and strategies for maintaining data integrity while working with circular relationships.
+authors:
+  - hieuthu1
+tags:
   - database
   - sql
   - data-modeling
-title: "Database design Circular"
-description: "A comprehensive guide to understanding circular references in database design, including types, challenges, real-world applications, and solutions for managing them effectively. Covers self-references, circular dependencies, and strategies for maintaining data integrity while working with circular relationships."
-authors:
-  - hieuthu1
-date: 2024-10-30
 ---
 
 In the database solution design, there is the bad practices is called circular references.
@@ -72,3 +72,4 @@ Circular references can be useful or even necessary in certain scenarios where r
 - https://medium.com/akurey/dont-be-circular-b59c5609d472
 - https://www.codeproject.com/Articles/38655/Prevent-Circular-References-in-Database-Design
 - https://github.com/Wuodan/SQL-Find-Circular-References
+

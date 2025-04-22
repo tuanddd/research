@@ -1,9 +1,18 @@
 ---
-tags: engineering/backend, elixir, k8s, kubernetes, service-account, libcluster
-authors: Hieu Phan
-github_id: hieuphq
+title: null
 date: 2022-11-02
+description: null
+authors:
+  - Hieu Phan
+github_id: hieuphq
 icy: 10
+tags:
+  - engineeringbackend
+  - elixir
+  - k8s
+  - kubernetes
+  - service-account
+  - libcluster
 ---
 
 In the Dwarves Foundation, we applied some practices to decrease the operation cost. We set up the runtime environments in the team.
@@ -285,3 +294,4 @@ In the meantime, we can take advantage of Elixir's power. We can easy to scale t
 - https://medium.com/@groksrc/elixir-kubernetes-part-3-9bbd71c9c370
 - https://mbuffa.github.io/tips/20201022-elixir-clustering-on-kubernetes/
 - https://github.com/hieuphq/ex_cluster
+

@@ -1,9 +1,15 @@
 ---
-tags: engineering/data, DBT, ETL
-authors: Bach Phuong
-github_id: Bachpx2911
+title: null
 date: 2022-11-21
+description: null
+authors:
+  - Bach Phuong
+github_id: Bachpx2911
 icy: 10
+tags:
+  - engineeringdata
+  - dbt
+  - etl
 ---
 
 Transformation is one of the most important process in building data warehouse. It will allow you to clean, combine, remove duplicates, reorganize, and filter all your data. The transformation will enable your enterprise to develop useful and reliable insights via analytics and There are several tools on market for it such as Striim, Pentaho,  Hevo Data..Yet, the one that clearly stands out, in particular, the data build tool. This article will introduce and review DBT in transforming data.
@@ -51,3 +57,4 @@ In conclusion, I think DBT is a good tool for transforming data. I think that th
 ## References
 - https://www.analytics8.com/blog/dbt-overview-what-is-dbt-and-what-can-it-do-for-my-data-pipeline/
 - https://docs.getdbt.com/docs/get-started/learning-more/using-jinja
+

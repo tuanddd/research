@@ -1,8 +1,11 @@
 ---
+title: Perceiving vs Judging
+date: null
+description: null
 tag: MBTI, preferences
 URL: https://drive.google.com/file/d/1n8ID_iXqzs6cMZlRS0Su7lQUhrfd7khh/view?usp=sharing
-title: Perceiving vs Judging
 ---
+
 Book: My True Type, page 46 - 57
 
 > Characteristics of J Types:

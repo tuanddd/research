@@ -1,3 +1,8 @@
+---
+title: null
+date: null
+description: null
+---
 
 #### Enforce invariants with `assert()`
 An assert guard triggers when an assertion fails - such as an invariant property changing. For
@@ -54,3 +59,4 @@ contract Sharer {
 ```
 
 See [SWC-110](https://swcregistry.io/docs/SWC-110) & [SWC-123](https://swcregistry.io/docs/SWC-123)
+

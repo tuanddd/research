@@ -1,7 +1,9 @@
 ---
+title: Introversion vs Extraverion
+date: null
+description: null
 tag: MBTI,preferences
 URL: https://drive.google.com/file/d/1n8ID_iXqzs6cMZlRS0Su7lQUhrfd7khh/view?usp=sharing
-title: Introversion vs Extraverion
 ---
 
 Book: My True Type, page 24 - 32
@@ -28,3 +30,4 @@ Common Extraverted Traits:
 - Often more talkative (especially ENJs) 
 - More world-reflective and world-aware 
 - Require less time to themselves 
+

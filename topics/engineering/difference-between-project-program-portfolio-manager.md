@@ -1,9 +1,19 @@
 ---
-tags: engineering/management, management, process, analysis, documentation, requirements, enhancements
-authors: Nhut Huynh
-github_id: nhuthm
+title: null
 date: 2023-01-17
+description: null
+authors:
+  - Nhut Huynh
+github_id: nhuthm
 icy: 10
+tags:
+  - engineeringmanagement
+  - management
+  - process
+  - analysis
+  - documentation
+  - requirements
+  - enhancements
 ---
 
 When working in the Software Development team, especially for those Product team, we might recognize several manager roles: Project Manager - Product Manager, Program Manager, and Portfolio Manager. On the Internet, we can find those definition for them, on this note, it just a short summarize on what I understand after reading from the specific source.
@@ -24,3 +34,4 @@ Basically, for those 3 roles: Project Manager, Program Manager, and Portfolio Ma
 
 ## References
 - https://www.northeastern.edu/graduate/blog/project-management-vs-portfolio-management-vs-program-management/
+

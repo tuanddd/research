@@ -1,9 +1,9 @@
 ---
-tags: 
-  - devops
 title: About Devops
 date: 2018-07-23
 description: null
+tags:
+  - devops
 ---
 
 ## What is DevOps actually?
@@ -153,3 +153,4 @@ Reference tools:
 ## Roadmap 2018
 
 ![](assets/about-devops_3ff5afb2faea481c0d85fe0d0f4591b5_md5.webp)
+

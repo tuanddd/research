@@ -1,8 +1,14 @@
 ---
-tags: engineering, git, git-flow
-authors: Hieu Phan
-github_id: hieuphq
+title: null
 date: 2021-08-11
+description: null
+authors:
+  - Hieu Phan
+github_id: hieuphq
+tags:
+  - engineering
+  - git
+  - git-flow
 ---
 
 ### What is git?
@@ -117,3 +123,4 @@ Overall, Git acts like a time machine. When you travel from A to B in time, you 
 - https://nvie.com/posts/a-successful-git-branching-model/
 - https://danielkummer.github.io/git-flow-cheatsheet/
 - https://github.com/k88hudson/git-flight-rules
+

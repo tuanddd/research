@@ -1,5 +1,11 @@
 ---
-tags: ux, design, personas
+title: null
+date: null
+description: null
+tags:
+  - ux
+  - design
+  - personas
 ---
 
 Personas are frequently cited as helping development teams achieve empathy for their users.

@@ -1,5 +1,10 @@
 ---
-tags: brainstom, communication
+title: null
+date: null
+description: null
+tags:
+  - brainstom
+  - communication
 ---
 
 The Pyramid Principle, popularized by McKinsey's Barbara Minto, is a framework for organizing information.

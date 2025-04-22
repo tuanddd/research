@@ -1,8 +1,11 @@
 ---
+title: Extraverted Intuition (Ne)
+date: null
+description: null
 tag: MBTI, function
 URL: https://drive.google.com/file/d/1n8ID_iXqzs6cMZlRS0Su7lQUhrfd7khh/view?usp=sharing
-title: Extraverted Intuition (Ne)
 ---
+
 Book: My True Type, page 70 - 78
 
 https://practicaltyping.com/2020/02/24/7-differences-between-ne-and-ni-users/#
@@ -33,4 +36,5 @@ Ne often present as open-minded, receptive, creative, inquisitive, random, distr
 - Ne knows a little about a lot, while Ni knows a lot about a little
 
 - Ne is good at producing words, while Ni struggles to verbalize thoughts
+
 

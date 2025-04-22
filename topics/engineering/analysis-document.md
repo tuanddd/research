@@ -1,9 +1,19 @@
 ---
-tags: engineering/management, management, process, analysis, documentation, requirements, enhancements
-authors: Nhut Huynh
-github_id: nhuthm
+title: null
 date: 2023-01-03
+description: null
+authors:
+  - Nhut Huynh
+github_id: nhuthm
 icy: 10
+tags:
+  - engineeringmanagement
+  - management
+  - process
+  - analysis
+  - documentation
+  - requirements
+  - enhancements
 ---
 
 *The following entry is taken from field experience that I'm doing in a team project.*
@@ -21,3 +31,4 @@ In one Product team, we will receive quite a lot of requirements to do the enhan
 With this document, there are 2 things that we can be confident with:
 - We can finalize again the requirement from our client again before starting to work on the development.
 - Every members will have the chance to think and make the plan before developing and testing, to prepare their works as good as possible.
+

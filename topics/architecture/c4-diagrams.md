@@ -1,8 +1,14 @@
 ---
-tags: engineering, architecture, diagram
-authors: Nguyen Xuan Anh
-github_id: monotykamary
+title: null
 date: 2022-04-17
+description: null
+authors:
+  - Nguyen Xuan Anh
+github_id: monotykamary
+tags:
+  - engineering
+  - architecture
+  - diagram
 ---
 
 ## What are C4 diagrams?
@@ -26,3 +32,4 @@ The C4 model was created by Simon Brown, designed with the goal for it to be a d
 
 - <https://c4model.com/>
 - <https://en.wikipedia.org/wiki/C4_model>
+

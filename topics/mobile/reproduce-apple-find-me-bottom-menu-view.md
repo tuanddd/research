@@ -1,9 +1,9 @@
 ---
-tags: 
-  - swift
 title: Reproduce Apple Find Me Bottom Menu View
 date: 2019-06-29
 description: null
+tags:
+  - swift
 ---
 
 Today we are going to recreate Find Me Bottom Menu view in few lines of code.
@@ -55,3 +55,4 @@ Finally, test out the menu
 
 Full source code:
 [https://github.com/viettrungphan/BottomMenu.git\](https://github.com/viettrungphan/BottomMenu.git%5C)
+

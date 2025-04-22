@@ -1,13 +1,13 @@
 ---
-tags: 
- - blockchain
- - multisign-wallet
-authors: 
- - thanhpn
-title: 'Multisign wallet'
-github_id: thanhpn
-description: A multisign wallet is a type of digital wallet that requires multiple signatures to authorize transactions. This article provides an overview of multisign wallets, how they work, and their benefits.
+title: Multisign wallet
 date: 2022-08-10
+description: A multisign wallet is a type of digital wallet that requires multiple signatures to authorize transactions. This article provides an overview of multisign wallets, how they work, and their benefits.
+authors:
+  - thanhpn
+github_id: thanhpn
+tags:
+  - blockchain
+  - multisign-wallet
 ---
 
 ![](assets/multisign-wallet-hero-image.webp)
@@ -270,3 +270,4 @@ There is no universal standard for writing Multisig Wallet, but we can refer to 
 - https://www.binance.vision/security/what-is-a-multisig-wallet
 - https://medium.com/hellogold/ethereum-multi-signature-wallets-77ab926ab63b
 - https://www.gemini.com/cryptopedia/what-is-a-multi-sig-wallet-crypto-multi-signature-wallet
+

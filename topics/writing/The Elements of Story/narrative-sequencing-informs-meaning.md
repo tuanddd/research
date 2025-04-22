@@ -1,5 +1,11 @@
 ---
-tags: story-telling, communication, narrative
+title: null
+date: null
+description: null
+tags:
+  - story-telling
+  - communication
+  - narrative
 ---
 
 The sequence of information in any story or narrative contributes to the overall meaning of the text. The impact of a fact or an insight can be amplifed or diminished depending on what comes before or after.
@@ -18,3 +24,4 @@ But, keep in mind your purpose: if your goal is to inform rather than to persuad
 #### Citations
 
 [[≈ The Elements of Story | Flaherty, Francis. The Elements of Story: Field Notes on Nonfiction Writing. Reprint edition. Harper Perennial, 2010.]]
+

@@ -1,8 +1,15 @@
 ---
-tags: engineering, state, diagram, machines
-authors: Nguyen Xuan Anh
-github_id: monotykamary
+title: null
 date: 2022-06-28
+description: null
+authors:
+  - Nguyen Xuan Anh
+github_id: monotykamary
+tags:
+  - engineering
+  - state
+  - diagram
+  - machines
 ---
 
 ## What is a Moore machine?
@@ -82,3 +89,4 @@ Both Mealy and Moore machines are generator-type state machines and can be used 
 - https://en.wikipedia.org/wiki/Mealy_machine
 - https://www.cs.ucdavis.edu/~rogaway/classes/120/spring13/eric-transducers
 - https://unstop.com/blog/difference-between-mealy-and-moore-machine
+

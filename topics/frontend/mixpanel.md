@@ -1,15 +1,15 @@
 ---
-tags: 
- - typescript
- - frontend
- - analytics-tools
- - analytics-platform
-authors: 
- - namtrhg
-description: Mixpanel is a powerful analytics platform that assists companies in monitoring and analyzing user behavior on their websites and mobile applications.
 title: Mixpanel
-github_id: namtrhg
 date: 2023-02-13
+description: Mixpanel is a powerful analytics platform that assists companies in monitoring and analyzing user behavior on their websites and mobile applications.
+authors:
+  - namtrhg
+github_id: namtrhg
+tags:
+  - typescript
+  - frontend
+  - analytics-tools
+  - analytics-platform
 ---
 
 Mixpanel is a powerful analytics platform that assists companies in monitoring and analyzing user behavior on their websites and mobile applications. With Mixpanel, you can analyze user activity, evaluate the performance of your products, and improve user experience through data-driven decisions. ![](assets/mixpanel_dashboard.webp)
@@ -80,3 +80,4 @@ You can observe all the events created by the users. ![](assets/mixpanel_user_ac
 
 - <https://developer.mixpanel.com/docs>
 - <https://www.npmjs.com/package/mixpanel-browser>
+

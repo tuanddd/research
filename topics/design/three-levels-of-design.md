@@ -1,9 +1,9 @@
 ---
-tags: 
-  - design
 title: Three Levels Of Design
 date: 2018-03-21
 description: null
+tags:
+  - design
 ---
 
 Don Norman in his book titled *The Design of Everyday Things* talks about three levels of design — Visceral Level, Behavioral Level and Reflective Level — on how they work together and play an important role in determining how people like or dislike the product. In other words, these three levels together determine whether your product is successful or not.
@@ -44,4 +44,5 @@ The joy users get using your product that lasts forever.
 
 ### Overall impression of the product
 The more users like the product, the more they are going to keep using it. Not only use it, but recommend it to others.
+
 

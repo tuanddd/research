@@ -1,8 +1,14 @@
 ---
-tags: engineering, database, SQL
-authors: Hoang Nguyen
-github_id: nnhuyhoang
+title: null
 date: 2022-07-12
+description: null
+authors:
+  - Hoang Nguyen
+github_id: nnhuyhoang
+tags:
+  - engineering
+  - database
+  - sql
 ---
 
 ## What is Full-text search?
@@ -221,3 +227,4 @@ Examples in this post are demonstrated with `Postgresql >= 11.x` and use `tweets
 - https://wiki.postgresql.org/images/2/25/Full-text_search_in_PostgreSQL_in_milliseconds-extended-version.pdf
 - https://www.compose.com/articles/mastering-postgresql-tools-full-text-search-and-phrase-search/
 - SQL Performance Explained by Markus Winand (Book)
+

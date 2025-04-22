@@ -1,14 +1,15 @@
 ---
-tags: 
-  - nix
-  - docker
-  - devbox
-title: "Fixed-output Derivation in Nix"
+title: Fixed-output Derivation in Nix
 date: 2024-08-01
 description: An explanation of fixed-output derivations in Nix and their role in ensuring reproducible builds
 authors:
   - bievh
+tags:
+  - nix
+  - docker
+  - devbox
 ---
+
 On different machines with different nixpkgs versions, Nix build will result different packages.
 
 To handle this issue, Fixed-output derivation is raised. It simply means the result of the Nix build called derivation, is represented by a fixed hash. Any change when re-building will let the hash change. Once the current hash and the new hash are different, the build fails.
@@ -34,3 +35,4 @@ https://bmcgee.ie/posts/2023/02/nix-what-are-fixed-output-derivations-and-why-us
 
 *Advanced Attributes - Nix Reference Manual*. (n.d.). nix.dev. Retrieved August 2, 2024, from https://nix.dev/manual/nix/2.18/
 language/advanced-attributes.html?highlight=outputHash
+

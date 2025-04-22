@@ -1,8 +1,15 @@
 ---
-tags: engineering/management, management, enabling-team, team-topologies
-authors: Pham Duc Thanh
-github_id: zlatanpham
+title: null
 date: 2022-08-15
+description: null
+authors:
+  - Pham Duc Thanh
+github_id: zlatanpham
+tags:
+  - engineeringmanagement
+  - management
+  - enabling-team
+  - team-topologies
 ---
 
 To succeed in a competitive environment, [[Stream-aligned team | stream-aligned teams]] must continually learn and improve their capabilities. But with constant pressure to deliver and respond to change quickly, how can a stream-aligned team with end-to-end ownership find time to do research, read about new skills, practice them, and then integrate the new knowledge into its service delivery?
@@ -28,3 +35,4 @@ The purpose of enabling teams is to help stream-aligned teams deliver working so
 
 ## Reference
 - _Team Topologies: Organizing Business and Technology Teams for Fast Flow by Manuel Pais and Matthew Skelton_
+

@@ -1,9 +1,9 @@
 ---
-tags: 
-  - agile
 title: Sprint Lifecycle
 date: 2016-02-10
 description: null
+tags:
+  - agile
 ---
 
 ## Sprint "milestones"
@@ -33,3 +33,4 @@ Below listed are the rules for each step of the sprint lifecycle. ***No except
 
 * The code release will be deployed on our *internal* staging on Friday
 * The code release will be deployed on the customer's staging Tuesday morning after the end of the sprint.
+

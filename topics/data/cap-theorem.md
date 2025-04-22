@@ -1,8 +1,15 @@
 ---
-tags: engineering, database, transaction, distributed
-authors: Nguyen Xuan Anh
-github_id: monotykamary
+title: null
 date: 2022-04-18
+description: null
+authors:
+  - Nguyen Xuan Anh
+github_id: monotykamary
+tags:
+  - engineering
+  - database
+  - transaction
+  - distributed
 ---
 
 ## What is CAP theorem
@@ -25,3 +32,4 @@ Eric Brewer makes it a point that you can only have 2 out of 3 guarantees in CAP
 #### Reference
 - https://en.wikipedia.org/wiki/CAP_theorem
 - https://www.ibm.com/cloud/learn/cap-theorem
+

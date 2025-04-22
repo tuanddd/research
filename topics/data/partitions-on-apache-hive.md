@@ -1,9 +1,19 @@
 ---
-tags: engineering/data, mapreduce, distributed, hadoop, apache-hive, hdfs, partitions
-authors: Dung Ho
-github_id: dudaka
+title: null
 date: 2022-12-02
+description: null
+authors:
+  - Dung Ho
+github_id: dudaka
 icy: 10
+tags:
+  - engineeringdata
+  - mapreduce
+  - distributed
+  - hadoop
+  - apache-hive
+  - hdfs
+  - partitions
 ---
 
 Have you ever been in a situation where you are trying to optimize a slow running query to make it run faster? In our case, we have been looking at that query for hours and realized that the query is scanning the entire table and we are thinking that this query will be super fast if it only targets specific set of records instead of the entire table. Thus, what we really want, hopefully you too, in such cases is partitions.
@@ -223,3 +233,4 @@ And this query with the where condition exchange name and volume will execute wi
 
 ## References
 - https://stackoverflow.com/questions/21876837/not-able-to-apply-dynamic-partitioning-for-a-huge-data-set-in-hive
+

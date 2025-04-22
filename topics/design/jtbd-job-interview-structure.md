@@ -1,5 +1,13 @@
 ---
-tags: ux, research, design, personas, jbtd
+title: null
+date: null
+description: null
+tags:
+  - ux
+  - research
+  - design
+  - personas
+  - jbtd
 ---
 
 This interview structure can be used to uncover customer jobs-to-be-done.

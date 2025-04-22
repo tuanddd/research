@@ -1,12 +1,12 @@
 ---
-tags: 
-  - devbox
-  - nix
-title: "Devbox vs Nix: Why We Chose Simplicity"
+title: Devbox vs Nix: Why We Chose Simplicity
 date: 2024-08-01
-description: Discover why Devbox is the smart choice for developers who want Nix's power without the learning curve
+description: "Discover why Devbox is the smart choice for developers who want Nix's power without the learning curve"
 authors:
   - bievh
+tags:
+  - devbox
+  - nix
 ---
 
 Let's cut to the chase: Devbox is Nix with training wheels, and that's a good thing. Here's why we're all in on Devbox for building killer dev environments.
@@ -69,3 +69,4 @@ Ready to make your dev setup both bulletproof and brain-dead simple? Give Devbox
 - [Nix Language Documentation](https://nix.dev/manual/nix/2.18/language/)
 - [Nix Shell: The Foundation](https://nixos.org/manual/nix/stable/command-ref/nix-shell.html)
 - [Nix Flakes: Next-Level Package Management](https://nixos.wiki/wiki/Flakes)
+

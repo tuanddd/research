@@ -1,8 +1,16 @@
 ---
-tags: engineering, architecture, diagram, service, domain
-authors: Nguyen Xuan Anh
-github_id: monotykamary
+title: null
 date: 2022-06-21
+description: null
+authors:
+  - Nguyen Xuan Anh
+github_id: monotykamary
+tags:
+  - engineering
+  - architecture
+  - diagram
+  - service
+  - domain
 ---
 
 ## What is service-based architecture?
@@ -23,3 +31,4 @@ It is quite arguably a one-size fits a lot of stuff architecture. It is very sui
 - https://microservices.io/
 - https://en.wikipedia.org/wiki/Microservices
 - https://nofluffjuststuff.com/magazine/2015/10/the_challenges_of_service_based_architecture
+

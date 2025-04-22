@@ -1,13 +1,13 @@
 ---
+title: "Ton's base concepts"
+date: 2024-07-17
+description: Base concepts to begin with TON development
+authors:
+  - bievh
 tags:
   - web3
   - blockchain
   - ton
-title: "Ton's base concepts"
-date: 2024-07-17
-description: 'Base concepts to begin with TON development'
-authors:
-  - bievh
 ---
 
 In my previous post, [Ton: Blockchain of Blockchains](ton-blockchain-of-blockchains.md), I talked about some core technologies that make TON strong. However, it was just an overview. To begin developing on TON is not enough. Today, I will introduce some core concepts in TON that you will frequently work with as a TON developer.
@@ -99,3 +99,4 @@ TON does not automatically calculate gas. The entire transaction execution, with
 ## Conclusion
 
 With all the above concepts, we can now begin developing on TON. But these are actually not enough. We will continue diving deep into more complex concepts such as data format, transaction layout, or bounceable addresses when developing something in the next post.
+

@@ -1,14 +1,14 @@
 ---
-title: 'Securing your remote MCP servers'
+title: Securing your remote MCP servers
 date: 2025-03-27
-description: 'This guide explores implementing robust authorization for Model Context Protocol (MCP) over Server-Sent Events (SSE) transport, providing a standardized framework for secure AI-to-tool communication while maintaining vendor independence.'
+description: This guide explores implementing robust authorization for Model Context Protocol (MCP) over Server-Sent Events (SSE) transport, providing a standardized framework for secure AI-to-tool communication while maintaining vendor independence.
 authors:
-- monotykamary
+  - monotykamary
 github_id: monotykamary
 tags:
-- ai
-- security
-- mcp
+  - ai
+  - security
+  - mcp
 ---
 
 ![](assets/securing-your-remote-mcp-servers-1.webp)
@@ -635,3 +635,4 @@ A production-ready MCP Server must address several critical infrastructure conce
 By implementing this authorization framework for MCP over SSE, you establish a secure foundation for AI-to-tool communication that balances robust security with practical implementation requirements. The standardized approach enables seamless integration with existing identity infrastructure while maintaining the flexibility needed in diverse deployment environments.
 
 As the MCP ecosystem continues to evolve, this security foundation will support increasingly sophisticated interactions between AI systems and external tools, enabling new capabilities while maintaining appropriate security boundaries. By embracing open standards and security best practices, your MCP implementation will remain both secure and interoperable in a rapidly evolving AI landscape.
+

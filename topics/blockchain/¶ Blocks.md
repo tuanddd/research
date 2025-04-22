@@ -1,12 +1,12 @@
 ---
-title: 'Blocks'
+title: Blocks
 date: 2022-06-16
 description: This article provides an overview of blocks in blockchain technology, including their structure, types, and how they work.
-github_id: thanhpn
 authors:
- - thanhpn
+  - thanhpn
+github_id: thanhpn
 tags:
- - blockchain
+  - blockchain
 ---
 
 ## Blocks
@@ -81,3 +81,4 @@ Gas is used to estimate the difficulty of all transactions in the block. Every f
 #### Reference
 
 https://ethereum.org/en/developers/docs/blocks/
+

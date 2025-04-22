@@ -1,3 +1,9 @@
+---
+title: null
+date: null
+description: null
+---
+
 Research is not useful it is stuck on a PowerPoint slide and stored on somebody's hard drive. To be valuable, research and insights need to be published in a way that makes them accessible to those who need them. The insights should be highly available, easy to find, easy to consume, and easy to use. The onus should be on the researcher to design the repository against these requirements.
 
 ---

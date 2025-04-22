@@ -1,12 +1,12 @@
 ---
-tags: 
+title: I18n Frontend Guideline
+date: 2023-04-03
+description: null
+tags:
   - frontend
   - web
   - engineering
   - performance
-title: I18n Frontend Guideline
-date: 2023-04-03
-description: null
 ---
 
 ![](assets/i18n-frontend-guideline_0d5e0a2c5a795b96f65caa5b7a360578_md5.webp)
@@ -212,3 +212,4 @@ Follow our journey
 * Fanpage: [facebook.com/dwarvesf](http://facebook.com/dwarvesf)
 * LinkedIn: [linkedin.com/company/dwarvesf](http://linkedin.com/company/dwarvesf)
 * Substack: [https://memo.d.foundation/](https://memo.d.foundation/)
+

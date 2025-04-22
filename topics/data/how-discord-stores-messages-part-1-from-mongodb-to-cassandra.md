@@ -1,9 +1,21 @@
 ---
-tags: engineering, database, discord, monogodb, cassandra, distributed-storage, migration, sql, nosql
-authors: Phat Nguyen
-github_id: fuatto
+title: null
 date: 2023-06-02
+description: null
+authors:
+  - Phat Nguyen
+github_id: fuatto
 icy: 10
+tags:
+  - engineering
+  - database
+  - discord
+  - monogodb
+  - cassandra
+  - distributed-storage
+  - migration
+  - sql
+  - nosql
 ---
 
 ## Introduction
@@ -122,3 +134,4 @@ At the time, Discord were running 12-node cluster with a replica factor of 3. Co
 - https://datacadamia.com/cassandra/cassandra#kkv_store
 - https://en.wikipedia.org/wiki/CAP_theorem
 - https://discord.com/blog/how-discord-stores-billions-of-messages
+

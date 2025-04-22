@@ -1,11 +1,11 @@
 ---
-tags: 
-  - devbox
-title: "Devbox: Your Dev Environment on Steroids"
+title: Devbox: Your Dev Environment on Steroids
 date: 2024-08-01
 description: Forget setup headaches. Devbox delivers instant, rock-solid dev environments powered by Nix.
 authors:
   - bievh
+tags:
+  - devbox
 ---
 
 Remember the last time you onboarded a new developer? Or tried a new tool without wrecking your setup? Yeah, it probably sucked. But it doesn't have to.
@@ -101,3 +101,4 @@ Ready to supercharge your dev setup? Give Devbox a shot. Your future self (and y
 - [Nix Package Manager](https://nixos.org/)
 - [Nixpkgs Repository](https://github.com/NixOS/nixpkgs)
 - [Nix Flakes](https://nixos.wiki/wiki/Flakes)
+

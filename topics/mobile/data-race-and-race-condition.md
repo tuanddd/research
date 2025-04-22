@@ -1,9 +1,18 @@
 ---
-tags: mobile, swift, race, race-condition, multi-threaded, concurrency
-authors: Pham The Hung
-github_id: pthung1311
+title: null
 date: 2022-12-11
+description: null
+authors:
+  - Pham The Hung
+github_id: pthung1311
 icy: 10
+tags:
+  - mobile
+  - swift
+  - race
+  - race-condition
+  - multi-threaded
+  - concurrency
 ---
 
 This article will present a concept, which is `Data Race`. And what are we going to do to ensure data safety in multithreaded programming.
@@ -147,3 +156,4 @@ In this article, we know the difference between `Race Condition` and `Data Race`
 ## References
 - [Race condition vs. Data Race: the differences explained](https://www.avanderlee.com/swift/race-condition-vs-data-race)
 - [Data race và Mutual exclusion](https://viblo.asia/p/007-data-race-va-mutual-exclusion-4dbZNGvmlYM)
+

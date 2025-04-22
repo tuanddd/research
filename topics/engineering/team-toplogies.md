@@ -1,8 +1,18 @@
 ---
-tags: engineering/management, management, team-topologies, conway, enabling-team, team-design, team-structure
-authors: Pham Duc Thanh
-github_id: zlatanpham
+title: null
 date: 2022-08-15
+description: null
+authors:
+  - Pham Duc Thanh
+github_id: zlatanpham
+tags:
+  - engineeringmanagement
+  - management
+  - team-topologies
+  - conway
+  - enabling-team
+  - team-design
+  - team-structure
 ---
 
 Many organizations experience problems with software delivery because they have an unhelpful model of what software development is really about. An obsession with “feature delivery” ignores human-related and team-related dynamics inherent in modern software development, leading to disengagement from staff, especially when there are high cognitive loads.
@@ -31,3 +41,4 @@ Effective software delivery requires the combination of specific team types, but
 ## References
 - _Team Topologies: Organizing Business and Technology Teams for Fast Flow by Manuel Pais and Matthew Skelton_
 - https://teamtopologies.com/key-concepts
+

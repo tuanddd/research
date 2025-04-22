@@ -1,14 +1,14 @@
 ---
+title: Why Enterprise Chose Java
+date: 2024-08-30
+description: "Java has been widely adopted as the primary programming language for enterprise-level software development, emphasizing its platform independence, robust ecosystem, and extensive libraries. This choice aims to enhance scalability, ensure long-term support, and leverage Java's strong object-oriented programming principles in large-scale enterprise applications."
+authors:
+  - thangnt294
+  - fuatto
 tags:
   - enterprise
   - java
   - language
-authors:
-  - thangnt294
-  - fuatto
-title: 'Why Enterprise Chose Java'
-description: "Java has been widely adopted as the primary programming language for enterprise-level software development, emphasizing its platform independence, robust ecosystem, and extensive libraries. This choice aims to enhance scalability, ensure long-term support, and leverage Java's strong object-oriented programming principles in large-scale enterprise applications."
-date: 2024-08-30
 ---
 
 ## Why Java is chosen by enterprises
@@ -53,3 +53,4 @@ Even though C/C++ is considered faster than Java in almost every benchmark, Java
 - Paul Pacheco. _"What makes a programming language an enterprise programming language"_, Quora, 2022. [Link](https://www.quora.com/What-makes-a-programming-language-an-enterprise-programming-language)
 - Joey DeFrancesco. _"If C++ is faster than Java, how come Java is used in every enterprise application?"_, Quora, 2020. [Link](https://www.quora.com/If-C-is-faster-than-Java-how-come-Java-is-used-in-every-enterprise-application/answer/Joey-DeFrancesco?ch=10&oid=89079315&share=c530e7de&srid=sm2B&target_type=answer)
 - Trausti Thor Johannsson. _"If C++ is faster than Java, how come Java is used in every enterprise application?"_, Quora, March 6, 2024. [Link](https://www.quora.com/If-C-is-faster-than-Java-how-come-Java-is-used-in-every-enterprise-application/answer/Trausti-Thor-Johannsson?ch=10&oid=1477743744452601&share=57fb3215&srid=sm2B&target_type=answer)
+

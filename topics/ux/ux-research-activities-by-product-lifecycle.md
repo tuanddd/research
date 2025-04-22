@@ -1,5 +1,10 @@
 ---
-tags: ux, research
+title: null
+date: null
+description: null
+tags:
+  - ux
+  - research
 ---
 
 Different UX research methods align with different phases of the product lifecycle. The earlier in the process UX research is incorporated, the greater the value it can deliver. When possible, focus your budget, time, and energy on Discovery and Explore research tasks. However, there is useful information to gather at any point in development.

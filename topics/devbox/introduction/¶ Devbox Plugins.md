@@ -1,11 +1,11 @@
 ---
-tags: 
-  - devbox
-title: "Devbox Plugins: Turbocharge Your Dev Setup"
+title: Devbox Plugins: Turbocharge Your Dev Setup
 date: 2024-08-01
 description: Discover how Devbox Plugins streamline your development workflow by automating package setup and configuration
 authors:
   - bievh
+tags:
+  - devbox
 ---
 
 Ever spent hours configuring a new package in your dev environment? Yeah, we've all been there. It sucks. That's why we created Devbox Plugins.
@@ -81,3 +81,4 @@ So the next time you're adding a package to your Devbox project, remember: there
 - [Creating Custom Devbox Plugins](https://www.jetify.com/devbox/docs/guides/creating_plugins/)
 - [Nix Package Manager](https://nixos.org/)
 - [Nginx Documentation](https://nginx.org/en/docs/)
+

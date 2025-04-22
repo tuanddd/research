@@ -1,16 +1,16 @@
 ---
-tags: 
+title: The overview into Nix & how we use Devbox @ Dwarves
+date: 2024-04-24
+description: The overview into Nix & how we use Devbox @ Dwarves
+authors:
+  - hnh
+  - vhbien
+tags:
   - tooling
   - containerization
   - virtualization
   - docker
   - devbox
-title: "The overview into Nix & how we use Devbox @ Dwarves"
-date: 2024-04-24
-description: The overview into Nix & how we use Devbox @ Dwarves
-authors: 
-  - hnh
-  - vhbien
 ---
 
 This is the 3rd post of Devbox series includes
@@ -170,3 +170,4 @@ For now, this is the list of usecases I can provide. As I continue to learn and 
 ## Conclusion
 
 In summary, Nix and Devbox offer exciting new possibilities for streamlining software development processes. By providing a more efficient way to create reproducible development environments, Nix and Devbox can help teams overcome challenges and improve overall workflow. While they may not completely replace Docker, they can effectively address different problems and provide additional support where Docker may be struggling.
+

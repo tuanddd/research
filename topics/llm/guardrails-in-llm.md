@@ -1,11 +1,11 @@
 ---
-tags:
-  - llm
 title: Guardrails in llm
-description: "Inspite of having strength to process and produce highly coherent human-like, behavior of LLM is unpredictable, so the need of a safety mechanisms and boundaries that control and direct an AI model's behavior to ensure it operates safely, ethically, and within intended parameters is crucial..."
 date: 2024-10-24
+description: "Inspite of having strength to process and produce highly coherent human-like, behavior of LLM is unpredictable, so the need of a safety mechanisms and boundaries that control and direct an AI model's behavior to ensure it operates safely, ethically, and within intended parameters is crucial..."
 authors:
   - hoangnnh
+tags:
+  - llm
 ---
 
 Inspite of having strength to process and produce highly coherent human-like, behavior of LLM is unpredictable, so the need of a safety mechanisms and boundaries that control and direct an AI model's behavior to ensure it operates safely, ethically, and within intended parameters is crucial. That why we need guardrails in LLM.
@@ -117,3 +117,4 @@ Apply guardrails into LLM pipeline is a should-have strategy to ensure the safet
 - https://www.ml6.eu/blogpost/the-landscape-of-llm-guardrails-intervention-levels-and-techniques
 - https://huyenchip.com/2024/07/25/genai-platform.html#query_rewriting
 - https://cookbook.openai.com/examples/how_to_use_guardrails
+

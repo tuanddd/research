@@ -1,14 +1,14 @@
 ---
+title: Why Go?
+date: 2024-08-30
+description: An exploration of the reasons why Go is gaining traction as a preferred programming language for enterprise-level software development, including its simplicity, efficiency, and robust standard library.
+authors:
+  - thangnt294
+  - fuatto
 tags:
   - golang
   - programming
   - enterprise
-authors:
-  - thangnt294
-  - fuatto
-title: 'Why Go?'
-description: 'An exploration of the reasons why Go is gaining traction as a preferred programming language for enterprise-level software development, including its simplicity, efficiency, and robust standard library.'
-date: 2024-08-30
 ---
 
 ## Why Go
@@ -52,3 +52,4 @@ To conclude, when it comes to picking a language for application development, Go
 - Rob Pike. _"Go at Google: Language Design in the Service of Software Engineering"_, Google Inc, October 25, 2012. [Link](https://go.dev/talks/2012/splash.article)
 - Technoidentity. _"Opinion: Go vs Java Microservices"_, Technoidentity. [Link](https://www.technoidentity.com/insights/opinion-go-vs-java-microservices/)
 - Russell Cohen. _"Why you can have millions of Goroutines but only thousands of Java Threads"_, RCoh's Blog, April 12, 2018. [Link](https://rcoh.me/posts/why-you-can-have-a-million-go-routines-but-only-1000-java-threads/)
+

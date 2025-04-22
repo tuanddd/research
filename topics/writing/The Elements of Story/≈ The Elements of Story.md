@@ -1,5 +1,12 @@
 ---
-tags: story-telling, communication, narrative, writing
+title: null
+date: null
+description: null
+tags:
+  - story-telling
+  - communication
+  - narrative
+  - writing
 ---
 
 ## Summary
@@ -22,3 +29,4 @@ A manual on the craft of nonfiction writing from a "story doctor" for the _New Y
 #### Citation
 
 Flaherty, Francis. _The Elements of Story: Field Notes on Nonfiction Writing._ Reprint edition. Harper Perennial, 2010.
+

@@ -1,13 +1,13 @@
 ---
+title: "Go Commentary #19: Writing secure Go code"
+date: 2024-11-08
+description: Pratices to write secure Go code
+authors:
+  - fuatto
+short_title: "#19 Writing secure Go code"
 tags:
   - golang
   - go-weekly
-authors:
-  - fuatto
-title: 'Go Commentary #19: Writing secure Go code'
-short_title: '#19 Writing secure Go code'
-description: Pratices to write secure Go code
-date: 2024-11-08
 ---
 
 ## [Writing secure Go code](https://jarosz.dev/article/writing-secure-go-code/)

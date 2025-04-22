@@ -1,9 +1,17 @@
 ---
-tags: engineering, data-structures, binary-search-tree, avl-tree, binary-tree
-github_id: mirageruler
-authors: Khoi Nguyen
+title: null
 date: 2023-02-13
+description: null
+authors:
+  - Khoi Nguyen
+github_id: mirageruler
 icy: 10
+tags:
+  - engineering
+  - data-structures
+  - binary-search-tree
+  - avl-tree
+  - binary-tree
 ---
 
 ## What are trees?
@@ -207,3 +215,4 @@ type compareFunc[T any] func(T, T) int
 - https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6
 - https://www.youtube.com/watch?v=r5pXu1PAUkI&list=PL-K_ib5mxHXnukhVpx_wMun21O2GQUEE0&index=5
 - https://www.youtube.com/watch?v=IWzYoXKaRIc&list=PL-K_ib5mxHXnukhVpx_wMun21O2GQUEE0&index=6
+

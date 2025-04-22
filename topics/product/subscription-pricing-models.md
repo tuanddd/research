@@ -1,13 +1,13 @@
 ---
-tags: 
+title: Subscription Pricing Models
+date: 2024-07-19
+description: Overview of Subscription Pricing Models
+authors:
+  - hieuvd
+tags:
   - subscription
   - pricing
   - product
-title: "Subscription Pricing Models"
-description: "Overview of Subscription Pricing Models"
-authors:
-  - hieuvd
-date: 2024-07-19
 ---
 
 ## Pricing Models
@@ -101,3 +101,4 @@ date: 2024-07-19
 
 ## References
 https://www.chargebee.com/resources/guides/subscription-pricing-trial-strategy/find-the-right-pricing-model/
+

@@ -1,8 +1,15 @@
 ---
-tags: engineering/management, management, team-topologies, cognitive-load
-authors: Pham Duc Thanh
-github_id: zlatanpham
+title: null
 date: 2022-08-28
+description: null
+authors:
+  - Pham Duc Thanh
+github_id: zlatanpham
+tags:
+  - engineeringmanagement
+  - management
+  - team-topologies
+  - cognitive-load
 ---
 
 Cognitive load is a measure of how much mental effort is required for a task. It’s usually thought of as the amount of information you have to process at any given moment. For example, if you’re trying to solve a math problem, you have to hold in mind that 2+2=4, you need to know what 2 and 4 are, and you need to know how to add numbers together. That’s three separate things that your brain needs to remember at the same time.
@@ -13,3 +20,4 @@ When we talk about cognitive load, it’s easy to understand that any one person
 
 ## Reference
 - _Team Topologies: Organizing Business and Technology Teams for Fast Flow by Manuel Pais and Matthew Skelton_
+

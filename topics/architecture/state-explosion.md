@@ -1,8 +1,14 @@
 ---
-tags: engineering, state, diagram
-authors: Nguyen Xuan Anh
-github_id: monotykamary
+title: null
 date: 2022-05-22
+description: null
+authors:
+  - Nguyen Xuan Anh
+github_id: monotykamary
+tags:
+  - engineering
+  - state
+  - diagram
 ---
 
 ## What is state explosion?
@@ -30,3 +36,4 @@ Guards here serve as a pre-condition to a transition, which essentially prevents
 
 #### Reference
 - https://statecharts.dev/state-machine-state-explosion.html
+

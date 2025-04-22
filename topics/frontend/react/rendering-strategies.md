@@ -1,12 +1,12 @@
 ---
+title: Rendering strategies in React
+date: 2024-10-29
+description: React rendering strategies with in-depth coverage of client-side rendering (CSR), server-side rendering (SSR), and static site generation (SSG).
 authors:
-  - 'thanh'
-date: '2024-10-29'
-description: 'React rendering strategies with in-depth coverage of client-side rendering (CSR), server-side rendering (SSR), and static site generation (SSG).'
+  - thanh
+short_title: Rendering strategies
 tags:
-  - 'react'
-title: 'Rendering strategies in React'
-short_title: 'Rendering strategies'
+  - react
 ---
 
 Client-side rendering (CSR), server-side rendering (SSR), and static-site generation (SSG) are three key rendering strategies in modern web development. Each approach has unique advantages and trade-offs, impacting application performance, SEO, and user experience.
@@ -225,3 +225,4 @@ export default function Product({ product }) {
 ### Summary
 
 Choosing between CSR, SSR, and SSG depends on your application's needs for SEO, content freshness, interactivity, and performance. In many modern apps, a hybrid approach allows you to take advantage of each strategy where it's most beneficial, creating a fast, SEO-friendly, and interactive experience. Leveraging frameworks like Next.js simplifies managing these different rendering methods in a single React application, making it easier to build performant, user-friendly applications.
+

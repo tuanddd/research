@@ -1,9 +1,9 @@
 ---
-tags: 
-  - tutorial
 title: Infinite Image Gallery With R3f An Approach
 date: 2020-09-14
 description: null
+tags:
+  - tutorial
 ---
 
 ![](assets/infinite-image-gallery-with-r3f---an-approach_eb91b6c0aa14997e1a88191e1acaa8dd_md5.webp)
@@ -101,3 +101,4 @@ Shader is a complicated topic, so I’ll not be going into the detailed shader i
 Since I have mentioned that I’ll only be taking the core problems on a concept level, please forgive me if I have skipped too much on the technical aspect. All in all, it was a fun journey exploring how to build up a solution for an infinite gallery with r3f. The result came out better than I expected, though some performance issues are still around.
 
 If you are interested in the details of my implementation, please refer to my Github [repo](https://github.com/ngolapnguyen/infinite-image-gallery).
+

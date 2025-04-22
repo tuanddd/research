@@ -1,9 +1,16 @@
 ---
-tags: engineering/management, management, process, quality-assurance
-authors: Nhut Huynh
-github_id: nhuthm
+title: null
 date: 2022-11-08
+description: null
+authors:
+  - Nhut Huynh
+github_id: nhuthm
 icy: 10
+tags:
+  - engineeringmanagement
+  - management
+  - process
+  - quality-assurance
 ---
 
 *The following entry is from the thoughts, compositions, and conclusions from field work by one of our leads.*
@@ -40,3 +47,4 @@ Usually, when a developer finish their ticket for the feature enhancement from D
 ![](assets/quality-assurance-works-in-the-product-team_be_fe_testing_doc_format.webp)
 
 ![](assets/quality-assurance-works-in-the-product-team_be_fe_testing_doc_sample.webp)
+

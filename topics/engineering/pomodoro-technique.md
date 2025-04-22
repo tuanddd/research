@@ -1,8 +1,14 @@
 ---
-tags: management, time, pomodoro
-authors: Tran Hoang Nam
-github_id: namtrhg
+title: null
 date: 2022-09-25
+description: null
+authors:
+  - Tran Hoang Nam
+github_id: namtrhg
+tags:
+  - management
+  - time
+  - pomodoro
 ---
 
 ## What is Pomodoro Technique?
@@ -35,3 +41,4 @@ The pomodoro approach urges you to do precisely that: break down your huge activ
 
 ## Reference
 - Wikipedia Pomodoro_Technique [Link](https://en.wikipedia.org/wiki/Pomodoro_Technique).
+

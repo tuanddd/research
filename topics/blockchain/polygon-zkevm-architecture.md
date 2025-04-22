@@ -1,15 +1,15 @@
 ---
-tags: 
- - blockchain
- - evm
- - zk-rollup
- - polygon
-authors: 
- - thanhpn
-title: 'Polygon zkEVM architecture'
-github_id: thanhpn
+title: Polygon zkEVM architecture
 date: 2023-01-03
 description: This article provides an overview of the Polygon zkEVM architecture, including its main components, how it works, and its benefits.
+authors:
+  - thanhpn
+github_id: thanhpn
+tags:
+  - blockchain
+  - evm
+  - zk-rollup
+  - polygon
 ---
 
 ## Polygon zkEVM Architecture
@@ -115,3 +115,4 @@ State implement a Merkle Tree and connect to DB backend. it checks integrity of 
 - [zkEvm](https://wiki.polygon.technology/docs/zkEVM/proof-of-efficiency)
 - [Repo zkevm](https://github.com/0xPolygonHermez/zkevm-node)
 - [Polygon zkEVM](https://mirror.xyz/msfew.eth/JJudP_Kf-IS6VhbF-qU0BUor1Ap6SFEb0TzYOHZ34Rc)
+

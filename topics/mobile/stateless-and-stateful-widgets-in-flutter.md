@@ -1,8 +1,15 @@
 ---
-tags: engineering/mobile, flutter, stateless, stateful
-authors: Nguyen Tran Khanh
-github_id: knguyenuit
+title: null
 date: 2022-09-12
+description: null
+authors:
+  - Nguyen Tran Khanh
+github_id: knguyenuit
+tags:
+  - engineeringmobile
+  - flutter
+  - stateless
+  - stateful
 ---
 
 ## State
@@ -111,3 +118,4 @@ The `_MyAppState` class will override the `Widget build(BuildContext context)` m
   * They can be updated during runtime based on user action or data change.
   * Stateful Widgets have an internal state and can re-render if the input data changes or if Widget’s state changes.
   * For Example: Checkbox, Radio Button, Slider are Stateful Widgets
+

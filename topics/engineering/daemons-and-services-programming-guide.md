@@ -1,9 +1,9 @@
 ---
-tags: 
-  - macos
 title: Daemons And Services Programming Guide
 date: 2020-05-11
 description: null
+tags:
+  - macos
 ---
 
 ## About Daemons and Services
@@ -81,3 +81,4 @@ If you want to see the daemons currently running on your system, use the Activit
 Note: If you want to know more about the services provided by a particular daemon, consult the man page for that daemon. You can also view the manual pages online by reading OS X Man Pages.
 
 ![](assets/daemons-and-services-programming-guide_6b7ebc46edfa8c99dbdbfb540f15bb11_md5.webp)
+

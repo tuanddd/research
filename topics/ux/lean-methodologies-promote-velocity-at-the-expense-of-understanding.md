@@ -1,3 +1,9 @@
+---
+title: null
+date: null
+description: null
+---
+
 Design and product development methodologies like Lean are biased toward delivery. They're intended to limit waste and drive efficiency through "just in time" delivery of minimum viable solutions. This approach is intended to rapidly gather feedback from the market in order to drive continuous iteration on the product.
 
 Yet, this rapid pace means that decisions may be made without crucial information. Erika Hall argues that Lean methodologies are often used to promote velocity without providing the time necessary for contemplation and critique, or consideration of longer-term implications of a release. The consequences may not be fully considered.

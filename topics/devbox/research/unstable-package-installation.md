@@ -1,14 +1,15 @@
 ---
-tags: 
-  - docker
-  - devbox
-  - nix
-title: "Unstable Package Installation in Docker"
+title: Unstable Package Installation in Docker
 date: 2024-08-01
 description: An explanation of the challenges with package versioning that lets Docker builds unstable
 authors:
   - bievh
+tags:
+  - docker
+  - devbox
+  - nix
 ---
+
 For example, let's suppose that we have the following `Dockerfile`.
 
 ```Dockerfile
@@ -37,3 +38,4 @@ We have some keywords related to better solutions that I only list here for refe
 - Local cache
 - Private registry
 - Multistage builds
+

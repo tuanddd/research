@@ -1,8 +1,15 @@
 ---
-tags: engineering, long-terms, philosophy, engineering-management
-authors: Pham Duc Thanh
-github_id: zlatanpham
+title: null
 date: 2022-03-21
+description: null
+authors:
+  - Pham Duc Thanh
+github_id: zlatanpham
+tags:
+  - engineering
+  - long-terms
+  - philosophy
+  - engineering-management
 ---
 
 When being asked why Facebook is able to consistently produce new technology that alter the way we build software in the industry. [Lee Byron](https://leebyron.com/) noted down his thought on that statement.
@@ -15,3 +22,4 @@ Every single project could face considerable internal opposition. There will be 
 
 #### Reference
 - https://leebyron.com/why-invest-in-tools/
+

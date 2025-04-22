@@ -1,4 +1,7 @@
 ---
+title: null
+date: null
+description: null
 recurringTemplate: true
 recurringTemplateName: engineering-mobile-moc
 ---
@@ -13,3 +16,4 @@ This is a [[Map of Content]] related to the engineering concepts around mobile.
 
 
 *This page was last modified at 2024-03-15T05:48:35.867Z*.
+

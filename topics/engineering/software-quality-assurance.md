@@ -1,8 +1,14 @@
 ---
-tags: engineering, quality, quality-assurance
-authors: Ngo Trong Khoi
-github_id: trkhoi
+title: null
 date: 2022-10-04
+description: null
+authors:
+  - Ngo Trong Khoi
+github_id: trkhoi
+tags:
+  - engineering
+  - quality
+  - quality-assurance
 ---
 
 ## Definition of Software Quality Assurance
@@ -88,3 +94,4 @@ We have known the importance of SQA then we should have effective plan for our s
 - [Blogs of Prof. John Vu, Carnegie Mellon University](https://science-technology.vn/?s=chất+lượng+phần+mềm)
 - [Altexsoft whitepapers](https://www.altexsoft.com/whitepapers/quality-assurance-quality-control-and-testing-the-basics-of-software-quality-management/)
 - [Blogs of Danlew](https://blog.danlew.net/2022/06/22/maintaining-software-correctness/)
+

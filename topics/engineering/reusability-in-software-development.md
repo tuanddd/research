@@ -1,9 +1,9 @@
 ---
-tags: 
-  - engineering
 title: Reusability In Software Development
 date: 2020-05-05
 description: null
+tags:
+  - engineering
 ---
 
 ## Introduction
@@ -169,3 +169,4 @@ Besides, depending on these component's type, we have various types of specializ
 2. Environment specialization: This environment is the operating environment. It can be peripheral devices or communication environments of different hardware in the system. So we need different versions of the application to fit the environment.
 3. Functional specialization: This a more popular specialization in the product line. You can see every banking application of different banks with a lot of generic features, but in a bank, you need at least 50$ to do a transaction, another can be 150$.
 4. Process specialization: Make an application of product line fit with specific business processes.
+

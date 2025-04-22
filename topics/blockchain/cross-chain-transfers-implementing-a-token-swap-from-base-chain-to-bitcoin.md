@@ -1,17 +1,17 @@
 ---
-tags:
-  - icy
-  - btc
-  - swap
-  - blockchain
 title: Implement a Token Swap from the Base chain to Bitcoin for cross-chain transactions
 date: 2025-03-07
 description: This guide shows how to implement a token swap from the Base Chain to Bitcoin.
 authors:
   - quang
 toc: false
-notice:
-event_date:
+notice: null
+event_date: null
+tags:
+  - icy
+  - btc
+  - swap
+  - blockchain
 ---
 
 Swapping ICY tokens for Bitcoin means exchanging one type of digital currency for another across different blockchain systems. Since ICY tokens (on the Base chain) and Bitcoin (on its own blockchain) operate on incompatible networks, specific tools are needed to make this process work. Below, I’ll explain the tools, why a direct swap isn’t possible, how the swap happens, and how the price is determined.

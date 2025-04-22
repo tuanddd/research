@@ -1,9 +1,9 @@
 ---
-tags: 
-  - engineering
 title: Are We Really Engineers
 date: 2021-03-08
 description: null
+tags:
+  - engineering
 ---
 
 ![](assets/are-we-really-engineers_6cf3675a02ca90a8745a69479b359671_md5.webp)
@@ -85,3 +85,4 @@ Some aspects of software engineering are unique to software, such as the speed o
 Engineering processes are more sophisticated than ours in ways that we can extract lessons from. Traditional engineers have a stronger sense of professionalism and responsibility than we tend to. In contrast, our culture is much more open and our communities much stronger than what exists in trad engineering. And our developments in version control have the potential to revolutionize traditional engineering.
 
 Back to the [Apprenticeship Program](https://github.com/dwarvesf/WeAreHiring/blob/master/open-positions/Apprentice.md), this primary question is once thing I feel necessary to discuss with apprentices and the practitioners. Getting to know the industry we are working on and might spend years with it, will help to form the foundation for the future. It will also help us as an engineer to make a better decisions
+

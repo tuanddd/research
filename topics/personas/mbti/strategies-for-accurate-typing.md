@@ -1,8 +1,11 @@
 ---
+title: Strategies for Accurate Typing
+date: null
+description: null
 tag: MBTI
 URL: https://drive.google.com/file/d/1n8ID_iXqzs6cMZlRS0Su7lQUhrfd7khh/view?usp=sharing
-title: Strategies for Accurate Typing
 ---
+
 Book: My True Type, page 18 - 22
 
 Core:
@@ -18,5 +21,6 @@ Additional:
 - Enantiodromia: ám chỉ việc lật một thứ gì đó sang chiều ngược lại. 
 - Put Inconsistencies in Perspective
 - Avoid Over-Focusing on Particulars
+
 
 

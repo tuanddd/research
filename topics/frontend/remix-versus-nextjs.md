@@ -1,13 +1,13 @@
 ---
-tags: 
-  - engineering
-  - frontend
-  - radio
 title: Remix Versus Nextjs
 date: 2022-05-27
 description: A brief comparison between Remix and Next.js frameworks
 authors:
- - khacvy
+  - khacvy
+tags:
+  - engineering
+  - frontend
+  - radio
 ---
 
 A brief comparison between Remix and Next.js frameworks
@@ -117,3 +117,4 @@ For React developers, Next.js is obviously the prior choice when it comes to ser
 Even so, Remix looks like a shiny new thing. It also provides a higher level of abstraction. Routing system might be confusing but it is a remarkable feature too. Other built-in features such as data loading, data mutations, error boundary, etc. actually improve the developer experience.
 
 Overall, Remix is a new framework, and it will definitely become more powerful and widespread in the future.
+

@@ -1,14 +1,14 @@
 ---
-tags: 
+title: Strategy design pattern, the concept, use cases and difference with the state design pattern
+date: 2024-07-11
+description: Strategy design pattern, a behavioral design pattern that denote the functionality of a family of interchangeable classes to a interface, the context, with the helper objects, selects the appropriate implementation of the interface.
+authors:
+  - .rjim
+tags:
   - design-pattern
   - gang-of-four
   - strategy-design-pattern
   - behavior-pattern
-title: "Strategy design pattern, the concept, use cases and difference with the state design pattern"
-date: 2024-07-11
-description: "Strategy design pattern, a behavioral design pattern that denote the functionality of a family of interchangeable classes to a interface, the context, with the helper objects, selects the appropriate implementation of the interface."
-authors:
-  - .rjim
 ---
 
 ![](assets/strategy-design-pattern.pdf)
@@ -82,3 +82,4 @@ They change the behavior of the context by delegating some work to helper object
 
 ## Reference
 - https://refactoring.guru/design-patterns/strategy
+

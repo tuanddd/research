@@ -1,9 +1,13 @@
 ---
+title: null
+date: null
+description: null
 tags:
   - moc
   - ux
   - research
 ---
+
 ## General
 
 -   [[Good research starts with a good question]]

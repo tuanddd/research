@@ -1,10 +1,10 @@
 ---
-tags:
-  - golang
-  - license
 title: Bunk License Check
 date: 2020-02-05
 description: null
+tags:
+  - golang
+  - license
 ---
 
 ## License detector tool: Glice
@@ -19,3 +19,4 @@ Golang license and dependency checker. Prints list of all dependencies (both fro
 ### Run
 
 `$ glice`
+

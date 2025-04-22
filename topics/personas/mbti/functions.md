@@ -1,7 +1,9 @@
 ---
+title: Cognitive functions stack
+date: null
+description: null
 tag: MBTI, function
 URL: https://personalityjunkie.com/functional-stack-type-dynamics-theory/
-title: Cognitive functions stack
 ---
 
 * https://www.youtube.com/watch?v=9xf13VRNPp8
@@ -69,3 +71,4 @@ Vd: ENFJ
 2 Ni
 3 Se
 4 Ti
+

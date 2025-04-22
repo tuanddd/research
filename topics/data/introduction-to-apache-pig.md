@@ -1,9 +1,17 @@
 ---
-tags: engineering/data, mapreduce, distributed, hadoop, Apache-Pig
-authors: Dung Ho
-github_id: dudaka
+title: null
 date: 2022-11-14
+description: null
+authors:
+  - Dung Ho
+github_id: dudaka
 icy: 10
+tags:
+  - engineeringdata
+  - mapreduce
+  - distributed
+  - hadoop
+  - apache-pig
 ---
 
 In short, Apache Pig takes a set of instructions from the user and converts those instructions into MapReduce jobs and execute the MapReduce jobs in Hadoop cluster.
@@ -101,3 +109,4 @@ In summary, Apache Pig helps to create MapReduce job with ease in Hadoop.
 ## Reference
 - https://cwiki.apache.org/confluence/display/pig/
 - Programming Pig: Dataflow Scripting with Hadoop 2nd Edition
+

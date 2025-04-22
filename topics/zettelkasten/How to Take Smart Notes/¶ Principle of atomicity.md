@@ -1,5 +1,10 @@
 ---
-tags: zettelkasten, atomicity
+title: null
+date: null
+description: null
+tags:
+  - zettelkasten
+  - atomicity
 ---
 
 The principle of atomicity is a governing idea of the #Zettelkasten method of notetaking and knowledge management.

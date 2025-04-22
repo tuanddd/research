@@ -1,9 +1,20 @@
 ---
-tags: engineering, redis, streaming, event-sourcing, append-only, logging, messaging, concurrency
-authors: M.Vu Cuong(Jim)
-github_id: R-Jim
+title: null
 date: 2023-05-16
+description: null
+authors:
+  - M.Vu Cuong(Jim)
+github_id: R-Jim
 icy: 10
+tags:
+  - engineering
+  - redis
+  - streaming
+  - event-sourcing
+  - append-only
+  - logging
+  - messaging
+  - concurrency
 ---
 
 ## The Problem Statement
@@ -138,3 +149,4 @@ Flow:
 ## References
 - [Redis documentation](https://redis.io/docs/)
 - [Redis Streams tutorial](https://redis.io/docs/data-types/streams-tutorial/)
+

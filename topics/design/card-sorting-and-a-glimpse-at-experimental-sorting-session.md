@@ -1,10 +1,10 @@
 ---
-tags: 
-  - design
-  - technique
 title: Card Sorting And A Glimpse At Experimental Sorting Session
 date: 2018-08-26
 description: null
+tags:
+  - design
+  - technique
 ---
 
 > As part of our team’s weekly activities is a knowledge sharing session. So, in this article I’d like to share a UX technique we practiced recently — Card Sorting.
@@ -157,3 +157,4 @@ In this case, recalling our users were the hotel’s staff, the room status was 
 
 Hope you get something useful with this.
 Till the next time, guys.
+

@@ -1,9 +1,9 @@
 ---
-tags: 
-  - dcos
 title: Dcos Series Part 2 Deploy Simple Applications
 date: 2017-05-05
 description: null
+tags:
+  - dcos
 ---
 
 There are so many interesting things in DC/OS GUI (`Dashboard` with useful metrics/status from all nodes, `Services` tab help us to know which application/service is running on which node, its status, etc.).
@@ -120,3 +120,4 @@ Click on `Services` tab, you will see list of applications that you are running.
 As the picture above, you can check your application directly via `Endpoint`
 
 ![](assets/dcos-series-part-2---deploy-simple-applications_82cc4eeeaae867eb9bcafc54c0f7eda5_md5.webp)
+

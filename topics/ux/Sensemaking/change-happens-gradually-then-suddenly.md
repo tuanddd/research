@@ -1,5 +1,9 @@
 ---
-tags: innovation
+title: null
+date: null
+description: null
+tags:
+  - innovation
 ---
 
 Large-scale changes seem to happen quickly. However, changes generally gestate over long periods of time. In the beginning, there may be weak signals of change. These are usually on the periphery of our vision and can be difficult to observe as they occur outside of our typical frame of reference.

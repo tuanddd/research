@@ -1,9 +1,19 @@
 ---
-tags: engineering, solid-principles, solid, clean-code, clean-architecture, object-oriented-programming, oop
-authors: Nguyen Dinh Nam
-github_id: nguyend-nam
+title: null
 date: 2023-04-20
+description: null
+authors:
+  - Nguyen Dinh Nam
+github_id: nguyend-nam
 icy: 10
+tags:
+  - engineering
+  - solid-principles
+  - solid
+  - clean-code
+  - clean-architecture
+  - object-oriented-programming
+  - oop
 ---
 
 ## What & Why?
@@ -334,3 +344,4 @@ Applying the Single Responsibility or Liskov Substitution principle helps us to 
 - https://www.freecodecamp.org/news/solid-design-principles-in-software-development/
 - https://www.baeldung.com/solid-principles
 - https://dev.to/galwaycoder/the-solid-principles-in-software-design-explained-53n
+

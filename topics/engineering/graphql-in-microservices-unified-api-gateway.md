@@ -1,9 +1,21 @@
 ---
-tags: engineering/backend, backend, graphql, unified-api-gateway, microservices, stitching, federation, apollo, bramble
-github_id: mirageruler
-authors: Khoi Nguyen
+title: null
 date: 2023-03-29
+description: null
+authors:
+  - Khoi Nguyen
+github_id: mirageruler
 icy: 10
+tags:
+  - engineeringbackend
+  - backend
+  - graphql
+  - unified-api-gateway
+  - microservices
+  - stitching
+  - federation
+  - apollo
+  - bramble
 ---
 
 ## Preamble
@@ -154,3 +166,4 @@ In the query above, it is completely transparent for the user that  `title`  
 - https://movio.co/blog/building-a-new-api-platform-for-movio/
 - https://github.com/movio/bramble
 - https://medium.com/@aaivazis/a-guide-to-graphql-schema-federation-part-1-995b639ac035
+

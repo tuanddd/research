@@ -1,13 +1,13 @@
 ---
+title: Frontend Report Second Half of November 2024
+date: 2024-11-30
+description: A second half of November 2024 frontend roundup featuring React Router v7, Tailwind CSS v4 Beta, and Vite 6.0. Explore tools like Next Cloudinary, Extism, and SmarkForm, plus JavaScript Symbols, and new CSS strategies.
+authors:
+  - hthai2201
+short_title: Nov 2024 (Second Half)
 tags:
   - frontend
   - market-report
-title: Frontend Report Second Half of November 2024
-short_title: "Nov 2024 (Second Half)"
-description: A second half of November 2024 frontend roundup featuring React Router v7, Tailwind CSS v4 Beta, and Vite 6.0. Explore tools like Next Cloudinary, Extism, and SmarkForm, plus JavaScript Symbols, and new CSS strategies.
-date: 2024-11-30
-authors:
-  - hthai2201
 ---
 
 A second half of November 2024 frontend roundup featuring React Router v7, Tailwind CSS v4 Beta, and Vite 6.0. Explore tools like Next Cloudinary, Extism, and SmarkForm, plus insights on SSR cost-effectiveness, JavaScript Symbols, and new CSS strategies.
@@ -99,3 +99,4 @@ Extism is a lightweight, universal framework for building with WebAssembly (Wasm
 - [Technical Debt and Interop Challenges in the Web Platform](https://bkardell.com/blog/debt.html)
 - [Impressions of React and TypeScript from an Elixir/Elm Developer: A Tale of Two Ecosystems](https://korban.net/posts/elm/2024-11-16-typescript-react-impressions/)
 - [PostHog's Engineering: Solving challenges with trust and future-focused tech decisions](https://dub.link/bytes-nov25)
+

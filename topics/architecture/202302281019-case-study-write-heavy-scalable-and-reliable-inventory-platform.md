@@ -1,18 +1,18 @@
 ---
-discord_id: antran#3200
-authors:
- - cor3.co
-description: How Doordash designed a successful write-heavy scalable and reliable inventory platform
-title: "Case study: Write-heavy scalable and reliable inventory platform"
+title: Case study: Write-heavy scalable and reliable inventory platform
 date: 2023-02-28
+description: How Doordash designed a successful write-heavy scalable and reliable inventory platform
+authors:
+  - cor3.co
+discord_id: "antran#3200"
 tags:
- - write-heavy
- - inventory-platform
- - scalability
- - reliability
- - doordash
- - low-latency
- - observability
+  - write-heavy
+  - inventory-platform
+  - scalability
+  - reliability
+  - doordash
+  - low-latency
+  - observability
 ---
 
 https://doordash.engineering/2023/02/22/how-doordash-designed-a-successful-write-heavy-scalable-and-reliable-inventory-platform/
@@ -33,3 +33,4 @@ TLDR;
 - **Reduce the column count**: put some of the frequently updated columns into one single JSONB column -> There are pros and cons based on use cases
 - **Configure TTL for fast-growing tables**: add TTL for high-intensity-write tables which do not need to have data for too long
 - ** Batch and rewrite queries within one SQL request whenever possible in API and DB**: this will save a lot of QPS for downstream services and databases.
+

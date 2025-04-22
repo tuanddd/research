@@ -1,12 +1,12 @@
 ---
+title: Component composition patterns in React
+date: 2024-10-29
+description: Learn React composition patterns with coverage of HOCs, render props, compound components, and custom hook
 authors:
-  - 'thanh'
-date: '2024-10-29'
-description: 'Learn React composition patterns with coverage of HOCs, render props, compound components, and custom hook'
+  - thanh
+short_title: Component composition patterns
 tags:
-  - 'react'
-title: 'Component composition patterns in React'
-short_title: 'Component composition patterns'
+  - react
 ---
 
 Component composition patterns are foundational for creating scalable, flexible, and reusable React components. They allow us to build UIs by combining smaller, single-purpose components in various ways.
@@ -185,3 +185,4 @@ Selecting the right pattern often depends on:
 - **Complexity of data flow**: If your data flow is complex, consider compound components or render props.
 - **Component reusability**: HOCs are ideal for reusable logic across unrelated components.
 - **Level of control**: Controlled/uncontrolled patterns are great for balancing simplicity and flexibility in form handling.
+

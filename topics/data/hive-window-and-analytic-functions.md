@@ -1,9 +1,20 @@
 ---
-tags: engineering/data, mapreduce, distributed, hadoop, apache-hive, hdfs, analytic-functions, window-functions
-authors: Dung Ho
-github_id: dudaka
+title: null
 date: 2022-12-12
+description: null
+authors:
+  - Dung Ho
+github_id: dudaka
 icy: 10
+tags:
+  - engineeringdata
+  - mapreduce
+  - distributed
+  - hadoop
+  - apache-hive
+  - hdfs
+  - analytic-functions
+  - window-functions
 ---
 
 If you're a SQL or PL/SQL developer or developed an ETL process before, you know just plain SQL is not going to get the job done. To implement complex use cases, we need powerful window and analytical functions. The good news is Hive supports both window and analytical functions. Before we look at an example of window and analytical functions, let's understand what they are and why do we need them. Let's take our very old stocks data set and say we want to calculate average volume by stocks by year. We've done this before already on some previous articles about Apache Hive. And the following query show it looks like in Hive.
@@ -72,3 +83,4 @@ The `ROWS BETWEEN 9 PRECEDING and CURRENT ROW` clause defines the frames. If we 
 The window and analytical functions are now powerful with frames, each record in the window has its own frame and it is dynamic at runtime. There is an important difference between window and frames: windows are not overlapping but frames could be overlapping. The row clause is optional, i.e. if it is not mentioned, rows between unbounded proceeding and current row is applied behind the scenes by default. This means a frame would include the current row and the rows behind the current row within the window.
 
 In summary, we understand the need for window and analytical functions. Then, we introduced the basics of window and frames. Finally, we learned the syntax for creating windows and using analytical functions in Hive by calculating a 10-day moving average with stocks data set.
+

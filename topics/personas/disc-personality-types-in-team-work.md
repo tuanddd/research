@@ -1,8 +1,17 @@
 ---
-tags: team, personality, communication, collaboration, disc, teamwork
-authors: Tieu Quang Huy
-github_id: huytieu
+title: null
 date: 2022-09-10
+description: null
+authors:
+  - Tieu Quang Huy
+github_id: huytieu
+tags:
+  - team
+  - personality
+  - communication
+  - collaboration
+  - disc
+  - teamwork
 ---
 
 ## What is DiSC?
@@ -101,3 +110,4 @@ https://www.notion.so/huytieu/DiSC-Personality-Types-in-team-work-ee16782a9c2f4d
 ## Reference
 - [https://www.discprofile.com/what-is-disc/disc-styles](https://www.discprofile.com/what-is-disc/disc-styles)
 - [https://www.amazon.com/Surrounded-by-Idiots-audiobook/dp/B07VCV4QMH/ref=sr_1_1?keywords=surrounded+by+idiots&qid=1662797546&sprefix=surrounded+b%2Caps%2C312&sr=8-1](https://www.amazon.com/Surrounded-by-Idiots-audiobook/dp/B07VCV4QMH/ref=sr_1_1?keywords=surrounded+by+idiots&qid=1662797546&sprefix=surrounded+b%2Caps%2C312&sr=8-1)
+

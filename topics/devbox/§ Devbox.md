@@ -1,13 +1,13 @@
 ---
+title: § Devbox
+date: 2024-08-09
+description: A comprehensive guide to Devbox: The tool that creates isolated, reproducible development environments anywhere, without Docker or VMs, powered by Nix.
+authors:
+  - bievh
 tags:
   - moc
   - devbox
   - nix
-title: '§ Devbox'
-description: 'A comprehensive guide to Devbox: The tool that creates isolated, reproducible development environments anywhere, without Docker or VMs, powered by Nix.'
-date: 2024-08-09
-authors:
-  - bievh
 ---
 
 ## Why Devbox? The Big Picture
@@ -43,3 +43,4 @@ authors:
 - [Nix Shell: The Foundation of Rock-Solid Environments](introduction/¶%20Nix%20Shell.md)
 - [Nix Flakes: Package Management Reimagined](introduction/¶%20Nix%20Flakes.md)
 - [Devbox vs Nix: Simplicity Meets Power](introduction/Why%20Devbox%20But%20Not%20Nix.md)
+

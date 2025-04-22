@@ -1,10 +1,10 @@
 ---
-tags:
-  - design
-  - process
 title: Ui Design Best Practices Dwarves
 date: 2020-11-24
 description: null
+tags:
+  - design
+  - process
 ---
 
 One of the factors that could make or break a project is the process of communication between designers and developers. Designers and developers have their own working “*languages*.”
@@ -109,3 +109,4 @@ You should design the UI in the Design System file first, for convenience in cre
 ## Other conventions
 
 Other conventions are added over time each time a designer discovers a new problem in the process of working with devs.
+

@@ -1,9 +1,17 @@
 ---
-tags: engineering/data, mapreduce, distributed, hadoop, apache-hive
-authors: Dung Ho
-github_id: dudaka
+title: null
 date: 2022-11-23
+description: null
+authors:
+  - Dung Ho
+github_id: dudaka
 icy: 10
+tags:
+  - engineeringdata
+  - mapreduce
+  - distributed
+  - hadoop
+  - apache-hive
 ---
 
 These are very interesting concepts which are about ordering records in a data set. What is so special about ordering? If we want to order the records in the stocks data set by closing price in descending order, we can write a simple query like
@@ -82,3 +90,4 @@ CLUSTER BY symbol;
 ```
 
 In summary, `ORDER BY` does global ordering and will always use one reducer, which is problematic because it will lead to performance problems. We can use `SORT BY` along with `DISTRIBUTE BY` to use multiple reducers and send records from a certain key column to the same reducer. Finally, `CLUSTER BY` can be used when the same set of columns are used in `SORT BY` and `DISTRIBUTE BY`.
+

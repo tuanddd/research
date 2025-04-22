@@ -1,12 +1,12 @@
 ---
-tags:
-  - security
-  - startup
-title: 'A Holistic Guide to Security'
+title: A Holistic Guide to Security
 date: 2024-09-06
 description: A high-level overview of how to implement a holistic approach to securing your application platform.
 authors:
   - thanh
+tags:
+  - security
+  - startup
 ---
 
 Security is no longer just a technical concern—it’s a core component of client trust. When our team launched a new collaboration tool, we quickly realized this. Early in the development process, we were focused on delivering features, but as we started engaging with enterprise clients, security-related questions became a priority:
@@ -85,3 +85,4 @@ While this security roadmap offers a structured approach, it's important to reme
 ## Conclusion
 
 We hope this memo delivers a high-level overview of the key components required for a successful security implementation plan. While the security requirements of every business may differ, we believe this approach can serve as a foundation for creating a customized strategy that aligns with your particular context.
+

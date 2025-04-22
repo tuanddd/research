@@ -1,15 +1,15 @@
 ---
+title: Typesafe Client Server
+date: 2023-12-06
+description: A code generation layer that bridges the gap between frontend and backend more effectively.
+authors:
+  - antran
+github_id: tienan92it
+icy: 10
 tags:
   - code-generation
   - typesafe
   - fullstack
-authors:
-  - antran
-title: Typesafe Client Server
-description: A code generation layer that bridges the gap between frontend and backend more effectively.
-github_id: tienan92it
-date: 2023-12-06
-icy: 10
 ---
 
 ### Motivation
@@ -53,3 +53,4 @@ This automated approach not only minimizes human error but also streamlines the 
 - https://docs.stoplight.io/docs/spectral/eb68e7afd463e-spectral-in-java-script
 - https://swagger.io/specification
 - https://trpc.io
+

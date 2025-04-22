@@ -1,5 +1,9 @@
 ---
-tags: writing
+title: null
+date: null
+description: null
+tags:
+  - writing
 ---
 
 A well-crafted scene comprises both a large-scale structure and a small-scale structure.
@@ -45,3 +49,4 @@ Each scene and sequel is a series of MRUs.
 #### Citation
 
 Ingermanson, Randy. “Writing The Perfect Scene: Advanced Fiction Writing Tips.” _Advanced Fiction Writing_ (blog). Accessed January 9, 2021. [Link](https://www.advancedfictionwriting.com/articles/writing-the-perfect-scene/).
+

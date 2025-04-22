@@ -1,14 +1,14 @@
 ---
-tags: 
- - blockchain
- - foundational-topics
- - distributed-systems
-authors: 
- - thanhpn
-description: This article provides an overview of distributed systems in blockchain technology, including their definition, advantages, and how they work.
-title: 'Distributed systems'
-github_id: thanhpn
+title: Distributed systems
 date: 2022-06-16
+description: This article provides an overview of distributed systems in blockchain technology, including their definition, advantages, and how they work.
+authors:
+  - thanhpn
+github_id: thanhpn
+tags:
+  - blockchain
+  - foundational-topics
+  - distributed-systems
 ---
 
 ![](assets/blockruption-blockchain-300h.png)
@@ -74,3 +74,4 @@ Today we have a series of solutions to improve transaction speed on ethereum suc
 ## Reference
 
 https://en.wikipedia.org/wiki/Ethereum https://www.youtube.com/user/cbcolohan https://www.worldbank.org/en/topic/financialsector/brief/blockchain-dlt https://en.wikipedia.org/wiki/Distributed_ledger https://www.youtube.com/playlist?list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB
+

@@ -1,5 +1,11 @@
 ---
-tags: ux, design, personas
+title: null
+date: null
+description: null
+tags:
+  - ux
+  - design
+  - personas
 ---
 
 [[§ Personas]] are popular design artifacts. But, they can be hollow. While they often provide some basic attributes, tasks, or descriptors, they often lack rich contextual information that explains why the persona's need arose in the first place.

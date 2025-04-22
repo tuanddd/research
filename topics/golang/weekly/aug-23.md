@@ -1,14 +1,14 @@
 ---
+title: "Go Commentary #8: Jupyter Notebooks, Kubernetes Tools, GopherCon Talks"
+date: 2024-08-23
+description: "Explore GoNB for Jupyter notebooks, kubetrim for KUBECONFIG management, and key highlights from GopherCon UK 2024 talks, covering performance testing, software design, event-driven workflows, and AI's impact on tech jobs."
+authors:
+  - fuatto
+short_title: "#8 GoNB, kubetrim, and GopherCon UK 2024"
 tags:
   - golang
   - go-weekly
   - networking
-authors:
-  - fuatto
-title: 'Go Commentary #8: Jupyter Notebooks, Kubernetes Tools, GopherCon Talks'
-short_title: '#8 GoNB, kubetrim, and GopherCon UK 2024'
-description: "Explore GoNB for Jupyter notebooks, kubetrim for KUBECONFIG management, and key highlights from GopherCon UK 2024 talks, covering performance testing, software design, event-driven workflows, and AI's impact on tech jobs."
-date: 2024-08-23
 ---
 
 ## [GoNB: A Go Notebook Kernel for Jupyter](https://github.com/janpfeifer/gonb)
@@ -67,3 +67,4 @@ kind-2
 - https://github.com/go-echarts/go-echarts
 - https://github.com/alexellis/kubetrim
 - https://youtube.com/playlist?list=PLDWZ5uzn69ezR6D6FUj_iBSOyRc9xaZFP&si=IdFGYzOivQqFRsVb
+

@@ -1,16 +1,16 @@
 ---
-tags:
-  - engineering/data
-  - vector-database
-  - database
-github_id: longbuivan
-date: 2024-03-15
-icy: 10
-discord_id: 1157659003527106600
 title: Quick Learning Vector Database
+date: 2024-03-15
 description: The motivation of this thoughts that trying to discover the LLMs and Generative AI...
 authors:
   - longddl
+github_id: longbuivan
+icy: 10
+discord_id: 1157659003527106600
+tags:
+  - engineeringdata
+  - vector-database
+  - database
 ---
 
 ## Motivation of Vector Database
@@ -57,3 +57,4 @@ authors:
   - Optimize long-term caching memory
   - Hardware optimization for hosting and computing data
   - Improve KNN performance models
+

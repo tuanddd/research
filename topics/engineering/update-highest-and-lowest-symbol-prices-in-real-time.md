@@ -1,9 +1,17 @@
 ---
-tags: engineering/backend, nghenhan, hedge-foundation, binance, web-socket
-authors: Minh Tran
-github_id: thminhVN
+title: null
 date: 2023-06-07
+description: null
+authors:
+  - Minh Tran
+github_id: thminhVN
 icy: 10
+tags:
+  - engineeringbackend
+  - nghenhan
+  - hedge-foundation
+  - binance
+  - web-socket
 ---
 
 ## Introduction
@@ -55,3 +63,4 @@ To mitigate the limitations mentioned above and ensure accurate updates of the s
 
 - Implement a long polling service that continuously retrieves data from Binance at shorter intervals.
 - By reducing the interval between data retrievals, the likelihood of missing price movements during rapid market changes can be minimized, thus ensuring more accurate updates of the second and third peaks.
+

@@ -1,13 +1,13 @@
 ---
-tags:
-  - web
-  - engineering
-  - translation
 title: Continuous Translation
 date: 2023-04-11
 description: Continuous Translation (CT) is a modern approach to translation management that involves synchronizing software development and translation workflows. This means that developers, translators, and product owners work together in a continuous cycle to ensure that all translations are up-to-date and aligned with the latest software developments.
 authors:
   - cor3.co
+tags:
+  - web
+  - engineering
+  - translation
 ---
 
 ![](assets/continuous-translation_eaf982ca480d0677ec9d8fd34553b51a_md5.webp)
@@ -165,3 +165,4 @@ In summary, `Solution 1` is a simpler and cheaper approach to manage translation
 ## Conclusion
 
 Multilingual support is a very important function for web or mobile applications nowadays. Users will come from all over the world and always ask for support for their language. The two options above have different advantages and disadvantages, so you need to consider the exact scope of the product to have the best choice for your team. Both methods can meet the needs of constantly translating products to support new features or new products, but it will cost production as well as quality assurance.
+

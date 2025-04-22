@@ -1,8 +1,11 @@
 ---
-tag: MBTI, preferences
-URL: https://personalityjunkie.com/typology-101/#anchor1
 title: 8 preferences
+date: null
+description: null
+tag: MBTI, preferences
+URL: "https://personalityjunkie.com/typology-101/#anchor1"
 ---
+
 Why learn about Personality Type (PT)?
 - Better understanding yourself/others + how they tend to interact/think
 - Bring insights to clarify life path (including career)

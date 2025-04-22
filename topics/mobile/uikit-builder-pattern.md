@@ -1,8 +1,15 @@
 ---
-tags: iOS, MacOS, Swift, engineering/mobile
-authors: Phan Viet Trung
-github_id: viettrungphan
+title: null
 date: 2022-08-05
+description: null
+authors:
+  - Phan Viet Trung
+github_id: viettrungphan
+tags:
+  - i-os
+  - mac-os
+  - swift
+  - engineeringmobile
 ---
 
 SwiftUI introduces a way to write UI code declaratively. Can we use the same paradigm with UIKit? We will show you how.
@@ -194,3 +201,4 @@ let redLabel = UILabel().text("I'm red").myRedStyle()
 ```
 
 Using `@discardableResult` with `Extension` gives us all of the benefits of reusability, flexibility, maintainability, and the ability to expand our code while retaining the original data type.
+

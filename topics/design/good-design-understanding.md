@@ -1,9 +1,9 @@
 ---
-tags: 
-  - design
 title: Good Design Understanding
 date: 2018-04-02
 description: null
+tags:
+  - design
 ---
 
 Good design is not just what looks good. It also needs to perform, convert, astonish, and fulfill its purpose. It can be innovative or it might just get the job done.
@@ -170,3 +170,4 @@ Consistency is a key principle in life and in design. Without it we can’t get 
 Benefits of consistency:
 
 * Users will learn faster how to use your design
+

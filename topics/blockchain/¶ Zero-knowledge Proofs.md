@@ -1,14 +1,14 @@
 ---
-tags: 
- - blockchain 
- - evm
- - zk-proof
-authors: 
- - thanhpn
-title: 'Zero-knowledge Proofs'
-github_id: thanhpn
-description: This article provides an overview of zero-knowledge proofs in blockchain technology, including their definition, how they work, and their advantages.
+title: Zero-knowledge Proofs
 date: 2022-09-06
+description: This article provides an overview of zero-knowledge proofs in blockchain technology, including their definition, how they work, and their advantages.
+authors:
+  - thanhpn
+github_id: thanhpn
+tags:
+  - blockchain
+  - evm
+  - zk-proof
 ---
 
 Zero-knowledge proof is a way of proving the validity of a statement without disclosing the statement itself. A "validator" is the party attempting to prove a claim, while a "verifier" is responsible for validating the claim.
@@ -88,3 +88,4 @@ Like ZK-SNARKs, ZK-STARKs demonstrate the validity of off-chain computation with
 - [ZK-SNARKs](https://medium.com/coinmonks/zk-snarks-a-realistic-zero-knowledge-example-and-deep-dive-c5e6eaa7131c)
 - [ZK-STARKs](https://medium.com/coinmonks/zk-starks-create-verifiable-trust-even-against-quantum-computers-dd9c6a2bb13d)
 - [Snarks-vs-starks](https://www.alchemy.com/overviews/snarks-vs-starks)
+

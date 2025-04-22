@@ -1,9 +1,9 @@
 ---
-tags: 
-  - tutorial
 title: Build An Assistant On The Terminal
 date: 2020-03-27
 description: null
+tags:
+  - tutorial
 ---
 
 ## Introduction
@@ -51,3 +51,4 @@ The tool takes the users' input and extracted its keywords using the TextRank al
 *TextRank* [2] is a keyword extractor algorithm based on *PageRank* [3]. Theoretically, *TextRank* maps the text corpus (mostly with stop words (preposition, conjunctions, etc..) removed) into a graph. Each node in the graph is given a score. Then, through multiple loops, the score of each node is recalculated as the sum of the weighted score of the neighbor nodes. The loops stop after a pre-defined number of loops or when the scores are saturated.
 
 For example, the sentence `The quick brown fox jumps over the lazy dog`, after removing stop words (resulting in `quick brown fox jumps over lazy dog`), can be mapped into the graph below, using a window-based mapping approach, as presented in the original paper. Additionally, the word embedding approach can be used to map the text into a different graph, but this approach is resource-heavy, so we are going to stick with the original window-based approach.
+

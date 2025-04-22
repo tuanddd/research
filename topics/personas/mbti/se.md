@@ -1,8 +1,11 @@
 ---
+title: Extraverted Sensing (Se)
+date: null
+description: null
 tag: MBTI, function
 URL: https://drive.google.com/file/d/1n8ID_iXqzs6cMZlRS0Su7lQUhrfd7khh/view?usp=sharing
-title: Extraverted Sensing (Se)
 ---
+
 Book: My True Type, page 86 - 91
 
 
@@ -19,3 +22,4 @@ Book: My True Type, page 86 - 91
 seeking diversity and novelty. Si perceives more narrowly, drawing on past experiences.
 
 - Se types are also more concerned with physical appearances.
+

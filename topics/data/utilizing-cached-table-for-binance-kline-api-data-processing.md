@@ -1,9 +1,19 @@
 ---
-tags: engineering/backend, nghenhan, hedge-foundation, binance, caching, data-processing, cryptocurrency
-authors: Minh Tran
-github_id: thminhVN
+title: null
 date: 2023-06-07
+description: null
+authors:
+  - Minh Tran
+github_id: thminhVN
 icy: 10
+tags:
+  - engineeringbackend
+  - nghenhan
+  - hedge-foundation
+  - binance
+  - caching
+  - data-processing
+  - cryptocurrency
 ---
 
 ## Introduction
@@ -55,3 +65,4 @@ While the proposed solution offers significant advantages, it also has certain l
 
 ### Conclusion
 By employing a cached table to store and retrieve Binance Kline API data, the challenges of working with limited records and requests can be addressed effectively.
+

@@ -1,8 +1,14 @@
 ---
-tags: engineering/data, big-data, hadoop
-authors: Dung Ho
-github_id: dudaka
+title: null
 date: 2022-06-15
+description: null
+authors:
+  - Dung Ho
+github_id: dudaka
+tags:
+  - engineeringdata
+  - big-data
+  - hadoop
 ---
 
 ## HDFS - Why Another FileSystem?
@@ -234,3 +240,4 @@ For example, the block we are writing is named Block 123. While writing Block 12
 - https://hadoop.apache.org/
 - https://en.wikipedia.org/wiki/Apache_Hadoop
 - [Hadoop: The Definitive Guide: Storage and Analysis at Internet Scale](https://www.amazon.com/Hadoop-Definitive-Storage-Analysis-Internet/dp/1491901632/ref=sr_1_2?crid=2LTQHKE9WNBNC&keywords=Hadoop&qid=1657604708&sprefix=hadoop%2Caps%2C127&sr=8-2)
+

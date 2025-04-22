@@ -1,10 +1,10 @@
 ---
-tags: 
-  - macos
-  - swift
 title: Xpc Services On Macos App Using Swift
 date: 2020-11-05
 description: null
+tags:
+  - macos
+  - swift
 ---
 
 Before XPC we used to pick up Sockets and Mach Messages (Mach Ports).
@@ -201,3 +201,4 @@ The handler is invoked on the same queue as reply messages and other handlers, a
 * Invalidation handler—called when the invalidate method is called or when an XPC helper could not be started. When this handler is called, the local connection object is no longer valid and must be recreated. This is always the last handler called on a connection object. When this block is called, the connection object has been torn down. It is not possible to send further messages on the connection at that point, whether inside the handler or elsewhere in your code.
 
 In both cases, you should use block-scoped variables to provide enough contextual information—perhaps a pending operation queue and the connection object itself—so that your handler code can do something sensible, such as retrying pending operations, tearing down the connection, displaying an error dialog, or whatever other actions make sense in your particular app.
+

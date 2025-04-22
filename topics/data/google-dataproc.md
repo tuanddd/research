@@ -1,16 +1,19 @@
 ---
+title: null
+date: 2024-01-22
+description: null
+authors:
+  - Nguyen Hieu Nghia
+github_id: mickwan1234
+icy: 10
 tags:
-  - engineering/data
+  - engineeringdata
   - data
   - data-engineering
   - google-dataproc
   - hadoop
   - streaming
-  - ETL
-authors: Nguyen Hieu Nghia
-github_id: mickwan1234
-date: 2024-01-22
-icy: 10
+  - etl
 ---
 
 ## Introduction
@@ -147,3 +150,4 @@ Wait for the job status change to succeeded (or failed):
 And that is how you run a Spark ( or Hadoop) job on Google Cloud Dataproc.
 Full video step by step:
 ![[_assets/Google Dataproc/830c086903ad2dcaf7bdece0af8e3647_MD5.mp4]]
+

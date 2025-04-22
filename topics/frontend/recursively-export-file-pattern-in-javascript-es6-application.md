@@ -1,9 +1,9 @@
 ---
-tags: 
-  - js
 title: Recursively Export File Pattern In Javascript Es6 Application
 date: 2019-09-07
 description: null
+tags:
+  - js
 ---
 
 ![](assets/recursively-export-file-pattern-in-javascript-es6-application_08f14b555ce54599844167b5700622ca_md5.webp)
@@ -113,3 +113,4 @@ It has been published as an NPM package.
 I also created examples on how to use those packages: [https://github.com/phmngocnghia/AutoGenerateReExportFile/tree/master/examples](https://github.com/phmngocnghia/AutoGenerateReExportFile/tree/master/examples)
 
 What do you think about this pattern? Please express your idea
+

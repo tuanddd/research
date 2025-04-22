@@ -1,8 +1,14 @@
 ---
-tags: engineering, domain-driven-design, DDD
-authors: M.Vu Cuong(Jim)
-github_id: R-Jim
+title: null
 date: 2022-03-28
+description: null
+authors:
+  - M.Vu Cuong(Jim)
+github_id: R-Jim
+tags:
+  - engineering
+  - domain-driven-design
+  - ddd
 ---
 
 ## Recap on DDD
@@ -39,3 +45,4 @@ _Establish continuity so that behavior can be clear and predictable_, We need to
 - https://herbertograca.com/category/development/book-notes/domain-driven-design-by-eric-evans/
 
 - Domain-driven design by Eric Evans
+

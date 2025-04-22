@@ -1,13 +1,13 @@
 ---
+title: Design file-sharing system - Part 1: Directory Structure
+date: 2024-07-31
+description: This system aims to provide users with the ability to store, access, and share files directly on our website, similar to Google Drive. This system aims to enhance user convenience and collaboration by allowing seamless file management and sharing capabilities.
+authors:
+  - datpv
 tags:
   - directory-structure
   - file-management
   - file-system
-authors:
-  - datpv
-date: 2024-07-31
-title: "Design file-sharing system - Part 1: Directory Structure"
-description: "This system aims to provide users with the ability to store, access, and share files directly on our website, similar to Google Drive. This system aims to enhance user convenience and collaboration by allowing seamless file management and sharing capabilities."
 ---
 
 This system aims to provide users with the ability to store, access, and share files directly on our website, similar to Google Drive. This system aims to enhance user convenience and collaboration by allowing seamless file management and sharing capabilities.
@@ -81,3 +81,4 @@ This approach significantly reduces the computational overhead and complexity as
 In this memo, I discuss the various requirements of the system, detailing what is necessary for its optimal performance. Additionally, I explain how I optimize the file structure to ensure efficient storage and retrieval of data. In the next part of this memo, I will continue the discussion by elaborating on how I handle permissions, manage file sharing, and set passwords to enhance the security and accessibility of the system. This comprehensive approach ensures that all aspects of system management are covered thoroughly.
 
 [Continue to Part 2: Permission & Password](https://memo.d.foundation/playground/01_literature/design-file-sharing-system-part-2-permission-and-password/)
+

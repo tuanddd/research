@@ -1,3 +1,8 @@
+---
+title: null
+date: null
+description: null
+---
 
 ### 1. Abstract-vs-interfaces
 Be aware of the tradeoffs between abstract contracts and interfaces.
@@ -601,3 +606,4 @@ function internalAction() internal {
 ### See 
 - [SWC-100](https://swcregistry.io/docs/SWC-100) and
 - [SWC-108](https://swcregistry.io/docs/SWC-108)
+
