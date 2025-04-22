@@ -51,13 +51,13 @@ This copilot ensures smooth transitions between team members by:
 
 ![Project Handover Copilot](assets/project-handover.mp4)
 
-
 ### 4. Announcement Copilot
-  - Helps in drafting and disseminating important announcements.
-    - **Main points**: Key message of the announcement
-    - **Language**: English or Vietnamese
-    - **Type**: Announcement style (e.g., OGIF reminder, New policy...)
-    - **Max words count**: Limit words for one announcement
-    - **Number of version(s)**: How many versions you want to generate
+
+- Helps in drafting and disseminating important announcements.
+  - **Main points**: Key message of the announcement
+  - **Language**: English or Vietnamese
+  - **Type**: Announcement style (e.g., OGIF reminder, New policy...)
+  - **Max words count**: Limit words for one announcement
+  - **Number of version(s)**: How many versions you want to generate
 
 ![Announcement Copilot](assets/announcement-writer.mp4)
