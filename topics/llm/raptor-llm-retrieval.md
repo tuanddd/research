@@ -14,7 +14,7 @@ tags:
 
 ## What is it?
 
-RAPTOR (Recursive Abstractive Processing for Tree-Organized Retrieval) is a new technique for improving retrieval-augmented language models, particularly for long documents: https://arxiv.org/html/2401.18059v1
+RAPTOR (Recursive Abstractive Processing for Tree-Organized Retrieval) is a new technique for improving retrieval-augmented language models, particularly for long documents: <https://arxiv.org/html/2401.18059v1>
 
 ### Problems addressed
 
@@ -47,7 +47,7 @@ i. Segments text into 100-token chunks ii. Embeds chunks using SBERT iii. Cluste
 
 ![](assets/raptor-llm-retrieval-excalidraw.webp)
 
-### Benefits:
+### Benefits
 
 - Outperforms traditional methods (e.g., BM25, DPR) on QA tasks
 - Excels at complex queries needing multi-part info
