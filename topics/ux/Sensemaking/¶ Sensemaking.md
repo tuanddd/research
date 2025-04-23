@@ -1,7 +1,7 @@
 ---
-title: null
+title: "¶ sensemaking"
 date: null
-description: Sensemaking is a humanities-based method that uses cultural understanding and empathy to interpret how people relate to their world, offering deep insights beyond data and algorithms.
+description: "Sensemaking is a humanities-based method that uses cultural understanding and empathy to interpret how people relate to their world, offering deep insights beyond data and algorithms."
 ---
 
 Sensemaking is a humanities-based approach to knowledge production that looks to build deep understanding of a people and what matters to them. It is derived heavily from phenomenology, particularly Martin Heidegger's notion of "being" as a filter through which we understand and interpret the world around us.

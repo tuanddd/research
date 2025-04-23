@@ -1,10 +1,8 @@
 ---
-title: null
+title: "≈ how to take smart notes"
 date: null
-description: Discover how the Zettelkasten note-taking method builds interconnected notes to boost knowledge creation and idea discovery using simple, effective strategies for writing and learning.
-tags:
-  - zettelkasten
-  - note
+description: "Discover how the Zettelkasten note-taking method builds interconnected notes to boost knowledge creation and idea discovery using simple, effective strategies for writing and learning."
+tags: 
 ---
 
 ## Summary

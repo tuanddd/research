@@ -1,15 +1,10 @@
 ---
-title: null
+title: "How one product team works when having incident"
 date: 2022-10-15
-description: Learn two effective ways to handle customer-reported software incidents, including using an engineering support SWAT team and creating incident channels for faster communication and resolution.
-authors:
-  - Nhut Huynh
+description: "Learn two effective ways to handle customer-reported software incidents, including using an engineering support SWAT team and creating incident channels for faster communication and resolution."
+authors: 
 github_id: nhuthm
-tags:
-  - management
-  - management
-  - process
-  - solving-issue
+tags: 
 ---
 
 _The following entry is from the thoughts, compositions, and conclusions from field work by one of our leads._

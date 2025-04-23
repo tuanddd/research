@@ -1,15 +1,10 @@
 ---
-title: null
+title: "Mapreduce components"
 date: 2022-10-24
-description: Learn how MapReduce processes large stock data to find maximum closing prices using map, shuffle, reduce phases, input splits, and optional combiners for efficient distributed computing and performance.
-authors:
-  - Dung Ho
+description: "Learn how MapReduce processes large stock data to find maximum closing prices using map, shuffle, reduce phases, input splits, and optional combiners for efficient distributed computing and performance."
+authors: 
 github_id: dudaka
-tags:
-  - data
-  - mapreduce
-  - distributed
-  - hadoop
+tags: 
 ---
 
 ## Introduction

@@ -1,10 +1,8 @@
 ---
-title: null
+title: "¶ pyramid principle"
 date: null
-description: Learn how the Pyramid Principle helps organize information by synthesizing data from the bottom up and communicating key insights clearly from the top down for effective persuasive writing.
-tags:
-  - brainstom
-  - communication
+description: "Learn how the Pyramid Principle helps organize information by synthesizing data from the bottom up and communicating key insights clearly from the top down for effective persuasive writing."
+tags: 
 ---
 
 The Pyramid Principle, popularized by McKinsey's Barbara Minto, is a framework for organizing information.

@@ -1,9 +1,8 @@
 ---
-title: null
+title: "Store information where you would want to encounter it again"
 date: null
-description: Discover how organizing notes with a Zettelkasten method helps you find ideas when you need them, boosting learning and creativity through surprising connections.
-tags:
-  - zettelkasten
+description: "Discover how organizing notes with a Zettelkasten method helps you find ideas when you need them, boosting learning and creativity through surprising connections."
+tags: 
 ---
 
 The most important question is not where we store the information, but where we would like to come across it again.

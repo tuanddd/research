@@ -1,7 +1,7 @@
 ---
-title: null
+title: "≈ mixed methods"
 date: null
-description: Explore the key differences between qualitative and quantitative research methods, highlighting their unique strengths, weaknesses, and underlying philosophies for better data analysis and understanding.
+description: "Explore the key differences between qualitative and quantitative research methods, highlighting their unique strengths, weaknesses, and underlying philosophies for better data analysis and understanding."
 ---
 
 ## Summary
