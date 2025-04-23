@@ -2,9 +2,9 @@
 title: "Kubeseal sops"
 date: 2022-09-28
 description: "Learn how to securely manage Kubernetes secrets using Kubeseal and Sops to encrypt and store secrets safely in public repos while ensuring only your cluster can decrypt them."
-authors: 
+authors:
 github_id: nguyennh4522
-tags: 
+tags:
 ---
 
 - `Kubeseal`: Encrypt your Secret into a SealedSecret, which is safe to store - even to a public repository. The SealedSecret can be decrypted only by the controller running in the target cluster and nobody else (not even the original author) is able to obtain the original Secret from the SealedSecret. SealedSecret is composed of two parts:

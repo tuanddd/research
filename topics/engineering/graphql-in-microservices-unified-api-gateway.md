@@ -2,10 +2,10 @@
 title: "Graphql in microservices unified api gateway"
 date: 2023-03-29
 description: "Discover how Bramble, an open-source GraphQL federation gateway, unifies multiple APIs into a single scalable schema with fine-grained access control and easy deployment for modern microservice architectures."
-authors: 
+authors:
 github_id: mirageruler
 icy: 10
-tags: 
+tags:
 ---
 
 ## Preamble

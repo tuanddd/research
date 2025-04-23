@@ -2,10 +2,10 @@
 title: "Redis streaming"
 date: 2023-04-21
 description: "Learn how to use Redis Streaming for event sourcing and messaging with Docker setup, stream publishing, reading, consumer groups, and message claiming in Redis key-value database."
-authors: 
+authors:
 github_id: R-Jim
 icy: 10
-tags: 
+tags:
 ---
 
 ## What is Redis

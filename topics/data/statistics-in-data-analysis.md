@@ -2,9 +2,9 @@
 title: "Statistics in data analysis"
 date: 2022-10-24
 description: "Learn how key statistical distributions like uniform, normal, and Pareto help analyze data accurately and make better business decisions with meaningful insights."
-authors: 
+authors:
 github_id: Bachpx2911
-tags: 
+tags:
 ---
 
 ## What is Statistics?

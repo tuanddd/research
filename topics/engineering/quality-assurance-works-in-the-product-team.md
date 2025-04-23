@@ -2,10 +2,10 @@
 title: "Quality assurance works in the product team"
 date: 2022-11-08
 description: "Learn how to improve QA testing records with clear documentation formats for Mobile, BackEnd, and FrontEnd teams to track test status, scenarios, and related tickets effectively."
-authors: 
+authors:
 github_id: nhuthm
 icy: 10
-tags: 
+tags:
 ---
 
 _The following entry is from the thoughts, compositions, and conclusions from field work by one of our leads._

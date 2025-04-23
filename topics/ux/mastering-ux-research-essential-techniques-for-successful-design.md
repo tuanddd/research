@@ -2,10 +2,10 @@
 title: "Mastering ux research essential techniques for successful design"
 date: 2023-11-09
 description: "Discover the eight essential UX research methods like Lean Canvas, user journey mapping, and competitor analysis to create user-friendly digital products that meet real user needs effectively."
-authors: 
+authors:
 github_id: Maniub102
 icy: 10
-tags: 
+tags:
 ---
 
 _User experience (UX) research is the foundation of any successful digital product or service. UX research helps companies understand their users, their needs, and their pain points. By using a variety of techniques, UX researchers can create products that are more user-friendly and more effective. In this article, we’ll explore eight key UX research methods that are essential for any UX researcher to know._

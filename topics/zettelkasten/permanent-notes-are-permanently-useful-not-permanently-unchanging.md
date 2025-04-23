@@ -2,7 +2,7 @@
 title: "Permanent notes are permanently useful not permanently unchanging"
 date: null
 description: "Learn the difference between permanent and literature notes in the zettelkasten method, focusing on creating flexible, permanently useful notes that evolve with new ideas."
-tags: 
+tags:
 ---
 
 There's much confusion between "permanent" notes and "literature" notes in the zettelkasten world. In fact, permanent notes are not specially appointed by any means; a more productive way to think about it is to think of "permanent" as signifying "permanently useful," regardless of the originality of its content.

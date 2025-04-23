@@ -2,10 +2,10 @@
 title: "Solid principles"
 date: 2023-04-20
 description: "Learn the SOLID principles of object-oriented design to create clean, maintainable, and flexible code with key concepts like Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion."
-authors: 
+authors:
 github_id: nguyend-nam
 icy: 10
-tags: 
+tags:
 ---
 
 ## What & Why?

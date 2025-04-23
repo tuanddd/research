@@ -2,7 +2,7 @@
 title: "Ux researchers should care about strength of evidence"
 date: null
 description: "UX researchers should focus on collecting valid and reliable data by observing users in natural settings to ensure strong evidence and improve user experience design decisions."
-tags: 
+tags:
 ---
 
 UX researchers should care about strength of evidence

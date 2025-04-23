@@ -2,9 +2,9 @@
 title: Reducers
 date: 2022-05-22
 description: "Learn how frontend reducers act as single state machines with non-deterministic states, using algebraic data types for clear state management and enabling parallelizable operations in React and Redux."
-authors: 
+authors:
 github_id: monotykamary
-tags: 
+tags:
 ---
 
 _This note refers to frontend reducers, and not to be confused with other reducers like from MapReduce._

@@ -2,7 +2,7 @@
 title: "≈ the elements of story"
 date: null
 description: "Learn key nonfiction writing techniques from Francis Flaherty’s manual, covering narrative sequencing, strong leads, clear language, and storytelling that makes abstract ideas relatable and memorable."
-tags: 
+tags:
 ---
 
 ## Summary

@@ -2,9 +2,9 @@
 title: "Acid model"
 date: 2022-04-18
 description: "Learn how the ACID model ensures database transaction reliability with atomicity, consistency, isolation, and durability for accurate, secure, and concurrent data management in ACID-compliant systems."
-authors: 
+authors:
 github_id: monotykamary
-tags: 
+tags:
 ---
 
 ## What is the ACID model?

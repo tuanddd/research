@@ -2,10 +2,10 @@
 title: "Google data fusion"
 date: 2024-01-22
 description: "Learn how to use Google Cloud Data Fusion to build and manage ETL pipelines with a simple drag-and-drop interface, integrating data from cloud storage to BigQuery for fast analytics."
-authors: 
+authors:
 github_id: mickwan1234
 icy: 10
-tags: 
+tags:
 ---
 
 ## Introduction

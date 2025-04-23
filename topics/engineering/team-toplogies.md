@@ -2,9 +2,9 @@
 title: "Team toplogies"
 date: 2022-08-15
 description: "Discover how Team Topologies improves software delivery by organizing teams into four types and using three interaction modes to boost collaboration, reduce cognitive load, and enhance flow."
-authors: 
+authors:
 github_id: zlatanpham
-tags: 
+tags:
 ---
 
 Many organizations experience problems with software delivery because they have an unhelpful model of what software development is really about. An obsession with “feature delivery” ignores human-related and team-related dynamics inherent in modern software development, leading to disengagement from staff, especially when there are high cognitive loads.

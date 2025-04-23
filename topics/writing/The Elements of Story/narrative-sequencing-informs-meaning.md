@@ -2,7 +2,7 @@
 title: "Narrative sequencing informs meaning"
 date: null
 description: "Learn how the sequence of information in a story shapes meaning and persuasion, and why adjusting your approach is key when your goal is to inform rather than persuade."
-tags: 
+tags:
 ---
 
 The sequence of information in any story or narrative contributes to the overall meaning of the text. The impact of a fact or an insight can be amplifed or diminished depending on what comes before or after.

@@ -2,9 +2,9 @@
 title: "State explosion"
 date: 2022-05-22
 description: "Learn how statecharts solve the state explosion problem in state machines using parallel states, hierarchical states, and guard conditions for simpler and more efficient designs."
-authors: 
+authors:
 github_id: monotykamary
-tags: 
+tags:
 ---
 
 ## What is state explosion?

@@ -2,9 +2,9 @@
 title: "Software quality assurance"
 date: 2022-10-04
 description: "Learn how Software Quality Assurance ensures software meets requirements through testing, planning, and process control to improve reliability, usability, and maintainability in development projects."
-authors: 
+authors:
 github_id: trkhoi
-tags: 
+tags:
 ---
 
 ## Definition of Software Quality Assurance

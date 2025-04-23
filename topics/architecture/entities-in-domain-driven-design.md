@@ -2,9 +2,9 @@
 title: "Entities in domain driven design"
 date: 2022-03-28
 description: "Learn how Domain-Driven Design (DDD) uses entity identity and continuity to improve software by linking developers and domain experts for better system maintenance and scalability."
-authors: 
+authors:
 github_id: R-Jim
-tags: 
+tags:
 ---
 
 ## Recap on DDD

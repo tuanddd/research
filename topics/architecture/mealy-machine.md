@@ -2,9 +2,9 @@
 title: "Mealy machine"
 date: 2022-06-28
 description: "Learn what a Mealy machine is, its mathematical model, and how it differs from Moore machines and finite-state transducers in this clear explanation of finite-state automata concepts."
-authors: 
+authors:
 github_id: monotykamary
-tags: 
+tags:
 ---
 
 ## What is a Mealy machine?

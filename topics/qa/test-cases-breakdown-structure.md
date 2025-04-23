@@ -2,10 +2,10 @@
 title: "Test cases breakdown structure"
 date: 2022-12-12
 description: "Learn how to manage manual and automated test cases in one documentation using clear naming, separating functional and non-functional tests, and updating early for efficient software testing."
-authors: 
+authors:
 github_id: binhle59
 icy: 10
-tags: 
+tags:
 ---
 
 ## Note

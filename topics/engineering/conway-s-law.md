@@ -2,9 +2,9 @@
 title: "Conway s law"
 date: 2022-06-12
 description: "Conway's Law explains how a company's communication structure shapes its software design, highlighting the need to align team organization with system architecture for better development outcomes."
-authors: 
+authors:
 github_id: zlatanpham
-tags: 
+tags:
 ---
 
 > Any organization that designs a system will produce a **design** whose structure is a **copy of the organization's communication structure**.

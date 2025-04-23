@@ -2,10 +2,10 @@
 title: "Analysis document"
 date: 2023-01-03
 description: "Learn how to use analysis documentation to clarify requirements, identify issues, and align solutions with clients for smoother product development and better team planning."
-authors: 
+authors:
 github_id: nhuthm
 icy: 10
-tags: 
+tags:
 ---
 
 _The following entry is taken from field experience that I'm doing in a team project._

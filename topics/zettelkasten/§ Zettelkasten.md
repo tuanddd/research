@@ -2,7 +2,7 @@
 title: "§ zettelkasten"
 date: null
 description: "Discover how the Zettelkasten method, inspired by Niklas Luhmann, enhances personal knowledge management and learning through organized notes and creative surprise."
-tags: 
+tags:
 ---
 
 Zettelkästen describes a method of personal knowledge management inspired by prolific sociologist Niklas Luhmann.

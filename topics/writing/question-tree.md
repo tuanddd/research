@@ -2,9 +2,9 @@
 title: "Question tree"
 date: 2022-04-18
 description: "Learn how question trees help brainstorm research questions and explore business problems, guiding decision-making with clear, broad inquiries beyond simple yes or no answers."
-authors: 
+authors:
 github_id: monotykamary
-tags: 
+tags:
 ---
 
 ## What is a question tree?

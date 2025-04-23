@@ -2,9 +2,9 @@
 title: Git
 date: 2021-08-11
 description: "Learn how Git, the popular version control system, helps developers track changes, manage branches, and collaborate effectively using workflows like GitHub flow and Git-flow for software development."
-authors: 
+authors:
 github_id: hieuphq
-tags: 
+tags:
 ---
 
 ### What is git?

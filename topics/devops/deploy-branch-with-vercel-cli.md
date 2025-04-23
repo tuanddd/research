@@ -2,9 +2,9 @@
 title: "Deploy branch with vercel cli"
 date: 2023-06-16
 description: "Learn how to deploy specific apps in a monorepo to Vercel using GitHub Actions and Vercel CLI, optimizing builds by detecting changes and managing branch-based environments effectively."
-authors: 
+authors:
 github_id: chinhld12
-tags: 
+tags:
 ---
 
 ## Introduction

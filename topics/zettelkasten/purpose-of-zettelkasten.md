@@ -2,7 +2,7 @@
 title: "Purpose of zettelkasten"
 date: null
 description: "Discover how the Zettelkasten method boosts productivity and creativity by organizing notes to generate new ideas and insights for effective knowledge work and writing."
-tags: 
+tags:
 ---
 
 The purpose of the Zettelkasten is [[¶ Collector's Fallacy | not just to store notes]]. Rather, it helps facilitate thinking. A well-maintained zettelkasten isn't just a notebook; it provokes new ideas by bringing disparate sources into conversation with one another and the researcher. It frees the brain up from having to remember dry facts so that it can spend its effort on the more important work of [[Knowledge work means transforming old ideas into new ones|generating new insight]].

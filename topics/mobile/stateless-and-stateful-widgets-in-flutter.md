@@ -2,9 +2,9 @@
 title: "Stateless and stateful widgets in Flutter"
 date: 2022-09-12
 description: "Learn the key differences between stateless and stateful widgets in Flutter, including how each manages UI state and when to use them for dynamic or static app interfaces."
-authors: 
+authors:
 github_id: knguyenuit
-tags: 
+tags:
 ---
 
 ## State

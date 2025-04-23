@@ -2,9 +2,9 @@
 title: "Kotlin coroutine"
 date: 2022-09-06
 description: "Learn Kotlin coroutines basics, structured concurrency, and how lightweight threads improve concurrent programming with examples of coroutine cancellation and job lifecycle."
-authors: 
+authors:
 github_id: khanhtruong
-tags: 
+tags:
 ---
 
 Starting from Kotlin 1.3, JetBrain introduces coroutine a light-weight thread. This article will focus on the basic concept of the coroutine and how you can use it in Kotlin.
