@@ -1,8 +1,8 @@
 ---
 title: § Data Engineering
 date: 2025-04-23
+description: Explore comprehensive data engineering topics including Google Dataproc, Apache Hive, MapReduce, data pipeline design, and BI tools to enhance your knowledge of data analysis and processing techniques.
 author: thanh
-description:
 tags:
   - data-engineering
   - big-data

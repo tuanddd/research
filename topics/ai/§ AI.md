@@ -1,11 +1,11 @@
 ---
 title: § AI
 date: 2025-04-23
+description: Explore clear explanations of gradient descent, AI-powered interview systems, secure remote servers, and challenges of AI in Hollywood and gaming to enhance your understanding of machine learning and AI applications.
 author: thanh
-description:
 tags:
-    - ai
-    - moc
+  - ai
+  - moc
 ---
 
 ### AI fundamentals
@@ -25,4 +25,3 @@ tags:
 ### AI in society & industry
 
 - [Why Hollywood and gaming struggle with AI](./why-hollywood-and-gaming-struggle-with-ai.md)
-

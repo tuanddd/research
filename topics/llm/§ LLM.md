@@ -1,8 +1,8 @@
 ---
 title: § LLM
 date: 2025-04-23
+description: Explore comprehensive guides on AI foundations, prompt engineering, model training, retrieval, evaluation, AI agents, security, and real-world applications of large language models for effective AI development.
 author: tieubao
-description:
 tags:
   - llm
   - moc
@@ -80,4 +80,3 @@ tags:
 - [The Rise of AI Applications with LLM](./the-rise-of-ai-applications-with-llm.md)
 - [Use Cases for LLM Applications](./use-cases-for-llm-applications.md)
 - [Text to MongoDB](./text-to-mongodb.md)
-

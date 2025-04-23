@@ -1,8 +1,8 @@
 ---
 title: § Go
 date: 2025-04-23
+description: Explore comprehensive Go language tutorials covering concurrency, testing, design patterns, package management, performance profiling, and popular tools to master efficient Golang development and best practices.
 author: thanh
-description:
 tags:
   - golang
   - moc
@@ -51,4 +51,3 @@ tags:
 - [Use Go Selenium To Crawl Data](./use-go-selenium-to-crawl-data.md)
 - [Golang For High Performance Video Streaming](./golang-for-high-performance-video-streaming.md)
 - [Connecting Vim With Golang](./connecting-vim-with-golang.md)
-

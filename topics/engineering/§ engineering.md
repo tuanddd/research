@@ -1,8 +1,8 @@
 ---
 title: § Engineering
 date: 2025-04-23
+description: Explore comprehensive engineering topics including backend development, management strategies, and web performance fundamentals to enhance your software skills and team productivity.
 author: thanh
-description:
 tags:
   - engineering
   - moc
