@@ -6,13 +6,18 @@ function checkFrontmatter(frontmatter) {
   const keys = new Set();
   let curlyOpen = 0, curlyClose = 0;
   let squareOpen = 0, squareClose = 0;
+  const forbiddenChars = ['\t', '\0', '\b', '\f', '\v']; // Add any other forbidden chars here
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
     const trimmed = line.trim();
     if (trimmed === '') continue; // skip empty lines
 
-    // YAML forbids tab characters
-    if (line.includes('\t')) return { valid: false, reason: `Tab character found on line ${i + 1}` };
+    // Check for forbidden characters anywhere in the line
+    for (const ch of forbiddenChars) {
+      if (line.includes(ch)) {
+        return { valid: false, reason: `Forbidden character (${JSON.stringify(ch)}) found on line ${i + 1}` };
+      }
+    }
 
     // Count brackets/braces
     curlyOpen += (line.match(/{/g) || []).length;
@@ -24,20 +29,27 @@ function checkFrontmatter(frontmatter) {
     if (/^\s*-\s/.test(trimmed)) continue;
 
     // Check for missing colon (should be key: value)
-    // Also disallow #, ' or " characters in unquoted keys or values (common frontmatter error)
-    if (!/^[\w\-\.]+:\s*.*$/.test(trimmed)) {
-      return { valid: false, reason: `Missing or invalid key-value format on line ${i + 1}: "${line}"` };
+    // Also ensure only one colon per line (key: value), ignoring colons inside quotes
+    let colonCount = 0;
+    let inSingleQuote = false;
+    let inDoubleQuote = false;
+    for (let char of line) {
+      if (char === "'" && !inDoubleQuote) inSingleQuote = !inSingleQuote;
+      else if (char === '"' && !inSingleQuote) inDoubleQuote = !inDoubleQuote;
+      else if (char === ':' && !inSingleQuote && !inDoubleQuote) colonCount++;
     }
-    // Check for forbidden characters # ' " outside quotes in the value part
-    const colonIndex = trimmed.indexOf(':');
-    if (colonIndex !== -1) {
-      const valuePart = trimmed.slice(colonIndex + 1).trim();
-      // If value is not quoted, check for forbidden characters
-      if (!/^(['"]).*\1$/.test(valuePart)) {
-        if (/[#'"]/.test(valuePart)) {
-          return { valid: false, reason: `Forbidden character (#, ', or ") found in unquoted value on line ${i + 1}: "${line}"` };
-        }
-      }
+    if (colonCount !== 1) {
+      return { valid: false, reason: `Line ${i + 1} should contain exactly one colon outside quotes: "${line}"` };
+    }
+    // Check key-value format only on the part before the first colon
+    const keyPart = trimmed.split(':')[0];
+    if (!/^[\w\-\.]+$/.test(keyPart)) {
+      return { valid: false, reason: `Invalid key format on line ${i + 1}: "${line}"` };
+    }
+    // If value is quoted, skip forbidden character checks on value
+    const valuePart = trimmed.slice(trimmed.indexOf(':') + 1).trim();
+    if (/^(['"]).*\1$/.test(valuePart)) {
+      continue;
     }
 
     // Check for duplicate keys at top level
