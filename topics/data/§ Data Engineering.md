@@ -1,53 +1,71 @@
 ---
-title: null
-date: null
-description: Explore key engineering concepts in data, including Google Dataproc, Apache Hive, data pipelines, and big data tools like Hadoop, to enhance your understanding of data processing and state management.
-recurringTemplate: true
-recurringTemplateName: engineering-data-moc
+title: § Data Engineering
+date: 2025-04-23
+author: thanh
+description:
+tags:
+  - data-engineering
+  - big-data
+  - moc
 ---
 
-This is a [[Map of Content]] related to the engineering concepts around data.
+### General Data Engineering
 
-## General data
+- [Google Dataproc](./google-dataproc.md)
+- [Google Data Fusion](./google-data-fusion.md)
+- [Data Pipeline Design Framework](./data-pipeline-design-framework.md)
+- [Statistics in Data Analysis](./statistics-in-data-analysis.md)
+- [Partitions on Apache Hive](./partitions-on-apache-hive.md)
+- [Overview of BI Tools](./overview-of-bi-tools.md)
+- [Order By vs. Sort By vs. Distribute By vs. Cluster By](./order-by-vs-sort-by-vs-distribute-by-vs-cluster-by.md)
+- [MapReduce](./mapreduce.md)
+- [MapReduce Components](./mapreduce-components.md)
+- [Managed Table vs External Table](./managed-table-vs-external-table.md)
+- [Introduction to Apache Pig](./introduction-to-apache-pig.md)
+- [Introduction to Apache Hive](./introduction-to-apache-hive.md)
+- [Hive Window and Analytic Functions](./hive-window-and-analytic-functions.md)
+- [Data Vault Modelling](./data-vault-modelling.md)
+- [DBT - The Good Solution to Accelerate Data Transformation](./dbt-the-good-solution-to-accelerate-data-transformation.md)
+- [Buckets on Apache Hive](./buckets-on-apache-hive.md)
+- [Behind a Hive Table](./behind-a-hive-table.md)
+- [Bloom Filter](./bloom-filter.md)
+- [Cap Theorem](./cap-theorem.md)
+- [Creating a Fully Local Search Engine on Memo](./creating-a-fully-local-search-engine-on-memo.md)
+- [Data Analyst In Retail Trading](./data-analyst-in-retail-trading.md)
+- [Database Design Circular](./database-design-circular.md)
+- [Database Locking](./database-locking.md)
+- [DuckDB Demo and Showcase](./duckdb-demo-and-showcase.md)
+- [Evolutionary Database Design](./evolutionary-database-design.md)
+- [Full-Text Search with PostgreSQL](./full-text-search-with-postgresql.md)
+- [Google Data Fusion](./google-data-fusion.md)
+- [Google Dataproc](./google-dataproc.md)
+- [Hadoop Distributed File System (HDFS)](./hadoop-distributed-file-system-hdfs.md)
+- [Hive Window and Analytic Functions](./hive-window-and-analytic-functions.md)
+- [How Discord Stores Messages - Part 1: From MongoDB to Cassandra](./how-discord-stores-messages-part-1-from-mongodb-to-cassandra.md)
+- [How I Came Up With Our Security Standard](./how-i-came-up-with-our-security-standard.md)
+- [Introduction to Apache Hive](./introduction-to-apache-hive.md)
+- [Introduction to Apache Pig](./introduction-to-apache-pig.md)
+- [Introduction to CRDT](./introduction-to-crdt.md)
+- [Local-First Software](./local-first-software.md)
+- [Managed Table vs External Table](./managed-table-vs-external-table.md)
+- [MapReduce](./mapreduce.md)
+- [MapReduce Components](./mapreduce-components.md)
+- [Multi-Column Index in DB](./202301191192-multi-column-index-in-db.md)
+- [Quick Learning Vector Database](./quick-learning-vector-database.md)
+- [Redis Leaderboard](./redis-leaderboard.md)
+- [Self-Balanced BSTs - AVL Trees](./self-balanced-bsts-avl-trees.md)
+- [SQL and How It Relates to Disk Reads and Writes](./sql-and-how-it-relates-to-disk-reads-and-writes.md)
+- [SQL Practices ORM vs Plain SQL](./sql-practices-orm-vs-plain-sql.md)
+- [SQL Sargable Queries and Their Impact on Database Performance](./sql-sargable-queries-and-their-impact-on-database-performance.md)
+- [Statistics in Data Analysis](./statistics-in-data-analysis.md)
+- [Utilizing Cached Table for Binance Kline API Data Processing](./utilizing-cached-table-for-binance-kline-api-data-processing.md)
 
-- [[playground/01_literature/Engineering/Google Dataproc|Google Dataproc]]
-- [[playground/01_literature/Engineering/Google Data Fusion|Google Data Fusion]]
-- [[Quick Learning Vector Database|Quick Learning Vector Database]]
-- [[Data Pipeline Design Framework|Data Pipeline Design Framework]]
-- [[Statistics in data analysis|Statistics in data analysis]]
-- [[Partitions on Apache Hive|Partitions on Apache Hive]]
-- [[Overview of BI Tools|Overview of BI Tools]]
-- [[Order By vs. Sort By vs. Distribute By vs. Cluster By|Order By vs. Sort By vs. Distribute By vs. Cluster By]]
-- [[MapReduce|MapReduce]]
-- [[MapReduce Components|MapReduce Components]]
-- [[playground/01_literature/Engineering/Data/Google Dataproc|Google Dataproc]]
-- [[Managed Table vs External Table|Managed Table vs External Table]]
-- [[Introduction to Apache Pig|Introduction to Apache Pig]]
-- [[Introduction to Apache Hive|Introduction to Apache Hive]]
-- [[Hive Window and Analytic functions|Hive Window and Analytic functions]]
-- [[playground/01_literature/Engineering/Data/Google Data Fusion|Google Data Fusion]]
-- [[Data Vault modelling|Data Vault modelling]]
-- [[DBT - The Good Solution to Accelerate Data Transformation|DBT - The Good Solution to Accelerate Data Transformation]]
-- [[Buckets on Apache Hive|Buckets on Apache Hive]]
-- [[Behind a Hive table|Behind a Hive table]]
+---
 
-## Big data
+### Placeholders & Knowledge Gaps
 
-- [[Apache Hadoop and Big Data|Apache Hadoop and Big Data]]
-- [[Hadoop Distributed File System (HDFS)|Hadoop Distributed File System (HDFS)]]
-
-## State
-
-- [[Finite-state automata|Finite-state automata]]
-- [[Finite-state transducer|Finite-state transducer]]
-- [[Preserving and Resetting state in React|Preserving and Resetting state in React]]
-- [[Tackling Server State complexity in Frontend Development|Tackling Server State complexity in Frontend Development]]
-- [[When should we use useReducer instead of useState?|When should we use useReducer instead of useState?]]
-- [[Stateless and Stateful Widgets in Flutter|Stateless and Stateful Widgets in Flutter]]
-- [[Mealy machine|Mealy machine]]
-- [[Moore machine|Moore machine]]
-- [[Reducers|Reducers]]
-- [[State explosion|State explosion]]
-- [[UML state machine diagram|UML state machine diagram]]
-
-_This page was last modified at 2024-03-15T05:48:35.973Z_.
+- [Placeholder: Data Governance](./data-governance.md)
+- [Placeholder: Data Quality Management](./data-quality-management.md)
+- [Placeholder: Data Security and Privacy](./data-security-and-privacy.md)
+- [Placeholder: Data Cataloging and Metadata Management](./data-cataloging-and-metadata-management.md)
+- [Placeholder: Data Observability](./data-observability.md)

@@ -12,7 +12,7 @@ tags:
 
 ## Why Devbox? The Big Picture
 
-- [The Game-Changing Reasons to Choose Devbox](introduction/The%20reason%20for%20being.md)
+- [The Game-Changing Reasons to Choose Devbox](introduction/the-reason-for-being.md)
 
 ## The Building Blocks
 
@@ -22,7 +22,7 @@ tags:
 
 ## From Zero to Hero
 
-- [Craft Your Perfect Shell with Devbox](guide/Run%20your%20own%20shell.md)
+- [Craft Your Perfect Shell with Devbox](guide/run-your-own-shell.md)
 - [Devbox.json: The Blueprint of Your Dev Environment](guide/devbox-json.md)
 - [Beyond Containers: Devbox's Containerless Revolution](guide/containerless.md)
 
@@ -42,4 +42,4 @@ tags:
 
 - [Nix Shell: The Foundation of Rock-Solid Environments](introduction/¶%20Nix%20Shell.md)
 - [Nix Flakes: Package Management Reimagined](introduction/¶%20Nix%20Flakes.md)
-- [Devbox vs Nix: Simplicity Meets Power](introduction/Why%20Devbox%20But%20Not%20Nix.md)
+- [Devbox vs Nix: Simplicity Meets Power](introduction/why-devbox-but-not-nix.md)
