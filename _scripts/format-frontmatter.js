@@ -42,13 +42,13 @@ function formatDateToYMD(dateValue) {
 function yamlValue(val) {
   if (val === null) return 'null';
   if (typeof val === 'string') {
+    // Wrap in double quotes if value contains any of these characters: ' # ` :
     if (
       val.includes("'") ||
       val.includes('#') ||
       val.includes('`') ||
       val.includes(':')
     ) {
-      // Wrap in double quotes if single quote is present
       return `"${val.replace(/"/g, '\\"')}"`;
     }
     return val;

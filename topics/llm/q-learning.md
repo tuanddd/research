@@ -1,9 +1,8 @@
 ---
-tags: 
+tags:
 - ai
 - machine-learning
 - llm
-authors: Pham Ngoc Thanh
 title: 'Q Learning'
 github_id: thanhpn
 authors:

@@ -1,7 +1,7 @@
 ---
 title: null
 date: null
-description: Learn how to create deep, multidimensional characters by exploring their core needs and psychological maneuvers, key concepts from Elizabeth George's _Mastering the Process: From Idea to Novel_.
+description: "Learn how to create deep, multidimensional characters by exploring their core needs and psychological maneuvers, key concepts from Elizabeth George's _Mastering the Process: From Idea to Novel_."
 tags:
   - writing
   - story-telling
