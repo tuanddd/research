@@ -1,5 +1,5 @@
 ---
-title: Case study: Write-heavy scalable and reliable inventory platform
+title: "Case study: Write-heavy scalable and reliable inventory platform"
 date: 2023-02-28
 description: How Doordash designed a successful write-heavy scalable and reliable inventory platform
 authors:

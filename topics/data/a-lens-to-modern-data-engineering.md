@@ -1,5 +1,5 @@
 ---
-title: Building a Data-Driven Project Reporting System: A Lens into Modern Data Engineering
+title: "Building a Data-Driven Project Reporting System: A Lens into Modern Data Engineering"
 date: 2024-10-29
 description: Learn how to transition from application development to data engineering by building a modern project reporting system. Discover essential mindset shifts, best practices, and hands-on look using tools like DuckDB, and Modal. Master system-level architecture and data pipeline design for scalable enterprise solutions.
 authors:

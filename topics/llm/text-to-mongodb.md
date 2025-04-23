@@ -1,5 +1,5 @@
 ---
-title: Natural Language to Database Queries: Text-to-MongoDB
+title: "Natural Language to Database Queries: Text-to-MongoDB"
 date: 2024-11-13
 description: An exploration of natural language to database query systems using MongoDB, examining system prompts and implications for data engineering and agentic workflows.
 authors:
