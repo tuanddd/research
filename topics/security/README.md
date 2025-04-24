@@ -2,7 +2,7 @@
 title: § Security
 date: 2025-04-23
 description: Explore essential security fundamentals and principles with guides on applied security, key mechanisms against cyber threats, and a holistic approach to protecting your digital assets.
-author: zlatanpham
+authors: zlatanpham
 tags:
   - security
   - moc

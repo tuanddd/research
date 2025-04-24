@@ -88,4 +88,4 @@ In summary, the challenge of context size in LLMs like GPT is far from insurmoun
 
 ## Reference
 
-- https://www.pinecone.io/learn/chunking-strategies/
+- <https://www.pinecone.io/learn/chunking-strategies/>

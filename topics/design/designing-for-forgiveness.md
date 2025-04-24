@@ -6,7 +6,6 @@ authors:
   - Maniub102
 tags:
   - design
-  - ux-ui
   - ux
 ---
 

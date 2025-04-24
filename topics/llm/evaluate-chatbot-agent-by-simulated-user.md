@@ -173,4 +173,4 @@ In this article, we have go throught the technique to evaluate a chatbot/AI agen
 
 ## References
 
-- https://github.com/langchain-ai/langgraph/blob/main/examples/chatbot-simulation-evaluation/agent-simulation-evaluation.ipynb
+- <https://github.com/langchain-ai/langgraph/blob/main/examples/chatbot-simulation-evaluation/agent-simulation-evaluation.ipynb>

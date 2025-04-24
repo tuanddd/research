@@ -2,7 +2,7 @@
 title: § Architecture
 date: 2025-04-23
 description: Explore comprehensive guides on software architecture patterns, design patterns, state machines, domain-driven design, and key software principles to improve your system design and development skills.
-author: zlatanpham
+authors: zlatanpham
 tags:
   - architecture
   - moc

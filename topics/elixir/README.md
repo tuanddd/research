@@ -2,7 +2,7 @@
 title: § Elixir
 date: 2025-04-23
 description: Explore comprehensive guides on Elixir programming, including testing, finite state machines, clustering, process groups, and PostgreSQL integration to enhance your Elixir development skills.
-author: zlatanpham
+authors: zlatanpham
 tags:
   - elixir
   - moc

@@ -1,7 +1,6 @@
 ---
-title: § Productivity
+title: § Wealth Study
 description: null
 authors:
   - tieubao
-  - zlatanpham
 ---

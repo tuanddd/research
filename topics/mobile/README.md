@@ -2,7 +2,7 @@
 title: § Mobile
 date: 2025-04-23
 description: Explore essential mobile development topics including Flutter widgets, SwiftUI, Kotlin coroutines, and iOS security with practical guides and case studies for building modern apps.
-author: zlatanpham
+authors: zlatanpham
 tags:
   - mobile
   - moc

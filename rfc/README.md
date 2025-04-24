@@ -45,7 +45,7 @@ Copy this template to get started:
 ```markdown
 # RFC: [Title]
 
-**Author:** [Your Name]
+**authors:** [Your Github]
 **Date:** [YYYY-MM-DD]
 **Status:** Draft | In Review | Approved | Rejected | Implemented
 

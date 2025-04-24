@@ -1,7 +1,6 @@
 ---
-title: § Productivity
+title: § Delegation
 description: null
 authors:
   - tieubao
-  - zlatanpham
 ---

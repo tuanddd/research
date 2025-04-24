@@ -11,7 +11,7 @@ tags:
 
 # RFC: [Title]
 
-- **Author:** [Your Name]
+- **authors:** [Your Name]
 - **Date:** [YYYY-MM-DD]
 - **Status:** Draft | In Review | Approved | Rejected | Implemented
 
