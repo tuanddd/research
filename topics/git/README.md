@@ -10,6 +10,6 @@ tags:
 
 ### Git fundamentals & concepts
 
-- [Git](./git.md)
-- [Gitflow Pull Request](./gitflow-pull-request.md)
-- [Git Commit Message Convention](./git-commit-message-convention.md)
+- [Git](git.md)
+- [Gitflow Pull Request](gitflow-pull-request.md)
+- [Git Commit Message Convention](git-commit-message-convention.md)

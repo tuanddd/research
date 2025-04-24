@@ -10,12 +10,12 @@ tags:
 
 ### Testing Techniques
 
-- [Boundary and Equivalence Partitioning Testing](./boundary-and-equivalence-partitioning-testing.md)
+- [Boundary and Equivalence Partitioning Testing](boundary-and-equivalence-partitioning-testing.md)
 
 ### Onboarding & Processes
 
-- [QC Onboarding](./qc-onboarding.md)
+- [QC Onboarding](qc-onboarding.md)
 
 ### Test Case Management
 
-- [Test Cases Breakdown Structure](./test-cases-breakdown-structure.md)
+- [Test Cases Breakdown Structure](test-cases-breakdown-structure.md)

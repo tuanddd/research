@@ -1,5 +1,5 @@
 ---
-title: "§ product"
+title: "§ Product"
 date: null
 description: null
 ---

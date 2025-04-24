@@ -15,5 +15,5 @@ This issue stems from the fact that _Docker build has access to the public inter
 
 Some specific issues related to this problem include:
 
-- [Unstable package installation](./Unstable%20package%20installation.md)
-- [Shadow copies](./Shadow%20copies.md)
+- [Unstable package installation](Unstable%20package%20installation.md)
+- [Shadow copies](Shadow%20copies.md)

@@ -1,5 +1,5 @@
 ---
-title: "§ writing"
+title: "§ Writing"
 date: null
 description: "Discover essential writing tips to create compelling stories, improve characterization, and master dialogue techniques that engage readers and make your narratives memorable."
 tags:

@@ -10,13 +10,13 @@ tags:
 
 ### Testing in Elixir
 
-- [Acceptance test in Elixir](./acceptance-test-in-elixir.md)
+- [Acceptance test in Elixir](acceptance-test-in-elixir.md)
 
 ### Finite State Machines
 
-- [Erlang Finite State Machine](./erlang-fsm.md)
+- [Erlang Finite State Machine](erlang-fsm.md)
 
 ### Clustering & Distributed Systems
 
-- [Libcluster in Elixir](./libcluster-in-elixir.md)
-- [pg in Elixir](./pg-in-elixir.md)
+- [Libcluster in Elixir](libcluster-in-elixir.md)
+- [pg in Elixir](pg-in-elixir.md)
