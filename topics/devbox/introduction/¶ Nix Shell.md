@@ -1,5 +1,4 @@
 ---
-
 title: "Nix Shell: Bulletproof Development Environments"
 date: 2024-08-01
 description: Discover how Nix Shell creates rock-solid dev environments that work everywhere, every time.

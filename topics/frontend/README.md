@@ -1,5 +1,4 @@
 ---
-
 title: § Frontend
 date: 2025-04-23
 description: Explore comprehensive frontend development guides covering frameworks, state management, performance optimization, testing, accessibility, tools, and case studies to build efficient, modern web applications.

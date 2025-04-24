@@ -1,5 +1,4 @@
 ---
-
 title: Docker Build Issues
 date: 2024-08-01
 description: An overview of the non-deterministic nature of Docker builds and related issues

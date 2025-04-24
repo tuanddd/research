@@ -1,5 +1,4 @@
 ---
-
 title: "Devbox: Your Dev Environment on Steroids"
 date: 2024-08-01
 description: Forget setup headaches. Devbox delivers instant, rock-solid dev environments powered by Nix.

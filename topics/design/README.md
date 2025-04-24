@@ -1,5 +1,4 @@
 ---
-
 title: § Design
 date: 2025-04-23
 description: Explore essential design fundamentals, UX principles, personas, and effective design systems to improve UI and product development with clear, practical tips and user-focused strategies.

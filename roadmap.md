@@ -1,5 +1,4 @@
 ---
-
 tags:
   - labs
   - updates
@@ -14,8 +13,8 @@ In a recent collaborative discussion between key members of the Labs and Consult
 
 Our discussions have led to the identification of several intriguing topics, each with its own set of challenges. It's particularly noteworthy how some of these topics intersect and overlap.
 
-| Topic            | PIC        | Challenges |
-| ---------------- | ---------- | -----------|
+| Topic            | PIC        | Challenges                                                                                                                                                                                                                                                                                                                                                |
+| ---------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **WASM**         | An Tran    | - [[self-host-ai-model-on-the-browser\|Self-host AI model on the browser (e.g. OCR for security cams, private browser chatbot…)]] <br> - [[data-processing-and-visual-infographics-through-duckdb-wasm\|Data processing and visual infographics (through DuckDB-WASM)]] <br> - [[implement-a-rust-game-through-wasm\|Implement a Rust game through WASM]] |
 | **Passwordless** | An Tran    | - [[demo-biometrics-on-the-web-through-external-device-connection\|Biometrics on the web (through external device connection)]] <br> - [[Labs Roadmap (Nov 23 update)\|QR code based login]] <br> - [[demo-magic-links\|Magic Links]]                                                                                                                     |
 | **Rust**         | Hieu Phan  | - [[implementing-a-game-server-on-rust\|Implementing a game server on Rust]]                                                                                                                                                                                                                                                                              |
@@ -23,7 +22,7 @@ Our discussions have led to the identification of several intriguing topics, eac
 | **MPC**          | Huy Nguyen | - [[applying-mpc-for-authentication-for-web3-console\|Applying MPC for authentication for web3 (Console)]]                                                                                                                                                                                                                                                |
 | **UI practices** | Thanh Pham | - [[mochi-ui\|Build mochi-ui]]                                                                                                                                                                                                                                                                                                                            |
 
-![](assets/labs-roadmap-(nov-23-update)-20231127143515779.webp)
+![](<assets/labs-roadmap-(nov-23-update)-20231127143515779.webp>)
 
 As we concentrate on these topics, other potential areas will stay in our backlog for the time being. However, these are open for exploration by members of the Labs and Dwarves teams, should they spark interest:
 

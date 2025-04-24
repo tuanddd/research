@@ -1,5 +1,5 @@
-
 ## Tag Cloud
+
 ```chartsview
 #-----------------#
 #- chart type    -#
@@ -34,6 +34,7 @@ options:
 ```
 
 ## Tag Treemap
+
 ```chartsview
 #-----------------#
 #- chart type    -#
@@ -80,6 +81,7 @@ options:
 ```
 
 ## Weighted Topic Radar
+
 ```chartsview
 #-----------------#
 #- chart type    -#
@@ -172,6 +174,7 @@ options:
 ```
 
 ## Fleeting Notes
+
 ```chartsview
 #-----------------#
 #- chart type    -#
@@ -223,6 +226,7 @@ options:
 ```
 
 ## Top Contributors
+
 ```chartsview
 #-----------------#
 #- chart type    -#

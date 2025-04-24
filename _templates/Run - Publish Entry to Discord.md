@@ -1,23 +1,23 @@
-<%*
+<%\*
 const dv = this.app.plugins.plugins["dataview"].api;
-const page = dv.page("_env");
+const page = dv.page("\_env");
 
 const pageFields = Object.keys(page).filter(e => e.contains("discord_webhook"));
 const field = await tp.system.suggester(items = pageFields, text_items = pageFields, throw_on_cancel=true, placeholder = "")
 const webhookURL = page[field];
 
 const contentNoFrontmatter = tp.file.content
-	.replace(/---(\n(\w*:\s.*|(\w*:(\n\s+.*)*)))*\n---/g, "")
+.replace(/---(\n(\w*:\s.*|(\w*:(\n\s+.*)_)))_\n---/g, "")
 console.log(contentNoFrontmatter);
 const bareContent = contentNoFrontmatter
-	.replace(/^(#+(.*))$/gm, "\n ")
-	.replace(/\|(.*)\|/gm, " ")
-	.replace(/!\[\[.*\]\]/gm, "")
-	.replace(/\[\[(.*)\]\]/gm, "$1")
-	.replace(/(\r\n|\n|\r)/gm, "")
-	.replace(/^(\s|\t)*- (\s)*(.*)/gm, "$3,")
-	.replace(/(<([^>]+)>)/gi, "")
-	.replace(/\> (\w*)/gm, " $1");
+.replace(/^(#+(._))$/gm, "\n ")
+.replace(/\|(._)\|/gm, " ")
+.replace(/!\[\[._\]\]/gm, "")
+.replace(/\[\[(._)\]\]/gm, "$1")
+.replace(/(\r\n|\n|\r)/gm, "")
+.replace(/^(\s|\t)_- (\s)_(._)/gm, "$3,")
+.replace(/(<([^>]+)>)/gi, "")
+.replace(/\> (\w_)/gm, " $1");
 const description = bareContent.split(" ").slice(0, 35).join(' ') + "..."
 
 const currentPage = tp.file.folder();
@@ -34,44 +34,44 @@ const icy = `${tp.frontmatter.icy || 0}`;
 const blog = `${tp.frontmatter.blog || ""}`;
 const footerText = `?help to see all commands • ${tp.date.now("MM/DD/YYYY h:mm A")}`
 const fields = [
-	{ name: "Author", value: author, inline: true },
-	{ name: "Tags", value: tags, inline: true },
-	{ name: "ICY 🧊", value: icy, inline: true },
+{ name: "Author", value: author, inline: true },
+{ name: "Tags", value: tags, inline: true },
+{ name: "ICY 🧊", value: icy, inline: true },
 ]
 
 if (blog) {
-	fields.push({ name: "Blog", value: blog, inline: true })
+fields.push({ name: "Blog", value: blog, inline: true })
 }
 
 const webhookBody = {
-	username: "Fortress",
-	avatar_url: "https://i.imgur.com/DwLfRwn.png",
-	embeds: [
-		{
-			title,
-			url: braineryURL,
-			description,
-			color: 12669794,
-			thumbnail: {
-				url: `https://github.com/${tp.frontmatter.github_id}.png`
-			},
-			fields,
-			footer: {
-				icon_url: "https://i.imgur.com/DwLfRwn.png",
-				text: footerText
-			}
-		}
-	]
+username: "Fortress",
+avatar_url: "https://i.imgur.com/DwLfRwn.png",
+embeds: [
+{
+title,
+url: braineryURL,
+description,
+color: 12669794,
+thumbnail: {
+url: `https://github.com/${tp.frontmatter.github_id}.png`
+},
+fields,
+footer: {
+icon_url: "https://i.imgur.com/DwLfRwn.png",
+text: footerText
+}
+}
+]
 }
 
 const headers = {
-	"Content-Type": "application/json",
+"Content-Type": "application/json",
 }
 
 await requestUrl({
-	url: webhookURL,
-	method: "POST",
-	body: JSON.stringify(webhookBody),
-	headers,
+url: webhookURL,
+method: "POST",
+body: JSON.stringify(webhookBody),
+headers,
 });
 %>

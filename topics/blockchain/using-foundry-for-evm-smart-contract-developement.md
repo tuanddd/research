@@ -1,5 +1,4 @@
 ---
-
 title: Using Foundry for EVM smart contract development
 date: 2024-07-19
 description: "Introduce Foundry's core functionalities & practices to develop, test and deploy EVM smart contracts"

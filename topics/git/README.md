@@ -1,5 +1,4 @@
 ---
-
 title: § Git
 date: 2025-04-23
 description: Learn the basics of Git, including Gitflow pull requests and commit message conventions, to improve your version control and collaboration skills effectively.

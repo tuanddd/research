@@ -1,5 +1,4 @@
 ---
-
 title: Error Messaging
 date: 2022-11-08
 description: What makes a bad error message

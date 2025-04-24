@@ -1,8 +1,8 @@
 ---
 title: 000 RFC template
 date: 2025-04-03
-description: 
-authors: 
+description:
+authors:
   - tieubao
 tags:
   - earn

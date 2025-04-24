@@ -1,5 +1,4 @@
 ---
-
 title: § Blockchain
 date: 2025-04-23
 description: Explore comprehensive guides on blockchain technology, including foundational concepts, layer 2 scaling, security, smart contracts, zero-knowledge proofs, interoperability, and advanced topics to deepen your understanding and development skills.

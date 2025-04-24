@@ -6,7 +6,7 @@ date: <% await tp.file.creation_date("YYYY-MM-DD") %>
 icy: 10
 ---
 
-<%*
+<%\*
 const dv = this.app.plugins.plugins["dataview"].api;
 const pages = dv.pages(`"_templates/components/cta"`);
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Designing for Forgiveness: Creating Error-Tolerant Interfaces"
 date: 2024-08-23
 description: In this article, we will look at some simple principles for designing error-tolerant interfaces and how to apply them to improve user experience.

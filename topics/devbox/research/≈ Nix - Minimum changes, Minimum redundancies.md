@@ -1,5 +1,4 @@
 ---
-
 title: Nix - Minimum changes, Minimum redundancies
 date: 2024-08-01
 description: An overview of how Nix addresses issues like shadow copies in Docker builds, improving build efficiency and speed

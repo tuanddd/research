@@ -1,5 +1,4 @@
 ---
-
 title: "Devbox Plugins: Turbocharge Your Dev Setup"
 date: 2024-08-01
 description: Discover how Devbox Plugins streamline your development workflow by automating package setup and configuration
