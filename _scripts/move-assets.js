@@ -83,14 +83,12 @@ function findAllFiles(dir) {
 function moveAssets(updateFolder, searchFolder) {
   // Step 2: Find markdown files in update folder and extract asset image links if no internal /assets links
   const markdownFiles = findMarkdownFiles(updateFolder);
-  const rememberedLinks = new Set();
-
+  // We will process each markdown file and handle its own assets folder separately
   markdownFiles.forEach((mdFile) => {
     const content = fs.readFileSync(mdFile, "utf-8");
     const assetLinks = extractAssetImageLinks(content);
     if (assetLinks.size === 0) {
       // No internal /assets image links, so find all image links (not from /assets) to remember
-      // Extract all image links (not from /assets) from the markdown content
       const allImageLinks = new Set();
       const imageRegex = /!\[[^\]]*\]\(([^)]+)\)/g;
       let match;
@@ -101,32 +99,27 @@ function moveAssets(updateFolder, searchFolder) {
           allImageLinks.add(fileName);
         }
       }
-      // Add these to rememberedLinks
-      allImageLinks.forEach((link) => rememberedLinks.add(link));
-    } else {
-      // If contains /assets links, do not remember
-    }
-  });
-
-  // Step 3: Look through all files in search folder, if file name matches remembered links but path different, move file
-  if (rememberedLinks.size === 0) {
-    console.log("No asset links to move.");
-    return;
-  }
-
-  const searchFiles = findAllFiles(searchFolder);
-  searchFiles.forEach((filePath) => {
-    const fileName = path.basename(filePath);
-    if (rememberedLinks.has(fileName)) {
-      // Check if filePath is different from the assets folder path (assumed /assets)
-      // For simplicity, assume assets folder is /assets relative to updateFolder
-      const assetsFolder = path.join(updateFolder, "assets");
-      const destPath = path.join(assetsFolder, fileName);
-      if (path.resolve(filePath) !== path.resolve(destPath)) {
-        // Move file to assets folder
-        fs.renameSync(filePath, destPath);
-        console.log(`Moved ${filePath} to ${destPath}`);
-      }
+      // Determine the directory of the markdown file
+      const mdDir = path.dirname(mdFile);
+      // Determine the assets folder for this markdown file
+      const assetsFolder = path.join(mdDir, "assets");
+      // For each remembered link, move matching files from search folder to this assets folder
+      allImageLinks.forEach((fileName) => {
+        const searchFiles = findAllFiles(searchFolder);
+        searchFiles.forEach((filePath) => {
+          if (path.basename(filePath) === fileName) {
+            const destPath = path.join(assetsFolder, fileName);
+            if (path.resolve(filePath) !== path.resolve(destPath)) {
+              // Ensure assets folder exists
+              if (!fs.existsSync(assetsFolder)) {
+                fs.mkdirSync(assetsFolder, { recursive: true });
+              }
+              fs.renameSync(filePath, destPath);
+              console.log(`Moved ${filePath} to ${destPath}`);
+            }
+          }
+        });
+      });
     }
   });
 }
