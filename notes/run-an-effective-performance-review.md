@@ -1,10 +1,12 @@
 ---
+title: Run an effective performance review
+date: 2021-08-02
+description: null
+authors:
+  - thanh
 tags: 
   - team
   - radio
-title: Dwarves Radio Talk 16 Run An Effective Performance Review
-date: 2021-08-02
-description: null
 ---
 
 ### Performance Review

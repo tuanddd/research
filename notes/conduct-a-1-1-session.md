@@ -1,9 +1,11 @@
 ---
-tags: 
-  - team
-title: Dwarves Radio Talk 17 Conduct A 1 1 Session
+title: Conduct a 1-on-1 session
 date: 2021-08-09
 description: null
+authors:
+  - thanh
+tags: 
+  - radio-talk
 ---
 
 In this Radio Talk, [Thanh Pham](https://github.com/zlatanpham) - our Head of Web, shared how he conducts a 1-1 meeting with the Fellows. Working already four years at Dwarves, he has mentored a bunch of Juniors and realized many lesson-learned.

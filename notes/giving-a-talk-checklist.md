@@ -1,12 +1,12 @@
 ---
-tags:
-  - checklist
-  - presentation
-title: Giving a talk
+title: Giving a talk checklist
 date: 2024-11-11
 description: 'The checklist presents how to prepare for a talk'
 authors:
   - thanh
+tags:
+  - checklist
+  - presentation
 ---
 
 Use this checklist as a practical guide to prepare for your talk

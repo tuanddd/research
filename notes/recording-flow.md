@@ -1,13 +1,12 @@
 ---
-tags:
-  - ops
-  - workflow
-  - recording
-title: How We Set Up a Recording Workflow for Dwarves Office Hours
+title: Set up recording workflow for OGIF
 date: 2024-06-15
 description: This memo is essentially a playbook and recipe on how to record the Discord events. 
 authors: 
   - minh_cloud
+tags:
+  - workflow
+  - recording
 ---
 
 There are many interesting topics shared in the Office Hours of Dwarves Foundation, and it would be a pity if anyone missed them. Moreover, we want to share our findings with the community and encourage learning within our team. Therefore, we have introduced a recording workflow to store all the OGIF content in two forms: video and audio.
@@ -18,15 +17,15 @@ Before diving into the workflow, we ensure that the following prerequisites are 
 - Installed Craig Bot to record the audio.
 
 This memo is essentially a playbook and recipe on how to record the Discord events.
- 
+
 ### Record Video and Stream on YouTube
 
 ![](assets/recording-flow_untitled-3.webp)
 
 - We set up the recording screen on OBS as shown in the image below:
-    - We choose the window to record.
-    - We set up [streaming mode](https://restream.io/learn/obs-studio/how-to-multistream-with-obs/).
-    - We set up the audio input (Mute the Mic/Aux).
+  - We choose the window to record.
+  - We set up [streaming mode](https://restream.io/learn/obs-studio/how-to-multistream-with-obs/).
+  - We set up the audio input (Mute the Mic/Aux).
 
 ![](assets/recording-flow_untitled-4.webp)
 
@@ -35,6 +34,7 @@ This memo is essentially a playbook and recipe on how to record the Discord even
 - Then, we split the recording by individual session.
 
 ### Record Audio in the Background and Transcript
+
 Craig Bot is used to record audio in the background and split segments by user for AI transcription.
 
 ![](assets/recording-flow_untitled-5.webp)
