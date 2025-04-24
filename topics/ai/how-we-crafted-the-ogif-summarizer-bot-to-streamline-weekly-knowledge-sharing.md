@@ -8,7 +8,7 @@ authors:
 tags:
   - ai
   - ogif
-  - guidelines
+  - guide
 ---
 
 ### What’s OGIF?

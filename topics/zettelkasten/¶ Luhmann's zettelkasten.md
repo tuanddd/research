@@ -32,8 +32,8 @@ Luhmann described his zettelkasten as a conversant and thought partner; he value
 
 Ahrens, Sönke. _How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers_. Sönke Ahrens, 2017.
 
-Luhmann, Niklas. _“Communicating with Slip Boxes.”_ Translated by Manfred Kuehn. Two Essays by Niklas Luhmann. Accessed October 19, 2020. https://luhmann.surge.sh/communicating-with-slip-boxes.
+Luhmann, Niklas. _“Communicating with Slip Boxes.”_ Translated by Manfred Kuehn. Two Essays by Niklas Luhmann. Accessed October 19, 2020. <https://luhmann.surge.sh/communicating-with-slip-boxes>.
 
-Luhmann, Niklas. _“Learning How to Read.”_ Translated by Manfred Kuehn. Two Essays by Niklas Luhmann. Accessed October 27, 2020. https://luhmann.surge.sh/learning-how-to-read.
+Luhmann, Niklas. _“Learning How to Read.”_ Translated by Manfred Kuehn. Two Essays by Niklas Luhmann. Accessed October 27, 2020. <https://luhmann.surge.sh/learning-how-to-read>.
 
 Schmidt, Johannes F. K. _“Niklas Luhmann’s Card Index: The Fabrication of Serendipity.”_ Sociologica 12, no. 1 (2018): 53—60.
