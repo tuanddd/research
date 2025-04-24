@@ -1,8 +1,9 @@
 ---
+
 title: § Go
 date: 2025-04-23
 description: Explore comprehensive Go language tutorials covering concurrency, testing, design patterns, package management, performance profiling, and popular tools to master efficient Golang development and best practices.
-author: thanh
+author: zlatanpham
 tags:
   - golang
   - moc

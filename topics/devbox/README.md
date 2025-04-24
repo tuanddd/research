@@ -1,9 +1,10 @@
 ---
+
 title: § Devbox
 date: 2024-08-09
 description: "A comprehensive guide to Devbox: The tool that creates isolated, reproducible development environments anywhere, without Docker or VMs, powered by Nix."
 authors:
-  - bievh
+  - baenv
 tags:
   - moc
   - devbox

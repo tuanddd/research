@@ -1,9 +1,10 @@
 ---
+
 title: Nix - Build the same thing at any time
 date: 2024-08-01
 description: An overview of how Nix enables deterministic Docker image builds through reproducible builds, pinning, and Flakes
 authors:
-  - bievh
+  - baenv
 tags:
   - nix
   - docker

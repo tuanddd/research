@@ -1,8 +1,9 @@
 ---
+
 title: § Solana
 date: 2025-04-23
 description: Explore comprehensive guides on Solana core concepts, token standards, NFTs, development frameworks like Anchor, and DeFi innovations to build and optimize projects on the Solana blockchain.
-author: thanh
+author: zlatanpham
 tags:
   - solana
   - blockchain

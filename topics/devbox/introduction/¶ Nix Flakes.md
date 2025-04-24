@@ -1,9 +1,10 @@
 ---
+
 title: "Nix Flakes: Next-Level Package Management"
 date: 2024-08-01
 description: Discover how Nix Flakes revolutionize package management with reproducibility and discoverability
 authors:
-  - bievh
+  - baenv
 tags:
   - devbox
   - nix

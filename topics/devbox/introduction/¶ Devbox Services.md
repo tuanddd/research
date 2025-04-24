@@ -1,9 +1,10 @@
 ---
+
 title: "Devbox Services: Tame Your Daemons with process-compose"
 date: 2024-08-01
 description: Discover how Devbox Services uses process-compose to wrangle your daemon applications without the container overhead
 authors:
-  - bievh
+  - baenv
 tags:
   - devbox
 ---
