@@ -51,7 +51,7 @@ Helm has a fairly simple client-server architecture, including a CLI client and 
 
 Here are some basic concepts and architectures to help you understand and grasp Helm more quickly. In the next section, we’ll take some tutorials to deep dive into Helm. Let’s do it!
 
-# Helm in Action
+## Helm in Action
 
 Before we begin, we’ll need to prepare a few things for us to be able to practice with Helm.
 

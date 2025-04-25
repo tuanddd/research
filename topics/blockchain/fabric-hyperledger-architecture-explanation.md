@@ -7,7 +7,7 @@ tags:
   - architecture
 ---
 
-# What is Hyperledger
+## What is Hyperledger
 
 Hyperledger is an open source community focused on developing a suite of stable frameworks, tools and libraries for enterprise-grade blockchain deployments.
 

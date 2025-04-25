@@ -8,8 +8,6 @@ tags:
   - devbox
 ---
 
-# Devbox Shell: Your Dev Environment, Your Rules
-
 So you've installed Devbox with that nifty one-liner:
 
 ```bash

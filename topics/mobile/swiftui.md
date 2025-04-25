@@ -8,7 +8,7 @@ tags:
 
 Introduces by Apple in WWDC 2019, Swift UI impressed the technophiles with its convenience, as Apple aimed to help developers conduct code easier and spend more time working on other modified functions. This blog outlines my opinion about SwiftUI, such as how to layout views, handle user input, making a custom view, making a cross Apple platform apps, underlying architecture, integrate with UIKit (the old Apple UI framework). It won't be expanded on an advanced level like fancy animation or proposing any best architecture we should follow. No. Just the basic ones.
 
-# Definition
+## Definition
 
 [SwiftUI](https://github.com/dwarvesf/techradar/tree/master/SwiftUI) is a UI framework that lets developers create apps in a declarative way, _and it also supports multiple Apple platforms (iOS, iPadOS, macOS, watchOS, tvOS), or I can say “farewell UIKit, AppKit, and WatchKit“_. There are minimal code changes when we need to create an app for multiple platforms, as a lot of the same components on SwiftUI can be reused.
 

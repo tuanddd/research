@@ -99,7 +99,7 @@ To compare the core value and our current status, still DF is in need of more ef
 
 I've also realized the mini improvement along the way. Team communication during project sometimes gets hard. We create a wiki for that by documenting every retro meeting with transparent meeting notes where both clients and our team can discuss and raise up ideas/issues.
 
-# In a Nutshell
+## In a Nutshell
 
 This only to help summarize the key point of this talk, which can be listed as
 
