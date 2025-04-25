@@ -136,7 +136,7 @@ Each micro-frontend should be designed with testing in mind, with a suite of aut
 
 With that, we hope you now have a clear idea of what micro-frontend is, its pros and cons, as well as some key principles that ensure this architecture is correctly built.
 
-Micro-frontend is a powerful approach to building web applications, with a focus on scalability and maintainability. It is still growing, with companies such as AWS, IKEA, or DAZN which has begun their own adoption of the technology, and we here are no exception. We are actively practicing the architecture with some of our partners, including [Mudah](https://www.mudah.my/) and [Setel](https://www.setel.com/).
+Micro-frontend is a powerful approach to building web applications, with a focus on scalability and maintainability. It is still growing, with companies such as AWS, IKEA, or DAZN which has begun their own adoption of the technology, and we here are no exception. We are actively practicing the architecture with some of our partners
 
 However, please do keep in my that regardless of its strength, Micro-Frontend is not a one-sizes-fit-all solution. Traditional, monolithic architectures still have their charms, and picking which to use for the business remains one of the most important questions we hope to help you answer.
 
