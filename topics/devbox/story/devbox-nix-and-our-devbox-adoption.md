@@ -65,7 +65,7 @@ The magic of Nix is that it makes sure that everything works together correctly.
 
 ## Docker can access internet while building image
 
-As we discussed in the [Devbox #2: Our Docker adoption and its challenges](devbox-docker-adoption-and-challenges), Docker builds can access the public internet, so we can't guarantee that the same image will be built every time, as everything on the internet can change in minutes. Additionally, there are no checks to ensure that the files being fetched are actually the ones you intended for your Docker image. Even if we can push the image to a registry and pull it for running identical containers on different computers. In some edge cases when we can’t access to the online repository so need to build another one, we may not be able to build the required image again if some dependencies have changed on the internet.
+As we discussed in the [Devbox #2: Our Docker adoption and its challenges](devbox-docker-adoption-and-challenges.md), Docker builds can access the public internet, so we can't guarantee that the same image will be built every time, as everything on the internet can change in minutes. Additionally, there are no checks to ensure that the files being fetched are actually the ones you intended for your Docker image. Even if we can push the image to a registry and pull it for running identical containers on different computers. In some edge cases when we can’t access to the online repository so need to build another one, we may not be able to build the required image again if some dependencies have changed on the internet.
 
 ## Nix ensures external sources are Immutable
 

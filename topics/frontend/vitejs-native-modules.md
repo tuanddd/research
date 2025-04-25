@@ -12,7 +12,7 @@ tags:
   - esm
 ---
 
-Before ES modules was supported in the browser, we have no native mechanism for authoring [[JavaScript modules]] in a modularized fashion. That is why the concept of **"bundling"** and tools like Webpack, Rollup, and Parcel exist to improve the development experience for frontend developers.
+Before ES modules was supported in the browser, we have no native mechanism for authoring JavaScript modules in a modularized fashion. That is why the concept of **"bundling"** and tools like Webpack, Rollup, and Parcel exist to improve the development experience for frontend developers.
 
 However, when our project started to expand more, the amount of modules might increase from a hundred to thousands of modules which lead to performance bottleneck for **JavaScript-based** toolings.
 
@@ -26,15 +26,11 @@ Vite takes full advantage of the availability of native ES modules in the browse
 
 Bundle-based dev server like Webpack built your application by combining all the source-code and modules into a JavaScript-based bundle, everything is done on the server-side and when you change something, the entire application has to build from the start.
 
-![](assets/bundler.37740380.png)
-
 #### Native ESM based dev server
 
 Vite's approach was instead of bundling all everything on the server, it only bundles modules when the browser requires them through HTTP request.
 
 This architecture provides a faster dev server by avoiding bundling all the application on the server and utilizing the power of modules handling of the browsers.
-
-![](assets/esm.3070012d.png)
 
 ### Update when built
 

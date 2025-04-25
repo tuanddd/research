@@ -11,7 +11,7 @@ tags:
   - distributed-systems
 ---
 
-![](assets/blockruption-blockchain-300h.png)
+![](assets/blockchain-bridge_blockruption-blockchain-300h.webp)
 
 ## Distributed systems on blockchain
 
@@ -43,8 +43,6 @@ Each physical computer, due to various reasons, can experience problems while in
 
 ## Network problems
 
-![](assets/How-Does-YugaByte-DB-Handle-Network-Partitions-and-Failover-blogpreview.png)
-
 A computer network is also a physical product and so problems can also occur. A common type of problem is the “network partitioning” problem, which is simulated by the figure above. This problem occurs when the transmission of one or more servers is cut off from the rest of the system, causing the system to be split into many parts that cannot communicate with each other. In fact, in data centers, a cluster of servers is usually connected by one or more switches. Failure of the switch port or wire can lead to one or more servers being disconnected, leading to the aforementioned partitioning situation.
 
 ## Distributed systems in blockchain
@@ -55,7 +53,7 @@ Any computer can join the blockchain network and become a validator by connectin
 
 ## Distributed software on blockchain
 
-"The Ethereum Virtual Machine ([[EVM]]) is the runtime environment for transaction execution in Ethereum. It includes a stack, memory, gas balance (see below), program counter, and the persistent storage for all accounts (including contract code). When a transaction calls a contract's function, the arguments in the call are added to the stack and the EVM translates the contract's bytecode into stack operations. Stack items may be stored in memory or storage, and data from memory/storage may be added to the stack. The EVM is isolated from the other files and processes on the node's computer to ensure that for a given pre-transaction state and transaction, every node produces the same post-transaction state, thus enabling network consensus such as [[PoS]]. The formal definition of the EVM is specified in the Ethereum Yellow Paper. EVMs have been implemented in C++, C#, Go, Haskell, Java, JavaScript, Python, Ruby, Rust, Elixir, Erlang, and soon WebAssembly."
+"The Ethereum Virtual Machine (EVM) is the runtime environment for transaction execution in Ethereum. It includes a stack, memory, gas balance (see below), program counter, and the persistent storage for all accounts (including contract code). When a transaction calls a contract's function, the arguments in the call are added to the stack and the EVM translates the contract's bytecode into stack operations. Stack items may be stored in memory or storage, and data from memory/storage may be added to the stack. The EVM is isolated from the other files and processes on the node's computer to ensure that for a given pre-transaction state and transaction, every node produces the same post-transaction state, thus enabling network consensus such as PoS. The formal definition of the EVM is specified in the Ethereum Yellow Paper. EVMs have been implemented in C++, C#, Go, Haskell, Java, JavaScript, Python, Ruby, Rust, Elixir, Erlang, and soon WebAssembly."
 
 The EVM's instruction set is Turing-complete. Popular uses of Ethereum have included the creation of fungible (ERC20) and non-fungible (ERC721) tokens with a variety of properties, crowdfunding (e.g. initial coin offerings), decentralized finance, decentralized exchanges, decentralized autonomous organizations (DAOs), games, prediction markets, and gambling.
 

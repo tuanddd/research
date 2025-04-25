@@ -16,7 +16,7 @@ Fortunately for us, JavaScript provides a couple of tools to solve these problem
 
 ## Threading with Web Worker
 
-If you don't know what a Web Worker is, check out [[Parallelism in JavaScript]] for a quick introduction.
+If you don't know what a Web Worker is, check out [Parallelism in JavaScript](./parallelism-in-javascript.md) for a quick introduction.
 
 With Web Worker we can offload a bunch of processing to another thread and it will not impact the performance of the main thread. Sounds perfect, but it comes with a cost: `serialization`.
 
@@ -51,7 +51,7 @@ console.log(sequence.next()); // Prints : { value: 2, done: false }
 console.log(sequence.next()); // Prints : { value: 99, done: true }
 ```
 
-So, ES6 generator allows us to run code and yield values whenever we like but it's still a rough tool, for our problem we need to combine generator with browser's `requestIdleCallback()` to request main thread to do an amount of work when it's idle, then see if there is enough time left to do more work, if not yield control back to main thread then queue another run the next time main thread is idle. Luckily somebody smart already thought of that, you can checkout [js-coroutines]([https://github.com/miketalbot/js-coroutines/) for a complete implementation and evaluate if it solves your app's problem.
+So, ES6 generator allows us to run code and yield values whenever we like but it's still a rough tool, for our problem we need to combine generator with browser's `requestIdleCallback()` to request main thread to do an amount of work when it's idle, then see if there is enough time left to do more work, if not yield control back to main thread then queue another run the next time main thread is idle. Luckily somebody smart already thought of that, you can checkout [js-coroutines](https://github.com/miketalbot/js-coroutines) for a complete implementation and evaluate if it solves your app's problem.
 
 ## References
 

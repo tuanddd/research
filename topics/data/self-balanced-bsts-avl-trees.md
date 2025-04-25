@@ -168,7 +168,6 @@ type compareFunc[T any] func(T, T) int
   - This is the theorectical computer scientist way to solve this recurrence, we don't care about constants.
   - And so we say, aw, this is hard, I've got $n_{h-1}$ and $n_{h-2}$, aw, so asymetric, let's symmetrify. Could we make them both $n_{h-1}$ or $n_{h-2}$ ?
   - $n_{h-2}$ is the right way to go because we want to know $n_h$ is greater than something in order to get a less than down here. So we have $n_h>2n_{h-2}+1$ because if we have a larger height we're going to have more nodes. We can even get rid of the $1$ because that only makes things bigger, so we have $n_h>2n_{h-2}$ . Now from this version of the recurrence, let's use inductive reasoning to solve it.
-  - ![](<self-balanced-bsts---avl-trees_height-of-an-avl-tree-is-bounded-by-o(lgn).png>)
 - All right, so far so good, now the next big question is how the heck can we maintain this AVL properties for our good old BST?
 
 ## How to maintain the AVL invariant when the BST tree is modified

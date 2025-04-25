@@ -14,7 +14,7 @@ tags:
 
 Inside a web browser, there exists a software component responsible for determining the content to show you based on the data it receives. This component is known as the browser engine.
 
-The browser engine is a fundamental element present in all major web browsers, and various browser manufacturers give their engines distinct names. For instance, Firefox's browser engine is known as [Gecko](<https://en.wikipedia.org/wiki/Gecko_(software)>), while Chrome uses [Blink](<https://en.wikipedia.org/wiki/Blink_(browser_engine)>), a derivative of [WebKit](https://en.wikipedia.org/wiki/WebKit).
+The browser engine is a fundamental element present in all major web browsers, and various browser manufacturers give their engines distinct names. For instance, Firefox's browser engine is known as [Gecko](https://en.wikipedia.org/wiki/Gecko_(software)), while Chrome uses [Blink](https://en.wikipedia.org/wiki/Blink_(browser_engine)), a derivative of [WebKit](https://en.wikipedia.org/wiki/WebKit).
 
 ## From raw bytes of HTML to DOM
 

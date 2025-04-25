@@ -35,13 +35,11 @@ Smart contracts, also known as smart contracts, are computer programs that opera
 - Save state
 - Event/Log
 
-![](assets/Voie7xm.png)
+Declare variable
 
-Declare variable ![](assets/2ADeNxC.png)
+Function/Instruction
 
-Function/Instruction ![](assets/izkaluC.png)
-
-Event/Log ![](assets/mTMfjdI.png)
+Event/Log
 
 ## Invoke another smart contract:
 
@@ -50,7 +48,6 @@ Currently, Ethereum there are many contracts such as tokens, NFT-ERC721, games, 
 - Declare interface
 - Call command
 
-![](assets/ezVDghs.png)
 
 ## The advantages of smart contracts:
 

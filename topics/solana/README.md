@@ -29,11 +29,3 @@ tags:
 
 - [Dynamic Liquidity Market - A New Form of Concentrated Liquidity AMM on Solana](dynamic-liquidity-market-a-new-form-of-concentrated-liquidity-amm-on-solana.md)
 
----
-
-### Placeholders & Knowledge Gaps
-
-- [Placeholder: Solana Program Development Best Practices](solana-program-development-best-practices.md)
-- [Placeholder: Solana Security & Auditing](solana-security-auditing.md)
-- [Placeholder: Solana Performance Optimization](solana-performance-optimization.md)
-

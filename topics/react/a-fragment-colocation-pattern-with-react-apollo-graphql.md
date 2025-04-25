@@ -17,7 +17,7 @@ By colocating fragments, we can easily reuse them across components that share c
 
 This note aims to discuss such a pattern, made possible with:
 
-- [React](<[React](https://react.dev/)>)
+- [React](https://react.dev/)
 - [Apollo GraphQL](https://www.apollographql.com/docs/): Comprehensive state management library for JavaScript that enables you to manage both local and remote data with GraphQL. We can use it to fetch, cache, and modify application data, all while automatically updating the UI.
 - [@graphql-codegen/cli](https://www.npmjs.com/package/@graphql-codegen/cli): Auto generation of typed queries, mutations, subscriptions and typed GraphQL resolvers.
 
@@ -71,7 +71,7 @@ That's it for fragment. Let's move on to how we actually implement a colocation 
 
 Let's consider an example where we're building an application that showcases cats and dogs. We want to implement reusable components to display individual animal cards (`CatCard` and `DogCard`) as well as lists of animals (`CatList` and `DogList`).
 
-For backend, let's say we are using [NestJS]([NestJS - A progressive Node.js framework](https://nestjs.com/). The schema consists of the following types:
+For backend, let's say we are using [NestJS](https://nestjs.com/). The schema consists of the following types:
 
 ```ts
 interface AnimalModel {
@@ -121,7 +121,7 @@ const DOG_FRAGMENT = gql`
 
 By this point, we are still missing something until we can build the `CatCard` and `DogCard` components - the Typescript types.
 
-With `@graphql-codegen/cli`, we can convert these fragments into Typescript interfaces by running a CLI script. I will not go into details into how the tool work so you should also give [this link]([Home – GraphQL Code Generator (the-guild.dev)](https://the-guild.dev/graphql/codegen)) a look - they provide an interactive example.
+With `@graphql-codegen/cli`, we can convert these fragments into Typescript interfaces by running a CLI script. I will not go into details into how the tool work so you should also give [Home – GraphQL Code Generator (the-guild.dev)](https://the-guild.dev/graphql/codegen) a look - they provide an interactive example.
 
 Basically `@graphql-codegen/cli` will:
 

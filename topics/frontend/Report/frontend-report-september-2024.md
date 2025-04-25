@@ -105,8 +105,8 @@ This is not supposed to be a template, boilerplate or a framework, but more of a
 
 ### Quick Links
 
-- [Tailwind CSS for Emails? Now You Can Inline Those Styles!]([tailwind-to-inline - npm (npmjs.com)](https://www.npmjs.com/package/tailwind-to-inline))
-- [Vaul 1.0: New React Drawer Component]([Vaul (emilkowal.ski)](https://vaul.emilkowal.ski/))
+- Tailwind CSS for Emails? Now You Can Inline Those Styles! - (tailwind-to-inline)[https://www.npmjs.com/package/tailwind-to-inline]
+- [Vaul 1.0: New React Drawer Component](https://vaul.emilkowal.ski/)
 - [DMNO - Environment Variables Evolved](https://dmno.dev/)
 - [prabhuignoto/react-chrono: 🕑 Modern Timeline Component for React](https://github.com/prabhuignoto/react-chrono)
 - [Write and Code with ChatGPT: Introducing Canvas](https://openai.com/index/introducing-canvas/)

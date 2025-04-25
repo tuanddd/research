@@ -35,7 +35,7 @@ Understanding observability requires understanding its three pillars: **Metrics*
 
 ### Traces
 
-[Tracing](race-pillar.md) in AI applications provides a full picture of the execution path, from query to response. It includes document retrieval, prompting, and model interactions, as well as time and cost estimates for each step. Visualization tools such as Langsmith provide simple trace representations.
+[Tracing](trace-pillar.md) in AI applications provides a full picture of the execution path, from query to response. It includes document retrieval, prompting, and model interactions, as well as time and cost estimates for each step. Visualization tools such as Langsmith provide simple trace representations.
 
 ## Benefits of LLM observability
 

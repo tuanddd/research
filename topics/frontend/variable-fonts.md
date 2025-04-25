@@ -44,7 +44,7 @@ These variations are also dependent on how the fonts were designed and built. De
 
 ## Examples on variable fonts
 
-The best way to understand variable fonts is to start playing with them. Below are some examples from [an article](Introducing variable fonts – Fonts Knowledge - Google Fonts](https://fonts.google.com/knowledge/introducing_type/introducing_variable_fonts) from Google Fonts to get you started.
+The best way to understand variable fonts is to start playing with them. Below are some examples from [an article](https://fonts.google.com/knowledge/introducing_type/introducing_variable_fonts) from Google Fonts to get you started.
 
 Go to [etceteratype.co/epilogue](https://etceteratype.co/epilogue) and play with the **weight** axis of Epilogue to see how it affects the overall spacing of the ![](assets/variable-fonts_variable_fonts_03.webp)
 

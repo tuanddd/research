@@ -93,8 +93,8 @@ By tracking interactions and analyzing feedback, we can keep improving the outpu
 
 ## Reference
 
-- [Evaluating LLM Outputs (cohere.com)](https://cohere.com/blog/evaluating-llm-outputs)
-- [Human in the Loop feedback (orq.ai)](https://docs.orq.ai/docs/human-in-the-loop-feedback)
-- [Human in the Loop - Machine Learning - Definition & Examples | Encord](<https://encord.com/blog/human-in-the-loop-ai/#:~:text=What%20is%20HITL%3F-,Human%2Din%2Dthe%2Dloop%20(HITL)%20is%20an,%2C%20accuracy%2C%20and%20training%20outcomes.>)
+- [Evaluating LLM Outputs - cohere.com](https://cohere.com/blog/evaluating-llm-outputs)
+- [Human in the Loop feedback - orq.ai](https://docs.orq.ai/docs/human-in-the-loop-feedback)
+- [Human in the Loop - Machine Learning - Definition & Examples | Encord](https://encord.com/blog/human-in-the-loop-ai)
 - [How to test LLMs in production? (leewayhertz.com)](https://www.leewayhertz.com/how-to-test-llms-in-production/#A/B-testing)
 

@@ -55,7 +55,6 @@ tags:
 
 - [Design resourcestools](design-resourcestools.md)
 - [Getting started with Webflow](getting-started-with-webflow.md)
-- [Writing content for multimedia guidelines](writing-content-for-multimedia-guidelines.md)
 - [Competency mapping](competency-mapping.md)
 
 ### Techniques & methods

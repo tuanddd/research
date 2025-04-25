@@ -209,8 +209,6 @@ const timeProvider: Provider = {
 
 We have developed an ICY Swap AI Agent that allows users to check their ICY balance and seamlessly exchange ICY for BTC by implementing a `degen` character and the `plugin-icy-swap` plugin, fully integrated with the ElizaOS ecosystem.
 
-![](assets/building_custom_ai_agent_with_elizaos_result.gif)
-
 [Source code](https://github.com/quanghuynguyen1902/eliza-icy-swap)
 
 ## Reference

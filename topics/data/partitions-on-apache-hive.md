@@ -112,7 +112,7 @@ This instruction is very simple to understand but it also looks a little weird. 
 ALTER TABLE stocks_partition DROP IF EXISTS PARTITION(sym = 'GEL');
 ```
 
-As mentioned on the article ![Managed Table vs External Table](Managed%20Table%20vs%20External%20Table.md), we cannot delete records from a Hive table but with partition tables, we can drop partitions using the drop command, which will essentially result in deleting all the records for that partition. For instance, we want to delete all the records for symbol `GEL`. Usually, we will not be able to do that using Hive as we would do with the delete statement in SQL. But with the help of partition, we can drop the entire partition. Here, we're essentially dropping the partition `GEL` which has all the records for symbol `GEL`.
+As mentioned on the article [Managed Table vs External Table](managed-table-vs-external-table.md), we cannot delete records from a Hive table but with partition tables, we can drop partitions using the drop command, which will essentially result in deleting all the records for that partition. For instance, we want to delete all the records for symbol `GEL`. Usually, we will not be able to do that using Hive as we would do with the delete statement in SQL. But with the help of partition, we can drop the entire partition. Here, we're essentially dropping the partition `GEL` which has all the records for symbol `GEL`.
 
 ```sql
 INSERT OVERWRITE TABLE stocks_partition

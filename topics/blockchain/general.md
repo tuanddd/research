@@ -34,8 +34,7 @@ contract Token {
 }
 ```
 
-Note that the assertion is _not_ a strict equality of the balance because the contract can be
-[forcibly sent ether](#remember-that-ether-can-be-forcibly-sent-to-an-account) without going
+Note that the assertion is _not_ a strict equality of the balance because the contract can be forcibly sent ether without going
 through the `deposit()` function!
 
 #### Use `assert()`, `require()`, `revert()` properly

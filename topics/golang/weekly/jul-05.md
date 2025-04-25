@@ -14,7 +14,7 @@ tags:
 ## [Why People are Angry over Go 1.23 Iterators](https://www.gingerbill.org/article/2024/06/17/go-iterator-design/)
 
 - Context:
-  - Most languages provide standardized way to iterate over values stored in [containers](<https://en.wikipedia.org/wiki/Container_(abstract_data_type)>).
+  - Most languages provide standardized way to iterate over values stored in [containers](https://en.wikipedia.org/wiki/Container_(abstract_data_type)).
 - Problem:
 
   - Go has `for` `range` for maps, slices, strings, arrays and channels but no generic mechanism for user-written containers.
