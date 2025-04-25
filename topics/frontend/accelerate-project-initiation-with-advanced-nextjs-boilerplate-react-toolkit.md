@@ -1,7 +1,7 @@
 ---
 title: Accelerate Project Initiation With Advanced Nextjs Boilerplate React Toolkit
-date: 2023-04-03
 description: Speed up project initiation with NextJS-Boilerplate and React-Toolkit, featuring pre-configured tools, TypeScript, custom hooks, and ESLint for faster setup and improved React app development.
+date: 2023-04-03
 tags:
   - tool
   - framework
@@ -79,3 +79,4 @@ Follow our journey
 - Fanpage: [facebook.com/dwarvesf](http://facebook.com/dwarvesf)
 - LinkedIn: [linkedin.com/company/dwarvesf](http://linkedin.com/company/dwarvesf)
 - Substack: [https://memo.d.foundation/](https://memo.d.foundation/)
+

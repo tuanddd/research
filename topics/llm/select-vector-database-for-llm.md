@@ -1,10 +1,10 @@
 ---
 title: Select Vector Database for LLM
-date: 2023-05-18
 description: An overview of vector databases and their application in LLM systems. This article covers the history and core concepts of vector databases, their use cases, implementation considerations with LLMs, and a comparison of popular vector database options.
-github_id: thanhpn
+date: 2023-05-18
 authors:
   - thanhpn
+github_id: thanhpn
 tags:
   - ai
   - vector-database
@@ -96,3 +96,4 @@ These vector databases offer various features and optimizations to handle large-
 
 - [https://qdrant.tech/benchmarks/?gad=1&gclid=Cj0KCQjwsIejBhDOARIsANYqkD0ZtNrEujSDsjGPsOmSGRtJaIYvQct3kvojBEQPJxrcdL7lC9IaLVQaAnMjEALw_wcB](https://qdrant.tech/benchmarks/?gad=1&gclid=Cj0KCQjwsIejBhDOARIsANYqkD0ZtNrEujSDsjGPsOmSGRtJaIYvQct3kvojBEQPJxrcdL7lC9IaLVQaAnMjEALw_wcB)
 - [https://slashdot.org/software/comparison/Embeddinghub-vs-Milvus-Database-vs-chroma/](https://slashdot.org/software/comparison/Embeddinghub-vs-Milvus-Database-vs-chroma/)
+

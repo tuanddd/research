@@ -1,7 +1,7 @@
 ---
 title: Gitflow Pull Request
-date: 2021-04-10
 description: Learn the best Git workflows, branching models, commit message tips, pull request strategies, code review practices, and merge vs rebase guidance to boost team productivity and code quality.
+date: 2021-04-10
 tags:
   - git
 ---
@@ -196,3 +196,4 @@ You may write here the specifications like the version of the project, operating
 ### Logs / Stack trace
 Insert your log/stack trace here
 ```
+

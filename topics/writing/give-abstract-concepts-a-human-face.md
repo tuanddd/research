@@ -1,8 +1,7 @@
 ---
-title: "Give abstract concepts a human face"
+title: Give abstract concepts a human face
+description: Learn how giving abstract concepts a human face makes economic and market topics relatable and impactful by showing real people with genuine stakes.
 date: null
-description: "Learn how giving abstract concepts a human face makes economic and market topics relatable and impactful by showing real people with genuine stakes."
-tags:
 ---
 
 > In other words, the column put a human cast on a bloodless topic—a central skill for the writer, because people are the prism through which readers love to view the world. (Flaherty 6)
@@ -20,3 +19,4 @@ But this doesn't mean just conveying an anecdote, or interviewing any person thi
 #### Citations
 
 Flaherty, Francis. _The Elements of Story: Field Notes on Nonfiction Writing_. Reprint edition. Harper Perennial, 2010.
+

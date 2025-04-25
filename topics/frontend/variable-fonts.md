@@ -1,7 +1,7 @@
 ---
 title: Variable Fonts
-date: 2023-03-06
 description: Variable fonts are a font format that allows for a single font file to contain multiple variations of a typeface.
+date: 2023-03-06
 authors:
   - ngolapnguyen
 github_id: ngolapnguyen
@@ -113,3 +113,4 @@ Beyond that, we depends on how the fonts were built & what custom axes they are 
 - https://www.youtube.com/watch?v=0fVymQ7SZw0&list=WL&index=1&t=247s&ab_channel=KevinPowell
 - https://fonts.google.com/knowledge/introducing_type/introducing_variable_fonts
 - https://web.dev/variable-fonts/
+

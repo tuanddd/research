@@ -1,11 +1,9 @@
 ---
-title: "Libcluster in elixir"
+title: Libcluster in elixir
+description: Learn how to set up Elixir node clustering with Libcluster on Kubernetes to build scalable, high-performance applications using Erlang features and reduce operational costs effectively.
 date: 2022-11-02
-description: "Learn how to set up Elixir node clustering with Libcluster on Kubernetes to build scalable, high-performance applications using Erlang features and reduce operational costs effectively."
-authors:
 github_id: hieuphq
 icy: 10
-tags:
 ---
 
 In the Dwarves Foundation, we applied some practices to decrease the operation cost. We set up the runtime environments in the team.
@@ -305,3 +303,4 @@ In the meantime, we can take advantage of Elixir's power. We can easy to scale t
 - https://medium.com/@groksrc/elixir-kubernetes-part-3-9bbd71c9c370
 - https://mbuffa.github.io/tips/20201022-elixir-clustering-on-kubernetes/
 - https://github.com/hieuphq/ex_cluster
+

@@ -1,7 +1,7 @@
 ---
 title: Go In Software Engineering
-date: 2020-08-07
 description: "An overview of Go's key features, including simplicity, concurrency support, and interface-driven OOP. Explores Go's strengths in cloud applications and utility development, and its role in software engineering practices for maintaining resilient programs over time."
+date: 2020-08-07
 authors:
   - hieuphq
 tags:
@@ -49,3 +49,4 @@ Go has its place and shines the brightest with the following application types:
 Programming is hard. You have a problem, you write a program to solve it. Your program turns out great and works thing out - that's programming. But keeping your program work over time is struggling in many levels. More people coming, your business logic changes or some of your 3rd party library is no more working.
 
 Software Engineering is about keeping your program resilient over time. And Go was born to live by that code, with a firm promise that the program we wrote in day 1 will compile and run perfectly in the future. All of the language technical design and toolset that were made by the concern of Software Engineering aims to simpler the program, make it easier to maintain, coordinate and evolve.
+

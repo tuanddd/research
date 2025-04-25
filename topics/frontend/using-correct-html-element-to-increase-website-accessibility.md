@@ -1,7 +1,7 @@
 ---
 title: Using Correct Html Element To Increase Website Accessibility
-date: 2019-08-23
 description: Using the correct HTML element can significantly improve the accessibility of your website.
+date: 2019-08-23
 authors:
   - zlatanpham
 tags:
@@ -37,3 +37,4 @@ Semantic HTML doesn't take any longer to write than non-semantic (bad) markup if
 1. **Easier to develop with** — as mentioned above, you get some functionality for free, plus it is arguably easier to understand.
 2. **Better on mobile** — semantic HTML is arguably lighter in file size than non-semantic spaghetti code, and easier to make responsive.
 3. **Good for SEO** — search engines give more importance to keywords inside headings, links, etc. than keywords included in non-semantic `<div>`s, etc., so your documents will be more findable by customers.
+

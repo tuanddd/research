@@ -1,10 +1,8 @@
 ---
-title: "Apache Hadoop and big data"
-date: 2022-06-12
+title: Apache Hadoop and big data
 description: "Learn what Big Data is by exploring the 3 V's—Volume, Velocity, and Variety—and discover how Hadoop provides scalable, cost-effective solutions for storing and processing massive data sets."
-authors:
+date: 2022-06-12
 github_id: dudaka
-tags:
 ---
 
 ## What is Big Data?
@@ -188,3 +186,4 @@ Hadoop was truly given the ability to analyze volumes and volumes of data and he
 - https://hadoop.apache.org/
 - https://en.wikipedia.org/wiki/Apache_Hadoop
 - [Hadoop: The Definitive Guide: Storage and Analysis at Internet Scale](https://www.amazon.com/Hadoop-Definitive-Storage-Analysis-Internet/dp/1491901632/ref=sr_1_2?crid=2LTQHKE9WNBNC&keywords=Hadoop&qid=1657604708&sprefix=hadoop%2Caps%2C127&sr=8-2)
+

@@ -1,7 +1,7 @@
 ---
 title: Good Design Understanding
-date: 2018-04-02
 description: Learn what makes good UX and UI design by exploring key factors like usability, accessibility, credibility, color, typography, and layout to create effective, user-friendly digital products.
+date: 2018-04-02
 tags:
   - design
 ---
@@ -170,3 +170,4 @@ Consistency is a key principle in life and in design. Without it we can’t get 
 Benefits of consistency:
 
 - Users will learn faster how to use your design
+

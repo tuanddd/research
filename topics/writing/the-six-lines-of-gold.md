@@ -1,10 +1,8 @@
 ---
-title: "The six lines of gold"
-date: 2022-09-26
+title: The six lines of gold
 description: "Discover Tim Ferriss's Six Lines of Gold method to quickly learn key language structures and common phrases, helping you grasp syntax, semantics, and fluency basics in just one hour."
-authors:
+date: 2022-09-26
 github_id: monotykamary
-tags:
 ---
 
 ## Introduction
@@ -56,3 +54,4 @@ Fluency encompasses not only general understanding of the native writing system,
 ## Reference
 
 - https://tim.blog/2007/11/07/how-to-learn-but-not-master-any-language-in-1-hour-plus-a-favor/
+

@@ -1,10 +1,8 @@
 ---
-title: "Vim repl driven development"
+title: Vim repl driven development
+description: Learn how to use Vim, tmux, and vim-slime for REPL Driven Development to run and test code interactively in languages like Python, JavaScript, and OCaml with fast feedback loops.
 date: 2023-06-09
-description: "Learn how to use Vim, tmux, and vim-slime for REPL Driven Development to run and test code interactively in languages like Python, JavaScript, and OCaml with fast feedback loops."
-authors:
 github_id: thanhnguyen2187
-tags:
 ---
 
 ## Introduction
@@ -138,3 +136,4 @@ whole.
 I think REPL Driven Development can still be good tool for programming language
 learning purpose: I think the workflow is a perfect way to get yourself familiar
 with the language's syntax and standard library.
+

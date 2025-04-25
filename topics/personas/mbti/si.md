@@ -1,9 +1,9 @@
 ---
 title: Introverted Sensing (Si)
-date: null
 description: Discover how Introverted Sensing (Si) shapes ISTJs and ISFJs by valuing routines, traditions, and careful responsibility, highlighting their focus on preserving trusted habits and past experiences.
-tag: MBTI, function
+date: null
 URL: "https://drive.google.com/file/d/1n8ID_iXqzs6cMZlRS0Su7lQUhrfd7khh/view?usp=sharing"
+tag: MBTI, function
 ---
 
 Book: My True Type, page 79 - 85
@@ -17,3 +17,4 @@ Book: My True Type, page 79 - 85
 Si is more interested in the routine and familiar. It is a careful and conservative function, drawing on existing resources, beliefs, or practices in lieu of exploring or developing new ones.
 
 ISJs take their responsibilities seriously, down to the last detail.
+

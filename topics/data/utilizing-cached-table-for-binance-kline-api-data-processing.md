@@ -1,11 +1,9 @@
 ---
-title: "Utilizing cached table for binance kline api data processing"
+title: Utilizing cached table for binance kline api data processing
+description: Learn how to speed up Binance Kline API data retrieval by using a cached table to efficiently get highest and lowest cryptocurrency prices and timestamps within large date ranges.
 date: 2023-06-07
-description: "Learn how to speed up Binance Kline API data retrieval by using a cached table to efficiently get highest and lowest cryptocurrency prices and timestamps within large date ranges."
-authors:
 github_id: thminhVN
 icy: 10
-tags:
 ---
 
 ## Introduction
@@ -66,3 +64,4 @@ While the proposed solution offers significant advantages, it also has certain l
 ### Conclusion
 
 By employing a cached table to store and retrieve Binance Kline API data, the challenges of working with limited records and requests can be addressed effectively.
+

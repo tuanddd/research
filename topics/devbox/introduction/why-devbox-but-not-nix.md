@@ -1,7 +1,7 @@
 ---
 title: "Devbox vs Nix: Why We Chose Simplicity"
-date: 2024-08-01
 description: "Discover why Devbox is the smart choice for developers who want Nix's power without the learning curve"
+date: 2024-08-01
 authors:
   - baenv
 tags:
@@ -71,3 +71,4 @@ Ready to make your dev setup both bulletproof and brain-dead simple? Give Devbox
 - [Nix Language Documentation](https://nix.dev/manual/nix/2.18/language/)
 - [Nix Shell: The Foundation](https://nixos.org/manual/nix/stable/command-ref/nix-shell.html)
 - [Nix Flakes: Next-Level Package Management](https://nixos.wiki/wiki/Flakes)
+

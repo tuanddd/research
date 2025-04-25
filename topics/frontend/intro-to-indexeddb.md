@@ -1,7 +1,7 @@
 ---
 title: Intro to IndexedDB
-date: 2022-10-13
 description: IndexedDB is a low-level API for client-side storage like localStorage and cookies. But this built-in non-relational database is much more powerful than those 2 counterparts.
+date: 2022-10-13
 authors:
   - nguyend-nam
 github_id: nguyend-nam
@@ -139,3 +139,4 @@ Using IndexedDB is also likely to require **a lot more coding** than localStorag
 - https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB
 - https://www.javascripttutorial.net/web-apis/javascript-indexeddb/
 - https://web.dev/indexeddb/
+

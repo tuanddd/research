@@ -1,7 +1,7 @@
 ---
 title: How to use Go in the Enterprise
-date: 2024-08-30
 description: "This content map explores strategies and best practices for implementing Go as a primary programming language in enterprise environments. It covers Go's strengths in scalability, concurrency, and performance, as well as addressing common challenges and considerations for large-scale adoption in corporate settings."
+date: 2024-08-30
 authors:
   - fuatto
 tags:
@@ -23,3 +23,4 @@ tags:
 - [Reclaiming CPU for free with PGO (Blog post)](https://blog.cloudflare.com/reclaiming-cpu-for-free-with-pgo/)
 
 - [1.5 Million PDFs in 25 Minutes (Blog post)](https://zerodha.tech/blog/1-5-million-pdfs-in-25-minutes/)
+

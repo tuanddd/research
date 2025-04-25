@@ -1,7 +1,7 @@
 ---
 title: Using Foundry for EVM smart contract development
-date: 2024-07-19
 description: "Introduce Foundry's core functionalities & practices to develop, test and deploy EVM smart contracts"
+date: 2024-07-19
 authors:
   - haongo138
 tags:
@@ -445,3 +445,4 @@ I found an interesting repository that use Foundry to reproduce a lot of DeFi ha
 - <https://book.getfoundry.sh/getting-started/first-steps>
 - <https://milotruck.github.io/blog/Foundry-Cheatsheet/>
 - <https://github.com/SunWeb3Sec/DeFiHackLabs>
+

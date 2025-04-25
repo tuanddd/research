@@ -1,7 +1,7 @@
 ---
 title: Thumbs up and Thumbs down pattern
-date: 2024-07-12
 description: The article talks about how important human feedback is for making large language models better, especially using thumbs up and down. It explains the Pearson correlation coefficient, which measures how variables are related. The thumbs system is an easy way for users to show if responses are helpful or not, which encourages more feedback and keeps users engaged. This feedback helps improve training data and makes the models more accurate. The article includes examples in sentiment analysis for reviews and content moderation, showing how this feedback helps understand user opinions and filter out bad content on sites like YouTube and Twitter.
+date: 2024-07-12
 authors:
   - datnguyennnx
 tags:
@@ -48,3 +48,4 @@ The Pearson correlation coefficient is a statistical measure that quantifies the
 - [How Content Filtering Makes It Possible to Do Moderation at Scale – Besedo](https://besedo.com/blog/content-filtering-vs-moderation/)
 - [(PDF) Thumbs Up or Thumbs Down? Semantic Orientation Applied to Unsupervised Classification of Reviews (researchgate.net)](https://www.researchgate.net/publication/248832100_Thumbs_Up_or_Thumbs_Down_Semantic_Orientation_Applied_to_Unsupervised_Classification_of_Reviews)
 - [How to Make the Most Out of LLM Production Data: Simulated User Feedback | by Pasquale Antonante, Ph.D. | Towards Data Science](https://towardsdatascience.com/how-to-make-the-most-out-of-llm-production-data-simulated-user-feedback-843c444febc7)
+

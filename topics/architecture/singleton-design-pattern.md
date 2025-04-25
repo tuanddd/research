@@ -1,7 +1,7 @@
 ---
 title: A tour of Singleton design pattern with Golang
-date: 2024-06-10
 description: Singleton real-world problem, concept, solution, use cases, implementations, pros & cons, references
+date: 2024-06-10
 authors:
   - anhnh12
 tags:
@@ -128,3 +128,4 @@ You can assure that the class/type has only one instance if the implementation i
 ## References
 
 - https://refactoring.guru/design-patterns/singleton
+

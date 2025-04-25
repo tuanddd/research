@@ -1,7 +1,7 @@
 ---
 title: Run an effective performance review
-date: 2021-08-02
 description: null
+date: 2021-08-02
 authors:
   - zlatanpham
 tags:
@@ -40,3 +40,4 @@ Feeling about yourself.
 - Satisfied or not? etc.
 
 The Performance Indicator is usually the summary of **Responsible, Teamwork **and** Mastery\***.\*We don't judge team members from our point of view, we let them reflect their thought and propose their achievement.
+

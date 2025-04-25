@@ -1,7 +1,7 @@
 ---
 title: "Foundation Models: The Latest Advancement in AI"
-date: 2023-05-18
 description: An overview of foundation models, their versatility in generative AI tasks, and their impact across various domains like NLP, image generation, and scientific research. The article highlights the benefits, challenges, and future potential of these models.
+date: 2023-05-18
 authors:
   - zlatanpham
 github_id: zlatanpham
@@ -30,3 +30,4 @@ It's noteworthy that the use of foundation models isn't confined to language tas
 
 - https://research.ibm.com/blog/what-are-foundation-models
 - [What are Generative AI models](https://www.youtube.com/watch?v=hfIUstzHs9A)
+

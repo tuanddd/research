@@ -1,7 +1,7 @@
 ---
 title: Proximal Policy Optimization
-date: 2024-07-03
 description: Proximal Policy Optimization (PPO) is an algorithm that aims to improve the stability of training by avoiding overly large policy updates. It is a popular and effective method used for training [[Reinforcement Learning | reinforcement learning]] models in complex environments. To achieve this, PPO uses a ratio that indicates the difference between the current policy and the old policy and clips this ratio within a specific range, ensuring that the policy updates are not too large and the training process is more stable...
+date: 2024-07-03
 authors:
   - thanhpn
 tags:
@@ -51,3 +51,4 @@ To summarize, PPO has quickly gained popularity in continuous control problems. 
 - https://towardsdatascience.com/proximal-policy-optimization-ppo-explained-abed1952457b
 - https://medium.com/@mlblogging.k/reinforcement-learning-for-tuning-language-models-how-chatgpt-is-trained-9ecf23518302
 - https://openai.com/research/learning-to-summarize-with-human-feedback
+

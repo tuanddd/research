@@ -1,7 +1,7 @@
 ---
 title: Sdk Event Sourcing
-date: 2020-05-21
 description: Learn how Software Development Kits (SDKs) provide tools and APIs for app development, and discover how Event Sourcing manages data communication between systems efficiently.
+date: 2020-05-21
 tags:
   - event-sourcing
 ---
@@ -51,3 +51,4 @@ The data between parties has a connection with each other, and it needs interact
 ## React Hook
 
 Hooks are functions that let you “hook into” React state and lifecycle features from function.
+

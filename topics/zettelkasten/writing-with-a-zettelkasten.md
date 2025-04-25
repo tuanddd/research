@@ -1,8 +1,7 @@
 ---
-title: "Writing with a zettelkasten"
-date: null
+title: Writing with a zettelkasten
 description: "Learn how Sönke Ahrens' zettelkasten method helps writers develop ideas from notes to drafts, avoiding blank pages and creating clear, connected, and well-organized articles."
-tags:
+date: null
 ---
 
 Sönke Ahrens describes his method for writing an article with a zettelkasten. Writing should not start with a blank sheet of paper, but emerge from the bottom up through conversation with one's notes. Writing does not begin with a blank page.
@@ -31,3 +30,4 @@ The translation phase is critical; an essay that is assembled from modular notes
 #### Citations
 
 Ahrens, Sönke. _How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers_. Sönke Ahrens, 2017.
+

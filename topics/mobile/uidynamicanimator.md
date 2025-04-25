@@ -1,7 +1,7 @@
 ---
 title: Uidynamicanimator
-date: 2019-07-26
 description: Learn how UIDynamicAnimator and UIDynamicItem enable realistic 2D physics animations in iOS using behaviors like gravity, collision, and attachment for natural, high-performance user interface effects.
+date: 2019-07-26
 tags:
   - swift
   - macos
@@ -83,3 +83,4 @@ After creating a field behavior object, call the [addItem(\_:)](https://develop
 The [position](https://developer.apple.com/documentation/uikit/uifieldbehavior/1625003-position) of a field defines its location in your interface and the field’s [region](https://developer.apple.com/documentation/uikit/uifieldbehavior/1625005-region) defines its area of influence. The region you specify is centered on the field’s position. Regions can be circular or rectangular, and you can combine regions in different ways to create more complex region shapes.
 
 Most fields use only a subset of the field attributes in their computations. All fields have a [strength](https://developer.apple.com/documentation/uikit/uifieldbehavior/1624997-strength) value that helps define the intensity of the field. Most fields also use the [falloff](https://developer.apple.com/documentation/uikit/uifieldbehavior/1624988-falloff)property to vary the field strength over distance. You configure other attributes only as needed for the type of field.
+

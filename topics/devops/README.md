@@ -1,8 +1,9 @@
 ---
 title: § DevOps
-date: 2025-04-23
 description: Explore essential DevOps concepts including CI/CD, deployment strategies like blue-green deployment, containerization with Docker and Kubernetes, feature management, and security best practices for efficient software delivery.
-authors: zlatanpham
+date: 2025-04-23
+authors:
+  - zlatanpham
 tags:
   - devops
   - moc
@@ -42,3 +43,4 @@ tags:
 ### Tools & techniques
 
 - [Testing AWS services locally with LocalStack](testing-aws-services-locally-with-localstack.md)
+

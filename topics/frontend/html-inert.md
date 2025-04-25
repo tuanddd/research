@@ -1,7 +1,7 @@
 ---
 title: HTML inert
-date: 2022-06-12
 description: "`inert` is a boolean HTML property that makes the browser ignore the user input events for an element, including focus events and events from assistive technologies."
+date: 2022-06-12
 authors:
   - zlatanpham
 github_id: zlatanpham
@@ -37,3 +37,4 @@ The born of `inert` helps to eliminate the need for [[Focus trap | focus trap]] 
 
 - https://web.dev/articles/inert
 - https://patrickhlauke.github.io/aria/demos/modal/index-aria-inert.html
+

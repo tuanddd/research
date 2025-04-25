@@ -1,10 +1,8 @@
 ---
-title: "Enabling team"
+title: Enabling team
+description: Learn how enabling teams support stream-aligned teams by bridging skill gaps, sharing expertise, and improving delivery through collaboration, technical guidance, and knowledge transfer.
 date: 2022-08-15
-description: "Learn how enabling teams support stream-aligned teams by bridging skill gaps, sharing expertise, and improving delivery through collaboration, technical guidance, and knowledge transfer."
-authors:
 github_id: zlatanpham
-tags:
 ---
 
 To succeed in a competitive environment, [[Stream-aligned team | stream-aligned teams]] must continually learn and improve their capabilities. But with constant pressure to deliver and respond to change quickly, how can a stream-aligned team with end-to-end ownership find time to do research, read about new skills, practice them, and then integrate the new knowledge into its service delivery?
@@ -32,3 +30,4 @@ The purpose of enabling teams is to help stream-aligned teams deliver working so
 ## Reference
 
 - _Team Topologies: Organizing Business and Technology Teams for Fast Flow by Manuel Pais and Matthew Skelton_
+

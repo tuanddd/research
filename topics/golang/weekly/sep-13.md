@@ -1,10 +1,10 @@
 ---
 title: "Go Commentary #11: The Gopher's LLM Revolution - Actors, Frameworks, and the Future of Go"
-date: 2024-09-13
+short_title: "#11 Actors, Frameworks, and the Future of Go"
 description: "A critical look at Go's evolving role in the LLM ecosystem and the frameworks shaping its future"
+date: 2024-09-13
 authors:
   - fuatto
-short_title: "#11 Actors, Frameworks, and the Future of Go"
 tags:
   - golang
   - go-weekly
@@ -121,3 +121,4 @@ https://go.dev/blog/survey2024-h2
 https://go.dev/blog/llmpowered
 
 https://github.com/ergo-services/ergo
+

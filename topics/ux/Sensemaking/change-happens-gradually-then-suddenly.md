@@ -1,8 +1,7 @@
 ---
-title: "Change happens gradually then suddenly"
+title: Change happens gradually then suddenly
+description: Discover how long-term change unfolds through subtle signals and storytelling, and learn why we often underestimate its impact over ten years despite early weak signs.
 date: null
-description: "Discover how long-term change unfolds through subtle signals and storytelling, and learn why we often underestimate its impact over ten years despite early weak signs."
-tags:
 ---
 
 Large-scale changes seem to happen quickly. However, changes generally gestate over long periods of time. In the beginning, there may be weak signals of change. These are usually on the periphery of our vision and can be difficult to observe as they occur outside of our typical frame of reference.
@@ -29,3 +28,4 @@ William Gibson wrote, "The future is already here—it's not not evenly distribu
 Madsbjerg, Christian. Sensemaking: The Power of the Humanities in the Age of the Algorithm. Hachette Books, 2017.
 
 - [McGrath - Seeing Around Corners](https://publish.obsidian.md/mobydiction/McGrath+-+Seeing+Around+Corners)
+

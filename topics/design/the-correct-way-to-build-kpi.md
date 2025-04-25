@@ -1,7 +1,7 @@
 ---
 title: The Correct Way To Build Kpi
-date: 2020-11-03
 description: Discover how mindful meditation can transform your view on KPIs, promoting positive communication and reducing workplace stress for a healthier business environment.
+date: 2020-11-03
 tags:
   - tips
   - productivity
@@ -24,3 +24,4 @@ Evidently, we were in a meditation retreat, therefore we can only confine and ag
 Obviously, good businesses will associate with competitions, and in order to win competitions, one must embrace through all the stresses and pressures, just like the old saying “no pressure, no diamonds”; but truthfully, when everything is within expectations, it is easier for one to accept and to conquer. Furthermore, we also believe that if we can somehow intertwine our mindfulness practices into our businesses, perhaps our employees then may no longer see their KPIs as monstrous threats to their positions.
 
 In the end, it is all about communication, conveying/delivering the right messages with a mindful approach. Without having and making your employees feel truly happy, satisfied and justified, I do believe that particular business cannot operate sustainably.
+

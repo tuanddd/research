@@ -1,7 +1,7 @@
 ---
 title: Software Development Life Cycle 101
-date: 2020-05-19
 description: Learn the Software Development Life Cycle (SDLC) basics, key project phases, and essential artifacts to build high-quality software on time and within budget for successful project delivery.
+date: 2020-05-19
 tags:
   - sdlc
 ---
@@ -169,3 +169,4 @@ Job needs to be done
 
 - Setup infrastructure (server, domain, database, ...)
 - Automation process (CI/CD)
+

@@ -1,7 +1,7 @@
 ---
 title: Build custom AI Agent with ElizaOS
-date: 2025-04-02
 description: This guide shows how to build a custom AI Agent with ElizaOS.
+date: 2025-04-02
 authors:
   - quanghuynguyen1902
 tags:
@@ -217,3 +217,4 @@ We have developed an ICY Swap AI Agent that allows users to check their ICY bala
 
 - https://github.com/elizaOS/eliza-plugin-starter
 - https://www.quicknode.com/guides/ai/how-to-setup-an-ai-agent-with-eliza-ai16z-framework
+

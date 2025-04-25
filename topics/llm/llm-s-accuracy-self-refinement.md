@@ -1,7 +1,7 @@
 ---
 title: "LLM's Accuracy - Self Refinement"
-date: 2023-06-29
 description: An overview of self-refinement, a technique where Large Language Models (LLMs) evaluate and improve their own output without the need for supervised data or reinforcement learning.
+date: 2023-06-29
 authors:
   - zlatanpham
 github_id: zlatanpham
@@ -28,3 +28,4 @@ Key Points:
 - Self-refinement involves the model reviewing, scoring, and refining its own output.
 - The technique has been effective, especially for models like GPT-4.
 - It outperforms baselines in many use cases without the need for supervised data or reinforcement learning.
+

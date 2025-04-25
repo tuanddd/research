@@ -1,7 +1,7 @@
 ---
 title: "Devbox in Production: Our Success Story"
-date: 2024-08-09
 description: How we transformed our development and deployment process with Devbox.
+date: 2024-08-09
 authors:
   - baenv
 tags:
@@ -269,3 +269,4 @@ Devbox didn't just change our tools; it changed our culture. "It's too complex t
 Is it perfect? No. Sometimes we still need to dive into Nix for complex setups. But for 90% of our needs, Devbox is our go-to.
 
 Life's too short for bad dev environments. Make yours awesome with Devbox.
+

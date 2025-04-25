@@ -1,10 +1,10 @@
 ---
 title: "Go Commentary #13: Compiler Quests and Vector Vexations"
-date: 2024-09-27
+short_title: "#13 Compiler Quests and Vector Vexations"
 description: "A scathing look at Go's compiler internals and the vector search gold rush, exposing the industry's obsession with speed over substance"
+date: 2024-09-27
 authors:
   - fuatto
-short_title: "#13 Compiler Quests and Vector Vexations"
 tags:
   - golang
   - go-weekly
@@ -56,3 +56,4 @@ The algorithm itself is clever, I'll give them that. Using random orthonormal ba
 https://developers.redhat.com/articles/2024/09/24/go-compiler-register-allocation#go_s_register_allocator__a_high_level_view
 
 https://blog.daxe.ai/p/bbqvec-a-scalable-vector-search-library
+

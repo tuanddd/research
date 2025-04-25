@@ -1,10 +1,8 @@
 ---
-title: "Why invest in tools"
+title: Why invest in tools
+description: Discover how Facebook fosters innovation by trusting engineers to take risks, leading to breakthrough tools like React and GraphQL that transform software development worldwide.
 date: 2022-03-21
-description: "Discover how Facebook fosters innovation by trusting engineers to take risks, leading to breakthrough tools like React and GraphQL that transform software development worldwide."
-authors:
 github_id: zlatanpham
-tags:
 ---
 
 When being asked why Facebook is able to consistently produce new technology that alter the way we build software in the industry. [Lee Byron](https://leebyron.com/) noted down his thought on that statement.
@@ -18,3 +16,4 @@ Every single project could face considerable internal opposition. There will be 
 #### Reference
 
 - https://leebyron.com/why-invest-in-tools/
+

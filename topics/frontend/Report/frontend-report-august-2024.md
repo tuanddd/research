@@ -1,10 +1,10 @@
 ---
 title: Frontend Report August 2024
-date: 2024-09-09
+short_title: August 2024
 description: A comprehensive August 2024 update on key advancements in React 19, Next.js 15, and web development tools. Highlights include new async transitions, server components, SSR performance comparisons, and emerging technologies in the web development landscape
+date: 2024-09-09
 authors:
   - ngolapnguyen
-short_title: August 2024
 tags:
   - frontend
   - market-report
@@ -122,3 +122,4 @@ Rspack 1.0, built in Rust, delivers significant performance improvements over we
 - [The Secret Behind One Million Checkboxes](https://eieio.games/essays/the-secret-in-one-million-checkboxes)
 - [Is Tailwind CSS Too Redundant?](https://www.reddit.com/r/webdev/comments/1f2abca/anyone_else_find_tailwind_css_a_bit_too_redundant/)
 - [React: Is It Time to Move On?](https://www.youtube.com/watch?v=0tvfC9r9lcw)
+

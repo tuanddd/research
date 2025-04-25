@@ -1,7 +1,7 @@
 ---
 title: Kubernetes Helm 101
-date: 2019-10-30
 description: Learn how Helm, the Kubernetes package manager and deployment tool, simplifies application deployment with charts, releases, and repositories for faster, easier Kubernetes management.
+date: 2019-10-30
 tags:
   - k8s
 ---
@@ -141,3 +141,4 @@ You can refer to more information in [the documentation of Helm](https://helm.sh
 - [Using Helm and Kubernetes](https://www.baeldung.com/kubernetes-helm)
 - [What is Helm and why is it important for Kubernetes deployments?](https://boxboat.com/2018/09/19/helm-and-kubernetes-deployments/)
 - [Helm Tutorial: How To Install and Configure Helm](https://devopscube.com/install-configure-helm-kubernetes/)
+

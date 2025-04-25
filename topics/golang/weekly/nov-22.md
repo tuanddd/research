@@ -1,10 +1,10 @@
 ---
 title: "Go Commentary #21: Go sync.Once is Simple"
-date: 2024-11-22
+short_title: "#21 Go sync.Once is Simple"
 description: "Understanding Go's sync.Once - A Deep Dive into Single-Execution Guarantees and Atomic Operations"
+date: 2024-11-22
 authors:
   - fuatto
-short_title: "#21 Go sync.Once is Simple"
 tags:
   - golang
   - go-weekly
@@ -215,3 +215,4 @@ func (o *Once) doSlow(f func()) {
 https://victoriametrics.com/blog/go-sync-once/
 
 https://go.dev/ref/mem
+

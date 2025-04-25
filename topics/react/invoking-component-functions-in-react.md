@@ -1,7 +1,7 @@
 ---
 title: Invoking component functions in React
-date: 2023-01-09
 description: What happens if you invoked the component function directly in React?
+date: 2023-01-09
 authors:
   - namtrhg
 tags:
@@ -44,3 +44,4 @@ export const App = () => {
 **How to avoid it?**
 
 - Use React Component Syntax <ExampleComponent /> which translate into React.createElement(ExampleComponent, null) making the properties of that component in the VDOM tree controlled by the ExampleComponent.
+

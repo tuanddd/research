@@ -1,10 +1,8 @@
 ---
-title: "Mapreduce components"
+title: Mapreduce components
+description: Learn how MapReduce processes large stock data to find maximum closing prices using map, shuffle, reduce phases, input splits, and optional combiners for efficient distributed computing and performance.
 date: 2022-10-24
-description: "Learn how MapReduce processes large stock data to find maximum closing prices using map, shuffle, reduce phases, input splits, and optional combiners for efficient distributed computing and performance."
-authors:
 github_id: dudaka
-tags:
 ---
 
 ## Introduction
@@ -159,3 +157,4 @@ Intuitively, combiner is like a mini reducer that runs at the map phase. Combine
 
 - the internals of map shuffle and reduced phases.
 - the benefit of using a combiner.
+

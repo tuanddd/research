@@ -1,3 +1,9 @@
+---
+title: null
+description: null
+date: null
+---
+
 ## Fleeting Notes
 
 ```dataviewjs
@@ -7,3 +13,4 @@ const { headers, values } = pagesQuery.value
 
 dv.table(headers, values);
 ```
+

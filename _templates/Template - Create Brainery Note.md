@@ -1,8 +1,8 @@
 ---
-tags:
-authors:
-github_id:
-date: <% await tp.file.creation_date("YYYY-MM-DD") %>
+title: null
+description: null
+date: null
+github_id: null
 icy: 10
 ---
 
@@ -16,3 +16,4 @@ const ctaFile = app.vault.getAbstractFileByPath(element.file.path);
 const ctaContent = await app.vault.read(ctaFile);
 tR += ctaContent;
 %>
+

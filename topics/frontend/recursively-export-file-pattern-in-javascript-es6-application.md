@@ -1,7 +1,7 @@
 ---
 title: Recursively Export File Pattern In Javascript Es6 Application
-date: 2019-09-07
 description: Learn how to simplify JavaScript ES6 imports by using recursive re-export patterns and automate index file creation with the @autogen-export package for cleaner component management.
+date: 2019-09-07
 tags:
   - js
 ---
@@ -118,3 +118,4 @@ It has been published as an NPM package.
 I also created examples on how to use those packages: [https://github.com/phmngocnghia/AutoGenerateReExportFile/tree/master/examples](https://github.com/phmngocnghia/AutoGenerateReExportFile/tree/master/examples)
 
 What do you think about this pattern? Please express your idea
+

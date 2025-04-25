@@ -1,10 +1,10 @@
 ---
 title: "Go Commentary #10: Script, Telemetry"
-date: 2024-09-06
+short_title: "#10 Script, Telemetry"
 description: "Exploring a Go library for shell-like scripting and Go's telemetry feature."
+date: 2024-09-06
 authors:
   - fuatto
-short_title: "#10 Script, Telemetry"
 tags:
   - golang
   - go-weekly
@@ -71,3 +71,4 @@ https://github.com/bitfield/script
 https://go.dev/blog/gotelemetry
 
 https://go.dev/doc/telemetry
+

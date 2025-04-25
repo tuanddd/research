@@ -1,7 +1,7 @@
 ---
-title: "≈ mixed methods"
+title: ≈ mixed methods
+description: Explore the key differences between qualitative and quantitative research methods, highlighting their unique strengths, weaknesses, and underlying philosophies for better data analysis and understanding.
 date: null
-description: "Explore the key differences between qualitative and quantitative research methods, highlighting their unique strengths, weaknesses, and underlying philosophies for better data analysis and understanding."
 ---
 
 ## Summary
@@ -24,3 +24,4 @@ Ladner outlines the different strengths and weaknesses of qualitative and quanti
 ### Analytics data
 
 - [[Collecting analytics data is not the same as doing research]]
+

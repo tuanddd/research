@@ -1,7 +1,7 @@
 ---
 title: Dcos Series Part 2 Deploy Simple Applications
-date: 2017-05-05
 description: Learn how to deploy applications on DC/OS using the GUI and CLI, manage services, and install packages from the Universe for easy cluster and app management.
+date: 2017-05-05
 tags:
   - dcos
 ---
@@ -120,3 +120,4 @@ Click on `Services` tab, you will see list of applications that you are running.
 As the picture above, you can check your application directly via `Endpoint`
 
 ![](assets/dcos-series-part-2---deploy-simple-applications_82cc4eeeaae867eb9bcafc54c0f7eda5_md5.webp)
+

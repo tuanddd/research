@@ -1,10 +1,10 @@
 ---
 title: Frontend Report October 2024
-date: 2024-11-05
+short_title: October 2024
 description: This month’s newsletter highlights React’s new compiler beta, key updates from Next.js Conf 2024, and industry shifts toward full-stack roles and modern CSS. AI-driven tools like GitHub Copilot and Project IDX are further advancing development workflows.
+date: 2024-11-05
 authors:
   - ngolapnguyen
-short_title: October 2024
 tags:
   - frontend
   - market-report
@@ -101,3 +101,4 @@ One is a new React framework for web and native, built on Vite. It simplifies 
 - [The WordPress, WP Engine and ACF Drama](https://dev.to/matfrana/the-wordpress-wp-engine-and-acf-drama-5h88)
 - [Using AI Generated Code Will Make You a Bad Programmer](https://slopwatch.com/posts/bad-programmer/)
 - [Measuring Developer Productivity: Real-World Examples](https://newsletter.pragmaticengineer.com/p/measuring-developer-productivity-bae)
+

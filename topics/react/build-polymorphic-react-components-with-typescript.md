@@ -1,7 +1,7 @@
 ---
 title: Build polymorphic React components with Typescript
-date: 2022-09-26
 description: This article provides a step-by-step guide on how to build polymorphic React components with Typescript, covering the necessary concepts and techniques to create flexible and reusable components.
+date: 2022-09-26
 authors:
   - trankhacvy
 github_id: trankhacvy
@@ -444,3 +444,4 @@ const Button: ButtonComponent = React.forwardRef(<C extends React.ElementType = 
 ```
 
 Congratulation, we have successfully built a strongly typed Polymorphic React Component with Typescript. 🎉🎉🎉🎉
+

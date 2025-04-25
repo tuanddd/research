@@ -1,7 +1,7 @@
 ---
 title: Playaround With Rust
-date: 2019-08-30
 description: "Learn how Mozilla uses Rust to build safer, parallel browsers by leveraging Rust's ownership, immutability, lifetime tracking, and expression-based design for error-free, efficient code."
+date: 2019-08-30
 tags:
   - rust
 ---
@@ -143,3 +143,4 @@ fn largest(x: &i64, y: &i64) -> &i64 {
    }
 }
 ```
+

@@ -1,10 +1,8 @@
 ---
-title: "Disc personality types in team work"
-date: 2022-09-10
+title: Disc personality types in team work
 description: "Learn about the DiSC personality model's four types—Dominance, Influence, Steadiness, and Conscientiousness—and how understanding these traits improves teamwork and communication."
-authors:
+date: 2022-09-10
 github_id: huytieu
-tags:
 ---
 
 ## What is DiSC?
@@ -124,3 +122,4 @@ https://www.notion.so/huytieu/DiSC-Personality-Types-in-team-work-ee16782a9c2f4d
 
 - [https://www.discprofile.com/what-is-disc/disc-styles](https://www.discprofile.com/what-is-disc/disc-styles)
 - [https://www.amazon.com/Surrounded-by-Idiots-audiobook/dp/B07VCV4QMH/ref=sr_1_1?keywords=surrounded+by+idiots&qid=1662797546&sprefix=surrounded+b%2Caps%2C312&sr=8-1](https://www.amazon.com/Surrounded-by-Idiots-audiobook/dp/B07VCV4QMH/ref=sr_1_1?keywords=surrounded+by+idiots&qid=1662797546&sprefix=surrounded+b%2Caps%2C312&sr=8-1)
+

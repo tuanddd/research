@@ -1,7 +1,7 @@
 ---
 title: Error handling patterns
-date: 2024-10-14
 description: Quick note on error handling patterns in programming languages
+date: 2024-10-14
 authors:
   - tieubao
 tags:
@@ -263,3 +263,4 @@ func main() {
 
 - Crashes the program, which may not be desirable in production.
 - Can be overused in scenarios where graceful error handling is possible.
+

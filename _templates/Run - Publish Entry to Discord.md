@@ -1,3 +1,9 @@
+---
+title: null
+description: null
+date: null
+---
+
 <%\*
 const dv = this.app.plugins.plugins["dataview"].api;
 const page = dv.page("\_env");
@@ -75,3 +81,4 @@ body: JSON.stringify(webhookBody),
 headers,
 });
 %>
+

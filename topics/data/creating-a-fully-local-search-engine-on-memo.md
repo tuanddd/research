@@ -1,7 +1,7 @@
 ---
 title: Building a local search engine for our Memo website
-date: 2024-07-17
 description: Explore how we developed a fully local search engine for our memo website using DuckDB-wasm, Transformers.js, and Alpine.js. Learn about hybrid search techniques, real-time embeddings, and performance optimizations that deliver fast and accurate results without compromising on privacy or requiring server-side processing.
+date: 2024-07-17
 authors:
   - monotykamary
 tags:
@@ -161,3 +161,4 @@ By focusing on these improvements, we aim to create an even more powerful and us
 By leveraging modern web technologies and clever optimizations, we've created a powerful, fully local search engine for our memo website. This approach provides our users with fast, accurate search results without compromising on privacy or requiring server-side processing.
 
 We're excited about the possibilities this opens up for future improvements and would love to hear your thoughts or questions in the comments below!
+

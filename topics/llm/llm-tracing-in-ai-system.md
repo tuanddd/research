@@ -1,7 +1,7 @@
 ---
 title: LLM tracing in AI system
-date: 2024-09-11
 description: Understanding LLM Tracing - Principles, Techniques, and Applications in building LLM-powered AI systems.
+date: 2024-09-11
 authors:
   - tienan92it
 tags:
@@ -60,3 +60,4 @@ Some popular tools that support various aspects of LLM tracing:
 - https://docs.smith.langchain.com/how_to_guides/tracing
 - https://karpathy.medium.com/software-2-0-a64152b37c35
 - Demo: https://colab.research.google.com/gist/tienan92it/490dd65748518a9abc73cdf4bd84583d/welcome-to-colab.ipynb
+

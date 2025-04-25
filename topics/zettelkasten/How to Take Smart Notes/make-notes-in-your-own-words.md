@@ -1,8 +1,7 @@
 ---
-title: "Make notes in your own words"
+title: Make notes in your own words
+description: Learn how reformulating text in your own words boosts understanding and memory, while copying notes hinders critical thinking, using the Zettelkasten method to deepen learning and writing skills.
 date: null
-description: "Learn how reformulating text in your own words boosts understanding and memory, while copying notes hinders critical thinking, using the Zettelkasten method to deepen learning and writing skills."
-tags:
 ---
 
 When we are reading a text, it can be difficult to identify and remember what is most important. Especially when reading theoretical texts, we must balance our short-term and long-term memories so that we can focus on what is truly important.
@@ -26,3 +25,4 @@ One of the benefits of the #Zettelkasten method is that it involves multiple act
 Ahrens, Sönke. _How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers_. Sönke Ahrens, 2017.
 
 Luhmann, Niklas. _“Learning How to Read.”_ Translated by Manfred Kuehn. Two Essays by Niklas Luhmann. Accessed October 27, 2020. <https://luhmann.surge.sh/learning-how-to-read>.
+

@@ -1,7 +1,7 @@
 ---
 title: Tracing
-date: 2024-10-11
 description: Tracing is like following your LLM’s journey, step by step. We will explain how tracing makes it easy to identify and address problems by allowing you to track the entire process.
+date: 2024-10-11
 authors:
   - datnguyennnx
 tags:
@@ -82,3 +82,4 @@ Tracing lets you see what’s going on in your LLM app, from tracking performanc
 - https://arize.com/blog-course/traces-spans-large-language-model-orchestration/
 - https://www.linkedin.com/posts/aurimas-griciunas_llm-genai-llmops-activity-7250055380553084928-9XAA
 - https://www.alibabacloud.com/blog/observability-of-llm-applications-exploration-and-practice-from-the-perspective-of-trace_601604
+

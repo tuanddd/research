@@ -1,10 +1,8 @@
 ---
 title: Git
+description: Learn how Git, the popular version control system, helps developers track changes, manage branches, and collaborate effectively using workflows like GitHub flow and Git-flow for software development.
 date: 2021-08-11
-description: "Learn how Git, the popular version control system, helps developers track changes, manage branches, and collaborate effectively using workflows like GitHub flow and Git-flow for software development."
-authors:
 github_id: hieuphq
-tags:
 ---
 
 ### What is git?
@@ -145,3 +143,4 @@ Overall, Git acts like a time machine. When you travel from A to B in time, you 
 - https://nvie.com/posts/a-successful-git-branching-model/
 - https://danielkummer.github.io/git-flow-cheatsheet/
 - https://github.com/k88hudson/git-flight-rules
+

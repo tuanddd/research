@@ -1,7 +1,7 @@
 ---
 title: The fundamental of web performance
-date: 2022-10-02
 description: The key to improving your website speed is to understand where the bottlenecks are, and how much time each step takes.
+date: 2022-10-02
 authors:
   - zlatanpham
 github_id: zlatanpham
@@ -60,3 +60,4 @@ The goal of delivering a fast, smooth transition web application is **to do less
 - https://web.dev/rendering-performance/
 - https://codeburst.io/painting-and-rendering-optimization-techniques-in-browser-2e53a70e7ee
 - https://web.dev/critical-rendering-path-render-tree-construction/
+

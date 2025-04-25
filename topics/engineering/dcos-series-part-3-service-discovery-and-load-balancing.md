@@ -1,7 +1,7 @@
 ---
 title: Dcos Series Part 3 Service Discovery And Load Balancing
-date: 2017-05-17
 description: Learn how to use Marathon Load Balancer in Mesosphere DCOS for efficient service discovery, load balancing, and virtual host routing with HAProxy in your containerized apps.
+date: 2017-05-17
 tags:
   - dcos
 ---
@@ -234,3 +234,4 @@ So, your configuration file will be like this:
 or, you also can access by this way `<public-node-elb>`:`<service-port>`
 
 ![](assets/dcos-series-part-3---service-discovery-and-load-balancing_d90d63eed205052f3f560b4a6ebd5fba_md5.webp)
+

@@ -1,7 +1,7 @@
 ---
 title: Unstable Package Installation in Docker
-date: 2024-08-01
 description: An explanation of the challenges with package versioning that lets Docker builds unstable
+date: 2024-08-01
 authors:
   - baenv
 tags:
@@ -39,3 +39,4 @@ We have some keywords related to better solutions that I only list here for refe
 - Local cache
 - Private registry
 - Multistage builds
+

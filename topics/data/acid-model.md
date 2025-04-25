@@ -1,10 +1,8 @@
 ---
-title: "Acid model"
+title: Acid model
+description: Learn how the ACID model ensures database transaction reliability with atomicity, consistency, isolation, and durability for accurate, secure, and concurrent data management in ACID-compliant systems.
 date: 2022-04-18
-description: "Learn how the ACID model ensures database transaction reliability with atomicity, consistency, isolation, and durability for accurate, secure, and concurrent data management in ACID-compliant systems."
-authors:
 github_id: monotykamary
-tags:
 ---
 
 ## What is the ACID model?
@@ -46,3 +44,4 @@ Most relational databases are ACID compliant, such as MySQL, PostgreSQL, Oracle,
 - https://database.guide/what-is-acid-in-databases/
 - https://phoenixnap.com/kb/acid-vs-base
 - https://www.indeed.com/career-advice/career-development/acid-database
+

@@ -1,7 +1,7 @@
 ---
 title: Token
+description: Learn about frontrunning risks in EIP-20 token approvals and the importance of following accepted Ethereum token standards like EIP-20 and EIP-721 for secure smart contracts.
 date: null
-description: "Learn about frontrunning risks in EIP-20 token approvals and the importance of following accepted Ethereum token standards like EIP-20 and EIP-721 for secure smart contracts."
 ---
 
 ## Frontrunning
@@ -23,3 +23,4 @@ Examples of currently accepted standards include:
 - [EIP20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md)
 - [EIP721](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md) (non-fungible token)
 - More at [eips.ethereum.org](https://eips.ethereum.org/erc#final)
+

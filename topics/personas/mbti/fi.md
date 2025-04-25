@@ -1,9 +1,9 @@
 ---
 title: Introverted Feeling (Fi)
-date: null
 description: Discover the IFP personality type known for deep personal values, emotional sensitivity, and caring nature, common in INFPs and ISFPs who champion justice and individuality.
-tag: MBTI, function
+date: null
 URL: "https://drive.google.com/file/d/1n8ID_iXqzs6cMZlRS0Su7lQUhrfd7khh/view?usp=sharing"
+tag: MBTI, function
 ---
 
 Book: My True Type, page 102 - 108
@@ -12,3 +12,4 @@ Book: My True Type, page 102 - 108
 - Most prominent in: INFPs & ISFPs; also prominent in ENFPs & ESFPs
 - Associated with: Fighting for “underdogs,” emotional restraint, nuanced morals and values, nurture and caregiving, sensitivity to perceived inequities and injustice
 - Famous IFPs: Henry David Thoreau, Jean-Jacque Rousseau, Kierkegaard, Camus, Virginia Wolfe, Van Gogh, Luke Skywalker, J.D. Salinger, Jane Austen, Bob Dylan
+

@@ -1,7 +1,7 @@
 ---
 title: Multi-MCP Data Integration - Receiving Data from Other MCP Servers
-date: 2025-04-25
 description: null
+date: 2025-04-25
 authors:
   - quang
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Skill Of Software Engineer
-date: 2017-03-14
 description: Discover essential software development skills including coding, debugging, version control, design, and automated testing, plus key soft skills like teamwork and communication for effective collaboration.
+date: 2017-03-14
 tags:
   - engineering
 ---
@@ -51,3 +51,4 @@ This is the ability to unit test code by writing automated tests.
 The ability to revise existing code without impacting its functional behavior.
 
 Beside that, please also pay attention to the soft skill: Teamwork, Management and Communication
+

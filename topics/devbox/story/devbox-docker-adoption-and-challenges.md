@@ -1,7 +1,7 @@
 ---
 title: Our Docker adoption and its challenges
-date: 2024-04-19
 description: Our second Devbox session, where we discussed our Docker adoption and challenges.
+date: 2024-04-19
 authors:
   - huynguyenh
   - baenv
@@ -72,3 +72,4 @@ For example, we often include something like `RUN apt-get install ...` in the Do
 So, with all the challenges mentioned above, do we have any way to avoid them in a peaceful manner? Certainly, there are various ways to address these problems, but none of them are perfect or bad.
 
 Most of them involve optimizing your approach to using Docker. However, I would like to introduce another approach that keeps us away from Docker during development but still allows us to leverage Docker for deployment. We'll explore that next time in the [Devbox #3: The overview into Nix & how we use Devbox @ Dwarves](devbox-nix-and-our-devbox-adoption.md).
+

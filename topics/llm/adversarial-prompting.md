@@ -1,7 +1,7 @@
 ---
 title: Adversarial Prompting in Prompt Engineering
-date: 2023-07-10
 description: An overview of adversarial prompting in prompt engineering, focusing on understanding risks associated with Large Language Models (LLMs) and strategies for mitigating them.
+date: 2023-07-10
 authors:
   - zlatanpham
 github_id: zlatanpham
@@ -72,3 +72,4 @@ In conclusion, adversarial prompting poses significant challenges in the realm o
 - https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/notebooks/pe-chatgpt-adversarial.ipynb
 - https://openai.com/blog/our-approach-to-ai-safety
 - https://twitter.com/m1guelpf/status/1598203861294252033
+

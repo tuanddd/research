@@ -1,7 +1,7 @@
 ---
 title: Logging
-date: 2024-10-11
 description: Logs are like the footprints of your LLM, tracking every move it makes. We will look at how logging can help you see beneath the top layer of a system, which can help you troubleshoot problems and better understand the system behavior.
+date: 2024-10-11
 authors:
   - datnguyennnx
 tags:
@@ -133,3 +133,4 @@ While logging might feel like a small detail in the bigger picture of generative
 - https://docs.smith.langchain.com/old/cookbook/tracing-examples/traceable
 - https://medium.com/@simon_attard/leveraging-large-language-models-in-your-software-applications-9ea520fb2f34
 - https://www.researchgate.net/figure/An-LLM-based-agent-autonomously-reasons-about-tasks-and-composes-external-tools-to_fig1_376401381
+

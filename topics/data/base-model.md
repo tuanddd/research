@@ -1,10 +1,8 @@
 ---
-title: "Base model"
+title: Base model
+description: The BASE model is a flexible NoSQL data approach focusing on Basic Availability, Soft-state, and Eventual consistency to enable scalable and loosely consistent distributed databases.
 date: 2022-04-18
-description: "The BASE model is a flexible NoSQL data approach focusing on Basic Availability, Soft-state, and Eventual consistency to enable scalable and loosely consistent distributed databases."
-authors:
 github_id: monotykamary
-tags:
 ---
 
 ## What is the BASE model?
@@ -25,3 +23,4 @@ The BASE model loosely refers to distributed data stores, which means these data
 
 - https://phoenixnap.com/kb/acid-vs-base
 - https://neo4j.com/blog/acid-vs-base-consistency-models-explained/
+

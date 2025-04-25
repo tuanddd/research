@@ -1,10 +1,8 @@
 ---
-title: "Stream aligned team"
+title: Stream aligned team
+description: Learn how stream-aligned teams enable fast delivery by owning end-to-end work, reducing hand-offs, and adapting quickly to change for better software flow and customer feedback.
 date: 2022-09-19
-description: "Learn how stream-aligned teams enable fast delivery by owning end-to-end work, reducing hand-offs, and adapting quickly to change for better software flow and customer feedback."
-authors:
 github_id: zlatanpham
-tags:
 ---
 
 A stream is the continuous flow of work aligned to a business domain or organizational capability. A stream requires clear goals and responsibilities so that multiple teams can coexist, each with their own flow of work.
@@ -39,3 +37,4 @@ Generally, stream-aligned teams require capabilities to progress work from its i
 ## Reference
 
 - _Team Topologies: Organizing Business and Technology Teams for Fast Flow by Manuel Pais and Matthew Skelton_
+

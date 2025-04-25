@@ -1,7 +1,7 @@
 ---
 title: The Key Of Security Mechanisms In Tackling Cyber Threats
-date: 2022-12-26
 description: Learn essential cybersecurity tips from expert Hieu PC on building secure products, protecting data, and staying updated on security standards to prevent hacking and safeguard your code effectively.
+date: 2022-12-26
 tags:
   - security
   - engineering
@@ -57,3 +57,4 @@ Hope to see you again at future events that promise to be even more exciting.
 ---
 
 _Dwarves Foundation partners with communities and experts to bring real stories, professional points of view, and live-case practices in the tech talk series that accelerates your software career._
+

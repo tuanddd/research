@@ -1,8 +1,7 @@
 ---
-title: "Theory team building based on mbti"
-date: null
+title: Theory team building based on mbti
 description: "Discover the four temperaments—Guardians, Artisans, Idealists, and Rationals—and how they shape communication, action, and personality based on Myers-Briggs and David Keirsey's insights."
-tags:
+date: null
 ---
 
 To use the idea of temperament most effectively, it is important to understand that the** four temperaments** are not simply arbitrary collections of characteristics, but spring from an interaction of the two basic dimensions of human behavior: **our communication** and**our action**, our words and our deeds, or, simply, what we say and what we do.
@@ -44,3 +43,4 @@ Psychologist David Keirsey introduced a new perspective on the Myers-Briggs type
 
 [Four temperaments overview](https://keirsey.com/temperament-overview/)
 [Building Effective Teams Using the Myers-Briggs Personality Types](http://www.cmcgc.com/media/handouts/300502/0140-Wenger.pdf)
+

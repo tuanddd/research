@@ -1,7 +1,7 @@
 ---
 title: WAI-ARIA
-date: 2022-09-30
 description: WAI-ARIA is a technology that can help with the problems of modern websites and applications containing huge amounts of dynamic content and complex components with no semantics to describe what they mean.
+date: 2022-09-30
 authors:
   - nguyend-nam
 github_id: nguyend-nam
@@ -101,3 +101,4 @@ WAI-ARIA will become handy in some cases as listed below:
 - https://www.maxability.co.in/trainings/advanced-web-accessibility-testing/what-is-wai-aria
 - https://www.w3.org/WAI/ARIA/apg/example-index/button/button
 - https://pressbooks.library.torontomu.ca/wafd/chapter/wai-aria-landmarks/#:~:text=WAI%2DARIA%20landmarks%20are%20used,bypass%20links%20and%20page%20headings
+

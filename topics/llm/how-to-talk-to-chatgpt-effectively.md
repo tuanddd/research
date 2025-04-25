@@ -1,7 +1,7 @@
 ---
 title: How to talk to ChatGPT effectively
-date: 2024-06-21
 description: This post presents technique to improve the your output when prompting ChatGPT.
+date: 2024-06-21
 authors:
   - minhcloud
 tags:
@@ -112,3 +112,4 @@ You should split tasks into multiple steps, chained together for complex goals.
 - **Example**: From now on, I would like you to ask me questions to diagnose and solve a computer performance issue. Please ask question once at a time. When you have enough information, provide a summary of the problem and a solution. For example, 'Is your computer running slow all the time or only during certain activities?
 
 - ![](assets/how-to-talk-to-chatgpt-effectively_clean-shot-2024-06-21-at-14-02-56-2x.webp)
+

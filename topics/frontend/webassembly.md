@@ -1,7 +1,7 @@
 ---
 title: Webassembly
-date: 2023-01-05
 description: WebAssembly (abbreviated *Wasm*) was launched in 2017 as a low-level assembly-like language with a compact binary format, so it’s fast to load, execute, and run with near-native performance.
+date: 2023-01-05
 authors:
   - tienan92it
 github_id: tienan92it
@@ -49,3 +49,4 @@ WebAssembly isn’t interpreted but, rather, is compiled into the WebAssembly bi
 ### Reference
 
 https://developer.mozilla.org/en-US/docs/WebAssembly https://webassembly.org/ https://livebook.manning.com/book/webassembly-in-action/chapter-1/ https://www.xenonstack.com/insights/a-beginners-guide-to-webassembly
+

@@ -1,9 +1,9 @@
 ---
 title: Introversion vs Extraverion
-date: null
 description: Discover key differences between introverted and extraverted traits, including mindset, behavior, and lifestyle preferences, to better understand your Myers-Briggs personality type.
-tag: MBTI,preferences
+date: null
 URL: "https://drive.google.com/file/d/1n8ID_iXqzs6cMZlRS0Su7lQUhrfd7khh/view?usp=sharing"
+tag: MBTI,preferences
 ---
 
 Book: My True Type, page 24 - 32
@@ -32,3 +32,4 @@ Common Extraverted Traits:
 - Often more talkative (especially ENJs)
 - More world-reflective and world-aware
 - Require less time to themselves
+

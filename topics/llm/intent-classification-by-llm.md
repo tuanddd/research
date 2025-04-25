@@ -1,7 +1,7 @@
 ---
 title: Intent classification by LLM
-date: 2024-10-09
 description: User intent classification is a crucial aspect of conversational AI, start with machine learning models, but now advanced language models (LLMs) are being explored for this task. Unlike the old methods which is need to labeled datasets exhaustively, LLMs can understand what users mean without all that preparation. This memo explores the application of LLMs in intent classification, highlighting their potential to streamline the process and overcome traditional NLU limitations.
+date: 2024-10-09
 authors:
   - nnhuyhoang
 tags:
@@ -121,3 +121,4 @@ Intent classification is a crucial step in building a conversational AI system. 
 - https://www.vellum.ai/blog/how-to-build-intent-detection-for-your-chatbot
 - https://www.linkedin.com/pulse/leveraging-large-language-models-intent-bassel-mokabel-wj1vc/
 - https://docs.voiceflow.com/docs/llm-intent-classification-method
+

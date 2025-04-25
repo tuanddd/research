@@ -1,7 +1,7 @@
 ---
 title: Story map for LLMs
-date: 2023-08-09
 description: A comprehensive guide outlining the journey for engineers developing applications on top of Large Language Models (LLMs), covering key stages from understanding AI basics to fine-tuning models.
+date: 2023-08-09
 authors:
   - monotykamary
 github_id: monotykamary
@@ -154,3 +154,4 @@ The general idea of this story map is to help engineers develop a strong foundat
 - https://wandb.ai/ayush-thakur/Intro-RLAIF/reports/An-Introduction-to-Training-LLMs-Using-Reinforcement-Learning-From-Human-Feedback-RLHF---VmlldzozMzYyNjcy
 - https://www.superannotate.com/blog/rlhf-for-llm
 - https://www.assemblyai.com/blog/the-full-story-of-large-language-models-and-rlhf/
+

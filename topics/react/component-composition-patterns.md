@@ -1,10 +1,10 @@
 ---
 title: Component composition patterns in React
-date: 2024-10-29
+short_title: Component composition patterns
 description: Learn React composition patterns with coverage of HOCs, render props, compound components, and custom hook
+date: 2024-10-29
 authors:
   - zlatanpham
-short_title: Component composition patterns
 tags:
   - react
 ---
@@ -185,3 +185,4 @@ Selecting the right pattern often depends on:
 - **Complexity of data flow**: If your data flow is complex, consider compound components or render props.
 - **Component reusability**: HOCs are ideal for reusable logic across unrelated components.
 - **Level of control**: Controlled/uncontrolled patterns are great for balancing simplicity and flexibility in form handling.
+

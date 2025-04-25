@@ -1,8 +1,7 @@
 ---
 title: "¶ luhmann's zettelkasten"
-date: null
 description: "Discover how Niklas Luhmann's zettelkasten system uses linked note cards to organize ideas, boost creativity, and generate new knowledge through unique indexing and connections."
-tags:
+date: null
 ---
 
 Zettelkästen is the German word for "_slip box_". Whenver Luhmann read something, he would record the bibliographic information on the source and some brief descriptive notes about the content on either side of a note card. He would store these in one box. Then, he would think about what he had read and its relevance to his work. He would record these thoughts on other cards, and store them in a second slip box. These represented [[¶ Principle of atomicity | atomic units]] of thought: one idea per card. Each note would include a unique identifier.
@@ -37,3 +36,4 @@ Luhmann, Niklas. _“Communicating with Slip Boxes.”_ Translated by Manfred Ku
 Luhmann, Niklas. _“Learning How to Read.”_ Translated by Manfred Kuehn. Two Essays by Niklas Luhmann. Accessed October 27, 2020. <https://luhmann.surge.sh/learning-how-to-read>.
 
 Schmidt, Johannes F. K. _“Niklas Luhmann’s Card Index: The Fabrication of Serendipity.”_ Sociologica 12, no. 1 (2018): 53—60.
+

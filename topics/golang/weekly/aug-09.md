@@ -1,10 +1,10 @@
 ---
 title: "Go Commentary #6: GUI Framework, Leadership Change"
-date: 2024-08-09
+short_title: "#6 Cogent Core, Russ Cox stepping down"
 description: Introducing Cogent Core, a new GUI framework for Go, and announcing Russ Cox stepping down as Tech Lead of Go after 12 years.
+date: 2024-08-09
 authors:
   - fuatto
-short_title: "#6 Cogent Core, Russ Cox stepping down"
 tags:
   - golang
   - go-weekly
@@ -126,3 +126,4 @@ plotcore.NewPlotEditor(b).SetSlice([]Data{
 - https://groups.google.com/g/golang-dev/c/0OqBkS2RzWw/m/GzWvX5u6AQAJ?pli=1
 - https://go.googlesource.com/oscar/+/refs/heads/master/README.md
 - https://go.googlesource.com/oscar/+/refs/heads/master/internal
+

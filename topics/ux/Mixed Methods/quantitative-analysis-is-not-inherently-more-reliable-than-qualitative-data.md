@@ -1,7 +1,7 @@
 ---
-title: "Quantitative analysis is not inherently more reliable than qualitative data"
+title: Quantitative analysis is not inherently more reliable than qualitative data
+description: Quantitative analysis can be biased and limited, as data selection and interpretation depend on human judgment and may overlook context and deeper understanding of human behavior.
 date: null
-description: "Quantitative analysis can be biased and limited, as data selection and interpretation depend on human judgment and may overlook context and deeper understanding of human behavior."
 ---
 
 It’s naive to assume that quantitative analysis is inherently a more reliable or scientific than human judgment. Quantitative data, too, is the product of bias.
@@ -27,3 +27,4 @@ This isn't to say that quantitative analysis is not without merit; however, it m
 - [Madsbjerg, Christian. Sensemaking: The Power of the Humanities in the Age of the Algorithm. Hachette Books, 2017.](https://publish.obsidian.md/mobydiction/notes/%E2%89%88+Madsbjerg+-+Sensemaking)
 - [≈ Muller - The Tyranny of Metrics](https://publish.obsidian.md/mobydiction/notes/%E2%89%88+Muller+-+The+Tyranny+of+Metrics)
 - [Sutherland - Alchemy](https://publish.obsidian.md/mobydiction/Sutherland+-+Alchemy)
+

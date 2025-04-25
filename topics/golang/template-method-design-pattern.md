@@ -1,7 +1,7 @@
 ---
 title: A Tour of Template method pattern with Golang
-date: 2024-06-28
 description: "Template method: the problem, the concept, the solution, its use cases, implementations, pros & cons. The Template Method pattern in Go offers a powerful way to define algorithm skeletons and handle variations. We examine its application in user registration, showcasing code reusability and scalability in Golang development."
+date: 2024-06-28
 authors:
   - anhnh12
 tags:
@@ -237,3 +237,4 @@ func main() {
 ## References
 
 - https://refactoring.guru/design-patterns/template-method
+

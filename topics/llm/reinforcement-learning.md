@@ -1,7 +1,7 @@
 ---
 title: Introduction to Reinforcement Learning and Its Application with LLMs
-date: 2023-06-05
 description: An introduction to Reinforcement Learning (RL), a machine learning method where an agent learns to make decisions by interacting with an environment. This article covers the basics of RL, including how it works, common algorithms, and its application in training models with Large Language Models (LLMs).
+date: 2023-06-05
 authors:
   - thanhpn
 github_id: thanhpn
@@ -62,3 +62,4 @@ While RL can be applied to various domains, it requires significant time and com
 - Agent: The interacting entity operates with the environment, and its actions are controlled by an algorithm.
 - MDP: Markov decision process
 - LLM: Large language model
+

@@ -1,7 +1,7 @@
 ---
 title: Go as an Enterprise Standard Language
-date: 2024-08-30
 description: "There is widespread adoption to take Go as the primary programming language for enterprise-level software development, emphasizing its simplicity, efficiency, and robust standard library. This initiative aims to streamline development processes, improve code maintainability, and leverage Go's strong support for concurrent programming in large-scale enterprise applications."
+date: 2024-08-30
 authors:
   - fuatto
 tags:
@@ -23,3 +23,4 @@ tags:
 ### [When to use Go in enterprise?](when-to-use-golang-in-enterprise.md)
 
 ### [Aggregate use cases of successful enterprises using Go](aggregate-use-cases-of-successful-enterprises-using-go.md)
+

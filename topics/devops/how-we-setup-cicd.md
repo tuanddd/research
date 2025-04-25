@@ -1,7 +1,7 @@
 ---
 title: How We Setup Cicd
-date: 2021-02-16
 description: Learn how Dwarves simplifies CI/CD with Gitlab, Github Actions, automated linting, testing, previewing, building Docker images, and deploying to Kubernetes for faster, reliable software delivery.
+date: 2021-02-16
 tags:
   - devops
 ---
@@ -85,3 +85,4 @@ Technology is eating the world. The technology we used yesterday may be deprecat
 We build a team that wants to do innovative things, but innovation does not happen in a vacuum. It happens through many thoughts, experiments, assessments.
 
 By the time we write this article, we are giving [Earthly](https://github.com/earthly/earthly) the shot to further upgrade our stacks. And we don't mean to stop exploring, pushing the boundaries so perhaps we will write a follow up article of this, maybe a year later
+

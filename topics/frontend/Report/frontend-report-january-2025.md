@@ -1,10 +1,10 @@
 ---
 title: Frontend Report January 2025
-date: 2025-01-20
+short_title: January 2025
 description: "This January 2025 report explores key frontend advancements, including React 19's Actions, Next.js 15.1's Deno Deploy support, and innovative tools like Transformers.js for AI. Discover trending technologies, best practices, and expert commentary shaping the future of frontend development."
+date: 2025-01-20
 authors:
   - hthai2201
-short_title: January 2025
 tags:
   - frontend
   - market-report
@@ -110,3 +110,4 @@ Million is a lightweight tool designed to optimize React websites by identifying
 - [The open social web is the future of the internet. Here's why I'm excited](https://werd.io/2024/the-open-social-web-is-the-future-of-the-internet)
 - [Struggling with complex code? see how Types can simplify things!](https://mayhul.com/posts/type-driven-design)
 - [Thinking of switching to Vite? this team did it and here's what they learned!](https://neon.tech/blog/from-webpack-to-vite)
+

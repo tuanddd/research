@@ -1,7 +1,7 @@
 ---
 title: Infinite Image Gallery With R3f An Approach
-date: 2020-09-14
 description: Learn how to create an infinite image gallery with react-three-fiber featuring smooth mouse navigation and WebGL distortion effects for an endless 3D browsing experience.
+date: 2020-09-14
 tags:
   - tutorial
 ---
@@ -111,3 +111,4 @@ Shader is a complicated topic, so I’ll not be going into the detailed shader i
 Since I have mentioned that I’ll only be taking the core problems on a concept level, please forgive me if I have skipped too much on the technical aspect. All in all, it was a fun journey exploring how to build up a solution for an infinite gallery with r3f. The result came out better than I expected, though some performance issues are still around.
 
 If you are interested in the details of my implementation, please refer to my Github [repo](https://github.com/ngolapnguyen/infinite-image-gallery).
+

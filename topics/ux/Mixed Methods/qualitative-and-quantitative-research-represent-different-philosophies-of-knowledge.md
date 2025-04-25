@@ -1,8 +1,7 @@
 ---
-title: "Qualitative and quantitative research represent different philosophies of knowledge"
+title: Qualitative and quantitative research represent different philosophies of knowledge
+description: Learn the key differences between qualitative and quantitative research, including their goals, methods, and how mixed-methods combine objective data with human context and meaning.
 date: null
-description: "Learn the key differences between qualitative and quantitative research, including their goals, methods, and how mixed-methods combine objective data with human context and meaning."
-tags:
 ---
 
 The difference between qualitative and quantitative research is more than the kinds or amount of data they work with.
@@ -24,3 +23,4 @@ Mixed-methods research means combining philosophical points of view. Whereas qua
 #### Citations
 
 - [[≈ Mixed Methods]]
+

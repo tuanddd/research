@@ -1,7 +1,7 @@
 ---
 title: Labs Team
-date: 2023-11-30
 description: This is our Labs team homepage, where we list out the latest advances in our engineering team, our publications, events & workshops, as well as frequently asked questions on who and what team labs are.
+date: 2023-11-30
 authors:
   - monotykamary
 tags:
@@ -82,3 +82,4 @@ For Dwarves team members, engaging in future research projects is an excellent w
 ---
 
 ![](assets/_index__base-20231130183110925.webp)
+

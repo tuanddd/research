@@ -1,10 +1,8 @@
 ---
-title: "Domain model in domain driven design"
+title: Domain model in domain driven design
+description: Learn what a Domain Model is in Domain Driven Design, including key components like Domain Events, Commands, Aggregates, and Bounded Contexts to organize business knowledge effectively.
 date: 2022-07-02
-description: "Learn what a Domain Model is in Domain Driven Design, including key components like Domain Events, Commands, Aggregates, and Bounded Contexts to organize business knowledge effectively."
-authors:
 github_id: R-Jim
-tags:
 ---
 
 ## What is Domain Model
@@ -44,3 +42,4 @@ A high-level structure consists of categorizations of functionality, represents 
 - https://creately.com/blog/diagrams/event-storming/
 - https://www.jamesmichaelhickey.com/domain-driven-design-aggregates/
 - https://serialized.io/java/working-with-aggregates/
+

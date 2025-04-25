@@ -1,7 +1,7 @@
 ---
 title: Nix is Faster Than Docker Build
-date: 2024-08-01
 description: An exploration of how Nix outperforms Docker in building images, leveraging its deep understanding of package dependencies and content-addressable storage
+date: 2024-08-01
 authors:
   - baenv
 tags:
@@ -39,3 +39,4 @@ _Understanding the image layers_. (n.d.). Docker Docs. Retrieved August 2, 2024,
 _What is the difference between a symbolic link and a hard link?_ (2008, October 9). Stack Overflow. Retrieved August 2, 2024, from <https://stackoverflow.com/questions/185899/what-is-the-difference-between-a-symbolic-link-and-a-hard-link>
 
 Rugyt, A. (2024, March 15). _Nix is a better Docker image builder than Docker's image builder_. Xe Iaso. Retrieved August 2, 2024, from <https://xeiaso.net/talks/2024/nix-docker-build/>
+

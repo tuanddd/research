@@ -1,7 +1,7 @@
 ---
 title: Liquidity pool
-date: 2022-03-24
 description: A comprehensive guide to understanding liquidity pools in blockchain, covering their definition, functionality, the role of automated market makers (AMM), arbitrage, pool depth, slippage, how to provide liquidity, and the concept of impermanent loss. This article provides insights for both beginners and experienced users in decentralized finance (DeFi)
+date: 2022-03-24
 authors:
   - leduyhien152
 github_id: leduyhien152
@@ -136,3 +136,4 @@ That is what we call impermanent loss. It is impermanent because it only becomes
 
 - https://www.jumpstartmag.com/how-do-crypto-liquidity-pools-work/
 - https://www.theancientbabylonians.com/what-is-liquidity-pool-lp-in-defi/#:~:text=To%20sum%20up%20what%20liquidity,%3A%20x%20*%20y%20%3D%20k
+

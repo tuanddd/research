@@ -1,7 +1,7 @@
 ---
 title: "Nix Shell: Bulletproof Development Environments"
-date: 2024-08-01
 description: Discover how Nix Shell creates rock-solid dev environments that work everywhere, every time.
+date: 2024-08-01
 authors:
   - baenv
 tags:
@@ -59,3 +59,4 @@ Ready to give it a shot? Trust us, your dev life is about to get a whole lot smo
 - [Nix Shell Manual](https://nix.dev/manual/nix/2.22/command-ref/nix-shell)
 - [Why You Should Try Nix](https://nixos.org/guides/nix-pills/01-why-you-should-give-it-a-try)
 - [Nix Package Manager](https://nixos.org/)
+

@@ -1,8 +1,9 @@
 ---
 title: § Quality
-date: 2025-04-23
 description: Explore comprehensive guides on Quality Assurance (QA) including testing techniques, onboarding processes, and test case management to improve software quality and team efficiency.
-authors: zlatanpham
+date: 2025-04-23
+authors:
+  - zlatanpham
 tags:
   - qa
   - moc
@@ -19,3 +20,4 @@ tags:
 ### Test Case Management
 
 - [Test Cases Breakdown Structure](test-cases-breakdown-structure.md)
+

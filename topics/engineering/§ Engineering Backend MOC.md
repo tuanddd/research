@@ -1,7 +1,7 @@
 ---
-title: "§ engineering backend moc"
+title: § engineering backend moc
+description: Explore key backend engineering concepts including Golang atomic packages, database locking, GraphQL microservices, Redis tools, SQL optimization, concurrency patterns, and effective testing strategies.
 date: null
-description: "Explore key backend engineering concepts including Golang atomic packages, database locking, GraphQL microservices, Redis tools, SQL optimization, concurrency patterns, and effective testing strategies."
 recurringTemplate: true
 recurringTemplateName: engineering-backend-moc
 ---
@@ -29,3 +29,4 @@ This is a [[Map of Content]] related to the engineering concepts around backend.
 - [[pg in elixir|pg in elixir]]
 
 _This page was last modified at 2024-03-15T05:48:36.000Z_.
+

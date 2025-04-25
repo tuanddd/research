@@ -1,10 +1,10 @@
 ---
 title: "Go Commentary #19: Writing secure Go code"
-date: 2024-11-08
+short_title: "#19 Writing secure Go code"
 description: Pratices to write secure Go code
+date: 2024-11-08
 authors:
   - fuatto
-short_title: "#19 Writing secure Go code"
 tags:
   - golang
   - go-weekly
@@ -216,3 +216,4 @@ How do we test our Go code focusing on security and robustness?
 <https://en.wikipedia.org/wiki/Open-source_intelligence>
 
 <https://cwe.mitre.org/data/definitions/295.html>
+

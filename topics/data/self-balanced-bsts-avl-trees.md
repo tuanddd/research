@@ -1,11 +1,9 @@
 ---
-title: "Self balanced bsts avl trees"
+title: Self balanced bsts avl trees
+description: Learn how trees, especially binary search trees (BST) and AVL trees, organize hierarchical data for fast search, insertion, and deletion with guaranteed balanced height and efficient operations.
 date: 2023-02-13
-description: "Learn how trees, especially binary search trees (BST) and AVL trees, organize hierarchical data for fast search, insertion, and deletion with guaranteed balanced height and efficient operations."
-authors:
 github_id: mirageruler
 icy: 10
-tags:
 ---
 
 ## What are trees?
@@ -211,3 +209,4 @@ type compareFunc[T any] func(T, T) int
 - https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6
 - https://www.youtube.com/watch?v=r5pXu1PAUkI&list=PL-K_ib5mxHXnukhVpx_wMun21O2GQUEE0&index=5
 - https://www.youtube.com/watch?v=IWzYoXKaRIc&list=PL-K_ib5mxHXnukhVpx_wMun21O2GQUEE0&index=6
+

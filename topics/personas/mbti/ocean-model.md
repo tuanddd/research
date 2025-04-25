@@ -1,7 +1,7 @@
 ---
 title: OCEAN model
-date: null
 description: Discover how the Big Five personality traits (OCEAN) shape your behavior and personality, including openness, conscientiousness, extraversion, agreeableness, and neuroticism, with insights on change over time.
+date: null
 tags:
   - mbti
   - model
@@ -33,3 +33,4 @@ https://www.verywellmind.com/the-big-five-personality-dimensions-2795422#:~:text
 https://www.verywellmind.com/the-big-five-personality-dimensions-2795422#:~:text=The%20five%20broad%20personality%20traits,how%20many%20personality%20traits%20exist
 
 https://en.wikipedia.org/wiki/Big_Five_personality_traits
+

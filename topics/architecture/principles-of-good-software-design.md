@@ -1,7 +1,7 @@
 ---
-title: "Principles of good software design"
+title: Principles of good software design
+description: Learn how software design breaks complex systems into simple, manageable modules with deep interfaces, error prevention, and effective design reviews to create better APIs and reduce complexity.
 date: null
-description: "Learn how software design breaks complex systems into simple, manageable modules with deep interfaces, error prevention, and effective design reviews to create better APIs and reduce complexity."
 ---
 
 - Software design is a process of decomposition: breaking down large systems into manageable units for independent implementation.
@@ -15,3 +15,4 @@ description: "Learn how software design breaks complex systems into simple, mana
 - When designing interfaces: consider the caller's perspective
 - **Design reviews and discussions**: these are important to get more viewpoints and when evaluating design tradeoffs.
   - John mentions a specific whiteboarding technique for achieving consensus in discussions – consider trying it out!
+

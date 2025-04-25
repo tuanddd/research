@@ -1,10 +1,8 @@
 ---
-title: "Cap theorem"
+title: Cap theorem
+description: Learn about the CAP theorem, which explains how distributed databases balance consistency, availability, and partition tolerance, and how different database types prioritize these guarantees.
 date: 2022-04-18
-description: "Learn about the CAP theorem, which explains how distributed databases balance consistency, availability, and partition tolerance, and how different database types prioritize these guarantees."
-authors:
 github_id: monotykamary
-tags:
 ---
 
 ## What is CAP theorem
@@ -31,3 +29,4 @@ Eric Brewer makes it a point that you can only have 2 out of 3 guarantees in CAP
 
 - https://en.wikipedia.org/wiki/CAP_theorem
 - https://www.ibm.com/cloud/learn/cap-theorem
+

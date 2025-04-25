@@ -1,10 +1,8 @@
 ---
-title: "Mealy machine"
+title: Mealy machine
+description: Learn what a Mealy machine is, its mathematical model, and how it differs from Moore machines and finite-state transducers in this clear explanation of finite-state automata concepts.
 date: 2022-06-28
-description: "Learn what a Mealy machine is, its mathematical model, and how it differs from Moore machines and finite-state transducers in this clear explanation of finite-state automata concepts."
-authors:
 github_id: monotykamary
-tags:
 ---
 
 ## What is a Mealy machine?
@@ -92,3 +90,4 @@ oth Mealy and Moore machines are generator-type state machines and can be used t
 - https://en.wikipedia.org/wiki/Mealy_machine
 - https://www.cs.ucdavis.edu/~rogaway/classes/120/spring13/eric-transducers
 - https://unstop.com/blog/difference-between-mealy-and-moore-machine
+

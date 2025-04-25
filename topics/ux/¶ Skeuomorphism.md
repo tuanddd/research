@@ -1,8 +1,7 @@
 ---
-title: "¶ skeuomorphism"
+title: ¶ skeuomorphism
+description: Skeuomorphism is a design approach that mimics familiar objects to help users understand new technology, but it can also limit innovation by sticking to old models.
 date: null
-description: "Skeuomorphism is a design approach that mimics familiar objects to help users understand new technology, but it can also limit innovation by sticking to old models."
-tags:
 ---
 
 Skeuomorphism describes the creation of an object or design that contains elements that hearken back to attributes or structures of some other material or technique.
@@ -26,3 +25,4 @@ Skeuomorphism can help create affordances that help us learn about or understand
 #### Citations
 
 Norman, Donald. “Affordances and Design.” Jnd.Org (blog), November 17, 2008. [https://jnd.org/affordances_and_design/](https://jnd.org/affordances_and_design/).
+

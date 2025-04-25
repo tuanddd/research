@@ -1,7 +1,7 @@
 ---
 title: Introduction To Software Craftsmanship
-date: 2020-04-24
 description: Learn how software craftsmanship shapes quality coding, teamwork, and well-crafted software at Dwarf, emphasizing discipline, professionalism, and continuous improvement in agile environments.
+date: 2020-04-24
 tags:
   - engineering
 ---
@@ -106,3 +106,4 @@ This only to help summarize the key point of this talk, which can be listed as
 - Definition of Craftsmanship: an attitude and an approach of how we solve the problem
 - Core value: we strive to create the best product quality, that motto outweighs all others
 - The need of collaboration and interpersonal skills
+

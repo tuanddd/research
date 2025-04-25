@@ -1,8 +1,7 @@
 ---
-title: "Elizabeth George s character prompt sheet"
+title: Elizabeth George s character prompt sheet
+description: Discover Elizabeth George’s character development prompt sheet from *Mastering the Process* to create rich, believable characters using simple, freewriting prompts that inspire story depth and detail.
 date: null
-description: "Discover Elizabeth George’s character development prompt sheet from *Mastering the Process* to create rich, believable characters using simple, freewriting prompts that inspire story depth and detail."
-tags:
 ---
 
 In _Mastering the Process: From Idea to Novel_, Elizabeth George offers a prompt sheet that she uses to help her develop characters. The prompt sheet is a prompt, not a form; it should be used to prompt stream-of-consciousness freewriting about the character being considered. It's not intended as a rigid set of requirements.
@@ -47,3 +46,4 @@ In _Mastering the Process: From Idea to Novel_, Elizabeth George offers a prompt
 #### Related
 
 George, Elizabeth. _Mastering the Process: From Idea to Novel_. Viking, 2020.
+

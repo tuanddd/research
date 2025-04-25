@@ -1,8 +1,7 @@
 ---
-title: "Show don t tell"
+title: Show don t tell
+description: "Learn how \"show, don''t tell\" enhances writing and business communication by using vivid details and sharing information to engage audiences more effectively than simple statements."
 date: null
-description: 'Learn how "show, don''''t tell" enhances writing and business communication by using vivid details and sharing information to engage audiences more effectively than simple statements.'
-tags:
 ---
 
 "Show, don't tell" is common advice for writers. It means that you present your audience with information, rather than simply telling them what the information means. For instance, in fiction you might say that a character frowned and snarled, rather than stating that they were angry.
@@ -34,3 +33,4 @@ However, [providing perspective is still critical](https://publish.obsidian.md/m
 Flaherty, Francis. _The Elements of Story: Field Notes on Nonfiction Writing._ Reprint edition. Harper Perennial, 2010.
 
 Torres, Teresa. “The Art of Managing Stakeholders Through Product Discovery.” Product Talk (blog), June 6, 2018. https://www.producttalk.org/2018/06/managing-stakeholders/
+

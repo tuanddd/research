@@ -1,7 +1,7 @@
 ---
 title: Why We Chose Our Tech Stack Accelerating Development With A Robust Frontend Solution
-date: 2023-03-20
 description: "We pride ourselves on being a team of seasoned technology experts, passionate about crafting innovative solutions for our clients. With years of experience in the technology industry, we understand the importance of selecting the right tools and technologies to deliver exceptional results. In today's fast-paced world, staying ahead of the competition requires building and deploying features quickly without sacrificing quality or stability."
+date: 2023-03-20
 authors:
   - zlatanpham
 tags:
@@ -105,3 +105,4 @@ Our meticulously selected frontend tech stack enables Dwarves Foundation to keep
 Ultimately, our robust tech stack, architecture, and testing practices contribute to our ability to stay ahead of the competition and deliver exceptional user experiences that meet the dynamic and challenging demands of today's technology landscape.
 
 If you're seeking a technology partner with expertise in creating scalable, high-performance frontend solutions, we invite you to reach out to the Dwarves Foundation team for a consultation. We're eager to learn about your unique challenges and explore how we can help you succeed. To get in touch and learn more about our services, please visit our contact page at **[https://dwarves.foundation/contact/](https://dwarves.foundation/contact/)**. Let's work together to bring your vision to life!
+

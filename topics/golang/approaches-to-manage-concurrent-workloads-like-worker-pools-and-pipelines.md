@@ -1,7 +1,7 @@
 ---
 title: Approaches To Manage Concurrent Workloads Like Worker Pools And Pipelines
-date: 2023-05-22
 description: Explore efficient techniques for handling concurrent workloads in Go, including worker pools, fan-out/fan-in patterns, pipelines, and semaphores. This guide provides practical examples, code snippets, and insights into implementing these patterns, discussing their benefits and potential drawbacks. Learn how to improve performance, scalability, and resource management in Go applications while avoiding common pitfalls like deadlocks and excessive resource consumption.
+date: 2023-05-22
 authors:
   - tieubao
 tags:
@@ -441,3 +441,4 @@ It's important to note that increasing the file descriptor limit can have perfor
 - Use channels for communication: Goroutines communicate with each other using channels. Using channels instead of shared memory avoids race conditions and makes it easier to reason about your code.
 - Be mindful of blocking operations: If a goroutine blocks on an I/O operation, it will be paused and another goroutine will be scheduled to run. This can lead to inefficient use of resources if there are many goroutines waiting on I/O. Consider using non-blocking I/O or asynchronous I/O to avoid this issue.
 - Keep critical sections short: When multiple goroutines access shared data, it's important to keep critical sections short to minimize the risk of race conditions. Consider using locks or other synchronization primitives to protect shared data.
+

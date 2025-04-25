@@ -1,7 +1,7 @@
 ---
 title: Architecture Decision Record
-date: 2020-03-27
 description: Learn how Architecture Decision Records (ADR) help teams document software choices, improve project clarity, and guide newcomers with clear context, solutions, and consequences for better long-term development.
+date: 2020-03-27
 tags:
   - engineering
   - architecture
@@ -84,3 +84,4 @@ The right approach explains the result from making that decision and how it adju
 [https://github.com/npryce/adr-tools/](https://github.com/npryce/adr-tools/)
 
 We also had some discussion afterward, demos, and Q&A sessions. But that was a brief intro of how an ADR practice should be adopted.
+

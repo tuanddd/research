@@ -1,8 +1,7 @@
 ---
-title: "Jtbd job interview structure"
+title: Jtbd job interview structure
+description: Discover a step-by-step interview guide to uncover customer jobs-to-be-done, including how to explore tasks, needs, feelings, and circumstances for better product and service insights.
 date: null
-description: "Discover a step-by-step interview guide to uncover customer jobs-to-be-done, including how to explore tasks, needs, feelings, and circumstances for better product and service insights."
-tags:
 ---
 
 This interview structure can be used to uncover customer jobs-to-be-done.
@@ -47,3 +46,4 @@ This interview structure can be used to uncover customer jobs-to-be-done.
 #### Citations
 
 Kalbach, Jim, and Michael Schrage. _The Jobs To Be Done Playbook: Align Your Markets, Organization, and Strategy Around Customer Needs_. New York: Two Waves Books, 2020.
+

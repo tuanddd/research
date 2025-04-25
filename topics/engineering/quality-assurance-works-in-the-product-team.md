@@ -1,11 +1,9 @@
 ---
-title: "Quality assurance works in the product team"
+title: Quality assurance works in the product team
+description: Learn how to improve QA testing records with clear documentation formats for Mobile, BackEnd, and FrontEnd teams to track test status, scenarios, and related tickets effectively.
 date: 2022-11-08
-description: "Learn how to improve QA testing records with clear documentation formats for Mobile, BackEnd, and FrontEnd teams to track test status, scenarios, and related tickets effectively."
-authors:
 github_id: nhuthm
 icy: 10
-tags:
 ---
 
 _The following entry is from the thoughts, compositions, and conclusions from field work by one of our leads._
@@ -43,3 +41,4 @@ Usually, when a developer finish their ticket for the feature enhancement from D
 ![](assets/quality-assurance-works-in-the-product-team_be_fe_testing_doc_format.webp)
 
 ![](assets/quality-assurance-works-in-the-product-team_be_fe_testing_doc_sample.webp)
+

@@ -1,7 +1,7 @@
 ---
 title: Conduct a 1-on-1 session
-date: 2021-08-09
 description: null
+date: 2021-08-09
 authors:
   - zlatanpham
 tags:
@@ -40,3 +40,4 @@ In the first get-to-know, we do have a list of questions to learn about the Ment
 In the following session, we mainly talk about technical development, communication skills and share the actual experience. In a nutshell, we hold this more like a discussion. The Mentor just leaves the Mentee the fishing rob. They have to solve problems by themselves.
 
 We also wish to receive feedback from team members as we would like to run a 2-way sharing. The best formula is 70-30 (70% from team members and 30% from the leader).
+

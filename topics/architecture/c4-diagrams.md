@@ -1,10 +1,8 @@
 ---
-title: "C4 diagrams"
+title: C4 diagrams
+description: C4 diagrams use a four-level model to clearly visualize software system architecture, helping teams understand system context, containers, components, and code implementation.
 date: 2022-04-17
-description: "C4 diagrams use a four-level model to clearly visualize software system architecture, helping teams understand system context, containers, components, and code implementation."
-authors:
 github_id: monotykamary
-tags:
 ---
 
 ## What are C4 diagrams?
@@ -28,3 +26,4 @@ The C4 model was created by Simon Brown, designed with the goal for it to be a d
 
 - <https://c4model.com/>
 - <https://en.wikipedia.org/wiki/C4_model>
+

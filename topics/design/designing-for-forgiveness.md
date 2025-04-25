@@ -1,7 +1,7 @@
 ---
 title: "Designing for Forgiveness: Creating Error-Tolerant Interfaces"
-date: 2024-08-23
 description: In this article, we will look at some simple principles for designing error-tolerant interfaces and how to apply them to improve user experience.
+date: 2024-08-23
 authors:
   - Maniub102
 tags:
@@ -100,3 +100,4 @@ To help users avoid mistakes, it’s important to provide clear guidance through
 Designing error-tolerant interfaces is not just about preventing mistakes, but also about helping users recover when they do make mistakes. By applying principles like giving early warnings, clarifying choices, ensuring a consistent design, offering recovery tools, providing real-time feedback, and guiding users, we can create interfaces that make users feel confident and satisfied with the product.
 
 Incorporating these principles into your design process will lead to more user-friendly products that help users achieve their goals with fewer obstacles and greater satisfaction.
+

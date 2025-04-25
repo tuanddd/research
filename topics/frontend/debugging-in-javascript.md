@@ -1,10 +1,8 @@
 ---
-title: "Debugging in javascript"
+title: Debugging in javascript
+description: Learn how to use JavaScript console methods like console.log, console.assert, console.dir, console.time, and the debugger statement to effectively debug code in Chrome DevTools.
 date: 2022-10-16
-description: "Learn how to use JavaScript console methods like console.log, console.assert, console.dir, console.time, and the debugger statement to effectively debug code in Chrome DevTools."
-authors:
 github_id: namtrhg
-tags:
 ---
 
 _This note focus on utilizing some of the **` console`** object methods and the **` debugger`** statement to better debug JavaScript application in the [Chrome DevTools](https://developer.chrome.com/docs/devtools/)._
@@ -155,3 +153,4 @@ When the `debugger` is invoked, execution is paused at the `debugger` statement 
 - [What is assert in JavaScript? - StackOverflow](https://stackoverflow.com/questions/15313418/what-is-assert-in-javascript)
 - [What is the difference between console.dir() and console.log()? - StackOverflow](https://stackoverflow.com/questions/11954152/whats-the-difference-between-console-dir-and-console-log)
 - [Tips and Tricks for Debugging JavaScript - James Q Quick](https://www.youtube.com/watch?v=_QtUGdaCb1c&t=701s)
+

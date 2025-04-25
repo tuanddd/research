@@ -1,7 +1,7 @@
 ---
 title: Six Things I Extracted From Design Thinking
-date: 2021-04-14
 description: Discover how applying Design Thinking in everyday life enhances problem solving, decision making, and adaptability with practical tips on gathering information, organizing data, and embracing change.
+date: 2021-04-14
 tags:
   - design-thinking
 ---
@@ -104,3 +104,4 @@ How is your experience with Design Thinking? Join our [Discord](https://discord.
 If there are any topics you would like us to cover next, send us a message at [minhtk@d.foundation](mailto:minhtk@d.foundation)
 
 Thank you for taking the time.
+

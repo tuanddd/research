@@ -1,7 +1,7 @@
 ---
 title: Automata
-date: 2024-10-22
 description: Things about automata that devs should know
+date: 2024-10-22
 authors:
   - tieubao
 tags:
@@ -114,3 +114,4 @@ Some authors write `δ ⊆ Q×Σ → Q` in formal DFA definition that means `δ`
 
 - **DFA**: One option at a time, very efficient but can be strict.
 - **NFA**: Many options at once, more flexible but can take more time to figure things out.
+

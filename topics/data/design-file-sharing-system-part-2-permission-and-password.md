@@ -1,7 +1,7 @@
 ---
 title: "Design file-sharing system - Part 2: Permission & Password"
-date: 2024-08-21
 description: "In this part, I will discuss how I handle the logic and design the data model for the following features: setting permissions, sharing files for public access, and setting a password for a file."
+date: 2024-08-21
 authors:
   - datphamcode295
 tags:
@@ -120,3 +120,4 @@ The idea is that the user will get an `asset-file-token` by using `GET /assets/:
 In conclusion, this system implements a robust and flexible permissions model for file management. It covers essential features such as upload, manage, setting permissions, public file sharing, and password protection. The design allows for granular control over access levels, inheritance of permissions, and secure sharing options. This comprehensive approach ensures that users can effectively manage their files while maintaining appropriate levels of security and collaboration within the workspace.
 
 [Back to Part 1: Directory Structure](https://memo.d.foundation/playground/01_literature/design-file-sharing-system-part-1-directory-structure/)
+

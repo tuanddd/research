@@ -1,9 +1,11 @@
 ---
-discord_id: null
-discord_channel: null
+title: null
+description: null
 date: 2024-06-10
-tags: null
+discord_channel: null
+discord_id: null
 icy: null
 ---
 
 null
+

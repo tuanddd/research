@@ -1,7 +1,7 @@
 ---
 title: Radio Talk 61 Monorepo
-date: 2023-03-27
 description: Learn how adopting monorepos and tools like Turborepo and Nx can simplify code management, reduce duplication, and boost developer productivity for faster, cost-effective software development.
+date: 2023-03-27
 tags:
   - engineering
   - web
@@ -52,3 +52,4 @@ Modern tools like [Turborepo](https://radar.d.foundation/Turborepo-0dd18b38468c4
 ## Conclusion
 
 Addopting a monorepo strategy and leveraging modern tools can lead to improved code management, reduced duplication, and streamlined development processes. In turn, this can result in better business outcomes, such as faster time-to-market, reduced costs, and increased developer productivity.
+

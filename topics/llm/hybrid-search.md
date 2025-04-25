@@ -1,7 +1,7 @@
 ---
 title: Evaluating search engine in RAG systems
-date: 2024-08-08
 description: "Hybrid search comes to solving problems in vector search and full-text search. Let's see how it works. In this article, we will know how hybrid search approach and how to evaluate each search method through metrics in information retrieval."
+date: 2024-08-08
 authors:
   - datnguyennnx
 tags:
@@ -239,3 +239,4 @@ To summarize, we will choose a hybrid search in cases where we need to combine m
 - https://deepchecks.com/glossary/normalized-discounted-cumulative-gain
 - https://superlinked.com/vectorhub/articles/optimizing-rag-with-hybrid-search-reranking
 - https://www.assembled.com/blog/better-rag-results-with-reciprocal-rank-fusion-and-hybrid-search
+

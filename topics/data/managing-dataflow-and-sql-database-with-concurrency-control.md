@@ -1,7 +1,7 @@
 ---
 title: Managing Dataflow And Sql Database With Concurrency Control
-date: 2023-05-04
 description: Learn how explicit locking in PostgreSQL helps manage concurrency control in high-workload databases by preventing data conflicts with table-level, row-level, and advisory locks.
+date: 2023-05-04
 tags:
   - rd
   - data
@@ -222,3 +222,4 @@ Explicit locking is the most accessible way to resolve concurrency control in hi
 [[4](https://publish.obsidian.md/#)]“Richard Clayton - Distributed Locking with Postgres Advisory Locks.” Richard Clayton, 16 February 2020, [https://rclayton.silvrback.com/distributed-locking-with-postgres-advisory-locks](https://rclayton.silvrback.com/distributed-locking-with-postgres-advisory-locks). Accessed 23 April 2023.
 
 [[5](https://publish.obsidian.md/#)]“Locking in Databases and Isolation Mechanisms | by Denny Sam | inspiringbrilliance.” Medium, [https://medium.com/inspiredbrilliance/what-are-database-locks-1aff9117c290](https://medium.com/inspiredbrilliance/what-are-database-locks-1aff9117c290). Accessed 23 April 2023.
+

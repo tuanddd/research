@@ -71,3 +71,4 @@ If employees realize they are taking more risk than the founders, maybe they'll 
 ---
 
 <https://www.stefantheard.com/silicon-valleys-best-kept-secret-founder-liquidity>
+

@@ -1,10 +1,8 @@
 ---
-title: "Overview of domain driven design"
+title: Overview of domain driven design
+description: Domain Driven Design (DDD) improves software by creating clear domain models and shared language between developers and business experts, helping solve complex business problems effectively.
 date: 2022-06-21
-description: "Domain Driven Design (DDD) improves software by creating clear domain models and shared language between developers and business experts, helping solve complex business problems effectively."
-authors:
 github_id: R-Jim
-tags:
 ---
 
 ### What is Domain Driven Design?
@@ -46,3 +44,4 @@ Here are some example domains that used DDD:
 
 - https://herbertograca.com/category/development/book-notes/domain-driven-design-by-eric-evans/
 - Domain-driven design by Eric Evans
+

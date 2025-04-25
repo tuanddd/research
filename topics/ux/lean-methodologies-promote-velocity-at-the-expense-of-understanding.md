@@ -1,7 +1,7 @@
 ---
-title: "Lean methodologies promote velocity at the expense of understanding"
+title: Lean methodologies promote velocity at the expense of understanding
+description: Lean design focuses on fast delivery and efficiency but can overlook ethical impacts and long-term value, urging designers to consider user and societal well-being beyond quick market feedback.
 date: null
-description: "Lean design focuses on fast delivery and efficiency but can overlook ethical impacts and long-term value, urging designers to consider user and societal well-being beyond quick market feedback."
 ---
 
 Design and product development methodologies like Lean are biased toward delivery. They're intended to limit waste and drive efficiency through "just in time" delivery of minimum viable solutions. This approach is intended to rapidly gather feedback from the market in order to drive continuous iteration on the product.
@@ -24,3 +24,4 @@ Making good decision decisions, Hall says, means assessing the impact of design 
 #### Citations
 
 Hall, Erika. “Thinking in Triplicate.” Medium, April 30, 2020. [https://medium.com/mule-design/a-three-part-plan-to-save-the-world-98653a20a12f](https://medium.com/mule-design/a-three-part-plan-to-save-the-world-98653a20a12f).
+

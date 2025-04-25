@@ -1,8 +1,7 @@
 ---
-title: "Qualitative research creates mental models about the problem space"
+title: Qualitative research creates mental models about the problem space
+description: Qualitative research builds deep understanding of people’s motivations and contexts, helping create better products by revealing what truly matters through open-ended, narrative-driven insights.
 date: null
-description: "Qualitative research builds deep understanding of people’s motivations and contexts, helping create better products by revealing what truly matters through open-ended, narrative-driven insights."
-tags:
 ---
 
 Qualitative research helps us build mental models about the contexts, problems, and motivations our products and designs must account for. It helps us understand what is important at a high level—what matters to people and how they understand their relationship to the world.
@@ -28,3 +27,4 @@ Levin, Alec. “StAtIsTiCaL SIgNiFiCaNcE.” Known Unknowns (blog). Accessed Oct
 Madsbjerg, Christian. _Sensemaking: The Power of the Humanities in the Age of the Algorithm_. Hachette Books, 2017.
 
 Schuler, Greg. “Getting Big Ideas Out of Small Numbers.” _Cooper_ (blog), April 8, 2020. [Link](https://www.cooper.com/journal/2013/05/getting-big-ideas-out-of-small-research/).
+

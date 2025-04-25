@@ -1,10 +1,10 @@
 ---
 title: Testing strategies in React
-date: 2024-10-29
+short_title: Testing strategies
 description: React testing with unit, integration, and end-to-end approaches
+date: 2024-10-29
 authors:
   - zlatanpham
-short_title: Testing strategies
 tags:
   - react
   - testing
@@ -248,3 +248,4 @@ Incorporating a comprehensive testing strategy helps ensure code quality, user e
 - **End-to-end testing**: Use Cypress to cover full workflows and user journeys, verifying app behavior across pages.
 - **Snapshot testing**: Capture and compare UI structures, helpful for components with complex, static layouts.
 - **Best practices**: Adopt the testing pyramid, test from the user's perspective, mock dependencies, and automate tests in CI/CD
+

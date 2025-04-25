@@ -1,3 +1,9 @@
+---
+title: null
+description: null
+date: null
+---
+
 <%\*
 const recursiveJoin = (item) => {
 if (Array.isArray(item)) {
@@ -30,3 +36,4 @@ link.setAttribute("download", `${field}.csv`);
 document.body.appendChild(link);
 link.click();
 %>
+

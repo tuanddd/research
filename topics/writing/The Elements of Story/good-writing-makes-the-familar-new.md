@@ -1,8 +1,7 @@
 ---
-title: "Good writing makes the familar new"
+title: Good writing makes the familar new
+description: Discover how good writing transforms the familiar into something fresh by creating new perspectives and focusing on themes without distracting the reader.
 date: null
-description: "Discover how good writing transforms the familiar into something fresh by creating new perspectives and focusing on themes without distracting the reader."
-tags:
 ---
 
 Good writing makes something familiar seem new again, and the mundane fantastic. It sheds new light and creates new perspective on things we thought we knew and understood. It directs focus in ways that illuminates the theme of the writing, not distracting from it.
@@ -17,3 +16,4 @@ Good writing makes something familiar seem new again, and the mundane fantastic.
 #### Citations
 
 Flaherty, Francis. _The Elements of Story: Field Notes on Nonfiction Writing._ Reprint edition. Harper Perennial, 2010.
+

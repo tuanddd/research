@@ -1,7 +1,7 @@
 ---
 title: About Devops
-date: 2018-07-23
 description: Learn how DevOps improves software delivery with continuous integration, automation, testing, and collaboration between development and operations for faster, reliable releases.
+date: 2018-07-23
 tags:
   - devops
 ---
@@ -153,3 +153,4 @@ Reference tools:
 ## Roadmap 2018
 
 ![](assets/about-devops_3ff5afb2faea481c0d85fe0d0f4591b5_md5.webp)
+

@@ -1,7 +1,7 @@
 ---
 title: "Devbox Services: Tame Your Daemons with process-compose"
-date: 2024-08-01
 description: Discover how Devbox Services uses process-compose to wrangle your daemon applications without the container overhead
+date: 2024-08-01
 authors:
   - baenv
 tags:
@@ -144,3 +144,4 @@ Devbox Services with process-compose gives you the power of containerized workfl
 - [Devbox Services Guide](https://www.jetify.com/devbox/docs/guides/services)
 - [PostgreSQL Documentation](https://www.postgresql.org/docs/)
 - [TimescaleDB Documentation](https://docs.timescale.com/)
+

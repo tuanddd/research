@@ -1,7 +1,7 @@
 ---
 title: Grid And Layout
-date: 2020-08-17
 description: Learn how to create strong digital design layouts using grids, columns, gutters, and responsive techniques to make your graphic and web designs look clean and professional.
+date: 2020-08-17
 tags:
   - design
   - technique
@@ -122,3 +122,4 @@ If your developer codes a fixed grid when you shrink from desktop to tablet, you
 Now comes the beauty of fluid grids! As you shrink the window, things will change dynamically, your text is wrapping, and elements are getting narrower. However, these elements of yours still won’t change layout until you hit the next breakpoint that you designed.
 
 And that’s it. I hope after reading this, you will have some sense to make your design look great started with good layout and grid
+

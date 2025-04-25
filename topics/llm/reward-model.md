@@ -1,7 +1,7 @@
 ---
 title: Reward Model
-date: 2023-06-23
 description: A Reward Model is a critical component in Reinforcement Learning for Large Language Models (LLMs), designed to evaluate and score the quality of generated responses. It plays a key role in aligning LLMs with human values and improving their output through iterative refinement.
+date: 2023-06-23
 authors:
   - thanhpn
 github_id: thanhpn
@@ -83,3 +83,4 @@ However, determining a suitable reward model is not always easy. Sometimes, defi
 - <https://explodinggradients.com/reward-modeling-for-large-language-models-with-code>
 - <https://huggingface.co/docs/trl/main/en/detoxifying_a_lm>
 - <https://openai.com/blog/chatgpt>
+

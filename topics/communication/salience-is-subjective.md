@@ -1,7 +1,7 @@
 ---
-title: "Salience is subjective"
+title: Salience is subjective
+description: Learn how Roger Martin explains problem solving by focusing on the most important information shaped by our stance, tools, and experience to improve decision-making and perspective.
 date: null
-description: "Learn how Roger Martin explains problem solving by focusing on the most important information shaped by our stance, tools, and experience to improve decision-making and perspective."
 ---
 
 Problem solving, Roger Martin writes, involves first identifying the features of a problem that are most important. We can't possibly consider every facet of the challenge ahead, so we must pick and choose what we will care about. We therefore have to assess the salience of available information to the problem at hand.
@@ -20,3 +20,4 @@ This sense of salience can vary dramatically between different people: it is inf
 #### Citations
 
 Martin, Roger L. The Opposable Mind: How Successful Leaders Win Through Integrative Thinking. 1st edition. Boston, Mass: Harvard Business Review Press, 2007.
+

@@ -1,7 +1,7 @@
 ---
 title: Istio
-date: 2019-06-09
 description: Learn how Istio service mesh improves microservices networking with features like traffic management, security, and monitoring, and why it complements API gateways for scalable applications.
+date: 2019-06-09
 tags:
   - tool
 ---
@@ -135,3 +135,4 @@ Galley is Istio’s configuration validation, ingestion, processing and distribu
 - Book: Istio In Action - Christian Posta
 - Istio docs: [https://istio.io/docs/concepts/what-is-istio/](https://istio.io/docs/concepts/what-is-istio/)
 - [https://medium.com/microservices-in-practice/service-mesh-vs-api-gateway-a6d814b9bf56](https://medium.com/microservices-in-practice/service-mesh-vs-api-gateway-a6d814b9bf56)
+

@@ -1,7 +1,7 @@
 ---
 title: Shadow DOM
-date: 2023-05-16
 description: Shadow DOM is a web standard that allows encapsulation of HTML, CSS, and JavaScript within a specific context.
+date: 2023-05-16
 authors:
   - trankhacvy
 github_id: trankhacvy
@@ -48,3 +48,4 @@ Shadow DOM provides a powerful tool for developers creating website extensions, 
 ## References
 
 - https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM
+

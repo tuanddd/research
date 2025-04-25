@@ -1,7 +1,7 @@
 ---
 title: Different Ways To Test React Application
-date: 2019-06-06
 description: Learn effective React testing methods including unit tests with react-testing-library, hook testing with react-hooks-testing-library, and end-to-end tests with Cypress for reliable carousel component validation.
+date: 2019-06-06
 tags:
   - reactjs
 ---
@@ -366,3 +366,4 @@ Reference links:
 - [https://github.com/testing-library/react-testing-library](https://github.com/testing-library/react-testing-library)
 - [https://www.cypress.io/](https://www.cypress.io/)
 - [https://www.cypress.io/](https://www.cypress.io/)[https://jestjs.io/docs/en/expect.html](https://jestjs.io/docs/en/expect.html)
+

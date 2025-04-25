@@ -1,7 +1,7 @@
 ---
 title: Pinning nixpkgs in Nix
-date: 2024-08-01
 description: An explanation of pinning nixpkgs in Nix and its importance for reproducible builds
+date: 2024-08-01
 authors:
   - baenv
 tags:
@@ -29,3 +29,4 @@ What happens once you do not specify the pinning version of nixpkgs? In this cas
 #### References
 
 _FAQ/Pinning Nixpkgs_. (n.d.). NixOS Wiki. Retrieved August 2, 2024, from https://nixos.wiki/wiki/FAQ/Pinning_Nixpkgs
+

@@ -1,11 +1,11 @@
 ---
 title: The Best of CSS TLDR
-date: 2022-10-16
 description: "Tailwind is not another Bootstrap, a `justify-center` class maps exactly to 1 line of css code, you have total control over what is being shipped to the user, whereas a `.btn` class in Bootstrap expands to +50 line of css styles and custom variables, you can customize it but it will not be a joyful experience."
+date: 2022-10-16
 authors:
   - tuanddd
-discord_id: "hollow#3333"
 discord_channel: engineering
+discord_id: "hollow#3333"
 tags:
   - ui
 ---
@@ -31,3 +31,4 @@ TL;DR when in doubt use tailwind, if you're new to css it'll help you learn css 
 ![](assets/202210162154---the-best-of-css-tldr_pasted-image-20221016215600.webp)
 ![](assets/202210162154---the-best-of-css-tldr_pasted-image-20221016215643.webp)
 ![](assets/202210162154---the-best-of-css-tldr_pasted-image-20221016215646.webp)
+

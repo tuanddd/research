@@ -1,7 +1,7 @@
 ---
 title: Set up recording workflow for OGIF
-date: 2024-06-15
 description: This memo is essentially a playbook and recipe on how to record the Discord events.
+date: 2024-06-15
 authors:
   - minhcloud
 tags:
@@ -46,3 +46,4 @@ Craig Bot is used to record audio in the background and split segments by user f
 
 - After the Ogif ends, we stop the recording and save the audio file.
 - Then, we use ChatGPT-4 to transcribe the recording and split it into parts, similar to the video segments.
+

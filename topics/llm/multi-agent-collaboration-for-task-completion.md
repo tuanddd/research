@@ -1,7 +1,7 @@
 ---
 title: Multi-agent collaboration for task completion
-date: 2024-09-06
 description: In AI integrated systems, instead of put all workload on a single agent, we can apply divide and conquer strategy to distribute workload to multiple agents. This approach can enhance task completion by leveraging the unique skills and capabilities of each agent.This approach allows for more complex and nuanced problem-solving, as well as increased efficiency and scalability. By coordinating and communicating effectively, agents can work together to achieve common goals, divide labor, and overcome challenges that a single agent might face alone
+date: 2024-09-06
 authors:
   - nnhuyhoang
 sync: hashnode
@@ -83,3 +83,4 @@ Multi-agent AI system is a powerful tool that can be used to solve complex tasks
 
 - https://arxiv.org/abs/2308.08155
 - https://github.com/langchain-ai/langgraphjs/blob/main/examples/multi_agent/agent_supervisor.ipynb
+

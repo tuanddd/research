@@ -1,7 +1,7 @@
 ---
 title: Dynamic Liquidity Market Maker - a new form of concentrated liquidity AMM on Solana
-date: 2024-06-21
 description: a new form of concentrated liquidity AMM on solana
+date: 2024-06-21
 authors:
   - quanghuynguyen1902
 tags:
@@ -82,3 +82,4 @@ In addition, users can create a new pool or add liquidity to the existing DLMM p
 ## References
 
 https://docs.meteora.ag
+

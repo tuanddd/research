@@ -1,7 +1,7 @@
 ---
 title: Mixpanel
-date: 2023-02-13
 description: Mixpanel is a powerful analytics platform that assists companies in monitoring and analyzing user behavior on their websites and mobile applications.
+date: 2023-02-13
 authors:
   - namtrhg
 github_id: namtrhg
@@ -80,3 +80,4 @@ You can observe all the events created by the users. ![](assets/mixpanel_user_ac
 
 - <https://developer.mixpanel.com/docs>
 - <https://www.npmjs.com/package/mixpanel-browser>
+

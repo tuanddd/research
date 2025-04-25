@@ -1,9 +1,9 @@
 ---
 title: Introverted Intuition (Ni)
-date: null
 description: Discover the power of Introverted Intuition (Ni), the rare cognitive function known for deep insight, pattern recognition, and theoretical genius found in INTJs and INFJs.
-tag: MBTI, function
+date: null
 URL: "https://drive.google.com/file/d/1n8ID_iXqzs6cMZlRS0Su7lQUhrfd7khh/view?usp=sharing"
+tag: MBTI, function
 ---
 
 Book: My True Type, page 58 - 69
@@ -16,3 +16,4 @@ Book: My True Type, page 58 - 69
 > Ni là function hiếm nhất trong 8 loại functions, đc xem như là có "tín hiệu của vũ trụ". They are skilled at seeing the “dark skies before the storm.”
 
 > Ni thích tìm hiểu "tảng băng chìm" của vấn đề
+

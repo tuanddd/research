@@ -1,7 +1,7 @@
 ---
-title: "Assert require revert"
+title: Assert require revert
+description: Learn how to enforce smart contract invariants in Solidity using assert(), require(), and revert() to ensure error checking and secure contract behavior.
 date: null
-description: "Learn how to enforce smart contract invariants in Solidity using assert(), require(), and revert() to ensure error checking and secure contract behavior."
 ---
 
 #### Enforce invariants with `assert()`
@@ -61,3 +61,4 @@ contract Sharer {
 ```
 
 See [SWC-110](https://swcregistry.io/docs/SWC-110) & [SWC-123](https://swcregistry.io/docs/SWC-123)
+

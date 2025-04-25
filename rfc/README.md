@@ -1,7 +1,7 @@
 ---
 title: RFCs
-date: 2025-04-03
 description: A collaborative workspace for organizing and reviewing team proposals, ideas, and significant changes through structured RFC documents
+date: 2025-04-03
 authors:
   - tieubao
 tags:
@@ -92,3 +92,4 @@ List any unresolved questions that need team input.
 - Update the RFC as discussions progress
 
 The goal is thoughtful collaboration, not perfect documents. Share your ideas early and iterate based on feedback!
+

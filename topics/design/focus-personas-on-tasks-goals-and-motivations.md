@@ -1,8 +1,7 @@
 ---
-title: "Focus personas on tasks goals and motivations"
+title: Focus personas on tasks goals and motivations
+description: Discover how effective user personas emerge from qualitative research and sensemaking to capture real user experiences, guiding product design with authentic insights rather than assumptions.
 date: null
-description: "Discover how effective user personas emerge from qualitative research and sensemaking to capture real user experiences, guiding product design with authentic insights rather than assumptions."
-tags:
 ---
 
 Personas shouldn't be created so much as discovered. First and foremost, personas document research. Personas articulate patterns of thought and feeling. These are attributes that can't easily be quantified. Effective user personas should be an outcome of qualitative research. Personas should be the result of [[≈ Sensemaking | sensemaking]], not measurement.
@@ -28,3 +27,4 @@ Personas should be living, breathing documents. As knowledge about the user or c
 Cooper, Alan. _The Inmates Are Running the Asylum_. Sams Publishing, 2004.
 
 Spool, Jared M. _“Customers Request Solutions. We Need to Understand Their Problems.”_ Medium (blog), August 16, 2019. [Link](https://medium.com/@jmspool/customers-request-solutions-we-need-to-understand-their-problems-41db3b5c6d4d).
+

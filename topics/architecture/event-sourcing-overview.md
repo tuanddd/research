@@ -1,11 +1,9 @@
 ---
-title: "Event sourcing overview"
+title: Event sourcing overview
+description: Event sourcing records all changes as events, allowing e-commerce platforms to track detailed order history and generate flexible analytics for better business insights and future-proof data management.
 date: 2022-12-05
-description: "Event sourcing records all changes as events, allowing e-commerce platforms to track detailed order history and generate flexible analytics for better business insights and future-proof data management."
-authors:
 github_id: R-Jim
 icy: 10
-tags:
 ---
 
 ## What is Event sourcing
@@ -128,3 +126,4 @@ To reduce composing time when number of events start to grow. Snapshot is a Stat
 - [Keynote: Event sourcing - Greg Young - DPC2016](https://www.youtube.com/watch?v=I3uH3iiiDqY)
 - [Learning-topics: Event sourcing](https://discord.com/channels/462663954813157376/1009812700022456400)
 - [Diagram about the thought process from normal CRUD operation into event sourcing](https://miro.com/app/board/uXjVPZswY00=/?share_link_id=338629629501)
+

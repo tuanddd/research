@@ -1,7 +1,7 @@
 ---
 title: Design Better Mobile Application
-date: 2020-05-01
 description: Explore key differences between iOS and Android operating systems for UX/UI designers, including performance, development, privacy, and app platforms to create better mobile applications.
+date: 2020-05-01
 tags:
   - design
 ---
@@ -117,3 +117,4 @@ Still, there are some researches claim that Hybrid App and Cross Platform are th
 - Action Menus
 - Date Picker
 - Tabs
+

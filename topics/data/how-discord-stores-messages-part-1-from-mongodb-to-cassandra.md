@@ -1,11 +1,9 @@
 ---
-title: "How discord stores messages part 1 from mongodb to cassandra"
+title: How discord stores messages part 1 from mongodb to cassandra
+description: Learn how Discord migrated from MongoDB to Cassandra for scalable, low-maintenance data storage, handling billions of messages with predictable performance and eventual consistency.
 date: 2023-06-02
-description: "Learn how Discord migrated from MongoDB to Cassandra for scalable, low-maintenance data storage, handling billions of messages with predictable performance and eventual consistency."
-authors:
 github_id: fuatto
 icy: 10
-tags:
 ---
 
 ## Introduction
@@ -136,3 +134,4 @@ At the time, Discord were running 12-node cluster with a replica factor of 3. Co
 - https://datacadamia.com/cassandra/cassandra#kkv_store
 - https://en.wikipedia.org/wiki/CAP_theorem
 - https://discord.com/blog/how-discord-stores-billions-of-messages
+

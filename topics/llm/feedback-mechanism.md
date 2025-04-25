@@ -1,7 +1,7 @@
 ---
 title: Design feedback mechanism for LLM applications
-date: 2024-07-08
 description: Improving AI models requires collecting accurate user feedback,which can be difficult. The article explores more into the importance of collecting human feedback and discusses the need for creating an organized database to effectively store and use this valuable input. We hope to continuously improve our large language models, ensuring they deliver greater performance and match user expectations more effectively.
+date: 2024-07-08
 authors:
   - datnguyennnx
 tags:
@@ -97,3 +97,4 @@ By tracking interactions and analyzing feedback, we can keep improving the outpu
 - [Human in the Loop feedback (orq.ai)](https://docs.orq.ai/docs/human-in-the-loop-feedback)
 - [Human in the Loop - Machine Learning - Definition & Examples | Encord](<https://encord.com/blog/human-in-the-loop-ai/#:~:text=What%20is%20HITL%3F-,Human%2Din%2Dthe%2Dloop%20(HITL)%20is%20an,%2C%20accuracy%2C%20and%20training%20outcomes.>)
 - [How to test LLMs in production? (leewayhertz.com)](https://www.leewayhertz.com/how-to-test-llms-in-production/#A/B-testing)
+

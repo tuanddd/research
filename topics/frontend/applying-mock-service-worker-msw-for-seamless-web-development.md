@@ -1,7 +1,7 @@
 ---
 title: Applying Mock Service Worker (MSW) for Seamless Web Development
-date: 2023-06-19
 description: Mock Service Worker (MSW) is an API mocking library that leverages the Service Worker API to intercept requests. It offers unique features that set it apart from traditional mocking libraries, making it a go-to choice for developers. With MSW, you can seamlessly mock both RESTful and GraphQL APIs, providing flexibility for various API architectures. Additionally, MSW supports both Node.js and browser environments, enabling consistent API mocking across different parts of your application.
+date: 2023-06-19
 authors:
   - hthai2201
 github_id: hthai2201
@@ -166,3 +166,4 @@ The `server.use` function allows us to add a runtime handler to our mock server.
 
 - [Mocking API Servers with Mock Service Worker (MSW)](https://blog.openreplay.com/mocking-api-servers-with-mock-service-worker-msw/)
 - [MSW Documentation](https://mswjs.io/docs/)
+

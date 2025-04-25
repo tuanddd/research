@@ -1,8 +1,9 @@
 ---
 title: § PM
-date: 2025-04-23
 description: Explore key project management and agile practices, including Scrum techniques, estimation methods, and handling technical debt to improve team productivity and project success.
-authors: zlatanpham
+date: 2025-04-23
+authors:
+  - zlatanpham
 tags:
   - pm
   - moc
@@ -22,3 +23,4 @@ tags:
 ### Scrum Practices
 
 - [Our Daily Standup Format](our-daily-standup-format.md)
+

@@ -1,7 +1,7 @@
 ---
 title: Developing rapidly with Generative AI
-date: 2024-05-02
 description: Generative AI overview and the different stages of building an LLM-powered feature
+date: 2024-05-02
 authors:
   - tienan92it
 tags:
@@ -60,3 +60,4 @@ The key step at this stage is to create the right prompt. To do this, a techniqu
 - [Developing rapidly with Generative AI](https://discord.com/blog/developing-rapidly-with-generative-ai)
 - [Artificial Intelligence, Machine Learning , Deep Learning, GenAI and more](https://medium.com/womenintechnology/ai-c3412c5aa0ac)
 - [LLM Evaluation: Everything You Need To Run, Benchmark LLM Evals](https://arize.com/blog-course/llm-evaluation-the-definitive-guide/)
+

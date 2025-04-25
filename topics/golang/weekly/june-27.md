@@ -1,10 +1,10 @@
 ---
 title: "Go Weekly #1: Mastering Go Performance - eBPF and PGO Optimization Techniques"
-date: 2024-06-27
+short_title: "#1 eBPF and PGO Optimization Techniques"
 description: Explore advanced Go optimization techniques using eBPF for kernel-level insights and Profile-Guided Optimization (PGO) for compiler enhancements. Learn how to boost performance and efficiency in Go applications.
+date: 2024-06-27
 authors:
   - fuatto
-short_title: "#1 eBPF and PGO Optimization Techniques"
 tags:
   - golang
   - kernel-programing
@@ -79,3 +79,4 @@ tags:
 
 - https://engineering.grab.com/profile-guided-optimisation
 - https://go.dev/doc/pgo
+

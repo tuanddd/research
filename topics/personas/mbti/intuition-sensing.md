@@ -1,9 +1,9 @@
 ---
 title: Intuition vs Sensing
-date: null
 description: Discover the key traits of Sensors and Intuitives, highlighting how Sensors excel in practical details while Intuitives thrive on abstract ideas and creative connections.
-tag: MBTI, preferences
+date: null
 URL: "https://drive.google.com/file/d/1n8ID_iXqzs6cMZlRS0Su7lQUhrfd7khh/view?usp=sharing"
+tag: MBTI, preferences
 ---
 
 Book: My True Type, page 33 - 38
@@ -24,3 +24,4 @@ Book: My True Type, page 33 - 38
 - Enjoy contemplating abstract patterns, connections, and - languages, be they verbal, mathematical, or computer-based
 - More interested in the connections between things (especially abstract things) than in the things themselves
 - Most effective on the front end of the creative process, with generating ideas or insights
+

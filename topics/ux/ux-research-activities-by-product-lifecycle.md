@@ -1,8 +1,7 @@
 ---
-title: "Ux research activities by product lifecycle"
+title: Ux research activities by product lifecycle
+description: Learn how different UX research methods fit each product lifecycle phase to improve design, reduce risks, and ensure usability with effective discovery, exploration, testing, and listening techniques.
 date: null
-description: "Learn how different UX research methods fit each product lifecycle phase to improve design, reduce risks, and ensure usability with effective discovery, exploration, testing, and listening techniques."
-tags:
 ---
 
 Different UX research methods align with different phases of the product lifecycle. The earlier in the process UX research is incorporated, the greater the value it can deliver. When possible, focus your budget, time, and energy on Discovery and Explore research tasks. However, there is useful information to gather at any point in development.
@@ -42,3 +41,4 @@ If you can do only one thing, do qualitative (think-aloud) usability testing. Ni
 #### Citations
 
 Rohrer, Christian. “When to Use Which User-Experience Research Methods.” Nielsen Norman Group (blog). Accessed October 13, 2020. [https://www.nngroup.com/articles/which-ux-research-methods/](https://www.nngroup.com/articles/which-ux-research-methods/).
+

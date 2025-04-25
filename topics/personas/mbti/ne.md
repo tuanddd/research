@@ -1,9 +1,9 @@
 ---
 title: Extraverted Intuition (Ne)
-date: null
 description: "Discover how Ne users like ENTPs and ENFPs excel at brainstorming, creative thinking, and exploring endless possibilities, contrasting with Ni's deep, focused insight and structured approach."
-tag: MBTI, function
+date: null
 URL: "https://drive.google.com/file/d/1n8ID_iXqzs6cMZlRS0Su7lQUhrfd7khh/view?usp=sharing"
+tag: MBTI, function
 ---
 
 Book: My True Type, page 70 - 78
@@ -36,3 +36,4 @@ Ne often present as open-minded, receptive, creative, inquisitive, random, distr
 - Ne knows a little about a lot, while Ni knows a lot about a little
 
 - Ne is good at producing words, while Ni struggles to verbalize thoughts
+

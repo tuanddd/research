@@ -1,7 +1,7 @@
 ---
 title: Focus trap
-date: 2022-06-12
 description: Focus trap is a web technique to improve accessibility by forcing keyboard focus inside a DOM element, to prevent the user navigating outside that element.
+date: 2022-06-12
 authors:
   - zlatanpham
 github_id: zlatanpham
@@ -16,3 +16,4 @@ Focus trap is a web technique to improve accessibility by forcing keyboard focus
 #### Reference
 
 - https://css-tricks.com/a-css-approach-to-trap-focus-inside-of-an-element/
+

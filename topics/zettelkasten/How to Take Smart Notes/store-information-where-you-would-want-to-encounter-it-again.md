@@ -1,8 +1,7 @@
 ---
-title: "Store information where you would want to encounter it again"
+title: Store information where you would want to encounter it again
+description: Discover how organizing notes with a Zettelkasten method helps you find ideas when you need them, boosting learning and creativity through surprising connections.
 date: null
-description: "Discover how organizing notes with a Zettelkasten method helps you find ideas when you need them, boosting learning and creativity through surprising connections."
-tags:
 ---
 
 The most important question is not where we store the information, but where we would like to come across it again.
@@ -20,3 +19,4 @@ This is a key tenet of how a Zettelkasten is organized; its heavily linked struc
 #### Citations
 
 Ahrens, Sönke. _How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers_. Sönke Ahrens, 2017.
+

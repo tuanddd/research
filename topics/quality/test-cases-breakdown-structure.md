@@ -1,11 +1,9 @@
 ---
-title: "Test cases breakdown structure"
+title: Test cases breakdown structure
+description: Learn how to manage manual and automated test cases in one documentation using clear naming, separating functional and non-functional tests, and updating early for efficient software testing.
 date: 2022-12-12
-description: "Learn how to manage manual and automated test cases in one documentation using clear naming, separating functional and non-functional tests, and updating early for efficient software testing."
-authors:
 github_id: binhle59
 icy: 10
-tags:
 ---
 
 ## Note
@@ -47,3 +45,4 @@ When it comes through the high level business flow, the user selects the product
 - [Usage Of Heuristics And Mnemonics In Software Testing](https://testmatick.com/usage-of-heuristics-and-mnemonics-in-software-testing/)
 - [Test Case Design Techniques](https://www.botplayautomation.com/post/test-case-design-techniques)
 - [Software Testing Techniques with Test Case Design Examples](https://www.guru99.com/software-testing-techniques.html)
+

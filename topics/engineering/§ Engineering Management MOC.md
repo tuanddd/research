@@ -1,7 +1,7 @@
 ---
-title: "§ engineering management moc"
-date: null
+title: § engineering management moc
 description: "Explore key engineering management concepts like Conway's law, team topologies, backlog grooming, and quality assurance to improve product development and team performance effectively."
+date: null
 recurringTemplate: true
 recurringTemplateName: engineering-management-moc
 ---
@@ -32,3 +32,4 @@ This is a [[Map of Content]] related to the engineering concepts around manageme
 - [[Why Virtual DOM is fast?|Why Virtual DOM is fast?]]
 
 _This page was last modified at 2024-03-15T05:48:35.886Z_.
+

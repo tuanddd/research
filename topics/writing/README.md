@@ -1,8 +1,7 @@
 ---
-title: "§ Writing"
+title: § Writing
+description: Discover essential writing tips to create compelling stories, improve characterization, and master dialogue techniques that engage readers and make your narratives memorable.
 date: null
-description: "Discover essential writing tips to create compelling stories, improve characterization, and master dialogue techniques that engage readers and make your narratives memorable."
-tags:
 ---
 
 ## Write better
@@ -38,3 +37,4 @@ tags:
 ## Dialogue
 
 - [[Talking Heads Avoidance Device (Elizabeth George)]]
+

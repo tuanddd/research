@@ -1,8 +1,9 @@
 ---
 title: § Frontend
-date: 2025-04-23
 description: Explore comprehensive frontend development guides covering frameworks, state management, performance optimization, testing, accessibility, tools, and case studies to build efficient, modern web applications.
-authors: zlatanpham
+date: 2025-04-23
+authors:
+  - zlatanpham
 tags:
   - frontend
   - moc
@@ -86,3 +87,4 @@ tags:
 - [Why We Chose Our Tech Stack Accelerating Development With A Robust Frontend Solution](why-we-chose-our-tech-stack-accelerating-development-with-a-robust-frontend-solution.md)
 - [What is PNPM Compare To NPM/Yarn](what-is-pnpm-compare-to-npmyarn.md)
 - [URL formats for sharing via social networks](url-formats-for-sharing-via-social-networks.md)
+

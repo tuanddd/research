@@ -1,7 +1,7 @@
 ---
 title: General
+description: Learn best practices for Solidity smart contracts including abstract contracts vs interfaces, proper use of assert/require/revert, inheritance, event monitoring, fallback functions, security tips, and visibility modifiers.
 date: null
-description: "Learn best practices for Solidity smart contracts including abstract contracts vs interfaces, proper use of assert/require/revert, inheritance, event monitoring, fallback functions, security tips, and visibility modifiers."
 ---
 
 ### 1. Abstract-vs-interfaces
@@ -629,3 +629,4 @@ function internalAction() internal {
 
 - [SWC-100](https://swcregistry.io/docs/SWC-100) and
 - [SWC-108](https://swcregistry.io/docs/SWC-108)
+

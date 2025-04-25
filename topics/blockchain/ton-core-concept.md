@@ -1,7 +1,7 @@
 ---
 title: "Ton's base concepts"
-date: 2024-07-17
 description: Base concepts to begin with TON development
+date: 2024-07-17
 authors:
   - baenv
 tags:
@@ -99,3 +99,4 @@ TON does not automatically calculate gas. The entire transaction execution, with
 ## Conclusion
 
 With all the above concepts, we can now begin developing on TON. But these are actually not enough. We will continue diving deep into more complex concepts such as data format, transaction layout, or bounceable addresses when developing something in the next post.
+

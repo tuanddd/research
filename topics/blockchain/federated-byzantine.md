@@ -1,7 +1,7 @@
 ---
 title: Federated Byzantine
-date: 2019-05-18
 description: "Learn how Stellar's consensus protocol uses trusted validators and quorum slices to prevent Sybil attacks and ensure secure, reliable transactions through federated voting and network trust."
+date: 2019-05-18
 tags:
   - distributed
   - blockchain
@@ -60,3 +60,4 @@ Stellar consensus can be extremely inefficient in terms of number of messages se
 - [https://www.reddit.com/r/Stellar/comments/7omagn/does_anyone_have_realworld_examples_of_how/](https://www.reddit.com/r/Stellar/comments/7omagn/does_anyone_have_realworld_examples_of_how/)
 - [https://www.stellar.org/stories/adventures-in-galactic-consensus-chapter-1/](https://www.stellar.org/stories/adventures-in-galactic-consensus-chapter-1/)
 - Okay, one more resource for you! I think it's somewhere between the comic and the white paper, but closer to the white paper. [https://medium.com/a-stellar-journey/on-worldwide-consensus-359e9eb3e949](https://medium.com/a-stellar-journey/on-worldwide-consensus-359e9eb3e949)
+

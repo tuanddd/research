@@ -1,10 +1,8 @@
 ---
-title: "Entities in domain driven design"
+title: Entities in domain driven design
+description: Learn how Domain-Driven Design (DDD) uses entity identity and continuity to improve software by linking developers and domain experts for better system maintenance and scalability.
 date: 2022-03-28
-description: "Learn how Domain-Driven Design (DDD) uses entity identity and continuity to improve software by linking developers and domain experts for better system maintenance and scalability."
-authors:
 github_id: R-Jim
-tags:
 ---
 
 ## Recap on DDD
@@ -49,3 +47,4 @@ _Establish continuity so that behavior can be clear and predictable_, We need to
 - https://herbertograca.com/category/development/book-notes/domain-driven-design-by-eric-evans/
 
 - Domain-driven design by Eric Evans
+

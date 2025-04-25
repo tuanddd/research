@@ -1,7 +1,7 @@
 ---
 title: Sql Practices Orm Vs Plain Sql
-date: 2021-07-07
 description: Learn how to choose between raw SQL, ORM, and SQL generators, optimize database performance with smart indexing, avoid rounding errors, and write efficient queries for better security and speed.
+date: 2021-07-07
 tags:
   - sql
   - database
@@ -101,3 +101,4 @@ Get row with Greatest value per group. Follow the Single-Value rule to build the
 - [pragprog.com/titles/bksqla/sql-antipatterns](https://pragprog.com/titles/bksqla/sql-antipatterns/)
 - [www.enterprisedb.com/blog/postgresql-query-optimization-performance-tuning-with-explain-analyze](https://www.enterprisedb.com/blog/postgresql-query-optimization-performance-tuning-with-explain-analyze)
 - [technical-recipes.com/2011/ieee-754-floating-point-to-binary-conversion](http://technical-recipes.com/2011/ieee-754-floating-point-to-binary-conversion)
+

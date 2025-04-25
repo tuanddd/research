@@ -1,7 +1,7 @@
 ---
 title: Remote Moderated Usability Testing
-date: 2020-05-10
 description: "Learn how remote moderated usability testing helped improve Purchasing Care's B2B supplier sourcing tool during COVID-19, enhancing user experience and product performance efficiently."
+date: 2020-05-10
 tags:
   - testing
 ---
@@ -167,3 +167,4 @@ It's much easier for them to figure out the test and prepare their answers.
 Thanks to the usability test, we were able to address the user's trouble. It lets us improve the information architecture and visual hierarchy along with product performance to bring users a better experience. This reduces their effort and time to the minimum, which, in return, should drive more sales.
 
 As we have no idea when the Covid-19 pandemic is over and work from home is strongly recommended, it's the right time to adopt some remote methods in UX design, including Remote Moderated Usability Testing. Although there are some drawbacks, it's still a good solution for our team, client, and test participants
+

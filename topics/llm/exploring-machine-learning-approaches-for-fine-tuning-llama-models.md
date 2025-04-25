@@ -1,7 +1,7 @@
 ---
 title: Exploring Machine Learning Approaches For Fine Tuning Llama Models
-date: 2023-05-04
 description: Learn how to fine-tune LLaMA large language models efficiently using PEFT LoRA for cost-effective, private AI customization with step-by-step guidance and open-source tools.
+date: 2023-05-04
 tags:
   - machine-learning
   - llm
@@ -259,3 +259,4 @@ In conclusion, after looking through a ton of resources, we were able to walk ou
 - [https://renaissancerachel.com/prompting/](https://renaissancerachel.com/prompting/)
 - [https://xiaosean5408.medium.com/fine-tuning-llms-made-easy-with-lora-and-generative-ai-stable-diffusion-lora-39ff27480fda](https://xiaosean5408.medium.com/fine-tuning-llms-made-easy-with-lora-and-generative-ai-stable-diffusion-lora-39ff27480fda)
 - [https://arxiv.org/abs/2206.15312](https://arxiv.org/abs/2206.15312)
+

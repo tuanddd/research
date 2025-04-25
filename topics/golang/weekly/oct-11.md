@@ -1,10 +1,10 @@
 ---
 title: "Go Commentary #15: Using Go embed, and Reflect"
-date: 2024-10-11
+short_title: "#15 Go embed and Reflect"
 description: Quick notes on Go embed and Go Reflect
+date: 2024-10-11
 authors:
   - fuatto
-short_title: "#15 Go embed and Reflect"
 tags:
   - golang
   - go-weekly
@@ -118,3 +118,4 @@ for i := 0; i < typ.NumMethod(); i++ {
 https://www.bytesizego.com/blog/go-embed
 
 https://www.dolthub.com/blog/2024-10-04-reflecting-on-reflect/
+

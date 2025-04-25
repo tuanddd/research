@@ -1,7 +1,7 @@
 ---
 title: Solana Account
-date: 2022-11-17
 description: This article provides an overview of Solana accounts, including their structure, types, and how they work.
+date: 2022-11-17
 authors:
   - trankhacvy
 github_id: trankhacvy
@@ -57,3 +57,4 @@ For example, if you create a counter program that lets you increment a counter, 
 
 - https://docs.solana.com/developing/programming-model/accounts
 - https://solanacookbook.com/core-concepts/accounts.html
+

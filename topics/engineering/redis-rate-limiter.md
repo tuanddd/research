@@ -1,11 +1,9 @@
 ---
-title: "Redis rate limiter"
+title: Redis rate limiter
+description: Learn how to implement basic rate limiting in Redis using counters and lists to control user access by IP address, preventing too many requests in a set time period.
 date: 2023-06-01
-description: "Learn how to implement basic rate limiting in Redis using counters and lists to control user access by IP address, preventing too many requests in a set time period."
-authors:
 github_id: Tuanpm31
 icy: 10
-tags:
 ---
 
 ## Introduction
@@ -67,3 +65,4 @@ Above are 2 simple examples exploring the usefulness of data types to help handl
 
 - https://redis.com/glossary/rate-limiting/
 - https://redis.io/docs/data-types/lists/
+

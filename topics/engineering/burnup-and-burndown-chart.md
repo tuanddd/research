@@ -1,11 +1,9 @@
 ---
-title: "Burnup and burndown chart"
+title: Burnup and burndown chart
+description: Learn how Burnup and Burndown charts help project managers track product development progress by showing completed work, remaining tasks, and timeline status clearly to clients.
 date: 2023-02-28
-description: "Learn how Burnup and Burndown charts help project managers track product development progress by showing completed work, remaining tasks, and timeline status clearly to clients."
-authors:
 github_id: nhuthm
 icy: 10
-tags:
 ---
 
 From the team product, when the Project Manager want to report with their client for the question: "How is our project coming along?", to have a catch-up on the product's process.
@@ -48,3 +46,4 @@ Basically, when wanting to see what is left to be completed on the giving timeli
 
 - [Burndown and Burnup charts: What's the Difference and How to use them](https://rindle.com/blog/burndown-and-burnup-charts-whats-the-difference-and-how-to-use-them)
 - [Burndown vs Burnup Chart](https://www.projectmanagement.com/blog/blogPostingView.cfm?blogPostingID=40731&thisPageURL=/blog-post/40731/Burndown-vs-Burnup-Chart#_=_)
+

@@ -1,9 +1,9 @@
 ---
 title: Thinking vs Feeling
-date: null
 description: Learn how Thinkers use logic and efficiency in decision-making while Feelers rely on emotions and compassion to balance work and relationships. Discover key personality traits now.
-tag: MBTI, preferences
+date: null
 URL: "https://drive.google.com/file/d/1n8ID_iXqzs6cMZlRS0Su7lQUhrfd7khh/view?usp=sharing"
+tag: MBTI, preferences
 ---
 
 Book: My True Type, page 39 - 45
@@ -22,3 +22,4 @@ Book: My True Type, page 39 - 45
 - Enrich life with colors, sounds, tastes, scents, textures, stories, images, etc.
 - More attuned and responsive to feelings, both their own and those of others Generally more caring, compassionate, and nurturing
 - More apt to divide time among work, relationships, and/or caregiving
+

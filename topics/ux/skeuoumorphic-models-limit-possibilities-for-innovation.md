@@ -1,8 +1,7 @@
 ---
-title: "Skeuoumorphic models limit possibilities for innovation"
+title: Skeuoumorphic models limit possibilities for innovation
+description: Skeuomorphism in design uses real-life metaphors to shape digital tools, but this can limit how we understand and innovate with digital technology beyond physical constraints.
 date: null
-description: "Skeuomorphism in design uses real-life metaphors to shape digital tools, but this can limit how we understand and innovate with digital technology beyond physical constraints."
-tags:
 ---
 
 Skeuomorphism in design describes the rendering of digital items in terms of their real-life counterparts. For example, skeuomorphic design might render a notebook application such that it resembles a physical notebook.
@@ -27,3 +26,4 @@ Lakoff and Johnson use the term "radial metaphors" to discuss how metaphors can 
 Lakoff, George, and Mark Johnson. Metaphors We Live By. University of Chicago Press, 2008.
 
 Lloyd, Alexis. “R2D2 as a Model for AI Collaboration.” Medium (blog), November 21, 2020. [https://alexis.medium.com/r2d2-as-a-model-for-ai-collaboration-9a2638bfbd09](https://alexis.medium.com/r2d2-as-a-model-for-ai-collaboration-9a2638bfbd09).
+

@@ -1,8 +1,7 @@
 ---
-title: "≈ how to take smart notes"
+title: ≈ how to take smart notes
+description: Discover how the Zettelkasten note-taking method builds interconnected notes to boost knowledge creation and idea discovery using simple, effective strategies for writing and learning.
 date: null
-description: "Discover how the Zettelkasten note-taking method builds interconnected notes to boost knowledge creation and idea discovery using simple, effective strategies for writing and learning."
-tags:
 ---
 
 ## Summary
@@ -41,3 +40,4 @@ It involves building a database of focused notes that are interlinked with one a
 - [[Write from the bottom up]]
 - [[Writing is thinking]]
 - [[Knowledge work means transforming old ideas into new ones]]
+

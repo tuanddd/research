@@ -1,7 +1,7 @@
 ---
 title: Radio Talk 60 Blue Green Deployment
-date: 2023-03-10
 description: Learn how blue-green deployment reduces downtime and risk by switching traffic between identical environments, improving software reliability and flexibility for seamless updates.
+date: 2023-03-10
 authors:
   - zlatanpham
 tags:
@@ -41,3 +41,4 @@ There are several benefits to using blue-green deployment in modern software dev
 **Q: When do we need to apply blue-green deployment?**
 
 **A:** It is not recommended to use blue-green deployment at the beginning of a project or when the project does not have many users because it will require a certain effort to set up. It should only be applied to applications with many continuous users or any systems that cannot tolerate disruption, for example, finance.
+

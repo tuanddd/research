@@ -1,7 +1,7 @@
 ---
 title: Why Hollywood and gaming struggle with AI
-date: 2024-10-11
 description: Why Hollywood and gaming struggle with AI
+date: 2024-10-11
 authors:
   - tieubao
 tags:
@@ -20,3 +20,4 @@ Incumbent entertainment and video game companies are experiencing friction in ex
 ---
 
 https://andrewchen.substack.com/p/why-hollywood-and-aaa-gaming-cant
+

@@ -1,7 +1,7 @@
 ---
 title: How does Go achieve type safety when it enables generics?
-date: 2024-10-14
 description: A quick note on How does Go achieve type safety when it enables generics
+date: 2024-10-14
 authors:
   - tieubao
 tags:
@@ -97,3 +97,4 @@ In conclusion, Go achieves type safety with generics through a combination of co
 2. **Type constraints** to enforce rules about what types are allowed.
 3. **Compile-time type checking** to prevent invalid types from being used.
 4. **Simple and explicit type inference** while maintaining safety through constraints.
+

@@ -1,7 +1,7 @@
 ---
 title: A Quick Intro To Webassembly
-date: 2020-06-15
 description: Discover how WebAssembly, a fast, portable binary format designed for running C, C++, and Rust on the web, outperforms JavaScript by enabling near-native execution speeds in browsers and servers.
+date: 2020-06-15
 tags:
   - wasm
 ---
@@ -213,3 +213,4 @@ In this effort, the first blueprint of WebAssembly was conceptualized. **WebAss
 **What is a stack machine?**
 
 A `stack machine`, unlike a `register machine`, works with a `stack`. A stack is a data structure to store some data in linear order. You can push a value on the stack and it will go on the top of the previous value in the stack. However, you can not pull a value from anywhere. You can only pop or pull the value that is on the top of the stack.
+

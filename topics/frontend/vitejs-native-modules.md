@@ -1,7 +1,7 @@
 ---
 title: ViteJS native modules
-date: 2022-07-04
 description: ViteJS takes full advantage of the availability of native ES modules in the browser and the rise of JavaScript tools written in compile-to-native languages by introducing pre-bundles dependancies using esbuild.
+date: 2022-07-04
 authors:
   - namtrhg
 github_id: namtrhg
@@ -54,3 +54,4 @@ While `esbuild` is lightning-quick and a very capable bundler for libraries, som
 
 - https://vitejs.dev/guide/why.html
 - https://www.telerik.com/blogs/whats-vite-guide-modern-super-fast-project-tooling
+

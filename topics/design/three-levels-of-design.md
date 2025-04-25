@@ -1,7 +1,7 @@
 ---
 title: Three Levels Of Design
-date: 2018-03-21
 description: Learn how Don Norman’s three levels of design—visceral, behavioral, and reflective—shape user experience and determine whether a product succeeds or fails.
+date: 2018-03-21
 tags:
   - design
 ---
@@ -56,3 +56,4 @@ The joy users get using your product that lasts forever.
 ### Overall impression of the product
 
 The more users like the product, the more they are going to keep using it. Not only use it, but recommend it to others.
+

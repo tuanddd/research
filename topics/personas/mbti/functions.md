@@ -1,9 +1,9 @@
 ---
 title: Cognitive functions stack
-date: null
 description: Discover how cognitive functions explain the deeper traits behind MBTI personality types and learn how to calculate your unique cognitive function stack for better self-awareness.
-tag: MBTI, function
+date: null
 URL: "https://personalityjunkie.com/functional-stack-type-dynamics-theory/"
+tag: MBTI, function
 ---
 
 - https://www.youtube.com/watch?v=9xf13VRNPp8
@@ -74,3 +74,4 @@ Vd: ENFJ
 2 Ni
 3 Se
 4 Ti
+

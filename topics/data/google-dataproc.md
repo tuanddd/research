@@ -1,11 +1,9 @@
 ---
-title: "Google dataproc"
+title: Google dataproc
+description: Learn how to set up and use Google Dataproc for fast, scalable Apache Spark and Hadoop data processing on Google Cloud, including cluster creation, job submission, and pricing details.
 date: 2024-01-22
-description: "Learn how to set up and use Google Dataproc for fast, scalable Apache Spark and Hadoop data processing on Google Cloud, including cluster creation, job submission, and pricing details."
-authors:
 github_id: mickwan1234
 icy: 10
-tags:
 ---
 
 ## Introduction
@@ -151,3 +149,4 @@ Wait for the job status change to succeeded (or failed):
 And that is how you run a Spark ( or Hadoop) job on Google Cloud Dataproc.
 Full video step by step:
 ![[_assets/Google Dataproc/830c086903ad2dcaf7bdece0af8e3647_MD5.mp4]]
+

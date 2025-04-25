@@ -1,7 +1,7 @@
 ---
 title: Implement a Token Swap from the Base chain to Bitcoin for cross-chain transactions
-date: 2025-03-07
 description: This guide shows how to implement a token swap from the Base Chain to Bitcoin.
+date: 2025-03-07
 authors:
   - lmquang
 tags:
@@ -48,3 +48,4 @@ For more details on how the price is set, please refer to the [How much is your 
 ## Conclusion
 
 This process uses specialized tools and steps to securely swap ICY tokens for Bitcoin, overcoming the challenges of their different blockchain systems while maintaining fairness in pricing.
+

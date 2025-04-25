@@ -1,7 +1,7 @@
 ---
 title: Nix - Minimum changes, Minimum redundancies
-date: 2024-08-01
 description: An overview of how Nix addresses issues like shadow copies in Docker builds, improving build efficiency and speed
+date: 2024-08-01
 authors:
   - baenv
 tags:
@@ -14,3 +14,4 @@ The reproducible issue is resolved in the [previous part](≈%20Nix%20-%20Build%
 
 - [Content-addressable storage in Docker](content-addressable-storage-in-docker.md)
 - [Nix is faster than Docker build](nix-is-faster-than-docker-build.md)
+

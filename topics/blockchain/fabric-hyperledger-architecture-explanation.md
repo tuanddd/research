@@ -1,7 +1,7 @@
 ---
 title: Fabric Hyperledger Architecture Explanation
-date: 2019-05-15
 description: "Learn how Hyperledger's open source blockchain frameworks and tools enable secure, permissioned enterprise networks with smart contracts, distributed ledgers, and flexible governance models."
+date: 2019-05-15
 tags:
   - blockchain
   - architecture
@@ -127,3 +127,4 @@ Identifies which Root CAs and Intermediate CAs are trusted to define the members
 - Every time a block is committed to a peer's ledger, that peer generates an appropriate event(include full block content)
 
 ![](assets/fabric-hyperledger-architecture-explanation_2e60ff9cb71f5ecb312418e4228c7964_md5.webp)
+

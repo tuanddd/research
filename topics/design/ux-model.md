@@ -1,7 +1,7 @@
 ---
 title: Ux Model
-date: 2018-03-19
 description: Good UX means creating useful, easy-to-use, and accessible products that attract users, build trust, and make information easy to find, ensuring a satisfying experience for all users.
+date: 2018-03-19
 tags:
   - design
 ---
@@ -31,3 +31,4 @@ To build a long relationship with your users, you need them to trust the product
 6. Findability
 
 There should be easy ways for users to search for information about the product. Something like the product name should be easy to remember, there are clear statements about your product you will want your users to remember, search, and talk about, etc.
+

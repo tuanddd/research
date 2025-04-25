@@ -1,7 +1,7 @@
 ---
 title: JavaScript modules
-date: 2022-06-27
 description: Modules have always been a part of JavaScript development and providing mechanisms for splitting JavaScript programs up into separate modules that can be imported when needed was the absolutely necessity for JavaScript developers.
+date: 2022-06-27
 authors:
   - namtrhg
 github_id: namtrhg
@@ -182,3 +182,4 @@ Although CommonJS can still be used for server development since synchronous was
 - https://www.w3schools.com/js/js_modules.asp
 - https://nodejs.org/api/modules.html
 - https://www.infoworld.com/article/2653798/javascript-creator-ponders-past--future.html
+

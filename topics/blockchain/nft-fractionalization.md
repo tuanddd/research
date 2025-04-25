@@ -1,7 +1,7 @@
 ---
 title: NFT Fractionalization
-date: 2022-06-18
 description: NFT Fractionalization is a process of dividing a non-fungible token (NFT) into smaller, fractional tokens that represent partial ownership of the original NFT. This article provides an overview of fractional NFTs, how they work, and their benefits.
+date: 2022-06-18
 authors:
   - trankhacvy
 github_id: trankhacvy
@@ -33,3 +33,4 @@ To break this NFT into fractions, it must first be locked in a smart contract, w
 - https://learn.bybit.com/nft/what-are-fractional-nfts/
 - https://www.leewayhertz.com/fractional-nft/
 - https://medium.com/fractional-art/what-is-fractional-dd4f86e6458a
+

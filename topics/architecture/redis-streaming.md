@@ -1,11 +1,9 @@
 ---
-title: "Redis streaming"
+title: Redis streaming
+description: Learn how to use Redis Streaming for event sourcing and messaging with Docker setup, stream publishing, reading, consumer groups, and message claiming in Redis key-value database.
 date: 2023-04-21
-description: "Learn how to use Redis Streaming for event sourcing and messaging with Docker setup, stream publishing, reading, consumer groups, and message claiming in Redis key-value database."
-authors:
 github_id: R-Jim
 icy: 10
-tags:
 ---
 
 ## What is Redis
@@ -228,3 +226,4 @@ We can automatically claim any pending messages in `mystream` that has the minim
 
 - [Redis documentation](https://redis.io/docs/)
 - [Redis Streams tutorial](https://redis.io/docs/data-types/streams-tutorial/)
+

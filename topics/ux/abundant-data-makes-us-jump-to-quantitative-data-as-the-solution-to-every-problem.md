@@ -1,8 +1,7 @@
 ---
-title: "Abundant data makes us jump to quantitative data as the solution to every problem"
+title: Abundant data makes us jump to quantitative data as the solution to every problem
+description: Explore why collecting too much data can mislead decision-making, highlighting the limits of quantitative analysis and the risks of relying on lagging indicators in uncertain situations.
 date: null
-description: "Explore why collecting too much data can mislead decision-making, highlighting the limits of quantitative analysis and the risks of relying on lagging indicators in uncertain situations."
-tags:
 ---
 
 Today, we arguably collect too much data. It's all around us. Our every movement, every click, is tracked and measured; we quantify the quality of our sleep, how much exercise we get, and how much time we spend looking at our phones. Never mind the copious data being collected by various devices connected to the [internet of things](https://publish.obsidian.md/mobydiction/internet+of+things). Data is cheap. It's now the detritus of our digital lives, or, as Davis and Davidson put it, "data exhaust." As Sam Ladner argues, we spend more time collecting data than asking good questions of it.
@@ -26,3 +25,4 @@ Data that are easiest to come by—and likely more abundant—are more likely to
 [Ladner, Sam. Mixed Methods: A Short Guide to Applied Mixed Methods Research. Sam Ladner, 2019.](https://publish.obsidian.md/mobydiction/notes/%E2%89%88+Ladner+-+Mixed+Methods)
 
 [Sutherland, Rory. Alchemy: The Dark Art and Curious Science of Creating Magic in Brands, Business, and Life. Illustrated edition. William Morrow, 2019.](https://publish.obsidian.md/mobydiction/Sutherland+-+Alchemy)
+

@@ -1,7 +1,7 @@
 ---
 title: 000 RFC template
+description: null
 date: 2025-04-03
-description:
 authors:
   - tieubao
 tags:
@@ -39,3 +39,4 @@ What other approaches did you consider? Why were they rejected?
 ## Open questions
 
 List any unresolved questions that need team input.
+

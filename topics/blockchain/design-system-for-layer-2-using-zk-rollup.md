@@ -1,7 +1,7 @@
 ---
 title: Design System For Layer 2 Using Zk Rollup
-date: 2023-04-24
 description: Learn how Layer 2 blockchain design using zkEVM and zero-knowledge proofs enables scalable, secure token transfers and smart contract execution with efficient transaction batching and Ethereum compatibility.
+date: 2023-04-24
 tags:
   - blockchain
 ---
@@ -218,3 +218,4 @@ mapping(uint64 => SequencedBatchData) public sequencedBatches;
 ```
 
 The batches must be part of an array of batches that are ordered sequentially. The Trusted Sequencer calls Contract PolygonZkEVM.sol, which uses the sequenceBatches mapping, which accepts an ordered array of batches as an argument. Please see the code snippet provided below.
+

@@ -1,7 +1,7 @@
 ---
 title: Working with langchain document loaders
-date: 2023-04-21
 description: This article explores Langchain document loaders, explaining their role in overcoming token limits, integrating with vector databases, and demonstrating how to build a question-answering system using CSV data and an AI agent.
+date: 2023-04-21
 authors:
   - monotykamary
 github_id: monotykamary
@@ -131,3 +131,4 @@ Hopefully, this gives you an idea of how langchain can be used to create an agen
 
 - https://python.langchain.com/en/latest/modules/indexes/getting_started.html
 - https://github.com/kenhuangus/ChatGPT-FAQ/blob/main/vectorDB.md
+

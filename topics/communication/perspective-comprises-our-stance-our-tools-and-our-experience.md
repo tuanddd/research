@@ -1,7 +1,7 @@
 ---
-title: "Perspective comprises our stance our tools and our experience"
+title: Perspective comprises our stance our tools and our experience
+description: Learn how perspective is shaped by the interaction of stance, tools, and experience to better understand and approach complex problems effectively.
 date: null
-description: "Learn how perspective is shaped by the interaction of stance, tools, and experience to better understand and approach complex problems effectively."
 ---
 
 According to Roger Martin, perspective on a given issue is formed by the interaction between three things: our **stance**, our **tools**, and our **experience**.
@@ -24,3 +24,4 @@ These different elements do not flow linearly from one to another; they mutually
 #### Citations
 
 Martin, Roger L. The Opposable Mind: How Successful Leaders Win Through Integrative Thinking. 1st edition. Boston, Mass: Harvard Business Review Press, 2007.
+

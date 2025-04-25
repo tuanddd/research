@@ -1,7 +1,7 @@
 ---
 title: How A Design System Work
-date: 2020-05-09
 description: Learn effective design system naming conventions for colors, text styles, and components using Figma tools and atomic design to improve UI consistency and team collaboration.
+date: 2020-05-09
 tags:
   - design
   - technique
@@ -66,3 +66,4 @@ If Variation and Type (kind) have complex modify, we can consider dividing the V
 - Helps to note down a detailed instruction for the team (with >2 designers). This drives better communication between designer-designer and designer-developer.
 
 ![](assets/how-a-design-system-work_462d264e13a03129c48869ecadc606ed_md5.webp)
+

@@ -1,7 +1,7 @@
 ---
 title: CSS Container Queries
-date: 2022-09-02
 description: Container Queries is a CSS feature that allows us to style elements based on the size of a container.
+date: 2022-09-02
 authors:
   - tienan92it
 github_id: tienan92it
@@ -85,3 +85,4 @@ Universal support can be achieved by using [Polyfill](https://github.com/GoogleC
 - https://javascript.plainenglish.io/css-container-queries-3393fbeb6ea8
 - https://ishadeed.com/article/container-queries-are-finally-here/
 - https://developer.chrome.com/docs/devtools/css/container-queries/
+

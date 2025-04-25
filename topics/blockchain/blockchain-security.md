@@ -1,7 +1,7 @@
 ---
 title: Blockchain security checklist
+description: Ensure blockchain security with this checklist covering centralization, event logging, code safety, gas optimization, unit testing, coding style, logical issues, and potential attacks for safer smart contract development.
 date: null
-description: "Ensure blockchain security with this checklist covering centralization, event logging, code safety, gas optimization, unit testing, coding style, logical issues, and potential attacks for safer smart contract development."
 ---
 
 - [ ] Understanding the project
@@ -67,3 +67,4 @@ description: "Ensure blockchain security with this checklist covering centraliza
 ##### POTENTIAL ATTACK
 
 - [ ] Check for Potential Sandwich Attack
+

@@ -1,10 +1,10 @@
 ---
 title: Frontend Report February 2025
-date: 2025-02-28
+short_title: February 2025
 description: "Our February 2025 report covers what's new in frontend development - from React's move away from Create React App to Next.js improvements, browser compatibility updates, and cool new tools like React Scan. Get practical tips for better auth, faster websites, and making your sites work for everyone."
+date: 2025-02-28
 authors:
   - hthai2201
-short_title: February 2025
 tags:
   - frontend
   - market-report
@@ -118,3 +118,4 @@ Zod has problems: it's slow, causes TypeScript to lag, and doesn't fully follow 
 - [Why developers hate linters?](https://www.coderabbit.ai/blog/why-developers-hate-linters)
 - [Will AI eat the browser?](https://crazystupidtech.com/archive/will-ai-eat-the-browser/)
 - [HTML is actually a programming language. Fight me](https://www.wired.com/story/html-is-actually-a-programming-language-fight-me/)
+

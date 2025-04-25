@@ -1,8 +1,7 @@
 ---
-title: "Democratize user research to scale user research"
+title: Democratize user research to scale user research
+description: Learn how democratizing research by sharing tasks with non-researchers helps large organizations scale insights and avoid bottlenecks without expanding research teams.
 date: null
-description: "Learn how democratizing research by sharing tasks with non-researchers helps large organizations scale insights and avoid bottlenecks without expanding research teams."
-tags:
 ---
 
 Large organizations' demand for research can outstrip capacity. Unless research is able to scale in response, it's possible for it to become a bottleneck for design and development. However, it can be difficult and sometimes inefficient to grow the number of researchers.
@@ -16,3 +15,4 @@ This approach should be scaled in gradually, as it still requires effort to supp
 #### Related
 
 - [[Make research insights easy to find, consume, and use]] - Research is pointless if it's not made accessible to those who need to act on it
+

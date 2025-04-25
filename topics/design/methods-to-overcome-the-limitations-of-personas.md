@@ -1,8 +1,7 @@
 ---
-title: "Methods to overcome the limitations of personas"
+title: Methods to overcome the limitations of personas
+description: Explore the limits of traditional personas and discover alternatives like characters, thinking styles, and Jobs to be Done that provide deeper user insights and richer context for product design.
 date: null
-description: "Explore the limits of traditional personas and discover alternatives like characters, thinking styles, and Jobs to be Done that provide deeper user insights and richer context for product design."
-tags:
 ---
 
 Personas have a number of shortcomings:
@@ -33,3 +32,4 @@ Cooper, Alan. _The Inmates Are Running the Asylum_. Sams Publishing, 2004.
 Klement, Alan. _“Replacing Personas With Characters.”_ Medium (blog), September 2, 2017. [Link](https://medium.com/down-the-rabbit-hole/replacing-personas-with-characters-aa72d3cf6c69).
 Spool, Jared M. _“Customers Request Solutions. We Need to Understand Their Problems.”_ Medium (blog), August 16, 2019. [Link](https://medium.com/@jmspool/customers-request-solutions-we-need-to-understand-their-problems-41db3b5c6d4d).
 Young, Indi. _“Describing Personas.”_ Medium (blog), August 13, 2020. [Link](https://medium.com/inclusive-software/describing-personas-af992e3fc527).
+

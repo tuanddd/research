@@ -1,8 +1,9 @@
 ---
 title: § Elixir
-date: 2025-04-23
 description: Explore comprehensive guides on Elixir programming, including testing, finite state machines, clustering, process groups, and PostgreSQL integration to enhance your Elixir development skills.
-authors: zlatanpham
+date: 2025-04-23
+authors:
+  - zlatanpham
 tags:
   - elixir
   - moc
@@ -20,3 +21,4 @@ tags:
 
 - [Libcluster in Elixir](libcluster-in-elixir.md)
 - [pg in Elixir](pg-in-elixir.md)
+

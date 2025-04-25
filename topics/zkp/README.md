@@ -1,5 +1,7 @@
 ---
-title: "§ Zero Knowledge Proof"
-date: null
+title: § Zero Knowledge Proof
 description: null
+date: null
 ---
+
+

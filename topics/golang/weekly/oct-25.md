@@ -1,10 +1,10 @@
 ---
 title: "Go Commentary #17: Leveraging benchstat Projects in Go benchmark and Go Plan9 memo on 450% speeding up calculations"
-date: 2024-10-25
+short_title: "#17 Leveraging benchstat Projects in Go benchmark and Go Plan9 memo on 450% speeding up calculations"
 description: Understanding benchstat usage in Go benchmark and Go Plan9 on boosting up performance
+date: 2024-10-25
 authors:
   - fuatto
-short_title: "#17 Leveraging benchstat Projects in Go benchmark and Go Plan9 memo on 450% speeding up calculations"
 tags:
   - golang
   - go-weekly
@@ -331,3 +331,4 @@ Conclusion:
 https://www.bwplotka.dev/2024/go-microbenchmarks-benchstat/
 
 https://pehringer.info/go_plan9_memo.html
+

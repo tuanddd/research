@@ -1,7 +1,7 @@
 ---
 title: Using Devbox to setup local development environment
-date: 2024-06-13
 description: Expanded section that focuses on Devbox and its practices on setup a local development environment.
+date: 2024-06-13
 authors:
   - huynguyenh
   - baenv
@@ -134,3 +134,4 @@ You can find a practical example of using Devbox in [our memo repository](https:
 ## Conclusion
 
 In this installment, we've moved from theory to practice, demonstrating how Devbox creates an isolated, reproducible, and portable development environment. We've shown how to set up Devbox, install dependencies, and integrate it with a Makefile for ease of use. By addressing container runtime challenges, we've ensured a smooth development experience. We hope these insights help streamline your own workflows and enhance your development practices. Thank you for following along, and happy coding!
+

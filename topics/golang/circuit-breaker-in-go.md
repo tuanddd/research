@@ -1,11 +1,9 @@
 ---
-title: "Circuit breaker in go"
+title: Circuit breaker in go
+description: Learn how to implement the circuit breaker pattern in Go to handle remote resource failures, improve fault tolerance, and redirect requests using the sony/gobreaker library for reliable API calls.
 date: 2023-07-02
-description: "Learn how to implement the circuit breaker pattern in Go to handle remote resource failures, improve fault tolerance, and redirect requests using the sony/gobreaker library for reliable API calls."
-authors:
 github_id: R-Jim
 icy: 10
-tags:
 ---
 
 ## The Problem Statement
@@ -150,3 +148,4 @@ We should apply the circuit breaker pattern when the application trying to invok
 
 - [Azure's Circuit-breaker patterns](https://learn.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker)
 - [sony/gobreaker](https://github.com/sony/gobreaker)
+

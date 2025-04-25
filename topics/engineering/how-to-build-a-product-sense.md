@@ -1,11 +1,9 @@
 ---
-title: "How to build a product sense"
+title: How to build a product sense
+description: Learn how to improve your product sense to create user-focused products by observing users, analyzing everyday products, learning from experts, and staying updated with technology trends.
 date: 2023-02-23
-description: "Learn how to improve your product sense to create user-focused products by observing users, analyzing everyday products, learning from experts, and staying updated with technology trends."
-authors:
 github_id: nhuthm
 icy: 10
-tags:
 ---
 
 Product sense is one of the skill that we has been hearing until today for the Project Manager when he/she is wanting to improve the management skill better and better. On this note, I will summarize with my understanding after reading the documentation from the internet, the full link to the document will be including from the reference section.
@@ -45,3 +43,4 @@ This one can be the most difficult way from my point of view. But, it's still ve
 ## Reference
 
 - [How to develop product sense](https://www.lennysnewsletter.com/p/product-sense)
+

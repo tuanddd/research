@@ -1,10 +1,8 @@
 ---
-title: "Stateless and stateful widgets in Flutter"
+title: Stateless and stateful widgets in Flutter
+description: Learn the key differences between stateless and stateful widgets in Flutter, including how each manages UI state and when to use them for dynamic or static app interfaces.
 date: 2022-09-12
-description: "Learn the key differences between stateless and stateful widgets in Flutter, including how each manages UI state and when to use them for dynamic or static app interfaces."
-authors:
 github_id: knguyenuit
-tags:
 ---
 
 ## State
@@ -120,3 +118,4 @@ The `_MyAppState` class will override the `Widget build(BuildContext context)` m
 - They can be updated during runtime based on user action or data change.
 - Stateful Widgets have an internal state and can re-render if the input data changes or if Widget’s state changes.
 - For Example: Checkbox, Radio Button, Slider are Stateful Widgets
+

@@ -1,8 +1,7 @@
 ---
-title: "Different kinds of zettelkasten notes"
+title: Different kinds of zettelkasten notes
+description: Learn how the Zettelkasten method uses fleeting, permanent, and project notes to boost writing and thinking by capturing and rephrasing ideas for better understanding and lasting value.
 date: null
-description: "Learn how the Zettelkasten method uses fleeting, permanent, and project notes to boost writing and thinking by capturing and rephrasing ideas for better understanding and lasting value."
-tags:
 ---
 
 In the Zettelkasten method as described by Ahrens in [[≈ How to Take Smart Notes]], there are three kinds of notes:
@@ -22,3 +21,4 @@ Notes should never be copied verbatim. Rephrasing ideas creates an immediate fee
 Ahrens, Sönke. _How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers_. Sönke Ahrens, 2017.
 
 Luhmann, Niklas. “Communicating with Slip Boxes.” Translated by Manfred Kuehn. Two Essays by Niklas Luhmann. Accessed October 19, 2020. https://luhmann.surge.sh/communicating-with-slip-boxes.
+

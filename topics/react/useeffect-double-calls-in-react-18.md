@@ -1,7 +1,7 @@
 ---
 title: useEffect double calls in React 18
-date: 2022-06-11
 description: "In the React 18 version, the `useEffect` hook has been updated to called twice compare to only one in the older version in StrictMode."
+date: 2022-06-11
 authors:
   - namtrhg
 tags:
@@ -91,3 +91,4 @@ export const useEffectOnce = (effect: () => void | (() => void)) => {
 - https://reactjs.org/blog/2022/03/29/react-v18.html#new-strict-mode-behaviors
 - https://www.techiediaries.com/react-18-useeffect/
 - https://dev.to/ag-grid/react-18-avoiding-use-effect-getting-called-twice-4i9e
+

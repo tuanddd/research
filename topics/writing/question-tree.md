@@ -1,10 +1,8 @@
 ---
-title: "Question tree"
+title: Question tree
+description: Learn how question trees help brainstorm research questions and explore business problems, guiding decision-making with clear, broad inquiries beyond simple yes or no answers.
 date: 2022-04-18
-description: "Learn how question trees help brainstorm research questions and explore business problems, guiding decision-making with clear, broad inquiries beyond simple yes or no answers."
-authors:
 github_id: monotykamary
-tags:
 ---
 
 ## What is a question tree?
@@ -29,3 +27,4 @@ Here are some examples of question trees of topics which have been investigated 
 
 - [](https://wals.info/chapter/116)[https://wals.info/chapter/116](https://wals.info/chapter/116)
 - [](https://wals.info/chapter/93)[https://wals.info/chapter/93](https://wals.info/chapter/93)
+

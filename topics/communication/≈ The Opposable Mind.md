@@ -1,8 +1,7 @@
 ---
-title: "≈ the opposable mind"
+title: ≈ the opposable mind
+description: Discover how successful leaders use integrative thinking to solve complex problems by combining different perspectives and avoiding simple either/or choices for creative solutions.
 date: null
-description: "Discover how successful leaders use integrative thinking to solve complex problems by combining different perspectives and avoiding simple either/or choices for creative solutions."
-tags:
 ---
 
 ## Summary
@@ -25,3 +24,4 @@ The most successful leaders practice what Martin calls "integrative thinking": a
 #### Citation
 
 Martin, Roger L. The Opposable Mind: How Successful Leaders Win Through Integrative Thinking. 1st edition. Boston, Mass: Harvard Business Review Press, 2007.
+

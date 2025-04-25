@@ -1,8 +1,7 @@
 ---
-title: "Fleeting notes are reminders"
+title: Fleeting notes are reminders
+description: Fleeting notes are quick reminders taken during reading or thinking to capture ideas, best processed soon after to avoid forgetting and improve understanding through rewording.
 date: null
-description: "Fleeting notes are quick reminders taken during reading or thinking to capture ideas, best processed soon after to avoid forgetting and improve understanding through rewording."
-tags:
 ---
 
 "Fleeting notes" as described by Sönke Ahrens, refer to the scraps of notes we (should) habitually take while reading or thinking via some ubiquitous capture method (digital or analog). These are the raw material of ideas. They don't serve much purpose on their own but to act as reminders. Put them in an inbox to be processed later—but not too much later. If there's too much of a delay between capturing the fleeting notes and when we process them, we may forget information we wanted to keep.
@@ -26,3 +25,4 @@ Because fleeting notes are reminders, they can be trashed after they've been pro
 Ahrens, Sönke. _How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers_. Sönke Ahrens, 2017.
 
 Luhmann, Niklas. “Communicating with Slip Boxes.” Translated by Manfred Kuehn. Two Essays by Niklas Luhmann. Accessed October 19, 2020. https://luhmann.surge.sh/communicating-with-slip-boxes.
+

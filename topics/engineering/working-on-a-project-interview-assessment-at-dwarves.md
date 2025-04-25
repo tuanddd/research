@@ -1,7 +1,7 @@
 ---
 title: Working On A Project Interview Assessment At Dwarves
-date: 2023-06-08
 description: Discover how a paid coding project at Dwarves using Discord API and Elixir provided a unique interview experience focused on real backend data engineering and engagement analytics.
+date: 2023-06-08
 tags:
   - engineering
   - bounty
@@ -172,3 +172,4 @@ I learned a lot from this project: working with Discord API and understanding it
 I heard about paid projects as an interviewing method before, but doing it with Dwarves is my first real experience with the method, and I feel fairly positive after all. The benefits are clear: the interviewer is going to have a clear understanding and a full evaluation of the interviewee, and the interviewee can also experience first-hand how is it working at the company. The drawback of time consumption for both sides can also be easily seen. Unable to be used at scale for manpower problems is another drawback that I find.
 
 In the end, I enjoy my interviewing experience with Dwarves, and feel that they live up to their value of craftsmanship.
+

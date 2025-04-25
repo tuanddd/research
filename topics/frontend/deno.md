@@ -1,10 +1,8 @@
 ---
 title: Deno
+description: Discover Deno, a secure JavaScript runtime built in Rust with native TypeScript, WASM, and ESM support, designed for modern web APIs and easy deployment without complex build tools.
 date: 2022-03-17
-description: "Discover Deno, a secure JavaScript runtime built in Rust with native TypeScript, WASM, and ESM support, designed for modern web APIs and easy deployment without complex build tools."
-authors:
 github_id: huygn
-tags:
 ---
 
 ## What
@@ -68,3 +66,4 @@ Interesting projects to follow:
 
 - https://github.com/exhibitionist-digital/ultra
 - https://github.com/lucacasonato/fresh
+

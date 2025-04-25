@@ -1,10 +1,10 @@
 ---
 title: "Go Weekly #2: Go 1.23 Iterators"
-date: 2024-07-05
+short_title: "#2 Go 1.23 Iterators"
 description: Exploring the new Go package for iterators - learn what it is, what the controversy is about, and how to use it.
+date: 2024-07-05
 authors:
   - fuatto
-short_title: "#2 Go 1.23 Iterators"
 tags:
   - golang
   - iterators
@@ -84,3 +84,4 @@ tags:
 - https://www.gingerbill.org/article/2024/06/17/go-iterator-design/
 - https://github.com/golang/go/issues/61897
 - https://en.wikipedia.org/wiki/Container_(abstract_data_type)
+

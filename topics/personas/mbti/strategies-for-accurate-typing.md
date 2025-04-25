@@ -1,9 +1,9 @@
 ---
 title: Strategies for Accurate Typing
-date: null
 description: Discover how to understand your personality type using the function stack framework through tests, self-reflection, and discussion, while exploring childhood memories and balancing inconsistencies for deeper insight.
-tag: MBTI
+date: null
 URL: "https://drive.google.com/file/d/1n8ID_iXqzs6cMZlRS0Su7lQUhrfd7khh/view?usp=sharing"
+tag: MBTI
 ---
 
 Book: My True Type, page 18 - 22
@@ -23,3 +23,4 @@ Additional:
 - Enantiodromia: ám chỉ việc lật một thứ gì đó sang chiều ngược lại.
 - Put Inconsistencies in Perspective
 - Avoid Over-Focusing on Particulars
+

@@ -1,7 +1,7 @@
 ---
 title: Easy Prompt Engineering For Business Use And Mitigating Risks In Llms
-date: 2023-05-22
 description: Learn essential prompt engineering techniques for ChatGPT to improve business app accuracy, handle complex tasks, and defend against risks like adversarial prompting and data leaks.
+date: 2023-05-22
 tags:
   - engineering
   - llm
@@ -82,3 +82,4 @@ At the end of the day, prompt engineering is an essential tool for improving the
 - [https://learnprompting.org/](https://learnprompting.org/)
 - [https://www.promptingguide.ai/risks/adversarial](https://www.promptingguide.ai/risks/adversarial)
 - [https://ai.googleblog.com/2022/05/language-models-perform-reasoning-via.html](https://ai.googleblog.com/2022/05/language-models-perform-reasoning-via.html)
+

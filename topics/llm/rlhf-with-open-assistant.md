@@ -1,7 +1,7 @@
 ---
 title: RLHF with Open Assistant
-date: 2023-08-10
 description: An overview of Open Assistant, an open-source chat-based AI assistant, and its implementation of Reinforcement Learning from Human Feedback (RLHF). This article covers the three-step process of RLHF, system requirements, and detailed setup instructions for training the model using Supervised Fine-Tuning, Reward Modeling, and Reinforcement Learning.
+date: 2023-08-10
 authors:
   - toanbku
 github_id: toanbku
@@ -156,3 +156,4 @@ In conclusion, Open Assistant (OA) is a chat-based, open-source assistant design
 - <https://projects.laion.ai/Open-Assistant/docs/guides/developers>
 - <https://open-assistant.io/>
 - <https://huggingface.co/EleutherAI>
+

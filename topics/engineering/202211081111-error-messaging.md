@@ -1,7 +1,7 @@
 ---
 title: Error Messaging
-date: 2022-11-08
 description: What makes a bad error message
+date: 2022-11-08
 authors:
   - trankhacvy
 tags:
@@ -27,3 +27,4 @@ Reference: <https://wix-ux.com/when-life-gives-you-lemons-write-better-error-mes
 
 ![](assets/202211081111---error-messaging_pasted-image-20221108111328.webp)
 ![](assets/202211081111---error-messaging_pasted-image-20221108111346.webp)
+

@@ -1,7 +1,7 @@
 ---
 title: Software Modeling
-date: 2020-05-08
 description: Learn how software modeling improves system maintainability and scalability by defining core objects, using diagrams like ERD, SMD, and USD to design clear, efficient applications.
+date: 2020-05-08
 tags:
   - modeling
 ---
@@ -148,3 +148,4 @@ Software Modeling in Agile team
 - Every change can create a big impact on the system. In Agile, a product can be modified continuously, Software Modeling needs to be updated during the whole cycle to make sure the newbies can catch up
 
 When we have the insight and the view of the Product Owner, it's easier to create an effective and outstanding outcome. This also reveals the spirit we've been pursuing - Craftsmanship, by providing client with values from their own perspective.
+

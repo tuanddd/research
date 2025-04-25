@@ -1,7 +1,7 @@
 ---
 title: Hoc Renderprops And Hook In Reactjs
-date: 2019-04-12
 description: Learn how to refactor React.js components using HOC, render props, and hooks to create reusable toggle logic that follows the DRY principle and simplifies state management.
+date: 2019-04-12
 tags:
   - reactjs
 ---
@@ -337,3 +337,4 @@ view rawApp.js hosted with ❤ by GitHub
 Although Hook is the best solution to reduce DRY in react.js application in mine opinion, HOC component and render props is still a viable choice in some specific or edge use case.
 
 Source code repository: [https://github.com/phmngocnghia/demo-hoc-render-props-hook](https://github.com/phmngocnghia/demo-hoc-render-props-hook)
+

@@ -1,7 +1,7 @@
 ---
 title: Docker Microcontainers
-date: 2016-02-04
 description: Learn how to create ultra-small Docker images using the scratch image to deploy Go web apps with minimal size and faster downloads by cross-compiling and building lightweight containers.
+date: 2016-02-04
 tags:
   - docker
 ---
@@ -62,3 +62,4 @@ ENTRYPOINT ["/web/web"]
 - Your laptop had an image, which is beego-web
 
 ![](assets/docker-microcontainers_ae0b817a27464a31365a74e65dc37101_md5.webp)
+

@@ -1,11 +1,9 @@
 ---
-title: "Graphql in microservices unified api gateway"
+title: Graphql in microservices unified api gateway
+description: Discover how Bramble, an open-source GraphQL federation gateway, unifies multiple APIs into a single scalable schema with fine-grained access control and easy deployment for modern microservice architectures.
 date: 2023-03-29
-description: "Discover how Bramble, an open-source GraphQL federation gateway, unifies multiple APIs into a single scalable schema with fine-grained access control and easy deployment for modern microservice architectures."
-authors:
 github_id: mirageruler
 icy: 10
-tags:
 ---
 
 ## Preamble
@@ -179,3 +177,4 @@ In the query above, it is completely transparent for the user that  `title`  
 - https://movio.co/blog/building-a-new-api-platform-for-movio/
 - https://github.com/movio/bramble
 - https://medium.com/@aaivazis/a-guide-to-graphql-schema-federation-part-1-995b639ac035
+

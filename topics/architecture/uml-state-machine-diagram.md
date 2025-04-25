@@ -1,11 +1,9 @@
 ---
-title: "Uml state machine diagram"
+title: Uml state machine diagram
+description: Learn how UML State Machine Diagrams visualize object states, transitions, events, and actions to model dynamic system behavior in software development, embedded systems, and more.
 date: 2023-08-16
-description: "Learn how UML State Machine Diagrams visualize object states, transitions, events, and actions to model dynamic system behavior in software development, embedded systems, and more."
-authors:
 github_id: trankhacvy
 icy: 10
-tags:
 ---
 
 ## UML state machine diagram
@@ -78,3 +76,4 @@ UML State Machine Diagrams are a powerful tool for modeling and understanding th
 - https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-state-machine-diagram/
 - https://sparxsystems.com/resources/tutorials/uml2/state-diagram.html
 - https://www.lucidchart.com/pages/uml-state-machine-diagram
+

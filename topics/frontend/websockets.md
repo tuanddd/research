@@ -1,7 +1,7 @@
 ---
 title: WebSockets
-date: 2023-12-18
 description: WebSockets are a simple solution that is invented to solve the problems of HTTP polling for updating the data from the server, which has caused in high overhead, latency, and not-truthly realtime. WebSocket helps to maintain one single TCP connection for traffic in both directions for bidirectional soft-realtime communication.
+date: 2023-12-18
 authors:
   - tonible14012002
 github_id: tonible14012002
@@ -182,3 +182,4 @@ User can access `WebSocket.readyState` for getting the current state of a WebSoc
 - `1`: OPEN - Connection is open and ready to communicate
 - `2`: CLOSING - Connection is in closing process
 - `3`: CLOSED - Connection is closed or could not be opened
+

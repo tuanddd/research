@@ -1,12 +1,12 @@
 ---
 title: Data Pipeline Design Framework
-date: 2024-03-15
 description: To improve and strongly go-live the data pipeline, besides apply best practices and pillar for Data Pipeline Native Solution, a design framework and pattern are robustly help us in...
+date: 2024-03-15
 authors:
   - longbuivan
+discord_id: 1157659003527106600
 github_id: longbuivan
 icy: 15
-discord_id: 1157659003527106600
 tags:
   - data
   - data-pipeline
@@ -239,3 +239,4 @@ Last but not least, because of making development go well and maintenance more e
 
 I must lack of knowledge and experience and please email me if you have any questions, comments or advices.
 Have a talk and make it better.
+

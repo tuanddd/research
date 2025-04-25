@@ -1,7 +1,7 @@
 ---
 title: SQL and how it relates to Disk Reads and Writes
-date: 2023-09-06
 description: Sequential read/write operations involve accessing data in a continuous, linear manner. This typically occurs when transferring large files or accessing a large file on the drive. In sequential read/write operations, the drive can read or write data from a series of blocks, allowing for faster performance...
+date: 2023-09-06
 authors:
   - monotykamary
 github_id: monotykamary
@@ -101,3 +101,4 @@ In summary, SQL operations can result in either sequential or random read/write 
 - https://condusiv.com/sequential-io-always-outperforms-random-io-on-hard-disk-drives-or-ssds/
 - https://www.linkedin.com/pulse/how-cqrs-solves-problem-overloading-transactional-database-gontu-1e
 - https://dba.stackexchange.com/questions/285809/do-databases-optimize-random-write-and-read-operations
+

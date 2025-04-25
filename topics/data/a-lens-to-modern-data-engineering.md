@@ -1,10 +1,10 @@
 ---
 title: "Building a Data-Driven Project Reporting System: A Lens into Modern Data Engineering"
-date: 2024-10-29
+short_title: A Lens to Modern Data Engineering
 description: Learn how to transition from application development to data engineering by building a modern project reporting system. Discover essential mindset shifts, best practices, and hands-on look using tools like DuckDB, and Modal. Master system-level architecture and data pipeline design for scalable enterprise solutions.
+date: 2024-10-29
 authors:
   - monotykamary
-short_title: A Lens to Modern Data Engineering
 tags:
   - data-engineering
   - system-design
@@ -294,3 +294,4 @@ Our project reporting system serves as a microcosm of this transition. Through i
 What makes this transition challenging isn't the technical complexity – it's the required shift in mindset. But once you start seeing systems instead of features, patterns instead of transactions, and flows instead of requests, you'll never look at software engineering the same way again.
 
 Remember: In data engineering, the system is the feature. Your success isn't measured by individual components working correctly, but by how well they work together to create value greater than the sum of their parts.
+

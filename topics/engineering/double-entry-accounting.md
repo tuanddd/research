@@ -1,10 +1,8 @@
 ---
-title: "Double entry accounting"
+title: Double entry accounting
+description: Learn the basics of double-entry accounting, including assets, liabilities, equity, and how this system improves accuracy over single-entry bookkeeping for better financial tracking and reporting.
 date: 2022-08-24
-description: "Learn the basics of double-entry accounting, including assets, liabilities, equity, and how this system improves accuracy over single-entry bookkeeping for better financial tracking and reporting."
-authors:
 github_id: monotykamary
-tags:
 ---
 
 ## Introduction
@@ -242,3 +240,4 @@ $ hledger -f transactions.journal balance -t
 - <https://www.investopedia.com/terms/m/mortgage.asp>
 - <https://www.investopedia.com/terms/w/warranty.asp#:~:text=our%20editorial%20policies-,What%20Is%20a%20Warranty%3F,as%20originally%20described%20or%20intended>.
 - <https://www.ledger-cli.org/3.0/doc/ledger3.html#Understanding-Equity>
+

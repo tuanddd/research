@@ -1,10 +1,8 @@
 ---
-title: "Kotlin coroutine"
+title: Kotlin coroutine
+description: Learn Kotlin coroutines basics, structured concurrency, and how lightweight threads improve concurrent programming with examples of coroutine cancellation and job lifecycle.
 date: 2022-09-06
-description: "Learn Kotlin coroutines basics, structured concurrency, and how lightweight threads improve concurrent programming with examples of coroutine cancellation and job lifecycle."
-authors:
 github_id: khanhtruong
-tags:
 ---
 
 Starting from Kotlin 1.3, JetBrain introduces coroutine a light-weight thread. This article will focus on the basic concept of the coroutine and how you can use it in Kotlin.
@@ -180,3 +178,4 @@ fun main() {
 
 - [Article - Structured concurrency](https://proandroiddev.com/structured-concurrency-in-action-97c749a8f755#:~:text=%E2%80%9CStructured%20concurrency%E2%80%9D%20refers%20to%20a,scope%20of%20a%20parent%20operation.)
 - [Kotlin doc - Coroutine basic](https://kotlinlang.org/docs/coroutines-basics.html)
+

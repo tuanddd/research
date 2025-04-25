@@ -1,10 +1,8 @@
 ---
-title: "Moore machine"
+title: Moore machine
+description: Learn about Moore machines, a type of finite-state machine where outputs depend only on current states, and explore their differences from Mealy machines and formal definitions.
 date: 2022-06-28
-description: "Learn about Moore machines, a type of finite-state machine where outputs depend only on current states, and explore their differences from Mealy machines and formal definitions."
-authors:
 github_id: monotykamary
-tags:
 ---
 
 ## What is a Moore machine?
@@ -91,3 +89,4 @@ Both Mealy and Moore machines are generator-type state machines and can be used 
 - https://en.wikipedia.org/wiki/Mealy_machine
 - https://www.cs.ucdavis.edu/~rogaway/classes/120/spring13/eric-transducers
 - https://unstop.com/blog/difference-between-mealy-and-moore-machine
+

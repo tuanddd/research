@@ -1,10 +1,8 @@
 ---
-title: "Acceptance test in elixir"
+title: Acceptance test in elixir
+description: Learn how to automate End2End acceptance tests in Elixir using Hound and WebDriver to run browser tests efficiently and reduce manual testing time.
 date: 2022-07-13
-description: "Learn how to automate End2End acceptance tests in Elixir using Hound and WebDriver to run browser tests efficiently and reduce manual testing time."
-authors:
 github_id: hieuphq
-tags:
 ---
 
 Acceptance tests help ensure that applications we develop are deployed with minimal bugs. Manual acceptance testing is extremely valuable, but it can also be tedious and time-consuming. At DF, we've applied the automation End2End testing for our development process. In End2End test, we can open the web page, navigate on the web like a real user. In elixir project, we can do the same thing with [Hound](https://github.com/HashNuke/hound) and a WebDriver.
@@ -95,3 +93,4 @@ end
 ### Note
 
 Before run test we MUST start the web driver first https://hexdocs.pm/hound/Hound.Helpers.Navigation.html
+

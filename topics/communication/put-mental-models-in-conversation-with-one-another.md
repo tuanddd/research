@@ -1,8 +1,7 @@
 ---
-title: "Put mental models in conversation with one another"
+title: Put mental models in conversation with one another
+description: Learn how applying multiple mental models and diverse perspectives improves decision-making by revealing hidden insights and overcoming narrow, specialized thinking.
 date: null
-description: "Learn how applying multiple mental models and diverse perspectives improves decision-making by revealing hidden insights and overcoming narrow, specialized thinking."
-tags:
 ---
 
 Mental models are tools that help us more efficiently arrive at decisions: they filter information and give it narrative shape. But they always represent a particular lens. They help make meaning, but meaning comes at the expense of information.
@@ -25,3 +24,4 @@ Roger Martin calls this practice "assertive inquiry."
 #### Citations
 
 [Martin, Roger L. The Opposable Mind: How Successful Leaders Win Through Integrative Thinking. 1st edition. Boston, Mass: Harvard Business Review Press, 2007.](https://publish.obsidian.md/mobydiction/notes/%E2%89%88+Martin+-+The+Opposable+Mind)
+

@@ -1,7 +1,7 @@
 ---
 title: Erlang Finite State Machine
-date: 2024-07-12
 description: The Power of Finite State Machines
+date: 2024-07-12
 authors:
   - hieuphq
 tags:
@@ -79,3 +79,4 @@ The Catch Chicken Machine is a simple yet illustrative example of a finite state
 ## Conclusion
 
 Erlang's unique features make it an excellent choice for implementing finite state machines. By following best practices and leveraging the language's strengths, developers can create robust, scalable, and reliable FSMs. The Catch Chicken Machine example demonstrates how Erlang's concurrency, fault tolerance, and clear syntax contribute to effective FSM implementation. Embrace Erlang for your FSM needs and experience the benefits firsthand.
+

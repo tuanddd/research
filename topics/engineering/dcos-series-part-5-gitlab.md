@@ -1,7 +1,7 @@
 ---
 title: Dcos Series Part 5 Gitlab
-date: 2017-06-11
 description: Learn how to install and secure Gitlab on DC/OS with HTTPS, configure domain and email settings, and manage private Git repositories for small teams using step-by-step instructions.
+date: 2017-06-11
 tags:
   - dcos
 ---
@@ -70,3 +70,4 @@ sudo mv cert.pem /srv/marathon-lb/domains/ssl/example-git-domain.com
 - After updating those settings, you now can go to `your-gitlab-domain.com` to enjoy your result.
 
 If you face anything weird while setting up your Gitlab, you can contact me via `quang@dwarvesf.com.`
+

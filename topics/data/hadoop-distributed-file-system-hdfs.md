@@ -1,10 +1,8 @@
 ---
-title: "Hadoop distributed file system hdfs"
+title: Hadoop distributed file system hdfs
+description: Learn why Hadoop Distributed File System (HDFS) is essential for big data, enabling block-based storage, fault tolerance through replication, and scalable distributed file management across clusters.
 date: 2022-06-15
-description: "Learn why Hadoop Distributed File System (HDFS) is essential for big data, enabling block-based storage, fault tolerance through replication, and scalable distributed file management across clusters."
-authors:
 github_id: dudaka
-tags:
 ---
 
 ## HDFS - Why Another FileSystem?
@@ -248,3 +246,4 @@ For example, the block we are writing is named Block 123. While writing Block 12
 - https://hadoop.apache.org/
 - https://en.wikipedia.org/wiki/Apache_Hadoop
 - [Hadoop: The Definitive Guide: Storage and Analysis at Internet Scale](https://www.amazon.com/Hadoop-Definitive-Storage-Analysis-Internet/dp/1491901632/ref=sr_1_2?crid=2LTQHKE9WNBNC&keywords=Hadoop&qid=1657604708&sprefix=hadoop%2Caps%2C127&sr=8-2)
+

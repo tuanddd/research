@@ -1,7 +1,7 @@
 ---
 title: "Parse, don't validate in TypeScript"
+description: "The \"parse, don't validate\" approach is about processing incoming data and failing in a controlled manner if parsing fails."
 date: 2023-01-05
-description: 'The "parse, don''t validate" approach is about processing incoming data and failing in a controlled manner if parsing fails.'
 authors:
   - namtrhg
 github_id: namtrhg
@@ -121,3 +121,4 @@ function myHandler(): Response {
 ### Reference
 
 https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/ https://en.wikipedia.org/wiki/Parsing https://itnext.io/parse-dont-validate-incoming-data-in-typescript-d6d5bfb092c8
+

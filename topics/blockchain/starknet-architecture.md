@@ -1,7 +1,7 @@
 ---
 title: StarkNet architecture
-date: 2022-12-26
 description: "This article provides an overview of StarkNet's architecture, including its main components, how it works, and its transaction lifecycle. It also covers the messaging mechanism between Layer 1 and Layer 2, as well as the node clients used in the StarkNet network."
+date: 2022-12-26
 authors:
   - thanhpn
 github_id: thanhpn
@@ -76,3 +76,4 @@ StarkNet nodes use the [Pathfinder](https://github.com/eqlabs/pathfinder) or the
 
 - [StarkNet core](https://etherscan.io/address/0xc662c410c0ecf747543f5ba90660f6abebd9c8c4)
 - [StarkNet Operator](https://etherscan.io/address/0x2c169dfe5fbba12957bdd0ba47d9cedbfe260ca7)
+

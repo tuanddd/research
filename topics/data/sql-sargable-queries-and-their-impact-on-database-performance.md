@@ -1,7 +1,7 @@
 ---
 title: SQL Saragable Queries and Their Impact on Database Performance
+description: Structured Query Language (SQL) is widely used for managing data in relational database management systems (RDBMS). In the context of SQL, the optimization of database queries forms the foundation for efficient data retrieval, providing quicker response times and increasing overall database performance. One key strategy to optimize SQL queries involves the concept of "Sargable" queries...
 date: 2023-09-14
-description: 'Structured Query Language (SQL) is widely used for managing data in relational database management systems (RDBMS). In the context of SQL, the optimization of database queries forms the foundation for efficient data retrieval, providing quicker response times and increasing overall database performance. One key strategy to optimize SQL queries involves the concept of "Sargable" queries...'
 authors:
   - monotykamary
 github_id: monotykamary
@@ -101,3 +101,4 @@ By understanding how sargable queries can take advantage and efficiently use ind
 - https://www.tech-recipes.com/uncategorized/sargable-queries-in-sql-server-with-examples/
 - https://www.mssqltips.com/sqlservertip/6795/improve-sql-server-query-performance-searchable-arguments/
 - https://dba.stackexchange.com/questions/162263/what-does-the-word-sargable-really-mean
+

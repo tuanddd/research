@@ -1,8 +1,9 @@
 ---
 title: § Mobile
-date: 2025-04-23
 description: Explore essential mobile development topics including Flutter widgets, SwiftUI, Kotlin coroutines, and iOS security with practical guides and case studies for building modern apps.
-authors: zlatanpham
+date: 2025-04-23
+authors:
+  - zlatanpham
 tags:
   - mobile
   - moc
@@ -36,3 +37,4 @@ tags:
 
 - [Scale up application using Jetpack Navigation](scale-up-application-using-jetpack-navigation.md)
 - [XPC Services on macOS app using Swift](xpc-services-on-macos-app-using-swift.md)
+

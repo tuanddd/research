@@ -1,3 +1,9 @@
+---
+title: null
+description: null
+date: null
+---
+
 ## Notes submitted within past month
 
 ```dataviewjs
@@ -39,3 +45,4 @@ const { headers, values } = pagesQuery.value
 
 dv.table(headers, values);
 ```
+

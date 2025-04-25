@@ -1,7 +1,7 @@
 ---
 title: Visitor design pattern, the concept, problem solution and use cases
-date: 2024-07-12
 description: Visitor is a behavioral design pattern that lets you separate algorithms from the objects on which they operate.
+date: 2024-07-12
 authors:
   - taipham1803
 tags:
@@ -306,3 +306,4 @@ Some use cases for the Visitor Pattern:
 
 - **Elements:** `Button`, `TextField`, `Checkbox`
 - **Visitors:** `RenderVisitor`, `EventHandlingVisitor`, `ValidationVisitor`
+

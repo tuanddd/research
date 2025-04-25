@@ -1,7 +1,7 @@
 ---
 title: React Fiber
-date: 2022-10-13
 description: Fiber is the new reconciliation algorithm since React 16, a completely backward-compatible rewrite of the old reconciler (Stack Reconciler).
+date: 2022-10-13
 authors:
   - ngolapnguyen
 discord_channel: engineering
@@ -30,3 +30,4 @@ With the old Stack Reconciler, reconciliation and rendering work weren’t separ
 - https://www.geeksforgeeks.org/reactjs-reconciliation/
 - https://www.velotio.com/engineering-blog/react-fiber-algorithm
 - https://flexiple.com/react/react-fiber/
+

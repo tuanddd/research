@@ -1,7 +1,7 @@
 ---
 title: Lessons Learned From Being A Part Of Corporate Micro Frontend Implementation
-date: 2023-04-24
 description: Discover how micro-frontend architecture boosts large-scale frontend development with independent teams, shared components, and efficient communication for scalable, maintainable, and collaborative web applications.
+date: 2023-04-24
 tags:
   - web
   - micro-frontend
@@ -95,3 +95,4 @@ To manage versioning and dependencies, we utilized a dedicated package manager f
 ## Wrapping Up
 
 Micro-frontend implementation presents a flexible and efficient approach to handling large-scale frontend development with multiple teams and vendors. By adopting best practices and learning from real-world experiences, organizations can harness this architecture to enhance productivity, collaboration, and maintainability in their frontend projects. By delving into the technical aspects and addressing potential challenges, developers can unlock the full potential of micro-frontend architecture and create scalable, modular, and maintainable applications that cater to the needs of diverse teams and stakeholders.
+

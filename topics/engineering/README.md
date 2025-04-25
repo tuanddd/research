@@ -1,8 +1,9 @@
 ---
 title: § Engineering
-date: 2025-04-23
 description: Explore comprehensive engineering topics including backend development, management strategies, and web performance fundamentals to enhance your software skills and team productivity.
-authors: zlatanpham
+date: 2025-04-23
+authors:
+  - zlatanpham
 tags:
   - engineering
   - moc
@@ -91,3 +92,4 @@ tags:
 - [[the-fundamental-of-web-performance|The Fundamental Of Web Performance]]
 - [[why-dom-manipulation-is-slow|Why DOM Manipulation Is Slow?]]
 - [[why-virtual-dom-is-fast|Why Virtual DOM Is Fast?]]
+

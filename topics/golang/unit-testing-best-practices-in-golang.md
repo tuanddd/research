@@ -1,7 +1,7 @@
 ---
 title: Unit Testing Best Practices In Golang
-date: 2023-04-11
 description: An in-depth exploration of arrays and slices in Go, covering their differences, internal implementations, and key operations like append. Learn about fixed-length arrays, flexible slices, and how Go manages memory allocation for growing slices.
+date: 2023-04-11
 authors:
   - taynguyen
 tags:
@@ -247,3 +247,4 @@ Remember, testing is not a one-time task but an ongoing process that should be i
 [https://www.freecodecamp.org/news/a-beginners-guide-to-testing-implement-these-quick-checks-to-test-your-code-d50027ad5eed/](https://www.freecodecamp.org/news/a-beginners-guide-to-testing-implement-these-quick-checks-to-test-your-code-d50027ad5eed/)
 
 [https://testing.googleblog.com/2020/08/code-coverage-best-practices.html](https://testing.googleblog.com/2020/08/code-coverage-best-practices.html)
+

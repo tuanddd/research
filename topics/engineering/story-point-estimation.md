@@ -1,10 +1,8 @@
 ---
-title: "Story point estimation"
+title: Story point estimation
+description: Learn how agile teams use story points and collaborative methods like Planning Poker to estimate workloads accurately, improving sprint planning and product development efficiency.
 date: 2022-09-15
-description: "Learn how agile teams use story points and collaborative methods like Planning Poker to estimate workloads accurately, improving sprint planning and product development efficiency."
-authors:
 github_id: nhuthm
-tags:
 ---
 
 From most of the team project, with higher roles like: project manager, product owner, and engineering manager will need to understand the workload of each members from the team, to see what they has been doing so far in the product development. The story point is one of the way to determine that.
@@ -37,3 +35,4 @@ After every sprint, we have a meeting calls "Retrospectives", each members will 
 
 - https://www.atlassian.com/agile/project-management/estimation
 - https://www.atlassian.com/blog/platform/a-brief-overview-of-planning-poker
+

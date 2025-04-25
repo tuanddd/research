@@ -1,11 +1,9 @@
 ---
-title: "Behind a hive table"
+title: Behind a hive table
+description: Learn how to create and understand Hive tables, including table structure, storage formats, SerDe functions, HDFS data location, and metadata management in the Hive metastore.
 date: 2022-11-11
-description: "Learn how to create and understand Hive tables, including table structure, storage formats, SerDe functions, HDFS data location, and metadata management in the Hive metastore."
-authors:
 github_id: dudaka
 icy: 10
-tags:
 ---
 
 From the last article, [[Introduction to Apache Hive]], we saw how to create a database and a table in Hive. In this article, we will look at the details behind a Hive table. More importantly, we'll see what are the essential elements that is needed behind the Hive table. We've already created this database `stocks_db` in our last article, so we won't do it again. Thus, we will execute `USE stocks_db;` to switch to the database `stocks_db`. Let's now create a table for the stocks data set.
@@ -49,3 +47,4 @@ Now we know about SerDe, we've also created a table and know the details and the
 Here is the contents of `hive-site.xml`, the very first property is the connection URL property will list the URL for MySQL, where the metastore database will be stored. This file also has information about the JDBC driver to be used and other connection properties like username and password to connect to the database. Therefore, now reading this file, Hive knows exactly how to connect to the metastore database, where just the metadata for the hive tables and databases are stored.
 
 Now we know how to create a table and where the metadata for the table resides. Let's finish this article by looking at a few drop commands. We can drop the database with drop database command, i.e. `DROP DATABASE stocks_db` and can drop the table with drop table command, i.e. `DROP TABLE stocks`. However, we can drop a database only when the database is empty. If the database already has tables, we will either have to drop the tables first before attempting to drop the database or do a cascade drop with command `DROP DATABASE  <the database name> CASCADE;`.
+

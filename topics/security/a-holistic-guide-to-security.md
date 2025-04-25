@@ -1,7 +1,7 @@
 ---
 title: "A Holistic: Guide to Security"
-date: 2024-09-06
 description: A high-level overview of how to implement a holistic approach to securing your application platform.
+date: 2024-09-06
 authors:
   - zlatanpham
 tags:
@@ -85,3 +85,4 @@ While this security roadmap offers a structured approach, it's important to reme
 ## Conclusion
 
 We hope this memo delivers a high-level overview of the key components required for a successful security implementation plan. While the security requirements of every business may differ, we believe this approach can serve as a foundation for creating a customized strategy that aligns with your particular context.
+

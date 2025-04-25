@@ -1,7 +1,7 @@
 ---
-title: "Four theories of truth"
+title: Four theories of truth
+description: Explore the four main theories of truth—correspondence, coherence, consensus, and pragmatic—to understand how claims are evaluated and applied across cultures and disciplines.
 date: null
-description: "Explore the four main theories of truth—correspondence, coherence, consensus, and pragmatic—to understand how claims are evaluated and applied across cultures and disciplines."
 ---
 
 In epistemology, there are generally four theories by which a claim may be evaluated as true. These are
@@ -31,3 +31,4 @@ Collectively, we rely on each of these theories of truth in different situations
 #### Citations
 
 Chin, Cedric. “The Four Theories of Truth As a Method for Critical Thinking.” Commonplace - The Commoncog Blog (blog), September 15, 2020. [Link](https://commoncog.com/blog/four-theories-of-truth/).
+

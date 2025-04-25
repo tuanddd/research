@@ -1,7 +1,7 @@
 ---
 title: Database Designs For Multilingual Apps
-date: 2023-04-11
 description: Learn how to design multilingual databases using column-based, JSON-based, and translation table approaches to efficiently manage multi-language support for apps with scalable and flexible solutions.
+date: 2023-04-11
 tags:
   - research
   - engineering
@@ -169,3 +169,4 @@ The translation table approach is suitable for applications of any size that req
 In conclusion, designing a multilingual database involves several moving parts that need to be taken into account, such as character encoding, language-specific data storage requirements, and translation tables. The selection of an approach depends on the specific requirements of the application and the expected data volume. Small to medium-sized applications may use a column-based or column JSON-based approach, while larger applications may benefit from a translation table-based approach.
 
 In summary, the column-based approach is simple and easy to implement but not scalable, the column JSON-based approach reduces the number of columns needed, but can become difficult to manage, and the translation table approach is scalable and flexible but more complex to implement. By understanding the pros and cons of each approach, developers can make informed decisions about which solution best fits their needs.
+

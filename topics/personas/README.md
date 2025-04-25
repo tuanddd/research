@@ -1,8 +1,7 @@
 ---
-title: "§ Personas"
+title: § Personas
+description: Learn how to create effective user personas based on qualitative research to improve UX by focusing on user tasks, goals, and motivations while avoiding assumptions and lack of context.
 date: null
-description: "Learn how to create effective user personas based on qualitative research to improve UX by focusing on user tasks, goals, and motivations while avoiding assumptions and lack of context."
-tags:
 ---
 
 ## General information
@@ -27,3 +26,4 @@ tags:
 - [[Focus personas on tasks, goals, and motivations]]
 - [[How many users should you interview]]
 - [[§ UX Research]]
+

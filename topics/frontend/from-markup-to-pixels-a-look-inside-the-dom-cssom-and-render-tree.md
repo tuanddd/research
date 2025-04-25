@@ -1,7 +1,7 @@
 ---
 title: From Markup to Pixels - A look inside the DOM, CSSOM, and Render Tree
-date: 2023-09-11
 description: A deep dive into the rendering process of a web page, exploring the Document Object Model (DOM), CSS Object Model (CSSOM), and the Render Tree.
+date: 2023-09-11
 authors:
   - nguyend-nam
 github_id: nguyend-nam
@@ -94,3 +94,4 @@ _Image Source: [Inside look at modern web browser (part 3)](https://developer.ch
 - https://blog.logrocket.com/how-browser-rendering-works-behind-scenes/
 - https://dev.to/arikaturika/series/17842
 - https://twitter.com/alexxubyte/status/1534201516063461376
+

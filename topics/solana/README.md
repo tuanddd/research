@@ -1,8 +1,9 @@
 ---
 title: § Solana
-date: 2025-04-23
 description: Explore comprehensive guides on Solana core concepts, token standards, NFTs, development frameworks like Anchor, and DeFi innovations to build and optimize projects on the Solana blockchain.
-authors: zlatanpham
+date: 2025-04-23
+authors:
+  - zlatanpham
 tags:
   - solana
   - blockchain
@@ -35,3 +36,4 @@ tags:
 - [Placeholder: Solana Program Development Best Practices](solana-program-development-best-practices.md)
 - [Placeholder: Solana Security & Auditing](solana-security-auditing.md)
 - [Placeholder: Solana Performance Optimization](solana-performance-optimization.md)
+

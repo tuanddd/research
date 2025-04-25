@@ -1,7 +1,7 @@
 ---
 title: Gestalt Principles In Ui Design
-date: 2020-07-13
 description: Learn how Gestalt principles like Proximity, Similarity, and Closure improve UI design by organizing elements for better usability, clear visual hierarchy, and enhanced user experience.
+date: 2020-07-13
 tags:
   - design
   - technique
@@ -82,3 +82,4 @@ User Interface isn't only about aesthetics. It's also about usability, performan
 Gestalt Principles will be an active supporter for us during our UI design process. Before we fully understand UI's beauty and how to create it, those principles are our guidance.
 
 However, never limit yourself to any line or principles. Rules are subjected to be broken. Feel free to stay creative. A great UI design is a harmonious combination of accessibility, feasibility, and art.
+

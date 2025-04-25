@@ -1,7 +1,7 @@
 ---
 title: Design Resourcestools
-date: 2018-03-25
 description: Discover top UX design resources, including expert articles, communities, podcasts, books, and tools to improve user experience and master UX design techniques effectively.
+date: 2018-03-25
 tags:
   - design
 ---
@@ -95,3 +95,4 @@ Part of the Lean Startup movement, this book introduces the process for Lean UX.
 ### Wireframes
 
 - **[Balsamiq](https://balsamiq.com/)** - Basic, straightforward wireframe tool with web and desktop versions.
+

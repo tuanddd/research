@@ -1,8 +1,7 @@
 ---
-title: "≈ the elements of story"
+title: ≈ the elements of story
+description: Learn key nonfiction writing techniques from Francis Flaherty’s manual, covering narrative sequencing, strong leads, clear language, and storytelling that makes abstract ideas relatable and memorable.
 date: null
-description: "Learn key nonfiction writing techniques from Francis Flaherty’s manual, covering narrative sequencing, strong leads, clear language, and storytelling that makes abstract ideas relatable and memorable."
-tags:
 ---
 
 ## Summary
@@ -25,3 +24,4 @@ A manual on the craft of nonfiction writing from a "story doctor" for the _New Y
 #### Citation
 
 Flaherty, Francis. _The Elements of Story: Field Notes on Nonfiction Writing._ Reprint edition. Harper Perennial, 2010.
+

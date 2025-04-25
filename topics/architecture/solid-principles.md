@@ -1,11 +1,9 @@
 ---
-title: "Solid principles"
+title: Solid principles
+description: Learn the SOLID principles of object-oriented design to create clean, maintainable, and flexible code with key concepts like Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion.
 date: 2023-04-20
-description: "Learn the SOLID principles of object-oriented design to create clean, maintainable, and flexible code with key concepts like Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion."
-authors:
 github_id: nguyend-nam
 icy: 10
-tags:
 ---
 
 ## What & Why?
@@ -345,3 +343,4 @@ Applying the Single Responsibility or Liskov Substitution principle helps us to 
 - https://www.freecodecamp.org/news/solid-design-principles-in-software-development/
 - https://www.baeldung.com/solid-principles
 - https://dev.to/galwaycoder/the-solid-principles-in-software-design-explained-53n
+

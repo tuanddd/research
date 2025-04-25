@@ -1,7 +1,7 @@
 ---
 title: A Grand Unified Theory of the AI Hype Cycle
-date: 2024-06-13
 description: An exploration of the cyclical nature of AI development, tracing the rise and fall of new technologies within the field, and how this pattern has repeated throughout history.
+date: 2024-06-13
 authors:
   - tieubao
 tags:
@@ -59,3 +59,4 @@ I cannot tell you when the current mania will end and this bubble will burst. If
 ---
 
 https://blog.glyph.im/2024/05/grand-unified-ai-hype.html
+

@@ -1,10 +1,10 @@
 ---
 title: Code splitting in React
-date: 2024-10-29
+short_title: Code splitting
 description: Optimize JavaScript performance with code splitting techniques like route-based splitting, lazy loading, and dynamic imports
+date: 2024-10-29
 authors:
   - zlatanpham
-short_title: Code splitting
 tags:
   - react
   - performance
@@ -267,3 +267,4 @@ Explanation:
 | **Lazy Loading Images**        | Reducing initial page weight for media-rich applications | `loading="lazy"` attribute on images                   |
 
 Each of these techniques targets a specific aspect of load management and bundle optimization, providing flexibility to load only what’s necessary. Applying them strategically improves both the initial load time and the user experience throughout the app, especially as users navigate or interact more deeply with various parts of the application.
+

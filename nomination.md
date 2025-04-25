@@ -1,7 +1,7 @@
 ---
 title: Reward model & nomination
-date: 2023-11-21
 description: Our Tech Labs is a hub of continuous learning and application of advanced technologies. This program is designed to celebrate contributions at various levels, from enhancing knowledge to contributing to business growth.
+date: 2023-11-21
 authors:
   - zlatanpham
 tags:
@@ -36,3 +36,4 @@ Our Tech Labs is a hub of continuous learning and application of advanced techno
 ## Monthly Recognition Session
 
 Every month, we host a Community Call to update our engineers and community on what is happening. In the call, we'll host a special segment to honor these accomplishments as well as do a public announcement on our Discord. This session will not only acknowledge the awardees but also aims to motivate the entire team, emphasizing our dedication to innovation and excellence.
+

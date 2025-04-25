@@ -1,7 +1,7 @@
 ---
 title: Metrics
-date: 2024-10-11
 description: Metrics give you the rundown on how your LLM’s performing. We will show how to use these metrics to identify issues, increase efficiency, and make changes for improved outcomes.
+date: 2024-10-11
 authors:
   - datnguyennnx
 tags:
@@ -124,3 +124,4 @@ Knowing and implementing a robust set of observability metrics in LLM applicatio
 - https://sebastianraschka.com/blog/2023/optimizing-LLMs-dataset-perspective.html
 - https://www.trulens.org/trulens/getting_started/core_concepts/feedback_functions/#large-language-model-evaluations
 - https://kili-technology.com/large-language-models-llms/how-to-build-llm-evaluation-datasets-for-your-domain-specific-use-cases
+

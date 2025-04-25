@@ -1,7 +1,7 @@
 ---
 title: "RAPTOR: Tree-based Retrieval for Language Models"
-date: 2024-07-10
 description: An overview of RAPTOR, a novel approach for improving retrieval-augmented language models for long documents using hierarchical tree summaries.
+date: 2024-07-10
 authors:
   - monotykamary
 tags:
@@ -55,3 +55,4 @@ i. Segments text into 100-token chunks ii. Embeds chunks using SBERT iii. Cluste
 Evaluation was conducted on NarrativeQA, QASPER, and QuALITY datasets, using metrics such as BLEU, ROUGE, METEOR, F1 score, and Accuracy.
 
 ![](assets/raptor-llm-retrieval.pdf)
+

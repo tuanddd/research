@@ -1,12 +1,12 @@
 ---
 title: Quick Learning Vector Database
-date: 2024-03-15
 description: The motivation of this thoughts that trying to discover the LLMs and Generative AI...
+date: 2024-03-15
 authors:
   - longbuivan
+discord_id: 1157659003527106600
 github_id: longbuivan
 icy: 10
-discord_id: 1157659003527106600
 tags:
   - data
   - vector-database
@@ -60,3 +60,4 @@ tags:
   - Optimize long-term caching memory
   - Hardware optimization for hosting and computing data
   - Improve KNN performance models
+

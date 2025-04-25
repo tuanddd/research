@@ -1,7 +1,7 @@
 ---
 title: § Building LLM system
-date: 2024-09-11
 description: This map of content (MoC) outlines the critical components required to design and build a large language model (LLM) system, focusing on architecture, model customization, safeguarding, performance evaluation, and more.
+date: 2024-09-11
 authors:
   - zlatanpham
 tags:
@@ -90,3 +90,4 @@ Monitoring the system's performance and orchestrating the complex AI workflows t
 
 - [Observability in AI platforms](observability-in-ai-platforms.md)
 - AI pipeline orchestration
+

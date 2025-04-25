@@ -1,7 +1,7 @@
 ---
 title: Prevent Layout Thrashing
-date: 2022-09-11
 description: Layout Thrashing happens, when you request layout information of an element or the document, while the layout is in an invalidated state.
+date: 2022-09-11
 authors:
   - thanhlmm
 github_id: thanhlmm
@@ -92,3 +92,4 @@ Generally, all APIs that synchronously provide layout metrics will trigger force
 
 - https://gist.github.com/paulirish/5d52fb081b3570c81e3a
 - https://afarkas.github.io/layout-thrashing/#/
+

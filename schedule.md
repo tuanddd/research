@@ -1,12 +1,12 @@
 ---
+title: Labs x Consulting Workflow
+description: This workflow consolidates how new tech is introduced through the Labs team and how it gets processed to Consulting team to apply for projects and bring awareness of our tech expertise.
+date: 2023-11-21
+authors:
+  - zlatanpham
 tags:
   - labs
   - process
-title: Labs x Consulting Workflow
-date: 2023-11-21
-description: This workflow consolidates how new tech is introduced through the Labs team and how it gets processed to Consulting team to apply for projects and bring awareness of our tech expertise.
-authors:
-  - zlatanpham
 ---
 
 This workflow consolidates how new tech is introduced through the Labs team and how it gets processed to Consulting team to apply for projects and bring awareness of our tech expertise.
@@ -39,3 +39,4 @@ This workflow summarizes the **three recommended meetings** we must have to be a
 The timeline for the adoption of new technology typically spans approximately 45 days, though this can vary depending on the complexity and nature of the technology. Here's a general outline of the process:
 
 ![](assets/labs-x-consulting-workflow_labs-topic-timeline-20231121174237957.webp)
+

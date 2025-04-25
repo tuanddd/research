@@ -1,7 +1,7 @@
 ---
-title: "¶ deductive reasoning"
+title: ¶ deductive reasoning
+description: Deductive research tests theories by gathering data to confirm or reject hypotheses, focusing on concrete conclusions rather than generating new knowledge or predicting future events.
 date: null
-description: "Deductive research tests theories by gathering data to confirm or reject hypotheses, focusing on concrete conclusions rather than generating new knowledge or predicting future events."
 ---
 
 In contrast to [[¶ Inductive reasoning | inductive research]], deductive research seeks to test a theory or hypothesis based on the observation of data. It begins with the general theory, and gathers data in order to validate or invalidate it. It necessarily leads to a concrete conclusion: the proposition is either true or it is false. Deductive research cannot increase human knowledge; it can only determine if existing knowledge is accurate. It can't be used to predict future events, or to provide insight into unobserved phenomena.
@@ -26,3 +26,4 @@ Roger Martin has argued that Western education favours deductive (and inductive)
 [[≈ Sensemaking | Madsbjerg, Christian. Sensemaking: The Power of the Humanities in the Age of the Algorithm. Hachette Books, 2017.]]
 
 [[≈ The Opposable Mind | Martin, Roger L. The Opposable Mind: How Successful Leaders Win Through Integrative Thinking. 1st edition. Boston, Mass: Harvard Business Review Press, 2007.]]
+

@@ -1,8 +1,9 @@
 ---
 title: § Blockchain
-date: 2025-04-23
 description: Explore comprehensive guides on blockchain technology, including foundational concepts, layer 2 scaling, security, smart contracts, zero-knowledge proofs, interoperability, and advanced topics to deepen your understanding and development skills.
-authors: zlatanpham
+date: 2025-04-23
+authors:
+  - zlatanpham
 tags:
   - blockchain
   - moc
@@ -59,3 +60,4 @@ tags:
 - [Web3 Development with Foundry](web3-development-with-foundry.md)
 - [Build custom AI Agent with ElizaOS](build-custom-ai-agent-with-elizaos.md)
 - [Blockchain for Designers](blockchain-for-designers.md)
+

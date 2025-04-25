@@ -1,7 +1,7 @@
 ---
 title: An Introduction to Atomic CSS
-date: 2022-10-13
 description: This article provides an overview of Atomic CSS, including its definition, variations, purposes, and how it compares to other CSS approaches.
+date: 2022-10-13
 authors:
   - ngolapnguyen
 github_id: ngolapnguyen
@@ -232,3 +232,4 @@ Refer back to [this section](#Reusability) for a sample scenario. Utility classe
 - https://antfu.me/posts/reimagine-atomic-css
 - https://css-tricks.com/growing-popularity-atomic-css/
 - https://css-tricks.com/lets-define-exactly-atomic-css/
+

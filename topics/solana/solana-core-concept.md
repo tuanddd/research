@@ -1,7 +1,7 @@
 ---
 title: Solana core concepts
-date: 2024-06-18
 description: build a strong understanding of the core concepts that make Solana different from other blockchains.
+date: 2024-06-18
 authors:
   - quanghuynguyen1902
 tags:
@@ -99,3 +99,4 @@ When a program initiates a Cross Program Invocation (CPI) to another program:
 ## References
 
 https://solana.com/docs
+

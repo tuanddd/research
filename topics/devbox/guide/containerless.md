@@ -1,7 +1,7 @@
 ---
 title: "Ditch the Containers: Go Containerless with Devbox"
-date: 2024-08-01
 description: "Build a lean, mean Golang backend without the container bloat. Here's how."
+date: 2024-08-01
 authors:
   - baenv
 tags:
@@ -214,3 +214,4 @@ Ready to leave containers behind? Give Devbox a shot. Your future self (and your
 - [Devbox Services Guide](https://www.jetify.com/devbox/docs/guides/services/)
 - [Devbox Plugins Guide](https://www.jetify.com/devbox/docs/guides/plugins/)
 - [Creating Custom Devbox Plugins](https://www.jetify.com/devbox/docs/guides/creating_plugins/)
+

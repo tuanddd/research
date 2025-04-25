@@ -1,8 +1,7 @@
 ---
-title: "Inform rather than persuade"
+title: Inform rather than persuade
+description: Learn how evidence communication promotes honest, transparent sharing of research by presenting uncertainties and conflicts to inform audiences without persuasion or bias.
 date: null
-description: "Learn how evidence communication promotes honest, transparent sharing of research by presenting uncertainties and conflicts to inform audiences without persuasion or bias."
-tags:
 ---
 
 Researchers sharing results should strive to inform their audiences rather than persuade them with partisan reporting. The goal should not be to change beliefs, but to provide people with information that they can determine themselves how best to respond to. This means avoiding neat, tidy narratives and focusing instead of honesty and transparency.
@@ -23,3 +22,4 @@ Misunderstandings and misconceptions should be anticipated and "pre-bunked," and
 #### Citations
 
 Blastland, Michael, Alexandra L. J. Freeman, Sander van der Linden, Theresa M. Marteau, and David Spiegelhalter. _“Five Rules for Evidence Communication.”_ Nature 587, no. 7834 (November 2020): 362–64. [Link](https://doi.org/10.1038/d41586-020-03189-1).
+

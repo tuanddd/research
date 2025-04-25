@@ -1,10 +1,8 @@
 ---
-title: "Statistics in data analysis"
+title: Statistics in data analysis
+description: Learn how key statistical distributions like uniform, normal, and Pareto help analyze data accurately and make better business decisions with meaningful insights.
 date: 2022-10-24
-description: "Learn how key statistical distributions like uniform, normal, and Pareto help analyze data accurately and make better business decisions with meaningful insights."
-authors:
 github_id: Bachpx2911
-tags:
 ---
 
 ## What is Statistics?
@@ -35,3 +33,4 @@ From my point of view, mastering distribution will bring huge benefit in underst
 
 - https://thebusinessprofessor.com/en_US/research-analysis-decision-science/normal-distribution-definition
 - https://www.sciencedirect.com/topics/computer-science/pareto-distribution
+

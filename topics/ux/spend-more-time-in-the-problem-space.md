@@ -1,8 +1,7 @@
 ---
-title: "Spend more time in the problem space"
+title: Spend more time in the problem space
+description: Learn why embracing uncertainty and spending more time understanding problems leads to better solutions by avoiding assumptions and applying thoughtful analysis in decision-making.
 date: null
-description: "Learn why embracing uncertainty and spending more time understanding problems leads to better solutions by avoiding assumptions and applying thoughtful analysis in decision-making."
-tags:
 ---
 
 It's tempting to rush to an answer. As Christian Madsbjerg has argued, we seem to want as a culture to turn creativity into an assembly line: we input problems, we output answers, all through some standardized process. We want to move as quickly as we can away from uncertainty and toward some kind of resolution.
@@ -29,3 +28,4 @@ Martin, Roger L. _The Opposable Mind: How Successful Leaders Win Through Integra
 Spool, Jared M. _“Customers Request Solutions. We Need to Understand Their Problems.”_ Medium (blog), August 16, 2019. [Link](https://medium.com/@jmspool/customers-request-solutions-we-need-to-understand-their-problems-41db3b5c6d4d).
 
 Varol, Ozan. _Think Like a Rocket Scientist: Simple Strategies You Can Use to Make Giant Leaps in Work and Life_. New York: PublicAffairs, 2020.
+

@@ -1,7 +1,7 @@
 ---
 title: "Nix Flakes: Next-Level Package Management"
-date: 2024-08-01
 description: Discover how Nix Flakes revolutionize package management with reproducibility and discoverability
+date: 2024-08-01
 authors:
   - baenv
 tags:
@@ -78,3 +78,4 @@ Ready to make your dev setup bulletproof? Give Nix Flakes a shot. It's time to t
 - [Nix Flakes Documentation](https://nix.dev/concepts/flakes.html)
 - [Nix Flake Command Reference](https://nix.dev/manual/nix/2.22/command-ref/new-cli/nix3-flake)
 - [Reddit: Explaining Flakes](https://www.reddit.com/r/NixOS/comments/131fvqs/can_someone_explain_to_me_what_a_flake_is_like_im/)
+

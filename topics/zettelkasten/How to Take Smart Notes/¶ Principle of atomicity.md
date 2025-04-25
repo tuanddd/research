@@ -1,8 +1,7 @@
 ---
-title: "¶ principle of atomicity"
+title: ¶ principle of atomicity
+description: Learn how the atomicity principle in the Zettelkasten method improves note-taking by focusing each note on a single clear idea for better connections and easier reuse.
 date: null
-description: "Learn how the atomicity principle in the Zettelkasten method improves note-taking by focusing each note on a single clear idea for better connections and easier reuse."
-tags:
 ---
 
 The principle of atomicity is a governing idea of the #Zettelkasten method of notetaking and knowledge management.
@@ -26,3 +25,4 @@ But, notes should not be so narrowly focused that they become fragments. If note
 Ahrens, Sönke. _How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers_. Sönke Ahrens, 2017.
 
 Matuschak, Andy. _“Evergreen Notes Should Be Atomic.”_ Andyʼs working notes. Accessed October 10, 2020. <https://notes.andymatuschak.org/Evergreen_notes_should_be_atomic>.
+

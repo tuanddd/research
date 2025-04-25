@@ -1,8 +1,9 @@
 ---
 title: § Design
-date: 2025-04-23
 description: Explore essential design fundamentals, UX principles, personas, and effective design systems to improve UI and product development with clear, practical tips and user-focused strategies.
-authors: zlatanpham
+date: 2025-04-23
+authors:
+  - zlatanpham
 tags:
   - design
   - moc
@@ -68,3 +69,4 @@ tags:
 ### Case studies & blog posts
 
 - [The correct way to build KPI](the-correct-way-to-build-kpi.md)
+

@@ -1,7 +1,7 @@
 ---
 title: Why Micro Frontend
-date: 2023-03-20
 description: As web applications become more complex and feature-rich, traditional frontend architectures such as monolithic will become harder to maintain, scale, and evolve. Micro-frontend is an emerging front-end architecture that aims to address these challenges by breaking down the front-end into small, independent and reusable modules.
+date: 2023-03-20
 authors:
   - ngolapnguyen
 tags:
@@ -150,3 +150,4 @@ Until next time!
 - [Micro-Frontend—Why and How? | Syncfusion Blogs](https://www.syncfusion.com/blogs/post/micro-frontend-why-and-how.aspx)
 - [Microfrontends Anti-Patterns: Seven Years in the Trenches](https://www.infoq.com/presentations/microfrontend-antipattern/)
 - [Micro Frontends - extending the microservice idea to frontend development (micro-frontends.org)](https://micro-frontends.org/)
+

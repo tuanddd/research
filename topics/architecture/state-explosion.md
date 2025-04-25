@@ -1,10 +1,8 @@
 ---
-title: "State explosion"
+title: State explosion
+description: Learn how statecharts solve the state explosion problem in state machines using parallel states, hierarchical states, and guard conditions for simpler and more efficient designs.
 date: 2022-05-22
-description: "Learn how statecharts solve the state explosion problem in state machines using parallel states, hierarchical states, and guard conditions for simpler and more efficient designs."
-authors:
 github_id: monotykamary
-tags:
 ---
 
 ## What is state explosion?
@@ -38,3 +36,4 @@ Guards here serve as a pre-condition to a transition, which essentially prevents
 #### Reference
 
 - https://statecharts.dev/state-machine-state-explosion.html
+

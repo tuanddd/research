@@ -1,7 +1,7 @@
 ---
 title: Be Careful With Your Code Splitting Setup
-date: 2017-07-17
 description: Learn how improper Webpack code-splitting can cause React virtual lists to reset scroll position unexpectedly and how grouping related chunks fixes navigation glitches in mobile-first PWAs.
+date: 2017-07-17
 tags:
   - engineering
   - practice
@@ -89,3 +89,4 @@ It took me so long to notice this because chunks grouping are one of those easy-
 My guess it that it took time to load `item` chunk when navigate from `Explore` component, but theres no reason for the virtual list to reset its own `scrollTop` before navigating.
 
 Now that this is partly solved, I need to look deeper to the implementation of the virtual list to see if anything can lead to above problem. It could also due to my naive, immature understanding of how code-splitting works.
+

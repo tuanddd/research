@@ -1,7 +1,7 @@
 ---
 title: Rust Trait
-date: 2024-07-03
 description: "Rust's **trait** system is a powerful feature that enables developers to define shared behavior across different types. Traits play a crucial role in achieving code reusability, abstraction, and flexibility..."
+date: 2024-07-03
 authors:
   - trankhacvy
 tags:
@@ -107,3 +107,4 @@ Now, the `print_area` function can accept any type `T` as long as it implements 
 ## Conclusion
 
 Traits in Rust provide a powerful mechanism for defining shared behavior, promoting code reuse and adding polymorphism in our code. By understanding how to implement traits, provide default behavior, use traits as parameters, and apply trait bounds, you can leverage this feature to write more modular and adaptable Rust code.
+

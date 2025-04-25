@@ -1,7 +1,7 @@
 ---
 title: Preserving and Resetting state in React
-date: 2023-02-27
 description: State in React is tied to a position in the UI tree.
+date: 2023-02-27
 authors:
   - toanbku
 github_id: toanbku
@@ -174,3 +174,4 @@ Back to the example at the beginning of the article
 ## Reference
 
 - https://beta.reactjs.org/learn/preserving-and-resetting-state
+

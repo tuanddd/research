@@ -1,7 +1,7 @@
 ---
 title: HSL Color
-date: 2022-09-02
 description: HSL is the answer to resolving all of the painful points of Hexadecimal color codes.
+date: 2022-09-02
 authors:
   - trankhacvy
 github_id: trankhacvy
@@ -77,3 +77,4 @@ hsla(349, 73%, 56%, 0.5)
 - https://css-tricks.com/hsl-hsla-is-great-for-programmatic-color-control/
 - https://www.smashingmagazine.com/2021/07/hsl-colors-css/
 - https://tsh.io/blog/why-should-you-use-hsl-color-representation-in-css/
+

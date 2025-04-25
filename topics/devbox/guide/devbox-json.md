@@ -1,7 +1,7 @@
 ---
 title: "Devbox.json: Your Project's DNA"
-date: 2024-08-01
 description: Master your Devbox environment with this no-nonsense guide to devbox.json
+date: 2024-08-01
 authors:
   - baenv
 tags:
@@ -114,3 +114,4 @@ Remember, a well-crafted `devbox.json` is like a good pair of shoes: it should f
 - [Devbox.json Configuration Reference](https://www.jetify.com/devbox/docs/configuration/)
 - [Devbox Search Command](https://www.jetify.com/devbox/docs/cli_reference/devbox_search/)
 - [Devbox Plugins Guide](https://www.jetify.com/devbox/docs/guides/plugins/)
+
