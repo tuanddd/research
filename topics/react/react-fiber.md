@@ -1,5 +1,5 @@
 ---
-title: React Fiber
+title: React fiber
 description: Fiber is the new reconciliation algorithm since React 16, a completely backward-compatible rewrite of the old reconciler (Stack Reconciler).
 date: 2022-10-13
 authors:
@@ -10,7 +10,7 @@ tags:
   - react
 ---
 
-### An Introduction to React Fiber
+### An Introduction to React fiber
 
 Fiber is the new reconciliation algorithm since React 16, a completely backward-compatible rewrite of the old reconciler (Stack Reconciler).
 
@@ -21,7 +21,7 @@ Fiber is the new reconciliation algorithm since React 16, a completely backward-
 - Better suitability for advanced UI (animations, layouts & gestures) as a result of the priority control.
 - … (some other new features)
 
-By breaking up the work into smaller chunks that can be paused, resumed, or aborted based on a set priority order, React Fiber helps apps deliver a more fluid experience.
+By breaking up the work into smaller chunks that can be paused, resumed, or aborted based on a set priority order, React fiber helps apps deliver a more fluid experience.
 
 With the old Stack Reconciler, reconciliation and rendering work weren’t separated & performed synchronously without interruption. Render changes can only be inserted after current stack was cleared. This often resulted in lagging inputs and choppy frame rates.
 

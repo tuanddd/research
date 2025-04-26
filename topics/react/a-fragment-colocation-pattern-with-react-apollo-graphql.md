@@ -1,5 +1,5 @@
 ---
-title: A Fragment Colocation Pattern with React & Apollo GraphQL
+title: A fragment colocation pattern with React & Apollo GraphQL
 description: "When working with complex GraphQL schemas, it's common to have shared fields across different types. A fragment colocation pattern allows us to define fragments alongside their corresponding components, resulting in a more cohesive and maintainable codebase."
 date: 2023-06-04
 authors:
@@ -67,7 +67,7 @@ If we later *change* which fields are included in the `NameParts` fragment, 
 
 That's it for fragment. Let's move on to how we actually implement a colocation pattern with fragments and React.
 
-## Example: Animal Cards and Lists
+## Example: Animal cards and lists
 
 Let's consider an example where we're building an application that showcases cats and dogs. We want to implement reusable components to display individual animal cards (`CatCard` and `DogCard`) as well as lists of animals (`CatList` and `DogList`).
 
@@ -251,23 +251,23 @@ In the above code, the `CatList` and `DogList` are using the query hooks generat
 
 All the types match perfectly.
 
-## The Benefits
+## The benefits
 
 This pattern offers several benefits:
 
 - **Code Reusability:** By defining fragments alongside their respective components, we can reuse the fragments in multiple queries and components. This avoids duplicating field definitions and promotes modular and reusable code.
 - **Consistency:** Colocating fragments ensures that components sharing common fields always use the same fragment definition. This eliminates inconsistencies and makes it easier to maintain and update the codebase.
 - **Readability:** By having fragments colocated with their components, developers can easily understand which fields are being used by a component without having to navigate to a separate file or location.
-- **Overfetching Prevention**: This pattern enforces one of GraphQL core values which is to not overfetch. Children components define what they need through fragments, and "bubble" that up to parent components where the queries take place. This make sure that we'll always fetch only what we need.
-- **Automatic, Strict Typing**: Instead of manually defining types for the components, we are using types generated based on the fragments they are consuming. This ensure the types we are using will always map to a valid GraphQL model. Whenever we update a fragment, the corresponding type will also be updated.
+- **Overfetching prevention**: This pattern enforces one of GraphQL core values which is to not overfetch. Children components define what they need through fragments, and "bubble" that up to parent components where the queries take place. This make sure that we'll always fetch only what we need.
+- **Automatic, strict typing**: Instead of manually defining types for the components, we are using types generated based on the fragments they are consuming. This ensure the types we are using will always map to a valid GraphQL model. Whenever we update a fragment, the corresponding type will also be updated.
 
-## The Disadvantages
+## The disadvantages
 
 While the Fragment Colocation Pattern provides several advantages, it's important to consider its limitations:
 
 - **Fragment Duplication:** If fragments are not organized and managed effectively, there is a risk of duplicating fragments across different components. This can lead to maintenance challenges and inconsistencies if modifications are required.
 - **Increased Complexity:** As the number of fragments and components grow, managing and organizing the fragments may become more complex. It's crucial to establish clear conventions and guidelines to keep the codebase manageable.
-- **Inconventional Approach**: Even though this pattern might look clear on paper, it might be challenge when engineers are new to it, especially if they are used to the REST mindset. Most often this pattern (or maybe GraphQL in general) demands engineers to adopt a completely different mindset when looking at building components.
+- **Inconventional approach**: Even though this pattern might look clear on paper, it might be challenge when engineers are new to it, especially if they are used to the REST mindset. Most often this pattern (or maybe GraphQL in general) demands engineers to adopt a completely different mindset when looking at building components.
   - _Personal take:_ _When we bubble types from children to parent, as the component trees grow bigger, it could become harder and harder to trace the fragments back to where they actually begin, especially when we couldn't organize or reuse the components effectively. It's a top-down vs bottom-up way of looking at components. We can quickly find the top, but we might need to dig around for a bit to find the bottom._
 
 ## Conclusion

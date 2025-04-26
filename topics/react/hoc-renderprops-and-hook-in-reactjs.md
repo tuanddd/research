@@ -1,5 +1,5 @@
 ---
-title: Hoc Renderprops And Hook In Reactjs
+title: Hoc renderprops and hook in Reactjs
 description: Learn how to refactor React.js components using HOC, render props, and hooks to create reusable toggle logic that follows the DRY principle and simplifies state management.
 date: 2019-04-12
 tags:
@@ -94,7 +94,7 @@ view rawApp.js hosted with ❤ by GitHub
 
 This work but it’s not DRY. We gonna refactor the code with some methods above that help us write code that doesn’t violate DRY principle.
 
-### Refactor the component with Render props
+### Refactor the component with render props
 
 The term “[render prop](https://cdb.reacttraining.com/use-a-render-prop-50de598f11ce)” refers to a technique for sharing code between React components using a prop whose value is a function.
 A component with a render prop takes a function that returns a React element and calls it instead of implementing its own render logic.

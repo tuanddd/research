@@ -1,5 +1,5 @@
 ---
-title: How We Created An Ai Powered Interview System Using Openais Chatgpt
+title: How we created an AI powered interview system using OpenAI's ChatGPT
 description: Discover InterviewGPT, an AI-powered ChatGPT system that automates technical interviews by generating tailored questions and evaluating answers for engineers at all experience levels.
 date: 2023-05-29
 tags:
@@ -10,7 +10,7 @@ tags:
 
 ![](assets/how-we-created-an-ai-powered-interview-system-using-openais-chatgpt_7fbe880aa3a51713c213dc3db6043fc7_md5.webp)
 
-### The Idea
+### The idea
 
 While ChatGPT has garnered a lot of attention over the last few months, Ngoc Thanh, our senior software engineer, has been exploring how OpenAI's API can expedite and elevate job interviews by distilling key candidate insights through an interactive chat interview. The system automatically constructs a question set based on the candidate's position, such as fresher, mid-level, or senior, to provide relevant questions based on their expertise.
 

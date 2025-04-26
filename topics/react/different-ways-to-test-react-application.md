@@ -1,5 +1,5 @@
 ---
-title: Different Ways To Test React Application
+title: Different ways to test React application
 description: Learn effective React testing methods including unit tests with react-testing-library, hook testing with react-hooks-testing-library, and end-to-end tests with Cypress for reliable carousel component validation.
 date: 2019-06-06
 tags:
@@ -77,7 +77,7 @@ if (process.env.REACT_APP_IS_TEST_MODE === "true") {
 
 **Best use for:** Test implement detail while developing. Assert state by exposing the state to the global object
 
-## Testing react using react-testing-hook-library
+## Testing React using react-testing-hook-library
 
 Hook function not only allows us to use features of the class component inside the functional component, extract and reuse many repetitive logic patterns but also allow us to extract the logic belong specific domain of that component to an isolated part.
 

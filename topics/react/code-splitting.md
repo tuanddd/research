@@ -181,9 +181,9 @@ Explanation:
 - Components that may take longer to load due to their size or network conditions.
 - Error-prone components that need error handling.
 
-## Advanced Code Splitting Techniques
+## Advanced code splitting techniques
 
-### Preloading and Prefetching Components
+### Preloading and prefetching components
 
 Preloading and prefetching are useful when you want to load components in advance, either to improve performance or to anticipate user interactions.
 
@@ -200,7 +200,7 @@ const UserProfile = lazy(
 
 - Preload the next route’s component in the background while the user is interacting with the current route.
 
-### Bundle Splitting
+### Bundle splitting
 
 Bundling tools, such as Webpack, that have the `SplitChunksPlugin` component can be configured to automatically separate common dependencies (like react or lodash) into distinct bundles. This avoids redundant code in each chunk and reduces the total bundle size.
 
@@ -263,7 +263,7 @@ Explanation:
 | **Large Dependency Splitting** | Libraries used infrequently                              | Date formatting utilities, large image processing libs |
 | **Library-Based Splitting**    | Components that need advanced loading/error handling     | `react-loadable` for complex loading states            |
 | **Preloading and Prefetching** | Anticipating user actions to improve UX                  | Preloading next route or component                     |
-| **Bundle Splitting**           | Avoiding redundancy by splitting common dependencies     | Splitting `vendors` bundle                             |
+| **Bundle splitting**           | Avoiding redundancy by splitting common dependencies     | Splitting `vendors` bundle                             |
 | **Lazy Loading Images**        | Reducing initial page weight for media-rich applications | `loading="lazy"` attribute on images                   |
 
 Each of these techniques targets a specific aspect of load management and bundle optimization, providing flexibility to load only what’s necessary. Applying them strategically improves both the initial load time and the user experience throughout the app, especially as users navigate or interact more deeply with various parts of the application.

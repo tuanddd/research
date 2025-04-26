@@ -1,5 +1,5 @@
 ---
-title: Tackling Server State complexity in Frontend Development
+title: Tackling server state complexity in frontend development
 description: Frontend development has become increasingly complex over the years, and with it, the need for efficient state management.
 date: 2023-03-11
 authors:

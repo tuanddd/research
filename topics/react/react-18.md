@@ -12,7 +12,7 @@ tags:
 
 React 18 was released in March 2022. This release focuses on performance improvements and updating the rendering engine.
 
-## React 18 Feature Quick Guide
+## React 18 feature quick guide
 
 Now let's look at each of these updates in more detail.
 
@@ -22,9 +22,9 @@ Now let's look at each of these updates in more detail.
 - A key property of Concurrent React is that rendering is interruptible. React may start rendering an update, pause in the middle, then continue later. It may even abandon an in-progress render altogether.
 - Another example is the reusable state. Concurrent React can remove sections of the UI from the screen, then add them back later while reusing the previous state.
 
-## New React 18 Features
+## New React 18 features
 
-### Automatic Batching
+### Automatic batching
 
 - Batching is when React groups multiple state updates into a single re-render for better performance. For example, if you have two state updates inside of the same click event, React has always batched these into one re-render.
 

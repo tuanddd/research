@@ -1,5 +1,5 @@
 ---
-title: Preserving and Resetting state in React
+title: Preserving and resetting state in React
 description: State in React is tied to a position in the UI tree.
 date: 2023-02-27
 authors:
@@ -48,7 +48,7 @@ function Counter(name) {
 }
 ```
 
-## The UI Tree
+## The UI tree
 
 ![](assets/preserving-and-resetting-state-in-react_ui_tree.webp)
 
