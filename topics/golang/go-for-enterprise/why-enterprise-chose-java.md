@@ -1,5 +1,5 @@
 ---
-title: Why Enterprise Chose Java
+title: Why enterprise chose Java
 description: "Java has been widely adopted as the primary programming language for enterprise-level software development, emphasizing its platform independence, robust ecosystem, and extensive libraries. This choice aims to enhance scalability, ensure long-term support, and leverage Java's strong object-oriented programming principles in large-scale enterprise applications."
 date: 2024-08-30
 authors:
@@ -13,7 +13,7 @@ tags:
 
 ## Why Java is chosen by enterprises
 
-### Historical Context
+### Historical context
 
 Initially developed by Sun Microsystems, Java was born out of an experimental project. The language, originally named Oak. was designed for use in embedded systems. However, the name Oak was soon found to be unsuitable for trademark protection, as it had already been used by numerous other companies. In a strategic move, Sun Microsystems renamed the language to Java, inspired by the coffee that the developers drank during their coding sessions. Java was then released for free online, and quickly gained popularity among developers.
 
@@ -23,7 +23,7 @@ Furthermore, Sun's promotion of Java as a language capable of running on any sys
 
 The introduction of Java EE (now Jakarta EE) in December 1999 was a pivotal moment, providing a comprehensive set of technologies and APIs designed specifically for large-scale, distributed, transactional, and mission-critical applications. This suite of tools further cemented Java's place in the enterprise software world, offering a robust framework for developing and deploying complex applications.
 
-### Why Java is an Enterprise Programming Language
+### Why Java is an enterprise programming language
 
 - Enterprise applications are rarely standalone; they often comprise multiple interacting systems that must communicate seamlessly. Java excels in **supporting both synchronous and asynchronous messaging**. The language natively supports communication formats such as XML, JSON, and Protocol Buffers (Protobuf), which are integral to facilitating data exchange between applications and services.
 - With the growing trend towards web-based interfaces, enterprise applications need to provide **robust web interactions**. Java's ecosystem includes extensive libraries and frameworks for developing web applications and web services. Technologies like JavaServer Pages (JSP), Servlets, and frameworks such as Spring and Jakarta EE (formerly Java EE) enable developers to create scalable and secure web applications, crucial for today’s browser-based enterprise solutions.
@@ -53,4 +53,3 @@ Even though C/C++ is considered faster than Java in almost every benchmark, Java
 - Paul Pacheco. _"What makes a programming language an enterprise programming language"_, Quora, 2022. [Link](https://www.quora.com/What-makes-a-programming-language-an-enterprise-programming-language)
 - Joey DeFrancesco. _"If C++ is faster than Java, how come Java is used in every enterprise application?"_, Quora, 2020. [Link](https://www.quora.com/If-C-is-faster-than-Java-how-come-Java-is-used-in-every-enterprise-application/answer/Joey-DeFrancesco?ch=10&oid=89079315&share=c530e7de&srid=sm2B&target_type=answer)
 - Trausti Thor Johannsson. _"If C++ is faster than Java, how come Java is used in every enterprise application?"_, Quora, March 6, 2024. [Link](https://www.quora.com/If-C-is-faster-than-Java-how-come-Java-is-used-in-every-enterprise-application/answer/Trausti-Thor-Johannsson?ch=10&oid=1477743744452601&share=57fb3215&srid=sm2B&target_type=answer)
-

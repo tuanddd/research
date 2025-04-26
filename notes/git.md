@@ -1,5 +1,10 @@
 ---
-tags: git, git-flow
+title: null
+description: null
+date: null
+tags:
+  - git
+  - git-flow
 ---
 
 ### What is git?
@@ -62,7 +67,7 @@ GitHub flow is a lightweight, branch-based workflow that supports teams and proj
 - Objective: fix the urgent issue and release a new version of the software
 - Developers check out from the `master` branch a hot-fix branch. After working on the source code, they should pump the version and update the changelog. Developers merge the change to `master` and `develop` branches.
 
-#### Git-flow in Dwarves Foundation
+#### Git-flow in dwarves foundation
 
 Dwarves Foundation team is using the git-flow and some customization. We base on the idea about git-flow when working with the features branches. However, our team applies a different release flow. There are 4 environments for the development of live-cycle in the Dwarves Foundation team: `develop`, `testing`, `staging`, and `production`. Instead of release on `develop` and `master` branches, we release the product on tags. `v*.*.*` tag for production, `v*.*.*-rc` for staging, and `v*.*.*-alpha` for testing.
 
@@ -75,7 +80,7 @@ Dwarves Foundation team is using the git-flow and some customization. We base on
 - Objective: Implement a new feature of the software
 - Developers check out from the `develop` branch a new feature branch. They make an early merge request with a full description of the working task. Developers work on this branch and merge to `develop` after being reviewed by teammates or leaders.
 
-##### Release Testing version
+##### Release testing version
 
 - Base branch: develop
 - Merge back to: develop
@@ -83,7 +88,7 @@ Dwarves Foundation team is using the git-flow and some customization. We base on
 - Tag: `v*.*.*-alpha`
 - Objective: prepare and release a new version for the testing. The QA team uses the testing environment to verify the features are a match with requirements.
 
-##### Release Staging version
+##### Release staging version
 
 - Base branch: `release/v*.*.*-alpha`
 - Merge back to: develop, `release/v*.*.*-alpha`
@@ -91,7 +96,7 @@ Dwarves Foundation team is using the git-flow and some customization. We base on
 - Tag: `v*.*.*-rc`
 - Objective: prepare and release a new version for the staging. The customers and our team make an acceptance test on the staging environment. The beta-testing is also deployed and released on it.
 
-##### Release Production version
+##### Release production version
 
 - Base branch: `release/v*.*.*-rc`
 - Merge back to: develop, `release/v*.*.*-rc`, master

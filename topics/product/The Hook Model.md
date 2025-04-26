@@ -1,12 +1,17 @@
 ---
-tags: product, habit forming
+title: null
+description: null
+date: null
+tags:
+  - product
+  - habit-forming
 ---
 
 ## Definition
 
 A four-phase process that companies use to form user's habit.
 
-## Phase of Hook Model
+## Phase of hook model
 
 ### 1. Trigger
 

@@ -1,5 +1,12 @@
 ---
-tags: innovation, signal, ux, future
+title: null
+description: null
+date: null
+tags:
+  - innovation
+  - signal
+  - ux
+  - future
 ---
 
 ### Notes

@@ -88,4 +88,3 @@ They change the behavior of the context by delegating some work to helper object
 ## Reference
 
 - https://refactoring.guru/design-patterns/strategy
-

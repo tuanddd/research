@@ -1,5 +1,5 @@
 ---
-title: The Principle Of Spacing In Ui Design Part 2
+title: The principle of spacing in UI design part 2
 description: Learn the best UI design spacing tips for vertical and horizontal elements, including line-height, paragraph spacing, input fields, and icon alignment to improve readability and user experience.
 date: 2018-11-01
 tags:
@@ -66,4 +66,3 @@ I used 8px for spacing between components with icons. It is a great number that 
 - Developers will become faster as they know all the rules of your spacing system.
 
 You can follow me on [https://dribbble.com/Anna23593](https://dribbble.com/Anna23593) and thank you for taking the time to read it.
-

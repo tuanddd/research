@@ -18,6 +18,5 @@ According to [Sam Ladner](https://publish.obsidian.md/mobydiction/notes/%E2%89%8
 
 #### Citations
 
-- [Chin - Good Synthesis is the Start of Good Sensemaking](https://publish.obsidian.md/mobydiction/Chin+-+Good+Synthesis+is+the+Start+of+Good+Sensemaking)
-- [≈ Ladner - Mixed Methods](https://publish.obsidian.md/mobydiction/notes/%E2%89%88+Ladner+-+Mixed+Methods)
-
+- [Chin - Good synthesis is the start of good sensemaking](https://publish.obsidian.md/mobydiction/Chin+-+Good+Synthesis+is+the+Start+of+Good+Sensemaking)
+- [≈ Ladner - Mixed methods](https://publish.obsidian.md/mobydiction/notes/%E2%89%88+Ladner+-+Mixed+Methods)

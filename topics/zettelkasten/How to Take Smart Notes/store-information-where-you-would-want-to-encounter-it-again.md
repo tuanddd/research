@@ -19,4 +19,3 @@ This is a key tenet of how a Zettelkasten is organized; its heavily linked struc
 #### Citations
 
 Ahrens, Sönke. _How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers_. Sönke Ahrens, 2017.
-

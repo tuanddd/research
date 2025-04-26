@@ -28,4 +28,3 @@ Martin, Roger L. _The Opposable Mind: How Successful Leaders Win Through Integra
 Spool, Jared M. _“Customers Request Solutions. We Need to Understand Their Problems.”_ Medium (blog), August 16, 2019. [Link](https://medium.com/@jmspool/customers-request-solutions-we-need-to-understand-their-problems-41db3b5c6d4d).
 
 Varol, Ozan. _Think Like a Rocket Scientist: Simple Strategies You Can Use to Make Giant Leaps in Work and Life_. New York: PublicAffairs, 2020.
-

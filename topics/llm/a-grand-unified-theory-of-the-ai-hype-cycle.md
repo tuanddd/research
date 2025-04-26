@@ -1,5 +1,5 @@
 ---
-title: A Grand Unified Theory of the AI Hype Cycle
+title: A grand unified theory of the AI hype cycle
 description: An exploration of the cyclical nature of AI development, tracing the rise and fall of new technologies within the field, and how this pattern has repeated throughout history.
 date: 2024-06-13
 authors:
@@ -10,7 +10,7 @@ tags:
   - llm
 ---
 
-## The Cycle
+## The cycle
 
 The history of AI goes in cycles, each of which looks at least a *little* bit like this:
 
@@ -28,7 +28,7 @@ The history of AI goes in cycles, each of which looks at least a *little* bit 
 12. The field of “AI” becomes increasingly desperate, as it becomes the label applied to uses of `N` which are *not* productive, since the productive uses are marketed under their application rather than their mechanism. Funders lose their patience, the polarity of the “AI” money magnet rapidly reverses. Here, the AI winter is finally upon us.
 13. The remaining AI researchers who still have funding via mechanisms less vulnerable to hype, who are genuinely thinking about automating aspects of cognition rather than simply `N`, quietly move on to the next impediment to a truly thinking machine, and in the course of doing so, they discover a *new* novel mechanism, `M`. Go to step 1, with `M` as the new `N`, and our current `N` as a thing that is now “not AI”, called by its own, more precise name.
 
-## The History
+## The history
 
 A non-exhaustive list of previous values of `N` have been:
 
@@ -50,7 +50,7 @@ So where are we in the current hype cycle?
 - I hear [Karius just raised a series C](https://www.crunchbase.com/organization/karius/company_financials), and they’re an “emerging unicorn”.
 - It does appear that [we are all still resolutely calling these things “AI” for now, though](https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=large%20language%20model,artificial%20intelligence&hl=en), much as I wish, as a semasiology enthusiast, that we would be more precise.
 
-## Some Qualifications
+## Some qualifications
 
 History does not repeat itself, but it does rhyme. This hype cycle is unlike any that have come before in various ways. There is more money involved now. It’s much more commercial; I had to phrase things above in very general ways because many previous hype waves have been based on research funding, some really being *exclusively* a phenomenon at one department in [DARPA](https://en.wikipedia.org/wiki/DARPA), and not, like, the [entire economy](https://www.statista.com/statistics/1446052/worldwide-spending-on-ai-by-industry/).
 
@@ -59,4 +59,3 @@ I cannot tell you when the current mania will end and this bubble will burst. If
 ---
 
 https://blog.glyph.im/2024/05/grand-unified-ai-hype.html
-

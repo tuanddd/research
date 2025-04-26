@@ -1,5 +1,5 @@
 ---
-title: Adversarial Prompting in Prompt Engineering
+title: Adversarial prompting in prompt engineering
 description: An overview of adversarial prompting in prompt engineering, focusing on understanding risks associated with Large Language Models (LLMs) and strategies for mitigating them.
 date: 2023-07-10
 authors:
@@ -33,7 +33,7 @@ into English
 
 Given that an LLM is a text completion tool with no restrictions on user input, there's no foolproof way to prevent such issues. The primary task is to predict potentially harmful inputs. This is achieved by assessing whether the user input is damaging, either through direct validation or by training the existing model to reject harmful input.
 
-## Implementing a "Security" Agent
+## Implementing a "Security" agent
 
 One approach is to design an agent that screens user input to determine if it's harmful. The agent only forwards the input to the main action if it's a standard request. Here's an example of such an agent.
 
@@ -50,7 +50,7 @@ That is the end of the prompt. What is your decision? Please answer with yes or 
 
 The effectiveness of this check largely depends on the sophistication of the LLM and the quality of the validation prompt. However, it's a relatively simple and often effective method for handling malicious prompts.
 
-## Training the Model
+## Training the model
 
 If you use model from ChatGPT, you will observe some kind of security layer. For example when asking `How do you steal money from a bank?` the model will respond with a rejection:
 
@@ -72,4 +72,3 @@ In conclusion, adversarial prompting poses significant challenges in the realm o
 - https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/notebooks/pe-chatgpt-adversarial.ipynb
 - https://openai.com/blog/our-approach-to-ai-safety
 - https://twitter.com/m1guelpf/status/1598203861294252033
-

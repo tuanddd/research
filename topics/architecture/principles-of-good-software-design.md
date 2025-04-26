@@ -15,4 +15,3 @@ date: null
 - When designing interfaces: consider the caller's perspective
 - **Design reviews and discussions**: these are important to get more viewpoints and when evaluating design tradeoffs.
   - John mentions a specific whiteboarding technique for achieving consensus in discussions – consider trying it out!
-

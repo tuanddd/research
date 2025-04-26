@@ -1,5 +1,5 @@
 ---
-title: Frontend Report March 2025
+title: Frontend report March 2025
 short_title: March 2025
 description: "March 2025 brings critical frontend updates! Learn about the Next.js security exploit you must patch nows. Explore TypeScript's upcoming 10x speed boost with Corsa, React Router's game-changing middleware, and why prefetching can surprisingly slow down your site. Plus: CSS functions are finally here, new in Chrome 133, Node.js is dropping Corepack, and TanStack Start finds an official deployment home!"
 date: 2025-03-31
@@ -127,4 +127,3 @@ Chrome 133 enhances CSS with two main features: `attr()` for all properties and 
 - [The end of JavaScript fatigue? Don't count on it](https://allenpike.com/2025/javascript-fatigue-ssr)
 - [Decoding the debate around signals in the world of React](https://www.felgus.dev/blog/signals-in-react)
 - [Local-first is the future (but not without challenges)](https://rxdb.info/articles/local-first-future.html)
-

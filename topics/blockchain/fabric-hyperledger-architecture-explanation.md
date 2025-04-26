@@ -1,5 +1,5 @@
 ---
-title: Fabric Hyperledger Architecture Explanation
+title: Fabric Hyperledger architecture explanation
 description: "Learn how Hyperledger's open source blockchain frameworks and tools enable secure, permissioned enterprise networks with smart contracts, distributed ledgers, and flexible governance models."
 date: 2019-05-15
 tags:
@@ -13,15 +13,15 @@ Hyperledger is an open source community focused on developing a suite of stable 
 
 It serves as a neutral home for various distributed ledger frameworks including Hyperledger Fabric, Sawtooth, Indy, as well as tools like Hyperledger Caliper and libraries like Hyperledger Ursa.
 
-## Key concept of Blockchain in Hyperledger
+## Key concept of blockchain in Hyperledger
 
-### A Distributed Ledger
+### A distributed ledger
 
 Records all the transactions that take place on the network
 
 Replicated across many network participants, each of whom collaborate in its maintenance
 
-### Smart Contracts
+### Smart contracts
 
 Self-executing contract if match pre-defined rules
 
@@ -32,7 +32,7 @@ Self-executing contract if match pre-defined rules
 - Update only when transactions are approved by the appropriate participants
 - Update with the same order in any participants
 
-## Hyperledger Fabric Models
+## Hyperledger Fabric models
 
 ### Assets
 
@@ -46,7 +46,7 @@ Enforces the rules for defining, modifying assets, it's the business logic. Exec
 
 Ledger is the sequenced, tamper-resistant record of all state transactions in the fabric. There is one ledger per channel, each peer maintains a copy of the ledger of their channels.
 
-### Permissioned Vs Permissionless
+### Permissioned vs permissionless
 
 **Similarities**
 Both are unalterable digitally signed ledgers which are distributed through peer-to-peer network Both maintain ledgers which are updated through a protocol named as consensus. Both claim to maintain an immutable ledger
@@ -70,7 +70,7 @@ Both are unalterable digitally signed ledgers which are distributed through peer
 
 → Easier to join, widely access, globally accept -> cryptocurrency
 
-## Hyperledger Architecture
+## Hyperledger architecture
 
 ### Identity
 
@@ -93,7 +93,7 @@ Base on the properties of a peer, cryptography constructing a pair of public and
 
 Identifies which Root CAs and Intermediate CAs are trusted to define the members of a trust domain. Also identify specific roles an actor might play either within the scope of the organization the MSP represents, defining access privileges in the context of a network and channel.
 
-- **Organizational Unit**: is a managed group of members(multinational corporation, flower shop) under a single MSP.
+- **Organizational unit**: is a managed group of members(multinational corporation, flower shop) under a single MSP.
 - **Local MSPs**: hold Root CAs of an Organization, authenticate at organization level(communications between peer, node). Only one local MSP per node or peer.
 - **Channel MSPs**: hold Root CAs of connected Organization through channel to identify each other, there will be a local copy of channel MSP in each node or peer.
 
@@ -106,7 +106,7 @@ Identifies which Root CAs and Intermediate CAs are trusted to define the members
 
 ![](assets/fabric-hyperledger-architecture-explanation_a9852ce4f9889dd96d9efe61fd1cdc0c_md5.webp)
 
-## Transaction Flow from Application
+## Transaction flow from application
 
 - Applications generate a transaction proposal
 - Send it to required peers ( indicate by transaction it own )
@@ -127,4 +127,3 @@ Identifies which Root CAs and Intermediate CAs are trusted to define the members
 - Every time a block is committed to a peer's ledger, that peer generates an appropriate event(include full block content)
 
 ![](assets/fabric-hyperledger-architecture-explanation_2e60ff9cb71f5ecb312418e4228c7964_md5.webp)
-

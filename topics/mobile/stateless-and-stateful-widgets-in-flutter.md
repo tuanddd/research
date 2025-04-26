@@ -11,9 +11,9 @@ github_id: knguyenuit
 
 State is something that can change within a widget. For example, let’s say we have a like button. The button can either be filled in, or not filled in depending on whether it has been clicked. That’s a state right there. The state of that button can either be filled in or not filled in. If a widget is constant and does not change no matter what is done, then it does not have a State.
 
-## Stateless Widget
+## Stateless widget
 
-**Stateless Widget**: The widgets whose state can not be altered once they are built are called stateless widgets. These widgets are immutable once they are built i.e any amount of change in the variables, icons, buttons, or retrieving data can not change the state of the app. Below is the basic structure of a stateless widget. Stateless widget overrides the build() method and returns a widget. For example, we use Text or the Icon is our flutter application where the state of the widget does not change in the runtime. It is used when the UI depends on the information within the object itself. Other examples can be Text, RaisedButton, IconButtons.
+**Stateless widget**: The widgets whose state can not be altered once they are built are called stateless widgets. These widgets are immutable once they are built i.e any amount of change in the variables, icons, buttons, or retrieving data can not change the state of the app. Below is the basic structure of a stateless widget. Stateless widget overrides the build() method and returns a widget. For example, we use Text or the Icon is our flutter application where the state of the widget does not change in the runtime. It is used when the UI depends on the information within the object itself. Other examples can be Text, RaisedButton, IconButtons.
 
 This widget needs a function `Widget build(BuildContext context)` to render data to the screen. The build function is only called once while the application is running, so the data is only rendered once and does not change throughout the application's life. The display data you can hard code or pass through the constructor function of the class and this data will not change during the display on the screen. Although the StatelessWidget cannot change itself, when the parent Widget changes, the StatelessWidget will be re-initialized.
 
@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
         ), // AppBar
         body: const Center(
           child: Text(
-            "Stateless Widget Demo",
+            "Stateless widget Demo",
             style: TextStyle(color: Colors.black, fontSize: 30),
           ),
         ), // Container
@@ -105,7 +105,7 @@ The `_MyAppState` class will override the `Widget build(BuildContext context)` m
 
 ## Differences Between Stateless and Stateful Widget:
 
-**Stateless Widget:**
+**Stateless widget:**
 
 - Stateless Widgets are static widgets.
 - They do not depend on any data change or any behavior change.
@@ -118,4 +118,3 @@ The `_MyAppState` class will override the `Widget build(BuildContext context)` m
 - They can be updated during runtime based on user action or data change.
 - Stateful Widgets have an internal state and can re-render if the input data changes or if Widget’s state changes.
 - For Example: Checkbox, Radio Button, Slider are Stateful Widgets
-

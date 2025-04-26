@@ -1,5 +1,5 @@
 ---
-title: "Devbox in Production: Our Success Story"
+title: "Devbox in production: our success story"
 description: How we transformed our development and deployment process with Devbox.
 date: 2024-08-09
 authors:
@@ -12,13 +12,13 @@ tags:
 
 Remember when setting up a new project felt like assembling IKEA furniture blindfolded? Yeah, those days are over. Here's how Devbox revolutionized our workflow, from dev to production.
 
-## The Big Picture: Devbox Across Our Projects
+## The big picture: Devbox across our projects
 
 We didn't just dip our toes into Devbox - we dove in headfirst. **Two main projects** and a handful of side projects later, we're swimming in efficiency.
 
-## The Spotlight
+## The spotlight
 
-### Dev Environment: From Hours to Minutes
+### Dev environment: from hours to minutes
 
 Before Devbox:
 
@@ -48,7 +48,7 @@ Yeah, it's that simple. Our `devbox.json` looks something like this:
 
 New team member? "Here's the repo, run `devbox shell`." Boom, they're productive on day one.
 
-### Deployment: Dockerfile? More Like DockerSMILE
+### Deployment: Dockerfile? More like DockerSMILE
 
 Remember the days of handcrafting Dockerfiles? Neither do we. Now we just:
 
@@ -58,7 +58,7 @@ devbox generate dockerfile
 
 And we get a Dockerfile that's perfectly synced with our dev environment. No more "works on my machine" syndrome. If it works in dev, it works in prod.
 
-## Leveling Up: Custom Flakes for the Win
+## Leveling up: custom flakes for the win
 
 We didn't stop at basic Devbox usage. We dove into the world of Nix Flakes to create custom, reusable configurations. Here's one of what we cooked up:
 
@@ -109,7 +109,7 @@ But the real magic happens when we use this in a Devbox project. We just add thi
 }
 ```
 
-## The Secret Sauce: Our Internal Service Repo
+## The secret sauce: our internal service repo
 
 We created a central repository of Devbox configurations for popular services. This isn't your grandma's config file - it's a Swiss Army knife for dev environments. Take a look at this beauty:
 
@@ -240,19 +240,19 @@ processes:
 
 These are not just config files; they look like love letters to productivity. Let's break it down:
 
-1. **Kitchen Sink Included**: Node.js, Python, Elixir, Redis, Kafka - it's like an all-you-can-eat buffet for developers.
+1. **Kitchen sink included**: Node.js, Python, Elixir, Redis, Kafka - it's like an all-you-can-eat buffet for developers.
 
-2. **Version Control**: Every package is pinned to a specific version. No more "it worked yesterday" syndrome.
+2. **Version control**: Every package is pinned to a specific version. No more "it worked yesterday" syndrome.
 
-3. **Cross-Platform Magic**: See that `darwin.apple_sdk` package? That's making sure our Mac users don't feel left out.
+3. **Cross-platform magic**: See that `darwin.apple_sdk` package? That's making sure our Mac users don't feel left out.
 
-4. **Custom Sauce**: We've got our own TimescaleDB-enabled PostgreSQL package in there. Because why settle for off-the-shelf when you can have gourmet?
+4. **Custom sauce**: We've got our own TimescaleDB-enabled PostgreSQL package in there. Because why settle for off-the-shelf when you can have gourmet?
 
-5. **Environment Setup**: PKG_CONFIG_PATH and KAFKA_CONFIG are preset. It's like having your IDE set up before you even open it.
+5. **Environment setup**: PKG_CONFIG_PATH and KAFKA_CONFIG are preset. It's like having your IDE set up before you even open it.
 
-6. **Script City**: Look at those Zookeeper and Kafka scripts. Starting a distributed system is now as easy as `devbox run kafka`.
+6. **Script city**: Look at those Zookeeper and Kafka scripts. Starting a distributed system is now as easy as `devbox run kafka`.
 
-7. **Plugin Power**: We're using the PostgreSQL plugin, because why reinvent the wheel when you can turbocharge it?
+7. **Plugin power**: We're using the PostgreSQL plugin, because why reinvent the wheel when you can turbocharge it?
 
 Here's the kicker: Need a Kafka cluster for local testing? Just copy this file, run `devbox shell`, and boom - you're running a mini data center on your laptop.
 
@@ -262,11 +262,10 @@ This isn't just configuration; it's constellation. All these services, perfectly
 
 Is it overkill for a simple React app? Maybe. But for our complex, multi-service architectures, this is the difference between a day of setup and a minute of magic.
 
-## The Bottom Line
+## The bottom line
 
 Devbox didn't just change our tools; it changed our culture. "It's too complex to set up locally" is no longer an excuse. "It works on my machine" is no longer a problem.
 
 Is it perfect? No. Sometimes we still need to dive into Nix for complex setups. But for 90% of our needs, Devbox is our go-to.
 
 Life's too short for bad dev environments. Make yours awesome with Devbox.
-

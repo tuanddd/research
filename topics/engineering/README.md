@@ -9,7 +9,7 @@ tags:
   - moc
 ---
 
-### Engineering Backend
+### Engineering backend
 
 - [[202210122014-forward-proxy|Forward Proxy]]
 - [[202210131000-behavior-driven-development|Behavior Driven Development]]
@@ -70,7 +70,7 @@ tags:
 - [[why-invest-in-tools|Why Invest In Tools]]
 - [[working-on-a-project-interview-assessment-at-dwarves|Working On A Project Interview Assessment At Dwarves]]
 
-### Engineering Management
+### Engineering management
 
 - [[conway-s-law|Conway's Law]]
 - [[analysis-document|Analysis Document]]
@@ -92,4 +92,3 @@ tags:
 - [[the-fundamental-of-web-performance|The Fundamental Of Web Performance]]
 - [[why-dom-manipulation-is-slow|Why DOM Manipulation Is Slow?]]
 - [[why-virtual-dom-is-fast|Why Virtual DOM Is Fast?]]
-

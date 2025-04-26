@@ -126,7 +126,7 @@ This is logically wrong since it will return Microsoft records when a user queri
 Hive will not validate the data that is loaded into partitions and also it will not raise any errors when we incorrectly load data into partitions
 It is the developer's responsibility to make sure the partition is loaded with correct set of records.
 
-## Dynamic Partitions
+## Dynamic partitions
 
 Imagining that we are trying to create partitions for thousands of symbols. Manually creating partitions one by one is a tedious exercise and also will eventually lead to errors like the one we just saw with Apple and Microsoft. Dynamic partition inserts solve that problem. So far we have been giving the values for the partition columns and this means that the values for the partition columns are known at compile time. When we use Dynamic partition inserts, however, the partition column values are known at execution time. To enable the dynamic partition, we set `hive.exec.dynamic.partition` to `true` with command `SET hive.exec.dynamic.partition=true;`.
 
@@ -227,4 +227,3 @@ And this query with the where condition exchange name and volume will execute wi
 ## References
 
 - https://stackoverflow.com/questions/21876837/not-able-to-apply-dynamic-partitioning-for-a-huge-data-set-in-hive
-

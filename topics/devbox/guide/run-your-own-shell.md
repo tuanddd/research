@@ -1,5 +1,5 @@
 ---
-title: "Devbox Shell: Your Dev Environment, Your Rules"
+title: "Devbox shell: your dev environment, your rules"
 description: Master the art of running your own shell with Devbox - locally or globally. No more environment headaches.
 date: 2024-08-01
 authors:
@@ -16,7 +16,7 @@ curl -fsSL https://get.jetify.com/devbox | bash
 
 Now what? It's time to run your own shell, and Devbox gives you two flavors: local and global. Let's break 'em down.
 
-## Devbox Local: Isolation is Bliss
+## Devbox local: isolation is bliss
 
 Want to create a bubble where you can install and run anything without messing up your system? Devbox Local is your new best friend.
 
@@ -66,7 +66,7 @@ Here's how it works:
 
    Want true isolation? Use `devbox shell --pure`. It's like your shell went into witness protection - new identity, no baggage.
 
-## Devbox Global: Your System, Supercharged
+## Devbox global: your system, supercharged
 
 Want to use Devbox as your primary package manager? Devbox Global has got your back.
 
@@ -102,7 +102,7 @@ devbox global path
 
 You'll likely see something like `~/.local/share/devbox/global/default/`. That's where Devbox keeps its global configuration.
 
-## The Bottom Line
+## The bottom line
 
 Whether you go local or global, Devbox gives you the power to create the perfect development environment. No more "it works on my machine" nightmares. Just pure, predictable, awesome shells.
 
@@ -110,8 +110,7 @@ So what are you waiting for? Fire up Devbox and start building something amazing
 
 ## References
 
-- [Installing Devbox](https://www.jetify.com/devbox/docs/installing_devbox/)
-- [Create a Dev Environment with Devbox](https://www.jetify.com/devbox/docs/quickstart/)
-- [Use Devbox as your Primary Package Manager](https://www.jetify.com/devbox/docs/devbox_global/)
-- [Nix Shell: The Foundation](../introduction/¶%20Nix%20Shell.md)
-
+- [Installing devbox](https://www.jetify.com/devbox/docs/installing_devbox/)
+- [Create a dev environment with devbox](https://www.jetify.com/devbox/docs/quickstart/)
+- [Use devbox as your primary package manager](https://www.jetify.com/devbox/docs/devbox_global/)
+- [Nix shell: the foundation](../introduction/¶%20Nix%20Shell.md)

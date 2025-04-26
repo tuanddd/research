@@ -16,13 +16,13 @@ Uncle Bob is also known for his masterpieces of _Clean Code_ and _Clean Architec
 
 Each principle of SOLID will be explained with example below:
 
-- [[#S - Single Responsibility Principle]]
-- [[#O - Open-Closed Principle]]
-- [[#L - Liskov Substitution Principle]]
-- [[#I - Interface Segregation Principle]]
-- [[#D - Dependency Inversion Principle]]
+- [[#S - single responsibility principle]]
+- [[#O - open-closed principle]]
+- [[#L - liskov substitution principle]]
+- [[#I - interface segregation principle]]
+- [[#D - dependency inversion principle]]
 
-## S - Single Responsibility Principle
+## S - single responsibility principle
 
 Let's begin with the single responsibility principle. As we all figured out from the name, this principle states that **a class should only have one responsibility and therefore it should only have one reason to change.**
 
@@ -89,7 +89,7 @@ Some developers might define the method `printCitation` inside the `Book` class,
 
 <iframe src="https://replit.com/@NguyenD-Nam/Single-Responsibility?lite=true" width="100%" height="680"></iframe>
 
-## O - Open-Closed Principle
+## O - open-closed principle
 
 The open-closed principle states that classes, modules, and functions should be **open for extension, but closed for modification**. It means you should be able to extend the functionality of them by adding more code without modifying the existing code.
 
@@ -166,7 +166,7 @@ By creating a brand new class for the new behavior, we would know that the stuff
 
 <iframe src="https://replit.com/@NguyenD-Nam/Open-Closed?lite=true" width="100%" height="680"></iframe>
 
-## L - Liskov Substitution Principle
+## L - liskov substitution principle
 
 The Liskov Substitution principle is one of the most important principles to adhere to in object-oriented programming (OOP). It states that child classes or subclasses must be substitutable for their parent classes or super classes. Narrowing it down, we have **if class A is a subclass of class B, we should be able to replace B with A without disrupting the behavior of our program.**
 
@@ -229,7 +229,7 @@ The idea behind the Liskov Substitution principle is that a derived class should
 
 <iframe src="https://replit.com/@NguyenD-Nam/Liskov-Substitution?lite=true" width="100%" height="680"></iframe>
 
-## I - Interface Segregation Principle
+## I - interface segregation principle
 
 According to this principle, **a client should never be forced to implement an interface that it doesn’t use**, or a client shouldn’t be forced to depend on methods it does not use. More specifically, the principle suggests that software developers should break down large interfaces into smaller, more specific ones that are independent of other interfaces that are not relevant to them.
 
@@ -264,7 +264,7 @@ class Baby : public PersonGeneralInfo {};
 class Adult : public PersonGeneralInfo, public PersonWorkingInfo {};
 ```
 
-## D - Dependency Inversion Principle
+## D - dependency inversion principle
 
 This principle is about **decoupling modules, making them as separate from one another as possible**. The principle states that high-level modules should not depend on low-level modules. Instead, they should both depend on abstractions.
 
@@ -343,4 +343,3 @@ Applying the Single Responsibility or Liskov Substitution principle helps us to 
 - https://www.freecodecamp.org/news/solid-design-principles-in-software-development/
 - https://www.baeldung.com/solid-principles
 - https://dev.to/galwaycoder/the-solid-principles-in-software-design-explained-53n
-

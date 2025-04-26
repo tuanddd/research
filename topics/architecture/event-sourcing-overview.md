@@ -6,7 +6,7 @@ github_id: R-Jim
 icy: 10
 ---
 
-## What is Event sourcing
+## What is event sourcing
 
 A database design revolves around **Events**. **Events** retain all business-critical information for auditing, market simulations, and future requirements that scale with the growth of the business.
 
@@ -122,8 +122,7 @@ To reduce composing time when number of events start to grow. Snapshot is a Stat
 
 ## References
 
-- [Beginner's Guide to Event Sourcing | Event Store](https://www.eventstore.com/event-sourcing)
-- [Keynote: Event sourcing - Greg Young - DPC2016](https://www.youtube.com/watch?v=I3uH3iiiDqY)
-- [Learning-topics: Event sourcing](https://discord.com/channels/462663954813157376/1009812700022456400)
+- [Beginner's guide to event sourcing | Event Store](https://www.eventstore.com/event-sourcing)
+- [Keynote: event sourcing - Greg Young - DPC2016](https://www.youtube.com/watch?v=I3uH3iiiDqY)
+- [Learning-topics: event sourcing](https://discord.com/channels/462663954813157376/1009812700022456400)
 - [Diagram about the thought process from normal CRUD operation into event sourcing](https://miro.com/app/board/uXjVPZswY00=/?share_link_id=338629629501)
-

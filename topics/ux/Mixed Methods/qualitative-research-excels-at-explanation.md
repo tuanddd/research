@@ -17,4 +17,3 @@ Neither qualitative nor quantitative research methods are inherently superior to
 #### Citations
 
 [[≈ Mixed Methods | Ladner, Sam. Mixed Methods: A Short Guide to Applied Mixed Methods Research. Sam Ladner, 2019.]]
-

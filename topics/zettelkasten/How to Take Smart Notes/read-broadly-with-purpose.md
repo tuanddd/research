@@ -20,4 +20,3 @@ However, also read broadly to help create connections across different contexts 
 Ahrens, Sönke. _How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers_. Sönke Ahrens, 2017.
 
 O’Reilly, Barry. _“Optimize to Be Wrong, Not Right.”_ Barry O’Reilly (blog), April 6, 2017. https://barryoreilly.com/optimize-to-be-wrong-not-right/
-

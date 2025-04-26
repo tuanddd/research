@@ -24,4 +24,3 @@ These different elements do not flow linearly from one to another; they mutually
 #### Citations
 
 Martin, Roger L. The Opposable Mind: How Successful Leaders Win Through Integrative Thinking. 1st edition. Boston, Mass: Harvard Business Review Press, 2007.
-

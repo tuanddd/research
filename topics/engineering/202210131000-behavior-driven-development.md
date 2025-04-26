@@ -1,6 +1,6 @@
 ---
-title: Behavior Driven Development
-description: Behavior Driven Development (BDD) is a software development process that encourages collaboration among developers, QA, and non-technical stakeholders.
+title: Behavior driven development
+description: Behavior driven development (BDD) is a software development process that encourages collaboration among developers, QA, and non-technical stakeholders.
 date: 2022-10-13
 authors:
   - huytieu
@@ -12,7 +12,7 @@ tags:
   - ubiquitous-language
 ---
 
-### Behavior Driven Development (BDD) Three Practices
+### Behavior driven development (BDD) Three Practices
 
 - First, take a small upcoming change to the system – a User Story – and talk about concrete examples of the new functionality to explore, discover and agree on the details of what’s expected to be done.
 - Next, document those examples in a way that can be automated, and check for agreement.
@@ -45,4 +45,3 @@ Then I should be able to login successfully
 > - BDD borrows _ubiquitous language_ concept from domain driven design so that everyone in the team can understand the term the same way.
 
 Source: <https://cucumber.io/docs/bdd/>
-

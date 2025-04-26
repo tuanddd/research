@@ -149,4 +149,3 @@ Concurrent code is preferable to sequential code because it is non-blocking and 
 ## References
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop https://www.promisejs.org/implementing/ https://www.geeksforgeeks.org/what-to-understand-callback-and-callback-hell-in-javascript https://javascript.info/promise-chaining https://www.javascripttutorial.net/es-next/javascript-async-await/
-

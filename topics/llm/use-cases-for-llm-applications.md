@@ -39,4 +39,3 @@ We hope this overview of common use cases inspires you to think boldly about how
 
 - https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders
 - https://huyenchip.com/llama-police
-

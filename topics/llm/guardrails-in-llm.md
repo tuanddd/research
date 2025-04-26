@@ -21,7 +21,7 @@ Guardrails in LLM are a set of techniques and strategies designed to control and
 1. **Input guardrails**: This involves pre-processing the input to the model to remove or modify any potentially harmful or inappropriate content. This can include filtering out profanity, hate speech, or sensitive information. Some common usecases:
    - **Topical guardrails**: Limit the model's responses to a specific topic or domain to prevent it from generating off-topic or irrelevant content.
    - **Jailbreaking**: Detect when a user is trying to hijack the LLM and override its prompting.
-   - **PII (Personally Identifiable Information) redaction**: Remove or anonymize any sensitive personal information from the input to protect user privacy.
+   - **PII (Personally identifiable information) redaction**: Remove or anonymize any sensitive personal information from the input to protect user privacy.
 
 ```python
   ## Example of topical guardrails
@@ -117,4 +117,3 @@ Apply guardrails into LLM pipeline is a should-have strategy to ensure the safet
 - https://www.ml6.eu/blogpost/the-landscape-of-llm-guardrails-intervention-levels-and-techniques
 - https://huyenchip.com/2024/07/25/genai-platform.html#query_rewriting
 - https://cookbook.openai.com/examples/how_to_use_guardrails
-

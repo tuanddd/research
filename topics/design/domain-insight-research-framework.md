@@ -1,5 +1,5 @@
 ---
-title: Domain Insight Research Framework
+title: Domain insight research framework
 description: Learn how Domain Insight Research (DIR) helps UX researchers quickly understand industries, analyze markets, and design user-focused digital products using market research, competitor analysis, and technology trends.
 date: 2020-10-21
 tags:
@@ -10,7 +10,7 @@ As a designer working in the Digital Product industry, I'm pretty sure we all he
 
 ## What is Domain Insight Research (DIR)?
 
-This Domain Insight Research Framework is a method for new approaches to understanding and getting insight into a new industry. This conceptual framework was designed to collect various types of information, including:
+This Domain insight research framework is a method for new approaches to understanding and getting insight into a new industry. This conceptual framework was designed to collect various types of information, including:
 
 - Definition
 - How the domain works
@@ -29,7 +29,7 @@ Domain insight knowledge helps UX Researchers and Designers have an overview of 
 - Propose some solutions for clients based on real information
 - Suggest suitable technology method to optimize workflow and cost
 
-## Three Steps of Domain Insight Research
+## Three steps of domain insight research
 
 ### Understand the definition
 
@@ -50,11 +50,11 @@ Finding out how that domain works and how technology can help optimize their pro
 
 New technology trends are evolving and having a significant impact on business models; people are adopting technology in almost all industries. Responding to that development, besides understanding the workflow of any industry, we need to learn more about technology methods that the market is applying and consider the potential of other technologies, depending on whether that technology can solve the problems of a particular niche in the market.
 
-### Value proposition & Problem solving
+### Value proposition & problem solving
 
 Technology is increasingly developed and applied to solve the problems and difficulties that humans face in life. Each technology product is created with at least one value proposition. In this session, we find out the value that the domain brings to our lives. For example, the ebook was created to reduce publishing books' cost and their impact on the environment through paper production. Or micro-investment helps people with middle and low income have opportunities to invest and practice saving habits. Understanding the value and problems the industry is solving will help us make a more accurate assessment of the potential entrant of a new product.
 
-## The second and the most valuable step of this framework: Market Research
+## The second and the most valuable step of this framework: Market research
 
 Market research is a set of techniques which is used to gather information about an industry; also help us to:
 
@@ -143,4 +143,3 @@ We all aim to earn money by bringing the values and benefits for users. Therefor
 - Find the right balance between short-term and long-term growth opportunities.
 
 **7. Suitable technology**
-

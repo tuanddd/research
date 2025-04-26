@@ -1,5 +1,9 @@
 ---
-tags: rust
+title: null
+description: null
+date: null
+tags:
+  - rust
 ---
 
 ### Why
@@ -25,8 +29,8 @@ tags: rust
 
 #### Reference
 
-- [Concurrency and Parallelism in Go](https://mayurwadekar2.medium.com/concurrency-and-parallelism-in-golang-c8327701fd94)
-- [Difference in Concurrency and Parallelism](https://viblo.asia/p/phan-biet-khai-niem-xu-ly-concurrency-dong-thoi-va-parallelism-song-song-4P856nBO5Y3)
+- [Concurrency and parallelism in Go](https://mayurwadekar2.medium.com/concurrency-and-parallelism-in-golang-c8327701fd94)
+- [Difference in concurrency and parallelism](https://viblo.asia/p/phan-biet-khai-niem-xu-ly-concurrency-dong-thoi-va-parallelism-song-song-4P856nBO5Y3)
 - garbage collector
 - rust: different mechanism (rust borrowing mechanism)
 - https://utcc.utoronto.ca/~cks/space/blog/programming/RustInOurFuture

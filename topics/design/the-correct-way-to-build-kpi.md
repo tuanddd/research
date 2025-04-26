@@ -1,5 +1,5 @@
 ---
-title: The Correct Way To Build Kpi
+title: The correct way to build KPI
 description: Discover how mindful meditation can transform your view on KPIs, promoting positive communication and reducing workplace stress for a healthier business environment.
 date: 2020-11-03
 tags:
@@ -15,7 +15,7 @@ This is absolutely one of those brilliant questions that have been on my mind al
 
 In the end, in that particular dharma talk, we were able to settle with these qualifications that we all agreed that true KPI should have, that are:
 
-1. **True KPI is settled by all 3 levels of management: Top, Middle and First**
+1. **True KPI is settled by all 3 levels of management: top, middle and first**
 2. **True KPI should be an approved mutual interest across all members in the company**
 3. **True KPI should be a positive, fun and interesting challenge, not a mean to create stresses.**
 
@@ -24,4 +24,3 @@ Evidently, we were in a meditation retreat, therefore we can only confine and ag
 Obviously, good businesses will associate with competitions, and in order to win competitions, one must embrace through all the stresses and pressures, just like the old saying “no pressure, no diamonds”; but truthfully, when everything is within expectations, it is easier for one to accept and to conquer. Furthermore, we also believe that if we can somehow intertwine our mindfulness practices into our businesses, perhaps our employees then may no longer see their KPIs as monstrous threats to their positions.
 
 In the end, it is all about communication, conveying/delivering the right messages with a mindful approach. Without having and making your employees feel truly happy, satisfied and justified, I do believe that particular business cannot operate sustainably.
-

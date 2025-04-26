@@ -1,5 +1,5 @@
 ---
-title: "Building a Data-Driven Project Reporting System: A Lens into Modern Data Engineering"
+title: "Building a data-driven project reporting system: A lens into modern data engineering"
 short_title: A Lens to Modern Data Engineering
 description: Learn how to transition from application development to data engineering by building a modern project reporting system. Discover essential mindset shifts, best practices, and hands-on look using tools like DuckDB, and Modal. Master system-level architecture and data pipeline design for scalable enterprise solutions.
 date: 2024-10-29
@@ -156,10 +156,10 @@ graph LR
 
 Notice the fundamental shift here – instead of reacting to individual requests, we're designing a system that anticipates data flow patterns. This top-down approach forces us to answer critical questions before writing a single line of code:
 
-1. **Data Flow Patterns**: How does data naturally move through our organization?
-2. **Scale Considerations**: What happens when our team doubles? When our project count triples?
-3. **System Boundaries**: Where does our data come from, and where does it need to go?
-4. **Future Flexibility**: How can we design for unknown future requirements?
+1. **Data flow patterns**: How does data naturally move through our organization?
+2. **Scale considerations**: What happens when our team doubles? When our project count triples?
+3. **System boundaries**: Where does our data come from, and where does it need to go?
+4. **Future flexibility**: How can we design for unknown future requirements?
 
 ## The orchestra of automation
 
@@ -181,7 +181,7 @@ graph LR
         IE --> |dialogue_count ≤ 1| DM[Discord Messages]
     end
 
-    subgraph "Parallel Processing"
+    subgraph "Parallel processing"
         LE --> |Iterate| IT[Link Iterator]
         IT --> |Map| FSP[Fetch Single Page]
         GE --> |Map| GT[Git Traverser]
@@ -204,14 +204,14 @@ graph LR
 
 This workflow demonstrates system thinking in action. Each component exists not in isolation but as part of a larger data symphony, where timing, coordination, and scalability are paramount.
 
-## The Data Engineer's mental models
+## The data engineer's mental models
 
 Looking back at our workflow diagrams, you might notice recurring patterns. This isn't coincidental – data engineers think in terms of fundamental data processing paradigms that appear across different scales and contexts:
 
-- **Map-Reduce Patterns**: Breaking large problems into parallel processing units (map) and then combining results (reduce). You see this in our Parameter Extractors that map to individual data sources, and in our Template Transform that reduces multiple streams into a final report.
+- **Map-reduce patterns**: Breaking large problems into parallel processing units (map) and then combining results (reduce). You see this in our Parameter Extractors that map to individual data sources, and in our Template Transform that reduces multiple streams into a final report.
 - **Extract-Transform-Load (ETL)**: The classic pattern of data movement and refinement. Whether it's pulling Discord messages or Git metrics, we're constantly extracting raw data, transforming it into useful formats, and loading it where it needs to go.
-- **Event Streaming**: Thinking of data as continuous flows rather than discrete states. Our system doesn't just capture snapshots – it maintains ongoing awareness of communication patterns and development activities.
-- **Parallel Processing**: The instinct to ask "what can run simultaneously?" Notice how our data collection phase spans multiple channels concurrently, and our processing phase handles different data types in parallel.
+- **Event streaming**: Thinking of data as continuous flows rather than discrete states. Our system doesn't just capture snapshots – it maintains ongoing awareness of communication patterns and development activities.
+- **Parallel processing**: The instinct to ask "what can run simultaneously?" Notice how our data collection phase spans multiple channels concurrently, and our processing phase handles different data types in parallel.
 
 These patterns become second nature to data engineers, forming a mental toolkit that can be applied to problems at any scale. Whether you're processing gigabytes or petabytes, the fundamental thinking remains the same – it's all about managing data flows, transformations, and scale.
 
@@ -260,9 +260,9 @@ These aren't just query executors – they're system coordinators:
 
 Storage in data engineering isn't about files – it's about data flow:
 
-- **Data Lakes**: The reservoir of your organization's data potential
-- **Data Warehouses**: Where raw data transforms into business insights
-- **Data Formats**: The communication protocol of your data ecosystem
+- **Data lakes**: The reservoir of your organization's data potential
+- **Data warehouses**: Where raw data transforms into business insights
+- **Data formats**: The communication protocol of your data ecosystem
 
 ### Orchestration tools
 
@@ -281,7 +281,7 @@ The transition from application development to data engineering represents a fun
 | **Problem Solving**   | Feature-by-feature construction     | System-level architecture     | Solutions must scale with the organization |
 | **Data Flow**         | Request-driven, immediate           | Pattern-based, anticipatory   | Design for data's natural movement         |
 | **Scale Focus**       | Linear (user by user)               | Exponential (system capacity) | Build for tomorrow's scale today           |
-| **System Boundaries** | Clear, limited scope                | Fuzzy, evolving edges         | Expect and design for change               |
+| **System boundaries** | Clear, limited scope                | Fuzzy, evolving edges         | Expect and design for change               |
 | **Processing Mode**   | Synchronous, immediate              | Asynchronous, batch-oriented  | Balance immediacy with efficiency          |
 | **Development Flow**  | Iterative feature addition          | Holistic system evolution     | Small changes have system-wide impacts     |
 
@@ -294,4 +294,3 @@ Our project reporting system serves as a microcosm of this transition. Through i
 What makes this transition challenging isn't the technical complexity – it's the required shift in mindset. But once you start seeing systems instead of features, patterns instead of transactions, and flows instead of requests, you'll never look at software engineering the same way again.
 
 Remember: In data engineering, the system is the feature. Your success isn't measured by individual components working correctly, but by how well they work together to create value greater than the sum of their parts.
-

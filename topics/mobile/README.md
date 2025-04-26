@@ -9,32 +9,31 @@ tags:
   - moc
 ---
 
-### Mobile Fundamentals
+### Mobile fundamentals
 
 - [Data race and race condition](data-race-and-race-condition.md)
 
-### UI Frameworks & Patterns
+### UI frameworks & patterns
 
-- [Stateless and Stateful Widgets in Flutter](stateless-and-stateful-widgets-in-flutter.md)
+- [Stateless and stateful widgets in Flutter](stateless-and-stateful-widgets-in-flutter.md)
 - [SwiftUI](swiftui.md)
-- [UIKit Builder pattern](uikit-builder-pattern.md)
+- [UIKit builder pattern](uikit-builder-pattern.md)
 - [Swift 5.4 ResultBuilder](swift-5-4-resultbuilder.md)
 - [Build a passcode view with Swift](build-a-passcode-view-with-swift.md)
 - [Create circular text using SwiftUI](create-circular-text-using-swiftui.md)
 - [Draw watch face using SwiftUI](draw-watch-face-using-swiftui.md)
-- [Reproduce Apple Find Me Bottom Menu View](reproduce-apple-find-me-bottom-menu-view.md)
+- [Reproduce Apple Find Me bottom menu view](reproduce-apple-find-me-bottom-menu-view.md)
 
-### Concurrency & Lifecycle
+### Concurrency & lifecycle
 
 - [Kotlin coroutine](kotlin-coroutine.md)
 - [Kotlin coroutine lifecycle](kotlin-coroutine-lifecycle.md)
 
-### Security & Secret Management
+### Security & secret management
 
 - [Secret management on iOS](secret-management-on-ios.md)
 
-### Case Studies & Implementations
+### Case studies & implementations
 
-- [Scale up application using Jetpack Navigation](scale-up-application-using-jetpack-navigation.md)
-- [XPC Services on macOS app using Swift](xpc-services-on-macos-app-using-swift.md)
-
+- [Scale up application using Jetpack navigation](scale-up-application-using-jetpack-navigation.md)
+- [XPC services on macOS app using Swift](xpc-services-on-macos-app-using-swift.md)

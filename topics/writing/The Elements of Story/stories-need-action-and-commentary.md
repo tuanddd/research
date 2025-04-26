@@ -17,4 +17,3 @@ Action may be direct and natural, hidden and potential, or mental; it should be 
 #### Citations
 
 Flaherty, Francis. _The Elements of Story: Field Notes on Nonfiction Writing._ Reprint edition. Harper Perennial, 2010.
-

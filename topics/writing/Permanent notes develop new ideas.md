@@ -1,5 +1,11 @@
 ---
-tags: writing, permanent-note, zettelkasten
+title: null
+description: null
+date: null
+tags:
+  - writing
+  - permanent-note
+  - zettelkasten
 ---
 
 Permanent notes are not intended just for the [[¶ Collector's Fallacy | collection of ideas]]; instead, they help us develop ideas.

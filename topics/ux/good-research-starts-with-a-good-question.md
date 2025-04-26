@@ -14,4 +14,3 @@ The question doesn't need necessarily to be precise; as Erika Hall puts it, an e
 
 - [[Spend more time in the problem space]] - Don't move to quickly to defining solutions, as there's a lot of value in developing deep understanding of the problem and refining the question.
 - [[Garbage in, garbage out]]
-

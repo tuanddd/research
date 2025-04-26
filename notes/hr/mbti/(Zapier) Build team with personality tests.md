@@ -1,5 +1,10 @@
 ---
-tags: MBTI, teambuilding
+title: null
+description: null
+date: null
+tags:
+  - mbti
+  - teambuilding
 ---
 
 Here are a few ways you can use personality assessments to improve your teams and optimize for more successful projects:

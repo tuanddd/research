@@ -1,5 +1,5 @@
 ---
-title: Frontend Report October 2024
+title: Frontend report october 2024
 short_title: October 2024
 description: This month’s newsletter highlights React’s new compiler beta, key updates from Next.js Conf 2024, and industry shifts toward full-stack roles and modern CSS. AI-driven tools like GitHub Copilot and Project IDX are further advancing development workflows.
 date: 2024-11-05
@@ -22,12 +22,12 @@ React’s new compiler, in beta, introduces optimizations that minimize re-rende
 
 Discover why React components render, what triggers re-renders, and how to optimize them for better app performance. Perfect for new developers looking to understand React’s rendering process.
 
-### Quick Links
+### Quick links
 
-- [React Folder Structure in 5 Steps](https://www.robinwieruch.de/react-folder-structure/)
-- [React Native Storybook 8](https://storybook.js.org/blog/react-native-storybook-8/)
+- [React folder structure in 5 steps](https://www.robinwieruch.de/react-folder-structure/)
+- [React native storybook 8](https://storybook.js.org/blog/react-native-storybook-8/)
 - [Conditional React hooks pattern](https://robinmalfait.com/blog/conditional-react-hooks-pattern)
-- [Tailwind CSS Group Modifier to Prevent React Rerenders](https://www.nico.fyi/blog/tailwind-css-group-modifier-to-prevent-react-rerender)
+- [Tailwind CSS group modifier to prevent React rerenders](https://www.nico.fyi/blog/tailwind-css-group-modifier-to-prevent-react-rerender)
 
 ## Next.js
 
@@ -35,11 +35,11 @@ Discover why React components render, what triggers re-renders, and how to optim
 
 Get the highlights from Next.js Conf 2024, featuring exciting updates on React Server Components, Edge Functions, and the new Next.js features that are shaping modern web development.
 
-### Quick Links
+### Quick links
 
-- [Server Side State management in NextJS: a deep dive into React Cache](https://www.yoseph.tech/posts/nextjs/server-side-state-management-in-nextjs-a-deep-dive-into-react-cache)
-- [How to Build and Deploy a Headless WordPress with Next.js](https://scientyficworld.org/how-to-deploy-headless-wordpress-with-next-js/)
-- [Managing Advanced Search Param Filtering in the Next.js App Router](https://aurorascharff.no/posts/managing-advanced-search-param-filtering-next-app-router/)
+- [Server side state management in NextJS a deep dive into React cache](https://www.yoseph.tech/posts/nextjs/server-side-state-management-in-nextjs-a-deep-dive-into-react-cache)
+- [How to build and deploy a headless WordPress with Next.js](https://scientyficworld.org/how-to-deploy-headless-wordpress-with-next-js/)
+- [Managing advanced search param filtering in the Next.js app router](https://aurorascharff.no/posts/managing-advanced-search-param-filtering-next-app-router/)
 
 ## Others
 
@@ -55,13 +55,13 @@ The report highlights a pivotal shift from traditional CSS practices to "New CSS
 
 The report highlights resilient demand for software engineers, with growth in remote work and a broadening search for talent beyond traditional tech hubs. Key areas include AI, machine learning, and cybersecurity.
 
-### Quick Links
+### Quick links
 
-- [The New Architecture in React Native](https://reactnative.dev/blog/2024/10/23/the-new-architecture-is-here)
-- [Content-Aware Components Using CSS :has(), Grid, and Quantity Queries](https://piccalil.li/blog/making-content-aware-components-using-css-has-grid-and-quantity-queries/)
-- [Unleash the Power of Scroll-Driven Animations](https://css-tricks.com/unleash-the-power-of-scroll-driven-animations/)
+- [The new architecture in React native](https://reactnative.dev/blog/2024/10/23/the-new-architecture-is-here)
+- [Content-aware components using CSS :has(), grid, and quantity queries](https://piccalil.li/blog/making-content-aware-components-using-css-has-grid-and-quantity-queries/)
+- [Unleash the power of scroll-driven animations](https://css-tricks.com/unleash-the-power-of-scroll-driven-animations/)
 - [The most effective ways to improve Core Web Vitals](https://web.dev/articles/top-cwv)
-- [How We Shrunk Our Git Repo Size by 94%](https://www.jonathancreamer.com/how-we-shrunk-our-git-repo-size-by-94-percent/)
+- [How we shrunk our Git repo size by 94%](https://www.jonathancreamer.com/how-we-shrunk-our-git-repo-size-by-94-percent/)
 - [Fixing your website's JavaScript performance](https://developer.mozilla.org/en-US/blog/fix-javascript-performance/)
 
 ## Trending
@@ -74,7 +74,7 @@ GitHub Copilot Workspace now offers tools to refine and validate code review sug
 
 Learn how Vercel cut build times and improved developer velocity while maintaining a smooth user experience with microfrontends.
 
-## New Tools
+## New tools
 
 ### [TanStack Start - Full-stack React framework](https://tanstack.com/start/latest)
 
@@ -88,17 +88,16 @@ Project IDX simplifies the process of setting up and managing a monolithic tech 
 
 One is a new React framework for web and native, built on Vite. It simplifies things with universal, [typed routing](https://onestack.dev/docs/routing) seamlessly across static, server, and client pages
 
-### Quick Links
+### Quick links
 
-- [Motion Canvas - A TypeScript library for creating animated videos using the Canvas API](https://motioncanvas.io/)
-- [Deno 2: New Features and Enhancements](https://deno.com/blog/v2.0)
-- [Nuqs: Lightweight Data Fetching for React](https://nuqs.47ng.com/)
+- [Motion Canvas - a TypeScript library for creating animated videos using the Canvas API](https://motioncanvas.io/)
+- [Deno 2: new features and enhancements](https://deno.com/blog/v2.0)
+- [Nuqs: lightweight data fetching for React](https://nuqs.47ng.com/)
 
 ## Commentary
 
-- [Why I Switched from Svelte to React: A Developer’s Perspective](https://www.reddit.com/r/sveltejs/comments/1gbwi0b/i_moved_from_svelte_to_react/)
+- [Why I switched from Svelte to React: a developer’s perspective](https://www.reddit.com/r/sveltejs/comments/1gbwi0b/i_moved_from_svelte_to_react/)
 - [A Reddit discussion on React Query alternatives](https://reddit.com/r/reactjs/comments/1ghxz99/if_youre_not_using_react_query_in_large/)
-- [The WordPress, WP Engine and ACF Drama](https://dev.to/matfrana/the-wordpress-wp-engine-and-acf-drama-5h88)
-- [Using AI Generated Code Will Make You a Bad Programmer](https://slopwatch.com/posts/bad-programmer/)
-- [Measuring Developer Productivity: Real-World Examples](https://newsletter.pragmaticengineer.com/p/measuring-developer-productivity-bae)
-
+- [The WordPress, WP Engine and ACF drama](https://dev.to/matfrana/the-wordpress-wp-engine-and-acf-drama-5h88)
+- [Using AI generated code will make you a bad programmer](https://slopwatch.com/posts/bad-programmer/)
+- [Measuring developer productivity: real-world examples](https://newsletter.pragmaticengineer.com/p/measuring-developer-productivity-bae)

@@ -10,7 +10,7 @@ _User experience (UX) research is the foundation of any successful digital produ
 
 ![](assets/mastering-ux-research---essential-techniques-for-successful-design_27df284cb1c26dd5751191b083bf5ea1_md5.webp)
 
-## Step 1. Lean Canvas
+## Step 1. Lean canvas
 
 The first step in any UX research project is to create a Lean Canvas. A Lean Canvas is a one-page business plan that helps UX researchers identify their target audience, their value proposition, and their key metrics. By creating a Lean Canvas, UX researchers can focus on the most important aspects of their project and avoid getting bogged down in unnecessary details.
 
@@ -58,7 +58,7 @@ User journey mapping is a visualization of the steps that users take as they int
 
 ![](assets/mastering-ux-research---essential-techniques-for-successful-design_e10e65c48fa960ee6221e66bf0aa80fa_md5.webp)
 
-## Step 7. Information Architecture
+## Step 7. Information architecture
 
 Information architecture is the organization and structure of digital content. By creating a clear and logical information architecture, UX researchers can make it easier for users to find what they are looking for. This information can be used to create a product that is more user-friendly and more effective.
 
@@ -73,4 +73,3 @@ User flow is a visualization of the paths that users take as they interact with 
 ![](assets/mastering-ux-research---essential-techniques-for-successful-design_0263e564347de20cc7d75fafafb3c7d8_md5.webp)
 
 _In conclusion, UX research is essential for creating digital products and services that meet the needs of users. By using a variety of techniques, UX researchers can gain a deep understanding of their users and create products that offer unique value. Whether you are a seasoned UX researcher or just starting out, these eight UX research methods are essential tools for success._
-

@@ -11,7 +11,7 @@ The WebDriver is an interface to automate browsers. We can use WebDriver impleme
 
 Hound is an Elixir library to write WebDriver. Writing End2End test with Hound is very similar to writing a normal ExUnit test. An advantage to writing automation tests is the same code base.
 
-### Common Web Drivers
+### Common web drivers
 
 https://github.com/HashNuke/hound/wiki/Starting-a-webdriver-server
 
@@ -93,4 +93,3 @@ end
 ### Note
 
 Before run test we MUST start the web driver first https://hexdocs.pm/hound/Hound.Helpers.Navigation.html
-

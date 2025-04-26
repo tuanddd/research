@@ -248,4 +248,3 @@ Incorporating a comprehensive testing strategy helps ensure code quality, user e
 - **End-to-end testing**: Use Cypress to cover full workflows and user journeys, verifying app behavior across pages.
 - **Snapshot testing**: Capture and compare UI structures, helpful for components with complex, static layouts.
 - **Best practices**: Adopt the testing pyramid, test from the user's perspective, mock dependencies, and automate tests in CI/CD
-

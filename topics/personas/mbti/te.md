@@ -20,4 +20,3 @@ Book: My True Type, page 98 - 102
 
 - Ti users introvert and organize their thoughts and judgments
 - Te users extrovert thinking and make decisions based on facts
-

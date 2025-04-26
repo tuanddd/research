@@ -1,5 +1,10 @@
 ---
-tags: ux, design
+title: null
+description: null
+date: null
+tags:
+  - ux
+  - design
 ---
 
 The seven deadly sins, also known as the capital vices, or cardinal sins, is a grouping and classification of vices within Christian teachings. Behaviors or habits are classified under this category if they directly give rise to other immoralities. According to the standard list, they are pride, greed, wrath, envy, lust, gluttony, and sloth, which are contrary to the seven heavenly virtues. These sins are often thought to be abuses or excesses of natural faculties or passions (for example, gluttony abuses the natural hunger for nourishment.
@@ -24,4 +29,4 @@ We often hear CEOs share that their products provide some values for users such 
 
 #### Reference
 
-- [Seven Deadly Sins](https://en.wikipedia.org/wiki/Seven_deadly_sins)
+- [Seven deadly sins](https://en.wikipedia.org/wiki/Seven_deadly_sins)

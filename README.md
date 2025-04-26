@@ -1,5 +1,5 @@
 ---
-title: Labs Team
+title: Labs team
 description: This is our Labs team homepage, where we list out the latest advances in our engineering team, our publications, events & workshops, as well as frequently asked questions on who and what team labs are.
 date: 2023-11-30
 authors:
@@ -22,9 +22,9 @@ tags:
     </a>
 </p>
 
-## Latest from Labs Team
+## Latest from Labs team
 
-## Forward Engineering Publications
+## Forward engineering publications
 
 - [[newsletter/forward/Forward Engineering November 2023.md|Forward Engineering November 2023]]
 - [[newsletter/forward/Forward Engineering October 2023.md|Forward Engineering October 2023]]
@@ -70,7 +70,7 @@ For Dwarves team members, engaging in future research projects is an excellent w
 
 ### Upcoming
 
-### Past Events
+### Past events
 
 - [[Labs Weekly Catchup 2|Labs Weekly Catchup 2]]: Our second weekly catchup. We organize an agenda the day beforehand and consolidate our findings, notable research progress, possibly new tech, insight or technique everyone should know.
 - [[Labs Weekly Catchup 1|Labs Weekly Catchup 1]]: Our first weekly catchup. We organize an agenda the day beforehand and consolidate our findings, notable research progress, possibly new tech, insight or technique everyone should know.
@@ -82,4 +82,3 @@ For Dwarves team members, engaging in future research projects is an excellent w
 ---
 
 ![](assets/_index__base-20231130183110925.webp)
-

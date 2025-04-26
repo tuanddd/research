@@ -11,7 +11,7 @@ A Moore machine is a [[Finite-state automata]] where the output values are deter
 
 ![](assets/moore-machine_moore_machine.webp)
 
-## Mathematical Model
+## Mathematical model
 
 As per the general classification noted on [UC Davis outline on transducers](https://www.cs.ucdavis.edu/~rogaway/classes/120/spring13/eric-transducers) (formatted with similar variables to [[Finite-state automata]]s), a deterministic Moore machine has 6 main variables associated with its definition (a sextuple): ($\Sigma$, $S$, $\Gamma$, $\delta$, $\omega$, $s_0$).
 
@@ -89,4 +89,3 @@ Both Mealy and Moore machines are generator-type state machines and can be used 
 - https://en.wikipedia.org/wiki/Mealy_machine
 - https://www.cs.ucdavis.edu/~rogaway/classes/120/spring13/eric-transducers
 - https://unstop.com/blog/difference-between-mealy-and-moore-machine
-

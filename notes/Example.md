@@ -1,5 +1,10 @@
 ---
-tags: engineer, example
+title: null
+description: null
+date: null
+tags:
+  - engineer
+  - example
 ---
 
 To resolve this, I thought of using function : `export async function getServerSideProps(context)`

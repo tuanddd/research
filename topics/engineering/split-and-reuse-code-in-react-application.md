@@ -1,5 +1,5 @@
 ---
-title: Split And Reuse Code In React Application
+title: Split and reuse code in React application
 description: Learn how to split and reuse repetitive React code using render props pattern, higher-order components, and React hooks like useState for efficient modal state management.
 date: 2019-05-02
 tags:
@@ -295,4 +295,3 @@ Not only store data, you can also process data, fetch data from remote source, c
 React hooks used to be proposed specification but since react 16.8: the one with hooks, It’s has been made to become official feature so your guys can just use it sparingly to splitting your repetitive code into.
 
 Here is the full source code of our application: [https://github.com/phmngocnghia/modal-hook](https://github.com/phmngocnghia/modal-hook)
-

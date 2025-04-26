@@ -10,7 +10,7 @@ tags:
   - react
 ---
 
-### An Introduction to React fiber
+### An introduction to React fiber
 
 Fiber is the new reconciliation algorithm since React 16, a completely backward-compatible rewrite of the old reconciler (Stack Reconciler).
 
@@ -30,4 +30,3 @@ With the old Stack Reconciler, reconciliation and rendering work weren’t separ
 - https://www.geeksforgeeks.org/reactjs-reconciliation/
 - https://www.velotio.com/engineering-blog/react-fiber-algorithm
 - https://flexiple.com/react/react-fiber/
-

@@ -1,5 +1,5 @@
 ---
-title: Prevent Layout Thrashing
+title: Prevent layout thrashing
 description: Layout Thrashing happens, when you request layout information of an element or the document, while the layout is in an invalidated state.
 date: 2022-09-11
 authors:
@@ -11,7 +11,7 @@ tags:
   - performance
 ---
 
-## What is Layout Thrashing
+## What is layout thrashing
 
 ![](assets/prevent-layout-thrashing_layout-thrashing.webp)
 
@@ -84,7 +84,7 @@ Find purple tasks and get info in detail:
 
 <video src="https://afarkas.github.io/layout-thrashing/material/layout-thrashing-debug.mp4" controls></video>
 
-## List of commands causing Layout Thrashing we need to be careful when using it
+## List of commands causing layout thrashing we need to be careful when using it
 
 Generally, all APIs that synchronously provide layout metrics will trigger forced reflow/layout. Check out [this gist](https://gist.github.com/paulirish/5d52fb081b3570c81e3a) for additional cases and details.
 
@@ -92,4 +92,3 @@ Generally, all APIs that synchronously provide layout metrics will trigger force
 
 - https://gist.github.com/paulirish/5d52fb081b3570c81e3a
 - https://afarkas.github.io/layout-thrashing/#/
-

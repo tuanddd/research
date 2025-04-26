@@ -1,5 +1,5 @@
 ---
-title: Design System For Layer 2 Using Zk Rollup
+title: Design system for layer 2 using zk rollup
 description: Learn how Layer 2 blockchain design using zkEVM and zero-knowledge proofs enables scalable, secure token transfers and smart contract execution with efficient transaction batching and Ethereum compatibility.
 date: 2023-04-24
 tags:
@@ -14,7 +14,7 @@ _At Dwarves, we are currently working on creating a bridge token in one of our b
 
 Blockchain technology has revolutionized the way we think about trust and decentralization, enabling the creation of secure and transparent systems without the need for intermediaries. However, the scalability limitations of many blockchain networks have become a major obstacle to their widespread adoption. To address this issue, a new approach has emerged: layer 2 solutions built on top of existing blockchain networks.
 
-## Approaching Blockchain Layer 2
+## Approaching blockchain layer 2
 
 Blockchain layer 2 is being used to build applications that require high performance at reasonable costs, such as decentralized exchanges, supply chain management systems, decentralized gaming, and decentralized asset management. In this article, we will focus on the architecture design of a layer 2 blockchain. This approach involves aggregating multiple transactions into a single transaction proof, which is then validated on the main blockchain, allowing for a significant increase in throughput. We will focus on the design system for layer 2 using ZK rollup, with a particular emphasis on the Zero-Knowledge Ethereum Virtual Machine (zkEVM) and its various components.
 
@@ -30,7 +30,7 @@ State machines are best suited for repetitive deterministic computations, which 
 
 ![](assets/design-system-for-layer-2-using-zk-rollup_5c893d5303e63e3b680f53b79b2878de_md5.svg)
 
-## System Requirements
+## System requirements
 
 Since this isn’t a closed system, there are few requirements we need to meet in order to ensure its security, performance, and workability. The following are the essential requirements for a blockchain layer 2 system that we should have:
 
@@ -52,7 +52,7 @@ In order to meet our system requirements, we are essentially creating a **zkProv
 
 ## Design the system
 
-### System Overview
+### System overview
 
 Similar to other blockchains, the system will include the main components of a regular blockchain. The difference in layer 2 will be that the calculation of the smart contract will be processed off-chain by specialized machines to improve processing speed, the calculation results will be verified by a separate algorithm and saved on layer 1. The system architecture of Layer 2 ZK-EVM consists of four primary components: the blockchain node, client, ZK-rollup smart contract, and the Ethereum bridge.
 
@@ -71,10 +71,10 @@ The main components we need for the layer 2 system (that also include components
 - **Synchronizer** - helps nodes to stay up-to-date with the latest state on the blockchain
 - **ZK SNARK/STARK**- arguments of knowledge to prove transactions without revealing any information
 - **StateDB**- a database to store current states of all accounts and contracts on the Ethereum network
-- **Ethereum Bridge** - a mechanism to transfer assets between 2 blockchain networks
+- **Ethereum bridge** - a mechanism to transfer assets between 2 blockchain networks
 - **ZKRollup smart contract**- a smart contract that takes hundreds of transactions off the main blockchain and bundles them into a single transaction, to then send a validity proof to the main blockchain
 
-### ZkProver Component
+### ZkProver component
 
 The proof and verification of transactions in Polygon zkEVM are both handled by a zero-knowledge proofing component called zkProver. All the rules for a valid transaction are implemented and executed in zkProver. Prover relies on the transactions to be processed, and the state of the network to calculate the proof. zkProver mainly interacts with two components i.e. Node and Database (DB). Therefore, before diving deeper into other components, we must understand the control flow between zkProver, Node and Database. Here is a diagram to explain the process clearly.
 
@@ -87,7 +87,7 @@ The proof and verification of transactions in Polygon zkEVM are both handled by 
 - CIRCOM library
 - Prove ZK-SNARK
 
-### State machine Component
+### State machine component
 
 ![](assets/design-system-for-layer-2-using-zk-rollup_6966283d889117a7e021bfd7d29d47a7_md5.webp)
 
@@ -104,27 +104,27 @@ The system uses state machines with transactions with inputs transactions, the o
 - Keccak SM
 - Arithmetic SM
 
-### Aggregator Component
+### Aggregator component
 
 The Aggregator client connects to the Aggregator server and calls Prover to generate the proof of the calculation
 
-### Executor Component
+### Executor component
 
 Executors execute input data and calculate the resulting state, but they do not generate proof. They provide a fast way to check whether the proposed batch is properly built and whether the amount of work that can be proven fits in a single batch.
 
-### StateDB Component
+### StateDB component
 
 StateDB plays an important role in ensuring the integrity and reliability of the blockchain. StateDB provides a single source of state, storing the state of the system in a database. It ensures that every node on the network can synchronize with the current state of the blockchain and confirm the validity of newly added transactions. Additionally, StateDB is used to determine access rights and permissions for each account and smart contract on the blockchain.
 
-### L2 State
+### L2 state
 
-Design to update L2 State over time so that the state is always the most properly synchronized over time. There are three stages of the L2 State, each of which corresponds to three different ways that L2 nodes can update their state. All three cases depending on the format of the batch data used to update the L2 State.
+Design to update L2 state over time so that the state is always the most properly synchronized over time. There are three stages of the L2 state, each of which corresponds to three different ways that L2 nodes can update their state. All three cases depending on the format of the batch data used to update the L2 state.
 
 - In the first case, the update is only notified by information (i.e. the Lot consisting of sorted transactions) coming directly from the Trusted Sequencer, before any data is available on L1. The resulting L2 state is called the Trusted state.
 - In the second case, the update is based on the information obtained by the L2 nodes from the L1  network. After the plots have been sequenced and data have been made available on L1. The L2 state is called  Virtual State at this time.
-- The information used to update L2 State in the final case includes verified zero-knowledge proofs of computational integrity. After the Zero-Knowledge proof has been successfully verified in L1, L2 nodes synchronize their local L2 State root with the root committed in L1 by the Trusted Aggregate trust. As a result, such L2 State is called  Unified State
+- The information used to update L2 state in the final case includes verified zero-knowledge proofs of computational integrity. After the Zero-Knowledge proof has been successfully verified in L1, L2 nodes synchronize their local L2 state root with the root committed in L1 by the Trusted Aggregate trust. As a result, such L2 state is called  Unified State
 
-### Sequencer Component
+### Sequencer component
 
 Trusted Sequencer generates batches, but to achieve quick results of L2 transactions and avoid having to wait for the next L1 block, they are shared with L2 network nodes via a streaming channel. Each node will run batches to compute local L2 state results.
 
@@ -134,7 +134,7 @@ Execution of off-chain batches will eventually be verified on-chain via Zero-Kno
 
 ![](assets/design-system-for-layer-2-using-zk-rollup_111fc823c12887002c2b8db6b1fb3bd1_md5.webp)
 
-### Bridge Component
+### Bridge component
 
 The bridge is responsible for receiving and processing requests to transfer information across different blockchain networks. For example, the user wants to send ETH from the Ethereum network to the layer 2 blockchains, the user will send a request to a smart contract on Ethereum or smart contract on layer 2, Aggregator will listen for pre-registered events for processing. You can follow the diagram below:
 
@@ -171,7 +171,7 @@ The main functions:
 
 RPC (Remote Procedure Call) is a JSON-RPC interface compatible with the Ethereum network. In order for a software application to interact with the Ethereum blockchain (by reading blockchain data and/or sending transactions to the network), that application must connect to an Ethereum node. RPC allows the integration of zkEVM with existing tools, such as Metamask, Etherscan, and Infura. It adds transactions to the Pool and interacts with the State using read-only methods. It allows interaction with the blockchain through methods similar to EVM.
 
-### Final Node component diagram
+### Final node component diagram
 
 One node will include all the components as we have shown above. the components will be started and run simultaneously as a whole
 
@@ -179,7 +179,7 @@ One node will include all the components as we have shown above. the components 
 
 The diagram represents the main components of the software and how they interact between them. Note that this reflects a single entity running a node, in particular a node that acts as the trusted sequencer. But there are many entities running nodes in the network, and each of these entities can perform different roles.
 
-### Transaction Flow
+### Transaction flow
 
 **Submit transaction**
 Transactions in the zkEVM network are generated in the user's wallet and signed with their private key. Once created and signed, transactions are sent to the Trusted Sequencer node through their JSON-RPC interface. The transactions are then stored in the pending transaction pool, where they await the Sorter's selection to execu`te or discard.
@@ -188,9 +188,9 @@ Transactions in the zkEVM network are generated in the user's wallet and signed 
 In the current design,  a single transaction is equivalent to a block. This design strategy not only improves RPC and P2P communication between nodes but also enhances compatibility with the existing engines and facilitates rapid completion in L2. It also simplifies the process of locating user transactions.
 
 **Execute transaction**
-Trusted Sequencer reads transactions from the pool and decides whether to cancel them or sort and execute them. The executed transactions are added to a batch of transactions and the Local L2 State of the Sequencer is updated.
+Trusted Sequencer reads transactions from the pool and decides whether to cancel them or sort and execute them. The executed transactions are added to a batch of transactions and the Local L2 state of the Sequencer is updated.
 
-After a transaction is added to the L2 State, it is broadcast to all other zkEVM nodes via the broadcast service. It is worth noting that by relying on Trusted Sequencer, we can reach the final transaction quickly (faster in L1). However, the resulting L2 State will remain in a trusted state until the batch is committed in the Consensus Contract.
+After a transaction is added to the L2 state, it is broadcast to all other zkEVM nodes via the broadcast service. It is worth noting that by relying on Trusted Sequencer, we can reach the final transaction quickly (faster in L1). However, the resulting L2 state will remain in a trusted state until the batch is committed in the Consensus Contract.
 
 **Batch transaction**
 Trusted Sequencer must batch execute transactions using the following BatchData structure specified in the PolygonZkEVM.sol contract:
@@ -218,4 +218,3 @@ mapping(uint64 => SequencedBatchData) public sequencedBatches;
 ```
 
 The batches must be part of an array of batches that are ordered sequentially. The Trusted Sequencer calls Contract PolygonZkEVM.sol, which uses the sequenceBatches mapping, which accepts an ordered array of batches as an argument. Please see the code snippet provided below.
-

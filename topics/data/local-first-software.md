@@ -1,5 +1,5 @@
 ---
-title: Local-first Software
+title: Local-first software
 description: "Local-first software is an approach to software development that emphasizes data ownership, offline functionality, and real-time collaboration. This model ensures data is primarily stored on the user's device, enhancing privacy and control while enabling seamless synchronization and collaboration without relying on continuous internet connectivity"
 date: 2024-07-06
 authors:
@@ -12,7 +12,7 @@ tags:
   - real-time-collaboration
 ---
 
-## What is Local-first Software?
+## What is Local-first software?
 
 Local-first software prioritizes storing data on the user's device, ensuring ownership, privacy, and offline functionality. It synchronizes with other devices and the cloud when possible, offering the benefits of cloud-based collaboration without the downsides of centralized data storage.
 
@@ -29,20 +29,20 @@ Local-first shifts the roles between servers and clients, making clients the pri
 Generally, local-first is enabled by two core concepts:
 
 - **CRDTs (Conflict-free Replicated Data Types)**: These data structures allow multiple users to edit documents simultaneously, merging changes without conflicts. You can read more about CRDTs here: [Introduction to CRDT](../data/introduction-to-crdt.md).
-- **Data Synchronization**: Changes made offline are synced with other devices and the cloud when a connection is available.
+- **Data synchronization**: Changes made offline are synced with other devices and the cloud when a connection is available.
 
 In most cases, end-to-end encryption is required to ensure data security during synchronization.
 
 ## Why local-first?
 
-- **Data Ownership and Privacy**: Users have full control over their data, reducing the risk of breaches.
-- **Offline Functionality**: Applications remain fully functional without internet connectivity.
-- **Performance and Reliability**: Local data storage enhances performance and ensures reliability even with poor or no network connections.
-- **Seamless Collaboration**: Enables real-time collaboration and conflict resolution without central servers.
+- **Data ownership and privacy**: Users have full control over their data, reducing the risk of breaches.
+- **Offline functionality**: Applications remain fully functional without internet connectivity.
+- **Performance and reliability**: Local data storage enhances performance and ensures reliability even with poor or no network connections.
+- **Seamless collaboration**: Enables real-time collaboration and conflict resolution without central servers.
 
 ## How does it compare to existing models?
 
-- **Traditional File Systems and Email Attachments**: Offer local data storage but lack real-time collaboration and seamless multi-device synchronization.
+- **Traditional file systems and email attachments**: Offer local data storage but lack real-time collaboration and seamless multi-device synchronization.
 - **Cloud-based Solutions (e.g., Trello, Google Drive)**: Improve accessibility and collaboration but centralize control and expose users to data breaches and loss of access.
 - **Hybrid Models (e.g., Dropbox)**: Offer local storage with cloud sync but still depend on centralized servers for data availability.
 
@@ -59,10 +59,9 @@ Popular apps that are known to adopt a local-first approach:
 
 - **Complexity of CRDTs**: Implementing efficient and scalable CRDTs is technically challenging.
 - **Security**: Ensuring robust encryption and secure data synchronization is critical.
-- **User Experience**: Balancing simplicity and the benefits of local-first architecture in user interfaces.
-- **Performance Overhead**: Managing the performance impact of data synchronization and CRDT operations.
+- **User experience**: Balancing simplicity and the benefits of local-first architecture in user interfaces.
+- **Performance overhead**: Managing the performance impact of data synchronization and CRDT operations.
 
 ## References
 
 1. [Local-first software: You own your data, in spite of the cloud (inkandswitch.com)](https://www.inkandswitch.com/local-first/)
-

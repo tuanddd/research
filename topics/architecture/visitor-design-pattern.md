@@ -30,7 +30,7 @@ Imagine you're developing a simple text editing application. In this application
 
 As the application grows, more operations need to be supported for these elements. Without a proper design, adding new operations could lead to a bloated and hard-to-maintain codebase, especially if it involves modifying each element class every time a new operation is introduced.
 
-## Solution with Visitor Pattern
+## Solution with visitor pattern
 
 The Visitor Pattern allows us to define a new operation without changing the classes of the elements on which it operates. Instead of adding the new operation to each element, we create a visitor class that implements the operation. Each element class then has an `accept` method that takes a visitor and calls the visitor’s method corresponding to that element.
 
@@ -84,7 +84,7 @@ The Visitor Pattern allows us to define a new operation without changing the cla
 +-----------------+         +-----------------+         +-----------------+
 ```
 
-### Element Classes
+### Element classes
 
 ```tsx
 interface DocumentElement {
@@ -110,7 +110,7 @@ class Image implements DocumentElement {
 }
 ```
 
-### Visitor Interface and Concrete Visitors:
+### Visitor interface and Concrete visitors:
 
 ```tsx
 interface DocumentVisitor {
@@ -186,12 +186,12 @@ function App() {
 
 ### Explanation
 
-1. **Element Classes:** We have `Paragraph`, `Table`, and `Image` classes, each implementing the `accept` method which accepts a visitor.
-2. **Visitor Interface:** `DocumentVisitor` is an interface with methods to visit each type of element.
-3. **Concrete Visitors:** `RenderVisitor`, `ExportVisitor`, and `SpellCheckVisitor` are concrete implementations of the visitor interface. Each visitor class defines the operation for each type of element.
+1. **Element classes:** We have `Paragraph`, `Table`, and `Image` classes, each implementing the `accept` method which accepts a visitor.
+2. **Visitor interface:** `DocumentVisitor` is an interface with methods to visit each type of element.
+3. **Concrete visitors:** `RenderVisitor`, `ExportVisitor`, and `SpellCheckVisitor` are concrete implementations of the visitor interface. Each visitor class defines the operation for each type of element.
 4. **Usage:** We create instances of elements and visitors. Each element accepts each visitor, which performs the appropriate operation.
 
-By using the Visitor Pattern, we can easily add new operations without modifying the element classes, adhering to the Open/Closed Principle and making the code more maintainable and scalable.
+By using the Visitor Pattern, we can easily add new operations without modifying the element classes, adhering to the Open/closed principle and making the code more maintainable and scalable.
 
 ## Applicability
 
@@ -202,12 +202,12 @@ By using the Visitor Pattern, we can easily add new operations without modifying
 - **Use the Visitor when a behavior is relevant only to certain classes in a class hierarchy.**
   Extract this behavior into a separate visitor class, implementing only the visiting methods for the relevant classes, leaving the rest empty.
 
-## Pros and Cons
+## Pros and cons
 
 ### Advantages
 
-- **Open/Closed Principle**: Introduce new behavior for objects of different classes without modifying those classes.
-- **Single Responsibility Principle**: Consolidate multiple versions of the same behavior into a single class.
+- **Open/closed principle**: Introduce new behavior for objects of different classes without modifying those classes.
+- **Single responsibility principle**: Consolidate multiple versions of the same behavior into a single class.
 - A visitor object can gather useful information while working with various objects, which is beneficial for traversing complex structures like an object tree and applying the visitor to each object.
 
 ### Disadvantages
@@ -215,11 +215,11 @@ By using the Visitor Pattern, we can easily add new operations without modifying
 - All visitors need updating whenever a class is added to or removed from the element hierarchy.
 - Visitors may lack access to private fields and methods of the elements they work with.
 
-## Use Cases
+## Use cases
 
 Some use cases for the Visitor Pattern:
 
-### Use Case 1: Compiler Design
+### Use case 1: compiler design
 
 **Context:** In a compiler, the abstract syntax tree (AST) represents the structure of the source code. The compiler needs to perform various operations on the AST, such as type checking, code generation, and optimization.
 
@@ -230,7 +230,7 @@ Some use cases for the Visitor Pattern:
 - **Elements:** `Expression`, `Statement`, `Variable`, `Function`
 - **Visitors:** `TypeChecker`, `CodeGenerator`, `Optimizer`
 
-### Use Case 2: Document Processing
+### Use case 2: document processing
 
 **Context:** In a text processing application, different document elements (e.g., paragraphs, images, tables) need to support various operations like rendering, exporting, and spell-checking.
 
@@ -241,7 +241,7 @@ Some use cases for the Visitor Pattern:
 - **Elements:** `Paragraph`, `Table`, `Image`
 - **Visitors:** `RenderVisitor`, `ExportVisitor`, `SpellCheckVisitor`
 
-### Use Case 3: Graphics Rendering
+### Use case 3: graphics rendering
 
 **Context:** In a graphics rendering system, different shapes (e.g., circles, squares, triangles) need to support operations like drawing, resizing, and calculating the area.
 
@@ -252,7 +252,7 @@ Some use cases for the Visitor Pattern:
 - **Elements:** `Circle`, `Square`, `Triangle`
 - **Visitors:** `DrawVisitor`, `ResizeVisitor`, `AreaCalculatorVisitor`
 
-### Use Case 4: File System Operations
+### Use case 4: file system operations
 
 **Context:** In a file system management tool, different file system components (e.g., files, directories) need to support operations like searching, compression, and encryption.
 
@@ -263,7 +263,7 @@ Some use cases for the Visitor Pattern:
 - **Elements:** `File`, `Directory`
 - **Visitors:** `SearchVisitor`, `CompressionVisitor`, `EncryptionVisitor`
 
-### Use Case 5: Game Development
+### Use case 5: game development
 
 **Context:** In a game, different game entities (e.g., players, enemies, obstacles) need to support various operations like rendering, updating state, and collision detection.
 
@@ -274,7 +274,7 @@ Some use cases for the Visitor Pattern:
 - **Elements:** `Player`, `Enemy`, `Obstacle`
 - **Visitors:** `RenderVisitor`, `UpdateVisitor`, `CollisionDetectionVisitor`
 
-### Use Case 6: E-commerce System
+### Use case 6: e-commerce system
 
 **Context:** In an e-commerce application, different product types (e.g., electronics, clothing, groceries) need to support operations like applying discounts, calculating shipping costs, and generating invoices.
 
@@ -285,7 +285,7 @@ Some use cases for the Visitor Pattern:
 - **Elements:** `Electronics`, `Clothing`, `Groceries`
 - **Visitors:** `DiscountVisitor`, `ShippingCostVisitor`, `InvoiceGeneratorVisitor`
 
-### Use Case 7: Network Protocols
+### Use case 7: network protocols
 
 **Context:** In a network protocol implementation, different types of packets (e.g., data packet, acknowledgment packet, control packet) need to support operations like serialization, deserialization, and logging.
 
@@ -296,7 +296,7 @@ Some use cases for the Visitor Pattern:
 - **Elements:** `DataPacket`, `AckPacket`, `ControlPacket`
 - **Visitors:** `SerializeVisitor`, `DeserializeVisitor`, `LoggingVisitor`
 
-### Use Case 8: UI Component Management
+### Use case 8: UI component management
 
 **Context:** In a GUI application, different UI components (e.g., buttons, text fields, checkboxes) need to support operations like rendering, event handling, and validation.
 
@@ -306,4 +306,3 @@ Some use cases for the Visitor Pattern:
 
 - **Elements:** `Button`, `TextField`, `Checkbox`
 - **Visitors:** `RenderVisitor`, `EventHandlingVisitor`, `ValidationVisitor`
-

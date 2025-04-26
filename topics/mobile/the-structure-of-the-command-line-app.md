@@ -93,7 +93,7 @@ Ex:
 
 Here we can see many forms of `--help` flag like: `-h, -?, -H`, that is the shorter version of `--help`.
 
-### The Subcommands
+### The subcommands
 
 The CommandLine tool app usually have many features, is easy to use, and especially uses subcommands to separate intent.
 
@@ -184,4 +184,3 @@ _Note: The inclusion of `help` is not required, but is highly recommended to hav
 ## Reference
 
 - <https://dev.to/paulasantamaria/command-line-interfaces-structure-syntax-2533>
-

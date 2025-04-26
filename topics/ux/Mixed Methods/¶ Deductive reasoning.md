@@ -26,4 +26,3 @@ Roger Martin has argued that Western education favours deductive (and inductive)
 [[≈ Sensemaking | Madsbjerg, Christian. Sensemaking: The Power of the Humanities in the Age of the Algorithm. Hachette Books, 2017.]]
 
 [[≈ The Opposable Mind | Martin, Roger L. The Opposable Mind: How Successful Leaders Win Through Integrative Thinking. 1st edition. Boston, Mass: Harvard Business Review Press, 2007.]]
-

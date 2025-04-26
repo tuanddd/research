@@ -1,5 +1,5 @@
 ---
-title: How Blue Green Deployment Helped Mochi
+title: How blue green deployment helped Mochi
 description: Learn how implementing blue-green deployment with Argo Rollouts on Kubernetes improved Mochi Bot’s updates by eliminating downtime and ensuring seamless releases for Web3 Discord applications.
 date: 2023-04-03
 tags:
@@ -10,7 +10,7 @@ tags:
 
 _Our team has always faced some bit of friction when deploying apps for our clients. We’ve known about blue-green deployments for a while and were recently given the chance to evaluate and demonstrate them for one of our Discord bot projects._
 
-## Applying Blue-green deployment for Mochi Bot
+## Applying blue-green deployment for Mochi Bot
 
 Introducing [Mochi Bot](https://mochi.gg/) to the Web3 space, our team has developed a flexible and user-friendly product with features like NFT rarity queries, sales alerts on Discord and Twitter, and showing various tips. To enhance user experience and streamline deployment, we had the chance to implement [blue-green deployment](https://radar.d.foundation/Blue-green-deployment-a93ea5c3d4d8439ba8701aec57d7ea3c) for the Mochi Bot application. Below is our case study that evaluates the cost and practicality of this deployment strategy in our current infrastructure.
 
@@ -167,7 +167,7 @@ spec:
   type: ClusterIP
 ```
 
-## Applying Resources to the Cluster and Testing
+## Applying resources to the cluster and testing
 
 We applied the resource files to the Kubernetes cluster using `**kubectl apply**` commands. The application was deployed to the active environment and could be viewed on the production domain - `mochiapp.bluegreen.domain`.
 
@@ -228,4 +228,3 @@ Follow our journey
 - Fanpage: [facebook.com/dwarvesf](http://facebook.com/dwarvesf)
 - LinkedIn: [linkedin.com/company/dwarvesf](http://linkedin.com/company/dwarvesf)
 - Substack: [https://memo.d.foundation/](https://memo.d.foundation/)
-

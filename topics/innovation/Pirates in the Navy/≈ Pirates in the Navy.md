@@ -1,5 +1,9 @@
 ---
-tags: innovation
+title: null
+description: null
+date: null
+tags:
+  - innovation
 ---
 
 ### Summary
@@ -22,7 +26,7 @@ Innovation within established organizations goes very differently than innovatio
 - [[Common innovation anti-patterns]]
 - [[Common myths about innovation]]
 
-#### Succeeding at Innovation
+#### Succeeding at innovation
 
 - [Innovation is management as much as it is creativity](https://publish.obsidian.md/mobydiction/notes/Innovation+is+management+as+much+as+it+is+creativity)
 - [Integrate innovation functions with the broader organization](https://publish.obsidian.md/mobydiction/notes/Integrate+innovation+functions+with+the+broader+organization)

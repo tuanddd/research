@@ -1,5 +1,12 @@
 ---
-tags: software101, engineering, testing, agile
+title: null
+description: null
+date: null
+tags:
+  - software101
+  - engineering
+  - testing
+  - agile
 ---
 
 Do we need an independent test group for agile project? Some people said if the company uses agile they do not need testers anymore. Is it true?

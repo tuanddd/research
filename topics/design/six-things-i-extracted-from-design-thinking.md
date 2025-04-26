@@ -1,5 +1,5 @@
 ---
-title: Six Things I Extracted From Design Thinking
+title: Six things I extracted from design thinking
 description: Discover how applying Design Thinking in everyday life enhances problem solving, decision making, and adaptability with practical tips on gathering information, organizing data, and embracing change.
 date: 2021-04-14
 tags:
@@ -12,7 +12,7 @@ Being a self-learned designer, I research and read a lot. One of my all-time fav
 
 Six months of applying Design Thinking in real life turns out to be the best investment of my time and effort, for all the positive changes I’ve got (and documented). Cue this article.
 
-## The six things I learned from Design Thinking
+## The six things I learned from design thinking
 
 The hype around Design Thinking started a couple of years back, along with “UIUX Design”. For some of you who haven't got used to the Design Thinking concept, you can [read more about it here](https://www.interaction-design.org/literature/article/what-is-design-thinking-and-why-is-it-so-popular).
 
@@ -104,4 +104,3 @@ How is your experience with Design Thinking? Join our [Discord](https://discord.
 If there are any topics you would like us to cover next, send us a message at [minhtk@d.foundation](mailto:minhtk@d.foundation)
 
 Thank you for taking the time.
-

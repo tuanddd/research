@@ -79,7 +79,7 @@ Some authors write `δ ⊆ Q×Σ → Q` in formal DFA definition that means `δ`
 
 [Source](https://stackoverflow.com/questions/14870130/how-does-%ce%b4q%c3%97%ce%a3%e2%86%92q-read-in-the-definition-of-a-dfa-deterministic-finite-automat?noredirect=1&lq=1)
 
-### State machine vs. Workflow
+### State machine vs. workflow
 
 1/ The major difference between a workflow engine and a state machine lies in focus. In a workflow engine, a transition to the next step occurs when a previous action is completed, whilst a state machine needs an external event that will cause branching to the next activity. In other words, the state machine is event-driven and the workflow engine is not. [Source](https://workflowengine.io/blog/workflow-engine-vs-state-machine/)
 
@@ -87,7 +87,7 @@ Some authors write `δ ⊆ Q×Σ → Q` in formal DFA definition that means `δ`
 
 ### DFA vs. NFA
 
-#### DFA (Deterministic Finite Automaton) Robot
+#### DFA (Deterministic finite automaton) robot
 
 - This robot **only looks at one tile at a time** and knows **exactly what to do** next, no matter what.
 - It has **one set of instructions** for each tile color. If it sees a red tile, it knows for sure what its next move is.
@@ -96,7 +96,7 @@ Some authors write `δ ⊆ Q×Σ → Q` in formal DFA definition that means `δ`
   - If it sees a red tile, it moves forward.
   - If it sees a blue tile, it turns around. It **never gets confused** and always knows the next step.
 
-#### NFA (Non-deterministic Finite Automaton) Robot
+#### NFA (Non-deterministic finite automaton) robot
 
 - This robot is a little different. When it sees a tile, it can **imagine multiple possibilities** and think about all of them at once.
 - It might say, "Hmm, when I see a red tile, I could move forward, turn around, or even jump! Let me think about all these options at once."
@@ -105,13 +105,12 @@ Some authors write `δ ⊆ Q×Σ → Q` in formal DFA definition that means `δ`
   - When it sees a red tile, it might think, "I can either move forward or jump over it."
   - It checks **all options** at the same time and decides if the path is correct by looking at all the possibilities.
 
-#### Difference in Capabilities
+#### Difference in capabilities
 
-- **DFA Robot**: It's faster because it always knows exactly what to do. But it might need a lot of instructions because it can't explore different options. It has to account for every possible situation.
-- **NFA Robot**: It’s more flexible because it can explore lots of possibilities at the same time. But in the real world, it might take a little longer to check all those options.
+- **DFA robot**: It's faster because it always knows exactly what to do. But it might need a lot of instructions because it can't explore different options. It has to account for every possible situation.
+- **NFA robot**: It’s more flexible because it can explore lots of possibilities at the same time. But in the real world, it might take a little longer to check all those options.
 
-#### Key Points
+#### Key points
 
 - **DFA**: One option at a time, very efficient but can be strict.
 - **NFA**: Many options at once, more flexible but can take more time to figure things out.
-

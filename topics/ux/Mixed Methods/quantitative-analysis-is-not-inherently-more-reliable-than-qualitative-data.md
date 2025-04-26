@@ -24,7 +24,6 @@ This isn't to say that quantitative analysis is not without merit; however, it m
 #### Citations
 
 - [[≈ Mixed Methods]]
-- [Madsbjerg, Christian. Sensemaking: The Power of the Humanities in the Age of the Algorithm. Hachette Books, 2017.](https://publish.obsidian.md/mobydiction/notes/%E2%89%88+Madsbjerg+-+Sensemaking)
-- [≈ Muller - The Tyranny of Metrics](https://publish.obsidian.md/mobydiction/notes/%E2%89%88+Muller+-+The+Tyranny+of+Metrics)
-- [Sutherland - Alchemy](https://publish.obsidian.md/mobydiction/Sutherland+-+Alchemy)
-
+- [Madsbjerg, Christian. Sensemaking: the power of the humanities in the age of the algorithm. Hachette Books, 2017.](https://publish.obsidian.md/mobydiction/notes/%E2%89%88+Madsbjerg+-+Sensemaking)
+- [≈ Muller - the tyranny of metrics](https://publish.obsidian.md/mobydiction/notes/%E2%89%88+Muller+-+The+Tyranny+of+Metrics)
+- [Sutherland - alchemy](https://publish.obsidian.md/mobydiction/Sutherland+-+Alchemy)

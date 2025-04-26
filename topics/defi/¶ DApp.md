@@ -1,5 +1,10 @@
 ---
-tags: blockchain, dapp
+title: null
+description: null
+date: null
+tags:
+  - blockchain
+  - dapp
 ---
 
 ### DApps
@@ -37,7 +42,7 @@ A Dapp is an application that is **mostly** or **entirely** decentralized. The p
 - The client-side interface of a DApp can use standard web technologies (HTML, CSS, JavaScript, etc.) and mobile as well.
 - Lnked to Ethereum via the _web3.js_ JavaScript library, which is bundled with the frontend resources and served to a browser by a web server.
 
-##### Data Storage
+##### Data storage
 
 - Due to high gas costs and the currently low block gas limit, smart contracts are not well suited to storing or processing large amounts of data.
 - Most DApps utilize **off-chain** data storage services, meaning they store the bulky data off the Ethereum chain, on a data storage platform.

@@ -13,7 +13,7 @@ tags:
 
 When working with web development, communicating between a main window and an embedded iframe is often necessary for various tasks, such as content creation or widget implementation. This communication can occur between windows and iframes with the same origin or across different origins.
 
-## Same Origin Communication
+## Same origin communication
 
 "Same origin" refers to the scenario where two URLs have the same protocol, domain, and port. For instance, the following URLs have the same origin:
 
@@ -47,7 +47,7 @@ In the case of same origin communication:
 
 Use cases for same origin communication include content builder applications where the isolation of CSS and responsive display are essential. ![](assets/window-and-iframe-communication_iframe-window-content-builder.webp)
 
-## Cross Origin Communication
+## Cross origin communication
 
 Cross origin communication occurs when the iframe and the parent window come from different origins. The [postMessage](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) interface allows windows to communicate regardless of their origins.
 
@@ -95,4 +95,3 @@ In summary, communication between a window and an iframe is facilitated through 
 - https://javascript.info/cross-window-communication
 - https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage
 - [Two way iframe communication](https://gist.github.com/pbojinov/8965299)
-

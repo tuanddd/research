@@ -1,6 +1,6 @@
 ---
-title: Proximal Policy Optimization
-description: Proximal Policy Optimization (PPO) is an algorithm that aims to improve the stability of training by avoiding overly large policy updates. It is a popular and effective method used for training [[Reinforcement Learning | reinforcement learning]] models in complex environments. To achieve this, PPO uses a ratio that indicates the difference between the current policy and the old policy and clips this ratio within a specific range, ensuring that the policy updates are not too large and the training process is more stable...
+title: Proximal policy optimization
+description: Proximal policy optimization (PPO) is an algorithm that aims to improve the stability of training by avoiding overly large policy updates. It is a popular and effective method used for training [[Reinforcement Learning | reinforcement learning]] models in complex environments. To achieve this, PPO uses a ratio that indicates the difference between the current policy and the old policy and clips this ratio within a specific range, ensuring that the policy updates are not too large and the training process is more stable...
 date: 2024-07-03
 authors:
   - thanhpn
@@ -12,7 +12,7 @@ tags:
 
 ## Introduction
 
-Proximal Policy Optimization (PPO) is an algorithm that aims to improve the stability of training by avoiding overly large policy updates. It is a popular and effective method used for training [[Reinforcement Learning | reinforcement learning]] models in complex environments. To achieve this, PPO uses a ratio that indicates the difference between the current policy and the old policy and clips this ratio within a specific range, ensuring that the policy updates are not too large and the training process is more stable.
+Proximal policy optimization (PPO) is an algorithm that aims to improve the stability of training by avoiding overly large policy updates. It is a popular and effective method used for training [[Reinforcement Learning | reinforcement learning]] models in complex environments. To achieve this, PPO uses a ratio that indicates the difference between the current policy and the old policy and clips this ratio within a specific range, ensuring that the policy updates are not too large and the training process is more stable.
 
 ## How does PPO work?
 
@@ -38,7 +38,7 @@ To apply the PPO algorithm for language model training, the training process typ
 - Model Update: Apply the PPO algorithm to update the model parameters based on the collected training data.
 - Model Evaluation: Evaluate the model's performance by calculating metrics such as accuracy, perplexity, or similar evaluation measures.
 
-## Comparing PPO with Other Algorithms
+## Comparing PPO with other algorithms
 
 - _RAFT Alignment_: It is a method in transfer learning that leverages knowledge learned from a source task to a related target task. It allows reusing learned knowledge from the source model to quickly achieve high performance on the target task without retraining from scratch.
 - _TRPO_: It utilizes an optimization mechanism that ensures gradual policy changes and restricts policy updates within a trust region. It guarantees that policy updates do not cause significant changes and instability. TRPO is a powerful algorithm but has complex computations and longer training times. In contrast, PPO is a simpler, more efficient, and stable algorithm.
@@ -51,4 +51,3 @@ To summarize, PPO has quickly gained popularity in continuous control problems. 
 - https://towardsdatascience.com/proximal-policy-optimization-ppo-explained-abed1952457b
 - https://medium.com/@mlblogging.k/reinforcement-learning-for-tuning-language-models-how-chatgpt-is-trained-9ecf23518302
 - https://openai.com/research/learning-to-summarize-with-human-feedback
-

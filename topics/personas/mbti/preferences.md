@@ -27,4 +27,3 @@ Vị trí thứ 3: T or F (nature)
 Vị trí thứ 4: P or J (tactics)
 
 > 2x2x2x2 = 16 personality types trong MBTI
-

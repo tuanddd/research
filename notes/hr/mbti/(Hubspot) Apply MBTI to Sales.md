@@ -1,5 +1,10 @@
 ---
-tags: MBTI, sales
+title: null
+description: null
+date: null
+tags:
+  - mbti
+  - sales
 ---
 
 #### What personality types succeed in sales?

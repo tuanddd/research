@@ -1,5 +1,11 @@
 ---
-tags: project, agile, pm
+title: null
+description: null
+date: null
+tags:
+  - project
+  - agile
+  - pm
 ---
 
 Most project management trainings are focusing on larger project focusing on the “Waterfall life cycle” approach. As more companies are using agile method, project managers should be retrained to keep up with changing technology and method so they can be more effective. Following are some suggestions:
@@ -10,7 +16,7 @@ Since most agile projects are small (3 to 9 people), it is important to keep pro
 
 Because you have smaller task sizes, you should plan to accomplish certain milestone in just one week at a time. Project managers should track all works within that one week long so they know what they get done in a week. If they are not making good progress, this is a warning signs that the project may NOT be completed on time. Team member must track their progress, where they are at the beginning of the week and where they are at the end. Typically each should have several tasks to be completed within a week, if they did not finish they should reevaluate their works or their estimates.
 
-## Definition of Done
+## Definition of done
 
 Any given task should have a definition of “Done”. Many software people still argue about what is “done”. My rule is “Done is ready to be released to users.” That means the code have to be done including all tests with no defect. When you finish something it must be completed, it CAN NOT be partially completed. Since it is ready to release, it must be fully tested so users can use it immediately. Of course, sometimes, a team member can NOT test their work until other people have done their parts. But team member should make their works done as much as they can.
 

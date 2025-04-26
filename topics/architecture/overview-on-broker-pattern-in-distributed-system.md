@@ -1,5 +1,5 @@
 ---
-title: Overview On Broker Pattern In Distributed System
+title: Overview on broker pattern in distributed system
 description: Learn how the broker pattern structures distributed systems by decoupling clients and servers, enabling scalable communication through proxies and brokers for dynamic, independent agent interaction.
 date: 2019-08-24
 tags:
@@ -21,14 +21,13 @@ The broker pattern is an architectural pattern that can be used to structure dis
 
 ![](assets/overview-on-broker-pattern-in-distributed-system_e4d47aa7182bbec713b6dc4f858fb1dd_md5.webp)
 
-## The role of Broker Patter
+## The role of broker patter
 
 - Our system need to be dynamically removing or adding new agent(server, client)
 - The agents in our system need the ability to be independent of each other( scalable, partition functionality into independent agents)
 
-## The ability of Broker Pattern
+## The ability of broker pattern
 
 In the decoupled behavior, Broker acts like an interface, when a new server was adding on the system, it just like add a new object, and the only thing we need to do is to register the new server with Broker.
 
 Based on the idea of the independent agent(server, client), Broker pattern give us free control to individual agents(it doesn't care about what we do with agents). Thus, the agent freely from scaling itself has its functionality
-

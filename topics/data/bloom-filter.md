@@ -1,6 +1,6 @@
 ---
-title: Bloom Filter
-description: "A Bloom Filter is a probabilistic data structure used for testing whether an element is a member of a set or not. It's space-efficient compared to other data structures like hash tables, but it may give false positives (indicating that an element is in the set when it's not) and never gives false negatives (indicating that an element is not in the set when it actually is not)..."
+title: Bloom filter
+description: "A Bloom filter is a probabilistic data structure used for testing whether an element is a member of a set or not. It's space-efficient compared to other data structures like hash tables, but it may give false positives (indicating that an element is in the set when it's not) and never gives false negatives (indicating that an element is not in the set when it actually is not)..."
 date: 2024-06-28
 authors:
   - nnhuyhoang
@@ -10,25 +10,25 @@ tags:
   - big-o
 ---
 
-## What is Bloom Filter?
+## What is Bloom filter?
 
-A Bloom Filter is a probabilistic data structure used for testing whether an element is a member of a set or not. It's space-efficient compared to other data structures like hash tables, but it may give false positives (indicating that an element is in the set when it's not) and never gives false negatives (indicating that an element is not in the set when it actually is not).
+A Bloom filter is a probabilistic data structure used for testing whether an element is a member of a set or not. It's space-efficient compared to other data structures like hash tables, but it may give false positives (indicating that an element is in the set when it's not) and never gives false negatives (indicating that an element is not in the set when it actually is not).
 
 ![](assets/bloom-filter_bloom_filter.webp)
 
-## How Bloom Filter work?
+## How Bloom filter work?
 
 `Initialization`: You start with a bit array of size `m` (usually a large prime number) initially set to all zeros, and `k` different hash functions.
 
-`Adding Elements`: When you want to add an element to the Bloom Filter, you run it through each of the `k` hash functions, each of which maps the element to one of the `m` bits in the array. You then set those bits to `1`.
+`Adding Elements`: When you want to add an element to the Bloom filter, you run it through each of the `k` hash functions, each of which maps the element to one of the `m` bits in the array. You then set those bits to `1`.
 
-`Checking Membership`: To check if an element is in the Bloom Filter, you again run it through each of the `k` hash functions. If all `k` bits are set to `1` in the bit array, the element is probably in the set. If any of the bits are `0`, then the element is definitely not in the set. However, due to potential hash collisions, `false positives are possible`.
+`Checking Membership`: To check if an element is in the Bloom filter, you again run it through each of the `k` hash functions. If all `k` bits are set to `1` in the bit array, the element is probably in the set. If any of the bits are `0`, then the element is definitely not in the set. However, due to potential hash collisions, `false positives are possible`.
 
 ## When to use?
 
-Imagine that you have a system which millions user, and then you have a user table which had millions of records. So everytime a new user is registered, you have to query millions records table to check username is existed or not which cost `Time complexity = O(n)` (`n` will be vary upto millions) in case not aggregate further. Instead of that, you can `Checking membership` in Bloom Filter which just have `Time complexity = O(k)` (k is constant number of hash function) and then response to user that username is alreay existed. The result has a small probability of false positive(username not existed but response existed) due to potential hash collion but it acceptable by notify user can register with other username.
+Imagine that you have a system which millions user, and then you have a user table which had millions of records. So everytime a new user is registered, you have to query millions records table to check username is existed or not which cost `Time complexity = O(n)` (`n` will be vary upto millions) in case not aggregate further. Instead of that, you can `Checking membership` in Bloom filter which just have `Time complexity = O(k)` (k is constant number of hash function) and then response to user that username is alreay existed. The result has a small probability of false positive(username not existed but response existed) due to potential hash collion but it acceptable by notify user can register with other username.
 
-Besides above scenario, Bloom Filter can apply in other case like:
+Besides above scenario, Bloom filter can apply in other case like:
 
 - `Caching Systems`: Bloom Filters are commonly used in caching systems to quickly check if a requested item is likely to be in the cache before performing a more expensive lookup. This helps in reducing cache misses and improving overall system performance.
 
@@ -58,15 +58,15 @@ Overall, Bloom Filters are suitable for applications where memory usage needs to
 
 ### Cons:
 
-- `False Positives`: Bloom Filters can produce false positives, indicating that an element is in the set when it's not. The probability of false positives increases with the number of elements in the set and the parameters chosen for the Bloom Filter (e.g., size of the bit array and number of hash functions).
+- `False Positives`: Bloom Filters can produce false positives, indicating that an element is in the set when it's not. The probability of false positives increases with the number of elements in the set and the parameters chosen for the Bloom filter (e.g., size of the bit array and number of hash functions).
 
 - `Cannot Remove Elements`: Bloom Filters do not support element removal. Once an element is added to the filter, it cannot be removed without resorting to complex techniques or resetting the filter entirely.
 
-- `Parameter Sensitivity`: The performance and effectiveness of a Bloom Filter are highly sensitive to the parameters chosen, such as the size of the bit array (m) and the number of hash functions (k). Selecting inappropriate parameters can lead to higher false positive rates or increased memory usage.
+- `Parameter Sensitivity`: The performance and effectiveness of a Bloom filter are highly sensitive to the parameters chosen, such as the size of the bit array (m) and the number of hash functions (k). Selecting inappropriate parameters can lead to higher false positive rates or increased memory usage.
 
 - `Limited Operations`: Bloom Filters support only two primary operations: adding elements and checking for membership. They do not support other common operations like element retrieval or iteration over the elements in the set.
 
-- `Hash Function Dependency`: Bloom Filters rely heavily on hash functions for their operation. The quality of the hash functions used can significantly impact the performance and effectiveness of the Bloom Filter.
+- `Hash Function Dependency`: Bloom Filters rely heavily on hash functions for their operation. The quality of the hash functions used can significantly impact the performance and effectiveness of the Bloom filter.
 
 ## Simple Implementation:
 
@@ -124,7 +124,7 @@ func (bf *BloomFilter) Contains(data string) bool {
 func main() {
 	bloomFilter := NewBloomFilter(100)
 
-	// Add user identities to the Bloom Filter
+	// Add user identities to the Bloom filter
 	userIdentities := []string{"user123", "user456", "user789"}
 	for _, identity := range userIdentities {
 		bloomFilter.Add(identity, 2)
@@ -136,4 +136,3 @@ func main() {
 	fmt.Println(bloomFilter.Contains("user999")) // false
 }
 ```
-

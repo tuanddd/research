@@ -26,4 +26,3 @@ date: null
 - [[Focus personas on tasks, goals, and motivations]]
 - [[How many users should you interview]]
 - [[§ UX Research]]
-

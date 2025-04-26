@@ -1,5 +1,5 @@
 ---
-title: The 10x Engineer
+title: The 10x engineer
 description: Discover what makes a 10x engineer highly productive with skills in software development, communication, innovation, and problem-solving, and why tech companies seek these exceptional engineers.
 date: 2016-03-01
 tags:
@@ -18,7 +18,7 @@ More:
 - [10X Engineer](https://gorillalogic.com/blog/10x-engineer-series-part-1-2/)
 - [Becoming a 10X engineer](https://hackernoon.com/becoming-a-10x-engineer-is-it-possible-a8cf593392c3)
 
-## The depict of a 10x Engineer
+## The depict of a 10x engineer
 
 ### Definition
 
@@ -56,4 +56,3 @@ Communication
 - Hand-on
 - Create / build sth people want: Inventor; Doer
 - Contribution: Bring value to people
-

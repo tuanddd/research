@@ -43,4 +43,3 @@ SELECT * FROM tbl_name WHERE col2=val2 AND col3=val3;
 ```
 
 **Summary**: If the table has a multiple-column index, any leftmost prefix of the index can be used by the optimizer to look up rows.
-

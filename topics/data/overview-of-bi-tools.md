@@ -19,4 +19,3 @@ The last tool in my article is Google Data Studio. Data Studio is a business int
 ## References
 
 - https://improvado.io/blog/review-the-best-data-visualization-tools
-

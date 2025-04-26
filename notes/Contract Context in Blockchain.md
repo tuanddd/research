@@ -1,5 +1,9 @@
 ---
-tags: blockchain
+title: null
+description: null
+date: null
+tags:
+  - blockchain
 ---
 
 - When contract is deployed, it will always be immutable (cannot be edited). But in real life, there will always be problems to edit that contract (fix bugs, upgrade).

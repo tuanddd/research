@@ -62,4 +62,3 @@ Check out some other formats that allow you to share a URL via some social netwo
 | Twitter  | <pre>`http://twitter.com/share?url=${url}`</pre>                        |
 | Telegram | <pre>`https://telegram.me/share/?url=${url}`</pre>                      |
 | Reddit   | <pre>`https://www.reddit.com/submit?url=${url}&title=${title}`</pre>    |
-

@@ -1,5 +1,9 @@
 ---
-tags: elixir
+title: null
+description: null
+date: null
+tags:
+  - elixir
 ---
 
 The main issue with this architecture is that the apps aren’t really split for the right reason. In a growing (in terms of code added over time) application it will most likely slow you down the more code you add as the boundaries become more brittle and blurred. The reason for this effect is that umbrella child apps are intended to be created as a way to **deploy** each of them separately, hence the individual configuration and mix project. So unless you’re deploying the apps separately, there is no benefit from using an umbrella app.

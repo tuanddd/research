@@ -15,7 +15,7 @@ Before this, Go was known for its simplicity and type safety but lacked the kind
 
 Go achieves type safety with generics through **type parameters** and **type constraints**. Here’s how it works:
 
-### 1. Type Parameters
+### 1. Type parameters
 
 When you define a function, method, or data structure with generics, you specify a type parameter in square brackets `[]`. This type parameter allows the function or type to accept different types without being tied to a specific one. However, the type still needs to conform to certain rules, which leads to the next part—**type constraints**.
 
@@ -31,7 +31,7 @@ func Print[T any](items []T) {
 
 In this case, `T` is a type parameter, and `any` is a built-in constraint that allows any type.
 
-### 2. Type Constraints
+### 2. Type constraints
 
 Type constraints are used to limit what types the type parameter `T` can represent. Go enforces type safety by ensuring that the types passed to a generic function or type comply with these constraints. A type constraint can either be a specific interface or a built-in constraint like `comparable`, `any`, or custom-defined ones.
 
@@ -50,15 +50,15 @@ func ToString[T Stringer](val T) string {
 
 In this example, only types that implement the `Stringer` interface can be used as `T`, ensuring type safety at compile time.
 
-### 3. Compile-Time Checking
+### 3. Compile-time checking
 
 Go’s compiler checks the types at compile time. If the provided type doesn’t satisfy the constraint, the program won’t compile, ensuring that incorrect types are not passed to a function or data structure. This is crucial for maintaining Go’s philosophy of simplicity and robustness in type safety.
 
-### 4. Underlying Type Consistency
+### 4. Underlying type consistency
 
 Go also leverages underlying types in some constraints. For example, the `comparable` constraint ensures that the type parameter can be compared using `==` or `!=`. For this to work, the compiler ensures that any type passed to a function constrained by `comparable` supports these operations, preventing runtime errors.
 
-### 5. Explicit and Simple Type Inference
+### 5. Explicit and simple type inference
 
 Go simplifies type safety by inferring types when possible. If the compiler can deduce the type parameter from the context, you don’t need to explicitly specify it, but the compiler still checks that the type is valid according to the constraints.
 
@@ -72,7 +72,7 @@ func Add[T int | float64](a, b T) T {
 result := Add(3.0, 4.5) // Go infers T as float64
 ```
 
-### Commutative Diagram
+### Commutative diagram
 
 $$
 \begin{CD}
@@ -97,4 +97,3 @@ In conclusion, Go achieves type safety with generics through a combination of co
 2. **Type constraints** to enforce rules about what types are allowed.
 3. **Compile-time type checking** to prevent invalid types from being used.
 4. **Simple and explicit type inference** while maintaining safety through constraints.
-

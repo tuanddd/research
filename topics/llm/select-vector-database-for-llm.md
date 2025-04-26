@@ -1,5 +1,5 @@
 ---
-title: Select Vector Database for LLM
+title: Select vector database for LLM
 description: An overview of vector databases and their application in LLM systems. This article covers the history and core concepts of vector databases, their use cases, implementation considerations with LLMs, and a comparison of popular vector database options.
 date: 2023-05-18
 authors:
@@ -30,7 +30,7 @@ A vector database is a specialized database designed to store, manage, and query
 - Biometrics and Identity Verification: fingerprint matching, voice recognition, and facial recognition.
 - Fraud Detection and Anomaly Detection: historical data or user behavior patterns to identify fraudulent activities, detect anomalies in data streams, and flag suspicious patterns
 
-## Core concept of Vector database
+## Core concept of vector database
 
 - Data is transformed into vectors using a specific algorithm, and similar data points on the same coordinate system have close distances.
 - Data is stored in a data structure optimized for vector queries.
@@ -42,9 +42,9 @@ A vector database is a specialized database designed to store, manage, and query
   - Choosing the appropriate number of dimensions for vectors is important for performance and storage resource utilization, ensuring coverage of the entire dataset.
   - Selecting the suitable search algorithm (Cosine similarity, DotProduct, Euclidean distance).
 
-## Using Vector Database with LLM
+## Using vector database with LLM
 
-### Choosing the Right Vector Encoding
+### Choosing the right vector encoding
 
 LLMs typically use models like Word2Vec, BERT, and transformer-based variants.
 
@@ -56,7 +56,7 @@ To achieve optimal efficiency, configure the search parameters appropriately. Pa
 - Match count: 10
 - Minimum content length: 50
 
-### Selecting the suitable Metric for content
+### Selecting the suitable metric for content
 
 - Cosine Similarity:
   - Cosine Similarity calculates the cosine of the angle between two vectors. It measures the directional similarity of vectors.
@@ -96,4 +96,3 @@ These vector databases offer various features and optimizations to handle large-
 
 - [https://qdrant.tech/benchmarks/?gad=1&gclid=Cj0KCQjwsIejBhDOARIsANYqkD0ZtNrEujSDsjGPsOmSGRtJaIYvQct3kvojBEQPJxrcdL7lC9IaLVQaAnMjEALw_wcB](https://qdrant.tech/benchmarks/?gad=1&gclid=Cj0KCQjwsIejBhDOARIsANYqkD0ZtNrEujSDsjGPsOmSGRtJaIYvQct3kvojBEQPJxrcdL7lC9IaLVQaAnMjEALw_wcB)
 - [https://slashdot.org/software/comparison/Embeddinghub-vs-Milvus-Database-vs-chroma/](https://slashdot.org/software/comparison/Embeddinghub-vs-Milvus-Database-vs-chroma/)
-

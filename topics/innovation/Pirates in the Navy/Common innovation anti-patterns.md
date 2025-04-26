@@ -1,5 +1,10 @@
 ---
-tags: innovation, pattern
+title: null
+description: null
+date: null
+tags:
+  - innovation
+  - pattern
 ---
 
 ### Common innovation anti-patterns

@@ -36,4 +36,3 @@ Guards here serve as a pre-condition to a transition, which essentially prevents
 #### Reference
 
 - https://statecharts.dev/state-machine-state-explosion.html
-

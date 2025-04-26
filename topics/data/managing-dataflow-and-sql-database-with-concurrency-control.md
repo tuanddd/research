@@ -1,5 +1,5 @@
 ---
-title: Managing Dataflow And Sql Database With Concurrency Control
+title: Managing dataflow and SQL database with concurrency control
 description: Learn how explicit locking in PostgreSQL helps manage concurrency control in high-workload databases by preventing data conflicts with table-level, row-level, and advisory locks.
 date: 2023-05-04
 tags:
@@ -37,8 +37,8 @@ Database locking is one of the most common mechanisms that helps us achieve conc
 
 As I know, we have two popular types of database locking
 
-- **Shared Locks** allow multiple transactions to read a resource simultaneously, but prevent other transactions from modifying the locked resource until the lock is released. They are helpful when we need to read data frequently but modify it infrequently.
-- **Exclusive Locks** are used when a transaction needs to modify data. This type of lock prevents any other transaction from accessing the same data until the lock is released. This means that when a transaction holds an exclusive lock on a resource, it can modify the data without interference from other transactions.
+- **Shared locks** allow multiple transactions to read a resource simultaneously, but prevent other transactions from modifying the locked resource until the lock is released. They are helpful when we need to read data frequently but modify it infrequently.
+- **Exclusive locks** are used when a transaction needs to modify data. This type of lock prevents any other transaction from accessing the same data until the lock is released. This means that when a transaction holds an exclusive lock on a resource, it can modify the data without interference from other transactions.
 
 Besides these types of locks, some databases also support others such as following
 
@@ -222,4 +222,3 @@ Explicit locking is the most accessible way to resolve concurrency control in hi
 [[4](https://publish.obsidian.md/#)]“Richard Clayton - Distributed Locking with Postgres Advisory Locks.” Richard Clayton, 16 February 2020, [https://rclayton.silvrback.com/distributed-locking-with-postgres-advisory-locks](https://rclayton.silvrback.com/distributed-locking-with-postgres-advisory-locks). Accessed 23 April 2023.
 
 [[5](https://publish.obsidian.md/#)]“Locking in Databases and Isolation Mechanisms | by Denny Sam | inspiringbrilliance.” Medium, [https://medium.com/inspiredbrilliance/what-are-database-locks-1aff9117c290](https://medium.com/inspiredbrilliance/what-are-database-locks-1aff9117c290). Accessed 23 April 2023.
-

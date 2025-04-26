@@ -44,4 +44,3 @@ export const App = () => {
 **How to avoid it?**
 
 - Use React Component Syntax <ExampleComponent /> which translate into React.createElement(ExampleComponent, null) making the properties of that component in the VDOM tree controlled by the ExampleComponent.
-

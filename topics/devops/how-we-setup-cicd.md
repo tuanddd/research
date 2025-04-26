@@ -1,5 +1,5 @@
 ---
-title: How We Setup Cicd
+title: How we setup cicd
 description: Learn how Dwarves simplifies CI/CD with Gitlab, Github Actions, automated linting, testing, previewing, building Docker images, and deploying to Kubernetes for faster, reliable software delivery.
 date: 2021-02-16
 tags:
@@ -62,7 +62,7 @@ A year ago, if we want to build an image inside a CI environment, we must know a
 
 Seeking for simplicity is a must in everything we do; setting up CI should be a 30-minute job instead of a long day waiting for Quang to come for the rescue.
 
-### Automation E2E testing integrated
+### Automation e2e testing integrated
 
 We want to do it for a long time. Imagine that all our code can adequately test, instant feedback will be provided to the author before any review. It guarantees that no matter what happens in the Pull Request, our application does not produce any regression bug or, worse, bring the whole application down.
 
@@ -76,7 +76,7 @@ Experiments are and will be made to get us close to the goal. For now, we are se
 
 ![](assets/how-we-setup-cicd_f38b955faad846c6c75b4252b56fe1b4_md5.webp)
 
-## CI - Continuous Improving
+## CI - Continuous improving
 
 In the spirit of CI/CD, It's good to keep the final notes like this.
 
@@ -85,4 +85,3 @@ Technology is eating the world. The technology we used yesterday may be deprecat
 We build a team that wants to do innovative things, but innovation does not happen in a vacuum. It happens through many thoughts, experiments, assessments.
 
 By the time we write this article, we are giving [Earthly](https://github.com/earthly/earthly) the shot to further upgrade our stacks. And we don't mean to stop exploring, pushing the boundaries so perhaps we will write a follow up article of this, maybe a year later
-

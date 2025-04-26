@@ -82,4 +82,3 @@ Tracing lets you see what’s going on in your LLM app, from tracking performanc
 - https://arize.com/blog-course/traces-spans-large-language-model-orchestration/
 - https://www.linkedin.com/posts/aurimas-griciunas_llm-genai-llmops-activity-7250055380553084928-9XAA
 - https://www.alibabacloud.com/blog/observability-of-llm-applications-exploration-and-practice-from-the-perspective-of-trace_601604
-

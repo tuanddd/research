@@ -1,6 +1,6 @@
 ---
-title: Continuous Translation
-description: Continuous Translation (CT) is a modern approach to translation management that involves synchronizing software development and translation workflows. This means that developers, translators, and product owners work together in a continuous cycle to ensure that all translations are up-to-date and aligned with the latest software developments.
+title: Continuous translation
+description: Continuous translation (CT) is a modern approach to translation management that involves synchronizing software development and translation workflows. This means that developers, translators, and product owners work together in a continuous cycle to ensure that all translations are up-to-date and aligned with the latest software developments.
 date: 2023-04-11
 authors:
   - tienan92it
@@ -12,9 +12,9 @@ tags:
 
 ![](assets/continuous-translation_eaf982ca480d0677ec9d8fd34553b51a_md5.webp)
 
-Continuous Translation (CT) is a modern approach to translation management that involves synchronizing software development and translation workflows. This means that developers, translators, and product owners work together in a continuous cycle to ensure that all translations are up-to-date and aligned with the latest software developments.
+Continuous translation (CT) is a modern approach to translation management that involves synchronizing software development and translation workflows. This means that developers, translators, and product owners work together in a continuous cycle to ensure that all translations are up-to-date and aligned with the latest software developments.
 
-Unlike traditional translation workflows, Continuous Translation eliminates the need for file and space synchronization between different stakeholders, streamlining the translation process and promoting better collaboration. By implementing Continuous Translation, companies can achieve faster development cycles, higher-quality translations, and a better user experience for their customers.
+Unlike traditional translation workflows, Continuous translation eliminates the need for file and space synchronization between different stakeholders, streamlining the translation process and promoting better collaboration. By implementing Continuous translation, companies can achieve faster development cycles, higher-quality translations, and a better user experience for their customers.
 
 ## Working with localization
 
@@ -146,23 +146,22 @@ There are three ways to use `Locize` in your app:
 
 In summary, `Solution 1` is a simpler and cheaper approach to manage translations, while `Solution 2` is a more advanced solution that provides more flexibility and scalability in managing translations.
 
-### Pros and cons when integrating Continuous Translation into your app
+### Pros and cons when integrating Continuous translation into your app
 
 **Pros**
 
-- **Faster development cycles**: With Continuous Translation, developers and translators work together in a continuous cycle, ensuring that translations are updated in real-time as new features are developed. This leads to faster development cycles and quicker time-to-market.
-- **Improved translation quality**: Continuous Translation promotes better collaboration between developers and translators, which can lead to higher-quality translations that accurately reflect the intended meaning of the original content.
-- **Better alignment between teams**: By eliminating file and space synchronization issues, Continuous Translation helps to align developers, translators, and product owners more closely, reducing communication errors and promoting better collaboration.
-- **Reduced costs**: Traditional translation workflows can be time-consuming and costly. By streamlining the translation process, Continuous Translation can help to reduce translation costs and improve return on investment.
+- **Faster development cycles**: With Continuous translation, developers and translators work together in a continuous cycle, ensuring that translations are updated in real-time as new features are developed. This leads to faster development cycles and quicker time-to-market.
+- **Improved translation quality**: Continuous translation promotes better collaboration between developers and translators, which can lead to higher-quality translations that accurately reflect the intended meaning of the original content.
+- **Better alignment between teams**: By eliminating file and space synchronization issues, Continuous translation helps to align developers, translators, and product owners more closely, reducing communication errors and promoting better collaboration.
+- **Reduced costs**: Traditional translation workflows can be time-consuming and costly. By streamlining the translation process, Continuous translation can help to reduce translation costs and improve return on investment.
 
 **Cons**
 
-- **Requires significant coordination**: Continuous Translation requires a high level of coordination between different teams, including developers, translators, and product owners. This can be challenging to manage, particularly for larger projects.
-- **Potential for errors**: Continuous Translation requires real-time updates to translations, which can increase the risk of errors and miscommunication. This requires careful management and quality control.
-- **Requires specialized tools**: Implementing Continuous Translation requires specialized tools and technologies, which can add to the overall cost of the project.
-- **Not suitable for all projects**: Continuous Translation may not be suitable for all projects, particularly those with limited budgets or resources. Traditional translation workflows may be more appropriate for smaller projects or those with less frequent updates.
+- **Requires significant coordination**: Continuous translation requires a high level of coordination between different teams, including developers, translators, and product owners. This can be challenging to manage, particularly for larger projects.
+- **Potential for errors**: Continuous translation requires real-time updates to translations, which can increase the risk of errors and miscommunication. This requires careful management and quality control.
+- **Requires specialized tools**: Implementing Continuous translation requires specialized tools and technologies, which can add to the overall cost of the project.
+- **Not suitable for all projects**: Continuous translation may not be suitable for all projects, particularly those with limited budgets or resources. Traditional translation workflows may be more appropriate for smaller projects or those with less frequent updates.
 
 ## Conclusion
 
 Multilingual support is a very important function for web or mobile applications nowadays. Users will come from all over the world and always ask for support for their language. The two options above have different advantages and disadvantages, so you need to consider the exact scope of the product to have the best choice for your team. Both methods can meet the needs of constantly translating products to support new features or new products, but it will cost production as well as quality assurance.
-

@@ -31,4 +31,3 @@ Collectively, we rely on each of these theories of truth in different situations
 #### Citations
 
 Chin, Cedric. “The Four Theories of Truth As a Method for Critical Thinking.” Commonplace - The Commoncog Blog (blog), September 15, 2020. [Link](https://commoncog.com/blog/four-theories-of-truth/).
-

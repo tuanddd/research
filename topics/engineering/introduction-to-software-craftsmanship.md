@@ -1,5 +1,5 @@
 ---
-title: Introduction To Software Craftsmanship
+title: Introduction to software craftsmanship
 description: Learn how software craftsmanship shapes quality coding, teamwork, and well-crafted software at Dwarf, emphasizing discipline, professionalism, and continuous improvement in agile environments.
 date: 2020-04-24
 tags:
@@ -15,10 +15,10 @@ We'll walk through these main points:
 ## Agenda
 
 - What we stand for: company name, 3 core values and why Craftsmanship is one of that
-- Software Craftsmanship: what it is and what for
+- Software craftsmanship: what it is and what for
 - Characteristics of a Craftsmen: what makes a decent Craftsmen
-- Well-crafted Software: the expected final outcome when we live the spirit of Craftsmanship
-- Agile <> Craftsmanship: advantage & disadvantage, our point of view on Craftsmanship
+- Well-crafted software: the expected final outcome when we live the spirit of Craftsmanship
+- Agile <> craftsmanship: advantage & disadvantage, our point of view on Craftsmanship
 - What's Next: what we do to discover and apply Craftsmanship onto the team
 
 ## What we stand for
@@ -32,11 +32,11 @@ We took that definition as their tools are our software, and given that nature, 
 - Offshore Development
 - OSS Development
 
-## Software Craftsmanship
+## Software craftsmanship
 
 The definition of Craftsmanship is to conduct things with scrutiny. In every detail, at every stage, which makes us satisfied to witness the impact of our product to other clients or departments. It's a spirit to do the best we could in any circumstance.
 
-Software Craftsmanship @DF is a series for engineering training. When you reach an acceptable level of building software, the series is what levels up your current skill and enhance the work ethic to approach the work in the most professional way. Unlike Techradar, which is looking for the news. Software Craftsmanship @DF is about looking for the right.
+Software craftsmanship @DF is a series for engineering training. When you reach an acceptable level of building software, the series is what levels up your current skill and enhance the work ethic to approach the work in the most professional way. Unlike Techradar, which is looking for the news. Software craftsmanship @DF is about looking for the right.
 
 When technology was still a long way down the road, everything must be handcrafted. When machine wasn't exist, craftsmen must put all of their effort on product creating. So that product can become a thing to be proud of. Take the Katana sword as an example. It requires meticulosity in every stage, from material to process and maintenance. Katana wasn't just a sword to fight, it's something to be worship. That's how craftsmanship converts the spirit into product.
 
@@ -48,7 +48,7 @@ So, our definition of Craftsmanship?
 
 Do the best you can in every stage and every part. Not only make things right, but make the tiniest thing right.
 
-### Characteristic of Craftsmen
+### Characteristic of craftsmen
 
 Craftsmanship doesn't just happen in engineer. It appears in every type of work. People with Craftsmanship will pour their right attitude into the process of making the final product. One good thing about them is they will try to reach their best limit and take pride on what they build.
 
@@ -57,11 +57,11 @@ There are many things to form up a good craftsman, but we decided to narrow it d
 - **Discipline**: It requires a deeper level than the typical rule & obligation. Discipline in engineering means there are things that people won't take seriously, but the engineer himself will feel the need to make it happen, just because it will better meet the standard, or raising the bar. Every time Thanh P releases a new code, although the client has accepted and things go south, he still manages to follow up with the code and optimize it, just because he feels it's a necessary thing to do.
 - **Professionalism**: The code of conduct. This can be understand through a small example. When a task is assigned with a tight deadline, a craftsman will estimate the time he needs to get it done to make sure things work out precisely. He'll discusses and offers his estimation, rather than sticking with the deadline and come up with something that is unusable. Be honest & straightforward. Quality > quantity.
 - **Pragmatism**: Dealing with a problem in a way that suits the conditions, rather than following the fixed theories, ideas, or rules. When a craftsman receives a plan, he won't get lured by the requirements. It's gonna be a bit more realistic and down to earth. It will be facing the facts and coming up with suitable solution.
-- **Incremental Improvement**: Moving gradually toward success. Shorten the feedback loop & minimize the risk. Divide the improvement process into small rounds and focus on it. At the end of the day, we end up with mini achievements, rather than a long list of to-dos.
+- **Incremental improvement**: Moving gradually toward success. Shorten the feedback loop & minimize the risk. Divide the improvement process into small rounds and focus on it. At the end of the day, we end up with mini achievements, rather than a long list of to-dos.
 
-### Well-crafted Software
+### Well-crafted software
 
-We've been through the traits of Craftsmanship and what it takes to become a good craftsman. Now it's time we moved to the result that every craftsman wishes for: the Well-crafted Software.
+We've been through the traits of Craftsmanship and what it takes to become a good craftsman. Now it's time we moved to the result that every craftsman wishes for: the Well-crafted software.
 
 Unlike _working software,_ well-crafted software contains a clean design, high test coverage, easy to understand and maintain. Bugs and side effects are under control.
 
@@ -69,13 +69,13 @@ Whether it's adding to changing features, well-crafted software ensures the proc
 
 From a QA's perspective, people may thinks QA is the one who tests and locates the bug in our software. However, we take QA as someone to check the product quality, rather than a hair splitter. Our software can sometimes be runnable with no red bugs, but the codebase is a massive mess, and it will be difficult for future maintenance. That's when the importance of well-crafted software dives in.
 
-Before I hand over the next part to Huy, I'd like to look back the reason why people want to apply Software Craftsmanship onto engineering at this time. We're surrounded by technology devices nowadays. Everything comes with micro-processor, and run by software. The ratio of causing sever damage due to sloppy software is getting higher. Say, in the next 5 years, the amount of engineers will be as twice as it is now. That also means if the current workforce don't do things right, their descendant might step in the same path. It's not hard to imagine what type of product we'll be using if engineers focus on the money they make more than the product quality.
+Before I hand over the next part to Huy, I'd like to look back the reason why people want to apply Software craftsmanship onto engineering at this time. We're surrounded by technology devices nowadays. Everything comes with micro-processor, and run by software. The ratio of causing sever damage due to sloppy software is getting higher. Say, in the next 5 years, the amount of engineers will be as twice as it is now. That also means if the current workforce don't do things right, their descendant might step in the same path. It's not hard to imagine what type of product we'll be using if engineers focus on the money they make more than the product quality.
 
-## Agile <> Craftsmanship
+## Agile <> craftsmanship
 
 I read in a meetup of Agile team in 2008, Uncle Bob once said: _Craftsmanship over crap_.
 
-Years later, he came up with a Manifesto for Software Craftsmanship
+Years later, he came up with a Manifesto for Software craftsmanship
 
 ![](assets/introduction-to-software-craftsmanship_9484dea11666b2ee45cd5a11769bde32_md5.webp)
 
@@ -99,11 +99,10 @@ To compare the core value and our current status, still DF is in need of more ef
 
 I've also realized the mini improvement along the way. Team communication during project sometimes gets hard. We create a wiki for that by documenting every retro meeting with transparent meeting notes where both clients and our team can discuss and raise up ideas/issues.
 
-## In a Nutshell
+## In a nutshell
 
 This only to help summarize the key point of this talk, which can be listed as
 
 - Definition of Craftsmanship: an attitude and an approach of how we solve the problem
 - Core value: we strive to create the best product quality, that motto outweighs all others
 - The need of collaboration and interpersonal skills
-

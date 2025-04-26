@@ -47,4 +47,3 @@ decoder.Decode(&obj)
 interfaceRaw, _ := json.Marshal(obj)
 fmt.Printf("version2 is %s\n", interfaceRaw) // {"id":98470950831393239 }
 ```
-

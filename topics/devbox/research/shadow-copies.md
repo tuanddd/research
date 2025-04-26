@@ -1,5 +1,5 @@
 ---
-title: Shadow Copies in Docker Builds
+title: Shadow copies in Docker builds
 description: An explanation of shadow copies in Docker builds
 date: 2024-08-01
 authors:
@@ -37,4 +37,3 @@ But why do we not resolve all the above issues from its root cause?
 #### References
 
 _Understanding the image layers_. (n.d.). Docker Docs. Retrieved August 2, 2024, from https://docs.docker.com/guides/docker-concepts/building-images/understanding-image-layers/
-

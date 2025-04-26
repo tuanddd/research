@@ -12,7 +12,7 @@ tags:
   - polygon
 ---
 
-## Polygon zkEVM Architecture
+## Polygon zkEVM architecture
 
 The main purpose of this architecture is Efficiency, the first strategy is incentivize the most efficient aggregators to participate in the proof generation process. The second is move all computation off-chain but keep only the necessary data zk-proof on-chain. Make the bridge decentralize. Utilization of special cryptographic primitive within the zkProver in order to speed up computation and minimize proof size.
 
@@ -20,7 +20,7 @@ The main purpose of this architecture is Efficiency, the first strategy is incen
 
 ### Main components:
 
-- **Proof of Efficiency** is a consensus mechanism based on an automatically conducted decentralized auction, with participants bidding on a certain amount of tokens to be selected to create the next batch added support for permissionless participation of multiple coordinators to create batches in L2
+- **Proof of efficiency** is a consensus mechanism based on an automatically conducted decentralized auction, with participants bidding on a certain amount of tokens to be selected to create the next batch added support for permissionless participation of multiple coordinators to create batches in L2
 - **zkNode** is software to be run by any zkEVM node, it not required to install Synchronization and adjust the roles of the participants. They can join as a node to know the state of the network, or can participate in production processing in any role: Sequencer or Aggregator.
   - Synchronizer
   - Sequencer & Aggregators
@@ -32,11 +32,11 @@ The main purpose of this architecture is Efficiency, the first strategy is incen
 
 ![](assets/polygon-zkevm-architecture_polygon-zkprover.webp)
 
-- **LX-to-Ly Bridge** is a smart contract can help users transfer assets between two layers.
+- **LX-to-Ly bridge** is a smart contract can help users transfer assets between two layers.
 
 ### How does it work?
 
-#### What is Proof of Efficiency?
+#### What is Proof of efficiency?
 
 PoE solve the problem relate to decentralized and permissionless validators in Layer 2. Using zk-STARK for proving purpose, this proof are very fast but they are very big size. So, using zk-SNARK to attest to the correctness of the zk-STARK proofs. This help in reducing the gas cost from 5M to 350k.
 
@@ -110,9 +110,8 @@ State implement a Merkle Tree and connect to DB backend. it checks integrity of 
 ## Reference
 
 - [Polygon zkEVM documentation](https://docs.hermez.io/zkEVM/Basic-Concepts/Intro-zkProver%27s-Design-Approach/)
-- [Proof of Efficiency](https://ethresear.ch/t/proof-of-efficiency-a-new-consensus-mechanism-for-zk-rollups/11988)
-- [LX-to-LY Bridge](https://wiki.polygon.technology/docs/zkEVM/lx-ly-bridge)
+- [Proof of efficiency](https://ethresear.ch/t/proof-of-efficiency-a-new-consensus-mechanism-for-zk-rollups/11988)
+- [LX-to-LY bridge](https://wiki.polygon.technology/docs/zkEVM/lx-ly-bridge)
 - [zkEvm](https://wiki.polygon.technology/docs/zkEVM/proof-of-efficiency)
 - [Repo zkevm](https://github.com/0xPolygonHermez/zkevm-node)
 - [Polygon zkEVM](https://mirror.xyz/msfew.eth/JJudP_Kf-IS6VhbF-qU0BUor1Ap6SFEb0TzYOHZ34Rc)
-

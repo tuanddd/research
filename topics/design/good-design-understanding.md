@@ -1,5 +1,5 @@
 ---
-title: Good Design Understanding
+title: Good design understanding
 description: Learn what makes good UX and UI design by exploring key factors like usability, accessibility, credibility, color, typography, and layout to create effective, user-friendly digital products.
 date: 2018-04-02
 tags:
@@ -16,7 +16,7 @@ User experience (UX) focuses on having a deep understanding of users, what they 
 
 _Before taking a closer look on what is a good UX design, there are some examples for you to feel what is a good and bad UX design:_
 
-- [Good Design vs Bad Design Example from everyday experiences](https://uxdesign.cc/good-design-vs-bad-design-examples-from-everyday-experiences-18a7d1ba002c)\*
+- [Good design vs bad design example from everyday experiences](https://uxdesign.cc/good-design-vs-bad-design-examples-from-everyday-experiences-18a7d1ba002c)\*
 - [5 example we can learn from bad design vs 5 example we can learn from good design](https://www.interaction-design.org/literature/article/bad-design-vs-good-design-5-examples-we-can-learn-frombad-design-vs-good-design-5-examples-we-can-learn-from-130706)
 
 ## **The 7 Factors that Influence User Experience**
@@ -79,15 +79,15 @@ It is nearly impossible to deliver a user experience if the user thinks the prod
 
 Here are Jason Cranford Teague’s nine design principles for creating credibility-based user experience:
 
-- **Keep Promises:** Inconsistent interfaces are a broken promise. Don’t make promises you can’t keep.
-- **Show Results:** Keep users in the know wherever possible through designs that respond intuitively to user input.
-- **Know Your Voice:** Show your design skill in a consistent manner. A clear voice can accomplish anything.
-- **Respect Context:** Context in user experience prevents confusion. If possible, understand where, when, how, and on what device users will interact with your work and design accordingly.
-- **Transition Change:** If you don’t change transitions effectively users will lose their place and not trust you.
-- **Guide, Don’t Dictate:** When you’re looking for a gorilla you’re often going to miss other events. Don’t fall for the sleight-of-hand.
-- **Show, Then Tell:** We see patterns first, so offer visual identification followed by an explanation. Present a photo with a statement, for instance. People are more likely to believe it’s true.
-- **Make it Simple, Not Simplistic:** Reduce the amount of thinking a user needs to do whenever possible.
-- **Always Leave them Wanting More:** ’nuff said.
+- **Keep promises:** Inconsistent interfaces are a broken promise. Don’t make promises you can’t keep.
+- **Show results:** Keep users in the know wherever possible through designs that respond intuitively to user input.
+- **Know your voice:** Show your design skill in a consistent manner. A clear voice can accomplish anything.
+- **Respect context:** Context in user experience prevents confusion. If possible, understand where, when, how, and on what device users will interact with your work and design accordingly.
+- **Transition change:** If you don’t change transitions effectively users will lose their place and not trust you.
+- **Guide, don’t dictate:** When you’re looking for a gorilla you’re often going to miss other events. Don’t fall for the sleight-of-hand.
+- **Show, then tell:** We see patterns first, so offer visual identification followed by an explanation. Present a photo with a statement, for instance. People are more likely to believe it’s true.
+- **Make it simple, not simplistic:** Reduce the amount of thinking a user needs to do whenever possible.
+- **Always leave them wanting more:** ’nuff said.
 
 [Trustworthiness in Web Design: 4 Credibility Factors](https://www.nngroup.com/articles/trustworthy-design/)
 
@@ -103,7 +103,7 @@ Value refers to being able to provide a user experience that is enriching the li
 
 Finally, the product must deliver value. It must deliver value to the business which creates it and to the user who buys or uses it. Without value, it is likely that any initial success of a product will eventually be undermined.
 
-## What is a good UI Design
+## What is a good UI design
 
 ![](assets/good-design-understanding_e474e00ace9a524ebdff60d52f5e944c_md5.webp)
 
@@ -170,4 +170,3 @@ Consistency is a key principle in life and in design. Without it we can’t get 
 Benefits of consistency:
 
 - Users will learn faster how to use your design
-

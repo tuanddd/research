@@ -30,4 +30,3 @@ The translation phase is critical; an essay that is assembled from modular notes
 #### Citations
 
 Ahrens, Sönke. _How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers_. Sönke Ahrens, 2017.
-

@@ -47,7 +47,7 @@ That sequence of actions is called an `atomic operation` with the following prop
 - Execution is not interrupted by any thread.
   And you also have to pay attention to the Dead Lock problem when locked forever.
 
-## Data Race vs. Race Condition
+## Data race vs. race condition
 
 The two problems `Data Race and Race Condition` are often equated as one. However, it describes two different problems in `multi-thread` programming.
 
@@ -156,6 +156,5 @@ In this article, we know the difference between `Race Condition` and `Data Race`
 
 ## References
 
-- [Race condition vs. Data Race: the differences explained](https://www.avanderlee.com/swift/race-condition-vs-data-race)
-- [Data race và Mutual exclusion](https://viblo.asia/p/007-data-race-va-mutual-exclusion-4dbZNGvmlYM)
-
+- [Race condition vs. data race: the differences explained](https://www.avanderlee.com/swift/race-condition-vs-data-race)
+- [Data race và mutual exclusion](https://viblo.asia/p/007-data-race-va-mutual-exclusion-4dbZNGvmlYM)

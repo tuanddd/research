@@ -1,8 +1,13 @@
 ---
-tags: blockchain, bitcoin
+title: null
+description: null
+date: null
+tags:
+  - blockchain
+  - bitcoin
 ---
 
-### Unstoppable Code
+### Unstoppable code
 
 ![](https://1.bp.blogspot.com/-zWFZRWenTF4/YK8QIqIPtGI/AAAAAAAAGT4/_uzk1N8qm4YPVDQxnxs9wceKQjgMTAbfQCLcBGAsYHQ/s930/Defi100ExitScam.jpeg)
 
@@ -62,7 +67,7 @@ Weaver draws the analogy with [cryptocurrencies and "big-game" ransomware](https
 
 I agree with Weaver that disrupting the ransomware payment channel is an essential part of a solution to the ransomware problem. It would require denying cryptocurrency exchanges access to the banking system, and global agreement to do this would be hard. Given the involvement of [major financial institutions](https://www.ft.com/content/9aee2f71-2d95-4be2-a2df-5dcab2a2a3ff) and [politicians](https://congressionalblockchaincaucus-schweikert.house.gov/), it would be hard even in the US. So what else could be done?
 
-Nearly a year ago Joe Kelly wrote a two-part post explaining how governments could take action against Bitcoin (and by extension any Proof-of-Work blockchain). In the first part, [_How To Kill Bitcoin (Part 1): Is Bitcoin ‘Unstoppable Code’?_](https://joekelly100.medium.com/how-to-kill-bitcoin-part-1-is-bitcoin-unstoppable-code-7a1b366f65ee) he summarized the crypto-bro's argument:
+Nearly a year ago Joe Kelly wrote a two-part post explaining how governments could take action against Bitcoin (and by extension any Proof-of-Work blockchain). In the first part, [_How To Kill Bitcoin (Part 1): Is Bitcoin ‘Unstoppable code’?_](https://joekelly100.medium.com/how-to-kill-bitcoin-part-1-is-bitcoin-unstoppable-code-7a1b366f65ee) he summarized the crypto-bro's argument:
 
 > They say Bitcoin can’t be stopped. Just like there’s no way you can stop two people sending encrypted messages to each other, so — they say — there’s no way you can stop the Bitcoin network.
 >

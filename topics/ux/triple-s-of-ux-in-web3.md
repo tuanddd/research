@@ -36,4 +36,3 @@ Ensure design communicates the empowerment users should have; allow them to bene
 - https://uxplanet.org/getting-started-in-web-3-0-as-a-ux-designer-fff849c47461
 - https://www.toptal.com/designers/digital/web3-design
 - https://medium.com/@lyricalpolymath/web3-design-principles-f21db2f240c1
-

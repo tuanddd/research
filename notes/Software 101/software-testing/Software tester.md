@@ -1,5 +1,12 @@
 ---
-tags: software101, engineering, testing, agile
+title: null
+description: null
+date: null
+tags:
+  - software101
+  - engineering
+  - testing
+  - agile
 ---
 
 Today, many things are controlled by software and software quality is becoming the number one issue. With the world more interconnected by the internet, software has reached more people and more businesses than ever. With that, software defects have also increased significantly. While some defects can disrupt work, others can create damages with millions dollars in losses.
@@ -10,7 +17,7 @@ Testers should be involved in the beginning of the project to make sure that dev
 
 For example, with Integrated Development Environment (IDE) a software tool that combines source code editor, compiler, build automation and debugger, developers can code, test, and also do the functional testing on the code which they have written much faster. Some IDEs such as “IntelliJ” and “Eclipse” help developers with feedbacks on their code they have written too. This put more pressure on testers since developers can write code faster, but testers still have to incorporate all the testing methods to ensure the software has no defect. This is why sometime developers complain that testers are too slow and prevent the release of software.
 
-## Tester in Agile project
+## Tester in agile project
 
 The Agile approach works well for small projects (3 to 8 people). When it comes to testing, the development team itself does its own testing. There is no distinguish roles between developers and testers as team members often switch roles. In other world, with Agile approach “developers” and “testers” are part of the development team. For example, with Extreme Programming, there is an approach called “Pair programming” where two people work together in one task. One plays the role of “Developer” (or Driver) and the other play “Tester” (or Observer). They observe each other’s works, learn from each other, review each other’s code, and provide feedbacks to each other. The developer learns testing skills from tester and the tester also learns coding skills from the developers. Eventually they switch roles as they continue to work together. However, it does NOT mean the tester’s job is eliminated. As a tester, you will be included in the development team where you will also learn programming and work as developer too.
 

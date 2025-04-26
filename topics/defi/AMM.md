@@ -1,8 +1,12 @@
 ---
-tags: blockchain
+title: null
+description: null
+date: null
+tags:
+  - blockchain
 ---
 
-### Automated Market Maker
+### Automated market maker
 
 - Tools to create automated market
 - Operate on Decentralized Exchange Platform [[¶ Decentralized Exchange]]

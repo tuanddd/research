@@ -69,4 +69,3 @@ LIMIT 100;
 
 - https://cwiki.apache.org/confluence/display/Hive//LanguageManual
 - The Ultimate Guide To Programming Apache Hive: A Reference Guide Document – Straight from the trenches, with real world lessons, tips and tricks included to help you start analyzing BigData, Fru Nde
-

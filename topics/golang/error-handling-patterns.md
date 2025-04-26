@@ -11,7 +11,7 @@ tags:
 
 Error handling is one of the most critical aspects of software development, as it ensures that applications behave correctly even in the presence of unexpected inputs or conditions. Over the years, many error-handling patterns have evolved in different programming languages.
 
-### 1. Return Codes/Status Codes
+### 1. Return codes/status codes
 
 This is one of the most basic forms of error handling and is common in older, low-level programming languages such as C. A function returns a value that indicates whether it succeeded or failed. For example, it might return `0` for success or `-1`for failure. The caller is responsible for checking the return value and handling any errors.
 
@@ -72,7 +72,7 @@ except ZeroDivisionError as e:
 - Can add runtime overhead.
 - Misuse can lead to code that’s hard to debug, especially if exceptions are caught but not properly handled.
 
-### 3. Error Objects or Results
+### 3. Error objects or results
 
 This pattern forces the function to return an object that explicitly represents either a successful result or an error. It is commonly used in functional programming languages like Rust, Haskell, and also in Swift. In Rust, for example, the `Result` type can be `Ok` for success or `Err` for failure.
 
@@ -165,7 +165,7 @@ divide(10, 0, (err, result) => {
 
 - Can lead to "callback hell" when multiple asynchronous operations are nested.
 
-### 6. Promise-Based Error Handling
+### 6. Promise-based error handling
 
 Promises are an evolution of callbacks, mainly used in asynchronous programming (e.g., JavaScript). They allow for cleaner handling of asynchronous operations, using `.then()` for success and `.catch()` for errors.
 
@@ -195,7 +195,7 @@ divide(10, 0)
 
 - Errors in promise chains can be tricky to debug if `.catch()` blocks are misused or omitted.
 
-### 7. Pattern Matching
+### 7. Pattern matching
 
 Pattern matching is used in functional languages like Haskell, Rust, and Scala to handle different outcomes of a computation. This allows developers to decompose data structures and handle each case explicitly.
 
@@ -263,4 +263,3 @@ func main() {
 
 - Crashes the program, which may not be desirable in production.
 - Can be overused in scenarios where graceful error handling is possible.
-

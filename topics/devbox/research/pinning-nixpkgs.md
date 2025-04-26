@@ -29,4 +29,3 @@ What happens once you do not specify the pinning version of nixpkgs? In this cas
 #### References
 
 _FAQ/Pinning Nixpkgs_. (n.d.). NixOS Wiki. Retrieved August 2, 2024, from https://nixos.wiki/wiki/FAQ/Pinning_Nixpkgs
-

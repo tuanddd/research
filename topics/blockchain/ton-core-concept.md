@@ -12,7 +12,7 @@ tags:
 
 In my previous post, [Ton: Blockchain of Blockchains](ton-blockchain-of-blockchains.md), I talked about some core technologies that make TON strong. However, it was just an overview. To begin developing on TON is not enough. Today, I will introduce some core concepts in TON that you will frequently work with as a TON developer.
 
-## Cells and Data Storage
+## Cells and data storage
 
 **Cells are the atomic unit of data storage in TON**. It is a data structure containing:
 
@@ -99,4 +99,3 @@ TON does not automatically calculate gas. The entire transaction execution, with
 ## Conclusion
 
 With all the above concepts, we can now begin developing on TON. But these are actually not enough. We will continue diving deep into more complex concepts such as data format, transaction layout, or bounceable addresses when developing something in the next post.
-

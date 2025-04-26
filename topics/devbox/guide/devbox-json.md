@@ -1,5 +1,5 @@
 ---
-title: "Devbox.json: Your Project's DNA"
+title: "Devbox.json: Your project's DNA"
 description: Master your Devbox environment with this no-nonsense guide to devbox.json
 date: 2024-08-01
 authors:
@@ -12,9 +12,9 @@ Ever wished you could clone your perfect dev environment? With `devbox.json`, yo
 
 ![Devbox.json Configuration](assets/config-ref.webp)
 
-## The Anatomy of devbox.json
+## The anatomy of devbox.json
 
-### Packages: Your Toolbox
+### Packages: Your toolbox
 
 ```json
 "packages": [
@@ -27,7 +27,7 @@ This is where you list all the packages you need. Think of it as your project's 
 
 **Pro tip:** Use `devbox search <package>` to find available versions.
 
-### ENV: Set the Stage
+### ENV: Set the stage
 
 ```json
 "env": {
@@ -37,7 +37,7 @@ This is where you list all the packages you need. Think of it as your project's 
 
 Here's where you declare or override environment variables. It's like setting up the perfect lighting before a photoshoot - everything just works better.
 
-### Shell: Your Command Center
+### Shell: Your command center
 
 ```json
 "shell": {
@@ -61,7 +61,7 @@ This is where the magic happens:
 - `init_hook`: These commands run every time you fire up your Devbox shell. Perfect for setup tasks.
 - `scripts`: Define your own commands here. It's like creating shortcuts for complex tasks.
 
-### Include: Extend Your Powers
+### Include: Extend your powers
 
 ```json
 "include": [
@@ -77,7 +77,7 @@ Need more firepower? Use `include` to add extra configurations:
 - Use local plugins
 - Activate built-in plugins
 
-## Put It All Together
+## Put it all together
 
 Here's what a fully-loaded `devbox.json` might look like:
 
@@ -103,7 +103,7 @@ Here's what a fully-loaded `devbox.json` might look like:
 }
 ```
 
-## The Bottom Line
+## The bottom line
 
 Your `devbox.json` is more than just a config file - it's a blueprint for the perfect dev environment. Spend some time getting it right, and you'll save countless hours down the road.
 
@@ -111,7 +111,6 @@ Remember, a well-crafted `devbox.json` is like a good pair of shoes: it should f
 
 ## References
 
-- [Devbox.json Configuration Reference](https://www.jetify.com/devbox/docs/configuration/)
-- [Devbox Search Command](https://www.jetify.com/devbox/docs/cli_reference/devbox_search/)
-- [Devbox Plugins Guide](https://www.jetify.com/devbox/docs/guides/plugins/)
-
+- [Devbox.json configuration reference](https://www.jetify.com/devbox/docs/configuration/)
+- [Devbox search command](https://www.jetify.com/devbox/docs/cli_reference/devbox_search/)
+- [Devbox plugins guide](https://www.jetify.com/devbox/docs/guides/plugins/)

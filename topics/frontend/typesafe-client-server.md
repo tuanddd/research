@@ -1,5 +1,5 @@
 ---
-title: Typesafe Client Server
+title: Typesafe client server
 description: A code generation layer that bridges the gap between frontend and backend more effectively.
 date: 2023-12-06
 authors:
@@ -30,21 +30,21 @@ This automated approach not only minimizes human error but also streamlines the 
 
 ### Benefits
 
-- **Enhanced Reliability**: The automatic code generation ensures consistency between the frontend and backend, reducing the risk of runtime failures.
-- **Early Error Detection**: Any inconsistencies or errors in the API are detected during the code generation process, allowing for early detection and resolution.
-- **Improved Developer Productivity**: Developers can focus on feature development instead of manual synchronization tasks, increasing overall productivity.
-- **Security Enhancements**: The typesafe client-server architecture helps prevent security vulnerabilities by ensuring that data is properly handled and transferred between the frontend and backend.
-- **Documentation and Collaboration**: API definitions serve as documentation and a common language for developers and stakeholders, facilitating collaboration and understanding.
-- **Refactoring and Scalability**: When changes are made to the API, the code generation process helps identify and update affected areas, making refactoring and scalability easier.
+- **Enhanced reliability**: The automatic code generation ensures consistency between the frontend and backend, reducing the risk of runtime failures.
+- **Early error detection**: Any inconsistencies or errors in the API are detected during the code generation process, allowing for early detection and resolution.
+- **Improved developer productivity**: Developers can focus on feature development instead of manual synchronization tasks, increasing overall productivity.
+- **Security enhancements**: The typesafe client-server architecture helps prevent security vulnerabilities by ensuring that data is properly handled and transferred between the frontend and backend.
+- **Documentation and collaboration**: API definitions serve as documentation and a common language for developers and stakeholders, facilitating collaboration and understanding.
+- **Refactoring and scalability**: When changes are made to the API, the code generation process helps identify and update affected areas, making refactoring and scalability easier.
 
 ### How to use effectively
 
-- **API First Development**: Start by designing API definitions that accurately represent the desired functionality and data structures.
-- **Automate Code Generation**: Set up automation tools to generate code whenever changes are made to the API definitions. This ensures that the frontend and backend stay in sync.
-- **Continuous Integration**: As part of the CI/CD pipeline, validate the API definitions and ensure that the auto-generated code does not have manual edits. This maintains the integrity of the synchronization process.
+- **API first development**: Start by designing API definitions that accurately represent the desired functionality and data structures.
+- **Automate code generation**: Set up automation tools to generate code whenever changes are made to the API definitions. This ensures that the frontend and backend stay in sync.
+- **Continuous integration**: As part of the CI/CD pipeline, validate the API definitions and ensure that the auto-generated code does not have manual edits. This maintains the integrity of the synchronization process.
 - **Testing**: Conduct thorough unit and integration tests for both the frontend and backend. With Swagger, automated tests can be generated and run based on the API definitions, further ensuring the reliability of the system.
 - **Documentation**: Utilize tools like Swagger UI or ReDoc to provide interactive API documentation. This helps developers and non-technical stakeholders understand and experiment with the API.
-- **Version Control**: As the API evolves, make sure to version it to manage changes effectively and maintain backward compatibility.
+- **Version control**: As the API evolves, make sure to version it to manage changes effectively and maintain backward compatibility.
 
 ### Supported frameworks/tools
 
@@ -58,4 +58,3 @@ This automated approach not only minimizes human error but also streamlines the 
 - https://docs.stoplight.io/docs/spectral/eb68e7afd463e-spectral-in-java-script
 - https://swagger.io/specification
 - https://trpc.io
-

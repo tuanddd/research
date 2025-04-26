@@ -1,5 +1,5 @@
 ---
-title: Ui Design Fundamental
+title: Ui design fundamental
 description: Learn how to design effective user interfaces by focusing on aesthetics, content, and interaction to create user-centered apps and websites that engage and meet user needs.
 date: 2018-03-20
 tags:
@@ -47,7 +47,7 @@ Interaction design is specifically a discipline which examines the interaction (
 
 ![](assets/ui-design-fundamental_4718c084b78a2e641043dff2ffb94dad_md5.webp)
 
-### Visibility & Simplicity
+### Visibility & simplicity
 
 **Visual hierarchy** is the order in which a user processes information on a page; its function in user interface (UI) design is to allow users to understand information easily. By assigning different visual characteristics to sections of information (e.g., larger fonts for headings), a designer can influence what users will perceive as being further up in the hierarchy.
 
@@ -119,4 +119,3 @@ Intentional Design: Interface without User is not User Interface
 - Aesthetics
 - Content
 - Interaction.
-

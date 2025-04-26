@@ -20,4 +20,3 @@ But, keep in mind your purpose: if your goal is to inform rather than to persuad
 #### Citations
 
 [[≈ The Elements of Story | Flaherty, Francis. The Elements of Story: Field Notes on Nonfiction Writing. Reprint edition. Harper Perennial, 2010.]]
-

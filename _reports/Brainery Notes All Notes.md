@@ -11,4 +11,3 @@ const { headers, values } = pagesQuery.value
 
 dv.table(headers, values);
 ```
-

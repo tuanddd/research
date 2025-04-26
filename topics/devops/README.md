@@ -20,11 +20,11 @@ tags:
 - [How blue green deployment helped Mochi](how-blue-green-deployment-helped-mochi.md)
 - [Deploy branch with Vercel CLI](deploy-branch-with-vercel-cli.md)
 - [Progressive delivery](progressive-delivery.md)
-- [Radio talk 60 Blue Green Deployment](radio-talk-60-blue-green-deployment.md)
+- [Radio talk 60 blue green deployment](radio-talk-60-blue-green-deployment.md)
 
 ### Containerization & orchestration
 
-- [Docker Microcontainers](docker-microcontainers.md)
+- [Docker microcontainers](docker-microcontainers.md)
 - [Kubernetes Helm 101](kubernetes-helm-101.md)
 - [Kubeseal Sops](kubeseal-sops.md)
 
@@ -43,4 +43,3 @@ tags:
 ### Tools & techniques
 
 - [Testing AWS services locally with LocalStack](testing-aws-services-locally-with-localstack.md)
-

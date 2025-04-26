@@ -13,7 +13,7 @@ And, when having those issue, firstly, they mostly raised directly to the higher
 
 From this point, I will share 2 ways on how to solve the incident based on the experience I got during the time I am working with the product team.
 
-## Engineering Support team, SWAT team
+## Engineering support team, SWAT team
 
 For this team, they are not only the developer from one specific product team, they are likely appears in every team so they can jump in anytime when having an issue which is raised from the customer. And the important part is, when getting the report, they are the one whose appears in the meeting first along with high level roles to get the context first to invest and work on the fix.
 
@@ -24,4 +24,3 @@ But, there is one defect for this team, because they are likely appears in every
 From my perspective, I might be prefer this way rather than having a SWAT team. The reason is, when having an incident, maybe it's still need to go with the higher level role first, but at this time, they can help to create a common channel. So, all of the members of the project can be able to join and help to investigate on the issue as fast as possible.
 
 To have a direct members in that product response to the issue is better since they are the one whose have a specific view on the domain knowledges of the product. But, the communication is also the key that is needed, so the team can work on the incident better.
-

@@ -24,4 +24,3 @@ The THAD can be used to foreshadow things; to alter the tone of a scene; to set 
 #### Related
 
 George, Elizabeth. _Mastering the Process: From Idea to Novel_. Viking, 2020.
-

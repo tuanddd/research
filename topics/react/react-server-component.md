@@ -171,4 +171,3 @@ In summary, React Server Components (RSCs) provide a powerful way to render Reac
 - [SSR | TanStack Query docs](https://tanstack.com/query/v4/docs/react/guides/ssr#using-hydrate)
 - [Getting started | Next.js (nextjs.org)](https://nextjs.org/docs/getting-started/react-essentials)
 - [Introducing zero-bundle-size React server components – React](https://react.dev/blog/2020/12/21/data-fetching-with-react-server-components)
-

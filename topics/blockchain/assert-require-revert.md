@@ -60,4 +60,3 @@ contract Sharer {
 ```
 
 See [SWC-110](https://swcregistry.io/docs/SWC-110) & [SWC-123](https://swcregistry.io/docs/SWC-123)
-

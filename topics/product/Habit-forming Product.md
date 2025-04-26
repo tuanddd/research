@@ -1,5 +1,10 @@
 ---
-tags: product, habit forming
+title: null
+description: null
+date: null
+tags:
+  - product
+  - habit-forming
 ---
 
 ## What is habit-forming product

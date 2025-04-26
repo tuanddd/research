@@ -15,4 +15,3 @@ A user's perception of an experience is not static. It can change over time. Wha
 #### Citations
 
 Kujala, Sari, Virpi Roto, Kaisa Väänänen-Vainio-Mattila, Evangelos Karapanos, and Arto Sinnelä. _“UX Curve: A Method for Evaluating Long-Term User Experience.”_ Interacting with Computers 23, no. 5 (September 1, 2011): 473–83. [Link](https://doi.org/10.1016/j.intcom.2011.06.005).
-

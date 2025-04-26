@@ -1,5 +1,11 @@
 ---
-tags: engineering, database, sharding
+title: null
+description: null
+date: null
+tags:
+  - engineering
+  - database
+  - sharding
 ---
 
 ### Why?
@@ -34,7 +40,7 @@ Data-driven app need ability to scale dynamically to against significant growth 
 - Difficult to return to its unsharded architecture
 - Sharding isn’t natively supported by every database engine
 
-### Sharding Architectures
+### Sharding architectures
 
 - Key Based Sharding: hashing a value from new data to determine which shard the data should go to
 - Range Based Sharding: Using range of given value to determine target shard to store data

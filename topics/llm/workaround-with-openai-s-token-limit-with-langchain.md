@@ -62,4 +62,3 @@ These are some of the strategies that [Langchain](https://python.langchain.com/)
 ## References
 
 - https://www.youtube.com/watch?v=f9_BWhCI4Zo
-

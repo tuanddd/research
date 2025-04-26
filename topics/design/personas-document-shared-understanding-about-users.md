@@ -22,4 +22,3 @@ Cooper, Alan. _The Inmates Are Running the Asylum_. Sams Publishing, 2004.
 Haag, Maren, and Nicola Marsden. _“Exploring Personas as a Method to Foster Empathy in Student IT Design Teams.”_ International Journal of Technology and Design Education, April 24, 2018. [Link](https://doi.org/10.1007/s10798-018-9452-5).
 
 Harley, Aurora. _“Personas Make Users Memorable for Product Team Members.”_ Nielsen Norman Group (blog). Accessed October 10, 2020. [Link](https://www.nngroup.com/articles/persona/).
-

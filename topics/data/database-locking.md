@@ -32,8 +32,8 @@ Database locking is one of the most common mechanisms that helps us achieve conc
 
 As I know, we have two popular types of database locking
 
-- **Shared Locks** allow multiple transactions to read a resource simultaneously, but prevent other transactions from modifying the locked resource until the lock is released. They are helpful when we need to read data frequently but modify it infrequently.
-- **Exclusive Locks** are used when a transaction needs to modify data. This type of lock prevents any other transaction from accessing the same data until the lock is released. This means that when a transaction holds an exclusive lock on a resource, it has the ability to modify the data without interference from other transactions.
+- **Shared locks** allow multiple transactions to read a resource simultaneously, but prevent other transactions from modifying the locked resource until the lock is released. They are helpful when we need to read data frequently but modify it infrequently.
+- **Exclusive locks** are used when a transaction needs to modify data. This type of lock prevents any other transaction from accessing the same data until the lock is released. This means that when a transaction holds an exclusive lock on a resource, it has the ability to modify the data without interference from other transactions.
 
 Besides these types of locks, some database also support others such as following
 
@@ -213,4 +213,3 @@ Explicit locking is the most accessible way to resolve concurrency control in hi
 - <a id="3">[3]</a> “Advisory Locks and How to Use Them.” shiroyasha.io, 16 November 2017, https://shiroyasha.io/advisory-locks-and-how-to-use-them.html. Accessed 23 April 2023.
 - <a id="4">[4]</a>“Richard Clayton - Distributed Locking with Postgres Advisory Locks.” Richard Clayton, 16 February 2020, https://rclayton.silvrback.com/distributed-locking-with-postgres-advisory-locks. Accessed 23 April 2023.
 - <a id="5">[5]</a>“Locking in Databases and Isolation Mechanisms | by Denny Sam | inspiringbrilliance.” Medium, https://medium.com/inspiredbrilliance/what-are-database-locks-1aff9117c290. Accessed 23 April 2023.
-

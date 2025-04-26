@@ -1,5 +1,5 @@
 ---
-title: Developing rapidly with Generative AI
+title: Developing rapidly with generative AI
 description: Generative AI overview and the different stages of building an LLM-powered feature
 date: 2024-05-02
 authors:
@@ -16,7 +16,7 @@ tags:
 
 Generative AI is a subset of artificial intelligence that focuses on creating new content, such as images, text, or audio, based on patterns learned from existing data.
 
-## Stages for Building LLM-powered Features
+## Stages for building LLM-powered features
 
 ![](assets/developing-rapidly-with-generative-ai_llm-building-stages.webp)
 
@@ -33,10 +33,10 @@ The first stage is to identifying where generative AI can make an impact. The co
 This phase requires a thoughtful analysis to select the best-suited LLM and to frame the problem as a prompt to an LLM. Several factors of defining product requirements:
 
 - **Latency**: How fast does the system need to respond to user input?
-- **Task Complexity**: What level of understanding is required from the LLM? Is the input context and prompt super domain-specific?
-- **Prompt Length**: How much context needs to be provided for the LLM to do its task?
+- **Task complexity**: What level of understanding is required from the LLM? Is the input context and prompt super domain-specific?
+- **Prompt length**: How much context needs to be provided for the LLM to do its task?
 - **Safety**: How important is it to sanitize user input or prevent the generation of harmful content and prompt hacking?
-- **Language Support**: Which languages does the application need to support?
+- **Language support**: Which languages does the application need to support?
 - **Estimated QPS**: What throughput does our system eventually need to handle?
 
 ### 3. Prototype
@@ -47,7 +47,7 @@ The key step at this stage is to create the right prompt. To do this, a techniqu
 
 ![](assets/developing-rapidly-with-generative-ai_evaluating-prompts.webp)
 
-### 4. Deploying at Scale
+### 4. Deploying at scale
 
 ![A high-level architecture for an LLM application](assets/developing-rapidly-with-generative-ai_llm-arch.webp) This involves setting up the infrastructure to handle the expected load, monitoring the system's performance, and ensuring that the feature continues to meet the requirements set in the previous stages. There are 2 ways to consider for deploying:
 
@@ -57,7 +57,6 @@ The key step at this stage is to create the right prompt. To do this, a techniqu
 
 ## References
 
-- [Developing rapidly with Generative AI](https://discord.com/blog/developing-rapidly-with-generative-ai)
-- [Artificial Intelligence, Machine Learning , Deep Learning, GenAI and more](https://medium.com/womenintechnology/ai-c3412c5aa0ac)
-- [LLM Evaluation: Everything You Need To Run, Benchmark LLM Evals](https://arize.com/blog-course/llm-evaluation-the-definitive-guide/)
-
+- [Developing rapidly with generative AI](https://discord.com/blog/developing-rapidly-with-generative-ai)
+- [Artificial intelligence, machine learning , deep learning, GenAI and more](https://medium.com/womenintechnology/ai-c3412c5aa0ac)
+- [LLM evaluation: everything you need to run, benchmark LLM evals](https://arize.com/blog-course/llm-evaluation-the-definitive-guide/)

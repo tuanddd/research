@@ -1,5 +1,9 @@
 ---
-tags: insight
+title: null
+description: null
+date: null
+tags:
+  - insight
 ---
 
 **Die Progress Unit (DPU)** is the amount of time you’d have to go ahead to be shocked enough at the world to die

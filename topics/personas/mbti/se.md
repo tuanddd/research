@@ -21,4 +21,3 @@ Book: My True Type, page 86 - 91
   seeking diversity and novelty. Si perceives more narrowly, drawing on past experiences.
 
 - Se types are also more concerned with physical appearances.
-

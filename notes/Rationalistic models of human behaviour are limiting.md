@@ -1,5 +1,9 @@
 ---
-tags: insight
+title: null
+description: null
+date: null
+tags:
+  - insight
 ---
 
 Human beings aren't clockwork machines. We might like to pretend that they are—it fits our mental model of a rational, orderly universe—but behaviour is not reducible to a machine-like system of inputs and outputs. Nevertheless, a common understanding of human cognition assumes just this, informed by an operational metaphor that borrows from computation.

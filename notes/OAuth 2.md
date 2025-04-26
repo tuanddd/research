@@ -1,10 +1,14 @@
 ---
-tags: oauth
+title: null
+description: null
+date: null
+tags:
+  - oauth
 ---
 
 Traditional client-server authentication model: resource owner provides credentials for client to access resource
 
-### Problems & Limitations
+### Problems & limitations
 
 - Store credentials on the third-party to reuse => stolen credentials risk
 - Password authentication => weak
@@ -27,7 +31,7 @@ OAuth 2.0 is the industry-standard protocol for authorization. OAuth 2.0 focuses
 
 Note: The authorization server may be the same server as the resource server or a separate entity. A single authorization server may issue access tokens accepted by multiple resource servers.
 
-#### Authorization Grant
+#### Authorization grant
 
 Have 4 types
 
@@ -50,7 +54,7 @@ Have 4 types
   - The authorization server MUST support the HTTP Basic authentication scheme for authenticating clients that were issued a client password.
   - Or including the client credentials in the request-body using the following parameters: client_id and client_secret (NOT RECOMMENDED and SHOULD be limited)
 
-#### Access Token
+#### Access token
 
 - Credentials to access protected resource
 - Opaque to the client
@@ -59,7 +63,7 @@ Have 4 types
 - Access tokens can have different formats, structures, and methods of utilization (e.g., cryptographic properties)
 - ttl is usually short, take advantage of refresh token => decrease ability to take by bad guy
 
-#### Refresh Token
+#### Refresh token
 
 - Refresh tokens are credentials used to obtain access tokens when
   - Access token becomes invalid or expires
@@ -79,7 +83,7 @@ The refresh tokens are not used in SPAs, because in order to use it - and to get
 
 How to resolve or decrease this problem?
 
-- Refresh Token Rotation + BFF
+- Refresh token Rotation + BFF
 - Silent authentication
 
 **Protocol Flow:**
@@ -88,17 +92,17 @@ How to resolve or decrease this problem?
      +--------+                               +---------------+
      |        |--(A)- Authorization Request ->|   Resource    |
      |        |                               |     Owner     |
-     |        |<-(B)-- Authorization Grant ---|               |
+     |        |<-(B)-- Authorization grant ---|               |
      |        |                               +---------------+
      |        |
      |        |                               +---------------+
-     |        |--(C)-- Authorization Grant -->| Authorization |
+     |        |--(C)-- Authorization grant -->| Authorization |
      | Client |                               |     Server    |
-     |        |<-(D)----- Access Token -------|               |
+     |        |<-(D)----- Access token -------|               |
      |        |                               +---------------+
      |        |
      |        |                               +---------------+
-     |        |--(E)----- Access Token ------>|    Resource   |
+     |        |--(E)----- Access token ------>|    Resource   |
      |        |                               |     Server    |
      |        |<-(F)--- Protected Resource ---|               |
      +--------+                               +———————--------+
@@ -108,25 +112,25 @@ How to resolve or decrease this problem?
 
 ```
   +--------+                                           +---------+
-  |        |--(A)------- Authorization Grant --------->|         |
+  |        |--(A)------- Authorization grant --------->|         |
   |        |                                           |         |
-  |        |<-(B)----------- Access Token -------------|         |
-  |        |               & Refresh Token             |         |
+  |        |<-(B)----------- Access token -------------|         |
+  |        |               & Refresh token             |         |
   |        |                                           |         |
   |        |                            +----------+   |         |
-  |        |--(C)---- Access Token ---->|          |   |         |
+  |        |--(C)---- Access token ---->|          |   |         |
   |        |                            |          |   |         |
   |        |<-(D)- Protected Resource --| Resource |   | Auth    |
   | Client |                            |  Server  |   | Server  |
-  |        |--(E)---- Access Token ---->|          |   |         |
+  |        |--(E)---- Access token ---->|          |   |         |
   |        |                            |          |   |         |
   |        |<-(F)- Invalid Token Error -|          |   |         |
   |        |                            +----------+   |         |
   |        |                                           |         |
-  |        |--(G)----------- Refresh Token ----------->|         |
+  |        |--(G)----------- Refresh token ----------->|         |
   |        |                                           |         |
-  |        |<-(H)----------- Access Token -------------|         |
-  +--------+           & Optional Refresh Token        +———————--+
+  |        |<-(H)----------- Access token -------------|         |
+  +--------+           & Optional Refresh token        +———————--+
 
 ```
 

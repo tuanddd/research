@@ -1,5 +1,5 @@
 ---
-title: An Overview Of Micro Investment In Real Estate
+title: An overview of micro investment in real estate
 description: Discover how micro-investing in real estate offers an easy, low-cost way for millennials and new investors to enter the property market using technology-driven platforms and digital tools.
 date: 2020-08-26
 tags:
@@ -63,4 +63,3 @@ tags:
 - Some real estate businesses have changed their business plans, implemented sales applications, used video ads, 3D scanning; or Livestream brokers to introduce products to customers to support shoppers' partners. By applying technology, customers can know information about the project, visit the apartment through virtual reality with just a smartphone, and help customers save time and create flexibility. Be proactive to customers and limit the movement of crowded contacts during the epidemic season. This is a factor promoting online transactions in the field of real estate.
 - Many investors are also quick to embrace technology trends, build smart cities, have automated and modern control systems, environmentally friendly, increase the safety and convenience of residents. In addition, the project owner hopes to earn higher profits by reducing the dependence on the broker by setting up a separate brokerage team or selling through technology applications..
 - Besides, when environmental pollution is high, disease outbreaks, people are more concerned about health care. One of the real estate enterprises 'responses to the Covid-19 epidemic is to restructure their products, through green projects, to bring peace of mind to residents' health in order to stimulate demand for healthy living, quality of current home buyers
-

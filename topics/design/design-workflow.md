@@ -1,12 +1,12 @@
 ---
-title: Design Workflow
+title: Design workflow
 description: Learn how to improve product design with user research, job stories, guerrilla usability testing, wireframing, UI principles, prototyping, and design systems for consistent and effective user interfaces.
 date: 2018-03-22
 tags:
   - design
 ---
 
-## Project Research
+## Project research
 
 The goal of this step is to figure what the problems you need to solve using your design from asking the people involved such as our customers (businesses owners) and the users, the people who will use your design outcome directly. We don't guess or assume things.
 
@@ -19,11 +19,11 @@ You can create a provisional persona of potential user base on your research and
 
 ![](assets/design-workflow_aad2cd76d88ab384bd09ba16793dab87_md5.webp)
 
-## Job Story & Scenario
+## Job story & scenario
 
 After collecting information and figuring out the above expected goals, we continue to conduct Job Stories and come up with Wire-frames.
 
-### Writing Job Stories
+### Writing job stories
 
 This is an example of a Job Story.
 
@@ -35,7 +35,7 @@ When you write a Job Story, the story need three things: **_Situation, Motivatio
 
 Your final design should be a list of jobs to be done which help the users achieve their goals. Therefore, writing down job stories will help you know exactly what you should put in your final design for your users.
 
-## Guerrilla Usability Testing
+## Guerrilla usability testing
 
 Base on your job story and the scenario, you will conduct guerrilla usability to test you hypothesis.
 
@@ -50,7 +50,7 @@ After that, you should make statistical tables base on your test.
 
 3. You’re interested in the place, and you decide to plan on travel there, what would you do next?
 
-## Identifying and Prioritizing Pain Points
+## Identifying and prioritizing pain points
 
 After you review the user interviews, you write each users' pain points onto Post-Its. Then you categorize pain points with Affinity Mapping and prioritize them with 2x2 Matrix.
 
@@ -62,7 +62,7 @@ Next step, you draw a flowchart what is a diagram of the sequence of movements o
 
 ![](assets/design-workflow_1ce44520b17bffd06b033406e0d794a6_md5.webp)
 
-## Design Decisions
+## Design decisions
 
 **Sketch wire-frames\*\***
 
@@ -79,7 +79,7 @@ Sketching wire-frames using pencil & paper make easier to iterate your design an
 
 But you can also choose your right tools for better delivery, such as [Balsamiq](https://balsamiq.com/index.html)
 
-## UI Design
+## UI design
 
 We believe you already had a good taste of design so this step should mostly based on your creative. But it's still good to get these principles as we believe **grid, visual hierarchy, typography, icons** and **colors** are the things that make useful, attractive user-interfaces.
 
@@ -141,9 +141,8 @@ This step will support the development team to understand what system you are do
 
 ![](assets/design-workflow_a19657465a449ff547f2c9008bbfab8c_md5.webp)
 
-## Review, Feedback
+## Review, feedback
 
 1. Use tools like Marvel, Figma to present your design. Marvel should be used when you want to present the interactive prototypes, while Figma is better to present general designs, just import your final design here to present & collect feedback. Don't forget to let people know by shooting a link via Slack/Hygger.
 2. Feedback shouldn't be taken personally.
 3. Feedback should be constructive given with reasons that aligned with listed goals of the product.
-

@@ -1,5 +1,5 @@
 ---
-title: From Multi Repo To Monorepo A Case Study With Nghenhan Turbo Monorepo
+title: From multi repo to monorepo a case study with Nghenhan Turbo monorepo
 description: Learn how migrating to a Turbo-powered monorepo cut build times by 60%, boosted developer productivity by 40%, and simplified dependency management in a real trading platform case study.
 date: 2023-03-20
 tags:
@@ -25,7 +25,7 @@ These challenges necessitated updating references to files and components to mat
 
 As we move forward, we may face challenges related to scalability and flexibility. However, we firmly believe that the benefits of the monorepo approach far outweigh these challenges, and we are confident in our ability to address them proactively.
 
-## Solution: Turbo and the Monorepo Advantage
+## Solution: Turbo and the monorepo advantage
 
 Turbo, a purpose-built tool for managing monorepos, offers numerous benefits that streamline the development process. Some of these advantages include:
 
@@ -35,7 +35,7 @@ Turbo, a purpose-built tool for managing monorepos, offers numerous benefits tha
 - **Improved code reuse:** Consolidating all code into a single repository allows for better code reuse across different projects, reducing duplication and elevating code quality.
 - **Reduced complexity:** The monorepo structure simplifies the development process, making it easier for team members to navigate and comprehend the codebase.
 
-## Migration Process
+## Migration process
 
 Here is the diagram for the full flow of the migration process of our apps:
 
@@ -49,7 +49,7 @@ Our migration process entailed several well-planned steps to ensure a seamless t
 1. **Preview app with Storybook:** We created a preview app using Storybook to better understand the input/output of each component and ensure that everything was working as expected. This made it easier for our developers to integrate components into our apps in the future.
 1. **Extensive testing and deployment:** After completing the migration and refactoring efforts, we thoroughly tested and deployed our codebase to ensure that everything was working as expected. We resolved any issues that arose during the testing process and made certain that our apps ran smoothly in the live environment.
 
-## Results and Key Learnings
+## Results and key learnings
 
 The migration to a monorepo with Turbo was a success, with several noteworthy benefits:
 
@@ -78,4 +78,3 @@ The migration to a monorepo using Turbo required significant effort, but the res
 - Fanpage: [https://www.facebook.com/dwarvesf](https://www.facebook.com/dwarvesf)
 - LinkedIn: [https://www.linkedin.com/company/dwarvesf](https://www.linkedin.com/company/dwarvesf/)
 - Substack: [https://memo.d.foundation/](https://memo.d.foundation/)
-

@@ -32,4 +32,3 @@ Some examples of ways we do this:
 Ahrens, Sönke. _How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers_. Sönke Ahrens, 2017.
 
 Miller, Mark, Kathryn Nave, George Deane, and Andy Clark. _“Use Uncertainty to Leverage the Power of Your Predictive Brain.”_ Aeon. Accessed October 21, 2020. https://aeon.co/essays/use-uncertainty-to-leverage-the-power-of-your-predictive-brain
-

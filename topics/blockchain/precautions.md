@@ -23,7 +23,7 @@ At minimum, you should:
 - Exhaustive testing should allow various players to interact with the contract at volume
 - Deploy on the mainnet in beta, with limits to the amount at risk
 
-##### Automatic Deprecation
+##### Automatic deprecation
 
 During testing, you can force an automatic deprecation by preventing any actions, after a certain
 time period. For example, an alpha contract may work for several weeks and then automatically shut
@@ -44,7 +44,7 @@ function withdraw() public {
 }
 ```
 
-##### Restrict amount of Ether per user/contract
+##### Restrict amount of ether per user/contract
 
 In the early stages, you can restrict the amount of Ether for any user (or for the entire contract)
 \- reducing the risk.
@@ -379,4 +379,3 @@ implementations of `delegatecall`, you should carefully consider and understand\
 
 \* _Extended from
 [Proxy pattern recommendations section](https://blog.trailofbits.com/2018/09/05/contract-upgrade-anti-patterns/)_
-

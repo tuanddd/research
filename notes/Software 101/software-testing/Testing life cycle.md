@@ -1,5 +1,12 @@
 ---
-tags: software101, engineering, testing, lifecycle
+title: null
+description: null
+date: null
+tags:
+  - software101
+  - engineering
+  - testing
+  - lifecycle
 ---
 
 Several of you have asked me about testing and its relationship to the software development life cycle. Basically testing follows a life cycle that corresponds to every phase of the development life cycle.

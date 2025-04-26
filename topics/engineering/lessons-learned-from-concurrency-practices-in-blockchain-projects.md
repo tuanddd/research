@@ -1,5 +1,5 @@
 ---
-title: Lessons Learned From Concurrency Practices In Blockchain Projects
+title: Lessons learned from concurrency practices in blockchain projects
 description: Learn how to handle concurrency and race conditions in Go blockchain projects using PostgreSQL advisory locks for efficient distributed locking and safe cronjob execution on Kubernetes.
 date: 2023-04-17
 tags:
@@ -15,7 +15,7 @@ This story comes from a few projects with our teams optimistically setting more 
 
 However, this expects that application to be more or less aware that there is more than one instance of itself. Any stateful application needs to know the current state of a requested entity. Having multiple instances of the app contending for the same state runs us into concurrency problems. Unfortunately, these Go projects weren’t designed to handle stateful workloads with replication. Hence, they fall victim to race conditions and write contentions.
 
-## Concurrent Design
+## Concurrent design
 
 Concurrent design is critical to software development, for applications that are beginning to scale, which can help improve performance and scalability. However, designing concurrent systems for more distributed-like systems is not as trivial, especially when we can have combinations of Go instances on Kubernetes and likewise for their respective databases. This is in contrast to your average concurrency designs as we are more focused on handling application scalability as opposed to blocking/non-blocking requests.
 
@@ -141,5 +141,4 @@ Designing concurrent systems for distributed-like systems can be a bit tricky. N
 
 ## References
 
-- [PostgreSQL: Documentation: 15: 13.3. Explicit Locking](https://www.postgresql.org/docs/current/explicit-locking.html)
-
+- [PostgreSQL: Documentation: 15: 13.3. Explicit locking](https://www.postgresql.org/docs/current/explicit-locking.html)

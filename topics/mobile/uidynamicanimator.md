@@ -44,7 +44,7 @@ All types of dynamic animators share the following characteristics:
 
 You can implement a delegate to respond to changes in animator pause/resumption status, using the [dynamicAnimatorDidPause(\_:)](https://developer.apple.com/documentation/uikit/uidynamicanimatordelegate/1621193-dynamicanimatordidpause) and [dynamicAnimatorWillResume(\_:)](https://developer.apple.com/documentation/uikit/uidynamicanimatordelegate/1621188-dynamicanimatorwillresume)methods of the [UIDynamicAnimatorDelegate](https://developer.apple.com/documentation/uikit/uidynamicanimatordelegate) protocol.
 
-## Key Features
+## Key features
 
 To create real-life animation experience, Apple simulates it using UIDynamicAnimator
 
@@ -74,7 +74,7 @@ Besides, UIDynamicItem(object) features can also adjust the elasticity of the ob
 
 Combine all of these factors, we end up with real-life physical interaction simulation.
 
-## UI Dynamic Behavior
+## UI dynamic behavior
 
 A field behavior defines an area in which forces such as gravity, magnetism, drag, velocity, turbulence, and others can be applied. After creating a field behavior object of the appropriate type, configure the strength of the intended force along with any other field attributes.
 
@@ -83,4 +83,3 @@ After creating a field behavior object, call the [addItem(\_:)](https://develop
 The [position](https://developer.apple.com/documentation/uikit/uifieldbehavior/1625003-position) of a field defines its location in your interface and the field’s [region](https://developer.apple.com/documentation/uikit/uifieldbehavior/1625005-region) defines its area of influence. The region you specify is centered on the field’s position. Regions can be circular or rectangular, and you can combine regions in different ways to create more complex region shapes.
 
 Most fields use only a subset of the field attributes in their computations. All fields have a [strength](https://developer.apple.com/documentation/uikit/uifieldbehavior/1624997-strength) value that helps define the intensity of the field. Most fields also use the [falloff](https://developer.apple.com/documentation/uikit/uifieldbehavior/1624988-falloff)property to vary the field strength over distance. You configure other attributes only as needed for the type of field.
-

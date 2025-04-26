@@ -1,5 +1,5 @@
 ---
-title: Intro to Model Context Protocol
+title: Intro to model context protocol
 description: "Explore Anthropic's Model Context Protocol (MCP) - a groundbreaking approach to enhancing AI assistants. Learn how MCP integrates with local and remote resources, enabling smarter interactions with tools and databases."
 date: 2024-11-29
 authors:
@@ -113,4 +113,3 @@ MCP is already being used by companies like Block and Apollo, showing how handy 
 - https://www.metadocs.co/2024/11/29/anthropic-model-context-protocol-how-to-give-wings-to-local-mode/
 - https://www.infoworld.com/article/3613143/anthropic-introduces-the-model-context-protocol.html
 - https://salesforcedevops.net/index.php/2024/11/29/anthropics-model-context-protocol/
-

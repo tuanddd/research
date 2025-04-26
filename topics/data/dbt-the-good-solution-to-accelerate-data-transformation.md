@@ -56,4 +56,3 @@ In conclusion, I think DBT is a good tool for transforming data. I think that th
 
 - https://www.analytics8.com/blog/dbt-overview-what-is-dbt-and-what-can-it-do-for-my-data-pipeline/
 - https://docs.getdbt.com/docs/get-started/learning-more/using-jinja
-

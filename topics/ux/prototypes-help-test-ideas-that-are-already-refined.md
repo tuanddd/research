@@ -20,4 +20,3 @@ Instead of rushing to a prototype, spend more time in the problem space.
 #### Citations
 
 Hall, Erika. “The 9 Rules of Design Research.” Medium (blog), October 24, 2019. [Link](https://medium.com/mule-design/the-9-rules-of-design-research-1a273fdd1d3b).
-

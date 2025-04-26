@@ -16,4 +16,3 @@ When writing, ensure that the core theme of an idea isn't overshadowed by subord
 #### Citations
 
 Flaherty, Francis. _The Elements of Story: Field Notes on Nonfiction Writing._ Reprint edition. Harper Perennial, 2010.
-

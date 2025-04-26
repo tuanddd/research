@@ -11,9 +11,9 @@ tags:
   - po-s
 ---
 
-## The Proof of Stake
+## The proof of stake
 
-The Proof of Stake consensus algorithm was introduced in 2011 on the Bitcointalk forum to solve the problems of the most popular algorithm in use – Proof of Work. . While both share the same goal of achieving consensus in the blockchain, the process to achieve the goal is quite different. where the nodes of a blockchain-based network must "stake" a sum of money or tokens (proving their identity) in order to participate in the verification of transactions in a block.
+The proof of stake consensus algorithm was introduced in 2011 on the Bitcointalk forum to solve the problems of the most popular algorithm in use – Proof of Work. . While both share the same goal of achieving consensus in the blockchain, the process to achieve the goal is quite different. where the nodes of a blockchain-based network must "stake" a sum of money or tokens (proving their identity) in order to participate in the verification of transactions in a block.
 
 Just like proof of work, proof of stake is designed to achieve distributed consensus on the valid order of transactions - i.e. reach agreement on a single shared version of history .
 
@@ -25,7 +25,7 @@ The first cryptocurrency to adopt the PoS method was Peercoin. Nxt, Blackcoin an
 
 ## How proof of stake works
 
-The Proof of Stake algorithm uses a pseudo-random election process to select a node as the validator of the next block, based on a combination of factors that may include staking age, random and the size of the button. Users who wish to participate in this process must lock a certain number of native tokens into the network as their stake. The size of the stake determines the chance for a node to be selected as a validator to generate the next block – the larger the stake, the greater the chance. In order for the process not only to prioritize the wealthiest nodes in the network, unique methods are added to the selection process. The two most commonly used methods are 'Random Block Selection' and 'Coin Age Selection'. In the Random Block Pick method, validators are selected by looking for nodes with the combination of the lowest hash value and the highest stake, and since the stake size is public, the validator node The next real thing can usually be predicted by other nodes. The Coin Age Selection method selects nodes based on how long their coins have been staked. Coin age is calculated by multiplying the number of days the coin is held by the number of coins staked. When a node forges a block, their coin age is reset to zero and they have to wait a certain amount of time before they can generate another block – this prevents large stake nodes from dominating the blockchain.
+The proof of stake algorithm uses a pseudo-random election process to select a node as the validator of the next block, based on a combination of factors that may include staking age, random and the size of the button. Users who wish to participate in this process must lock a certain number of native tokens into the network as their stake. The size of the stake determines the chance for a node to be selected as a validator to generate the next block – the larger the stake, the greater the chance. In order for the process not only to prioritize the wealthiest nodes in the network, unique methods are added to the selection process. The two most commonly used methods are 'Random Block Selection' and 'Coin Age Selection'. In the Random Block Pick method, validators are selected by looking for nodes with the combination of the lowest hash value and the highest stake, and since the stake size is public, the validator node The next real thing can usually be predicted by other nodes. The Coin Age Selection method selects nodes based on how long their coins have been staked. Coin age is calculated by multiplying the number of days the coin is held by the number of coins staked. When a node forges a block, their coin age is reset to zero and they have to wait a certain amount of time before they can generate another block – this prevents large stake nodes from dominating the blockchain.
 
 Each native token that uses the Proof of Stake algorithm has its own set of rules and methods to create the best combination for them and their users.
 
@@ -55,4 +55,3 @@ In 2017, Ethereum (ETH) started its full transition from PoW to PoS system and b
 - PoS does not harm the environment.
 - Not vulnerable to government attacks: don't need huge amounts of electricity.
 - Can be performed on smaller and weaker devices because there is no need to download the entire blockchain, and because it does not require a lot of computing power, it can be
-

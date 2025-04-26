@@ -1,5 +1,5 @@
 ---
-title: Dcos Series Part 1 Quick Look Installation
+title: Dcos series part 1 quick look installation
 description: Learn how to install and set up DC/OS, a data center OS based on Apache Mesos, for managing modern containerized applications across master, public, and private agent nodes.
 date: 2017-05-04
 tags:
@@ -25,7 +25,7 @@ Build modern apps using state of the art technologies such as containers and big
 
 ## How can we install it ?
 
-### System requirement -> Here
+### System requirement -> here
 
 ### Installing
 
@@ -41,7 +41,7 @@ Currently, DC/OS supported to run with specific installation guideline for each 
 
 In this article, I will show you the way to install DC/OS generally. So that you can apply it for every clouds that you’re using.
 
-### Step 1 - Prepare on bootstrap node
+### Step 1 - prepare on bootstrap node
 
 - Create a directory named `genconf`
 
@@ -99,7 +99,7 @@ curl -O https://downloads.dcos.io/dcos/stable/dcos_generate_config.sh
 sudo bash dcos_generate_config.sh
 ```
 
-### Step 2 - Install DC/OS to master nodes
+### Step 2 - install DC/OS to master nodes
 
 - SSH to your master nodes:
 
@@ -125,7 +125,7 @@ curl -O http://<bootstrap-ip>:<your_port>/dcos_install.sh
 sudo bash dcos_install.sh master
 ```
 
-### Step 3 - Install DC/OS to master nodes
+### Step 3 - install DC/OS to master nodes
 
 - SSH to your nodes:
 
@@ -149,9 +149,8 @@ curl -O http://<bootstrap-ip>:<your_port>/dcos_install.sh
 - Private agent nodes: `sudo bash dcos_install.sh slave`
 - Public agent nodes: `sudo bash dcos_install.sh public`
 
-### Step 4 - Launch the DC/OS
+### Step 4 - launch the DC/OS
 
 You can access to web interface at `http://<master-node-public-ip>/`and bingo !
 
 ![](assets/dcos-series-part-1---quick-look-installation_7e7988a963f67f1005ed0e19e2b93e01_md5.webp)
-

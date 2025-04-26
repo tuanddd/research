@@ -14,7 +14,7 @@ It is essentially a [[Finite-state automata]] that has both inputs and outputs. 
 
 This differs from a finite-state automaton which only has 1 (input) tape.
 
-## Mathematical Model
+## Mathematical model
 
 As per the general classification noted on [UC Davis outline on transducers](https://www.cs.ucdavis.edu/~rogaway/classes/120/spring13/eric-transducers) (formatted with similar variables to [[Finite-state automata]]s), a deterministic finite-state machine has 7 main variables associated with its definition (a septuple): ($\Sigma$, $S$, $\Gamma$, $\delta$, $\omega$, $s_0$, \_$F$).
 
@@ -145,4 +145,3 @@ let transition = (state, input) =>
 - https://www.cs.ucdavis.edu/~rogaway/classes/120/spring13/eric-transducers
 - https://dl.acm.org/doi/10.5555/972695.972698
 - https://web.stanford.edu/~laurik/publications/ciaa-2000/fst-in-nlp/fst-in-nlp.html
-

@@ -21,4 +21,3 @@ Book: My True Type, page 109 - 114
 
 - Fi users focus on their own personal inner feelings
 - Fe users focus on feelings in the external world
-

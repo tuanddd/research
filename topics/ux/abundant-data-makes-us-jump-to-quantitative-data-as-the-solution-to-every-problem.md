@@ -25,4 +25,3 @@ Data that are easiest to come by—and likely more abundant—are more likely to
 [Ladner, Sam. Mixed Methods: A Short Guide to Applied Mixed Methods Research. Sam Ladner, 2019.](https://publish.obsidian.md/mobydiction/notes/%E2%89%88+Ladner+-+Mixed+Methods)
 
 [Sutherland, Rory. Alchemy: The Dark Art and Curious Science of Creating Magic in Brands, Business, and Life. Illustrated edition. William Morrow, 2019.](https://publish.obsidian.md/mobydiction/Sutherland+-+Alchemy)
-

@@ -289,7 +289,7 @@ function() payable { emit LogDepositReceived(msg.sender); }
 function() payable { require(msg.data.length == 0); emit LogDepositReceived(msg.sender); }
 ```
 
-## 7. Integer Division
+## 7. integer division
 
 All integer division rounds down to the nearest integer. If you need more precision, consider using
 a multiplier, or store both the numerator and denominator.
@@ -473,7 +473,7 @@ application they intend to use.
 There are three main considerations when using a timestamp to execute a critical function in a
 contract, especially when actions involve fund transfer.
 
-#### Timestamp Manipulation
+#### Timestamp manipulation
 
 Be aware that the timestamp of the block can be manipulated by a miner. Consider this
 [contract](https://etherscan.io/address/0xcac337492149bdb66b088bf5914bedfbf78ccc18#code):
@@ -498,7 +498,7 @@ timestamp within 15 seconds of the block being validated, effectively allowing t
 precompute an option more favorable to their chances in the lottery. Timestamps are not random and
 should not be used in that context.
 
-#### The 15-second Rule
+#### The 15-second rule
 
 The [Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf) (Ethereum's reference
 specification) does not specify a constraint on how much blocks can drift in time, but
@@ -628,4 +628,3 @@ function internalAction() internal {
 
 - [SWC-100](https://swcregistry.io/docs/SWC-100) and
 - [SWC-108](https://swcregistry.io/docs/SWC-108)
-

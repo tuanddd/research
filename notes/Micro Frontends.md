@@ -1,5 +1,9 @@
 ---
-tags: micro-frontend
+title: null
+description: null
+date: null
+tags:
+  - micro-frontend
 ---
 
 ### What is Micro-frontend?
@@ -52,13 +56,13 @@ Cons
 
     <script type="text/javascript">
       const microFrontendsByRoute = {
-        '/': 'https://products.shop.com/index.html',
-        '/order': 'https://order.shop.com/index.html',
-        '/user-profile': 'https://profile.shop.com/index.html',
-      }
+        "/": "https://products.shop.com/index.html",
+        "/order": "https://order.shop.com/index.html",
+        "/user-profile": "https://profile.shop.com/index.html",
+      };
 
-      const iframe = document.getElementById('app-container')
-      iframe.src = microFrontendsByRoute[window.location.pathname]
+      const iframe = document.getElementById("app-container");
+      iframe.src = microFrontendsByRoute[window.location.pathname];
     </script>
   </body>
 </html>
@@ -92,15 +96,15 @@ Cons
     <script type="text/javascript">
       // These global functions are attached to window by the above scripts
       const microFrontendsByRoute = {
-        '/': window.renderProducts,
-        '/order': window.renderOrder,
-        '/user-profile': window.renderUserProfile,
-      }
-      const renderFunction = microFrontendsByRoute[window.location.pathname]
+        "/": window.renderProducts,
+        "/order": window.renderOrder,
+        "/user-profile": window.renderUserProfile,
+      };
+      const renderFunction = microFrontendsByRoute[window.location.pathname];
 
       // Having determined the entry-point function, we now call it,
       // giving it the ID of the element where it should render itself
-      renderFunction('app')
+      renderFunction("app");
     </script>
   </body>
 </html>
@@ -129,17 +133,17 @@ Cons
     <script type="text/javascript">
       // These element types are defined by the above scripts
       const webComponentsByRoute = {
-        '/': 'micro-frontend-products',
-        '/order': 'micro-frontend-order',
-        '/user-profile': 'micro-frontend-user-profile',
-      }
-      const webComponentType = webComponentsByRoute[window.location.pathname]
+        "/": "micro-frontend-products",
+        "/order": "micro-frontend-order",
+        "/user-profile": "micro-frontend-user-profile",
+      };
+      const webComponentType = webComponentsByRoute[window.location.pathname];
 
       // Having determined the right web component custom element type,
       // we now create an instance of it and attach it to the document
-      const root = document.getElementById('app')
-      const webComponent = document.createElement(webComponentType)
-      root.appendChild(webComponent)
+      const root = document.getElementById("app");
+      const webComponent = document.createElement(webComponentType);
+      root.appendChild(webComponent);
     </script>
   </body>
 </html>
@@ -155,12 +159,12 @@ Cons
 1. [Custom event](https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events)
 2. Cross-application communication via routing
 
-#### Serverside Rendering / Universal Rendering
+#### Serverside rendering / universal rendering
 
 - Server-side rendering is always tricky problem.
 - Use [Server Side Includes](https://en.wikipedia.org/wiki/Server_Side_Includes) to plug in page-specific content from fragment HTML files:
 
-#### Cons of Micro-frontend
+#### Cons of micro-frontend
 
 - Duplication of dependencies => increase payload size
 - App performance

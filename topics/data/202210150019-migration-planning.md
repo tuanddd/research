@@ -1,5 +1,5 @@
 ---
-title: Migration Planning
+title: Migration planning
 description: Migration planning is a crucial part of any software development project, especially when migrating to a new database or platform.
 date: 2022-10-14
 authors:
@@ -27,4 +27,3 @@ Common steps
 - Compare and validate the new database
 - Dual reads / writes -> new database is primary
 - Remove old database
-

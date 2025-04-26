@@ -21,12 +21,12 @@ Conflict-free Replicated Data Types (CRDTs) (aka convergent replicated data type
 
 ## Why CRDT?
 
-### Addressing Data Modification Dilemma
+### Addressing data modification dilemma
 
 There are two approaches to handling concurrent modifications in distributed systems:
 
-1. **Strongly Consistent Replication**: In this approach, replicas coordinate for modifications to ensure strong consistency. However, this coordination sacrifices performance and can be limited by the Cap Theorem. The CAP theorem states that in a distributed system, it's impossible to simultaneously guarantee consistency (every read receives the most recent write), availability (every request receives a response), and partition tolerance (the system continues to operate despite network partitions).
-2. **Optimistic Replication**: In optimistic replication, users can independently modify data without coordination, which enhances performance. However, this approach may lead to conflicts when multiple replicas receive conflicting modifications. To address conflicts, replicas communicate and resolve conflicts automatically.
+1. **Strongly consistent replication**: In this approach, replicas coordinate for modifications to ensure strong consistency. However, this coordination sacrifices performance and can be limited by the Cap Theorem. The CAP theorem states that in a distributed system, it's impossible to simultaneously guarantee consistency (every read receives the most recent write), availability (every request receives a response), and partition tolerance (the system continues to operate despite network partitions).
+2. **Optimistic replication**: In optimistic replication, users can independently modify data without coordination, which enhances performance. However, this approach may lead to conflicts when multiple replicas receive conflicting modifications. To address conflicts, replicas communicate and resolve conflicts automatically.
 
 ### Role of CRDTs
 
@@ -59,4 +59,3 @@ Unlike systems relying on algorithms utilized by platforms such as Google Docs, 
 - https://redis.com/blog/diving-into-crdts/
 - https://jakelazaroff.com/words/an-interactive-intro-to-crdts/#user-content-fn-cvrdt
 - https://www.infoq.com/presentations/crdt-production/
-

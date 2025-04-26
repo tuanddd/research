@@ -167,4 +167,3 @@ Caching is a vital technique that boosts performance by storing frequently acces
 - <https://arxiv.org/pdf/2311.04934>
 - <https://github.com/UKPLab/sentence-transformers>
 - <https://huggingface.co/learn/cookbook/en/semantic_cache_chroma_vector_database>
-

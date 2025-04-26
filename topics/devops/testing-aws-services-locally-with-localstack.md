@@ -133,7 +133,7 @@ awslocal s3api get-bucket-replication --bucket sample-bucket
 
 Some of the emulation services for other AWS APIs that LocalStack supports:
 
-- [Elastic Compute Cloud (EC2)](https://docs.localstack.cloud/user-guide/aws/elastic-compute-cloud/)
+- [Elastic compute cloud (EC2)](https://docs.localstack.cloud/user-guide/aws/elastic-compute-cloud/)
 
 - [CloudFront](https://docs.localstack.cloud/user-guide/aws/cloudfront/)
 
@@ -161,4 +161,3 @@ There are several advantages of using LocalStack over the original AWS solutions
 
 - https://docs.localstack.cloud/user-guide/aws/s3/
 - https://aws.amazon.com/s3/?nc2=h_ql_prod_st_s3
-

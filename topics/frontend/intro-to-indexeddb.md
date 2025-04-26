@@ -11,7 +11,7 @@ tags:
   - storage
 ---
 
-## Overview & When to use IndexedDB
+## Overview & when to use IndexedDB
 
 **IndexedDB** is a low-level API for client-side storage like [_localStorage_](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) and [_cookies_](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies). But this built-in **non-relational database** is much more powerful than those 2 counterparts.
 
@@ -137,4 +137,3 @@ Using IndexedDB is also likely to require **a lot more coding** than localStorag
 - https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB
 - https://www.javascripttutorial.net/web-apis/javascript-indexeddb/
 - https://web.dev/indexeddb/
-

@@ -27,15 +27,15 @@ Before diving into tracing, it's important to understand the fundamental differe
 
 Why LLM Tracing is Necessary:
 
-1. **Unpredictable Outputs**: LLMs can produce different outputs for the same input due to their probabilistic nature.
-2. **Black Box Nature**: The decision-making process of an LLM is opaque.
-3. **Complex Interactions**: LLMs often interact with multiple components (e.g., retrieval systems, filters, classifiers, external APIs) in ways that aren't immediately obvious.
-4. **Performance Variability**: Performance can vary significantly based on input complexity, model size, and hardware.
-5. **Evolving Behavior**: LLMs can exhibit evolving behavior through fine-tuning or in response to different prompts.
-6. **Error Diagnosis**: "Errors" in LLMs might be subtle, like hallucinations or biased responses.
-7. **Continuous Improvement**: LLMs can be improved through better prompts, fine-tuning, or model updates.
+1. **Unpredictable outputs**: LLMs can produce different outputs for the same input due to their probabilistic nature.
+2. **Black box nature**: The decision-making process of an LLM is opaque.
+3. **Complex interactions**: LLMs often interact with multiple components (e.g., retrieval systems, filters, classifiers, external APIs) in ways that aren't immediately obvious.
+4. **Performance variability**: Performance can vary significantly based on input complexity, model size, and hardware.
+5. **Evolving behavior**: LLMs can exhibit evolving behavior through fine-tuning or in response to different prompts.
+6. **Error diagnosis**: "Errors" in LLMs might be subtle, like hallucinations or biased responses.
+7. **Continuous improvement**: LLMs can be improved through better prompts, fine-tuning, or model updates.
 
-## Key Metrics
+## Key metrics
 
 | **Basic**                                                                            | **Evaluating**                                                                                         |
 | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
@@ -60,4 +60,3 @@ Some popular tools that support various aspects of LLM tracing:
 - https://docs.smith.langchain.com/how_to_guides/tracing
 - https://karpathy.medium.com/software-2-0-a64152b37c35
 - Demo: https://colab.research.google.com/gist/tienan92it/490dd65748518a9abc73cdf4bd84583d/welcome-to-colab.ipynb
-

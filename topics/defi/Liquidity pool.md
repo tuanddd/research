@@ -1,6 +1,11 @@
 ---
-tags: blockchain, liquidity
+title: null
+description: null
+date: null
 author: Hien Le
+tags:
+  - blockchain
+  - liquidity
 ---
 
 ## 1. What is a Liquidity Pool?
@@ -33,13 +38,13 @@ And because we have no limit orders in AMM, the smart contract would automatical
 
 Now the liquidity pool would have 9 ETH and 1,111.11 DAI after someone buys 1 ETH.
 
-### 2.1. Roles of Arbitragers in AMM
+### 2.1. Roles of arbitragers in AMM
 
 Arbitragers play an important role in AMM. They are used in order to take advantage of the price differences and drive the price back towards market equilibrium.
 
 If the price of ETH in the pool is higher than it is on Coinbase, arbitragers would sell ETH into this pool and make a profit on the price discrepancies. Thus, the price of ETH in the pool would always be incentivized towards the market price as closely as possible.
 
-### 2.2. Depth of Pool and Slippage
+### 2.2. Depth of pool and slippage
 
 The price difference between the pool and market is known as slippage. How big your slippage is depends on the size of your trade relative to the size or depth of the pool.
 

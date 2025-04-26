@@ -1,5 +1,10 @@
 ---
-tags: zettelkasten, note
+title: null
+description: null
+date: null
+tags:
+  - zettelkasten
+  - note
 ---
 
 ## Summary

@@ -38,7 +38,7 @@ Rebuilding the whole bundle after making changes to your source code in a bundle
 
 **HMR (Hot module replacement)** is applied to native ESM in Vite. Vite consistently performs HMR updates quickly regardless of the size of your application by only needing to precisely invalidate the chain between the updated module and its nearest HMR boundary when a file is changed.
 
-### Why Bundle for Production
+### Why bundle for production
 
 Despite the fact that native ESM is now generally supported, deploying unbundled ESM in production is still wasteful (even with HTTP/2) since nested imports require extra network round trips. It is still preferable to bundle your code with tree-shaking, lazy-loading, and common chunk splitting to get the best loading performance in production (for better caching).
 
@@ -50,4 +50,3 @@ While `esbuild` is lightning-quick and a very capable bundler for libraries, som
 
 - https://vitejs.dev/guide/why.html
 - https://www.telerik.com/blogs/whats-vite-guide-modern-super-fast-project-tooling
-

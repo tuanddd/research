@@ -1,5 +1,9 @@
 ---
-tags: elixir
+title: null
+description: null
+date: null
+tags:
+  - elixir
 ---
 
 An advantage to using the umbrella structure is that the applications are structured as standalone applications. This can help to give clearer boundaries between the applications and to separate application concerns. For example, an application in the umbrella should only call the public apis of another umbrella application. However, this is not enforced and private apis can still be called.
@@ -15,4 +19,4 @@ In many cases I find that an umbrella app is not necessary for the project I'm w
 #### Reference
 
 - [Docs for "Dependencies and umbrella projects" at elixir-lang.org](https://elixir-lang.org/getting-started/mix-otp/dependencies-and-umbrella-projects.html)
-- [Benefit of Umbrella Application](https://stackoverflow.com/questions/59958055/what-are-the-benefits-of-umbrella-applications)
+- [Benefit of umbrella application](https://stackoverflow.com/questions/59958055/what-are-the-benefits-of-umbrella-applications)

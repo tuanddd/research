@@ -47,4 +47,3 @@ Feature flags are one of the core components of progressive delivery. Without th
 - https://www.optimizely.com/optimization-glossary/progressive-delivery/
 - https://handbook.sourcegraph.com/departments/engineering/dev/tools/continuous_releasability/
 - https://www.cloudbees.com/blog/progressive-delivery-vs-continuous-delivery
-

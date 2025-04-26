@@ -1,5 +1,5 @@
 ---
-title: Materialized View Pattern
+title: Materialized view pattern
 description: Materialized view is the cache of views. It pre-computes, stores, and optimizes data access when created, and automatically refreshes to ensure real-time data availability.
 date: 2022-11-14
 authors:
@@ -12,7 +12,7 @@ tags:
   - data-warehouse
 ---
 
-**Materialized View Pattern**
+**Materialized view pattern**
 TL,DR;
 Versus "normal" view
 
@@ -47,4 +47,3 @@ In most cases, this method is much faster than a Complete Refresh
 
 #data
 @brain master
-

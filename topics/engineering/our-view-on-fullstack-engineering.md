@@ -1,5 +1,5 @@
 ---
-title: Our View On Fullstack Engineering
+title: Our view on fullstack engineering
 description: Discover what full-stack engineering truly means, exploring how skilled developers blend frontend, backend, and infrastructure knowledge to create seamless, user-focused software solutions.
 date: 2023-08-30
 authors:
@@ -20,4 +20,3 @@ A true full-stack engineer comprehends this interdependence. They don't just wri
 With technology, especially AI, pushing the boundaries of possibility, we need engineers who can look beyond mere code. Engineers capable of harmonizing product and platform, as well as aligning technical solutions with user needs and business goals, will spearhead the next software evolution.
 
 In essence, full-stack engineering isn't just about skills; it's a philosophy. It delves into the heart of software delivery, balancing product and platform. As technology advances, these pioneers will be at the forefront, shaping software that's not just efficient but transformative.
-

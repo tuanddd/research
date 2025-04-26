@@ -6,7 +6,7 @@ github_id: R-Jim
 icy: 10
 ---
 
-## The Problem Statement
+## The problem statement
 
 [[Redis streaming]] is to have multiple consumers processing incoming messages simultaneously.
 
@@ -147,5 +147,4 @@ Flow:
 ## References
 
 - [Redis documentation](https://redis.io/docs/)
-- [Redis Streams tutorial](https://redis.io/docs/data-types/streams-tutorial/)
-
+- [Redis streams tutorial](https://redis.io/docs/data-types/streams-tutorial/)

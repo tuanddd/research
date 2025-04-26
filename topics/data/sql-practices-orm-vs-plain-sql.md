@@ -1,5 +1,5 @@
 ---
-title: Sql Practices Orm Vs Plain Sql
+title: Sql practices orm vs plain sql
 description: Learn how to choose between raw SQL, ORM, and SQL generators, optimize database performance with smart indexing, avoid rounding errors, and write efficient queries for better security and speed.
 date: 2021-07-07
 tags:
@@ -51,7 +51,7 @@ Measure the application code to find out the bottle-neck. Don't make informed de
 - Tool: pgfouine
 - Using `Explain` to make a report of Query Analysis - Query Execution Plan(QEP).
 
-### Make Index with condition
+### Make index with condition
 
 CREATE UNIQUE INDEX line_items_prod_var_null_idx
 
@@ -63,7 +63,7 @@ WHERE variant_id IS NULL
 
 Over time, as we update and delete rows, the indexes may become fragmented overtime - SQL system tool
 
-### Rounding Errors
+### Rounding errors
 
 Fractional Number(float, decimal) is common type in db: money, measurement: length, weight, capacity, temperature, time. infinite precision VS finite precision: 1/3 vs 0.33
 
@@ -75,7 +75,7 @@ See more reference at [Oracle’s document.](https://docs.oracle.com/cd/E19957-0
 
 Use Numeric or Decimal in SQL for fixed-precision fractional numbers
 
-### Query Practice
+### Query practice
 
 - Use alias make the more readable query
 - Prefer `=` than `like` than `like 'prefix%'` than `like '%content%'`
@@ -101,4 +101,3 @@ Get row with Greatest value per group. Follow the Single-Value rule to build the
 - [pragprog.com/titles/bksqla/sql-antipatterns](https://pragprog.com/titles/bksqla/sql-antipatterns/)
 - [www.enterprisedb.com/blog/postgresql-query-optimization-performance-tuning-with-explain-analyze](https://www.enterprisedb.com/blog/postgresql-query-optimization-performance-tuning-with-explain-analyze)
 - [technical-recipes.com/2011/ieee-754-floating-point-to-binary-conversion](http://technical-recipes.com/2011/ieee-754-floating-point-to-binary-conversion)
-

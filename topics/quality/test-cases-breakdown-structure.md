@@ -42,7 +42,6 @@ When it comes through the high level business flow, the user selects the product
 
 ## Reference
 
-- [Usage Of Heuristics And Mnemonics In Software Testing](https://testmatick.com/usage-of-heuristics-and-mnemonics-in-software-testing/)
-- [Test Case Design Techniques](https://www.botplayautomation.com/post/test-case-design-techniques)
-- [Software Testing Techniques with Test Case Design Examples](https://www.guru99.com/software-testing-techniques.html)
-
+- [Usage of heuristics and mnemonics in software testing](https://testmatick.com/usage-of-heuristics-and-mnemonics-in-software-testing/)
+- [Test case design techniques](https://www.botplayautomation.com/post/test-case-design-techniques)
+- [Software testing techniques with test case design examples](https://www.guru99.com/software-testing-techniques.html)

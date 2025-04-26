@@ -1,8 +1,12 @@
 ---
-tags: technology
+title: null
+description: null
+date: null
+tags:
+  - technology
 ---
 
-## Why It is Important to Keep up with Changing Technology Trends
+## Why it is important to keep up with changing technology trends
 
 - Remain Relevant
 - Stay Competitive

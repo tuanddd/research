@@ -1,5 +1,10 @@
 ---
-tags: blockchain, defi
+title: null
+description: null
+date: null
+tags:
+  - blockchain
+  - defi
 ---
 
 ## Design by contract
@@ -21,4 +26,4 @@ First, the terms of the contract will be written in a programming language, then
 #### Reference
 
 - [Design by contract](https://en.wikipedia.org/wiki/Design_by_contract#Description)
-- [SMART CONTRACT](https://vicogroup.vn/cong-nghe-moi/smart-contract-hop-dong-thong-minh-la-gi-cach-hoat-dong-ung-dung-loi-ich-cua-no-la-gi-22746.html)
+- [Smart contract](https://vicogroup.vn/cong-nghe-moi/smart-contract-hop-dong-thong-minh-la-gi-cach-hoat-dong-ung-dung-loi-ich-cua-no-la-gi-22746.html)

@@ -1,5 +1,5 @@
 ---
-title: Storing Long-Term Memory in ChatGPT Using VectorDB
+title: Storing long-term memory in ChatGPT using VectorDB
 description: An overview of how to implement long-term memory in a ChatGPT-based chatbot using a Vector Database (VectorDB) to store conversation history and retrieve the most relevant past interactions.
 date: 2023-07-06
 authors:
@@ -53,4 +53,3 @@ graph TD;
 ```
 
 Remember, this is a general overview of the process and the exact details might differ based on the specific requirements of your application and the specifics of your chatbot's design.
-

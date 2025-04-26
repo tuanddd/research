@@ -13,12 +13,11 @@ tags:
 
 - [Acceptance test in Elixir](acceptance-test-in-elixir.md)
 
-### Finite State Machines
+### Finite state machines
 
-- [Erlang Finite State Machine](erlang-fsm.md)
+- [Erlang finite state machine](erlang-fsm.md)
 
-### Clustering & Distributed Systems
+### Clustering & distributed systems
 
 - [Libcluster in Elixir](libcluster-in-elixir.md)
 - [pg in Elixir](pg-in-elixir.md)
-

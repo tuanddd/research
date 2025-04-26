@@ -40,11 +40,10 @@ _A set of fingerprints or traces of an object when going through multiple system
 
 _Establish continuity so that behavior can be clear and predictable_, We need to focus on how the system revolves around that entity and decide the identifier, not the reverse.
 
-- **A online shopping site for Furniture**, the user only check brand name, model number, maybe design, and color for comparison between chairs or tables. Having a separate ID for each item might impact the decision on how to implement checkout(that item with ID is sold out so the user will need to find a similar item with a different ID).
+- **A online shopping site for furniture**, the user only check brand name, model number, maybe design, and color for comparison between chairs or tables. Having a separate ID for each item might impact the decision on how to implement checkout(that item with ID is sold out so the user will need to find a similar item with a different ID).
 
 #### References
 
 - https://herbertograca.com/category/development/book-notes/domain-driven-design-by-eric-evans/
 
 - Domain-driven design by Eric Evans
-

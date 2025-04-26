@@ -1,5 +1,5 @@
 ---
-title: Multi-MCP Data Integration - Receiving Data from Other MCP Servers
+title: Multi-MCP data integration - receiving data from other MCP servers
 description: null
 date: 2025-04-25
 authors:
@@ -14,9 +14,9 @@ Think of a single **Model Context Protocol (MCP)** server, like the Anthropic me
 
 ![alt text](assets/multi-mcp-data-integration-0.png)
 
-Now, **Multi-MCP data integration** is simply about connecting a primary system – like our evolving knowledge base or a central coordinating **LLM** – to *multiple* of these specialized MCP servers simultaneously.
+Now, **Multi-MCP data integration** is simply about connecting a primary system – like our evolving knowledge base or a central coordinating **LLM** – to _multiple_ of these specialized MCP servers simultaneously.
 
-What's the result? You dramatically expand the **repertoire** of tools available to the central **LLM**. Instead of just the tools provided by one server, it gains access to the combined capabilities of all connected servers. This works cleanly because the tools are inherently **namespaced**, either by the protocol itself or by the integration layer. 
+What's the result? You dramatically expand the **repertoire** of tools available to the central **LLM**. Instead of just the tools provided by one server, it gains access to the combined capabilities of all connected servers. This works cleanly because the tools are inherently **namespaced**, either by the protocol itself or by the integration layer.
 
 The **LLM** wouldn't just see multiple `search_nodes` tools; it would see `knowledgeBaseServer.search_nodes`, `realtimeSensorServer.search_nodes`, etc. This behind-the-scenes namespacing that exists for MCP servers prevents collisions and provides clarity on which capability belongs to which subsystem.
 
@@ -36,11 +36,17 @@ Simple. When the central system uses a tool from an integrated MCP server – sa
     "context_id": "factory-floor:sensor-1a:reading-5987",
     "content": "Temperature reading obtained from Sensor MCP.",
     "entities": [
-      {"name": "Sensor-1A", "type": "device"},
-      {"name": "Temperature", "type": "measurement"}
+      { "name": "Sensor-1A", "type": "device" },
+      { "name": "Temperature", "type": "measurement" }
     ],
     "relations": [
-      {"from": "Sensor-1A", "to": "Temperature", "type": "measures", "value": 35.5, "unit": "C"}
+      {
+        "from": "Sensor-1A",
+        "to": "Temperature",
+        "type": "measures",
+        "value": 35.5,
+        "unit": "C"
+      }
     ],
     "coined_terms": [],
     "source": {
@@ -60,13 +66,13 @@ So, multi-MCP integration turns our knowledge base into a central nexus. It does
 
 This theoretical framework of Multi-MCP integration isn't just an abstract concept; it's the direct architectural solution we implemented to tackle our persistent challenge of fragmented data. Recognizing that our valuable knowledge was siloed across various applications, we applied the Multi-MCP strategy to build a central nervous system for our information.
 
-## The Brain DB: Centralizing data for actionable intelligence
+## The Brain DB: centralizing data for actionable intelligence
 
 Our important data was often spread out, some even locked away in application databases like ConsoleLabs, making it difficult to see the whole picture. To fix this, we built a central place to gather everything, called a Knowledge Hub (or Brain DB). We use specialized services that follow a shared set of rules (the Model Context Protocol or MCP), ensuring they can all talk to each other and share data consistently. For example, one service, MCP ConsoleLabs, follows these rules to safely retrieve data from the ConsoleLabs application. All the information gathered by these services flows into our main Knowledge Hub (using TimescaleDB), giving us one place to see, analyze, and learn from our combined data over time.
 
 ![alt text](assets/multi-mcp-data-integration-2.png)
 
-Let's walk through a practical example: analyzing ICY token activity. First, the need arose for a comprehensive report covering a specific period. Using MCP ConsoleLabs, we directly queried the relevant application database to retrieve the raw transaction details. This raw data, potentially enriched with other context, was then processed — by MCP Client (Claude or agents) —transforming basic logs into a structured summary highlighting key entities, relationships, volumes, and patterns. 
+Let's walk through a practical example: analyzing ICY token activity. First, the need arose for a comprehensive report covering a specific period. Using MCP ConsoleLabs, we directly queried the relevant application database to retrieve the raw transaction details. This raw data, potentially enriched with other context, was then processed — by MCP Client (Claude or agents) —transforming basic logs into a structured summary highlighting key entities, relationships, volumes, and patterns.
 
 ![alt text](assets/multi-mcp-data-integration-3.png)
 

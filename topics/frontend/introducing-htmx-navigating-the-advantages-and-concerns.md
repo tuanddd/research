@@ -1,5 +1,5 @@
 ---
-title: Introducing HTMX - Navigating the Advantages and Concerns
+title: Introducing HTMX - navigating the advantages and concerns
 description: A comprehensive exploration of HTMX, a JavaScript library that extends HTML as a hypermedia, addressing the limitations of legacy HTML applications.
 date: 2023-12-18
 authors:
@@ -21,9 +21,9 @@ Giving user access to `AJAX`, `Websocket`, `Server Sent Event (SSE)`, `Css Trans
 `Hypermedia-Oriented` approach involves clients and servers sharing a common understanding of a set of hypermedia elements in data representations. Clients can use elements to trigger requests, navigate states while Servers provide the necessary hypermedia options in the responses.
 In this way, any modification in server side wont break the client application as long as the client can recognize the defined hypermedia options.
 
-## The Core Concept Of HTMX
+## The core concept of HTMX
 
-### Extending HTML with Attributes
+### Extending HTML with attributes
 
 HTMX extend the core idea of HTML as a hypertext by adding additional anchor attributes for allowing more possibilities such as:
 
@@ -33,7 +33,7 @@ HTMX extend the core idea of HTML as a hypertext by adding additional anchor att
 - All other elements now can be the target for update by the request, not alway the entire `window`.
 - Allow using `AJAX`, `Websocket`, `SSE` without writing Javascript.
 
-### Let's see a simple example: Active search
+### Let's see a simple example: active search
 
 ```html
 <input
@@ -53,7 +53,7 @@ HTMX extend the core idea of HTML as a hypertext by adding additional anchor att
 
 This example showcases how HTMX simplifies the creation of interactive user interfaces. It replaces the need for extensive JavaScript (or the need for React) code in various common UI techniques, including infinite scrolling, toasts, conditional rendering, loading indicators, error handling, paging, and [[WebSockets]] and SSE integration. HTMX offers a more streamlined approach to web development. [Explore more examples](https://htmx.org/examples/)
 
-### The role of Javascript in Htmx
+### The role of JavaScript in HTMX
 
 While HTMX aims to minimize the need for JavaScript, it still provides a small set of APIs for interaction with HTMX.
 For instance, these method are tailored to support htmx-styled AJAX requests:
@@ -70,7 +70,7 @@ htmx.ajax("GET", "/example", "#myDiv").then(() => {
 });
 ```
 
-### Server Generate Events
+### Server generate events
 
 HTMX also facilitates the triggering of events on the client-side, based on server responses. For instance, a response containing the header `HX-Trigger: contacts-updated` will trigger the `contacts-updated` event at the specified HTML element, and the corresponding event listener will be activated.
 
@@ -101,13 +101,13 @@ document.body.addEventListener("htmx:beforeSwap", function (evt) {
 
 [More about Htmx Usage](https://hypermedia.systems/book/contents/)
 
-## The Advantages Of HTMX
+## The advantages of HTMX
 
-### Minimal Of Javacsript - Reduce Development Complexity
+### Minimal of Javacsript - reduce development complexity
 
 HTMX reduces an amount of Javascript code needed to create a dynamic Web applications. This approach leads to a more cleaner and maintainable code base.
 
-### Improved Performance
+### Improved performance
 
 HTMX is lightweight, leading to faster initial page loads and reduced client-side processing. This results in a better user experience, especially for web applications with frequent UI updates. However, in large-scale applications with frequent UI updates, React is better in performance thanks to its virtual DOM.
 
@@ -115,17 +115,17 @@ HTMX is lightweight, leading to faster initial page loads and reduced client-sid
 
 HTMX emphasizes the locality of behavior, enabling developers to understand code functionality within a small, self-contained portion. This enhances code transparency and maintainability while streamlining development efforts.
 
-### Product Agility
+### Product agility
 
 HTMX works in improving product agility as it has been proven in [a real-world transition from React to htmx](https://htmx.org/essays/a-real-world-react-to-htmx-port/).
 
-## The Concerns With HTMX
+## The concerns with HTMX
 
 ### Violation of Separation of Concerns (SOC)
 
 HTMX can blur the lines between data management and presentation, as backends must respond with HTMX content rather than traditional RESTful APIs with Json. As a result, some many different clients such as mobile app, browser, ... might not able to consume the API.
 
-### Trade-Offs in Control
+### Trade-offs in control
 
 Using HTMX mean shifting in the balance of control between the client and server. The client is kept as _"slim"_ as possible and do all the _"heavy lifting"_ on the Backend. While, this might be a good thing for Backend Engineers but may require adjustments in development practices.
 
@@ -156,4 +156,3 @@ HTMX offers a fresh approach to web development, enhancing product agility and s
 - https://www.reddit.com/r/htmx/comments/r13e9i/xtmx_limitations_and_pitfalls/
 - https://www.builder.io/blog/htmx-vs-react
 - https://htmx.org/examples/
-

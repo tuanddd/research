@@ -50,8 +50,8 @@ Imagine you’re searching a database of scientific articles. A full-text search
 While hybrid search offers many advantages, it's not without its limitations.
 
 1. **Latency:** Since hybrid search runs both vector and full-text search algorithms, it can be slower than using just a vector search, especially when dealing with large amounts of documents.
-2. **Context-Length Limitations:** Re-rank models can only handle a certain amount of text at once. It’s depend on the context-length window of a third-party model.
-3. **Database Support:** Not all vector databases support hybrid search. Ensure that your choose database has the necessary capabilities.
+2. **Context-length limitations:** Re-rank models can only handle a certain amount of text at once. It’s depend on the context-length window of a third-party model.
+3. **Database support:** Not all vector databases support hybrid search. Ensure that your choose database has the necessary capabilities.
 
 Each search method has its pros and cons, and the best approach really depends on your specific dataset and what you need. Whether you’re sorting through complex scientific articles or looking up exact product codes, picking the right search method is key to getting the most relevant and accurate results. So, always keep in mind: no single search method works for every situation, you've got to choose based on your dataset.
 
@@ -59,15 +59,15 @@ Each search method has its pros and cons, and the best approach really depends o
 
 Imagine you have two lists of search results: one from vector search and one from full-text search. How do you choose the best documents from both? Two effective methods can help:
 
-- **Re-Rank Model:** The re-rank model calculates the semantic match between the list of candidate documents and the user query, reordering them based on semantic match to improve the results of semantic sorting. The principle is to compute a relevance score between the user query and each candidate document and return a list of documents sorted by relevance from high to low
+- **Re-rank model:** The re-rank model calculates the semantic match between the list of candidate documents and the user query, reordering them based on semantic match to improve the results of semantic sorting. The principle is to compute a relevance score between the user query and each candidate document and return a list of documents sorted by relevance from high to low
 
 ![Ranking model flow](assets/hybrid-search-ranking-model.webp)
 
-- **Reciprocal Rank Fusion:** RRF is a straightforward and effective way to mix search results. It takes the rankings of documents from different search methods, uses a formula to calculate a combined score, and then re-ranks the documents based on these scores. This method makes sure that documents relevant to both search methods get prioritized.
-  - **Combining Different Results**: When you perform a search, both vector search (which understands the meaning behind your query) and full-text search (which looks for exact matches) generate their own list of relevant documents. Each document in these lists is ranked based on how relevant it is to your query.
-  - **Ranking and Scoring**: The higher up a document is on the list, the better its score. So, if a document is #2 in the vector search but #5 in the full-text search, it still gets a good overall relevance score.
+- **Reciprocal rank fusion:** RRF is a straightforward and effective way to mix search results. It takes the rankings of documents from different search methods, uses a formula to calculate a combined score, and then re-ranks the documents based on these scores. This method makes sure that documents relevant to both search methods get prioritized.
+  - **Combining different results**: When you perform a search, both vector search (which understands the meaning behind your query) and full-text search (which looks for exact matches) generate their own list of relevant documents. Each document in these lists is ranked based on how relevant it is to your query.
+  - **Ranking and scoring**: The higher up a document is on the list, the better its score. So, if a document is #2 in the vector search but #5 in the full-text search, it still gets a good overall relevance score.
 
-![Reciprocal Rank Fusion formula](assets/hybrid-search-rrf-method.webp)
+![Reciprocal rank fusion formula](assets/hybrid-search-rrf-method.webp)
 
 ## Organizing search strategy for LLM application
 
@@ -204,11 +204,11 @@ We have the result after the search, the return will be formatted by the interfa
 
 ## Evaluating and metric in information retrieval
 
-Understanding how well your search system works is importance. Metrics in information retrieval help us gauge the performance of these systems. Let’s break down some key metrics like recall, precision, F1-score, and Normalized Discounted Cumulative Gain (NDCG) to see how they work in evaluating search systems.
+Understanding how well your search system works is importance. Metrics in information retrieval help us gauge the performance of these systems. Let’s break down some key metrics like recall, precision, F1-score, and Normalized discounted cumulative gain (NDCG) to see how they work in evaluating search systems.
 
 ![Metric in information retrieval flow](assets/hybrid-search-metric-evaluation.webp)
 
-### Recall, Precision, and F1 score
+### Recall, precision, and F1 score
 
 - **Recall:** Recall measures how many relevant documents your search system retrieves out of the total relevant documents available. Example recall is 75% (6 out of 8 relevant documents), this suggests the system is quite good at retrieving most of the relevant documents.
 - **Precision:** Precision measures how many of the retrieved documents are actually relevant. Example \*\*\*\*precision is 80% (4 out of 5 documents are relevant). This shows the system is very efficient at retrieving relevant documents with minimal irrelevant ones.
@@ -216,17 +216,17 @@ Understanding how well your search system works is importance. Metrics in inform
 
 ![Recall, precision and F1 score](assets/hybrid-search-metric-unware.webp)
 
-### Normalized Discounted Cumulative Gain
+### Normalized discounted cumulative gain
 
 Normаlizeԁ Disсounteԁ Cumulаtive Gаin (NDCG) is а metriс useԁ in informаtion retrievаl to meаsure the effeсtiveness of seаrсh engines, reсommenԁаtion systems, аnԁ other rаnking аlgorithms. This metriс evаluаtes rаnking quаlity by tаking into ассount both а relevаnt item’s рosition аnԁ its imрortаnсe or relevаnсe. Pаrtiсulаrly vаluаble in sсenаrios vаluing higher-rаnkeԁ results over lower ones – where ԁifferent query outсomes сoulԁ holԁ vаrying levels of relevаnсe.
 
 **Example:** Azure AI has identified various user query categories, this images provides definitions and examples for various types of queries used in our evaluation dataset.
 
-![Normalized Discounted Cumulative Gain example](assets/hybrid-search-metric-ware-example.webp)
+![Normalized discounted cumulative gain example](assets/hybrid-search-metric-ware-example.webp)
 
 NDCG@3 comparison across query types and search configurations. All vector retrieval modes used the same document chunks (512 token chunks w/25% overlap with Ada-002 embedding model over customer query/document benchmark). Sentence boundaries were preserved in all cases.
 
-![Normalized Discounted Cumulative Gain point](assets/hybrid-search-metric-ware-point.webp)
+![Normalized discounted cumulative gain point](assets/hybrid-search-metric-ware-point.webp)
 
 ## Conclusion
 
@@ -239,4 +239,3 @@ To summarize, we will choose a hybrid search in cases where we need to combine m
 - https://deepchecks.com/glossary/normalized-discounted-cumulative-gain
 - https://superlinked.com/vectorhub/articles/optimizing-rag-with-hybrid-search-reranking
 - https://www.assembled.com/blog/better-rag-results-with-reciprocal-rank-fusion-and-hybrid-search
-

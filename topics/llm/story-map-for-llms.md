@@ -17,7 +17,7 @@ Below is a story map of a kind of simplified learning and execution path for eng
 
 ![](assets/story-map-for-llms_storymap_llm.webp)
 
-### 1. Understanding AI, Machine Learning, and LLMs
+### 1. Understanding AI, machine learning, and LLMs
 
 Most of us begin by learning about artificial intelligence (AI), machine learning, and their capabilities. We explore various applications, such as natural language processing, computer vision, and recommendation systems. Developing a strong foundation is needed in large language models and understanding the basics of LLMs will help us appreciate their potential and the wide range of applications they can be used for.
 
@@ -34,19 +34,19 @@ Prompt engineering involves providing enough context, instruction, and examples 
 
 - https://learnprompting.org/docs/intro
 
-### 2. Building AI Applications from on top of existing models
+### 2. Building AI applications from on top of existing models
 
 Most startups using LLMs like ChatGPT in their applications ultimately build on top of the model without the need to fine-tune it. Understand the process of building, testing, and deploying AI applications, which will enable you to create custom AI solutions tailored to specific use cases and requirements. Developing AI applications from scratch will give you the flexibility to create unique and innovative solutions that leverage the power of AI.
 
-#### a. Building Chatbots with LLMs
+#### a. Building chatbots with LLMs
 
 Most often, the first step to working with LLMs is by creating a chatbot to enable conversations with it. This requires exploring various APIs for machine learning-based chatbot development and familiarizing yourself with chatbot templates like [OpenAssistant](https://open-assistant.io/) or creating your own. Building chatbots with LLMs will enable to create more advanced and interactive conversational agents that can handle complex tasks and provide better user experiences.
 
-#### b. Building Personal Assistants
+#### b. Building personal assistants
 
 Eventually, chatbots turn into personal assistants to handle more nuanced roles. Roles for AI assistants are highly dependent on the industry and domain of the person that it is assisting. Workflow patterns, certain communication and interpersonal skills are often required for modeling AI assistant roles. These communication nuances are essential for creating AI applications that effectively interact with users and provide valuable assistance. Good examples that are heavily nuanced is anything related to law, programming, human resources, etc.
 
-### 3. Automating Data Collection
+### 3. Automating data collection
 
 Data collection is particularly important for AI, and especially LLMs. Data collection is important for LLMs for several reasons:
 
@@ -56,23 +56,23 @@ Data collection is particularly important for AI, and especially LLMs. Data coll
 
 3. **Performance**: Continuous monitoring of the quality and relevance of the collected data is important to improve the performance of LLMs. Regular updates to the data can help keep the model up-to-date and ensure its effectiveness in generating accurate and relevant responses. This would include performance monitoring for vector databases on how their indexes perform or how data is consolidated (through techniques such as Map Reduce) within a certain time frame.
 
-4. **Data Standards**: LLMs can play a role in developing data standards, particularly in areas such as disinformation data. Their expertise in data collection and handling, as well as their technological capabilities, can contribute to setting open standards and ensuring the quality and integrity of data used in various applications. This could include data that requires neutral stances on facts on opinioned data, or programming data that requires nuances specific a package manager for instance.
+4. **Data standards**: LLMs can play a role in developing data standards, particularly in areas such as disinformation data. Their expertise in data collection and handling, as well as their technological capabilities, can contribute to setting open standards and ensuring the quality and integrity of data used in various applications. This could include data that requires neutral stances on facts on opinioned data, or programming data that requires nuances specific a package manager for instance.
 
 5. **Efficiency**: LLMs are trained on large datasets, which allows them to have a broader understanding and generate text similar to human-produced content. The availability of large-scale data sets and the use of LLMs can make data search and analysis more efficient and effective for data scientists.
 
-#### a. Through Prompt collection
+#### a. Through prompt collection
 
 We can collect internal data through prompts inputted by users. Data collection of prompts in large language models refers to the process of gathering and curating input prompts that are used to guide the behavior and output of the language model. Prompts are the starting questions or instructions given to the model to condition its predictions for a specific task.
 
 ![](assets/story-map-for-llms_prompt-data-collection.webp)
 
-#### b. Through Data scraping
+#### b. Through data scraping
 
 We can gather external data through data scraping. Data scraping is commonly used to gather large amounts of data from websites for various purposes, such as market research, competitor analysis, price comparison, data analysis, and more. It allows users to extract specific information from websites without manually visiting each page and copying the data.
 
 ![](assets/story-map-for-llms_data-scraping-n8n.webp)
 
-### 4. Reinforcement Learning
+### 4. Reinforcement learning
 
 Eventually, we want to reward certain behaviors from our augmented models. Although a more advanced approach to training a model, understanding the concept of reinforcement learning and its applications in AI is important for the following reasons::
 
@@ -86,7 +86,7 @@ Eventually, we want to reward certain behaviors from our augmented models. Altho
 
 However, it's important to note that RLHF is not a perfect solution and has its limitations. Human preferences can be subjective and not always clear-cut, which can introduce challenges in defining the reward signal for RL training. Additionally, RLHF may trade off diversity in generation abilities for improved consistency in answers, which may vary depending on the specific use case.
 
-### 5. Fine-tuning AI Models and LLMs
+### 5. Fine-tuning AI models and LLMs
 
 Fine-tuning, involves updating the model parameters directly using a dataset that captures the distribution of tasks you want the model to accomplish. It requires retraining the model on a specific dataset to adapt it to a specific task or domain. Fine-tuning allows for more targeted adjustments to the model's behavior and can lead to more accurate and relevant outputs. It requires more computational resources and time compared to prompt engineering. The difference between it and prompt engineering is that:
 
@@ -154,4 +154,3 @@ The general idea of this story map is to help engineers develop a strong foundat
 - https://wandb.ai/ayush-thakur/Intro-RLAIF/reports/An-Introduction-to-Training-LLMs-Using-Reinforcement-Learning-From-Human-Feedback-RLHF---VmlldzozMzYyNjcy
 - https://www.superannotate.com/blog/rlhf-for-llm
 - https://www.assemblyai.com/blog/the-full-story-of-large-language-models-and-rlhf/
-

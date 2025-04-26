@@ -1,5 +1,5 @@
 ---
-title: Rust Trait
+title: Rust trait
 description: "Rust's **trait** system is a powerful feature that enables developers to define shared behavior across different types. Traits play a crucial role in achieving code reusability, abstraction, and flexibility..."
 date: 2024-07-03
 authors:
@@ -11,7 +11,7 @@ tags:
 
 Rust's **trait** system is a powerful feature that enables developers to define shared behavior across different types. Traits play a crucial role in achieving code reusability, abstraction, and flexibility.
 
-## Understanding Traits
+## Understanding traits
 
 In Rust, a trait is a collection of methods that can be implemented by types to define shared behavior. Think of traits as a way to express what abilities a type should have, without dictating its internal structure. This promotes a high degree of abstraction and allows for code that is more generic and adaptable.
 Traits are similar to a feature often called `interfaces` in other languages, although with some differences.
@@ -24,7 +24,7 @@ trait Shape {
 
 In the example above, we define a trait named `Shape` with a single method, `area`. This trait can then be implemented by various types to provide their own implementation of the `area` method.
 
-## Implementing Traits
+## Implementing traits
 
 To use a trait, a type must implement it by providing its own implementation for each of the trait's methods. This is achieved through the `impl` keyword.
 
@@ -43,7 +43,7 @@ impl Shape for Circle {
 
 Now, instances of `Circle` can leverage the functionality provided by the `Shape` trait.
 
-## Default Implementation
+## Default implementation
 
 Rust allows you to provide default implementations for trait methods. This means that implementing types can choose to override the default behavior if needed. Let's enhance our `Shape` trait with a default method for `perimeter`:
 
@@ -70,7 +70,7 @@ impl Shape for Circle {
 
 Now, any type implementing `Shape` will automatically have a default `perimeter` method, but it can choose to provide its own implementation.
 
-## Trait as Parameters
+## Trait as parameters
 
 Traits can be used as parameters to functions, enabling polymorphism and enhancing the flexibility of your code. Consider a function that calculates and prints the area of any type implementing the `Shape` trait:
 
@@ -87,7 +87,7 @@ fn main() {
 
 Here, the `print_area` function takes any type that implements the `Shape` trait as a parameter. This allows us to use the function with various shapes without modifying its code.
 
-## Trait Bound
+## Trait bound
 
 To make functions even more flexible, you can use trait bounds to specify that a generic type must implement a certain trait. For instance:
 
@@ -107,4 +107,3 @@ Now, the `print_area` function can accept any type `T` as long as it implements 
 ## Conclusion
 
 Traits in Rust provide a powerful mechanism for defining shared behavior, promoting code reuse and adding polymorphism in our code. By understanding how to implement traits, provide default behavior, use traits as parameters, and apply trait bounds, you can leverage this feature to write more modular and adaptable Rust code.
-

@@ -44,4 +44,3 @@ Here are some example domains that used DDD:
 
 - https://herbertograca.com/category/development/book-notes/domain-driven-design-by-eric-evans/
 - Domain-driven design by Eric Evans
-

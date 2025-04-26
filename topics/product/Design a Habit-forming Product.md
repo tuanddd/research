@@ -1,5 +1,10 @@
 ---
-tags: product, habit forming
+title: null
+description: null
+date: null
+tags:
+  - product
+  - habit-forming
 ---
 
 According to Nir Eyal, there are 6 **Hooks Elements** for entrepreneur to consider before start building engaging & habit-forming products

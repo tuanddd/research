@@ -1,5 +1,5 @@
 ---
-title: Grid And Layout
+title: Grid and layout
 description: Learn how to create strong digital design layouts using grids, columns, gutters, and responsive techniques to make your graphic and web designs look clean and professional.
 date: 2020-08-17
 tags:
@@ -103,13 +103,13 @@ The Dev team always want our design put into a grid to save their time coding, w
 
 We actually don’t need to indented 1 column each side, it will make our main images smaller, that’s the margin jobs already.
 
-## How These Work in Responsive
+## How these work in responsive
 
 In a traditional design grid, the column widths and gutters stay the same, just the number of columns change. Why? And how does that work? This was to make things easier when you designed. If a set of three cards sat on 4 columns each on desktop, you would show two cards on a tablet and wrap the third one so that it’d show on a second row. Yay! You didn’t need to do any resizing, because you already knew that it sat on four columns. On mobile, the answer is easy too, you would show one card, and the rest stacked beneath it. If you wanted, you could also get creative and choose only to show one card on mobile or do a horizontal scroll. These breakpoints are the point of reference in code.
 
 ![](assets/grid-and-layout_f0045709ef2c31affbb508461c5229cd_md5.webp)
 
-## Fixed & Fluid Grid
+## Fixed & fluid grid
 
 [A simple video](https://youtu.be/T6MCkGWSXa0) to further understand Fixed & Fluid grid
 
@@ -122,4 +122,3 @@ If your developer codes a fixed grid when you shrink from desktop to tablet, you
 Now comes the beauty of fluid grids! As you shrink the window, things will change dynamically, your text is wrapping, and elements are getting narrower. However, these elements of yours still won’t change layout until you hit the next breakpoint that you designed.
 
 And that’s it. I hope after reading this, you will have some sense to make your design look great started with good layout and grid
-

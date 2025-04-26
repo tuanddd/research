@@ -18,7 +18,7 @@ In this article, we will learn about Helm, a powerful tool that makes life worki
 - **Docker**: _a number one software to create, manage and run containers._ Most chosen for all popular _Containerization_ applications today. Many large cloud solutions like Google Cloud, Amazon Web Services, Microsoft Azure are using it.
 - **Kubernetes**: _a famous open source used for container orchestration_. With the rise of _Containerization_, the management and coordination of container-based applications became complicated and difficult, making Kubernetes an effective and indispensable solution for systems using Containerization
 
-## Helm Overview
+## Helm overview
 
 ### Concepts
 
@@ -46,12 +46,12 @@ Helm has a fairly simple client-server architecture, including a CLI client and 
 
 ![](assets/kubernetes-helm-101_63fcd3d5115887bdd2e46fd0f8c337b7_md5.webp)
 
-- **Helm Client**: Provides the developer to use it a command-line interface (CLI) to work with Charts, Config, Release, Repositories. Helm Client will interact with Tiller Server, to perform various actions such as _install_, _upgrade_ and _rollback_ with Charts, Release.
-- **Tiller Server**: an in-cluster server in the Kubernetes cluster, interacting with the Helm Client and communicating with the Kubernetes API server. Thus, Helm can easily manage Kubernetes with tasks such as _install_, _upgrade_, _query_ and _remove_ for Kubernetes resources.
+- **Helm client**: Provides the developer to use it a command-line interface (CLI) to work with Charts, Config, Release, Repositories. Helm client will interact with Tiller server, to perform various actions such as _install_, _upgrade_ and _rollback_ with Charts, Release.
+- **Tiller server**: an in-cluster server in the Kubernetes cluster, interacting with the Helm client and communicating with the Kubernetes API server. Thus, Helm can easily manage Kubernetes with tasks such as _install_, _upgrade_, _query_ and _remove_ for Kubernetes resources.
 
 Here are some basic concepts and architectures to help you understand and grasp Helm more quickly. In the next section, we’ll take some tutorials to deep dive into Helm. Let’s do it!
 
-## Helm in Action
+## Helm in action
 
 Before we begin, we’ll need to prepare a few things for us to be able to practice with Helm.
 
@@ -82,7 +82,7 @@ Check the tiller deployment in the kube-systems namespace using **_kubectl _**co
 kubectl get deployment tiller-deploy -n kube-system
 ```
 
-## Deploy an Application using Helm
+## Deploy an application using Helm
 
 Now we’re going to deploy a Kafka cluster using helm.
 
@@ -136,9 +136,8 @@ You can refer to more information in [the documentation of Helm](https://helm.sh
 
 ### Read more
 
-- [What is Containerization?](https://hackernoon.com/what-is-containerization-83ae53a709a6#targetText=Containerization%20involves%20bundling%20an%20application,ecosystems%20are%20Docker%20and%20Kubernetes.)
+- [What is containerization?](https://hackernoon.com/what-is-containerization-83ae53a709a6#targetText=Containerization%20involves%20bundling%20an%20application,ecosystems%20are%20Docker%20and%20Kubernetes.)
 - [Helm documentation](https://helm.sh/docs/)
 - [Using Helm and Kubernetes](https://www.baeldung.com/kubernetes-helm)
 - [What is Helm and why is it important for Kubernetes deployments?](https://boxboat.com/2018/09/19/helm-and-kubernetes-deployments/)
-- [Helm Tutorial: How To Install and Configure Helm](https://devopscube.com/install-configure-helm-kubernetes/)
-
+- [Helm tutorial: how to install and configure Helm](https://devopscube.com/install-configure-helm-kubernetes/)

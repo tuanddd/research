@@ -15,4 +15,3 @@ Notes are not carved in stone. They change, evolve, mutate, flex, adapt, shrink,
 @Will. _“All Notes Are Malleable: Strive for Permanently Useful Notes, Not Permanently Unchanging Notes.”_ Zettelkasten Method (blog). Accessed October 21, 2020. https://www.zettelkasten.de/posts/literature-notes-vs-permanent-notes/
 
 Schmidt, Johannes F. K. _“Niklas Luhmann’s Card Index: The Fabrication of Serendipity.”_ Sociologica 12, no. 1 (2018): 53—60.
-

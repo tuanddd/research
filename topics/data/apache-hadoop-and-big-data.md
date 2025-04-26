@@ -7,7 +7,7 @@ github_id: dudaka
 
 ## What is Big Data?
 
-### 3 V's: Volume, Velocity and Variety
+### 3 V's: volume, velocity and variety
 
 #### Volume
 
@@ -62,7 +62,7 @@ With the advent of social media like Facebook, Twitter, LinkedIn, etc., there is
 
 Data is not only produced and analyzed in social media companies but also retail space. It is most common in several major retail websites to capture click-stream data. For example, you shop at amazon.com. Amazon is not only capturing data when you click checkout but also every click on their website, which is tracked to bring a personalized shopping experience. When Amazon shows you recommendations, Big Data analytics is at work behind the scenes.
 
-### Big Data Challenges
+### Big data challenges
 
 Big Data comes with big problems:
 
@@ -72,7 +72,7 @@ Big Data comes with big problems:
 
 - Finally, the \***\*cost\*\*** and the most important challenge you're going to need a lot of storage space and a lot of computational power. Therefore, the solution that you plan to use should be cost-effective.
 
-### Traditional Solutions
+### Traditional solutions
 
 #### RDBMS
 
@@ -82,14 +82,14 @@ Databases are designed to process structured data. When our data does not have a
 
 A good enterprise-grade database solution can be quite expensive for a relatively low volume of data when you add hardware costs and platinum-grade storage costs. It's going to be quite expensive.
 
-#### Grid Computing - A distributed computation solution
+#### Grid computing - a distributed computation solution
 
 Grid computing is essentially many nodes operating on data parallelly and then doing faster computation. However, there are two challenges:
 
 - Grid or high-performance computing is good for computing-intensive tasks with a relatively low volume of data but does not perform well when the data volume is huge.
 - Grid computing requires a good experience with lower-level programming to implement and then it is not suitable for the mainstream.
 
-### Hadoop - A good solution
+### Hadoop - a good solution
 
 A good solution should, of course, handle a huge volume of data. It should provide efficient storage, which is the ability to store data efficiently. Data loss is unavoidable, so the proposed solution should implement a good recovery strategy. And the solution should be horizontally scalable as your data grows. Most importantly, it should be cost-effective. Finally, to minimize the learning curve, it should be easy for programmers, data analysts, and non-programmers to work with the framework or the system. This is exactly what Hadoop offers.
 
@@ -108,9 +108,9 @@ NO!
 
 The gaps between Hadoop and RDBMS are closing in. Hadoop offers a cost-effective solution to big data problems, but Hadoop is not the only solution that is available in the market now. NoSQL databases like HBase and Cassandra bring a great deal of value in analyzing a huge volume of data, and it is a great alternative for RDBMS. Now, when we mention a huge volume of data, we are talking about millions of columns and billions of rows.
 
-## Understanding Big Data Problem
+## Understanding big data problem
 
-### Sample Big Data Problem
+### Sample big data problem
 
 Imagine you work at one of the major exchanges like the New York Stock Exchange or NASDAQ. One morning someone from your Risk Department stops by your desk and asks you to calculate the maximum closing price of every stock symbol that is ever traded in the exchange since inception. Also, assume the size of the data set you are given is 1 TB, so your data set would look like the below image:
 
@@ -122,7 +122,7 @@ Let's consider the storage first. Your workstation has only 20 GB of free space,
 
 Now, the next problem is computation. You're a Java programmer, so you wrote an optimized Java program to parse the data set and perform the computation. And you're now ready to execute the program against the data set. Unfortunately, you realize it's already noon, the business user who gave you this request stopped by for an ETA. Then, you start to think what is the ETA for this whole operation to complete, and you come up with the result set.
 
-### Execution Time
+### Execution time
 
 For the program to work on the data set, first, the data set needs to be copied from the storage to the working memory or Ram. How long does it take to copy a one-terabyte data set from storage? Let's take our traditional hard disk drive, which is the one that is connected to a laptop or workstation, etc. HDDs (Hard Disk Drive) have magnetic platters in which the data is stored. When you request to read data, the head in the hard disk first position itself on the platter and starts transferring the data from the platter to the head. The speed at which the data is transferred from the platter to the head is called the data access rate. Average data access rates in HDDs are usually about 122 MBs. So, to read 1 TB from an HDD, you need 2 hours and 22 minutes. That is for an HDD that is connected to your workstation.
 
@@ -185,5 +185,4 @@ Hadoop was truly given the ability to analyze volumes and volumes of data and he
 
 - https://hadoop.apache.org/
 - https://en.wikipedia.org/wiki/Apache_Hadoop
-- [Hadoop: The Definitive Guide: Storage and Analysis at Internet Scale](https://www.amazon.com/Hadoop-Definitive-Storage-Analysis-Internet/dp/1491901632/ref=sr_1_2?crid=2LTQHKE9WNBNC&keywords=Hadoop&qid=1657604708&sprefix=hadoop%2Caps%2C127&sr=8-2)
-
+- [Hadoop: the definitive guide: storage and analysis at internet scale](https://www.amazon.com/Hadoop-Definitive-Storage-Analysis-Internet/dp/1491901632/ref=sr_1_2?crid=2LTQHKE9WNBNC&keywords=Hadoop&qid=1657604708&sprefix=hadoop%2Caps%2C127&sr=8-2)

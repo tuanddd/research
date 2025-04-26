@@ -19,16 +19,15 @@ This is where we keep track of our top 10 latest Brainery notes:
 - [[playbook/community/starting-your-journey-at-dwarves-discord.md|starting-your-journey-at-dwarves-discord]]
 - [[playbook/community/how-to-withdraw-icy.md|how-to-withdraw-icy]]
 
-## Top Contributors this month
+## Top contributors this month
 
 \*Total ICY given out this month: **NaN ICY\***
 
 | authors | notes |
 | ------- | ----- |
 
-## Newest Contributors
+## Newest contributors
 
 ---
 
 _This page was last modified at 2024-06-10T10:37:41.095Z_.
-

@@ -202,4 +202,3 @@ Before OTP 23, we can use [pg2](https://www.erlang.org/docs/18/man/pg2.html) to 
 - https://stephenbussey.com/2018/02/17/pg2-basics-use-process-groups-for-orchestration-across-a-cluster.html
 - https://www.erlang.org/doc/man/pg.html
 - https://stackoverflow.com/questions/67957826/what-is-the-correct-way-to-start-pgs-default-scope-in-an-elixir-1-12-applica
-

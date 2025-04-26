@@ -24,4 +24,3 @@ Feature flags add value to an organization as a whole, not just to the developme
 
 - https://launchdarkly.com/blog/what-are-feature-flags/
 - https://martinfowler.com/articles/feature-toggles.html
-

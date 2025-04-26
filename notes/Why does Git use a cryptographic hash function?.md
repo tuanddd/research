@@ -1,10 +1,15 @@
 ---
-tags: git, practice
+title: null
+description: null
+date: null
+tags:
+  - git
+  - practice
 ---
 
 Why does Git use [SHA-1](http://en.wikipedia.org/wiki/SHA-1), a cryptographic hash function, instead of a faster non-cryptographic hash function?
 
-## Related Question
+## Related question
 
 Stack Overflow question _[Why does Git use SHA-1 as version numbers?](https://stackoverflow.com/questions/11233591)_ asks why Git uses SHA-1 as opposed to sequential numbers for commits.
 

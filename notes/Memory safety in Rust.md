@@ -1,5 +1,9 @@
 ---
-tags: rust
+title: null
+description: null
+date: null
+tags:
+  - rust
 ---
 
 The garbage collector of Golang helps developers by automatically freeing the memory of their programs when it is not needed anymore. However, keeping track of the memory and cleaning it could impact the performances of our programs.

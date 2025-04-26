@@ -65,4 +65,3 @@ By doing this, the page rendering will be blocked when the engine detects the `<
 ## Reference
 
 - https://stackoverflow.com/questions/63033412/dark-mode-flickers-a-white-background-for-a-millisecond-on-reload
-

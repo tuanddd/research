@@ -9,9 +9,9 @@ github_id: dudaka
 
 [[MapReduce]] consists of four components:
 
-- Map Phase
-- Reduce Phase
-- Shuffle Phase
+- Map phase
+- Reduce phase
+- Shuffle phase
 - Combiner
 
 ## Problem statement
@@ -34,7 +34,7 @@ If the end of the file is reached, print the results.
 
 The problem with this approach is that there is no parallelization. Thus, if we have a huge data set, we will have extremely long computation time which is not ideal.
 
-### Input Split
+### Input split
 
 ![](assets/mapreduce-components_distributed.webp)
 
@@ -58,7 +58,7 @@ Therefore, when a mapper tries to read the data, it clearly knows where to start
 
 So that is why we have a concept of input split. Input split respects logical record boundary. During mapreduce execution hadoop scans through the blocks and create input splits which respects record boundaries.
 
-### Map Phase
+### Map phase
 
 ![](assets/mapreduce-components_map-phase.webp)
 
@@ -76,7 +76,7 @@ So a mapper is invoked for every single record in the input split and then the o
 
 But how do we decide what should be the key and what should be the value in our key value pair?
 
-### Reduce Phase
+### Reduce phase
 
 ![](assets/mapreduce-components_reduce-phase.webp)
 
@@ -98,7 +98,7 @@ We know the number of mappers equals to the number of input splits are not contr
 
 Assuming that data set is divided into 100 splits which means 100 mappers. Now we have only one reducer to process all the output from 100 mappers. In some cases it might be okay but we might run into performance bottleneck at the reduced phase because we're trying to reduce output from 100 mappers in one reducer. So if we're dealing with large amount of data in the reduced phase it is advisable to have more than one reducer.
 
-### Shuffle Phase
+### Shuffle phase
 
 ![](assets/mapreduce-components_multiple-reducers.webp)
 
@@ -157,4 +157,3 @@ Intuitively, combiner is like a mini reducer that runs at the map phase. Combine
 
 - the internals of map shuffle and reduced phases.
 - the benefit of using a combiner.
-

@@ -13,7 +13,7 @@ If we look around in the world at large, what you see is a lot of independently 
 
 With concurrency primitives built-in to the language. By using the `go` keyword to create goroutines, and by using channels together with other concurrency synchronization techniques provided in Go, concurrent programming become easy, flexible, enjoyable. On the other hand, Go doesn't prevent programmers from making some concurrent programming mistakes which are caused by either carelessness or lacking of experience. Below is some unexpected pitfalls when using the concurrency features provided by the Go programming language.
 
-### No Synchronizations When Synchronizations Are Needed
+### No synchronizations when synchronizations are needed
 
 **Take-away**: [Code lines might be not executed by their appearance order.](https://go101.org/article/memory-model.html)
 There are 2 mistakes in the following program. - First, the read of `b` in the main goroutine and the write of `b` in the new goroutine might cause data races. - Second, the condition `b == true` can't ensure that `a != nil` in the main goroutine. Compilers and CPUs may make optimizations by reordering instructions in the new goroutine, so the assignment of `b` may happen before the assignment of `a` at run time, which makes that slice `a` is still `nil` when the elements of `a` are modified in the main goroutine.
@@ -65,7 +65,7 @@ func main() {
 }
 ```
 
-### Not Pay Attention to Too Many Resources Are Consumed by Calls to the `time.After` Function
+### Not pay attention to too many resources are consumed by calls to the `time.After` function
 
 **Take-away**: Take greate care when using `time.After` function.
 The `After` function in the `time` standard package returns [a channel for delay notification](https://pkg.go.dev/time#After). The function is convenient, however each of its calls will create a new value of the `time.Timer` type. The new created `Timer` value will keep alive in the duration specified by the passed argument to the `After` function. If the function is called many times in a certain period, there will be many alive `Timer` values accumulated so that much memory and computation is consumed.
@@ -120,7 +120,7 @@ func longRunning(messages <-chan string) {
 
 Note: the `if` code block is used to discard/drain a possible timer notification which is sent in the small period when executing the second branch code block in this example is `fmt.Println(msg)` while in real use case it might be some time cost computations.
 
-### Use `time.Timer` Values Incorrectly
+### Use `time.Timer` values incorrectly
 
 **Take-away**: Take greate care when using `time.Timer` values.
 An idiomatic use example of `time.Timer` values has been shown in the last section. Some explanations: - The `Stop` method of a `*Timer` value returns `false` if the corresponding `Timer` value has already expired or been stopped. If the `Stop` method returns `false`, and we know the `Timer` value has not been stopped yet, then the `Timer` value must have already expired. - After a `Timer` value is stopped, its `C` channel field can only contain most one timeout notification. - We should take out the timeout notification, if it hasn't been taken out, from a timeout `Timer` value after the `Timer` value is stopped and before resetting then reusing the `Timer` value. This is the meaningfulness of the `if` code block in the example in the last section.
@@ -161,7 +161,7 @@ It is bug prone and not recommended to use a `time.Timer` value concurrently a
 
 We should not rely on the return value of a `Reset` method call. The return result of the `Reset` method exists just for compatibility purpose.
 
-### Copy Values of the Types in the `sync` Standard Package
+### Copy values of the types in the `sync` standard package
 
 **Take-away**: Use pointer when dealing with structs that contain values from the `sync` standard package.
 In practice, values of the types (except the `Locker` interface values) in the `sync` standard package [should never be copied](https://pkg.go.dev/sync#pkg-overview). We should only copy pointers of such values.
@@ -199,7 +199,7 @@ We should change the receiver type of the `Value` method to the pointer type 
 
 The `go vet` command provided in Go Toolchain will report potential bad value copies.
 
-### Use Channels as Futures/Promises Improperly
+### Use channels as futures/promises improperly
 
 In the next section, we will learn some handy concurrency pattern in Go which will have something calls a `Channel Factory` which is a fancy name for Go functions/methods that return a receive-only channels (which is usually called futures/promises) which can actually receive values from it. Assume `fa` and `fb` are two such functions, then the following call uses future arguments improperly.
 
@@ -286,7 +286,7 @@ Given this idea of communication coupled with synchronization that Go's channels
 
 So based on those "principles", we can now start to explore some what I call "concurrency patterns". I put those into quotes because I don't want you to think of these as being like "object-oriented patterns". They're just very simple, little, tiny examples that do interesting things.
 
-### Channel factory (Or Generator): function that returns a channel
+### Channel factory (or generator): function that returns a channel
 
 Channels are first-class values, just like strings or integers. The first and probably most important concurrency pattern is what I call a generator (or a channel factory), which is a function that returns a "receive-only" channel.
 
@@ -863,7 +863,7 @@ func First(query string, replicas ...Search) Result {
 
 Well, here's our familiar pattern by now. We actually write a function called `First` that takes a query and a set of `replicas`. We make a channel of `Result`, launch the same search multiple times then return the first one that come back. So this will give us the first result from all those back end guys.
 
-### Using the First function
+### Using the first function
 
 Here's a simple use of it, where we run 2 replicas.
 
@@ -947,4 +947,3 @@ More important, the individual elements of the program are all just straightforw
 - https://www.youtube.com/watch?v=f6kdp27TYZs
 - https://go101.org/article/concurrent-common-mistakes.html
 - https://pkg.go.dev/time
-

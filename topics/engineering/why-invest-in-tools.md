@@ -16,4 +16,3 @@ Every single project could face considerable internal opposition. There will be 
 #### Reference
 
 - https://leebyron.com/why-invest-in-tools/
-

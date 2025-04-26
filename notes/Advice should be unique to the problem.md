@@ -1,5 +1,9 @@
 ---
-tags: productivity
+title: null
+description: null
+date: null
+tags:
+  - productivity
 ---
 
 The problem of bad advice is the unrelativity between the advice and the situation.

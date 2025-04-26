@@ -1,5 +1,10 @@
 ---
-tags: fingerprint, HR
+title: null
+description: null
+date: null
+tags:
+  - fingerprint
+  - hr
 ---
 
 ![[chung-van-tay-Whorl.gif]]
@@ -51,5 +56,5 @@ tags: fingerprint, HR
 
 #### Reference
 
-- [Identify & Catergorize Fingerprints](https://lindanga.com/nhan-dien-phan-loai-dau-van-tay/)
-- [Classify Fingerprints](https://www.youtube.com/watch?v=D-vJ7jylkf8)
+- [Identify & catergorize fingerprints](https://lindanga.com/nhan-dien-phan-loai-dau-van-tay/)
+- [Classify fingerprints](https://www.youtube.com/watch?v=D-vJ7jylkf8)

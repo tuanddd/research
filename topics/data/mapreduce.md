@@ -67,4 +67,3 @@ MapReduce is:
 - Can be implemented in any programming language and Hadoop supports a lot of programming language to write Mapreduce programs. We can write a Mapreduce program in Scala, Python, C/C++ and of course Java.
 - Mapreduce is not a programming language, it is a programming model.
 - Hadoop implements Mapreduce so that the Mapreduce system in Hadoop manages the communicationsm, data transfer, parallel execution across the distributed servers or nodes.
-

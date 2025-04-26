@@ -1,5 +1,5 @@
 ---
-title: Ui Design Best Practices Dwarves
+title: Ui design best practices dwarves
 description: Learn essential Figma best practices for designers to ensure smooth handovers to developers, including version control, layer management, naming conventions, and effective communication for high-quality UI projects.
 date: 2020-11-24
 tags:
@@ -15,7 +15,7 @@ This article covers practices designers are required to follow for smooth handov
 
 Each convention is written in a compact format so that designers can easily read and follow. New conventions are added over time each time a designer discovers a new problem in the course of working with devs.
 
-- Versions & File Organizations
+- Versions & file organizations
 - Manage releases
 - Manage layers
 - Practical, context-conscious data
@@ -24,7 +24,7 @@ Each convention is written in a compact format so that designers can easily read
 - Colors
 - General Figma tips
 
-## Versions & File Organizations
+## Versions & file organizations
 
 ### Manage versions by releases
 
@@ -45,7 +45,7 @@ On the management of Pages in Figma. This is a recommended structure:
 
 Devs and the client discuss the design with designers through Figma's comments, only designers can make changes in the Figma files.
 
-### Manage Layers
+### Manage layers
 
 ![](assets/ui-design-best-practices-dwarves_a46ebf821728ad559bf23e5e6bd7d5a9_md5.webp)
 
@@ -75,7 +75,7 @@ Context: Minh pre-booked room 102 from 19:00 to 20:00
 
 ![](assets/ui-design-best-practices-dwarves_016986df82ac5332b050a9cf55425f3b_md5.webp)
 
-## Design System File presentation
+## Design system file presentation
 
 ## How to manage pages and master components using Figma software
 
@@ -83,7 +83,7 @@ Design System is a tool that makes the component management of the project clear
 
 ![](assets/ui-design-best-practices-dwarves_9ebb07075efeda26bfeb2a82876bd2ef_md5.webp)
 
-## Naming Color Style
+## Naming color style
 
 **Designers at Dwarves name colors based on their function** (Primary, Secondary, Disabled,...) Meanwhile, developers name colors based on light/dark levels with numbers (100, 200, 300...)
 
@@ -93,14 +93,14 @@ Design System is a tool that makes the component management of the project clear
 
 ![](assets/ui-design-best-practices-dwarves_a70427baf7d24194ab5037713ee0a063_md5.webp)
 
-**Naming Color Style for designer and developer are both convenient in the working process.**
+**Naming color style for designer and developer are both convenient in the working process.**
 The developer has a way to name the color in the form of numbers (100,200,300 ...). Meanwhile, the designer names the color based on the color's function (Primary, Secondary, Disable….)
 
 ![](assets/ui-design-best-practices-dwarves_f7bcaa80f7503bce54c8f48be4535454_md5.webp)
 
 ![](assets/ui-design-best-practices-dwarves_b37bb057d318c523f8de54660823255a_md5.webp)
 
-## Tips when using the Design System file in Figma
+## Tips when using the design system file in Figma
 
 In order to kickstart a new project, we usually reproduce the Design System from previous projects where all the master components have been established and ready for use. All that’s left is to remove unnecessary components and adapt the Design System to the new project.
 
@@ -109,4 +109,3 @@ You should design the UI in the Design System file first, for convenience in cre
 ## Other conventions
 
 Other conventions are added over time each time a designer discovers a new problem in the process of working with devs.
-

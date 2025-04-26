@@ -25,4 +25,3 @@ Skeuomorphism can help create affordances that help us learn about or understand
 #### Citations
 
 Norman, Donald. “Affordances and Design.” Jnd.Org (blog), November 17, 2008. [https://jnd.org/affordances_and_design/](https://jnd.org/affordances_and_design/).
-

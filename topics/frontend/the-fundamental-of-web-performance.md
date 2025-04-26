@@ -56,8 +56,7 @@ The goal of delivering a fast, smooth transition web application is **to do less
 
 ## Reference
 
-- [Katie Sylor Miller :: Happy Browser, Happy User!](https://www.youtube.com/watch?v=VAKD_Ob0XTQ&t=568s&ab_channel=estellevw)
+- [Katie Sylor Miller :: Happy browser, happy user!](https://www.youtube.com/watch?v=VAKD_Ob0XTQ&t=568s&ab_channel=estellevw)
 - https://web.dev/rendering-performance/
 - https://codeburst.io/painting-and-rendering-optimization-techniques-in-browser-2e53a70e7ee
 - https://web.dev/critical-rendering-path-render-tree-construction/
-

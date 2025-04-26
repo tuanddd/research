@@ -1,5 +1,5 @@
 ---
-title: Data Analyst In Retail Trading
+title: Data analyst in retail trading
 description: Discover how data analysts use tools like Power BI and SQL to transform retail trading data into actionable business insights on sales, finance, and marketing performance.
 date: 2022-08-29
 tags:
@@ -22,17 +22,17 @@ After data is transferred to a data warehouse, I use query layer tools such as D
 
 For BI tools, I am familiar with Power BI, Tableau and Google Data Studio for making reports. All tools have their advantages and disadvantages. For instance, Power BI is good for portability, Tableau is often easy to use, and Google Data Studio has features specific to their ecosystem to help generate diagrams or consolidate data sources on Google Cloud.
 
-## Data Science Hierarchy of Needs
+## Data science hierarchy of needs
 
 ![](assets/data-analyst-in-retail-trading_b51792aac952213b495c5a808756aaea_md5.webp)
 
 This diagram show what all the general departments in data do. Firstly, **Data Infrastructure Engineers** will set up infrastructures for data systems such as setup for databases, Kafka, etc. Secondly, **Data Engineers** will then create data pipelines, ETL process and convert raw data to modeled data for transfer to data warehouses. Then **Data Analysts** prepare data from those sources. This involves cleaning, transforming, and analyzing data to curate and compose metrics, infographics, and insights for reports. After that, other tasks regarding machine learning, AI, and deep learning are handled by **Data Scientists**.
 
-## Case Study: Data Analyst in Retail Trading
+## Case study: data analyst in retail trading
 
 A good Data Analyst should understand how a company does business and an understanding of everything surrounding it. In order to get insight for a report, you will need to know how your company makes money. One case study I would like to cover is of a retail trading company, specifically of one that sell perishables such as beverages and snacks to small vendors. Our suppliers in this case will be companies that provide these beverages and snacks, such as Habeco, Coca-Cola, Tide, etc.
 
-### System Overview
+### System overview
 
 ![](assets/data-analyst-in-retail-trading_14e655f71283c0bb4e3f9b48de8f69a0_md5.webp)
 
@@ -40,7 +40,7 @@ Understanding the overall system can help Data Analysts get a feel for where dat
 
 Examples of core system solutions are Hybris, POS systems, SAP, TMS, etc. For services/microservices, these can be system for sales management, warehouse management, promotion services, etc.
 
-## Data Process
+## Data process
 
 ![](assets/data-analyst-in-retail-trading_8e94c2b1eae7bec4aa0736af3576cca7_md5.webp)
 
@@ -67,19 +67,19 @@ The data process to creating the report as a data analyst is dependent on 12 ste
 11. Insight: Human step to acquire insight from dashboards and visual infographics
 12. Report: Final step to generate a general report of findings
 
-## Types of Data Analysts
+## Types of data analysts
 
-There are mainly 3 types of Data Analysts with regard to retail trading: Operation Data Analyst, Finance Data Analyst, and Marketing Data Analyst.
+There are mainly 3 types of Data Analysts with regard to retail trading: Operation data analyst, Finance data analyst, and Marketing data analyst.
 
-### Operation Data Analyst
+### Operation data analyst
 
 ![](assets/data-analyst-in-retail-trading_18cef87bd2e06e47fc4c26388b3b6897_md5.webp)
 
-Operation Data Analyst are responsible for tracking for daily sales of the company and its general operations. For instance, they need to be able to explain for volatility of company sales, give sale insights as to which product brings the highest Gross Merchandise Value (GMV), which vendor has the highest growth rate, etc.
+Operation data analyst are responsible for tracking for daily sales of the company and its general operations. For instance, they need to be able to explain for volatility of company sales, give sale insights as to which product brings the highest Gross Merchandise Value (GMV), which vendor has the highest growth rate, etc.
 
 They also help track for risk and fraud. This includes, but is not limited to, tracking for fraud in marketing campaigns, anomalies in sales, vendor collusion, employee theft, etc. In addition, they also track for product and warehouse related concerns. This includes tracking for product performance, inventory in warehouse, warehouse operating expenses, etc.
 
-### Finance Data Analyst
+### Finance data analyst
 
 ![](assets/data-analyst-in-retail-trading_3d7425b1a0728a1b0bb3464749880f6a_md5.webp)
 
@@ -102,7 +102,7 @@ You need to optimize the rate of distributor gains against your company gains. I
 
 ![](assets/data-analyst-in-retail-trading_58bf592103e00d6b6caa5eead9bd4310_md5.webp)
 
-### Marketing Data Analyst
+### Marketing data analyst
 
 Marketing Data Analysts are concerned with tracking consumer related data, that includes tracking customers through funnel processes and customer segmentation:
 
@@ -121,4 +121,3 @@ For the improved customer and good customer group, we have different strategies 
 ## Conclusion
 
 Hopefully, you were able to understand Data Analysts a little better, through the lens of retail trading. Data Analysts are one of the few jobs where they focus on gathering requirements and are dependent on those who collect and aggregate data. There are many types of Data Analysts, and they serve their role best in helping business gain better insight into how they operate and understand critical areas of concerns better.
-

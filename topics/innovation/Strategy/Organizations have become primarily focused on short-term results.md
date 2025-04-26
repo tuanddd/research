@@ -1,5 +1,10 @@
 ---
-tags: business, strategy
+title: null
+description: null
+date: null
+tags:
+  - business
+  - strategy
 ---
 
 The short-term perspective views the world as a finite game, contained, and with limited players and clear rules. According to [[≈ The Infinite Game | Simon Sinek]], recent years have seen a pronounced shift toward short-term thinking. He characterizes it as a rental mindset: there's less of a sense of ownership, and businesses are built to be sold rather than to be sustainable. It's a rental mindset: businesses are built to be sold, not sustained.
@@ -27,4 +32,4 @@ Real change requires delayed gratification. Many things that are the most valuab
 Gupta, Sunil. _Driving Digital Strategy: A Guide to Reimagining Your Business_. Boston, Massachusetts: Harvard Business Review Press, 2018.
 
 - [[≈ The Infinite Game]]
-- [Varol - Think Like a Rocket Scientist](https://publish.obsidian.md/mobydiction/Varol+-+Think+Like+a+Rocket+Scientist)
+- [Varol - Think like a rocket scientist](https://publish.obsidian.md/mobydiction/Varol+-+Think+Like+a+Rocket+Scientist)

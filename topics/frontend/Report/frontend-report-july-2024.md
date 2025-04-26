@@ -1,5 +1,5 @@
 ---
-title: Frontend Report July 2024
+title: Frontend report July 2024
 short_title: July 2024
 description: The Front-end Market Report for July 2024 gives you a snapshot of what’s happening in the world of web development. React is evolving with Server Components making waves, and Next.js continues to push the boundaries of performance. Vite is solidifying its position as a top build tool, while TypeScript and other frameworks hold steady. Whether you’re looking for the latest updates or just want to stay in the loop, this report has you covered with key trends, tools, and insights to keep you informed.
 date: 2024-08-09
@@ -29,8 +29,8 @@ React Native has streamlined the development process by recommending frameworks 
 ### Quick links
 
 - [Using React 19 with Vite and Next.js (youtube.com)](https://www.youtube.com/watch?v=AdkNcFUsRQQ)
-- [Sneaky React Memory Leaks: How the React compiler won’t save you | Kevin Schiener](https://schiener.io/2024-07-07/react-closures-compiler?utm_source=tldrwebdev)
-- [How Airbnb Smoothly Upgrades React](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Flinks.tldrnewsletter.com%2FH1PJOD/1/01000190eec8684b-ae23de3c-298b-4e48-baf6-6b87ab368f0e-000000/PGZOjErYrecaY5-P--SCa4c8UNLM_fLs9INsqzrQ_ms=363)
+- [Sneaky React memory leaks: How the React compiler won’t save you | Kevin Schiener](https://schiener.io/2024-07-07/react-closures-compiler?utm_source=tldrwebdev)
+- [How Airbnb smoothly upgrades React](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Flinks.tldrnewsletter.com%2FH1PJOD/1/01000190eec8684b-ae23de3c-298b-4e48-baf6-6b87ab368f0e-000000/PGZOjErYrecaY5-P--SCa4c8UNLM_fLs9INsqzrQ_ms=363)
 
 ## NextJS
 
@@ -50,8 +50,8 @@ Self-hosting Next.js apps can be complex, but Flightcontrol's guide demystifies 
 
 ### Quick links
 
-- [Flags as Code in Next.js – Vercel](https://vercel.com/blog/flags-as-code-in-next-js)
-- [Differences between the Pages and App Router with RSC Diagram : r/nextjs (reddit.com)](https://www.reddit.com/r/nextjs/comments/1eaefm9/differences_between_the_pages_and_app_router_with/)
+- [Flags as code in Next.js – Vercel](https://vercel.com/blog/flags-as-code-in-next-js)
+- [Differences between the pages and app router with RSC diagram : r/nextjs (reddit.com)](https://www.reddit.com/r/nextjs/comments/1eaefm9/differences_between_the_pages_and_app_router_with/)
 
 ## Others
 
@@ -73,8 +73,8 @@ Vite has achieved its goal of becoming a foundational tool in the web ecosystem,
 
 ### Quick links
 
-- [Bytes #309 - War of the Bundlers](https://bytes.dev/archives/309)
-- [JavaScript — What’s new with ECMAScript® 2024 (ES15) — In Depth Guide | by Igor Komolov | Medium](https://medium.com/@yourfuse/javascript-whats-new-with-ecmascript-2024-es15-ef056d2f4bf1)
+- [Bytes #309 - War of the bundlers](https://bytes.dev/archives/309)
+- [JavaScript — what’s new with ECMAScript® 2024 (ES15) — in depth guide | by Igor Komolov | Medium](https://medium.com/@yourfuse/javascript-whats-new-with-ecmascript-2024-es15-ef056d2f4bf1)
 - [Introducing Vercel AI SDK 3.2 – Vercel](https://vercel.com/blog/introducing-vercel-ai-sdk-3-2)
 
 ## Trending
@@ -93,7 +93,7 @@ Their first offering, LLM101n, is an undergrad course that teaches students to t
 
 ### Quick links
 
-- [Accelerating Idea to Production: Using Visual Development + AI to Ship 10x Faster (youtube.com)](https://www.youtube.com/watch?v=SMlTRGbYadI)
+- [Accelerating idea to production: Using visual development + AI to ship 10x faster (youtube.com)](https://www.youtube.com/watch?v=SMlTRGbYadI)
 - [Popover API 101 — Amit Merchant — A blog on PHP, JavaScript, and more](https://www.amitmerchant.com/popover-api-101/)
 
 ## New tools
@@ -118,7 +118,7 @@ Highly customizable React library for workflow builders, no-code apps, image pr
 - [Mako](https://makojs.dev/blog/mako-open-sourced): An extremely fast, production-grade web bundler based on Rust.
 - [render.com](https://render.com/?utm_source=coopeprpress&utm_medium=cooperpress): Unified cloud to build and run all your apps and websites with free TLS certificates, global CDN, private networks and auto deploys from Git.
 - [React CodeMirror](https://uiwjs.github.io/react-codemirror/): CodeMirror is a code editor component for the web. This React-specific component supports React hooks, TypeScript, and more.
-- [WorkOS — Your app, Enterprise Ready](https://workos.com/?utm_source=cpjava&utm_medium=newsletter&utm_campaign=q22024): The Modern Identity Platform for B2B SaaS (SSO, SCIM, and more).
+- [WorkOS — your app, Enterprise ready](https://workos.com/?utm_source=cpjava&utm_medium=newsletter&utm_campaign=q22024): The Modern Identity Platform for B2B SaaS (SSO, SCIM, and more).
 
 ## Commentary
 
@@ -126,5 +126,4 @@ Highly customizable React library for workflow builders, no-code apps, image pr
 - [sbensu: We need visual programming. No, not like that.](https://blog.sbensu.com/posts/demand-for-visual-programming/?utm_source=tldrwebdev)
 - [AI didn’t take my job](https://dava.ai/n/hank/ai-didnt-take-my-job)
 - [Ask HN: Junior dev and I don't want to compete in this job market. Any advice? | Hacker News (ycombinator.com)](https://news.ycombinator.com/item?id=41125070&utm_source=tldrwebdev)
-- [Please Stop Using Barrel Files | TkDodo's blog](https://tkdodo.eu/blog/please-stop-using-barrel-files)
-
+- [Please stop using barrel files | TkDodo's blog](https://tkdodo.eu/blog/please-stop-using-barrel-files)

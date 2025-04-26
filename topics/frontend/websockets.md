@@ -17,7 +17,7 @@ Previously, creating web applications that need bidirectional require a HTTP pol
 
 WebSocket is a simple solution that is invented to solve those problems as it helps to maintain one single TCP connection for traffic in both directions. It currently can work over HTTP port 80, 443 and as proxies as it is designed for addressing the other existing bidirectional HTTP technologies so that take advantage of existing HTTP infrastructure.
 
-## The Protocol Overview
+## The protocol overview
 
 ### Handshake
 
@@ -52,7 +52,7 @@ HTTP/1.1 101 Switching Protocols
 
 - `Sec-WebSocket-Accept`: is a response key to show server acceptance, the server first take the value of `Sec-Websocket-Key`, append `"258EAFA5-E914-47DA-95CA-C5AB0DC85B11"` _(Globally Unique Identifier)_ and then hashed with SHA-1
 
-### Data Transfer
+### Data transfer
 
 After the handshake was successful, each side can start sending or receiving data. The data property in WebSocket is `message`. For each message, the browser is only able to send and receive messages as binary or plain text.
 
@@ -89,7 +89,7 @@ Note that the differences between `ws` and `wss`is:
 - **`ws` use `HTTP` for handshake while `wss` use `HTTPS`**
 - Default port for `ws` is 80 and `wss` is port 443
 
-## WebSocket Browser API
+## WebSocket browser API
 
 The browser provide an API for creating and managing WebSocket connection as well as exchange messages with a WebSocket server.
 
@@ -101,7 +101,7 @@ We can instantiate a new WebSocket connection, linking to the WebSocket server, 
 const socket = new WebSocket("ws://localhost:8080");
 ```
 
-### WebSocket Events
+### WebSocket events
 
 In total, there are 4 events we can listen to are `open`, `message`, `error`, and `close`.
 
@@ -142,7 +142,7 @@ socket.onmessage = (event) => {
 };
 ```
 
-### Rate Limiting
+### Rate limiting
 
 When user has a slow network connection. After calling `WebSocket.send(...)` the data will be buffered in memory and will be sent out as soon as connection get better
 
@@ -154,7 +154,7 @@ if (socket.bufferedAmount === 0) {
 }
 ```
 
-### Close Connection
+### Close connection
 
 For sending `close frame` from browser WebSocket, simply call `WebSocket.close(code, reason)`.
 
@@ -174,7 +174,7 @@ socket.onclose = (event) => {
 - 1001 - the party is going away (server shutting down, browser leave the page)
 - ...
 
-## Connection State
+## Connection state
 
 User can access `WebSocket.readyState` for getting the current state of a WebSocket instance
 
@@ -182,4 +182,3 @@ User can access `WebSocket.readyState` for getting the current state of a WebSoc
 - `1`: OPEN - Connection is open and ready to communicate
 - `2`: CLOSING - Connection is in closing process
 - `3`: CLOSED - Connection is closed or could not be opened
-

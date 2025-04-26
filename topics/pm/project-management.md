@@ -1,5 +1,5 @@
 ---
-title: Project Management
+title: Project management
 description: Learn essential project manager skills like organizing tasks, managing client expectations, leading teams without micromanaging, anticipating problems, and keeping clients informed for smooth project success.
 date: 2020-01-12
 tags:
@@ -39,7 +39,7 @@ Even though we encourage each Team member to assess any ongoing issues directly 
 
 In such event, you must intervene and steer the communication from that moment on. Schedule a call if necessary, but don't let conversations spiral out of control between the Team and the client.
 
-### Make sure the Team has everything they need, at all times
+### Make sure the team has everything they need, at all times
 
 As a PM you want the project to unroll as smoothly as possible and to be completed in a timely fashion. One key factor is the amount of time the Team will be blocked while waiting for you – either waiting for documentation, for the tasks to be created, for a conversation with the client or whatever it might be.
 
@@ -49,7 +49,7 @@ Anticipating problems will help you Make sure the Team has everything they need 
 
 Your ability to predict any unseen problems and act upon them in advanceby adjusting the planning in real-time will make the difference between a PM and a great PM.
 
-### Manage Team Progress
+### Manage team progress
 
 As a PM you must be the one person who knows everything about the project you are managing.
 
@@ -83,4 +83,3 @@ Never assume clients know what's happening. It is up to you to enlighten them;
 
 Never leave a client message un-replied. It regards the entire Team, but you particularly. As the person in charge it is up to you to take the lead and demonstrating how to behave;
 If you feel like scheduling a call at the end of each sprint and showcase the outcomes, we encourage you to do it.
-

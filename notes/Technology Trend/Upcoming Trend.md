@@ -1,8 +1,12 @@
 ---
-tags: technology
+title: null
+description: null
+date: null
+tags:
+  - technology
 ---
 
-## Artificial Intelligence (AI) and Machine Learning
+## Artificial intelligence (AI) and machine learning
 
 Industry: ecommerce, finance, service, security, healthcare, supplychain, data-oriented industry
 

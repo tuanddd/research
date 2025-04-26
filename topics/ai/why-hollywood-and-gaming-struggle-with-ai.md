@@ -20,4 +20,3 @@ Incumbent entertainment and video game companies are experiencing friction in ex
 ---
 
 https://andrewchen.substack.com/p/why-hollywood-and-aaa-gaming-cant
-

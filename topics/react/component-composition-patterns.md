@@ -185,4 +185,3 @@ Selecting the right pattern often depends on:
 - **Complexity of data flow**: If your data flow is complex, consider compound components or render props.
 - **Component reusability**: HOCs are ideal for reusable logic across unrelated components.
 - **Level of control**: Controlled/uncontrolled patterns are great for balancing simplicity and flexibility in form handling.
-

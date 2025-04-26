@@ -1,5 +1,5 @@
 ---
-title: Perceiving vs Judging
+title: Perceiving vs judging
 description: Discover the key traits of J and P personality types, including their decision-making styles, work preferences, and communication habits to better understand behavior and learning approaches.
 date: null
 URL: "https://drive.google.com/file/d/1n8ID_iXqzs6cMZlRS0Su7lQUhrfd7khh/view?usp=sharing"
@@ -33,4 +33,3 @@ Book: My True Type, page 46 - 57
 - Often prefer to teach themselves (especially IPs); teach others by example or facilitation
 - Not necessarily messy, disorganized, procrastinating, or chronically late
 - Often restless, turning to a breadth of activities for stimulation (especially EPs)
-

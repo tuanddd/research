@@ -44,7 +44,7 @@ Then the requirements:
 
 <br/>
 
-## Data Modeling
+## Data modeling
 
 Bear in mind that [Cassandra is a distributed database](https://cassandra.apache.org/doc/latest/cassandra/data_modeling/intro.html) :
 **KKV database** - the first K stands for partition key used to partition data among the nodes while the second K is clustering key used for sorting within a partition.
@@ -100,7 +100,7 @@ CREATE TABLE messages (
 
 <br/>
 
-## Eventual Consistency
+## Eventual consistency
 
 Right after launching, the bug tracker found that the `author_id` was null despite of being a required field. It happens in the scenario that a user edits a message at the same time another one deletes the same message, the row only had values of primary key and the text while the rest is null.
 
@@ -114,7 +114,7 @@ This has 1 flaw only realized after rolling out about 6 months that a public Dis
 
 <br/>
 
-## Future Plan
+## Future plan
 
 At the time, Discord were running 12-node cluster with a replica factor of 3. Continue to add new Cassandra nodes seems fine as Netflix and Apple were running hundreds of nodes.
 
@@ -134,4 +134,3 @@ At the time, Discord were running 12-node cluster with a replica factor of 3. Co
 - https://datacadamia.com/cassandra/cassandra#kkv_store
 - https://en.wikipedia.org/wiki/CAP_theorem
 - https://discord.com/blog/how-discord-stores-billions-of-messages
-

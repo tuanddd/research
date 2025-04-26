@@ -1,5 +1,10 @@
 ---
-tags: innovation, idea
+title: null
+description: null
+date: null
+tags:
+  - innovation
+  - idea
 ---
 
 ## Summary

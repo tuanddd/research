@@ -1,5 +1,5 @@
 ---
-title: Exploring Machine Learning Approaches For Fine Tuning Llama Models
+title: Exploring machine learning approaches for fine tuning Llama models
 description: Learn how to fine-tune LLaMA large language models efficiently using PEFT LoRA for cost-effective, private AI customization with step-by-step guidance and open-source tools.
 date: 2023-05-04
 tags:
@@ -20,7 +20,7 @@ There has also been an increasing amount of interest in custom [LLaMA](https://a
 
 We're at a point where everything is moving fast and [no one is yet an expert](https://www.linkedin.com/posts/chiphuyen_now-is-the-time-to-get-into-ai-in-2016-activity-7054911279328555008-xLc8/?utm_source=share&utm_medium=member_desktop) in the field of AI. We felt that we would get left behind if we at least didn't take a look at the technical side of AI, which eventually motivated our research in LLMs.
 
-## Prior Research
+## Prior research
 
 For AI, a lot of us at Dwarves use available tools to help us to do extensive learning, get over writer's block, experiment, and generally make our lives a little bit easier. A handful of us, including myself, have dabbled a bit in Stable Diffusion, mostly to create fun pictures, but also to help us get an idea of the current landscape of generative art.
 
@@ -29,7 +29,7 @@ For research on LLMs, we've investigated vector databases and how to apply a bas
 Likewise, we've created a few Jupyter notebooks working on [Langchain](https://python.langchain.com/en/latest/index.html) and what strategies and utilities we use from it to generate more directed results. You can view some of what we've worked on and noted here:
 
 - [Workaround with OpenAI's token limit with Langchain - The Dwarves Brainery](https://brain.d.foundation/Engineering/AI/Workaround+with+OpenAI%27s+token+limit+with+Langchain)
-- [Working with langchain document loaders - The Dwarves Brainery](https://brain.d.foundation/Engineering/AI/Working+with+langchain+document+loaders)
+- [Working with Langchain document loaders - The Dwarves Brainery](https://brain.d.foundation/Engineering/AI/Working+with+langchain+document+loaders)
 - [https://colab.research.google.com/drive/1FMbBYPLz01lLma4jK36-fABjQC2vhyRJ?usp=sharing](https://colab.research.google.com/drive/1FMbBYPLz01lLma4jK36-fABjQC2vhyRJ?usp=sharing)
 - [https://github.com/dudaka/automating-pdf-interaction-with-langchain-and-chatgpt](https://github.com/dudaka/automating-pdf-interaction-with-langchain-and-chatgpt)
 
@@ -51,7 +51,7 @@ PEFT LoRA works on top of pre-trained language models by adding LoRA weights to 
 
 The trained weights from PEFT LoRA are significantly much smaller (within a few MBs depending on your data) and don't require as much CPU/GPU power to fine-tune existing frozen models.
 
-## Proof of Concept
+## Proof of concept
 
 For the moment, we just want to get our first foot out the door, since not many of us have experience in creating machine learning pipelines. The proof of concept here will be to:
 
@@ -232,7 +232,7 @@ If you want to then push that model to HuggingFace, since we've transformed our 
 model.push_to_hub("monotykamary/alpaca-7b-lora-merged-dwarves-poc", use_auth_token=True)
 ```
 
-### Full Google Colab Example + HuggingFace
+### Full Google Colab example + HuggingFace
 
 All of our examples, findings, and work are available on our Google Colab. You can view it there to get a full picture of our training pipeline.
 
@@ -259,4 +259,3 @@ In conclusion, after looking through a ton of resources, we were able to walk ou
 - [https://renaissancerachel.com/prompting/](https://renaissancerachel.com/prompting/)
 - [https://xiaosean5408.medium.com/fine-tuning-llms-made-easy-with-lora-and-generative-ai-stable-diffusion-lora-39ff27480fda](https://xiaosean5408.medium.com/fine-tuning-llms-made-easy-with-lora-and-generative-ai-stable-diffusion-lora-39ff27480fda)
 - [https://arxiv.org/abs/2206.15312](https://arxiv.org/abs/2206.15312)
-

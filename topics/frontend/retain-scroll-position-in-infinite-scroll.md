@@ -10,7 +10,7 @@ tags:
   - web-design
 ---
 
-## Infinite scroll - Benefits and Challenges
+## Infinite scroll - benefits and challenges
 
 Infinite scroll has become a popular web design technique in recent years, as it offers several benefits over traditional pagination models such as reducing page load times or minimizing the need for users to browse through multiple pages. However, it can also present some painful challenges for accessibility and usability. One of the most common issues happens when you are scrolling the list, then click on an item to view its detail (and of course, is navigated to another page). When going back to the list, you lose your previous scroll position and have to scroll all the way to find the item you clicked on before.
 
@@ -87,4 +87,3 @@ This makes sense since as mentioned above, when user clicks on an item and is na
 ## Reference
 
 - https://www.explainxkcd.com/wiki/index.php/1309:_Infinite_Scrolling
-

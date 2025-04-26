@@ -1,5 +1,5 @@
 ---
-title: "Go Commentary #8: Jupyter Notebooks, Kubernetes Tools, GopherCon Talks"
+title: "Go commentary #8: Jupyter notebooks, Kubernetes tools, GopherCon talks"
 short_title: "#8 GoNB, kubetrim, and GopherCon UK 2024"
 description: "Explore GoNB for Jupyter notebooks, kubetrim for KUBECONFIG management, and key highlights from GopherCon UK 2024 talks, covering performance testing, software design, event-driven workflows, and AI's impact on tech jobs."
 date: 2024-08-23
@@ -54,10 +54,10 @@ kind-2
 ## [12 Talks from GopherCon UK 2024](https://youtube.com/playlist?list=PLDWZ5uzn69ezR6D6FUj_iBSOyRc9xaZFP&si=IdFGYzOivQqFRsVb)
 
 - Key highlights:
-  1. **Performance Testing Tools**: One of the standout presentations was about a home-grown performance testing tool used to replay HTTP access logs against infrastructure setups. This tool was crucial for performance testing at scale, particularly during low-traffic periods, ensuring the system’s responsiveness without disrupting overnight operations.
-  2. **Software Design and Complexity**: A session by Shivam Acharya and Peter Chai delved into the complexities of software design, discussing how complexity should be embraced and managed thoughtfully. They explored how decisions in API design can either simplify or complicate the interaction between different system components.
-  3. **Event-Driven Workflows**: Another notable talk covered the implementation of event-driven workflows, highlighting the challenges and decisions in designing a technology-agnostic library that could work with various technologies like Kafka, Redux, Postgres, and MySQL.
-  4. **AI and the Future of Work**: There was also a provocative discussion on how AI is influencing the future of jobs in tech, encouraging developers to think about how they can stay relevant as automation and AI continue to evolve.
+  1. **Performance testing tools**: One of the standout presentations was about a home-grown performance testing tool used to replay HTTP access logs against infrastructure setups. This tool was crucial for performance testing at scale, particularly during low-traffic periods, ensuring the system’s responsiveness without disrupting overnight operations.
+  2. **Software design and complexity**: A session by Shivam Acharya and Peter Chai delved into the complexities of software design, discussing how complexity should be embraced and managed thoughtfully. They explored how decisions in API design can either simplify or complicate the interaction between different system components.
+  3. **Event-driven workflows**: Another notable talk covered the implementation of event-driven workflows, highlighting the challenges and decisions in designing a technology-agnostic library that could work with various technologies like Kafka, Redux, Postgres, and MySQL.
+  4. **AI and the future of work**: There was also a provocative discussion on how AI is influencing the future of jobs in tech, encouraging developers to think about how they can stay relevant as automation and AI continue to evolve.
 
 ---
 
@@ -67,4 +67,3 @@ kind-2
 - https://github.com/go-echarts/go-echarts
 - https://github.com/alexellis/kubetrim
 - https://youtube.com/playlist?list=PLDWZ5uzn69ezR6D6FUj_iBSOyRc9xaZFP&si=IdFGYzOivQqFRsVb
-

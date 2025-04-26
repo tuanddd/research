@@ -14,11 +14,11 @@ tags:
 
 Function calling is a critical component in the architecture of AI agents, facilitating the integration of external functionalities and resources. This note explores how function calling is implemented in AI architectures and its role in enhancing agent capabilities.
 
-## Overview of Function Calling in AI Agents
+## Overview of function calling in AI agents
 
 Function calling in the context of ChatGPT refers to the model’s ability to call specific functions or APIs during a conversation to provide more accurate and relevant responses. This can enhance the model’s capabilities by allowing it to interact with external systems, perform computations, or retrieve up-to-date information. Function calling allows developers to more reliably get structured data back from the model
 
-## Why Function Calling is Important
+## Why function calling is important
 
 Before function calling, there were two primary methods for enhancing the capabilities of a GPT language model:
 
@@ -28,7 +28,7 @@ Before function calling, there were two primary methods for enhancing the capabi
 
 Function calling introduces a third method to extend GPT’s capabilities. It allows the model to request the execution of functions on its behalf. The model can then use the function’s results to create a coherent, human-readable response that integrates smoothly into the ongoing conversation.
 
-## How to use Function Calling in AI Agents
+## How to use function calling in AI agents
 
 example of how to use function calling to format the response from the model. It's important to format the response so we can pass it to another api.
 
@@ -69,4 +69,3 @@ const gptResponse = await openai.chat.completions.create({
 ## Conclusion
 
 Integrating function calling into the architecture of AI agents significantly enhances their functionality and adaptability. By effectively utilizing external services, AI agents can transcend their initial limitations, providing more value and better performance in their respective applications.
-

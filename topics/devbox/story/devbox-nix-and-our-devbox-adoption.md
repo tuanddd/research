@@ -67,7 +67,7 @@ The magic of Nix is that it makes sure that everything works together correctly.
 
 As we discussed in the [Devbox #2: Our Docker adoption and its challenges](devbox-docker-adoption-and-challenges.md), Docker builds can access the public internet, so we can't guarantee that the same image will be built every time, as everything on the internet can change in minutes. Additionally, there are no checks to ensure that the files being fetched are actually the ones you intended for your Docker image. Even if we can push the image to a registry and pull it for running identical containers on different computers. In some edge cases when we can’t access to the online repository so need to build another one, we may not be able to build the required image again if some dependencies have changed on the internet.
 
-## Nix ensures external sources are Immutable
+## Nix ensures external sources are immutable
 
 Take a look at the following diagram, we can see with the same build expression, Nix can result in the same images. In contrast, we can just only build a Docker Image one time and bring this result everywhere if don’t want any change to happen. How can Nix make it happen?
 
@@ -101,7 +101,7 @@ In practice, Devbox works similarly to a package manager like Yarn - except the 
 
 Devbox offers an intuitive interface for creating development environments using the Nix Package Manager, without requiring any knowledge of the Nix language. So, how can we incorporate Devbox into our team's workflow?
 
-## Case Study: memo.d.foundation
+## Case study: memo.d.foundation
 
 Looking at [memo.d.foundation](https://github.com/dwarvesf/memo.d.foundation), we use Devbox as a tool to create reproducible development environments, making it easy for new team members to get started with minimal effort. By setting up a Devbox shell config with needed dependencies, new joiners can quickly get started without installing anything beyond Devbox. They can then focus on making the application run locally, avoiding the issue of "It works on my machine." Non-tech team members working on content for this repository can also easily run the project without any concerns.
 
@@ -117,7 +117,7 @@ Finally, easy to run our project without installing any other stuffs
 
 ![Image9](assets/devbox-nix-and-our-devbox-adoption_9.webp)
 
-## Case Study: docker-less development with Devbox services
+## Case study: docker-less development with Devbox services
 
 In addition, we use Devbox to create a containerless development environment by leveraging Devbox services. Under the hood, it takes advantage of Process-Compose, a simple and flexible scheduler and orchestrator written in Nix, to manage non-containerized applications. With Devbox, we can create and manage servers in the shell using a Docker-compose-like approach without any actual Docker containers needed.
 
@@ -168,4 +168,3 @@ For now, this is the list of usecases I can provide. As I continue to learn and 
 ## Conclusion
 
 In summary, Nix and Devbox offer exciting new possibilities for streamlining software development processes. By providing a more efficient way to create reproducible development environments, Nix and Devbox can help teams overcome challenges and improve overall workflow. While they may not completely replace Docker, they can effectively address different problems and provide additional support where Docker may be struggling.
-

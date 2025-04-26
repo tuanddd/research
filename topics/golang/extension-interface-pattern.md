@@ -272,4 +272,3 @@ if d, ok := f.(ReadDirFile); ok {
 ```
 
 [Source](https://www.reddit.com/r/golang/comments/i6yehu/what_is_the_extension_interface_pattern_in_go/)
-

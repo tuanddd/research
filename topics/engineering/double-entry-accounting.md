@@ -84,7 +84,7 @@ In a double-entry accounting system, a debit in one account offsets a credit in 
 
 Double-entry systems, regardless of whether we keep track of journal entries, allow us to create reports on income statements, balance sheets, statements of cash flows, and statements of retained earnings.
 
-## Database Design
+## Database design
 
 For database design, refer to [[Database design for double-entry accounting | database design for double-entry accounting]].
 
@@ -240,4 +240,3 @@ $ hledger -f transactions.journal balance -t
 - <https://www.investopedia.com/terms/m/mortgage.asp>
 - <https://www.investopedia.com/terms/w/warranty.asp#:~:text=our%20editorial%20policies-,What%20Is%20a%20Warranty%3F,as%20originally%20described%20or%20intended>.
 - <https://www.ledger-cli.org/3.0/doc/ledger3.html#Understanding-Equity>
-

@@ -1,5 +1,5 @@
 ---
-title: Labs - New Member Onboarding
+title: Labs - new member onboarding
 description: New members joining our Labs team can be recommended either personally by an existing team member or through a development plan survey. Once onboarded, each new member is paired with a mentor who provides guidance on our operational practices within the team, specifically in relation to a chosen research topic. The initial probation period for new members is set to one month.
 date: 2023-11-21
 authors:
@@ -21,4 +21,3 @@ We will do probation reviews based on the [review template](https://docs.google.
 ![](assets/labs---new-member-onboarding-20231121174522981.webp)
 
 ![](assets/labs---new-member-onboarding-20231205185801920.webp)
-

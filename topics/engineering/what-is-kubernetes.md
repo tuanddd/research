@@ -1,5 +1,5 @@
 ---
-title: What Is Kubernetes
+title: What is Kubernetes
 description: Kubernetes is an open-source platform for managing containerized applications with features like automated rollouts, self-healing, and load balancing, enabling scalable and portable cloud deployments.
 date: 2019-09-27
 tags:
@@ -12,11 +12,11 @@ Kubernetes is a portable, extensible, open-source platform for managing containe
 
 ![](assets/what-is-kubernetes_ca7490cb6fe10475c91a359a8177d29c_md5.webp)
 
-### Traditional Deployment Era
+### Traditional deployment era
 
 Early on, organizations ran applications on physical servers. There was no way to define resource boundaries for applications in a physical server, and this caused resource allocation issues. For example, if multiple applications run on a physical server, there can be instances where one application would take up most of the resources, and as a result, the other applications would underperform. A solution for this would be to run each application on a different physical server. But this did not scale as resources were underutilized, and it was expensive for organizations to maintain many physical servers.
 
-### Virtualized Deployment Era
+### Virtualized deployment era
 
 As a solution, virtualization was introduced. It allows you to run multiple Virtual Machines (VMs) on a single physical server’s CPU. Virtualization allows applications to be isolated between VMs and provides a level of security as the information of one application cannot be freely accessed by another application.
 
@@ -24,7 +24,7 @@ Virtualization allows better utilization of resources in a physical server and a
 
 Each VM is a full machine running all the components, including its own operating system, on top of the virtualized hardware.
 
-### Container Deployment Era
+### Container deployment era
 
 Containers are similar to VMs, but they have relaxed isolation properties to share the Operating System (OS) among the applications. Therefore, containers are considered lightweight. Similar to a VM, a container has its own filesystem, CPU, memory, process space, and more. As they are decoupled from the underlying infrastructure, they are portable across clouds and OS distributions.
 
@@ -60,4 +60,3 @@ Take full docs at: [https://kubernetes.io/docs/concepts/overview/what-is-kubern
 - [Namespace](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/)
 
 Tutorial page that help you deploy first app: [https://kubernetes.io/docs/tutorials/kubernetes-basics/](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
-

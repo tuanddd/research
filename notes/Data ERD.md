@@ -1,5 +1,10 @@
 ---
-tags: data, diagram
+title: null
+description: null
+date: null
+tags:
+  - data
+  - diagram
 ---
 
 ### What
@@ -13,7 +18,7 @@ When we talk bout Entities, we are referring to the business objects within the 
 
 When we talk about Relationship, we are referring how those entities relate with each other.
 
-### Primary key & Foreign key
+### Primary key & foreign key
 
 - Primary key: Use to uniquely define a record in database table
 - Foreign key: a foreign key of a table is used aas a navigation to a primary key of another table

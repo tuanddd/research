@@ -174,4 +174,3 @@ Cons:
 
 - https://www.phdata.io/blog/building-modern-data-platform-with-data-vault/
 - https://www.databricks.com/glossary/data-vault
-

@@ -337,4 +337,3 @@ view rawApp.js hosted with ❤ by GitHub
 Although Hook is the best solution to reduce DRY in react.js application in mine opinion, HOC component and render props is still a viable choice in some specific or edge use case.
 
 Source code repository: [https://github.com/phmngocnghia/demo-hoc-render-props-hook](https://github.com/phmngocnghia/demo-hoc-render-props-hook)
-

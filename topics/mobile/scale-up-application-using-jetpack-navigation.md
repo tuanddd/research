@@ -1,6 +1,6 @@
 ---
 title: Scale up application using Jetpack navigation
-description: Learn how to simplify Android app navigation with Jetpack Navigation Component, handling fragment transitions, dynamic start destinations, modular flows, and integration with Firebase Analytics.
+description: Learn how to simplify Android app navigation with Jetpack navigation Component, handling fragment transitions, dynamic start destinations, modular flows, and integration with Firebase Analytics.
 date: 2022-11-14
 github_id: truong-dwarvesv
 icy: 10
@@ -14,7 +14,7 @@ In the past, to implement based on fragment navigation, we used `FragmentManager
 
 In order to enhance stability for this approaching, we need to spend much time and effort, not to mention the UI testing compatibility
 
-## Jetpack Navigation
+## Jetpack navigation
 
 From 2018, the Google introduced the navigation component alpha version and mark it stable version 1.0.0 in early 2019
 It wrapppers all complex scenarios in low tier, and provide some definitions to help developer easy to navigate between fragments
@@ -167,7 +167,6 @@ class EntryFragment : Fragment() {
 
 ## References
 
-- [PROS and CONS of Android Jetpack Navigation Component](https://medium.com/accenture-ix-turkey/pros-and-cons-of-android-jetpack-navigation-component-d7a5e3bcfe50)
-- [Jetpack Navigation Documentation](https://developer.android.com/jetpack/androidx/releases/navigation)
-- [Firebase Analytics with Jetpack Navigation](https://techdroid.kbeanie.com/2020/08/30/jetpack-navigation-and-firebase-analytics/)
-
+- [PROS and CONS of Android Jetpack navigation Component](https://medium.com/accenture-ix-turkey/pros-and-cons-of-android-jetpack-navigation-component-d7a5e3bcfe50)
+- [Jetpack navigation Documentation](https://developer.android.com/jetpack/androidx/releases/navigation)
+- [Firebase Analytics with Jetpack navigation](https://techdroid.kbeanie.com/2020/08/30/jetpack-navigation-and-firebase-analytics/)

@@ -36,4 +36,3 @@ link.setAttribute("download", `${field}.csv`);
 document.body.appendChild(link);
 link.click();
 %>
-

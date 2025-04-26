@@ -8,7 +8,7 @@ icy: 10
 
 This article focuses on the best practices for testing in Golang. By following these recommended approaches, you can ensure the effectiveness and efficiency of your testing efforts. We will explore various aspects such as writing effective test cases, organizing tests and using test doubles. Implementing these best practices will help you write reliable, maintainable, and high-quality tests for your Golang projects.
 
-## 1. Writing Effective Test Cases With AAA pattern
+## 1. Writing effective test cases with AAA pattern
 
 Writing effective test cases requires careful consideration of their characteristics and structure. Good test cases exhibit readability, maintainability, independence, focus, and completeness. By following the AAA pattern, organizing test cases into Arrange, Act, and Assert sections, you enhance the readability, maintainability, and effectiveness of your test cases. The AAA pattern helps in isolating specific behaviors, focusing on desired outcomes, and providing a clear structure for test case development.
 
@@ -52,7 +52,7 @@ func TestAdd(t *testing.T) {
 
 By separating the test case into the Arrange, Act, and Assert sections, it becomes clear what inputs are used, what action is performed, and what outcome is expected. This clarity makes it easier to understand the purpose of the test and identify any issues that may arise.
 
-## 2. Test Organization and Structure
+## 2. Test organization and structure
 
 ### Organizing Test Files and Packages:
 
@@ -205,11 +205,11 @@ By iterating over the **`testCases`** table, we run subtests using **`t.Run`** w
 The test function invokes **`IsValidEmailAddress`** with the provided input arguments and compares the returned error with the expected error. Any mismatch is reported as a test failure.
 By using this table-driven approach, you can easily add more test cases and maintain a clear overview of the scenarios being covered.
 
-## 3. [[Test Doubles]] and Mocking
+## 3. [[Test doubles]] and mocking
 
 [[Test Doubles|Test doubles]] are objects that mimic the behavior of real dependencies in a controlled manner during testing. They are used to isolate the code under test from its actual dependencies, ensuring that the behavior of the code being tested can be observed and verified independently. Here are five common types of test doubles:
 
-1. **Test Stubs:** Predefined responses to method calls used for simulating specific behaviors during testing.
+1. **Test stubs:** Predefined responses to method calls used for simulating specific behaviors during testing.
 2. **Mocks:** Objects or functions that simulate real dependencies and allow you to define expectations and verify interactions during testing.
 3. **Dummies:** Placeholder objects or functions with no real implementation, used when certain parameters or dependencies are required but behavior is irrelevant.
 4. **Spies:** Wrappers around real objects or functions that record their interactions, useful for verifying method calls and arguments during testing.
@@ -237,4 +237,3 @@ This article outlines best practices for testing in Golang, including writing ef
 
 - [https://google.github.io/styleguide/go/best-practices.html#tests](https://google.github.io/styleguide/go/best-practices.html#tests)
 - [https://climbtheladder.com/10-golang-testing-best-practices/](https://climbtheladder.com/10-golang-testing-best-practices/)
-

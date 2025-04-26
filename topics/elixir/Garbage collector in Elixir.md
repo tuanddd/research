@@ -1,5 +1,10 @@
 ---
-tags: elixir, garbage
+title: null
+description: null
+date: null
+tags:
+  - elixir
+  - garbage
 ---
 
 BEAM process has its own stack and heap for small data binaries(<64bytes) Larger binaries are stored in a shared memory space with a ref-counted pointer(called ProcBin) that lives in a Process's heap. There are many data stacks and heaps in our application, one per process.

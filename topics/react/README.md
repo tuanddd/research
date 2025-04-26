@@ -34,4 +34,3 @@ tags:
 - [useEffect double calls in React 18](./useeffect-double-calls-in-react-18.md)
 - [When should we use useReducer instead of useState?](./when-should-we-use-usereducer-instead-of-usestate.md)
 - [Why virtual DOM is fast?](./why-virtual-dom-is-fast.md)
-

@@ -1,5 +1,5 @@
 ---
-title: Pure CSS Parallax
+title: Pure CSS parallax
 description: This article demonstrates how to use CSS transforms, perspective and some scaling trickery to create a pure CSS parallax scrolling website.
 date: 2022-09-10
 authors:
@@ -74,7 +74,7 @@ Finally, the `layer-{{n}}` class is used to set Z offset of the layers. If we co
 
 Check it out in the CodePen below:
 
-<iframe height="400" style="width:100%" scrolling="no" title="Pure CSS Parallax (1) - Barebones" src="https://codepen.io/ngolapnguyen/embed/wvjGRRp?default-tab=result" frameborder="no"></iframe>
+<iframe height="400" style="width:100%" scrolling="no" title="Pure CSS parallax (1) - Barebones" src="https://codepen.io/ngolapnguyen/embed/wvjGRRp?default-tab=result" frameborder="no"></iframe>
 
 ## Common practices
 
@@ -136,11 +136,10 @@ When you are working with parallax, it can be easier to get lost among the diffe
 
 You can try out all the common practices I have mentioned in the CodePen below:
 
-<iframe height="400" style="width: 100%;" scrolling="no" title="Pure CSS Parallax (2) - Common Practices" src="https://codepen.io/ngolapnguyen/embed/XWqdOJr?default-tab=result" frameborder="no" allowfullscreen="true"></iframe>
+<iframe height="400" style="width: 100%;" scrolling="no" title="Pure CSS parallax (2) - Common Practices" src="https://codepen.io/ngolapnguyen/embed/XWqdOJr?default-tab=result" frameborder="no" allowfullscreen="true"></iframe>
 
 ## References
 
 - https://keithclark.co.uk/articles/pure-css-parallax-websites/
 - https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style
 - https://www.youtube.com/watch?v=1wfeqDyMUx4
-

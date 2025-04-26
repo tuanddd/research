@@ -16,4 +16,3 @@ Writing demands a certain economy. Extraneous words, flowery phrases, unnecessar
 #### Citations
 
 Flaherty, Francis. _The Elements of Story: Field Notes on Nonfiction Writing._ Reprint edition. Harper Perennial, 2010.
-

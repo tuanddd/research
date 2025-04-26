@@ -24,7 +24,7 @@ When a user subscribes to a channel, we update the counter by +1. And we do the 
 - Handle concurrent subscription requests from users properly. Or else there will be a chance that we misscount a portion of subscribers
 - Use the same counter to update/get live subscriptions for all actors (subscribers & visitors)
 
-## Singleton Overview
+## Singleton overview
 
 **Singleton** is one of **Creational design patterns**. It has some characteristics:
 
@@ -113,7 +113,7 @@ func getCounter() *counter {
 }
 ```
 
-## Benefits & Drawbacks
+## Benefits & drawbacks
 
 **Benefits**<br/>
 You can assure that the class/type has only one instance if the implementation is done properly.
@@ -128,4 +128,3 @@ You can assure that the class/type has only one instance if the implementation i
 ## References
 
 - https://refactoring.guru/design-patterns/singleton
-

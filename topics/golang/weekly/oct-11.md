@@ -1,5 +1,5 @@
 ---
-title: "Go Commentary #15: Using Go embed, and Reflect"
+title: "Go commentary #15: using Go embed, and Reflect"
 short_title: "#15 Go embed and Reflect"
 description: Quick notes on Go embed and Go Reflect
 date: 2024-10-11
@@ -100,7 +100,7 @@ for i := 0; i < typ.NumMethod(); i++ {
 }
 ```
 
-- [Laws of Reflection](https://go.dev/blog/laws-of-reflection)
+- [Laws of reflection](https://go.dev/blog/laws-of-reflection)
 
   - Reflection goes from interface value to reflection object
 
@@ -118,4 +118,3 @@ for i := 0; i < typ.NumMethod(); i++ {
 https://www.bytesizego.com/blog/go-embed
 
 https://www.dolthub.com/blog/2024-10-04-reflecting-on-reflect/
-

@@ -1,5 +1,5 @@
 ---
-title: Playaround With Rust
+title: Playaround with Rust
 description: "Learn how Mozilla uses Rust to build safer, parallel browsers by leveraging Rust's ownership, immutability, lifetime tracking, and expression-based design for error-free, efficient code."
 date: 2019-08-30
 tags:
@@ -44,7 +44,7 @@ Therefore, Rust let users do this by implement `Copy` trait for some types that 
 
 Variables in Rust immutable by default, can not change throughout its lifetime. Thus, it resolves the problem of safety in Rust. If things are immutable by default, Rust compiler can easily pick up any side-affect, mutability during compile-time and guarantee application correctness.
 
-## Variable Declaration
+## Variable declaration
 
 ### Go
 
@@ -143,4 +143,3 @@ fn largest(x: &i64, y: &i64) -> &i64 {
    }
 }
 ```
-

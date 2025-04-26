@@ -1,5 +1,5 @@
 ---
-title: Command Pattern
+title: Command pattern
 description: Command is a behavioral design pattern that encapsulates a request as an object. This allows you to parameterize methods with different requests, delay or queue a request’s execution, and support undoable operations. This pattern promotes the decoupling of the sender and receiver of a request, enhancing flexibility and maintainability.
 date: 2024-06-27
 authors:
@@ -10,17 +10,17 @@ tags:
   - gang-of-four
 ---
 
-![Command Pattern](assets/command-pattern_command-en-2x.webp)
+![Command pattern](assets/command-pattern_command-en-2x.webp)
 
 ## What is the Command Design Pattern?
 
 Command is a behavioral design pattern that encapsulates a request as an object. This allows you to parameterize methods with different requests, delay or queue a request’s execution, and support undoable operations. This pattern promotes the decoupling of the sender and receiver of a request, enhancing flexibility and maintainability.
 
-## Key components of the Command Pattern
+## Key components of the Command pattern
 
 ![Structure of the Command design pattern](assets/command-pattern_structure-2x.webp)
 
-### Command Interface
+### Command interface
 
 **Purpose**
 
@@ -31,7 +31,7 @@ Command is a behavioral design pattern that encapsulates a request as an object.
 
 - Defines an `execute()` method that `concrete commands` must implement.
 
-### Concrete Command
+### Concrete command
 
 **Purpose**
 
@@ -52,7 +52,7 @@ Command is a behavioral design pattern that encapsulates a request as an object.
 
 **Responsibilities**
 
-- Performs the actual work when its methods are called by the `Concrete Command`.
+- Performs the actual work when its methods are called by the `Concrete command`.
 
 ### Invoker
 
@@ -79,7 +79,7 @@ Command is a behavioral design pattern that encapsulates a request as an object.
 
 In this scenario, the paper order serves as a `Command`. It remains in a queue until the chef is ready to prepare it. The order contains all the relevant information required to cook the meal, allowing the chef to start cooking immediately instead of clarifying the order details directly from the customer.
 
-## Pros and Cons
+## Pros and cons
 
 ### Pros
 
@@ -102,4 +102,3 @@ In this scenario, the paper order serves as a `Command`. It remains in a queue u
 ## References
 
 - https://refactoring.guru/design-patterns/command
-

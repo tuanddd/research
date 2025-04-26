@@ -1,5 +1,10 @@
 ---
-tags: fingerprint, HR
+title: null
+description: null
+date: null
+tags:
+  - fingerprint
+  - hr
 ---
 
 ![[nhan dien van tay.png]]

@@ -1,5 +1,5 @@
 ---
-title: SQL and how it relates to Disk Reads and Writes
+title: Sql and how it relates to disk reads and writes
 description: Sequential read/write operations involve accessing data in a continuous, linear manner. This typically occurs when transferring large files or accessing a large file on the drive. In sequential read/write operations, the drive can read or write data from a series of blocks, allowing for faster performance...
 date: 2023-09-06
 authors:
@@ -35,7 +35,7 @@ In the context of random and sequential reads and writes, CQRS can benefit from 
 
 Moreover, CQRS can take advantage of different storage technologies for read and write operations, such as using SSDs for random reads and traditional hard drives for sequential writes. This flexibility can lead to better performance and resource utilization, depending on the specific use case and requirements of the application.
 
-## SQL Operation on Disk reads/writes
+## Sql operation on disk reads/writes
 
 In the context of SQL operations and hard disk actions, different SQL operations can result in either sequential or random read/write actions on the hard disk. Here's a breakdown of some common SQL operations and their corresponding hard disk actions:
 
@@ -49,7 +49,7 @@ In the context of SQL operations and hard disk actions, different SQL operations
 
 5. **INDEX**ing: Creating or updating indexes can result in both sequential and random read/write operations, depending on the organization of the data and the index structure. For example, creating a clustered index can result in sequential writes, while creating a non-clustered index can result in random writes.
 
-## Optimizing SQL for better sequential reads/writes
+## Optimizing sql for better sequential reads/writes
 
 To optimize PostgreSQL database performance for sequential reads and writes, you can follow these general recommendations:
 
@@ -63,7 +63,7 @@ To optimize PostgreSQL database performance for sequential reads and writes, you
 
 5. **Tune configuration parameters**: Customize PostgreSQL configuration parameters, such as shared_buffers, work_mem, and maintenance_work_mem, to improve read and write performance.
 
-6. **Write-Ahead Log (WAL) configuration**: Adjust WAL configuration parameters, such as wal_buffers, checkpoint_timeout, and checkpoint_completion_target, to optimize write performance.
+6. **Write-ahead log (WAL) configuration**: Adjust WAL configuration parameters, such as wal_buffers, checkpoint_timeout, and checkpoint_completion_target, to optimize write performance.
 
 7. **Filesystem optimization**: Disable `atime` (the timestamp at which the file was last accessed) for the data files to save CPU cycles).
 
@@ -101,4 +101,3 @@ In summary, SQL operations can result in either sequential or random read/write 
 - https://condusiv.com/sequential-io-always-outperforms-random-io-on-hard-disk-drives-or-ssds/
 - https://www.linkedin.com/pulse/how-cqrs-solves-problem-overloading-transactional-database-gontu-1e
 - https://dba.stackexchange.com/questions/285809/do-databases-optimize-random-write-and-read-operations
-

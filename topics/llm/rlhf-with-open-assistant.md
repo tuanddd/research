@@ -77,7 +77,7 @@ python -m pip install ../../oasst-data/
 export PYTHONPATH=$PYTHONPATH:../../oasst-shared
 ```
 
-### Supervised Fine-Tuning (SFT) training
+### Supervised fine-tuning (SFT) training
 
 Supervised Fine-Tuning is a process where a pre-trained model is fine-tuned on a specific dataset to adapt it to a particular task. We'll use Microsoft's [DeepSpeed](https://github.com/microsoft/DeepSpeed), an optimization library developed by Microsoft that will help us improve the training speed and efficiency of our model.
 
@@ -90,7 +90,7 @@ deepspeed --include=localhost:0,1,2,3,4,5,6,7 --master_port 61000 trainer_sft.py
 --deepspeed
 ```
 
-### Reward Model (RM) training
+### Reward model (RM) training
 
 Reward Modeling involves training a model to predict which example in a pair is more relevant to the task at hand. We will use `trainer_rm.py` given in the OpenAssistant repository to run our RM training.
 
@@ -102,7 +102,7 @@ python trainer_rm.py --configs defaults_rm oasst-rm-2.1-pythia-1.4b \
 --output_dir ./rm_model
 ```
 
-### Reinforcement Learning (RL) training
+### Reinforcement learning (RL) training
 
 Reinforcement Learning is a process where an agent learns to make decisions by interacting with an environment. We will have to install a few packages to run RL training.
 
@@ -145,7 +145,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5 OMP_NUM_THREADS=1 accelerate launch --main_proc
 
 ## Conclusion
 
-In conclusion, Open Assistant (OA) is a chat-based, open-source assistant designed to run on a single high-end consumer GPU. It aims to interface with third-party applications and retrieve information from databases and the internet. OA works in three steps: Supervised Fine-Tuning (SFT), Reward Model (RM) training, and Reinforcement Learning (RL) training. These steps help create a model that is better at following instructions and providing useful responses. When writing a conclusion, it is essential to reiterate the main idea, summarize the evidence presented, and bring the composition to a logical close. A conclusion can include a summary of the main points, a call to action, a question, or a proposed solution.
+In conclusion, Open Assistant (OA) is a chat-based, open-source assistant designed to run on a single high-end consumer GPU. It aims to interface with third-party applications and retrieve information from databases and the internet. OA works in three steps: Supervised Fine-Tuning (SFT), Reward model (RM) training, and Reinforcement learning (RL) training. These steps help create a model that is better at following instructions and providing useful responses. When writing a conclusion, it is essential to reiterate the main idea, summarize the evidence presented, and bring the composition to a logical close. A conclusion can include a summary of the main points, a call to action, a question, or a proposed solution.
 
 ## References
 
@@ -156,4 +156,3 @@ In conclusion, Open Assistant (OA) is a chat-based, open-source assistant design
 - <https://projects.laion.ai/Open-Assistant/docs/guides/developers>
 - <https://open-assistant.io/>
 - <https://huggingface.co/EleutherAI>
-

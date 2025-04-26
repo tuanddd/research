@@ -13,7 +13,7 @@ In the Dwarves Foundation, we applied some practices to decrease the operation c
 - Apply K8s in the production.
   We have followed and used the Elixir stack for several years. In the beginning, we used docker for production and vertical scaling. We didn't use the super-powerful of [Erlang and OTP](https://www.erlang.org/). When constructing Elixir applications, setting up an Erlang node cluster could be required for several factors, including high availability, redundancy, or the requirement to share a global state without relying on an external DBMS.
 
-## The problem and Motivation
+## The problem and motivation
 
 We consistently applied the latest practice in the development life cycle. Dwarves Foundation changed languages, toolsets, architectures, and development processes to build high-performance products. We're using Golang and Elixir in the production environment.
 
@@ -303,4 +303,3 @@ In the meantime, we can take advantage of Elixir's power. We can easy to scale t
 - https://medium.com/@groksrc/elixir-kubernetes-part-3-9bbd71c9c370
 - https://mbuffa.github.io/tips/20201022-elixir-clustering-on-kubernetes/
 - https://github.com/hieuphq/ex_cluster
-

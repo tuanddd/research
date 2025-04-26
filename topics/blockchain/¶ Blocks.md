@@ -56,17 +56,17 @@ Block explorers provide information about uncle blocks like:
 
 ![](assets/blocks_eqhpghw.webp)
 
-### 3. Block Time
+### 3. block time
 
 Block time refers to the time it takes to mine a new block. In Ethereum, the average block time is between 12 to 14 seconds and is evaluated after each block. The expected block time is set as a constant at the protocol level and is used to protect the network's security when the miners add more computational power. The average block time gets compared with the expected block time, and if the average block time is higher, then the difficulty is decreased in the block header. If the average block time is smaller, then the difficulty in the block header will be increased.
 
 A new block can be rejected, please be careful with the new block, You need to wait for maximum node to verify this block before use.
 
-### 4. Block Size
+### 4. block size
 
 A final important note is that blocks themselves are bounded in size. Each block has a target size of 15 million gas but the size of blocks will increase or decrease in accordance with network demands, up until the block limit of 30 million gas (2x target block size). The total amount of gas extended by all transactions in the block must be less than the block gas limit. This is important because it ensures that blocks can’t be arbitrarily large. If blocks could be arbitrarily large, then less performant full nodes would stop being able to keep up with the network due to space and speed requirements.
 
-### 5. Mining's Relationship to Blocks
+### 5. mining's relationship to blocks
 
 Mining is the term used for solving the number that is the nonce, the only number that can be changed in a block header. It is also the process the cryptocurrency's network uses if proof-of-work is used in the protocol.
 
@@ -81,4 +81,3 @@ Gas is used to estimate the difficulty of all transactions in the block. Every f
 #### Reference
 
 https://ethereum.org/en/developers/docs/blocks/
-

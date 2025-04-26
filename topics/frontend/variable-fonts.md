@@ -1,5 +1,5 @@
 ---
-title: Variable Fonts
+title: Variable fonts
 description: Variable fonts are a font format that allows for a single font file to contain multiple variations of a typeface.
 date: 2023-03-06
 authors:
@@ -20,7 +20,7 @@ Variable fonts - officially known as OpenType Font Variations - are a font forma
 
 Weights, widths and other properties are also called **"axes" of variations**.
 
-### Axes of Variations
+### Axes of variations
 
 In typography and font design, "axes of variation" refer to the different characteristics or parameters of a font that can be modified or adjusted to create different font styles or variations. These variations can include parameters such as font weight, width, slant, optical size, and more.
 
@@ -61,9 +61,9 @@ You can also visit these websites:
 - [VariableFonts.io](https://variablefonts.io/)
 - [VariableFonts.TypeNetwork.com](https://variablefonts.typenetwork.com/)
 - [Axis-Praxis](https://www.axis-praxis.org/)
-- [Variable Fonts](https://v-fonts.com/)
-- [Font Playground](https://play.typedetail.com/)
-- [Very Able Fonts](https://www.very-able-fonts.com/)
+- [Variable fonts](https://v-fonts.com/)
+- [Font playground](https://play.typedetail.com/)
+- [Very able fonts](https://www.very-able-fonts.com/)
 
 ## How do we use variable fonts (as a developer)?
 
@@ -113,4 +113,3 @@ Beyond that, we depends on how the fonts were built & what custom axes they are 
 - https://www.youtube.com/watch?v=0fVymQ7SZw0&list=WL&index=1&t=247s&ab_channel=KevinPowell
 - https://fonts.google.com/knowledge/introducing_type/introducing_variable_fonts
 - https://web.dev/variable-fonts/
-

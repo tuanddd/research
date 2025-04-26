@@ -1,6 +1,6 @@
 ---
 title: Base model
-description: The BASE model is a flexible NoSQL data approach focusing on Basic Availability, Soft-state, and Eventual consistency to enable scalable and loosely consistent distributed databases.
+description: The BASE model is a flexible NoSQL data approach focusing on Basic availability, Soft-state, and Eventual consistency to enable scalable and loosely consistent distributed databases.
 date: 2022-04-18
 github_id: monotykamary
 ---
@@ -9,7 +9,7 @@ github_id: monotykamary
 
 BASE is an acronym for describing a flexible way to manipulate data. With requirements for NoSQL databases, the BASE model came to be as a less pessimistic approach of the [[ACID model]] when handling data. The acronym stands for:
 
-- **Basic Availability:** The database is available and should work most of the time.
+- **Basic availability:** The database is available and should work most of the time.
 - **Soft-state:** Data stores don't have to be completely write-consistent or require mutual consistency between replicas.
 - **Eventual consistency**: The database is lazily consistent, meaning it ensures data consistency at a later point.
 
@@ -23,4 +23,3 @@ The BASE model loosely refers to distributed data stores, which means these data
 
 - https://phoenixnap.com/kb/acid-vs-base
 - https://neo4j.com/blog/acid-vs-base-consistency-models-explained/
-

@@ -1,5 +1,9 @@
 ---
-tags: elixir
+title: null
+description: null
+date: null
+tags:
+  - elixir
 ---
 
 chrismccord [10:14 PM] @alanpeabody yes, it's straightforward

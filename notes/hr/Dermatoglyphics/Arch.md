@@ -1,5 +1,10 @@
 ---
-tags: fingerprint, HR
+title: null
+description: null
+date: null
+tags:
+  - fingerprint
+  - hr
 ---
 
 Arch type accounts for 5% (5 main types): no intersection
@@ -15,5 +20,5 @@ Arch type accounts for 5% (5 main types): no intersection
 
 #### Reference
 
-- [Identify & Catergorize Fingerprints](https://lindanga.com/nhan-dien-phan-loai-dau-van-tay/)
-- [Classify Fingerprints](https://www.youtube.com/watch?v=D-vJ7jylkf8)
+- [Identify & catergorize fingerprints](https://lindanga.com/nhan-dien-phan-loai-dau-van-tay/)
+- [Classify fingerprints](https://www.youtube.com/watch?v=D-vJ7jylkf8)

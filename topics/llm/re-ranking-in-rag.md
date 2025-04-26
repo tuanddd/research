@@ -114,4 +114,3 @@ Re-ranking in Retrieval-Augmented Generation (RAG) systems is an essential compo
 - https://cohere.com/blog/rerank
 - https://cohere.com/rerank
 - https://www.rungalileo.io/blog/mastering-rag-how-to-select-a-reranking-model
-

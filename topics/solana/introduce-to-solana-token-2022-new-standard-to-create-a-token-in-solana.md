@@ -1,5 +1,5 @@
 ---
-title: Introduce to Solana Token 2022 - new standard to create a token in solana
+title: Introduce to Solana token 2022 - new standard to create a token in Solana
 description: Explore Solana Token 2022, the next-generation token standard on Solana blockchain. Learn about its key features like transfer fees, non-transferable tokens, and confidential transfers. Discover how Token Extensions enhance functionality, improve security, and enable regulatory compliance for developers and businesses in the Solana ecosystem.
 date: 2024-06-19
 authors:
@@ -16,7 +16,7 @@ tags:
 
 Solana Token 2022 Program (Token extensions) is the next generation of the Solana Program Library standard. Token extensions introduce a new set of ways to extend the normal token functionality. The original Token program brought the basic capabilities of minting, transferring and freezing tokens. The Token Extensions program includes the same features, but come with additional features such as confidential transfers, custom transfer logic, extended metadata, and much more.
 
-## Key Features
+## Key features
 
 ![](assets/introduce-to-solana-token-2022-new-standard-to-create-a-token-in-solana-2.webp)
 
@@ -93,4 +93,3 @@ Token extensions are already seeing adoption across the ecosystem.
 ## References
 
 https://solana.com/developers/guides/token-extensions/getting-started
-

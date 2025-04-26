@@ -22,4 +22,3 @@ They should develop and communicate processes that clearly delineate the roles a
 Hammontree, Monty. _“The Future of UX Research.”_ Medium (blog), September 26, 2019. [Link](https://medium.com/microsoft-design/the-future-of-ux-research-14fe63743c1d).
 
 Usertesting.com. _“Scaling Research for Better CX.”_ Usertesting.com, 2019. [Link](https://info.usertesting.com/rs/220-GOX-255/images/scaling-research-for-better-cx-ebook.pdf).
-

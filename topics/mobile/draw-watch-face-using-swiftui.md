@@ -1,5 +1,5 @@
 ---
-title: Draw Watch Face Using Swiftui
+title: Draw watch face using SwiftUI
 description: Learn how to create a custom watch face with circular bezel, ticks, numbers, and moving hands using SwiftUI Shapes, Paths, and real-time updates in this step-by-step guide.
 date: 2020-03-23
 tags:
@@ -19,7 +19,7 @@ First of all, let split watch to small components for easy coding. A watch has t
 
 As usual, open Xcode and create new project, don’t forget to choose SwiftUI, add new SwiftUI file and named it Watch.
 
-### Draw Circular Bezel
+### Draw circular bezel
 
 Path is similar to BenzierPath, you can draw Oval, rectangle, line, arc using Path.
 I choose Arc for now. Later on we can using Arc, Oval or Circle to make different watch face style.
@@ -35,7 +35,7 @@ the Act function required center point, starting angle and ending angle, we need
 
 Try our new Arc struct, nice we have a black circle, you can try replace stroke(lineWidth) by fill() and see what happened, also try different starting and ending angle to see what happened.
 
-### Draw Ticks-Markers
+### Draw ticks-markers
 
 Create new Struct Named Tick, it also conform to Shape.
 This tick shape simple draw a line front top center down to 5 points
@@ -63,7 +63,7 @@ Let change our Tick and Ticks View a bit to add this extra.
 
 We have finished draw ticks, let move on hour Numbers.
 
-### Draw Numbers
+### Draw numbers
 
 This use the same technique with [my previous article](https://medium.com/@phanviettrung/create-circular-text-using-swiftui-32cd7e5b6414), feel free to read it.
 
@@ -79,7 +79,7 @@ Try it and We got beautiful numbers indicator.
 
 ![](assets/draw-watch-face-using-swiftui_135752868b2e9b57c2e9b252a68d6a2d_md5.webp)
 
-### Draw Hour, Minus, and Second Hands
+### Draw hour, minus, and second hands
 
 Make a pad circle for our Watch Hands. This completed by helping of building circle
 
@@ -144,4 +144,3 @@ You can change Arc to Circle, mix with different color to get more watch face
 ![](assets/draw-watch-face-using-swiftui_8650c87b9f9651707bb5969d0d0fbe6d_md5.webp)
 
 View more at: [https://github.com/viettrungphan/SwiftUIGeometryPractice](https://github.com/viettrungphan/SwiftUIGeometryPractice)
-

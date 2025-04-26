@@ -1,5 +1,12 @@
 ---
-tags: writing, idea, innovation, decontextualizing
+title: null
+description: null
+date: null
+tags:
+  - writing
+  - idea
+  - innovation
+  - decontextualizing
 ---
 
 Ideas are not self-contained, discrete objects. Rather, they emerge as connections between different thoughts and concepts.

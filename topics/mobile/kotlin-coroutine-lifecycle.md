@@ -7,7 +7,7 @@ github_id: khanhtruong
 
 As you may know about coroutine previously, coroutine is a structured concurrency, which means it can control flow to ensure that every concurrent tasks work well until it completed or being canceled. Because of that, each coroutine have it own lifecycle and scope, represent by CoroutineContext and CoroutineScope.
 
-## Coroutine context vs Coroutine scope
+## Coroutine context vs coroutine scope
 
 Before we dive in coroutine lifecycle, we should know the difference between `coroutine context` and `coroutine scope`, so that we don't misunderstand them.
 
@@ -133,4 +133,3 @@ In this article, we know the difference between CoroutineScope and CoroutineCont
 - [Kotlin-doc: CoroutineContext & Dispatchers](https://kotlinlang.org/docs/coroutine-context-and-dispatchers.html)
 - [Kotlin-doc: Job](https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-job/)
 - [Kotlin-doc: Cancellation](https://kotlinlang.org/docs/cancellation-and-timeouts.html#cancellation-is-cooperative)
-

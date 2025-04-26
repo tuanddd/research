@@ -1,5 +1,5 @@
 ---
-title: Architecture Decision Record
+title: Architecture decision record
 description: Learn how Architecture Decision Records (ADR) help teams document software choices, improve project clarity, and guide newcomers with clear context, solutions, and consequences for better long-term development.
 date: 2020-03-27
 tags:
@@ -9,7 +9,7 @@ tags:
 
 There is an issue that every team will inevitably bump into. Newbies might get confused when a project is being developed. They wonder how that code was written, how we ended up choosing that architecture. It somehow leads to finger-point, and even the decision-maker himself can't remember how that decision was taken.
 
-That happens in a long-term project, and that's fine. We believe we're not the only one who gets that, so we'd like to gather you all and tackle this today by a practice called Architecture Decision Record (ADR)
+That happens in a long-term project, and that's fine. We believe we're not the only one who gets that, so we'd like to gather you all and tackle this today by a practice called Architecture decision record (ADR)
 
 ## So the main list item would be
 
@@ -61,18 +61,18 @@ ADR can be in different ways. After full observation, we have selected the most 
 - Immutable Record: the decision is finalized and cannot be altered
 - Specificity: and ADR should only be about _one_ decision only
 
-## Good Context
+## Good context
 
 Provide the ADR with the current system and business context.
 This helps drive the broader view and the business situation at that time.
 
-## Good Consequences
+## Good consequences
 
 The right approach explains the result from making that decision and how it adjusts the current business status.
 
 ## Template of an ADR
 
-### Alexandrian Pattern
+### Alexandrian pattern
 
 - Prologue (a summary)
 - Discussion (Context)
@@ -84,4 +84,3 @@ The right approach explains the result from making that decision and how it adju
 [https://github.com/npryce/adr-tools/](https://github.com/npryce/adr-tools/)
 
 We also had some discussion afterward, demos, and Q&A sessions. But that was a brief intro of how an ADR practice should be adopted.
-

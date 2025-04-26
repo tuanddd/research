@@ -198,7 +198,7 @@ EXPLAIN ANALYZE SELECT * FROM tweets WHERE content ILIKE '%needles%' OR content 
 | Planning Time: 1.777 ms                                                                                         |
 | Execution Time: 1445.618 ms                                                                                     |
 
-### Full-text Search
+### Full-text search
 
 ```sql
 
@@ -235,4 +235,3 @@ Examples in this post are demonstrated with `Postgresql >= 11.x` and use `tweets
 - https://wiki.postgresql.org/images/2/25/Full-text_search_in_PostgreSQL_in_milliseconds-extended-version.pdf
 - https://www.compose.com/articles/mastering-postgresql-tools-full-text-search-and-phrase-search/
 - SQL Performance Explained by Markus Winand (Book)
-

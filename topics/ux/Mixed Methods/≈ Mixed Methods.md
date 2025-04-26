@@ -15,7 +15,7 @@ Ladner outlines the different strengths and weaknesses of qualitative and quanti
 - [[¶ Deductive reasoning]]
 - [[¶ Inductive reasoning]]
 
-### Qualitative and Quantitative Research methods
+### Qualitative and quantitative research methods
 
 - [[Qualitative and quantitative research methods each have trade-offs]]
 - [[Qualitative and quantitative research represent different philosophies of knowledge]]
@@ -24,4 +24,3 @@ Ladner outlines the different strengths and weaknesses of qualitative and quanti
 ### Analytics data
 
 - [[Collecting analytics data is not the same as doing research]]
-

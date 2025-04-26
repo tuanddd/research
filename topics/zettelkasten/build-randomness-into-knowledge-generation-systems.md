@@ -19,4 +19,3 @@ Better, then, to incorporate the possibility of randomness into our knowledge ma
 #### Citation
 
 Luhmann, Niklas. _“Communicating with Slip Boxes.”_ Translated by Manfred Kuehn. Two Essays by Niklas Luhmann. Accessed October 19, 2020. https://luhmann.surge.sh/communicating-with-slip-boxes
-

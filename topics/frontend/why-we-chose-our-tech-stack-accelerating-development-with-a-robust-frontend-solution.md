@@ -1,5 +1,5 @@
 ---
-title: Why We Chose Our Tech Stack Accelerating Development With A Robust Frontend Solution
+title: Why we chose our tech stack accelerating development with a robust frontend solution
 description: "We pride ourselves on being a team of seasoned technology experts, passionate about crafting innovative solutions for our clients. With years of experience in the technology industry, we understand the importance of selecting the right tools and technologies to deliver exceptional results. In today's fast-paced world, staying ahead of the competition requires building and deploying features quickly without sacrificing quality or stability."
 date: 2023-03-20
 authors:
@@ -66,7 +66,7 @@ Our frontend applications rely on a thoughtfully designed, multi-layered archite
 
 The service connector layer is responsible for handling communication between the frontend and backend services. We utilize the Fetch API for all our API calls. By integrating the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) with SWR, we can efficiently manage API requests, caching, and error handling. This combination ensures a fast and reactive user experience while maintaining a clean and organized codebase.
 
-### State Management: React Context and SWR
+### State management: React Context and SWR
 
 In the state management layer, React Context is used for managing local state, while SWR handles global state and caching. This combination allows us to manage state effectively at different levels of the application, ensuring that components have access to the data they need without unnecessary prop drilling. The use of React Context and SWR enables smooth data flow and seamless updates across components, resulting in a highly reactive and efficient user interface.
 
@@ -82,7 +82,7 @@ It's worth noting that while popular libraries like **[Ant Design](https://ant.d
 
 One potential drawback of using TailwindCSS and HeadlessUI is the need to assemble and style components from scratch, which may seem time-consuming initially. However, by investing in creating reusable and customizable components tailored to our design requirements, we ensure a more consistent and maintainable codebase. Additionally, this approach allows us to retain full control over the appearance and behavior of our components, avoiding the need to override default styles provided by pre-built component libraries.
 
-## Prioritizing Testing
+## Prioritizing testing
 
 A critical aspect of developing robust and reliable applications is implementing thorough testing. We understand the importance of a comprehensive testing strategy that covers every aspect of our frontend applications, from unit tests to integration tests and end-to-end tests.
 
@@ -105,4 +105,3 @@ Our meticulously selected frontend tech stack enables Dwarves Foundation to keep
 Ultimately, our robust tech stack, architecture, and testing practices contribute to our ability to stay ahead of the competition and deliver exceptional user experiences that meet the dynamic and challenging demands of today's technology landscape.
 
 If you're seeking a technology partner with expertise in creating scalable, high-performance frontend solutions, we invite you to reach out to the Dwarves Foundation team for a consultation. We're eager to learn about your unique challenges and explore how we can help you succeed. To get in touch and learn more about our services, please visit our contact page at **[https://dwarves.foundation/contact/](https://dwarves.foundation/contact/)**. Let's work together to bring your vision to life!
-

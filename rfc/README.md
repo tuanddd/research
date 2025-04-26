@@ -47,7 +47,7 @@ Copy this template to get started:
 
 **authors:** [Your Github]
 **Date:** [YYYY-MM-DD]
-**Status:** Draft | In Review | Approved | Rejected | Implemented
+**Status:** Draft | In review | Approved | Rejected | Implemented
 
 ## Summary
 
@@ -78,7 +78,7 @@ List any unresolved questions that need team input.
 ## RFC process
 
 1. **Draft**: Initial creation and personal refinement
-2. **In Review**: Open for team feedback and discussion
+2. **In review**: Open for team feedback and discussion
 3. **Approved**: Ready for implementation
 4. **Rejected**: Not moving forward (with documented reasons)
 5. **Implemented**: Successfully completed
@@ -92,4 +92,3 @@ List any unresolved questions that need team input.
 - Update the RFC as discussions progress
 
 The goal is thoughtful collaboration, not perfect documents. Share your ideas early and iterate based on feedback!
-

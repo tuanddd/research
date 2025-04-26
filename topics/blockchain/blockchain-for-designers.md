@@ -1,5 +1,5 @@
 ---
-title: Blockchain For Designers
+title: Blockchain for designers
 description: Learn how blockchain technology solves trust issues with decentralization, transparency, and immutability, and discover key design principles to create user-friendly blockchain products.
 date: 2020-05-04
 tags:
@@ -13,7 +13,7 @@ Recently, **Bitcoin** and **Blockchain** become popular, they are the trending a
 
 In this article, we are not going to talk deeply about the definition and the way it works. We explain Blockchain in a simpler way, by sharing the challenges we have met in the process of designing a product basing on Blockchain technology.
 
-## Understand Blockchain
+## Understand blockchain
 
 ### Why Blockchain?
 
@@ -30,7 +30,7 @@ Blockchain operates in a decentralized form, which makes all information and tra
 
 The capabilities that Blockchain offers to solve these problems are explained in how a blockchain is structured.
 
-### What is Blockchain
+### What is blockchain
 
 ![](assets/blockchain-for-designers_e1bfa96832cd4042e417869a7c426a77_md5.webp)
 
@@ -67,7 +67,7 @@ No one can tamper data in a Blockchain network and thus it’s an immutable plat
 
 ![](assets/blockchain-for-designers_a533a30cdbb6139ad9f5f98a57b9b558_md5.webp)
 
-## Help user to believe in the value of Blockchain
+## Help user to believe in the value of blockchain
 
 Blockchain is very complicated. Speaking of Blockchain, most people, especially not so tech-savvy ones, thought it was the movement of numbers, codes, magic, or whatever stored in some cloud in the sky. Some people even mistakenly believe that Blockchain is bitcoin and call it virtual money.
 
@@ -144,4 +144,3 @@ The key value proposition of Blockchain is to provide users with transparency an
 Thus, design for Blockchain is the most critical challenge for raising adoption. Effective UX design is essential to create useful and valuable applications. This keeps end-users comfortable and, eventually, forget about the sophisticated underlying technology.
 
 Although Blockchain will change and develop in the future, the principle remains the same. That means product designers must always stay posted on new tech that can become a savior for users' pain points.
-

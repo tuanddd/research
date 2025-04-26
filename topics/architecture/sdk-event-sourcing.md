@@ -1,6 +1,6 @@
 ---
-title: Sdk Event Sourcing
-description: Learn how Software Development Kits (SDKs) provide tools and APIs for app development, and discover how Event Sourcing manages data communication between systems efficiently.
+title: Sdk event sourcing
+description: Learn how Software Development Kits (SDKs) provide tools and APIs for app development, and discover how Event sourcing manages data communication between systems efficiently.
 date: 2020-05-21
 tags:
   - event-sourcing
@@ -18,11 +18,11 @@ Let's take a cellphone for an example. Every cellphone has an operating system w
 - Interact with files
 - Manage cookies
 
-## Event Sourcing
+## Event sourcing
 
-Event Sourcing is a term for an architecture that is designed for interaction/ communication between app A and app B. Event Sourcing acts as a message-oriented middleware where data is stored and sorted on prioritized order, and ready to be called out for communication purpose between parties.
+Event sourcing is a term for an architecture that is designed for interaction/ communication between app A and app B. Event sourcing acts as a message-oriented middleware where data is stored and sorted on prioritized order, and ready to be called out for communication purpose between parties.
 
-Consider Event Sourcing as a mailbox to store the data for communication.
+Consider Event sourcing as a mailbox to store the data for communication.
 
 - event: stands for data
 - sourcing: where the data comes from
@@ -46,9 +46,8 @@ Tiki is a marketplace for good tradings. Let's say TIKI has 3 types of parties
 - Delivery status
 - Goods returning
 
-The data between parties has a connection with each other, and it needs interaction to smooth the process of goods handling and delivery. Different types of data (events) from different parties (source) will need a system to filter and organize it with prioritized order to make sure the communication goes smoothly, that's what Event Sourcing is all about. \_\_
+The data between parties has a connection with each other, and it needs interaction to smooth the process of goods handling and delivery. Different types of data (events) from different parties (source) will need a system to filter and organize it with prioritized order to make sure the communication goes smoothly, that's what Event sourcing is all about. \_\_
 
-## React Hook
+## React hook
 
 Hooks are functions that let you “hook into” React state and lifecycle features from function.
-

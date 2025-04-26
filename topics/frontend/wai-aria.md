@@ -101,4 +101,3 @@ WAI-ARIA will become handy in some cases as listed below:
 - https://www.maxability.co.in/trainings/advanced-web-accessibility-testing/what-is-wai-aria
 - https://www.w3.org/WAI/ARIA/apg/example-index/button/button
 - https://pressbooks.library.torontomu.ca/wafd/chapter/wai-aria-landmarks/#:~:text=WAI%2DARIA%20landmarks%20are%20used,bypass%20links%20and%20page%20headings
-

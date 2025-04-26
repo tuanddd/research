@@ -1,5 +1,5 @@
 ---
-title: State, Explain, Link - An all-purpose writing technique
+title: State, explain, link - An all-purpose writing technique
 description: State, explain, link is a basic style for organizing and explaining ideas in an understandable way. This technique may have many names, but in essence it is a way to organize paragraphs in roughly 3 sentences or more.
 date: 2022-03-21
 authors:
@@ -50,4 +50,3 @@ You can basically apply this semantic technique anywhere there is English. It is
 - [https://blog.masterofproject.com/six-sigma-method/](https://blog.masterofproject.com/six-sigma-method/)
 - [https://money.cnn.com/2016/10/11/technology/samsung-galaxy-note-7-what-next/index.html](https://money.cnn.com/2016/10/11/technology/samsung-galaxy-note-7-what-next/index.html)
 - [https://www.youtube.com/watch?v=x2-rSnhpw0g](https://www.youtube.com/watch?v=x2-rSnhpw0g)
-

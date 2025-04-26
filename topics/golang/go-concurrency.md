@@ -1,5 +1,5 @@
 ---
-title: Go Concurrency
+title: Go concurrency
 description: "A comprehensive guide to concurrency in Go, covering goroutines, channels, and the Go scheduler. This article explains the differences between concurrency and parallelism, dives into the implementation details of channels, and explores the inner workings of the Go scheduler. It provides insights into how Go's concurrency model compares to other languages and offers a deep understanding of Go's efficient approach to managing concurrent tasks."
 date: 2019-12-04
 authors:
@@ -15,7 +15,7 @@ When we talk about Golang, its most basic and popular characteristic is concurre
 
 Firstly, we need to know Go is a concurrent language and not a parallel one. So what is the difference from concurrency and parallelism?
 
-### Concurrency vs Parallelism
+### Concurrency vs parallelism
 
 Concurrency means “out of order” execution. Another concept talk about concurrency as the capability to deal with lots of things at once. It's best explained with an example in real life: During playing Dota 2, let’s say, my mom asked me to buy something. Now i stop playing, go to the grocery and then starts playing again with rebuke of my team. This is a basic example of concurrency. In computing, concurrency is represented by the state when two or more tasks can start, run, and complete in overlapping time periods. It doesn't necessarily mean they'll ever both be running at the same time. Multitasking on a single-core machine is an example.
 
@@ -163,4 +163,3 @@ There are four classes of events that occur in your Go programs that allow the s
 - The use of the keyword go
 - Garbage collection
 - System calls
-

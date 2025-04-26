@@ -1,15 +1,15 @@
 ---
 title: Hadoop distributed file system hdfs
-description: Learn why Hadoop Distributed File System HDFS is essential for big data, enabling block-based storage, fault tolerance through replication, and scalable distributed file management across clusters.
+description: Learn why Hadoop Distributed File system HDFS is essential for big data, enabling block-based storage, fault tolerance through replication, and scalable distributed file management across clusters.
 date: 2022-06-15
 github_id: dudaka
 ---
 
 ## HDFS - Why Another FileSystem?
 
-HDFS (Hadoop Distributed File System) takes care of all the storage related complexities in Hadoop. Why is there a need for another file system like HDFS?
+HDFS (Hadoop Distributed File system) takes care of all the storage related complexities in Hadoop. Why is there a need for another file system like HDFS?
 
-### File System
+### File system
 
 ![](assets/hadoop-distributed-file-system-hdfs_file-system-hdfs.png)
 
@@ -17,13 +17,13 @@ File system is an integral part of every operating system, it basically governs 
 
 There are some of the major functions of a file system. File system controls how the data is stored and retrieved. Basically, when you read and write files to your hard disk your request goes through a file system. Next, file system has the metadata about your files and folders. Metadata information like file name, size, owner, created/modified time, etc. File system also takes care of permissions and security. File system manages your storage space, so when you ask to write a file to hard disk file system helps figure out where in the hard disk it should write the file. And it should write the file as efficiently as possible.
 
-### Different File Systems
+### Different file systems
 
 The most legendary file system from Microsoft is FAT32. Maximum file size that a Fat32 file system can support is 4GB. If we have a file which is 5GB in size, we're out of luck with FAT32 and it has a 32GB volume limit or a logical drive limit. Thefore, our drive can be of size 32GB and not more with FAT32. The size limits can be more or less based on the file system configuration. So, if we use windows 95 or 98, we probably use FAT32.
 
-Next generation file system from Windows after FAT32 is NTFS (New Technology File System) and it supports 16 Exabyte file and volume limit of 16 Exabyte, that is a very huge number, which is 1024 Petabytes. Therefore, NTFS can clearly support huge volume of data. Starting Windows Server 2012, Windows introduced ReFS (Resilient File System).
+Next generation file system from Windows after FAT32 is NTFS (New Technology File system) and it supports 16 Exabyte file and volume limit of 16 Exabyte, that is a very huge number, which is 1024 Petabytes. Therefore, NTFS can clearly support huge volume of data. Starting Windows Server 2012, Windows introduced ReFS (Resilient File system).
 
-How about file systems from MAC? HFS (Hierarchical File System) is a legacy file system from Mac Apple that started using HFS+ from MAC OS 8.1 and above. For example, if we used iPod, we would have used HFS+. HFS+ can also handle a huge volume of data up to 8 Exabytes in size.
+How about file systems from MAC? HFS (Hierarchical File system) is a legacy file system from Mac Apple that started using HFS+ from MAC OS 8.1 and above. For example, if we used iPod, we would have used HFS+. HFS+ can also handle a huge volume of data up to 8 Exabytes in size.
 
 Now, that is about Linux, ext is the most popular file system in Linux. ext3 is the third generation file system in use since 2001, then came ext4. ext4 can support individual file sizes up to 16 Terabytes and volumes up to 1 Exabyte. Next, XFS is created by Silicon Graphics and it can support up to 8 exabytes in file and volume limit. We look up your file system in Linux with command `df -T`.
 
@@ -35,7 +35,7 @@ Assume that we have a 10 node cluster and we have ext4 as the file system on eac
 
 Next, our file system should have a distributed view of the files or blocks in the cluster which is not possible with our local file system which is ext4. As shown in the above image, our local ext4 file system on Node 1 has no idea what is on Node 2. Similarly, Node 2 has no idea of what is in Node 1. Since the ext4 file systems in both Node 1 and Node 2 are local to each node, there is no way they can have a global or distributed view of the entire 10 node cluster. That is why we say the ext4 on individual nodes as local file systems. Next important thing is replication which adds a lot of complexity. Since ext4 in Node 1 has no idea about storage in any other node, it does not have the ability to replicate blocks in Node 1 to the other nodes. Therefore, we are exposed to data loss.
 
-Now, assume we have a file system on top of ext4 but only this time it spreads across all the nodes. We call that file system, Hadoop Distributed File System Then, when you upload a file to HDFS it will automatically be split into 128MB-fixed size blocks. In the older versions of Hadoop, the file was divided into 64MB-fixed size blocks. HDFS takes care of placing the blocks in different nodes and also take care of replicating each block into more than one node. By default, hdfs replicates a block to three nodes. If we copy a 700 MB dataset into HDFS, HDFS will divide the data set into 128MB blocks. Thus, we will have 5 equal sized 128MB block and one 60MB block.
+Now, assume we have a file system on top of ext4 but only this time it spreads across all the nodes. We call that file system, Hadoop Distributed File system Then, when you upload a file to HDFS it will automatically be split into 128MB-fixed size blocks. In the older versions of Hadoop, the file was divided into 64MB-fixed size blocks. HDFS takes care of placing the blocks in different nodes and also take care of replicating each block into more than one node. By default, hdfs replicates a block to three nodes. If we copy a 700 MB dataset into HDFS, HDFS will divide the data set into 128MB blocks. Thus, we will have 5 equal sized 128MB block and one 60MB block.
 
 Since hdfs has a distributed view of the cluster, it can easily decide which nodes should hold these 6 blocks and also pick the nodes to hold the replicated blocks HDFS will continue to creep track of all the blocks and their node assignments all the time. So when a user asked about the 700 MB data set, it knows how to construct the file from the blocks.
 
@@ -188,7 +188,7 @@ hadoop fs -rm -r hadoop-test2
 hadoop fs -rm -r hadoop-test3
 ```
 
-## HDFS - Read & Write
+## HDFS - read & write
 
 Copying from local to HDFS does a write operation to HDFS because from the local file system we are writing a file into HDFS. Whereas copy from HDFS to local does a read operation because it reads a file from HDFS and write it to the local file system. We know that a file or data set is divided into chunks of blocks and stored across the nodes in the cluster. Imagining that we are the client and we are trying to read a file from HDFS and how do we know where the blocks are physically stored?
 
@@ -216,13 +216,13 @@ Let's consider to the example showing in the above image, we have two racks: Rac
 
 For a crash scenario, client is reading block number 3 and the data node it is trying to read from is not responding. The client will take a note of the data node which is not responding, it will not try to reach the same data node again for the current read operation. And it will move on to the next data node that has the copy of the block from the list sent by the name node. Therefore, even when a data node is down during the read operation, the read operation continued to progress without any issues.
 
-### Write Operation
+### Write operation
 
 ![](assets/hadoop-distributed-file-system-hdfs_read-operation.png)
 
 Now, we want to write a file to HDFS using `hadoop fs -copyFromLocal` command. Behind the scenes, when a client request a write operation, it will request the name node to allocate blocks for the file and the list of data nodes for each block where the replicas for each block needs to be stored. The name node will do few checks to make sure whether the user requesting the right operation has proper permission to do so and whether the file name already exists in the directory etc. When all the checks are okay, it will proceed with the block allocation. The name node will now have to come up with a list of data nodes. While picking the data nodes to store the replica, the name node will pick the data nodes which are not busy and has enough space to hold the blocks.
 
-#### Replica Placement
+#### Replica placement
 
 ![](assets/hadoop-distributed-file-system-hdfs_replica-placement.png)
 
@@ -240,8 +240,7 @@ For example, the block we are writing is named Block 123. While writing Block 12
 
 ## References
 
-- [HDFS Architecture](http://svn.apache.org/repos/asf/hadoop/common/tags/release-0.19.2/docs/hdfs_design.pdf)
+- [HDFS architecture](http://svn.apache.org/repos/asf/hadoop/common/tags/release-0.19.2/docs/hdfs_design.pdf)
 - https://hadoop.apache.org/
 - https://en.wikipedia.org/wiki/Apache_Hadoop
-- [Hadoop: The Definitive Guide: Storage and Analysis at Internet Scale](https://www.amazon.com/Hadoop-Definitive-Storage-Analysis-Internet/dp/1491901632/ref=sr_1_2?crid=2LTQHKE9WNBNC&keywords=Hadoop&qid=1657604708&sprefix=hadoop%2Caps%2C127&sr=8-2)
-
+- [Hadoop: the definitive guide: storage and analysis at internet scale](https://www.amazon.com/Hadoop-Definitive-Storage-Analysis-Internet/dp/1491901632/ref=sr_1_2?crid=2LTQHKE9WNBNC&keywords=Hadoop&qid=1657604708&sprefix=hadoop%2Caps%2C127&sr=8-2)

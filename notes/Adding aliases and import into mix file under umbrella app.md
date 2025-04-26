@@ -1,5 +1,9 @@
 ---
-tags: elixir
+title: null
+description: null
+date: null
+tags:
+  - elixir
 ---
 
 Here is the content of my mix file: `.iex.exs`

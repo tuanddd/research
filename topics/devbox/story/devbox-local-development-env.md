@@ -15,15 +15,15 @@ tags:
 
 Welcome back to our Devbox series! Previously, we've explored the journey from the early days of virtualization to the widespread adoption of Docker. Finally, we try using Nix and Devbox to enhance software development process. If you need to catch up, you can check out the earlier posts here:
 
-- [Devbox #1: The world before Docker](devbox-a-world-before-docker.md)
-- [Devbox #2: Our Docker adoption and its challenges](devbox-docker-adoption-and-challenges.md)
-- [Devbox #3: The overview into Nix & how we use Devbox @ Dwarves](devbox-nix-and-our-devbox-adoption.md)
+- [Devbox #1: the world before Docker](devbox-a-world-before-docker.md)
+- [Devbox #2: our Docker adoption and its challenges](devbox-docker-adoption-and-challenges.md)
+- [Devbox #3: the overview into Nix & how we use Devbox @ Dwarves](devbox-nix-and-our-devbox-adoption.md)
 
 Beyond the theories, in this expanded part, we'll show how we use Devbox to create an isolated, reproducible, and portable local development environment.
 
 ![](assets/devbox-local-development-env_devbox.gif)
 
-## Engineering = Programming + Time + People
+## Engineering = programming + time + people
 
 Programming itself is challenging enough—solving problems by writing code that works. However, engineering extends this challenge: it involves ensuring that code continues to function over time and can be effectively managed and improved by a team of programmers that is changed continuously. This introduces complexities that go beyond initial development. As mentioned in the [What is Software Engineering?](https://research.swtch.com/vgo-eng)
 
@@ -134,4 +134,3 @@ You can find a practical example of using Devbox in [our memo repository](https:
 ## Conclusion
 
 In this installment, we've moved from theory to practice, demonstrating how Devbox creates an isolated, reproducible, and portable development environment. We've shown how to set up Devbox, install dependencies, and integrate it with a Makefile for ease of use. By addressing container runtime challenges, we've ensured a smooth development experience. We hope these insights help streamline your own workflows and enhance your development practices. Thank you for following along, and happy coding!
-

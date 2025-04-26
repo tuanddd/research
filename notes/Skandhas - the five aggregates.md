@@ -1,5 +1,11 @@
 ---
-tags: ux, process, skandhas
+title: null
+description: null
+date: null
+tags:
+  - ux
+  - process
+  - skandhas
 ---
 
 ![](http://payattention.ca/wp-content/uploads/2020/09/5aggregates-1080x675.jpg)

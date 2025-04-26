@@ -39,4 +39,3 @@ What other approaches did you consider? Why were they rejected?
 ## Open questions
 
 List any unresolved questions that need team input.
-

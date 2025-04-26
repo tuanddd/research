@@ -1,6 +1,6 @@
 ---
-title: Team Copilots
-description: Team Copilots is a suite of AI assistants designed to enhance team collaboration and productivity. These copilots, built using Dify and custom implementations, help teams manage tasks, facilitate communication, and improve overall efficiency. This approach represents a shift towards AI-assisted team management, enhancing team performance and project success rates.
+title: Team copilots
+description: Team copilots is a suite of AI assistants designed to enhance team collaboration and productivity. These copilots, built using Dify and custom implementations, help teams manage tasks, facilitate communication, and improve overall efficiency. This approach represents a shift towards AI-assisted team management, enhancing team performance and project success rates.
 date: 2024-11-14
 authors:
   - monotykamary
@@ -10,11 +10,11 @@ tags:
   - copilots
 ---
 
-## Introduction to Team Copilots
+## Introduction to Team copilots
 
 Effective team management requires efficient task management, clear communication, and continuous improvement. Our suite of team copilots addresses these key areas by providing AI-assisted tools for managing tasks, facilitating communication, and enhancing productivity.
 
-## Copilot Index
+## Copilot index
 
 ### **Newsletter Summary Copilot**
 
@@ -45,8 +45,8 @@ Effective team management requires efficient task management, clear communicatio
 
 ### **Community Round-Up Copilot**
 
-- [Community Round-Up Copilot Discord](https://prompt.d.foundation/completion/cskRmAz3ZPLIcbex)
-- [Community Round-Up Copilot Memo](https://prompt.d.foundation/completion/FpSyX3iocUVo2s1N)
+- [Community round-up copilot discord](https://prompt.d.foundation/completion/cskRmAz3ZPLIcbex)
+- [Community round-up copilot memo](https://prompt.d.foundation/completion/FpSyX3iocUVo2s1N)
 - Compiles and summarizes community activities and discussions.
   - **Update period**: Month and year for the changelog
   - **Update content**: Key events, achievements, and news from the past month
@@ -61,4 +61,3 @@ Effective team management requires efficient task management, clear communicatio
 - [https://prompt.d.foundation/chat/cZmU6hYmwWpk2AmW](https://prompt.d.foundation/chat/cZmU6hYmwWpk2AmW)
 - Generates transcripts for YouTube videos, enhancing accessibility and content review.
 - ![YouTube Transcript Copilot](assets/youtube-transcriber.mp4)
-

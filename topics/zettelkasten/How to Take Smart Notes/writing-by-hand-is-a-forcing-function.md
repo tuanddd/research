@@ -17,4 +17,3 @@ Writing by hand forces us to slow down and write and take notes more mindfully, 
 #### Citations
 
 Tank, Aytekin. _“The Psychological Benefits of Writing by Hand.”_ Fast Company, November 23, 2020. https://www.fastcompany.com/90578555/the-psychological-benefits-of-writing-by-hand.
-

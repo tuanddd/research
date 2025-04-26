@@ -81,4 +81,3 @@ Beside those 2 most frequently used cameras, ThreeJS also provides various optio
 - https://www.vectorstock.com/royalty-free-vector/isometric-and-perspective-drawings-vector-7297379
 - https://wiki.freecadweb.org/index.php?title=File:Orthographic_Perspective.gif
 - https://www.celestron.com/blogs/knowledgebase/what-is-the-field-of-view-of-a-pair-of-binoculars
-

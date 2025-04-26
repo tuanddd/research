@@ -1,5 +1,10 @@
 ---
-tags: fingerprint, HR
+title: null
+description: null
+date: null
+tags:
+  - fingerprint
+  - hr
 ---
 
 Water (Loop) type accounts for 60 - 65% (3 main types): has a center and an intersection.
@@ -14,5 +19,5 @@ Water (Loop) type accounts for 60 - 65% (3 main types): has a center and an inte
 
 **Source**
 
-- [Identify & Catergorize Fingerprints](https://lindanga.com/nhan-dien-phan-loai-dau-van-tay/)
-- [Classify Fingerprints](https://www.youtube.com/watch?v=D-vJ7jylkf8)
+- [Identify & catergorize fingerprints](https://lindanga.com/nhan-dien-phan-loai-dau-van-tay/)
+- [Classify fingerprints](https://www.youtube.com/watch?v=D-vJ7jylkf8)

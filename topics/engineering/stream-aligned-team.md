@@ -23,7 +23,7 @@ Generally, stream-aligned teams require capabilities to progress work from its i
 - Testing and quality assurance
 - User experience (UX)
 
-## Expected Behaviors
+## Expected behaviors
 
 - A stream-aligned team attempts to deliver a steady stream of features.
 - Stream-aligned teams are capable of quickly adapting to changes as they arise.
@@ -37,4 +37,3 @@ Generally, stream-aligned teams require capabilities to progress work from its i
 ## Reference
 
 - _Team Topologies: Organizing Business and Technology Teams for Fast Flow by Manuel Pais and Matthew Skelton_
-

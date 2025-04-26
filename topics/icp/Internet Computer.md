@@ -1,5 +1,10 @@
 ---
-tags: blockchain, icp
+title: null
+description: null
+date: null
+tags:
+  - blockchain
+  - icp
 ---
 
 Internet Computer is a layer-1 protocol.

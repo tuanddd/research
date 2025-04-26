@@ -1,5 +1,5 @@
 ---
-title: Introversion vs Extraverion
+title: Introversion vs extraverion
 description: Discover key differences between introverted and extraverted traits, including mindset, behavior, and lifestyle preferences, to better understand your Myers-Briggs personality type.
 date: null
 URL: "https://drive.google.com/file/d/1n8ID_iXqzs6cMZlRS0Su7lQUhrfd7khh/view?usp=sharing"
@@ -32,4 +32,3 @@ Common Extraverted Traits:
 - Often more talkative (especially ENJs)
 - More world-reflective and world-aware
 - Require less time to themselves
-

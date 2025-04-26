@@ -19,10 +19,10 @@ Mixpanel is a powerful analytics platform that assists companies in monitoring a
 Some key features of Mixpanel include:
 
 1. **Real-time analytics**: Mixpanel offers data on user activity in real-time, enabling organizations to instantly see patterns and take wise decisions.
-2. **Custom Event Tracking**: Businesses can better understand how customers engage with their products by tracking custom events like button clicks, form submissions, and in-app payments using Mixpanel.
-3. **Funnels and Retention**: Mixpanel offers robust tools for funnel analysis to assist companies better understand how customers interact with their products and how to increase user retention.
-4. **People Analytics**: Mixpanel allows businesses to segment and understand their user base by tracking user behavior, demographics, and other key metrics.
-5. **Mobile Analytics**: Mixpanel offers robust mobile **analytics** **that** enable businesses to track user behavior on both iOS and Android platforms.
+2. **Custom event tracking**: Businesses can better understand how customers engage with their products by tracking custom events like button clicks, form submissions, and in-app payments using Mixpanel.
+3. **Funnels and retention**: Mixpanel offers robust tools for funnel analysis to assist companies better understand how customers interact with their products and how to increase user retention.
+4. **People analytics**: Mixpanel allows businesses to segment and understand their user base by tracking user behavior, demographics, and other key metrics.
+5. **Mobile analytics**: Mixpanel offers robust mobile **analytics** **that** enable businesses to track user behavior on both iOS and Android platforms.
 6. **Segmentation**: Mixpanel enables businesses to create custom segments of users, based on specific behaviors or attributes, to understand how different groups of users engage with their products.
 7. **Integration**: Mixpanel integrates with a wide range of tools, including popular CRM and marketing automation platforms, making it easy to use alongside other technologies.
 
@@ -80,4 +80,3 @@ You can observe all the events created by the users. ![](assets/mixpanel_user_ac
 
 - <https://developer.mixpanel.com/docs>
 - <https://www.npmjs.com/package/mixpanel-browser>
-

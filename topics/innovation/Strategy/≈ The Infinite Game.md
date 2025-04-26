@@ -1,5 +1,10 @@
 ---
-tags: business, strategy
+title: null
+description: null
+date: null
+tags:
+  - business
+  - strategy
 ---
 
 ### Notes

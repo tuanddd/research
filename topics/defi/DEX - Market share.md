@@ -1,5 +1,11 @@
 ---
-tags: blockchain, defi, dex
+title: null
+description: null
+date: null
+tags:
+  - blockchain
+  - defi
+  - dex
 ---
 
 Currently, DEX exchanges are competing for market share in the rapidly growing market.
@@ -25,5 +31,5 @@ Report on 7/7/2021
 
 #### Reference
 
-- [Decentralized Exchanges News 2021](<(https://defirate.com/dex/)>)
-- [Top Cryptocurrency Decentralized Exchanges](https://coinmarketcap.com/rankings/exchanges/dex/)
+- [Decentralized exchanges news 2021](<(https://defirate.com/dex/)>)
+- [Top cryptocurrency decentralized exchanges](https://coinmarketcap.com/rankings/exchanges/dex/)

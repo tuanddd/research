@@ -46,4 +46,3 @@ This interview structure can be used to uncover customer jobs-to-be-done.
 #### Citations
 
 Kalbach, Jim, and Michael Schrage. _The Jobs To Be Done Playbook: Align Your Markets, Organization, and Strategy Around Customer Needs_. New York: Two Waves Books, 2020.
-

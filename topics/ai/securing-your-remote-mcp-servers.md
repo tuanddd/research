@@ -669,4 +669,3 @@ A production-ready MCP Server must address several critical infrastructure conce
 By implementing this authorization framework for MCP over SSE, you establish a secure foundation for AI-to-tool communication that balances robust security with practical implementation requirements. The standardized approach enables seamless integration with existing identity infrastructure while maintaining the flexibility needed in diverse deployment environments.
 
 As the MCP ecosystem continues to evolve, this security foundation will support increasingly sophisticated interactions between AI systems and external tools, enabling new capabilities while maintaining appropriate security boundaries. By embracing open standards and security best practices, your MCP implementation will remain both secure and interoperable in a rapidly evolving AI landscape.
-

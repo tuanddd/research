@@ -1,5 +1,10 @@
 ---
-tags: go, generator
+title: null
+description: null
+date: null
+tags:
+  - go
+  - generator
 ---
 
 ### Story about generate a file

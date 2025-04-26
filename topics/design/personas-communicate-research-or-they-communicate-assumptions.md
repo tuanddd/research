@@ -27,4 +27,3 @@ Personas in general are a form of narrative. This means that they must be approa
 Harley, Aurora. _“Personas Make Users Memorable for Product Team Members.”_ Nielsen Norman Group (blog). Accessed October 10, 2020. [Link](https://www.nngroup.com/articles/persona/).
 
 Laubheimer, Page. _“3 Persona Types: Lightweight, Qualitative, and Statistical.”_ Nielsen Norman Group (blog). Accessed October 12, 2020. [Link](https://www.nngroup.com/articles/persona-types/).
-

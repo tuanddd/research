@@ -22,4 +22,3 @@ Misunderstandings and misconceptions should be anticipated and "pre-bunked," and
 #### Citations
 
 Blastland, Michael, Alexandra L. J. Freeman, Sander van der Linden, Theresa M. Marteau, and David Spiegelhalter. _“Five Rules for Evidence Communication.”_ Nature 587, no. 7834 (November 2020): 362–64. [Link](https://doi.org/10.1038/d41586-020-03189-1).
-

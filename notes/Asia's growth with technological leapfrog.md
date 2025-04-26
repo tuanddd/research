@@ -1,8 +1,13 @@
 ---
-tags: technology, asia
+title: null
+description: null
+date: null
+tags:
+  - technology
+  - asia
 ---
 
-### Current Status
+### Current status
 
 - Asia's initial response to COVID was partly enables by tech. The technological capabilities have been developed and deep-dived for decades and ready to use. This based on the large scale of global growth and investment in tech startups/ R7Ds.
 - The potential for leapfrog is more to come, but facing too much of tariffs and data flow barriers. -> A gap to overcome.

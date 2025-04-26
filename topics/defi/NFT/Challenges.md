@@ -1,8 +1,13 @@
 ---
-tags: blockchain, nft
+title: null
+description: null
+date: null
+tags:
+  - blockchain
+  - nft
 ---
 
-### Current Problem
+### Current problem
 
 _'The market and its demand are not enough to develop'_
 

@@ -26,4 +26,3 @@ Seaman, Mitchel. “The Right Number of User Interviews.” _Medium_ (blog), Oct
 Travis, David. “Why You Don’t Need a Representative Sample in Your User Research.” _Userfocus_ (blog). Accessed October 12, 2020. [Link](https://www.userfocus.co.uk/articles/myth-of-the-representative-sample.html).
 
 Yocco, Victor. “Filling Up Your Tank, Or How To Justify User Research Sample Size And Data.” _Smashing Magazine_ (blog). [Link](https://www.smashingmagazine.com/2017/03/user-research-sample-size-data/).
-

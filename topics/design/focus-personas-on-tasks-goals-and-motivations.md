@@ -27,4 +27,3 @@ Personas should be living, breathing documents. As knowledge about the user or c
 Cooper, Alan. _The Inmates Are Running the Asylum_. Sams Publishing, 2004.
 
 Spool, Jared M. _“Customers Request Solutions. We Need to Understand Their Problems.”_ Medium (blog), August 16, 2019. [Link](https://medium.com/@jmspool/customers-request-solutions-we-need-to-understand-their-problems-41db3b5c6d4d).
-

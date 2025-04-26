@@ -1,5 +1,5 @@
 ---
-title: SQL Saragable Queries and Their Impact on Database Performance
+title: SQL saragable queries and their impact on database performance
 description: Structured Query Language (SQL) is widely used for managing data in relational database management systems (RDBMS). In the context of SQL, the optimization of database queries forms the foundation for efficient data retrieval, providing quicker response times and increasing overall database performance. One key strategy to optimize SQL queries involves the concept of "Sargable" queries...
 date: 2023-09-14
 authors:
@@ -16,7 +16,7 @@ Structured Query Language (SQL) is widely used for managing data in relational d
 
 "Sargable" is derived from "Search ARGument ABLE," signifying that a query can successfully utilize indexes for efficient execution. It is a term that was initially introduced in a 1979 research paper titled "Access Path Selection in a Relational Database Management System" authored by P. Griffiths Selinger et al. (DBA.StackExchange.com). The fundamental idea behind sargable queries is geared towards forming SQL statements that allow the query execution engine to make the best use of indexes whenever available.
 
-## Sargable vs. Non-Sargable Queries
+## Sargable vs. non-sargable queries
 
 A central feature differentiating sargable from non-sargable queries is the manner in which operations are executed on indexed columns. Non-sargable queries include function calls or operations that use an indexed field in the WHERE clause, a feature that hinders the usage of indexes.
 
@@ -82,7 +82,7 @@ WHERE dateColumn >= '2023-01-01' AND dateColumn < '2024-01-01';
 
 allows the query optimizer to use our indexes and not run the function on every row.
 
-## Impact on Performance
+## Impact on performance
 
 The distinction between sargable and non-sargable queries lies primarily in how efficiently they facilitate usage of indexes. Sargable queries allow the database engine to perform index seeks, a process whereby only the matching data in index pages are read, hence reducing the consumption of [[SQL and how it relates to Disk Reads and Writes|input/output (IO) resources and time]].
 
@@ -101,4 +101,3 @@ By understanding how sargable queries can take advantage and efficiently use ind
 - https://www.tech-recipes.com/uncategorized/sargable-queries-in-sql-server-with-examples/
 - https://www.mssqltips.com/sqlservertip/6795/improve-sql-server-query-performance-searchable-arguments/
 - https://dba.stackexchange.com/questions/162263/what-does-the-word-sargable-really-mean
-

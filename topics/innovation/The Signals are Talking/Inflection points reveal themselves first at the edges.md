@@ -1,5 +1,10 @@
 ---
-tags: innovation, strategy
+title: null
+description: null
+date: null
+tags:
+  - innovation
+  - strategy
 ---
 
 Because strategic inflection points transform the fundamental assumptions under which a business operates, it can be difficult for organizations to fathom the new possibilities that they create. The signs of an inflection point begin on the fringes; only those who are directly in contact with the signs will be able to identify them. It’s important to have an apparatus for identifying them early.
@@ -27,5 +32,5 @@ By carefully observing and testing these patterns, a futurist can offer a valuab
 
 #### Reference
 
-- [McGrath - Seeing Around Corners](https://publish.obsidian.md/mobydiction/McGrath+-+Seeing+Around+Corners)
-- [≈ Webb - The Signals are Talking](https://publish.obsidian.md/mobydiction/notes/%E2%89%88+Webb+-+The+Signals+are+Talking)
+- [McGrath - Seeing around corners](https://publish.obsidian.md/mobydiction/McGrath+-+Seeing+Around+Corners)
+- [≈ Webb - The signals are talking](https://publish.obsidian.md/mobydiction/notes/%E2%89%88+Webb+-+The+Signals+are+Talking)

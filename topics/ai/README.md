@@ -26,4 +26,3 @@ tags:
 ### AI in society & industry
 
 - [Why Hollywood and gaming struggle with AI](why-hollywood-and-gaming-struggle-with-ai.md)
-

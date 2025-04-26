@@ -1,5 +1,5 @@
 ---
-title: A Quick Intro To Webassembly
+title: A quick intro to WebAssembly
 description: Discover how WebAssembly, a fast, portable binary format designed for running C, C++, and Rust on the web, outperforms JavaScript by enabling near-native execution speeds in browsers and servers.
 date: 2020-06-15
 tags:
@@ -8,13 +8,13 @@ tags:
 
 If you haven’t heard of WebAssembly yet, then you will soon. It’s one of the industry’s best-kept secrets, but it’s everywhere. It’s supported by all the major browsers, and it’s coming to the server-side, too. It’s fast. It’s being used for gaming. It’s an open standard from the World Wide Web Consortium (W3C), the main international standards organization for the web.
 
-## Format Definition
+## Format definition
 
 WebAssembly (abbreviated Wasm) is a **binary instruction format** for a stack-based virtual machine. Wasm is designed as a portable target for compilation of high-level languages like C/C++/Rust, enabling deployment on the web for client and server applications.
 
 ## Why WebAssembly?
 
-### Recall of Assembly
+### Recall of assembly
 
 In the old days, when you had to work on a computer to do something like for example, add two numbers and print the result, you had to write instructions in the binary language. These instructions were specific to an architecture of a processor like the 8086 microprocessor or x86 processor. These binary instructions are collectively called the machine code. However, writing machine code with bare hands was a tedious and error-prone task. Also, reading a machine code was at times impossible.
 
@@ -40,7 +40,7 @@ JavaScript is also a **dynamically typed language**, unlike C and C++. This mea
 
 **So whenever you think, a statically typed language like C or C++ is making your life a living hell for no reason, think about the performance.**
 
-### Historical reason of poor performance in Javascript
+### Historical reason of poor performance in JavaScript
 
 You might ask, why JavaScript was designed this way if it is so poor when it comes to speed? For that, we need to understand its history.
 
@@ -190,7 +190,7 @@ int add( int a, int b ) {
 }
 ```
 
-## How asm.js code Runs Faster
+## How asm.js code runs faster
 
 If a **browser’s JavaScript engine** is capable of understanding asm.js code, then it will **treat asm.js JavaScript differently** than other normal JavaScript code.
 
@@ -200,7 +200,7 @@ Also, it will **keep heap of the asm.js module different from the main JavaScri
 
 _The asm.js specifications are not standardized and it is obsoleted by WebAssembly._
 
-### The Inception of WebAssembly
+### The inception of WebAssembly
 
 `asm.js` was a successful experiment *but writing optimized JavaScript code by hand was tough and error-prone*. There are *no standard build-toolchains to convert your JavaScript code into* `asm`.js, because it’s not an easy road either.
 
@@ -213,4 +213,3 @@ In this effort, the first blueprint of WebAssembly was conceptualized. **WebAss
 **What is a stack machine?**
 
 A `stack machine`, unlike a `register machine`, works with a `stack`. A stack is a data structure to store some data in linear order. You can push a value on the stack and it will go on the top of the previous value in the stack. However, you can not pull a value from anywhere. You can only pop or pull the value that is on the top of the stack.
-

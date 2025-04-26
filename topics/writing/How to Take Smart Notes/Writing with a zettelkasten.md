@@ -1,5 +1,11 @@
 ---
-tags: writing, method, zettelkasten
+title: null
+description: null
+date: null
+tags:
+  - writing
+  - method
+  - zettelkasten
 ---
 
 Sönke Ahrens describes his method for writing an article with a zettelkasten. Writing should not start with a blank sheet of paper, but emerge from the bottom up through conversation with one's notes. Writing does not begin with a blank page.

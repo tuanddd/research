@@ -1,5 +1,5 @@
 ---
-title: Unit Testing Best Practices In Golang
+title: Unit testing best practices in Golang
 description: An in-depth exploration of arrays and slices in Go, covering their differences, internal implementations, and key operations like append. Learn about fixed-length arrays, flexible slices, and how Go manages memory allocation for growing slices.
 date: 2023-04-11
 authors:
@@ -34,7 +34,7 @@ This item is a natural consequence of the previous one. Since unit tests act as 
 
 If the ease of adding unit tests to a codebase is a good sign, the opposite is also true. Having a hard time creating unit tests for a given piece of code might be a sign of code smells in the code—e.g. functions that are too complex.
 
-### Overview of Golang Testing Framework
+### Overview of Golang testing framework
 
 The Golang testing package offers a user-friendly framework to create unit tests, benchmarks, and examples, streamlining the development process in Golang by enabling execution from the command line. Package testing allows for a variety of test types, including performance, parallel, and functional testing, as well as any combination these.
 
@@ -66,7 +66,7 @@ func TestYourFunc(t *testing.T) {
 }
 ```
 
-## Strategies for Writing Effective Tests
+## Strategies for writing effective tests
 
 ### Make your code testable and easy to test
 
@@ -138,7 +138,7 @@ func TestHadAGoodGame(t *testing.T) {
 }
 ```
 
-### Use Interfaces and Avoid file I/O, API call
+### Use interfaces and avoid file I/O, API call
 
 When writing tests, it's important to use interfaces and avoid file I/O and API calls wherever possible. You want your tests to be fast, independent, isolated, consistent, and not flaky. Here are some best practices to keep in mind:
 
@@ -211,11 +211,11 @@ Test coverage is defined as a metric in Software Testing that measures the amoun
 
 In simple terms, it is a technique to ensure that your tests are testing your code or how much of your code you exercised by running the test.
 
-- **Very Poor: 0-20% coverage**. This means that very few or no unit tests have been written to test the code, which can result in bugs and errors going unnoticed.
+- **Very poor: 0-20% coverage**. This means that very few or no unit tests have been written to test the code, which can result in bugs and errors going unnoticed.
 - **Poor: 21-40% coverage**. This means that some unit tests have been written, but a significant amount of code remains untested.
 - **Acceptable: 41-60% coverage**. This means that a reasonable number of unit tests have been written to test the code, but there is still room for improvement.
 - **Good: 61-80% coverage**. This means that a large percentage of the code has been covered by unit tests, and most potential bugs and errors have been caught.
-- **Very Good: 81-100% coverage**. This means that almost all code has been covered by unit tests, and the likelihood of bugs and errors slipping through is very low. However, achieving 100% coverage may not always be practical or necessary, depending on the nature and complexity of the code.
+- **Very good: 81-100% coverage**. This means that almost all code has been covered by unit tests, and the likelihood of bugs and errors slipping through is very low. However, achieving 100% coverage may not always be practical or necessary, depending on the nature and complexity of the code.
 
 Although it depends on the project's status, ideally, we recommend aiming for a test coverage between **61-80%**. However, don't become obsessed with the number; the primary goal is to write tests that help us catch bugs effectively.
 
@@ -247,4 +247,3 @@ Remember, testing is not a one-time task but an ongoing process that should be i
 [https://www.freecodecamp.org/news/a-beginners-guide-to-testing-implement-these-quick-checks-to-test-your-code-d50027ad5eed/](https://www.freecodecamp.org/news/a-beginners-guide-to-testing-implement-these-quick-checks-to-test-your-code-d50027ad5eed/)
 
 [https://testing.googleblog.com/2020/08/code-coverage-best-practices.html](https://testing.googleblog.com/2020/08/code-coverage-best-practices.html)
-

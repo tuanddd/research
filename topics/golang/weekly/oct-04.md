@@ -1,5 +1,5 @@
 ---
-title: "Go Commentary #14: Golang compile-time evaluation and Go bindings to SQLite using wazero"
+title: "Go commentary #14: Golang compile-time evaluation and Go bindings to SQLite using wazero"
 short_title: "#14 Compile-time eval & SQLite with wazero"
 description: A quick toolings for compile-time evaluation and SQLite wrapper with WebAssembly runtime for Go
 date: 2024-10-04
@@ -91,4 +91,3 @@ https://github.com/pijng/prep
 https://github.com/ncruces/go-sqlite3
 
 https://github.com/tetratelabs/wazero
-

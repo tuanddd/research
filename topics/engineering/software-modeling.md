@@ -1,5 +1,5 @@
 ---
-title: Software Modeling
+title: Software modeling
 description: Learn how software modeling improves system maintainability and scalability by defining core objects, using diagrams like ERD, SMD, and USD to design clear, efficient applications.
 date: 2020-05-08
 tags:
@@ -8,22 +8,22 @@ tags:
 
 This is how I approach a new topic or knowledge, starts with why, understand the concept and figure out how to make it happen.
 
-## Why do we need Software Modeling
+## Why do we need Software modeling
 
 This can be summed up into 2 definitions:
 
-- Maintainability: Software Modeling helps to maintain a system, or a project. It ensures the based document for newbies to approach and get to know the system thoroughly.
+- Maintainability: Software modeling helps to maintain a system, or a project. It ensures the based document for newbies to approach and get to know the system thoroughly.
 - Scalability: helps developers to add sub-system or new feature onto the current one, without creating conflicts.
 
-## What is Software Modeling
+## What is Software modeling
 
-According to Wikipedia, Software Modeling came out in a lengthy definition. So I took the privilege to paraphrase it like below:
+According to Wikipedia, Software modeling came out in a lengthy definition. So I took the privilege to paraphrase it like below:
 
-→ **Software Modeling is how to turn an activity of an object from reality to a form that computers can understand and execute.**
+→ **Software modeling is how to turn an activity of an object from reality to a form that computers can understand and execute.**
 
-## How to do Software Modeling
+## How to do Software modeling
 
-People create things to help them solve a problem, instead of doing that themselves. Tools are made to help us do the work easier. The purpose of Software Modeling is to reconstruct the actions that an application needs to take, or the product owner wants to happen.
+People create things to help them solve a problem, instead of doing that themselves. Tools are made to help us do the work easier. The purpose of Software modeling is to reconstruct the actions that an application needs to take, or the product owner wants to happen.
 
 ### Action
 
@@ -31,13 +31,13 @@ I'll take the marketplace as an example of Action in the business world. A marke
 
 → Buyer buys Product from Seller
 
-### Model of a Marketplace System
+### Model of a marketplace system
 
 After defining an action, we need to break it down and find the core objects. In this case:
 
 → Core Object: **Buyer**-**Product**-**Seller**
 
-### AARRR Framework
+### AARRR framework
 
 In the business world, AARRR is a habitual method. AARRR is a funnel to analyze the business growth and business development orientation of a company.
 
@@ -48,7 +48,7 @@ Our Design team is using this to follow the final goal of an application or a sy
 **Huy Nguyen**: So before identifying the core object, we should spend some time understand the application. But what if it's a new project with no product or landing page?
 **Khiem Vo**: For that case, we'll adapt the waterfall structure. It means to collect the requirement. What's the idea of that app? What problem is it trying to solve?
 **Huy Nguyen**: And Design team will conduct that part?
-**Khiem Vo**: Personally I don't think that work belongs to a specific team. I'd prefer both Designers and Developers to understand the requirement and come up with a direction. Software Modeling is how we get there, by analyze the system requirement and what should we do to make it happen.
+**Khiem Vo**: Personally I don't think that work belongs to a specific team. I'd prefer both Designers and Developers to understand the requirement and come up with a direction. Software modeling is how we get there, by analyze the system requirement and what should we do to make it happen.
 
 After that, we'll find out the relationship between them.
 
@@ -111,7 +111,7 @@ Components
 
 - Actor: End users, people who will use the system
 - Use case: The system function
-- Boundary system: Letting designers/ developers know their current stage of Software Modeling. Boundary system groups the actions into sub-system, makes it more specific than in the ERD
+- Boundary system: Letting designers/ developers know their current stage of Software modeling. Boundary system groups the actions into sub-system, makes it more specific than in the ERD
 
 → In USD, we don't need to follow any order. The items should be listed out randomly and regroup it into sub-system to create UI or interface.
 
@@ -120,7 +120,7 @@ Components
 **Giang Vu**: Does that mean each boundary system is made for one actor only?
 **Khiem Vo**: As I know, boundary system allows us to create different interfaces for different actors. It's about how many scenario can possibly happen. But I'm not sure one actor can involve in more than one interface at a time.
 
-### Component Diagram
+### Component diagram
 
 Definition
 
@@ -141,11 +141,10 @@ Through a component diagram, a source code can contain
 
 ## Recap
 
-Software Modeling in Agile team
+Software modeling in Agile team
 
 - Helps teammate to possess the same base knowledge about a system
 - Helps document the information for team discussion, research and understanding
-- Every change can create a big impact on the system. In Agile, a product can be modified continuously, Software Modeling needs to be updated during the whole cycle to make sure the newbies can catch up
+- Every change can create a big impact on the system. In Agile, a product can be modified continuously, Software modeling needs to be updated during the whole cycle to make sure the newbies can catch up
 
 When we have the insight and the view of the Product Owner, it's easier to create an effective and outstanding outcome. This also reveals the spirit we've been pursuing - Craftsmanship, by providing client with values from their own perspective.
-

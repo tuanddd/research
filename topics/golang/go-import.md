@@ -32,7 +32,7 @@ Go modules let developers pin dependencies to specific git tags or commits, achi
 **Modularity and reusability**
 Git paths encourage modular, self-contained packages, making code easier to reuse and maintain. Direct links to git repositories also simplify code inspection and troubleshooting.
 
-### Comparison to other Languages
+### Comparison to other languages
 
 Most other languages, like Python, Java, and Ruby, rely on centralized registries (e.g., PyPI, Maven) where packages are fetched by name, often leading to naming conflicts. Go’s git-based identifier, by contrast, provides a direct source link, eliminating centralized naming conventions. Go developers can pull packages directly from repositories, pin versions with `go.mod`, and enjoy simplified, traceable dependency management.
 
@@ -70,4 +70,3 @@ This story broadly assumes that updates to dependencies will normally be compati
 This story also leaves copying workspaces to give them to someone else (or to preserve them in their current state) as a problem for you, not Go. However, Go did add ['experimental' support for vendoring dependencies](https://go.dev/doc/go1.5) in Go 1.5, which allowed people to create self-contained objects that could be used with 'go get' or other simple repository copying and cloning. A package that had its dependencies fully vendored was effectively a miniature workspace, but this approach had some drawbacks of its own.
 
 I feel this original story, while limited, is broadly not unreasonable. It could have worked, at least in theory, in a world where preserving API compatibility (in a broad sense) is much more common than it clearly is (or isn't) in this one.
-

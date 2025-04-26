@@ -1,5 +1,10 @@
 ---
-tags: blockchain, nft
+title: null
+description: null
+date: null
+tags:
+  - blockchain
+  - nft
 ---
 
 ## The trend of owning a character

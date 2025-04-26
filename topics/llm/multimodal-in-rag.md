@@ -126,4 +126,3 @@ The integration of various data types, such as text and images, into LLMs enhanc
 - https://medium.com/kx-systems/guide-to-multimodal-rag-for-images-and-text-10dab36e3117
 - https://blog.langchain.dev/semi-structured-multi-modal-rag/
 - https://unstructured.io
-

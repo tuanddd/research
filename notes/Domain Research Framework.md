@@ -1,5 +1,10 @@
 ---
-tags: design, ux
+title: null
+description: null
+date: null
+tags:
+  - design
+  - ux
 ---
 
 As a designer working in the Digital Product industry, I'm pretty sure we all hear about UX Research once at least. In this field, we learn about the business's strategy, users' behaviors, needs, pain points, etc. to build a product that meets the business's goal and solves users' existing problems. There are multiple ways to do UX research, our team also has one. However, there is a higher level, which helps UX Researchers process their works much faster, empathize with target users much easier and then save more effort and time, it called Domain Insight Research.
@@ -27,7 +32,7 @@ Domain insight knowledge helps UX Researchers and Designers have an overview per
 - Propose some solutions for clients based on real information
 - Suggest suitable technology method to optimize workflow and cost
 
-## Three Steps of Domain Insight Research
+## Three steps of Domain Insight Research
 
 ### Understand the definition
 

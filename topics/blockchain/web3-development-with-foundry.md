@@ -1,5 +1,5 @@
 ---
-title: Web3 Development with Foundry
+title: Web3 development with Foundry
 description: Provides a comprehensive guide to Web3 development using Foundry, a modern, Rust-based toolkit for Ethereum smart contract development.
 date: 2025-04-01
 authors:
@@ -72,7 +72,7 @@ ds-test/=lib/forge-std/lib/ds-test/src/
 forge-std/=lib/forge-std/src/
 ```
 
-### Deploying and testing a Smart Contract
+### Deploying and testing a smart contract
 
 We'll build an upgradeable ERC-1155 contract for game items (GOLD, SILVER, SWORD, SHIELD) using Foundry. This example shows how to:
 
@@ -264,7 +264,7 @@ forge script script/GameItems.s.sol \
     -vvvv
 ```
 
-#### Contract Lifecycle: From Development to Deployment
+#### Contract lifecycle: from development to deployment
 
 ![](assets/web3-development-with-foundry-03.png)
 
@@ -279,4 +279,3 @@ Writing tests in Solidity instead of JavaScript creates a steeper learning curve
 After months of wrestling with Hardhat's ESM limitations in our TypeScript stack, switching to Foundry was a game-changer. Sure, rewriting our JavaScript tests in Solidity took time, and we missed some familiar plugins. But the payoff was worth it - our test suite now runs in 40 seconds instead of 7 minutes.
 
 Writing tests in Solidity turned out to be a blessing in disguise. It eliminated translation errors and made our tests more precise. For teams ready to invest in learning Foundry, it offers a rock-solid foundation that pays off in both development speed and contract quality.
-

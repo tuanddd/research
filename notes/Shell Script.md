@@ -1,5 +1,10 @@
 ---
-tags: development, practice
+title: null
+description: null
+date: null
+tags:
+  - development
+  - practice
 ---
 
 ### Shell
@@ -15,11 +20,11 @@ A program, takes command from the keyboard and give it to the OS -> execute task
 
 _bash_ is an enhanced version of Shell program, the same with _ksh_, _tcsh_, _zsh_
 
-### Shell Script
+### Shell script
 
 A list of commands that describes the steps that need to be executed. Those steps can be program execution, file manipulation or text printing.
 
-**To create Shell Script**
+**To create Shell script**
 
 - open editor (vim/ vs code). name script file using .sh
 - start the script with #!/bin/sh or #! /bin/bash

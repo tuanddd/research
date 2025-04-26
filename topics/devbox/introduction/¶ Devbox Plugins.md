@@ -1,5 +1,5 @@
 ---
-title: "Devbox Plugins: Turbocharge Your Dev Setup"
+title: "Devbox plugins: Turbocharge your dev setup"
 description: Discover how Devbox Plugins streamline your development workflow by automating package setup and configuration
 date: 2024-08-01
 authors:
@@ -10,7 +10,7 @@ tags:
 
 Ever spent hours configuring a new package in your dev environment? Yeah, we've all been there. It sucks. That's why we created Devbox Plugins.
 
-## The Plugin Revolution
+## The plugin revolution
 
 Imagine this: You need to add Nginx to your project. Without plugins, you're in for a world of hurt - custom configs, environment variables, file management... ugh.
 
@@ -29,21 +29,21 @@ No, seriously. The plugin handles everything else:
 
 And the best part? This all happens automagically when you add the package. No extra steps, no headaches.
 
-## Plugin Flavors: Built-in or Build Your Own
+## Plugin flavors: Built-in or build your own
 
 We've got two types of plugins to suit your needs:
 
-### 1. Built-in Plugins: The Easy Button
+### 1. Built-in plugins: The easy button
 
 These are our pre-baked plugins for popular packages. Nginx, PostgreSQL, Node.js - we've got you covered. Just add the package, and the plugin kicks in automatically.
 
 Want to see what's available? [Check out our Built-in Plugins docs](https://www.jetify.com/devbox/docs/guides/plugins/#using-plugins).
 
-### 2. Custom Plugins: For the DIY Crowd
+### 2. Custom plugins: For the DIY crowd
 
 Need something special? No problem. You can create your own plugins following our [dead-simple schema](https://www.jetify.com/devbox/docs/guides/creating_plugins/#plugin-design). Host them locally or on GitHub - whatever floats your boat.
 
-## The Plugin Lifecycle: How the Magic Happens
+## The plugin lifecycle: How the magic happens
 
 Plugins aren't just static config files. They're active participants in your Devbox shell's lifecycle:
 
@@ -51,7 +51,7 @@ Plugins aren't just static config files. They're active participants in your Dev
 
 Every time you fire up a shell, run a script, or start a service, your plugins spring into action, making sure everything's set up just right.
 
-## Anatomy of a Plugin
+## Anatomy of a plugin
 
 Here's what a plugin looks like under the hood:
 
@@ -69,7 +69,7 @@ my-awesome-plugin/
 
 The star of the show is `plugin.json`. This is where you define what your plugin does, what packages it needs, what environment variables it sets - everything.
 
-## The Bottom Line
+## The bottom line
 
 Devbox Plugins aren't just a nice-to-have. They're a game-changer. They take the pain out of package setup, letting you focus on what really matters: building awesome stuff.
 
@@ -77,8 +77,7 @@ So the next time you're adding a package to your Devbox project, remember: there
 
 ## References
 
-- [Devbox Plugins Guide](https://www.jetify.com/devbox/docs/guides/plugins/)
-- [Creating Custom Devbox Plugins](https://www.jetify.com/devbox/docs/guides/creating_plugins/)
-- [Nix Package Manager](https://nixos.org/)
-- [Nginx Documentation](https://nginx.org/en/docs/)
-
+- [Devbox plugins guide](https://www.jetify.com/devbox/docs/guides/plugins/)
+- [Creating custom Devbox plugins](https://www.jetify.com/devbox/docs/guides/creating_plugins/)
+- [Nix package manager](https://nixos.org/)
+- [Nginx documentation](https://nginx.org/en/docs/)

@@ -27,4 +27,3 @@ Levin, Alec. “StAtIsTiCaL SIgNiFiCaNcE.” Known Unknowns (blog). Accessed Oct
 Madsbjerg, Christian. _Sensemaking: The Power of the Humanities in the Age of the Algorithm_. Hachette Books, 2017.
 
 Schuler, Greg. “Getting Big Ideas Out of Small Numbers.” _Cooper_ (blog), April 8, 2020. [Link](https://www.cooper.com/journal/2013/05/getting-big-ideas-out-of-small-research/).
-

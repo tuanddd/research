@@ -1,5 +1,5 @@
 ---
-title: "Evolutionary Database Design: Managing Change and Scaling with the System"
+title: "Evolutionary database design: managing change and scaling with the system"
 description: As systems scale to meet growing demands, databases must evolve alongside them to maintain performance and integrity. This document explores best practices for managing database changes, maintaining knowledge, and ensuring smooth integration. Topics covered include knowledge sharing, repository structuring, continuous integration, and database refactoring, with real-world examples illustrating their application.
 date: 2025-03-07
 authors:
@@ -9,7 +9,7 @@ tags:
   - database-management
 ---
 
-## Problem Statement
+## Problem statement
 
 You've built a public asset management app that’s become essential for tracking infrastructure and city resources. With early adoption secured, growth is on the horizon—but so are challenges.
 
@@ -29,16 +29,16 @@ How will you scale your database without sacrificing stability? What strategies 
 
 Ensuring that databases evolve effectively alongside software applications requires a combination of **knowledge sharing, structured repository management, continuous integration, and controlled refactoring**.
 
-## Evolutionary Database Design
+## Evolutionary database design
 
-Evolutionary Database Design ensures that database changes are made efficiently, without disrupting dependent systems. The key principles include:
+Evolutionary database design ensures that database changes are made efficiently, without disrupting dependent systems. The key principles include:
 
-- **Knowledge Sharing**: Effective collaboration between DBAs and developers.
-- **Repository Structure**: Storing and versioning database changes systematically.
-- **Continuous Integration**: Automating verification and preventing schema conflicts.
+- **Knowledge sharing**: Effective collaboration between DBAs and developers.
+- **Repository structure**: Storing and versioning database changes systematically.
+- **Continuous integration**: Automating verification and preventing schema conflicts.
 - **Refactoring**: Managing schema changes and database access modifications.
 
-## Knowledge Sharing
+## Knowledge sharing
 
 DBAs acquire their knowledge through hands-on experience, documentation reviews, and collaboration with developers and system architects. They proactively maintain database understanding across teams by:
 
@@ -54,25 +54,25 @@ DBAs acquire their knowledge through hands-on experience, documentation reviews,
 
 A developer requests to add a "Last Login" column to the User table. The DBA reviews its impact on authentication services, suggests indexing for performance optimization, and documents the change in the repository while also updating relevant teams.
 
-## Database Repository Structure
+## Database repository structure
 
 A Database Repository is essential for managing database changes in a structured and controlled manner. It provides a centralized location for tracking modifications, ensuring consistency, and facilitating collaboration between DBAs and developers. A well-maintained repository helps prevent conflicts, enables smooth rollbacks, and supports efficient database evolution.
 
-### Key Components
+### Key components
 
-- **Schema Definitions & Migrations**: Versioned SQL scripts that define database structures and modifications over time.
+- **Schema definitions & migrations**: Versioned SQL scripts that define database structures and modifications over time.
 
-- **Configuration & Credentials**: Environment-specific settings required for database connections and security.
+- **Configuration & credentials**: Environment-specific settings required for database connections and security.
 
-- **Change Documentation**: Records of schema updates, rationale, and potential impacts to ensure traceability.
+- **Change documentation**: Records of schema updates, rationale, and potential impacts to ensure traceability.
 
-- **Version Control System**: A tool (e.g., Git) to track changes, enable rollbacks, and deploy updates across different environments (Development, QA, Production).
+- **Version control system**: A tool (e.g., Git) to track changes, enable rollbacks, and deploy updates across different environments (Development, QA, Production).
 
 ### Example
 
 A financial services company experiences inconsistent transaction records after a recent database update. To debug the issue, the team sets up a simulation environment using a snapshot from the Database Repository. By replaying the transaction logs, they identify a schema mismatch between the new and old versions, which caused data to be improperly formatted. The DBA creates a corrective migration script, validates it in the simulation, and then applies it to production, restoring data integrity without further disruption. The DBA also documents the reason for the migration, detailing the schema mismatch, its impact, and the corrective actions taken to prevent similar issues in the future.
 
-## Continuous Integration
+## Continuous integration
 
 Every database change follows a structured verification process:
 
@@ -84,7 +84,7 @@ Every database change follows a structured verification process:
 
 A developer modifies an existing table, but **CI detects a conflict** with another service. The issue is flagged early, allowing necessary adjustments before deployment.
 
-## Database Refactoring
+## Database refactoring
 
 Refactoring involves updating schema, migrating data, and modifying database access code. There are two types of changes:
 
@@ -102,4 +102,3 @@ Effective database evolution requires structured communication, versioned change
 ## References
 
 - [https://martinfowler.com/articles/evodb.html#DbasCollaborateCloselyWithDevelopers](https://martinfowler.com/articles/evodb.html#DbasCollaborateCloselyWithDevelopers)
-

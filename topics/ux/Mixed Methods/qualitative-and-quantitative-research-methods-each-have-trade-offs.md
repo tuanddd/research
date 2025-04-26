@@ -22,4 +22,3 @@ Qualitative research tends to be divergent, and quantitative research convergent
 #### Citations
 
 Ladner, Sam. _Mixed Methods: A Short Guide to Applied Mixed Methods Research_. Sam Ladner, 2019.
-

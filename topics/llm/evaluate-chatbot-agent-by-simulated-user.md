@@ -1,5 +1,5 @@
 ---
-title: Evaluate Chatbot Agent by User Simulation
+title: Evaluate chatbot agent by user simulation
 description: "When building a chatbot agent, it's important to evaluate its performance and user satisfaction. One effective method is user simulation, which involves creating virtual users to interact with the chatbot and assess its responses. This approach allows for a more realistic evaluation of the chatbot's capabilities and user experience."
 date: 2024-09-12
 authors:
@@ -16,7 +16,7 @@ When building a chatbot agent, it's important to evaluate its performance and us
 
 User Simulation is a technique of using AI evaluating AI, which can be more efficient and cost-effective than traditional methods. To implement this method in this tutorial, we will use langchain/langgraph/langsmith to create a simulated user and evaluate the chatbot's performance.
 
-## System Design
+## System design
 
 ![](assets/simulated-user.webp)
 
@@ -27,7 +27,7 @@ The system will have two main components:
 
 ## Implementation
 
-### Step 1: Set up the Chatbot
+### Step 1: Set up the chatbot
 
 - For this example, we will make a chatbot as a customer support agent for an airline.'
 
@@ -46,7 +46,7 @@ async function chatBot(messages: Message[]): Promise<AIMessageChunk> {
 }
 ```
 
-### Step 2: Set up the Simulated User
+### Step 2: Set up the simulated user
 
 - The simulated user will be a customer and his task is trying to get a refund for a trip 5 years ago.
 
@@ -174,4 +174,3 @@ In this article, we have go throught the technique to evaluate a chatbot/AI agen
 ## References
 
 - <https://github.com/langchain-ai/langgraph/blob/main/examples/chatbot-simulation-evaluation/agent-simulation-evaluation.ipynb>
-

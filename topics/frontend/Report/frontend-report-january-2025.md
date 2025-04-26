@@ -1,5 +1,5 @@
 ---
-title: Frontend Report January 2025
+title: Frontend report January 2025
 short_title: January 2025
 description: "This January 2025 report explores key frontend advancements, including React 19's Actions, Next.js 15.1's Deno Deploy support, and innovative tools like Transformers.js for AI. Discover trending technologies, best practices, and expert commentary shaping the future of frontend development."
 date: 2025-01-20
@@ -24,7 +24,7 @@ Ref callbacks in React 19 can now return cleanup functions, similar to useEffect
 
 Explore React's experimental View Transition API and how it can create smoother, more engaging user experiences. This article dives into the details, showing practical examples and offering insights on how to utilize this feature in your own projects.
 
-### Quick Links
+### Quick links
 
 - [Mastering React internationalization with i18next](https://lingual.dev/blog/getting-more-out-of-i18next-in-react/)
 - [Boost React app speed with INP optimization](https://kurtextrem.de/posts/improve-inp-react)
@@ -44,7 +44,7 @@ Next.js SSR apps can now run on Deno Deploy. It’s fast, scalable, and a glimps
 
 Managing independent deployments for large teams just got easier! Next.js Multi Zones is a powerful feature that enables the composition of multiple Next.js applications into a single unified experience, allows different teams to develop, deploy, and maintain distinct parts of a website independently.
 
-### Quick Links
+### Quick links
 
 - [Introducing efficient Valkey-based caching for Next.js](https://blog.platformatic.dev/introducing-efficient-valkey-based-caching-for-nextjs)
 - [SSR: Debunking myths and delivering real value](https://t3.gg/blog/post/ssr-is-not-expensive)
@@ -60,9 +60,9 @@ Run AI tasks right in the browser! Transformers.js leverages a pipeline API that
 
 The popover attribute allows developers to add popovers effortlessly, while CSS Anchoring offers more reliable positioning. The new `calc-size()` function makes it possible to animate elements to and from auto height, bringing more flexibility to animations. Plus, updates to `<details>` and `<select>` elements enhance their styling and customization capabilities. These innovations make building interactive and dynamic web elements smoother and more accessible than ever before.
 
-### Quick Links
+### Quick links
 
-- [Headless, Boneless, Skinless, & Lifeless UI: 4 categories of UI abstractions](https://nerdy.dev/headless-boneless-and-skinless-ui)
+- [Headless, boneless, skinless, & lifeless UI: 4 categories of UI abstractions](https://nerdy.dev/headless-boneless-and-skinless-ui)
 - [A simple masonry-like composable layout](https://piccalil.li/blog/a-simple-masonry-like-composable-layout)
 - [Architectures of modern front-end applications](https://blog.meetbrackets.com/architectures-of-modern-front-end-applications-8859dfe6c12e)
 - [[Lock down your OAuth2 implementations - protect against CSRF attacks](https://auth0.com/blog/prevent-csrf-attacks-in-oauth-2-implementations)]
@@ -81,9 +81,9 @@ Learn the essentials of building offline-first applications in this guide. It co
 
 Explore the latest trends in front-end development, including AI-powered tools, server-driven UI, and Next.js with React Server Components. The article highlights Jamstack, headless CMS solutions, and component-driven design systems, showcasing how these innovations enhance performance, scalability, and efficiency.
 
-### Quick Links
+### Quick links
 
-- [My Go-To React tech stack for 2025](https://www.robinwieruch.de/react-tech-stack/)
+- [My go-to React tech stack for 2025](https://www.robinwieruch.de/react-tech-stack/)
 
 ## Tools
 
@@ -110,4 +110,3 @@ Million is a lightweight tool designed to optimize React websites by identifying
 - [The open social web is the future of the internet. Here's why I'm excited](https://werd.io/2024/the-open-social-web-is-the-future-of-the-internet)
 - [Struggling with complex code? see how Types can simplify things!](https://mayhul.com/posts/type-driven-design)
 - [Thinking of switching to Vite? this team did it and here's what they learned!](https://neon.tech/blog/from-webpack-to-vite)
-

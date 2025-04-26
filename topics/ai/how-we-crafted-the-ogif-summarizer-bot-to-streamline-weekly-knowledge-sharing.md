@@ -31,11 +31,11 @@ Working in collaboration with my colleague @innno\_, we crafted a chatbot using 
 
 **Three-Tier Summary Structure**:
 
-1. **Short Summary**: 3-5 key timestamps with brief descriptions of the most important topics.
+1. **Short summary**: 3-5 key timestamps with brief descriptions of the most important topics.
 
 ![](assets/how-we-crafted-the-ogif-summarizer-bot-to-streamline-weekly-knowledge-sharing_crafting-ogif-summarize-bot-1.webp)
 
-2. **Detailed Summary**: Comprehensive timestamps, each with 2-3 bullet points providing in-depth information.
+2. **Detailed summary**: Comprehensive timestamps, each with 2-3 bullet points providing in-depth information.
 
 ![](assets/how-we-crafted-the-ogif-summarizer-bot-to-streamline-weekly-knowledge-sharing_crafting-ogif-summarize-bot-2.webp)
 
@@ -62,9 +62,9 @@ The core of our summarizer is the prompt we’ve meticulously designed. Here’s
 ### Benefits
 
 - **Time-Saving**: Team members can quickly grasp the main points of a session without watching the entire video.
-- **Easy Navigation**: Clickable timestamps for swift access to specific topics of interest.
-- **Knowledge Retention**: The structured summary serves as a reliable reference for future use.
-- **Improved Accessibility**: Makes the session content more accessible to team members who couldn’t attend live.
+- **Easy navigation**: Clickable timestamps for swift access to specific topics of interest.
+- **Knowledge retention**: The structured summary serves as a reliable reference for future use.
+- **Improved accessibility**: Makes the session content more accessible to team members who couldn’t attend live.
 
 ### What’s next?
 
@@ -81,4 +81,3 @@ The OGIF Memo Summarizer has improved our weekly knowledge-sharing sessions. Usi
 We recommend other teams try similar tools to streamline their knowledge-sharing. In software engineering, efficient learning and sharing information can give you a big advantage.
 
 Happy coding and happy sharing.
-

@@ -1,5 +1,11 @@
 ---
-tags: ux, design, maslow
+title: null
+description: null
+date: null
+tags:
+  - ux
+  - design
+  - maslow
 ---
 
 ![](https://www.simplypsychology.org/maslow-5.jpg)
@@ -21,4 +27,4 @@ In facts, people don't always desire certainty, since too much certainty leads t
 #### Reference
 
 - [Maslow's hierarchy of needs](https://www.simplypsychology.org/maslow.html)
-- [Certainty & Variety](https://www.ronitbaras.com/emotional-intelligence/personal-development/six-human-needs-certainty/)
+- [Certainty & variety](https://www.ronitbaras.com/emotional-intelligence/personal-development/six-human-needs-certainty/)

@@ -1,5 +1,5 @@
 ---
-title: "Go Commentary #24: Coming in Go 1.24: testing/synctest experiment for time and concurrency testing"
+title: "Go commentary #24: Coming in Go 1.24: testing/synctest experiment for time and concurrency testing"
 short_title: "#24 Go 1.24 testing/synctest experiment for time and concurrency testing"
 description: Go 1.24 testing/synctest experiment for time and concurrency testing
 date: 2024-12-13
@@ -148,4 +148,3 @@ https://danp.net/posts/synctest-experiment/
 https://go-review.googlesource.com/c/go/+/630382
 
 https://github.com/golang/go/issues/67434
-

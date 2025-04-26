@@ -1,6 +1,12 @@
 ---
-tags: engineering, javascript, typescript
+title: null
+description: null
+date: null
 author: Giang Ngoc Huy
+tags:
+  - engineering
+  - javascript
+  - typescript
 ---
 
 ## What
@@ -20,7 +26,7 @@ author: Giang Ngoc Huy
   - requires `--allow-*` flags to enable specific features like read/write, network access, etc...
   - This is so a random project/module can't read your file system unless you **explicitly** allow it to
 - no need for `npm install`, pre-bundling (e.g: `tsc`/`webpack`/`package.json`) dances and rituals
-- Perfect to deploy on modern platforms like Cloudflare Workers and [Deno Deploy](https://deno.com/deploy/docs)
+- Perfect to deploy on modern platforms like Cloudflare Workers and [Deno deploy](https://deno.com/deploy/docs)
 
 ## Why not?
 
@@ -52,11 +58,11 @@ Deno, on the other hand, strives to move along with the modern JavaScript standa
 
 > "Now we can sit down and write actual JavaScript instead of spending half a day initialize new project with Webpack, Babel, JSX and another half to configure Jest to read our `.babelrc` config. _Such. fresh. air._"
 
-### Deno Deploy
+### Deno deploy
 
-Similar to Cloudflare Workers, Deno Deploy is a serverless deployment platform using the Service Worker API to create deployments, currently in (free) public beta.
+Similar to Cloudflare Workers, Deno deploy is a serverless deployment platform using the Service Worker API to create deployments, currently in (free) public beta.
 
-What's really cool about Deno Deploy is that it only requires a link to your entry file to deploy, and deploy time is super fast.
+What's really cool about Deno deploy is that it only requires a link to your entry file to deploy, and deploy time is super fast.
 
 ![](https://i.imgur.com/GygtLWs.png)
 

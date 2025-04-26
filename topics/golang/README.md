@@ -9,47 +9,46 @@ tags:
   - moc
 ---
 
-### Go Language Fundamentals
+### Go language fundamentals
 
-- [Go In Software Engineering](go-in-software-engineering.md)
-- [Go Import Design: Using Git Repo Path](go-import.md)
-- [Go Generics Type Safety](go-generics-type-safety.md)
-- [Slice And Array In Golang](slice-and-array-in-golang.md)
-- [Atomic Package In Golang](atomic-package-in-golang.md)
-- [Error Handling Patterns](error-handling-patterns.md)
+- [Go in software engineering](go-in-software-engineering.md)
+- [Go import design: using git repo path](go-import.md)
+- [Go generics type safety](go-generics-type-safety.md)
+- [Slice and array in Golang](slice-and-array-in-golang.md)
+- [Atomic package in Golang](atomic-package-in-golang.md)
+- [Error handling patterns](error-handling-patterns.md)
 
-### Concurrency & Parallelism
+### Concurrency & parallelism
 
-- [Go Concurrency](go-concurrency.md)
-- [Approaches To Manage Concurrent Workloads Like Worker Pools And Pipelines](approaches-to-manage-concurrent-workloads-like-worker-pools-and-pipelines.md)
-- [Unexpected Pitfalls And Some Handy Patterns With Concurrency In Go](unexpected-pitfalls-and-some-handy-patterns-with-concurrency-in-go.md)
-- [Circuit Breaker In Go](circuit-breaker-in-go.md)
+- [Go concurrency](go-concurrency.md)
+- [Approaches to manage concurrent workloads like worker pools and pipelines](approaches-to-manage-concurrent-workloads-like-worker-pools-and-pipelines.md)
+- [Unexpected pitfalls and some handy patterns with concurrency in Go](unexpected-pitfalls-and-some-handy-patterns-with-concurrency-in-go.md)
+- [Circuit breaker in Go](circuit-breaker-in-go.md)
 
-### Testing & Test Doubles
+### Testing & test doubles
 
-- [Unit Testing Best Practices In Golang](unit-testing-best-practices-in-golang.md)
-- [Level Up Your Testing Game With Gomock](level-up-your-testing-game-with-gomock.md)
-- [Test Doubles](test-doubles.md)
-- [Testing Made Simple: Best Practices For Golang Test](testing-made-simple-best-practices-for-golang-test.md)
+- [Unit testing best practices in Golang](unit-testing-best-practices-in-golang.md)
+- [Level up your testing game with Gomock](level-up-your-testing-game-with-gomock.md)
+- [Test doubles](test-doubles.md)
+- [Testing made simple: best practices for Golang test](testing-made-simple-best-practices-for-golang-test.md)
 
-### Design Patterns & Best Practices
+### Design patterns & best practices
 
-- [Template Method Design Pattern](template-method-design-pattern.md)
-- [Extension Interface Pattern](extension-interface-pattern.md)
+- [Template method design pattern](template-method-design-pattern.md)
+- [Extension interface pattern](extension-interface-pattern.md)
 
-### Package & Module Management
+### Package & module management
 
-- [Go Package](go-package.md)
-- [Bunk License Check](bunk-license-check.md)
+- [Go package](go-package.md)
+- [Bunk license check](bunk-license-check.md)
 
-### Performance & Profiling
+### Performance & profiling
 
-- [Profiling In Go](profiling-in-go.md)
+- [Profiling in Go](profiling-in-go.md)
 
-### Tools & Libraries
+### Tools & libraries
 
-- [Message Queues And Streaming Platforms Eg Kafka Nats Rabbitmq](message-queues-and-streaming-platforms-eg-kafka-nats-rabbitmq.md)
-- [Use Go Selenium To Crawl Data](use-go-selenium-to-crawl-data.md)
-- [Golang For High Performance Video Streaming](golang-for-high-performance-video-streaming.md)
-- [Connecting Vim With Golang](connecting-vim-with-golang.md)
-
+- [Message queues and streaming platforms eg Kafka Nats Rabbitmq](message-queues-and-streaming-platforms-eg-kafka-nats-rabbitmq.md)
+- [Use Go Selenium to crawl data](use-go-selenium-to-crawl-data.md)
+- [Golang for high performance video streaming](golang-for-high-performance-video-streaming.md)
+- [Connecting Vim with Golang](connecting-vim-with-golang.md)

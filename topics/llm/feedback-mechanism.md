@@ -12,41 +12,41 @@ tags:
 
 Getting consistent and accurate answers from LLMs is a major challenge. One effective strategy to address this challenge is incorporating a robust feedback mechanism within the app to collect user feedback. The memo will focus on how we collect logs of this feedback, showing how important it is to have a system for collecting input from users. It will also dive into how we design a database to safely store all this valuable feedback, making sure it's organized and useful for improving our models.
 
-## Overview of Feedback mechanism
+## Overview of feedback mechanism
 
 While we will dig into the details of feedback collection and its impact on LLMs, it’s better to understand the whole picture first. Here’s a step-by-step look at how we use feedback to make our models better:
 
-1. **Collect Logs**: All interactions, implicit and explicit feedback, along with additional context like prompt history and model parameters, are logged.
+1. **Collect logs**: All interactions, implicit and explicit feedback, along with additional context like prompt history and model parameters, are logged.
 2. **Train**: With this data, we can choose between fine-tuning and pre-training. Most human feedback will be trained with the RLHF method. 
 3. **Validate**: The updated model is then validated through A/B testing and with validation agents to ensure the changes lead to improved performance.
-4. **Deploy and Monitor**: The new model is deployed, and its performance is continuously monitored using the ongoing collection of user feedback.
+4. **Deploy and monitor**: The new model is deployed, and its performance is continuously monitored using the ongoing collection of user feedback.
 
 ![Feedback Diagram](assets/feedback-mechanism.webp)
 
-## How User Feedback Improves AI: Implicit and Explicit Methods
+## How user feedback improves AI: implicit and explicit methods
 
-### Implicit Feedback
+### Implicit feedback
 
 Implicit feedback comes from how users behave when they interact with an AI model, without them directly telling us what they think. There are a few main ways we notice this:
 
-1. **Stop Generate**: If users stop the AI from generating a response quickly, it usually means they don't like what it's saying or find it irrelevant. For example, if they read a few lines and feel it's not helpful, they might stop it.
-2. **Double Check Response**: When users go to search engines to check information from the AI, it shows they might not trust what it said. This often happens if the AI gives answers that seem made up, especially with numbers or dates.
+1. **Stop generate**: If users stop the AI from generating a response quickly, it usually means they don't like what it's saying or find it irrelevant. For example, if they read a few lines and feel it's not helpful, they might stop it.
+2. **Double check response**: When users go to search engines to check information from the AI, it shows they might not trust what it said. This often happens if the AI gives answers that seem made up, especially with numbers or dates.
 3. **Regenerate**: If users ask for a new answer, it means they didn't like the first one. They might use a button to get a different response when the first one doesn't meet their needs. For instance, they might want a better answer to the same question.
 
 ![Implicit feedback](assets/implicit_feedback.webp)
 
-### Explicit Feedback
+### Explicit feedback
 
 Explicit feedback involves users directly communicating their satisfaction or dissatisfaction with the AI’s responses. The methods include:
 
 1. **Like/Dislike**: Users can give a thumbs up if they like the response or thumbs down if they don’t. This quick feedback helps us know how well the AI’s answers are working. For example, a thumbs up means they found it useful, while a thumbs down means it wasn’t helpful.
 2. **Scoring**: Users can give a score to show how good they think the response is. This lets them give detailed feedback on whether the answer was great or just okay. For instance, a 5-star rating helps us see where the AI did well, and a 4-star rating shows areas for improvement.
-3. **Surveys and Question**: These ask users specific questions about how well the AI is doing. They can give detailed feedback on what they like and what could be better. For example, a survey might ask about accuracy, how easy it was to use, and if the tone was right.
-4. **Textual Feedback**: Users can write their thoughts on the AI’s responses. This lets them explain in detail what worked or didn’t work for them. For instance, they might say how a response helped with their work or where it missed the mark.
+3. **Surveys and question**: These ask users specific questions about how well the AI is doing. They can give detailed feedback on what they like and what could be better. For example, a survey might ask about accuracy, how easy it was to use, and if the tone was right.
+4. **Textual feedback**: Users can write their thoughts on the AI’s responses. This lets them explain in detail what worked or didn’t work for them. For instance, they might say how a response helped with their work or where it missed the mark.
 
 ![Explicit feedback](assets/explicit_feedback.webp)
 
-## Organizing User Feedback for LLM Application
+## Organizing user feedback for LLM application
 
 After collecting user feedback, we'll organize the data using the schema below. This structured approach makes it easier to analyze and understand the feedback. By categorizing it properly, we can see exactly where improvements are needed. This organized data helps create datasets for fine-tuning or pretraining our large language models.
 
@@ -93,8 +93,7 @@ By tracking interactions and analyzing feedback, we can keep improving the outpu
 
 ## Reference
 
-- [Evaluating LLM Outputs - cohere.com](https://cohere.com/blog/evaluating-llm-outputs)
-- [Human in the Loop feedback - orq.ai](https://docs.orq.ai/docs/human-in-the-loop-feedback)
-- [Human in the Loop - Machine Learning - Definition & Examples | Encord](https://encord.com/blog/human-in-the-loop-ai)
+- [Evaluating LLM outputs - cohere.com](https://cohere.com/blog/evaluating-llm-outputs)
+- [Human in the loop feedback - orq.ai](https://docs.orq.ai/docs/human-in-the-loop-feedback)
+- [Human in the loop - machine learning - definition & examples | Encord](https://encord.com/blog/human-in-the-loop-ai)
 - [How to test LLMs in production? (leewayhertz.com)](https://www.leewayhertz.com/how-to-test-llms-in-production/#A/B-testing)
-

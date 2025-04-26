@@ -19,7 +19,7 @@ This is the 1st post of Devbox series includes
 - [Devbox #2: Our Docker adoption and its challenges](devbox-docker-adoption-and-challenges.md)
 - [Devbox #3: The overview into Nix & how we use Devbox @ Dwarves](devbox-nix-and-our-devbox-adoption.md)
 
-## The It-works-on-my-machine time
+## The it-works-on-my-machine time
 
 Sometimes, in my software development team, a strange issue is raised. Nobody can evaluate the issue because 'It works on their machine’.One of Docker's most powerful abilities is cross-platform compatibility, which enables seamless deployment across Linux, Windows, and macOS environments. In this way, it broadens adoption and facilitates interoperability in heterogeneous computing environments.
 
@@ -59,7 +59,7 @@ Have a lot of things to discuss, but we can distill the variances between VMs an
 | Security          | Good isolation, but potential risks if host kernel is compromised | Strong isolation between VMs, larger attack surface | VM is heavier |
 | Deployment        | Highly portable                                                   | Flexible but heavier                                | VM is heavier |
 
-## The opening act with Linux Containers
+## The opening act with Linux containers
 
 As I mentioned above, Linux Containers (LXC) was perhaps the first implementation of a complete container manager. It provide a lightweight and efficient approach to deploying and isolating applications
 
@@ -69,7 +69,7 @@ However, one disadvantage of using Linux Containers directly is the potential la
 
 In that situation, Docker was born with more innovations.
 
-## Docker - Innovation of innovation
+## Docker - innovation of innovation
 
 One of Docker's most powerful abilities is cross-platform compatibility, which enables seamless deployment across Linux, Windows, and macOS environments. In this way, it broadens adoption and facilitates interoperability in heterogeneous computing environments.
 
@@ -82,4 +82,3 @@ Consequently, Docker emerges as the quintessential choice for modern containeriz
 ## Final thoughts
 
 In summary, the transition from traditional Virtual Machines (VMs) to containerization, epitomized by Docker, represents a pivotal advancement in software development. Docker's lightweight, portable containers have revolutionized software development and deployment. However, this transformation is not merely about adopting a new technology; it's a journey marked by adaptation and discovery. In the [Devbox #2: Our Docker adoption and its challenges](devbox-docker-adoption-and-challenges.md), we will uncover the story: how Docker is adopted in my development team and its challenges encountered along the way.
-

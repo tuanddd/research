@@ -25,4 +25,3 @@ We might think it could be a pivot for them to move away from Rust/Wasm and appr
 
 - https://zaplib.com/docs/blog_post_mortem.html
 - https://news.ycombinator.com/item?id=30960509
-

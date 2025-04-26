@@ -44,4 +44,3 @@ Most relational databases are ACID compliant, such as MySQL, PostgreSQL, Oracle,
 - https://database.guide/what-is-acid-in-databases/
 - https://phoenixnap.com/kb/acid-vs-base
 - https://www.indeed.com/career-advice/career-development/acid-database
-

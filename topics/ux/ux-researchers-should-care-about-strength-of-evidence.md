@@ -21,4 +21,3 @@ Hodgson says that a researcher should strive to collect data that is _valid_, me
 #### Citations
 
 Hodgson, Philip. “User Experience Research and Strength of Evidence.” _UserFocus_ (blog). Accessed October 10, 2020. [Link](https://www.userfocus.co.uk/articles/strength-of-evidence.html).
-

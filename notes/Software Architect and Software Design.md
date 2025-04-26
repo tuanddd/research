@@ -1,5 +1,9 @@
 ---
-tags: architecture
+title: null
+description: null
+date: null
+tags:
+  - architecture
 ---
 
 ### Software Architecture (SA)

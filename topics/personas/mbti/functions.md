@@ -74,4 +74,3 @@ Vd: ENFJ
 2 Ni
 3 Se
 4 Ti
-

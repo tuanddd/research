@@ -26,7 +26,7 @@ Interestingly, our implementation came just before DuckDB introduced their [arra
 
 Our search engine combines the power of full-text search, semantic search, and a sleek user interface (thanks @vincent) to deliver fast and accurate results, all while running entirely on the client-side. In this post, we'll walk you through the key components and technologies that make this possible, showcasing how we've achieved a server-free, privacy-focused search solution.
 
-## The Tech Stack
+## The tech stack
 
 Our local search engine leverages several cutting-edge technologies:
 
@@ -36,9 +36,9 @@ Our local search engine leverages several cutting-edge technologies:
 4. Lodash: For data manipulation
 5. Snarkdown: For Markdown parsing
 
-## Key Features
+## Key features
 
-### 1. Hybrid Search
+### 1. Hybrid search
 
 We've implemented a hybrid search approach that combines full-text search with semantic search. This allows us to capture both keyword matches and conceptual similarities.
 
@@ -54,7 +54,7 @@ WITH search_results AS (
 -- ...ranking and combining results...
 ```
 
-### 2. Advanced Filtering
+### 2. Advanced filtering
 
 Users can apply filters using special syntax, a feature created by our engineer, @vincent:
 
@@ -74,7 +74,7 @@ machine learning tag:AI authors:Jane
 
 This query would search for "machine learning" within documents tagged with "AI" and authored by Jane.
 
-### 3. Real-time Embeddings
+### 3. Real-time embeddings
 
 We use Transformers.js to generate embeddings for search queries in real-time, right in the user's browser:
 
@@ -87,7 +87,7 @@ const getEmbeddings = async (query) => {
 };
 ```
 
-### 4. Efficient Caching
+### 4. Efficient caching
 
 To ensure fast load times, we implement a caching mechanism for our database files:
 
@@ -109,15 +109,15 @@ Using Alpine.js, we've created a responsive command palette interface that provi
 </div>
 ```
 
-## Performance Optimizations
+## Performance optimizations
 
 1. **Indexing**: We use both full-text search (FTS) and HNSW (Hierarchical Navigable Small World) indexing for fast retrieval.
 
-2. **Debounced Search**: We debounce search inputs to reduce unnecessary database queries.
+2. **Debounced search**: We debounce search inputs to reduce unnecessary database queries.
 
-3. **Lazy Loading**: The heavy lifting (like embedding generation) is done only when needed and not on mobile devices.
+3. **Lazy loading**: The heavy lifting (like embedding generation) is done only when needed and not on mobile devices.
 
-## Challenges and Solutions
+## Challenges and solutions
 
 One of the main challenges was balancing search accuracy with speed. We solved this by:
 
@@ -125,11 +125,11 @@ One of the main challenges was balancing search accuracy with speed. We solved t
 2. Implementing efficient indexing strategies.
 3. Caching database files for faster startup times.
 
-## Future Improvements
+## Future improvements
 
 While our current implementation provides a robust and efficient search experience, there are always areas for enhancement. Here are some key improvements we're considering for future iterations:
 
-### 1. Persistent Search Across Navigation
+### 1. Persistent search across navigation
 
 Currently, our search engine reloads with each page navigation. We aim to implement a solution where the search functionality persists across different pages, providing a seamless user experience. This could involve:
 
@@ -137,7 +137,7 @@ Currently, our search engine reloads with each page navigation. We aim to implem
 - Implementing a global state management solution
 - Utilizing browser history API for smoother transitions
 
-### 2. Further Speed Optimizations
+### 2. Further speed optimizations
 
 Although we've made significant strides in performance, we're always looking to push the boundaries. Some potential optimizations include:
 
@@ -146,7 +146,7 @@ Although we've made significant strides in performance, we're always looking to 
 - Optimizing our SQL queries for better performance
 - Investigating the use of web workers for background processing
 
-### 3. Server-Side Implementation
+### 3. Server-side implementation
 
 To improve SEO and initial page load times, we're considering a server-side implementation, particularly for static page generation. This would involve:
 
@@ -161,4 +161,3 @@ By focusing on these improvements, we aim to create an even more powerful and us
 By leveraging modern web technologies and clever optimizations, we've created a powerful, fully local search engine for our memo website. This approach provides our users with fast, accurate search results without compromising on privacy or requiring server-side processing.
 
 We're excited about the possibilities this opens up for future improvements and would love to hear your thoughts or questions in the comments below!
-

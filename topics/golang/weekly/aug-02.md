@@ -1,5 +1,5 @@
 ---
-title: "Go Commentary #5: Features, Memory Optimization, Minecraft Server, Code Editor, and LLM Tool"
+title: "Go commentary #5: Features, memory optimization, Minecraft server, code editor, and LLM tool"
 short_title: "#5 Go 1.23 features, Memory, Minecraft, and More"
 description: Explore Go version features, memory optimization techniques, a Go-powered Minecraft server, a pure Go source code editor, and a tool for running large language models.
 date: 2024-08-02
@@ -83,4 +83,3 @@ tags:
 - https://github.com/ZeppelinMC/Zeppelin
 - https://github.com/jmigpin/editor
 - https://github.com/ollama/ollama
-

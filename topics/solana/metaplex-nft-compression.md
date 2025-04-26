@@ -1,6 +1,6 @@
 ---
-title: Metaplex NFT Compression
-description: Metaplex NFT Compression is a technology that allows for the compression of NFTs on the Solana blockchain, reducing the cost of on-chain storage for NFTs. This article provides an overview of the technology, how it works, and its potential impact on the Solana ecosystem.
+title: Metaplex NFT compression
+description: Metaplex NFT compression is a technology that allows for the compression of NFTs on the Solana blockchain, reducing the cost of on-chain storage for NFTs. This article provides an overview of the technology, how it works, and its potential impact on the Solana ecosystem.
 date: 2023-03-13
 authors:
   - trankhacvy
@@ -17,7 +17,7 @@ While the cost of renting NFTs on Solana is relatively cheap (at ◎0.012), it s
 
 ![](assets/metaplex-nft-compression-cost-comparation.webp)
 
-## How Compression for NFTs works
+## How compression for NFTs works
 
 Compressed NFTs are stored in Merkle trees via the Gummyroll program where:
 
@@ -39,4 +39,3 @@ This is just a brief overview of Compression for NFTs. There is much more to exp
 
 - https://www.metaplex.com/posts/expanding-digital-assets-with-compression-for-nfts
 - https://metaplex.notion.site/Compression-for-NFTs-Public-94f9faa25f034110b513414a11a85bbe
-

@@ -9,18 +9,17 @@ tags:
   - moc
 ---
 
-### Project Management Fundamentals
+### Project management fundamentals
 
-- [Project Management](project-management.md)
-- [An Alternative To Tm](an-alternative-to-tm.md)
+- [Project management](project-management.md)
+- [An alternative to Tm](an-alternative-to-tm.md)
 
-### Agile Practices
+### Agile practices
 
-- [Estimation In Agile](estimation-in-agile.md)
-- [Definition Of Done](definition-of-done.md)
-- [How to Deal with Technical Debt in Scrum](how-to-deal-with-technical-debt-in-scrum.md)
+- [Estimation in agile](estimation-in-agile.md)
+- [Definition of done](definition-of-done.md)
+- [How to deal with technical debt in Scrum](how-to-deal-with-technical-debt-in-scrum.md)
 
-### Scrum Practices
+### Scrum practices
 
-- [Our Daily Standup Format](our-daily-standup-format.md)
-
+- [Our daily standup format](our-daily-standup-format.md)

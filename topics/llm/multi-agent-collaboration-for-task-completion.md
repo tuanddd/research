@@ -83,4 +83,3 @@ Multi-agent AI system is a powerful tool that can be used to solve complex tasks
 
 - https://arxiv.org/abs/2308.08155
 - https://github.com/langchain-ai/langgraphjs/blob/main/examples/multi_agent/agent_supervisor.ipynb
-

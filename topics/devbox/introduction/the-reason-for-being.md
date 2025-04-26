@@ -8,11 +8,11 @@ tags:
   - devbox
 ---
 
-## The Pursuit of Consistency
+## The pursuit of consistency
 
 With the rise of cloud services, we first adapted Docker as a containerization tool to wrap our application into an isolated environment for running on the cloud for production. Then we begin setting up a development environment inside a container or take advantage of docker-compose to run multiple services without installing locally. This helps us share the environment easily, and run the same environment repeatably with minimum changes with just only 1-2 script files.
 
-## Docker's Achilles Heel
+## Docker's Achilles heel
 
 ### Bad build cache
 
@@ -50,4 +50,3 @@ The hash is different between versions of the same application. So we have diffe
 ## Conclusion
 
 Embracing Devbox has not only streamlined our development process but has also fostered a more collaborative and productive team dynamic. As we continue to scale our projects, Devbox's reproducibility and efficiency will undoubtedly remain key factors in our success.
-

@@ -1,5 +1,5 @@
 ---
-title: Smart Contract
+title: Smart contract
 description: This article provides an overview of smart contracts in blockchain technology, including their definition, how they work, and their advantages.
 date: 2022-06-16
 authors:
@@ -48,7 +48,6 @@ Currently, Ethereum there are many contracts such as tokens, NFT-ERC721, games, 
 - Declare interface
 - Call command
 
-
 ## The advantages of smart contracts:
 
 - Efficiency: Smart contracts promise to automate business processes at a corporate level. This reduces operating costs and saves resources, including the staff needed to oversee complex operations involving multiple companies.
@@ -63,9 +62,8 @@ Currently, Ethereum there are many contracts such as tokens, NFT-ERC721, games, 
 - Relevancy: Smart contracts can speed up processing in a multi-party contract regardless of whether it matches the intent or understanding of all parties. But it can also add to the damage in the event things get out of hand, especially when there's no way to stop or reverse the unintended actions. Research firm Gartner has pointed out that this creates a challenge in the management of smart contracts, although this challenge has not been fully addressed.
 - Complexity in management: Smart contracts are quite complicated in deployment and management. They are often designed in such a way that it is very difficult or impossible to change. Although this increases security, the parties will not be able to change the content or add new terms without creating a new contract.
 
-Take for example a smart contract when deployed When a Decentralized Autonomous Organization (DAO) named "The DAO" was hacked in 2016, millions of ETH were stolen due to a mistake in their smart contract code. Since their Smart Contract is immutable, developers cannot edit the code. This eventually led to a hard fork, creating Ethereum Classic and Ethereum.
+Take for example a smart contract when deployed When a Decentralized Autonomous Organization (DAO) named "The DAO" was hacked in 2016, millions of ETH were stolen due to a mistake in their smart contract code. Since their Smart contract is immutable, developers cannot edit the code. This eventually led to a hard fork, creating Ethereum Classic and Ethereum.
 
 #### Reference
 
 https://ethereum.org/vi/developers/docs/smart-contracts/
-

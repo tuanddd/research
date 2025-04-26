@@ -267,4 +267,3 @@ Explanation:
 | **Lazy Loading Images**        | Reducing initial page weight for media-rich applications | `loading="lazy"` attribute on images                   |
 
 Each of these techniques targets a specific aspect of load management and bundle optimization, providing flexibility to load only what’s necessary. Applying them strategically improves both the initial load time and the user experience throughout the app, especially as users navigate or interact more deeply with various parts of the application.
-

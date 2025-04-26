@@ -1,6 +1,6 @@
 ---
-title: Project Operations Copilots
-description: Project Operations Copilots is a suite of AI assistants designed to streamline project management and reporting processes. These copilots, built using Dify and custom implementations, help teams generate insightful project reports, create comprehensive project charters, and facilitate smooth project handovers. This approach represents a shift towards AI-assisted project management, enhancing team efficiency and project success rates.
+title: Project operations copilots
+description: Project operations copilots is a suite of AI assistants designed to streamline project management and reporting processes. These copilots, built using Dify and custom implementations, help teams generate insightful project reports, create comprehensive project charters, and facilitate smooth project handovers. This approach represents a shift towards AI-assisted project management, enhancing team efficiency and project success rates.
 date: 2024-11-14
 authors:
   - monotykamary
@@ -10,13 +10,13 @@ tags:
   - copilots
 ---
 
-## Introduction to Project Operations Copilots
+## Introduction to Project operations copilots
 
 Managing projects effectively requires careful attention to documentation, reporting, and smooth transitions between team members. Our suite of project operations copilots addresses these key areas by providing AI-assisted tools for generating reports, creating project charters, and handling project handovers.
 
-## Copilot Index
+## Copilot index
 
-### 1. Monthly Project Report Copilot
+### 1. Monthly project report copilot
 
 This copilot specializes in analyzing project data and generating comprehensive monthly reports. We've written up a detailed use case [here](../../../updates/build-log/ai-powered-monthly-project-reports.md). It helps teams by:
 
@@ -27,7 +27,7 @@ This copilot specializes in analyzing project data and generating comprehensive 
 
 ![Monthly Project Report Copilot](assets/project-report.mp4)
 
-### 2. Project Charter Copilot
+### 2. Project charter copilot
 
 The Project Charter copilot assists in creating detailed project initialization documents by:
 
@@ -39,7 +39,7 @@ The Project Charter copilot assists in creating detailed project initialization 
 
 ![Project Charter Copilot](assets/project-charter.mp4)
 
-### 3. Project Handover Copilot
+### 3. Project handover copilot
 
 This copilot ensures smooth transitions between team members by:
 
@@ -51,7 +51,7 @@ This copilot ensures smooth transitions between team members by:
 
 ![Project Handover Copilot](assets/project-handover.mp4)
 
-### 4. Announcement Copilot
+### 4. Announcement copilot
 
 - Helps in drafting and disseminating important announcements.
   - **Main points**: Key message of the announcement
@@ -61,4 +61,3 @@ This copilot ensures smooth transitions between team members by:
   - **Number of version(s)**: How many versions you want to generate
 
 ![Announcement Copilot](assets/announcement-writer.mp4)
-

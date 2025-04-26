@@ -10,11 +10,11 @@ icy: 10
 
 Redis is an in-memory key-value database. It is open-source software that can be used as a database, cache, and message broker. Redis supports a wide range of data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, and geospatial indexes with radius queries.
 
-## What is Redis Streaming
+## What is Redis streaming
 
 Redis Streaming is a feature of Redis, "A Redis stream is a data structure that acts like an **append-only** log". Redis Streaming uses a combination of Redis lists and Redis publish/subscribe to create a stream of data.
 
-## Use cases for Redis Streaming
+## Use cases for Redis streaming
 
 - Redis Streaming can be used as a quick-to-implement option for event-sourcing type systems that already have Redis integrated into the system architect.
 
@@ -126,7 +126,7 @@ Where `0` of `BLOCK` is the milliseconds that the consumer will wait for the inc
 XREAD BLOCK 0 STREAMS mystream 1682082158921-0
 ```
 
-## Consumer Group
+## Consumer group
 
 The case for the consumer group is that, for an event entry in the stream, we want to consume the event and perform different processes based on each group's functionality.
 
@@ -225,5 +225,4 @@ We can automatically claim any pending messages in `mystream` that has the minim
 ## References
 
 - [Redis documentation](https://redis.io/docs/)
-- [Redis Streams tutorial](https://redis.io/docs/data-types/streams-tutorial/)
-
+- [Redis streams tutorial](https://redis.io/docs/data-types/streams-tutorial/)

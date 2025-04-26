@@ -1,10 +1,16 @@
 ---
-tags: blockchain, defi, pool
+title: null
+description: null
+date: null
+tags:
+  - blockchain
+  - defi
+  - pool
 ---
 
-### Liquidity Pool
+### Liquidity pool
 
-Liquidity Pool: a collection of funds locked in a smart contract. Centralized: When trading, the seller and buyer agree on the same price => Order execution Decentralized: perform transactions without a centralized party to keep money, each order requires gas fees => raise the transaction price Gas fees: fees are given to measure the computational work of transactions, gas prices are determined by miners. In a nutshell, Gas fees are payments made by users in exchange for the computing power needed to process and validate transactions on the Ethereum blockchain.
+Liquidity pool: a collection of funds locked in a smart contract. Centralized: When trading, the seller and buyer agree on the same price => Order execution Decentralized: perform transactions without a centralized party to keep money, each order requires gas fees => raise the transaction price Gas fees: fees are given to measure the computational work of transactions, gas prices are determined by miners. In a nutshell, Gas fees are payments made by users in exchange for the computing power needed to process and validate transactions on the Ethereum blockchain.
 
 ### Add liquidity
 

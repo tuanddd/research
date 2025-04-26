@@ -87,4 +87,3 @@ In addition, Plonky2 also depends on the security of the hash system and the ell
 - https://hackernoon.com/zero-knowledge-proof-algorithm-plonk-circuit-sin7y-tech-review-16
 - https://vitalik.ca/general/2019/09/22/plonk.html
 - https://zkresear.ch/t/composition-of-proof-systems/43
-

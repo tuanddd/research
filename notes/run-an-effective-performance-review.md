@@ -9,7 +9,7 @@ tags:
   - radio
 ---
 
-### Performance Review
+### Performance review
 
 We perform bi-yearly reviews in July and January. The primary purpose of these reviews is to **give feedback**on career path advancement and **recognize accomplishments**. We follow a simple process:
 
@@ -40,4 +40,3 @@ Feeling about yourself.
 - Satisfied or not? etc.
 
 The Performance Indicator is usually the summary of **Responsible, Teamwork **and** Mastery\***.\*We don't judge team members from our point of view, we let them reflect their thought and propose their achievement.
-

@@ -12,4 +12,3 @@ Book: My True Type, page 102 - 108
 - Most prominent in: INFPs & ISFPs; also prominent in ENFPs & ESFPs
 - Associated with: Fighting for “underdogs,” emotional restraint, nuanced morals and values, nurture and caregiving, sensitivity to perceived inequities and injustice
 - Famous IFPs: Henry David Thoreau, Jean-Jacque Rousseau, Kierkegaard, Camus, Virginia Wolfe, Van Gogh, Luke Skywalker, J.D. Salinger, Jane Austen, Bob Dylan
-

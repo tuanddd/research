@@ -106,4 +106,3 @@ In summary, Apache Pig helps to create MapReduce job with ease in Hadoop.
 
 - https://cwiki.apache.org/confluence/display/pig/
 - Programming Pig: Dataflow Scripting with Hadoop 2nd Edition
-

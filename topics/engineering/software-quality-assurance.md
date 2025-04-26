@@ -5,7 +5,7 @@ date: 2022-10-04
 github_id: trkhoi
 ---
 
-## Definition of Software Quality Assurance
+## Definition of software quality assurance
 
 `Software Quality` is the degree of conformance to explicit or implicit requirements and expectations. This leads to 2 levels of Software Quality:
 
@@ -14,7 +14,7 @@ github_id: trkhoi
 
 `Software Quality Assurance` is a process that assures the software product meets and complies with the organization’s specification. It is a set of activities that verifies everyone involved in project implemented correct procedures and processes.
 
-## Attributes of Software Quality Assurance
+## Attributes of software quality assurance
 
 There are some properties that we can based on that to assure quality:
 
@@ -30,7 +30,7 @@ There are some properties that we can based on that to assure quality:
 - Testability: ease of testing the project to ensure that it is error-free and meets its specification.
 - Usability: ease of use of the software.
 
-## Why we need Software Quality Assurance
+## Why we need software quality assurance
 
 1. Common problem
 
@@ -60,13 +60,13 @@ From many problems we met in real project, we should know principles of SQA to d
 - Independent test environment: Should be no change during the process of testing
 - Context dependent: Not every software is tested the same way. For example: fintech software needs correctness so we need test very carefully, but corporate website needs speed and usuability.
 
-## Role of Agile in Software Quality Assurance
+## Role of agile in software quality assurance
 
 We already know the spirit of Agile Development Lifecycle: `Retro and adapt`. We run sprint, have a short planning for about 2 weeks. When have any issue then we figure it out and discuss what the best option for it. The cycle keeps continue to the final product (this means the product meets client’s requirement, …). This help us figure errors faster and fixed it ASAP.
 
 ![](assets/software-quality-assurance_agile.webp)
 
-## Process of Software Quality Assurance
+## Process of software quality assurance
 
 We have known the importance of SQA then we should have effective plan for our software:
 
@@ -96,4 +96,3 @@ We have known the importance of SQA then we should have effective plan for our s
 - [Blogs of Prof. John Vu, Carnegie Mellon University](https://science-technology.vn/?s=chất+lượng+phần+mềm)
 - [Altexsoft whitepapers](https://www.altexsoft.com/whitepapers/quality-assurance-quality-control-and-testing-the-basics-of-software-quality-management/)
 - [Blogs of Danlew](https://blog.danlew.net/2022/06/22/maintaining-software-correctness/)
-

@@ -1,5 +1,10 @@
 ---
-tags: moc, innovation
+title: null
+description: null
+date: null
+tags:
+  - moc
+  - innovation
 ---
 
 ## What is innovation?
@@ -29,7 +34,7 @@ tags: moc, innovation
 - [[Change happens gradually, then suddenly]]
 - [[Inflection points reveal themselves first at the edges]]
 - [Strategic inflection points disrupt the underlying assumptions of a business or industry](https://publish.obsidian.md/mobydiction/notes/Strategic+inflection+points+disrupt+the+underlying+assumptions+of+a+business+or+industry)
-- [¶ OODA Loop](https://publish.obsidian.md/mobydiction/notes/%C2%B6+OODA+Loop)
+- [¶ OODA loop](https://publish.obsidian.md/mobydiction/notes/%C2%B6+OODA+Loop)
 - [Base strategy on leading, not lagging, indicators](https://publish.obsidian.md/mobydiction/notes/Base+strategy+on+leading%2C+not+lagging%2C+indicators)
 - [¶ Abductive reasoning](https://publish.obsidian.md/mobydiction/notes/%C2%B6+Abductive+reasoning)
 - [Our vision of the future is always constrained by our view of the past.](https://publish.obsidian.md/mobydiction/notes/Our+vision+of+the+future+is+always+constrained+by+our+view+of+the+past.)

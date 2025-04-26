@@ -1,5 +1,5 @@
 ---
-title: Unstable Package Installation in Docker
+title: Unstable package installation in Docker
 description: An explanation of the challenges with package versioning that lets Docker builds unstable
 date: 2024-08-01
 authors:
@@ -39,4 +39,3 @@ We have some keywords related to better solutions that I only list here for refe
 - Local cache
 - Private registry
 - Multistage builds
-

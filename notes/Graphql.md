@@ -1,5 +1,10 @@
 ---
-tags: API, graphql
+title: null
+description: null
+date: null
+tags:
+  - api
+  - graphql
 ---
 
 A query language to write schema on backend server. Unlike SQL (query language for database), GraphQL follows a stricter format and gets utilized on API, which, usually gets compared to RESTful API.

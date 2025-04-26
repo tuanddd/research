@@ -13,4 +13,3 @@ Zettelkästen describes a method of personal knowledge management inspired by pr
 - [[Build randomness into knowledge generation systems]]
 - [[Learning is enhanced by surprise]]
 - [[Writing with a zettelkasten]]
-

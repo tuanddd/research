@@ -27,5 +27,4 @@ William Gibson wrote, "The future is already here—it's not not evenly distribu
 
 Madsbjerg, Christian. Sensemaking: The Power of the Humanities in the Age of the Algorithm. Hachette Books, 2017.
 
-- [McGrath - Seeing Around Corners](https://publish.obsidian.md/mobydiction/McGrath+-+Seeing+Around+Corners)
-
+- [McGrath - Seeing around corners](https://publish.obsidian.md/mobydiction/McGrath+-+Seeing+Around+Corners)

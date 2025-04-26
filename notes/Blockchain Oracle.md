@@ -1,6 +1,11 @@
 ---
-tags: engineering, blockchain
+title: null
+description: null
+date: null
 author: Vy Tran Khac
+tags:
+  - engineering
+  - blockchain
 ---
 
 ## The blockchain oracle problem

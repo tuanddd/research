@@ -1,5 +1,9 @@
 ---
-tags: innovation
+title: null
+description: null
+date: null
+tags:
+  - innovation
 ---
 
 Supporting innovation requires organizations adopt new methods of investment decision-making and innovation accounting. This means linking investing to specific, incremental goals rather than funding a long-term project up front.

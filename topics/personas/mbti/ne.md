@@ -36,4 +36,3 @@ Ne often present as open-minded, receptive, creative, inquisitive, random, distr
 - Ne knows a little about a lot, while Ni knows a lot about a little
 
 - Ne is good at producing words, while Ni struggles to verbalize thoughts
-

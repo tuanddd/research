@@ -1,5 +1,5 @@
 ---
-title: Dynamic Liquidity Market Maker - a new form of concentrated liquidity AMM on Solana
+title: Dynamic liquidity market maker - a new form of concentrated liquidity AMM on Solana
 description: a new form of concentrated liquidity AMM on solana
 date: 2024-06-21
 authors:
@@ -18,17 +18,17 @@ Dynamic Liquidity Market Maker (DLMM) is a new form of concentrated liquidity AM
 
 ![](assets/dynamic-liquidity-market-a-new-form-of-concentrated-liquidity-amm-on-solana-2.webp)
 
-## Technical Overview of DLMM
+## Technical overview of DLMM
 
 The DLMM allows liquidity providers to contribute to discrete liquidity bins, enabling them to specify buy or sell orders for token pairs at predetermined prices. Essentially, the DLMM's liquidity pools consist of numerous price-specific bins filled with tokens by LPs. Trading within these pools transitions sequentially from one bin to another as tokens are exchanged, ensuring continuous market operation.
 
-### DLMM Bin Price
+### DLMM bin price
 
 Liquidity is distributed across discrete bins with a fixed width and fixed price. Within each bin, liquidity can be exchanged at a fixed price **X + Y = k** within each bin. Basically you add **X** tokens and take out **Y** tokens (or vice versa), until there is only just one type of token left.
 
 Each bin represents a single price point, and difference between 2 consecutive bins is the bin step. Bin steps are calculated based on the basis points set by the pool creator. For example, taking SOL/USDC. If the current price is $20 and the bin step is 25 basis points (0.25%), then the consecutive bins would be 20 x 1.0025 = 20.05, 20.05 \* 1.0025 = 20.10 and so on.
 
-### Bin Liquidity
+### Bin liquidity
 
 Liquidity in each bin is calculated by the constant sum price variant, `𝑃.𝑥+𝑦=𝐿`, where **_x_** is the quantity of token **X**, **_y_** is the quantity of token **Y**, **L** is the amount of liquidity in the bin and `𝑃=Δ𝑦/Δ𝑥`. **P** is defined as the rate of change of **Y** reserves per change in **X** reserves, and is a price constant unique to each pool.
 
@@ -36,7 +36,7 @@ Liquidity in each bin is calculated by the constant sum price variant, `𝑃.�
 
 ![](assets/dynamic-liquidity-market-a-new-form-of-concentrated-liquidity-amm-on-solana-3.webp)
 
-### Market Aggregation
+### Market aggregation
 
 The constant sum curve intercepts both the **x** and **y** axes, meaning that the reserves of **X** or **Y** token can be exhausted. When this happens, the current price would move to the next bin either on the left or right.
 
@@ -44,7 +44,7 @@ Active price bin is defined as the bin that contains reserves of both **X** and 
 
 ![](assets/dynamic-liquidity-market-a-new-form-of-concentrated-liquidity-amm-on-solana-4.webp)
 
-## Differences Over Other Models
+## Differences over other models
 
 ### Over AMMs
 
@@ -82,4 +82,3 @@ In addition, users can create a new pool or add liquidity to the existing DLMM p
 ## References
 
 https://docs.meteora.ag
-

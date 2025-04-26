@@ -1,5 +1,5 @@
 ---
-title: Fixed-output Derivation in Nix
+title: Fixed-output derivation in Nix
 description: An explanation of fixed-output derivations in Nix and their role in ensuring reproducible builds
 date: 2024-08-01
 authors:
@@ -37,4 +37,3 @@ https://bmcgee.ie/posts/2023/02/nix-what-are-fixed-output-derivations-and-why-us
 
 _Advanced Attributes - Nix Reference Manual_. (n.d.). nix.dev. Retrieved August 2, 2024, from https://nix.dev/manual/nix/2.18/
 language/advanced-attributes.html?highlight=outputHash
-

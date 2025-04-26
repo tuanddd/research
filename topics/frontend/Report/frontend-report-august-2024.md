@@ -1,5 +1,5 @@
 ---
-title: Frontend Report August 2024
+title: Frontend report August 2024
 short_title: August 2024
 description: A comprehensive August 2024 update on key advancements in React 19, Next.js 15, and web development tools. Highlights include new async transitions, server components, SSR performance comparisons, and emerging technologies in the web development landscape
 date: 2024-09-09
@@ -26,13 +26,13 @@ This article compares the Server-Side Rendering (SSR) performance of major front
 
 A handy guide to the best React libraries you should consider in 2024. It covers everything from state management tools like Zustand, to UI components like Tailwind CSS, and data-fetching libraries like TanStack Query. It’s all about streamlining your development and optimize performance with the latest trends in React.
 
-### Quick Links
+### Quick links
 
 - [Build your own React state management library in under 40 lines of code](https://paripsky.github.io/blog/build-your-own-react-state-management/)
-- [Managing Effects in React](https://ui.dev/c/react/effects): Understanding `useEffect`
-- [Interface Segregation Principle in React](https://alexkondov.com/interface-segregation-principle-in-react/)
-- [Everything About Google Translate Crashing React](https://martijnhols.nl/gists/everything-about-google-translate-crashing-react)
-- [Implementing React from Scratch](https://www.rob.directory/blog/react-from-scratch)
+- [Managing effects in React](https://ui.dev/c/react/effects): Understanding `useEffect`
+- [Interface segregation principle in React](https://alexkondov.com/interface-segregation-principle-in-react/)
+- [Everything about Google Translate crashing React](https://martijnhols.nl/gists/everything-about-google-translate-crashing-react)
+- [Implementing React from scratch](https://www.rob.directory/blog/react-from-scratch)
 
 ## Next.js
 
@@ -44,10 +44,10 @@ Next.js 15 brings support for React 19 RC, along with better hydration error han
 
 A quick introduction to the new version of V0, showcasing its ability to create interactive apps and games.
 
-### Quick Links
+### Quick links
 
 - [Vercel AI SDK 3.3](https://vercel.com/blog/vercel-ai-sdk-3-3)
-- [Next.js + Supabase App in Production: Lessons Learned](https://catjam.fi/articles/next-supabase-what-do-differently)
+- [Next.js + Supabase app in production: Lessons learned](https://catjam.fi/articles/next-supabase-what-do-differently)
 
 ## Others
 
@@ -63,13 +63,13 @@ The [Temporal proposal](https://github.com/tc39/proposal-temporal) promises to s
 
 MUI v6 introduces CSS theme variables, container queries, and performance improvements. The update reduces package size, stabilizes Grid v2, and introduces experimental features like Pigment CSS and React Server Components, fully compatible with React 19.
 
-### Quick Links
+### Quick links
 
-- [Common Causes of Memory Leaks in JavaScript](https://www.trevorlasn.com/blog/common-causes-of-memory-leaks-in-javascript)
-- [CSS Grid Areas: A Fresh Look](https://ishadeed.com/article/css-grid-area/)
-- [Front-End Security Checklist](https://www.trevorlasn.com/blog/frontend-security-checklist)
-- [When Regex Goes Wrong](https://www.trevorlasn.com/blog/when-regex-goes-wrong)
-- [Why CSS-in-JS Can Be Slow](https://playfulprogramming.com/posts/why-is-css-in-js-slow)
+- [Common causes of memory leaks in JavaScript](https://www.trevorlasn.com/blog/common-causes-of-memory-leaks-in-javascript)
+- [CSS grid areas: A fresh look](https://ishadeed.com/article/css-grid-area/)
+- [Front-end security checklist](https://www.trevorlasn.com/blog/frontend-security-checklist)
+- [When regex goes wrong](https://www.trevorlasn.com/blog/when-regex-goes-wrong)
+- [Why CSS-in-JS can be slow](https://playfulprogramming.com/posts/why-is-css-in-js-slow)
 - [Announcing TypeScript 5.6 RC](https://devblogs.microsoft.com/typescript/announcing-typescript-5-6-rc/)
 
 ## Trending
@@ -86,13 +86,13 @@ e18e is a community project focused on cleaning up outdated dependencies, speedi
 
 InformAI allows developers to expose UI and component data to large language models (LLMs) with a few lines of code, enabling smarter AI responses based on app state.
 
-### Quick Links
+### Quick links
 
-- [Say No to console.log!](https://dev.to/alishgiri/say-no-to-consolelog-556n): Explore alternatives to `console.log`
-- [Structured Outputs in the OpenAI API](https://openai.com/index/introducing-structured-outputs-in-the-api/)
-- [GitHub Models: A New Generation of AI Engineers](https://github.blog/news-insights/product-news/introducing-github-models/)
+- [Say no to console.log!](https://dev.to/alishgiri/say-no-to-consolelog-556n): Explore alternatives to `console.log`
+- [Structured outputs in the OpenAI API](https://openai.com/index/introducing-structured-outputs-in-the-api/)
+- [GitHub models: A new generation of AI engineers](https://github.blog/news-insights/product-news/introducing-github-models/)
 
-## New Tools
+## New tools
 
 ### [Waku: Making React Development Fun Again](https://waku.gg/)
 
@@ -106,20 +106,19 @@ Formity makes building dynamic, customizable forms easy by defining them with JS
 
 Rspack 1.0, built in Rust, delivers significant performance improvements over webpack, offering compatibility with its ecosystem while being up to 10 times faster. It introduces key features such as better bundle size optimization, support for Module Federation 2.0, and stable APIs, with growing adoption from enterprises like ByteDance, Microsoft, and Amazon.
 
-### Quick Links
+### Quick links
 
-- [Coolify: Open-Source Heroku/Netlify Alternative](https://coolify.io/)
-- [Web Vitals Chrome Extension](https://chromewebstore.google.com/detail/web-vitals/ahfhijdlegdabablpippeagghigmibma)
+- [Coolify: Open-source Heroku/Netlify alternative](https://coolify.io/)
+- [Web Vitals Chrome extension](https://chromewebstore.google.com/detail/web-vitals/ahfhijdlegdabablpippeagghigmibma)
 - [React Email 3.0](https://resend.com/blog/react-email-3)
 
 ## Commentary
 
-- [It’s Time to Talk About “CSS5”](https://www.smashingmagazine.com/2024/08/time-to-talk-about-css5/)
-- [Microfrontends Should Be Your Last Resort](https://www.breck-mckye.com/blog/2023/05/Microfrontends-should-be-your-last-resort)
-- [Japanese Web Design: Weird, But It Works](https://www.youtube.com/watch?v=vi8pyS076a8)
-- [Practices of Reliable Software Design](https://two-wrongs.com/practices-of-reliable-software-design)
-- [Why Micro-Libraries Should Die](https://bvisness.me/microlibraries)
-- [The Secret Behind One Million Checkboxes](https://eieio.games/essays/the-secret-in-one-million-checkboxes)
-- [Is Tailwind CSS Too Redundant?](https://www.reddit.com/r/webdev/comments/1f2abca/anyone_else_find_tailwind_css_a_bit_too_redundant/)
-- [React: Is It Time to Move On?](https://www.youtube.com/watch?v=0tvfC9r9lcw)
-
+- [It’s time to talk about “CSS5”](https://www.smashingmagazine.com/2024/08/time-to-talk-about-css5/)
+- [Microfrontends should be your last resort](https://www.breck-mckye.com/blog/2023/05/Microfrontends-should-be-your-last-resort)
+- [Japanese web design: Weird, but it works](https://www.youtube.com/watch?v=vi8pyS076a8)
+- [Practices of reliable software design](https://two-wrongs.com/practices-of-reliable-software-design)
+- [Why micro-libraries should die](https://bvisness.me/microlibraries)
+- [The secret behind one million checkboxes](https://eieio.games/essays/the-secret-in-one-million-checkboxes)
+- [Is Tailwind CSS too redundant?](https://www.reddit.com/r/webdev/comments/1f2abca/anyone_else_find_tailwind_css_a_bit_too_redundant/)
+- [React: Is it time to move on?](https://www.youtube.com/watch?v=0tvfC9r9lcw)

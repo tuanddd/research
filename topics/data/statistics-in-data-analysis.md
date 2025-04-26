@@ -33,4 +33,3 @@ From my point of view, mastering distribution will bring huge benefit in underst
 
 - https://thebusinessprofessor.com/en_US/research-analysis-decision-science/normal-distribution-definition
 - https://www.sciencedirect.com/topics/computer-science/pareto-distribution
-

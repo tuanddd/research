@@ -1,5 +1,5 @@
 ---
-title: "Go Commentary #3: Generic Collections, Generics Constraints, AI Bot"
+title: "Go commentary #3: Generic collections, generics constraints, AI bot"
 short_title: "#3 Generic Collections, Generics Constraints, AI Bot"
 description: "Implementing generic collections in Go: challenges and solutions, with examples of sortable sets and constraints. Updates on Go's generics support and insights on a new AI bot being developed for the Go community. Stay current with Go's evolving ecosystem and best practices for using generics effectively."
 date: 2024-07-12
@@ -142,4 +142,3 @@ tags:
 - <https://go.dev/ref/spec>
 - <https://github.com/golang/go/discussions/67901>
 - <https://pkg.go.dev/rsc.io/gaby>
-

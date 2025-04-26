@@ -24,4 +24,3 @@ Roger Martin calls this practice "assertive inquiry."
 #### Citations
 
 [Martin, Roger L. The Opposable Mind: How Successful Leaders Win Through Integrative Thinking. 1st edition. Boston, Mass: Harvard Business Review Press, 2007.](https://publish.obsidian.md/mobydiction/notes/%E2%89%88+Martin+-+The+Opposable+Mind)
-

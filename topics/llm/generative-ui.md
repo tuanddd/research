@@ -31,7 +31,7 @@ tags:
 - Enhances UI/UX when using chatbots.
 - Generative UI allows for highly personalized, tailor-made interfaces that suit the needs of each individual.
 
-## Popular Solution for Generative UI
+## Popular solution for generative UI
 
 ### Vercel AI SDK
 
@@ -101,9 +101,9 @@ const Chat = () => {
 
 By observing the behavior of Vercel AI SDK, we came up with a general idea and 2 approches.
 
-## General Idea
+## General idea
 
-- [Video Explanation](https://www.youtube.com/watch?v=d3uoLbfBPkw&t=406s)
+- [Video explanation](https://www.youtube.com/watch?v=d3uoLbfBPkw&t=406s)
 
 ![](assets/generative-ui-general-idea.webp)
 
@@ -154,7 +154,6 @@ Below is an example for handling event stream generated during LLM processing wi
 
 ## References
 
-- [What is GenerativeUI?](https://www.nngroup.com/articles/generative-ui/)
+- [What is generativeUI?](https://www.nngroup.com/articles/generative-ui/)
 - [Vercel AI SDK RSC](https://sdk.vercel.ai/docs/reference/ai-sdk-rsc)
 - [Vercel AI SDK RSC: createStreamableUI()](https://sdk.vercel.ai/docs/reference/ai-sdk-rsc/create-streamable-ui)
-

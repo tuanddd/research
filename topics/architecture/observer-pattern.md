@@ -1,6 +1,6 @@
 ---
-title: Introduce the Observer pattern and its use cases
-description: Concept of the Observer Pattern with its pros and cons.
+title: Introduce the observer pattern and its use cases
+description: Concept of the observer pattern with its pros and cons.
 date: 2024-07-12
 authors:
   - leduyhien152
@@ -24,13 +24,13 @@ On the other hand, the store could send tons of emails (which might be considere
 
 It looks like we’ve got a conflict. Either the customer wastes time checking product availability or the store wastes resources notifying the wrong customers.
 
-## Concept of the Observer Pattern
+## Concept of the observer pattern
 
 ### Definition
 
 The Observer pattern is a design pattern where an object, known as the subject, maintains a list of its dependents, called observers, and notifies them of state changes.
 
-### Real-World Analogy
+### Real-world analogy
 
 If you subscribe to a newspaper or magazine, you no longer need to go to the store to check if the next issue is available. Instead, the publisher sends new issues directly to your mailbox right after publication or even in advance.
 
@@ -38,7 +38,7 @@ The publisher maintains a list of subscribers and knows which magazines they’r
 
 ## Examples
 
-### DOM Events and Event Listeners
+### DOM events and event listeners
 
 In the browser, we use the Observer pattern through DOM events. The DOM element is the subject, and event listeners are the observers.
 
@@ -48,7 +48,7 @@ button.addEventListener("click", () => {
 });
 ```
 
-### Custom Event Emitters
+### Custom event emitters
 
 We can create our custom event emitters to decouple code and enhance modularity.
 
@@ -65,7 +65,7 @@ emitter.emit("event");
 
 In this example, `emitter` is the subject. When we emit the event, all registered observers get notified.
 
-### Redux: Leveraging the Observer Pattern
+### Redux: leveraging the observer pattern
 
 Redux is a state management library that uses the Observer pattern under the hood.
 The Redux store is the subject, and components that subscribe to the store are the observers.
@@ -93,7 +93,7 @@ store.dispatch({ type: "UPDATE", payload: "new data" });
 
 Here, the store dispatches actions, and subscribed components get notified to update their state.
 
-## Pros & Cons
+## Pros & cons
 
 Pros:
 
@@ -114,4 +114,3 @@ Cons:
 ## Reference
 
 - https://refactoring.guru/design-patterns/observer
-

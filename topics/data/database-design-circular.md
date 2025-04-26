@@ -1,5 +1,5 @@
 ---
-title: Database design Circular
+title: Database design circular
 description: A comprehensive guide to understanding circular references in database design, including types, challenges, real-world applications, and solutions for managing them effectively. Covers self-references, circular dependencies, and strategies for maintaining data integrity while working with circular relationships.
 date: 2024-10-30
 authors:
@@ -43,7 +43,7 @@ There are 3 types of circular references: self-reference, a circle, multi-table 
 - Circle: as a endless loop. Start from A, then B, or C, and end up in A
 - Multi-table circular-references: Several chains of Primary Key - Foreign Key relations between those 2 tables
 
-## Challenges of Circular References
+## Challenges of circular references
 
 While circular references can be necessary, they come with significant challenges, including:
 
@@ -84,4 +84,3 @@ Circular references can be useful or even necessary in certain scenarios where r
 - https://medium.com/akurey/dont-be-circular-b59c5609d472
 - https://www.codeproject.com/Articles/38655/Prevent-Circular-References-in-Database-Design
 - https://github.com/Wuodan/SQL-Find-Circular-References
-

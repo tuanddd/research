@@ -15,9 +15,9 @@ icy: 10
 - The quantity of tests to be conducted in order to assure that an operation is correct may be virtually infinite.
 - Functional testing may use techniques to reduce the number of necessary tests without losing coverage. The most useful techniques for accomplishing that goal are equivalence partitioning and limit value analysis, which are explained in the following subsections.
 
-We need an easy way or special techniques that can select test cases intelligently from the pool of test-case, such that all test scenarios are covered. We use two techniques – **Equivalence Partitioning** & **Boundary Value Analysis** testing techniques to achieve this.
+We need an easy way or special techniques that can select test cases intelligently from the pool of test-case, such that all test scenarios are covered. We use two techniques – **Equivalence Partitioning** & **Boundary value analysis** testing techniques to achieve this.
 
-### Boundary Value Analysis
+### Boundary value analysis
 
 Boundary testing is the process of testing between extreme ends or boundaries between partitions of the input values.
 
@@ -44,7 +44,7 @@ Equivalence Partitioning or Equivalence Class Partitioning is type of black box 
 - It divides the input data of software into different equivalence data classes.
 - You can apply this technique, where there is a range in the input field.
 
-### Why Equivalence & Boundary Analysis Testing
+### Why equivalence & boundary analysis testing
 
 - This testing is used to reduce a very large number of test cases to manageable chunks.
 - Very clear guidelines on determining test cases without compromising on the effectiveness of testing.
@@ -78,11 +78,10 @@ The hypothesis behind this technique is that if one condition/value in a partiti
 - Boundary Analysis testing is used when practically it is impossible to test a large pool of test cases individually
 - Two techniques – Boundary value analysis and equivalence partitioning testing techniques are used
 - In Equivalence Partitioning, first, you divide a set of test condition into a partition that can be considered.
-- In Boundary Value Analysis you then test boundaries between equivalence partitions
+- In Boundary value analysis you then test boundaries between equivalence partitions
 - Appropriate for calculation-intensive applications with variables that represent physical quantities
 
 ## Reference
 
-- [ISTQB Exam Questions On Equivalence Partitioning And Boundary Value Analysis](https://www.softwaretestinghelp.com/istqb-exam-questions-equivalence-partitioning-boundary-value-analysis/)
-- [Functional Testing Guide](https://www.softwaretestinghelp.com/guide-to-functional-testing/)
-
+- [ISTQB Exam Questions On Equivalence Partitioning And Boundary value analysis](https://www.softwaretestinghelp.com/istqb-exam-questions-equivalence-partitioning-boundary-value-analysis/)
+- [Functional testing guide](https://www.softwaretestinghelp.com/guide-to-functional-testing/)

@@ -30,4 +30,3 @@ Harley, Aurora. _“Personas Make Users Memorable for Product Team Members.”_ 
 Salazar, Kim. _“Just-Right Personas: How to Choose the Scope of Your Personas.”_ Nielsen Norman Group. Accessed October 12, 2020. [Link](https://www.nngroup.com/articles/persona-scope/).
 
 Young, Indi. _“Describing Personas.”_ Medium (blog), August 13, 2020. [Link](https://medium.com/inclusive-software/describing-personas-af992e3fc527)
-

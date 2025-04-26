@@ -53,4 +53,3 @@ Examples of a psychological maneuver might include:
 #### Citations
 
 George, Elizabeth. _Mastering the Process: From Idea to Novel_. Viking, 2020.
-

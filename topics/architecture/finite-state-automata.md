@@ -9,7 +9,7 @@ github_id: monotykamary
 
 A **finite state automaton (FSM)** (**FSA**, plural: automata), or better known as a state machine, is a mathematical model of with a constraint such that the abstract machine can be only and exactly be one of a finite number of states at any point in time. Finite state here is typically represented as a string or equivalent enumeration.
 
-## Mathematical Model
+## Mathematical model
 
 As per the general classification noted on the [Wikipedia page on finite-state machines](https://en.wikipedia.org/wiki/Finite-state_machine), deterministic finite-state machine has 5 main variables associated with its definition (a quintuple): $(\Sigma, S, s_0, \delta, F)$.
 
@@ -42,7 +42,7 @@ type Event = string
 const transition = (state: State, event: Event): State => ...
 ```
 
-## Coming from Algebraic Data Types
+## Coming from algebraic data types
 
 If you're coming from algebraic data types (ADTs), you may have noticed that state machines are nested ADTs that encode states and events as data types. In this case, we take advantage of nesting or combining pairs of sum/union types (example in Rescript):
 
@@ -83,4 +83,3 @@ In [[Domain Driven Design]] (DDD) and in [[Event storming]], there doesn't seem 
 - https://wickstrom.tech/finite-state-machines/2017/11/10/finite-state-machines-part-1-modeling-with-haskell.html
 - https://dev.to/margaretkrutikova/modelling-domain-with-state-machines-in-reasonml-n29
 - https://blog.honosoft.com/2019/10/31/partial-state-machine/
-

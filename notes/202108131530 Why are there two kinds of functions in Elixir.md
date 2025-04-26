@@ -1,5 +1,9 @@
 ---
-tags: elixir
+title: null
+description: null
+date: null
+tags:
+  - elixir
 ---
 
 Just to clarify the naming, they are both functions. One is a named function and the other is an anonymous one. But you are right, they work somewhat differently and I am going to illustrate why they work like that.
@@ -76,4 +80,5 @@ This is also why Elixir uses a dot for calling anonymous functions. Since you ca
 Overall, those are the reasons why we have two functions and why they behave differently.
 
 ---
+
 Source: https://stackoverflow.com/questions/18011784/why-are-there-two-kinds-of-functions-in-elixir?rq=1

@@ -9,15 +9,14 @@ tags:
   - moc
 ---
 
-### Testing Techniques
+### Testing techniques
 
-- [Boundary and Equivalence Partitioning Testing](boundary-and-equivalence-partitioning-testing.md)
+- [Boundary and equivalence partitioning testing](boundary-and-equivalence-partitioning-testing.md)
 
-### Onboarding & Processes
+### Onboarding & processes
 
-- [QC Onboarding](qc-onboarding.md)
+- [QC onboarding](qc-onboarding.md)
 
-### Test Case Management
+### Test case management
 
-- [Test Cases Breakdown Structure](test-cases-breakdown-structure.md)
-
+- [Test cases breakdown structure](test-cases-breakdown-structure.md)

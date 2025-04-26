@@ -305,4 +305,3 @@ function App() {
 | **Context and theming**             | Support adaptable designs, allowing for light and dark themes or other custom themes     |
 
 By integrating these techniques, you can build a design system that is robust, adaptable, and consistent, making it easier to scale and maintain the UI over time.
-

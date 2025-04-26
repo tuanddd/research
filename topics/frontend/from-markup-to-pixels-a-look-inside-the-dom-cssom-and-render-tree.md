@@ -1,5 +1,5 @@
 ---
-title: From Markup to Pixels - A look inside the DOM, CSSOM, and Render Tree
+title: From markup to pixels - a look inside the DOM, CSSOM, and render tree
 description: A deep dive into the rendering process of a web page, exploring the Document Object Model (DOM), CSS Object Model (CSSOM), and the Render Tree.
 date: 2023-09-11
 authors:
@@ -14,7 +14,7 @@ tags:
 
 Inside a web browser, there exists a software component responsible for determining the content to show you based on the data it receives. This component is known as the browser engine.
 
-The browser engine is a fundamental element present in all major web browsers, and various browser manufacturers give their engines distinct names. For instance, Firefox's browser engine is known as [Gecko](https://en.wikipedia.org/wiki/Gecko_(software)), while Chrome uses [Blink](https://en.wikipedia.org/wiki/Blink_(browser_engine)), a derivative of [WebKit](https://en.wikipedia.org/wiki/WebKit).
+The browser engine is a fundamental element present in all major web browsers, and various browser manufacturers give their engines distinct names. For instance, Firefox's browser engine is known as [Gecko](<https://en.wikipedia.org/wiki/Gecko_(software)>), while Chrome uses [Blink](<https://en.wikipedia.org/wiki/Blink_(browser_engine)>), a derivative of [WebKit](https://en.wikipedia.org/wiki/WebKit).
 
 ## From raw bytes of HTML to DOM
 
@@ -50,7 +50,7 @@ Now the Render Tree holds the information of the **visibility** of each node and
 
 _Image Source: [How web browsers work - the render tree (part 7, with illustrations)](https://dev.to/arikaturika/how-web-browsers-work-the-render-tree-part-7-with-illustrations-24h3)_
 
-## The Layout/Reflow stage
+## The layout/reflow stage
 
 The **Layout**/**Reflow** is a process to find the **geometry** of elements. The main thread walks through the DOM and constructs a layout tree that stores details such as **x and y coordinates**, as well as **bounding box dimensions**.
 
@@ -64,7 +64,7 @@ This process happens every time we change something in the DOM that affects the 
 - Resizing the browser window
 - Changing the width, the position of an element or floating it
 
-## The Painting stage
+## The painting stage
 
 Despite having a DOM, style information, and a layout, these elements alone do not suffice for rendering a web page. Once the browser determines which nodes should be visible and calculates their positions within the viewport, the next step is to actually draw (render) them. Similar to the layout phase, the painting process doesn't occur just once but repeatedly whenever there are changes to the appearance of on-screen elements.
 
@@ -94,4 +94,3 @@ _Image Source: [Inside look at modern web browser (part 3)](https://developer.ch
 - https://blog.logrocket.com/how-browser-rendering-works-behind-scenes/
 - https://dev.to/arikaturika/series/17842
 - https://twitter.com/alexxubyte/status/1534201516063461376
-

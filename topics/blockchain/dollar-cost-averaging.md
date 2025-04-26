@@ -21,7 +21,7 @@ In simpler terms, it's about throwing some money into crypto at regular interval
 
 While not a new concept, DCA has been proven effective for decades in traditional markets like stocks and gold. In the high-potential crypto market, DCA has become even more popular. The mentality of "buying more when the price is down" is very common among crypto enthusiasts, especially when the market has been skyrocketing in recent years. While "bottom fishing" can be tempting, DCA is the key to safe and effective investing in a volatile market like crypto.
 
-## How DCA Works
+## How DCA works
 
 To better understand how this investment strategy works, let's look at an example:
 Suppose an investor decides to invest $3,000 over 6 months by buying $1,000 of a specific asset for the first **3 months** and applying the DCA strategy. However, if you want to see the powerful impact of cost averaging, check out the difference between cost averaging and not using the strategy (when you invest the entire $3,000 in month 1).
@@ -45,7 +45,7 @@ To implement DCA, follow these steps:
 
 > **Note**: While DCA can be a good strategy, there can be more transaction fees compared to a one-time investment.
 
-## DCA in Practice
+## DCA in practice
 
 In theory, DCA helps you buy an asset at different prices, thereby minimizing the risk of market fluctuations. However, in practice, traders and investors apply DCA in many different ways, specifically as follows:
 
@@ -112,4 +112,3 @@ Hell no! While DCA is a simple and easy-to-understand strategy, it's not a magic
 Bear in mind that before you start DCAing during a downturn, ask yourself: "How much risk can I handle?" Only DCA with money you can afford to lose, and be prepared for the possibility that some of it might not come back.
 
 Overall, DCA is a long-term investment strategy. Don't get discouraged by short-term market fluctuations. Stay disciplined and consistent with your investments, and you'll be well on your way to achieving your financial goals.
-

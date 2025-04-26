@@ -30,4 +30,3 @@ Personas should be living, breathing documents. As knowledge about the user or c
 Cooper, Alan. _The Inmates Are Running the Asylum_. Sams Publishing, 2004.
 
 Laubheimer, Page. _“3 Persona Types: Lightweight, Qualitative, and Statistical.”_ Nielsen Norman Group (blog). Accessed October 12, 2020. [Link](https://www.nngroup.com/articles/persona-types/).
-

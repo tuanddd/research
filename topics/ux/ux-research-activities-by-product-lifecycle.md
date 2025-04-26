@@ -41,4 +41,3 @@ If you can do only one thing, do qualitative (think-aloud) usability testing. Ni
 #### Citations
 
 Rohrer, Christian. “When to Use Which User-Experience Research Methods.” Nielsen Norman Group (blog). Accessed October 13, 2020. [https://www.nngroup.com/articles/which-ux-research-methods/](https://www.nngroup.com/articles/which-ux-research-methods/).
-

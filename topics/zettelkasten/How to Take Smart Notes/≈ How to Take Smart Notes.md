@@ -40,4 +40,3 @@ It involves building a database of focused notes that are interlinked with one a
 - [[Write from the bottom up]]
 - [[Writing is thinking]]
 - [[Knowledge work means transforming old ideas into new ones]]
-

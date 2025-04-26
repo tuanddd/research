@@ -444,4 +444,3 @@ const Button: ButtonComponent = React.forwardRef(<C extends React.ElementType = 
 ```
 
 Congratulation, we have successfully built a strongly typed Polymorphic React Component with Typescript. 🎉🎉🎉🎉
-

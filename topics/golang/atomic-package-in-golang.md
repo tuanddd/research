@@ -44,7 +44,7 @@ func Process(variable *int32, wg *sync.WaitGroup) {
 
 ## Solutions
 
-### Using Mutex
+### Using mutex
 
 We run three go routines in the above example code to update the same `i` variable. Our expectation: The value always equals 6000. However, we got the race condition. The simple solution is to pass a `mutex` lock to update the value synchronously.
 
@@ -59,7 +59,7 @@ func Process(variable *int32, wg *sync.WaitGroup, mu *sync.Mutex) {
 }
 ```
 
-### Using Atomic
+### Using atomic
 
 Package `sync/atomic` offers primitives for atomic memory that are low-level and useful for implementing synchronization algorithms. It encapsulates the synchronous logic in the utility functions.
 
@@ -84,7 +84,7 @@ Below is a benchmark test for three implementations. The logic using `atomic` is
 
 In the meantime, this package support functions to interact with some types in Golang: int32, int64, uint32, uint64, and the pointer. The implementation with Pointer is an excellent feature. It can get easier to apply the help of the atomic package for other types. It provides an interface to store, update, and retrieve a value of a specific type and is asynchronously included.
 
-## Atomic Pointer use case
+## Atomic pointer use case
 
 We build our system using Metabase as a reporting service. Metabase provides the API to interact with the dashboard via RESTful. A JWT token is used to authenticate the request. We need a logic to update the JWT token while the other business logic uses the JWT token.
 
@@ -138,4 +138,3 @@ Atomic types in Go are a simple approach to handling shared resources. It elimin
 - https://pkg.go.dev/sync/atomic
 - https://www.geeksforgeeks.org/atomic-variable-in-golang/
 - https://betterprogramming.pub/atomic-pointers-in-go-1-19-cad312f82d5b
-

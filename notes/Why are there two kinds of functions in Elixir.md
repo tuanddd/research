@@ -1,5 +1,9 @@
 ---
-tags: elixir
+title: null
+description: null
+date: null
+tags:
+  - elixir
 ---
 
 Just to clarify the naming, they are both functions. One is a named function and the other is an anonymous one. But you are right, they work somewhat differently and I am going to illustrate why they work like that.

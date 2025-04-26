@@ -1,5 +1,5 @@
 ---
-title: Qc Onboarding
+title: Qc onboarding
 description: Learn how to access QA resources and use gitlab-issues-tools for managing tasks, cloning issues, and exporting defect reports with step-by-step commands and templates.
 date: 2017-07-13
 tags:
@@ -23,7 +23,7 @@ Open `~/Dwarves Foundation/Document/QA` Documents to get resource files includin
 - Test Cases Template
 - Defect Summary Report Template
 
-## Task Assigning Flows
+## Task assigning flows
 
 ## Tools
 
@@ -77,4 +77,3 @@ To clone export defect list for a milestone, we can use this command
 ```plain_text
 ./gitlab-issues-tools -t [YOUR_GITLAB_TOKEN] -p 228 --thing issue -a export --milestone 0.5.0
 ```
-

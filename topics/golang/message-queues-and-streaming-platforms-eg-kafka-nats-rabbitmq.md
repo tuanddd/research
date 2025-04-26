@@ -1,5 +1,5 @@
 ---
-title: Message Queues And Streaming Platforms Eg Kafka Nats Rabbitmq
+title: Message queues and streaming platforms eg Kafka Nats Rabbitmq
 description: An in-depth exploration of message brokers, their use cases, and implementation examples using RabbitMQ in Go. Covers the basics of message queues, their advantages and disadvantages, and common patterns like work queues and publish/subscribe models.
 date: 2023-05-04
 authors:
@@ -32,7 +32,7 @@ There are 2 basic forms of communication with a Message Broker:
 
 ![](assets/message-queues-and-streaming-platforms-eg-kafka-nats-rabbitmq_56d936f810e3423ac48427e1d7ca3f64_md5.webp)
 
-## When and why to use Message Broker
+## When and why to use message broker
 
 Message brokers are versatile tools that can address a wide range of business needs across industries and in a variety of enterprise computing environments.
 
@@ -57,7 +57,7 @@ A consumer takes a message from the queue and starts processing the PDF while a 
 
 ![](assets/message-queues-and-streaming-platforms-eg-kafka-nats-rabbitmq_c17d6fd298e5729424b4b04d7cee315f_md5.webp)
 
-### Advantages and Disadvantages
+### Advantages and disadvantages
 
 There are a few advantages and disadvantages with a job request messaging on message brokers:
 
@@ -110,7 +110,7 @@ Topic exchange will make a wildcard to match the routing key with a routing patt
 
 A header exchange will use the header attributes of the message to route it. Headers Exchange is very similar to Topic Exchange but it routes based on header values instead of routing keys. A message is considered a match if the value of the header matches the value specified when bound.
 
-## Common Pattern
+## Common pattern
 
 ### Work Queue - **Distributing tasks among workers**
 
@@ -288,7 +288,7 @@ The function returns the following values:
 1. `q`: The name of the queue that was declared by the broker. If the `name` parameter was empty, the broker will generate a unique name for the queue.
 1. `err`: An error value if there was an error declaring the queue. If the queue was declared successfully, `err` will be `nil`.
 
-### Publish/Subscribe - Sending messages to many consumers at once
+### Publish/subscribe - sending messages to many consumers at once
 
 To create Publish/Subscribe we need to:
 
@@ -448,4 +448,3 @@ func main() {
 ```
 
 To declare an exchange, we use the function:
-

@@ -84,12 +84,12 @@ Apollo Federation seemed like the obvious choice at first glance, but for they i
 Nautilus Gateway looked like a promising alternative to Apollo and is written in Go, which is their bread and butter. In the end, they decided against using it due to it being, at the time, a single developer project with a very short history.
 In the end, they decided to build their own implementation, using Nautilus as inspiration.
 
-## Why GraphQL Federation
+## Why GraphQL federation
 
 During their initial design phase, they quickly narrowed down their choices for an API platform to just two technologies: REST + OpenAPI / Swagger, and GraphQL. In either case, they decided that the best solution would be to have a central API gateway to automatically aggregate all of their services together. Services would expose their API and the gateway would aggregate these services and expose a single unified API. They argued back and forth between those two options for a while, and finally decided to go with GraphQL after reading [Apollo's excellent blog](https://www.apollographql.com/blog/apollo-federation-f260cf525d21/) post on their new Federation concept for Apollo Server. 
 For they, GraphQL federation is a real game changer that greatly increases the benefit of using GraphQL, particularly in a microservice environment. The main reason for this is that federation allows for the creation of APIs that appear monolithic, even when implemented by a set of smaller services in the backend. In traditional REST, or when using GraphQL with schema stitching, it is not possible to divide APIs between different services without either making it visible to the API client, or having to write an additional adapter layer in between.
 
-## How GraphQL Federation help us in designing better APIs
+## How GraphQL federation help us in designing better APIs
 
 To illustrate how GraphQL federation helps designing great APIs, here's a small example of a Movie API that returns information about movies such as title, director, etc. A traditional REST API for this, would look something like this:
 
@@ -177,4 +177,3 @@ In the query above, it is completely transparent for the user that  `title`  
 - https://movio.co/blog/building-a-new-api-platform-for-movio/
 - https://github.com/movio/bramble
 - https://medium.com/@aaivazis/a-guide-to-graphql-schema-federation-part-1-995b639ac035
-

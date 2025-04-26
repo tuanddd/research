@@ -1,12 +1,12 @@
 ---
-title: Design System
+title: Design system
 description: Learn how to create a design system that unites teams, speeds up design workflows, and improves product quality with reusable components, visual language, design tokens, and UI libraries.
 date: 2018-03-23
 tags:
   - design
 ---
 
-Now having a Design System in place unites product teams around a common visual language, accelerates your design process ten-fold and gives you a strong foundation to build any project. Learn how you can create a design system and help your team improve product quality when increase the speed of your workflow.
+Now having a Design system in place unites product teams around a common visual language, accelerates your design process ten-fold and gives you a strong foundation to build any project. Learn how you can create a design system and help your team improve product quality when increase the speed of your workflow.
 
 ## Introduction
 
@@ -20,7 +20,7 @@ So apart from those two conditions, design systems enable a team to increase pro
 
 When you first start working with a new system you may find yourself slightly hindered, because it is a different way of approaching a project, and something a little different than you’ve maybe become accustomed to.
 
-But honestly, if you devote one's time to create this Design System, you'll find yourself working on auto-pilot. You can drive all projects and it will seem like your child.
+But honestly, if you devote one's time to create this Design system, you'll find yourself working on auto-pilot. You can drive all projects and it will seem like your child.
 
 ## Design
 
@@ -46,7 +46,7 @@ Here’s a quick list of the disciplines that can be represented in your team to
 
 ![](assets/design-system_cfe9acf6fd2d1adde475eac22289689b_md5.webp)
 
-The team model that brings people together is as important as the team creating the design system. In “Team Models for Scaling a Design System,” design systems veteran Nathan Curtis outlines 3 popular team models used by many companies.
+The team model that brings people together is as important as the team creating the design system. In “Team Models for Scaling a Design system,” design systems veteran Nathan Curtis outlines 3 popular team models used by many companies.
 
 - **The centralized team model:** a single team maintains the design system as their full-time job.
 
@@ -96,7 +96,7 @@ Before you start anything, its best to identify how inconsistent the current bui
 - **Grid/Layouts:** What grid system is used across the platform? Explain the use of the grid and the high level idealism of our layouts.
 - **Interactions:** What do people expect to see when they interact with our site? Give an overview of our standard interactions.
 - **Animations:** How do we approach animations? Explain the reason for animations on the platform and our constraints around using them.
-- **Design Resources**: A central point for assets to be easily downloaded for external partners. Color swatches, logo’s, icon sets etc.
+- **Design resources**: A central point for assets to be easily downloaded for external partners. Color swatches, logo’s, icon sets etc.
 
 An example of a UI Audit: Brad Frost has put together a great article around how you go about doing a UI audit.
 
@@ -149,10 +149,9 @@ Most design system documentation includes the component’s name, description, e
 
 Process: [https://medium.com/@jgunnison/pattern-library-workflow-ba9cc486159e](https://medium.com/@jgunnison/pattern-library-workflow-ba9cc486159e)
 
-### 8. Style Guide
+### 8. Style guide
 
 [https://medium.muz.li/how-to-create-a-style-guide-from-scratch-tips-and-tricks-e00f25b423bf](https://medium.muz.li/how-to-create-a-style-guide-from-scratch-tips-and-tricks-e00f25b423bf)
 
 After you understand this process of the design system, this guide will help you create a UI library in Sketch.
 Let’s take a step-by-step below here how you can create your design system.
-

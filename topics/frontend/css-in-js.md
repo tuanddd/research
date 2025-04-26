@@ -1,5 +1,5 @@
 ---
-title: CSS in JS
+title: Css in JS
 description: CSS-in-JS is a styling technique where Javascript is used to style the component.
 date: 2022-08-11
 authors:
@@ -22,7 +22,7 @@ With CSS-in-JS, writing new styles cannot affect anything else in other places o
 
 [Naming is hard](https://hilton.org.uk/blog/why-naming-things-is-hard). CSS-in-JS libraries automatically generate unique selectors for what’s being styled. We don't need to think about naming.
 
-### Dynamic Functionality
+### Dynamic functionality
 
 As CSS-in-JS is essentially JavaScript code, you can apply complex logic to your style rules, such as loops, conditionals, variables, state-based styling, and more.
 
@@ -58,4 +58,3 @@ Adding another library to a web page increases the page size, which can negative
 - https://webdesign.tutsplus.com/articles/an-introduction-to-css-in-js-examples-pros-and-cons--cms-33574
 - https://medium.com/dailyjs/what-is-actually-css-in-js-f2f529a2757
 - https://github.com/styled-components/styled-components/issues/2377
-

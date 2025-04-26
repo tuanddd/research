@@ -1,5 +1,5 @@
 ---
-title: Gitflow Pull Request
+title: Gitflow pull request
 description: Learn the best Git workflows, branching models, commit message tips, pull request strategies, code review practices, and merge vs rebase guidance to boost team productivity and code quality.
 date: 2021-04-10
 tags:
@@ -66,13 +66,13 @@ While many repositories’ logs look like the former, there are exceptions. The 
 
 Being known that, a project’s long-term success rests (among other things) on its maintainability, reviewing others commits and pull requests is also the big reason that you should [write great commit messages](/6304b82ed7d34f23a0e7e4fe381e7996).
 
-## Pull Request
+## Pull request
 
 Pull request is a feature that makes it easier for developers to collaborate. Pull request is a mechanism for a developer to notify team members that they have completed a feature.
 
 Some tricks to make Pull Requests more awesome for your project:
 
-- Open a Pull Request as early as possible
+- Open a Pull request as early as possible
 
 Pull Requests are a great way to start a conversation of a feature, so start one as soon as possible- even before you are finished with the code. Your team can comment on the feature as it evolves, instead of providing all their feedback at the very end.
 
@@ -80,13 +80,13 @@ Pull Requests are a great way to start a conversation of a feature, so start one
 
 No one has a fork of github/github. We make Pull Requests in the same repository by opening Pull Requests for branches.
 
-- A Pull Request doesn’t have to be merged
+- A Pull request doesn’t have to be merged
 
-Pull Requests are easy to make and a great way to get feedback and track progress on a branch. But some ideas don’t make it. It’s okay to close a Pull Request without merging; we do it all the time.
+Pull Requests are easy to make and a great way to get feedback and track progress on a branch. But some ideas don’t make it. It’s okay to close a Pull request without merging; we do it all the time.
 
-Hint: Based on an article [Type of Pull Request](https://ben.balter.com/2015/12/08/types-of-pull-requests/), there are 6 types of PR. But `WIP pattern` is the one that is using by lots of teams and companies. It follows the mantra of **“Open a Pull Request as early as possible”.**
+Hint: Based on an article [Type of Pull request](https://ben.balter.com/2015/12/08/types-of-pull-requests/), there are 6 types of PR. But `WIP pattern` is the one that is using by lots of teams and companies. It follows the mantra of **“Open a Pull request as early as possible”.**
 
-## Code Review
+## Code review
 
 Source: <https://github.com/thoughtbot/guides/tree/master/code-review>
 
@@ -104,7 +104,7 @@ Source: <https://github.com/thoughtbot/guides/tree/master/code-review>
 - Keep it real. If emoji, animated gifs, or humor aren’t you, don’t force them. If they are, use them with aplomb.
 - Talk synchronously (e.g. chat, screensharing, in person) if there are too many “I didn’t understand” or “Alternative solution:” comments. Post a follow-up comment summarizing the discussion.
 
-### Having Your Code Reviewed
+### Having your code reviewed
 
 - Be grateful for the reviewer’s suggestions. (“Good call. I’ll make that change.”)
 - Don’t take it personally. The review is of the code, not you.
@@ -128,39 +128,39 @@ Understand why the change is necessary (fixes a bug, improves the user experienc
 - Seek to understand the author’s perspective.
 - Sign off on the pull request with a 👍 or “Ready to merge” comment.
 
-## Rebase vs Merge
+## Rebase vs merge
 
 Source: <https://blog.sourcetreeapp.com/2012/08/21/merge-or-rebase/>
 
 - Merging brings two lines of development together while preserving the ancestry of each commit history.
 - In contrast, rebasing unifies the lines of development by re-writing changes from the source branch so that they appear as children of the destination branch – effectively pretending that those commits were written on top of the destination branch all along.
 
-### Merging Pros
+### Merging pros
 
 - Simple to use and understand.
 - Maintains the original context of the source branch.
 - The commits on the source branch remain separate from other branch commits, provided you don’t perform a fast-forward merge. This separation can be useful in the case of feature branches, where you might want to take a feature and merge it into another branch later.
 - Existing commits on the source branch are unchanged and remain valid; it doesn’t matter if they’ve been shared with others.
 
-### Merging Cons
+### Merging cons
 
 - If the need to merge arises simply because multiple people are working on the same branch in parallel, the merges don’t serve any useful historic purpose and create clutter.
 
-### Rebase Pros
+### Rebase pros
 
 - Simplifies your history.
 - Is the most intuitive and clutter-free way to combine commits from multiple developers in a shared branch
 
-### Rebase Cons
+### Rebase cons
 
 - Slightly more complex, especially under conflict conditions. Each commit is rebased in order, and a conflict will interrupt the process of rebasing multiple commits. With a conflict, you have to resolve the conflict in order to continue the rebase. SourceTree guides you through this process, but it can still become a bit more complicated.
 - Rewriting of history has ramifications if you’ve previously pushed those commits elsewhere. In Mercurial, you simply cannot push commits that you later intend to rebase, because anyone pulling from the remote will get them. In Git, you may push commits you may want to rebase later (as a backup) but only if it’s to a remote branch that only you use. If anyone else checks out that branch and you later rebase it, it’s going to get very confusing.
 
 Note: Other post from Atlassian: <https://www.atlassian.com/git/tutorials/merging-vs-rebasing>
 
-## Git Templates
+## Git templates
 
-To make things easier, we have adopted Issue template and Pull Request template that we think they are great to help the team to improve the productivity.
+To make things easier, we have adopted Issue template and Pull request template that we think they are great to help the team to improve the productivity.
 
 [Issue Template]
 
@@ -196,4 +196,3 @@ You may write here the specifications like the version of the project, operating
 ### Logs / Stack trace
 Insert your log/stack trace here
 ```
-

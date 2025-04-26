@@ -46,7 +46,7 @@ The implementation of this approach consists of the following steps:
 
 ![[utilizing-cached-table-for-binance-kline-api-data-processing.png|500]]
 
-## Results and Limitation
+## Results and limitation
 
 ### Result
 
@@ -64,4 +64,3 @@ While the proposed solution offers significant advantages, it also has certain l
 ### Conclusion
 
 By employing a cached table to store and retrieve Binance Kline API data, the challenges of working with limited records and requests can be addressed effectively.
-

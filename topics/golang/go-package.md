@@ -97,7 +97,7 @@ Please take note that all below examples are to demonstrate the approach
 
 1. **Identify core domains and reusable utility needs**
 
-- **Define key Domains**: Break down the main areas of functionality (or domains) in your project, such as `users`, `orders`, or `products` for an e-commerce app.
+- **Define key domains**: Break down the main areas of functionality (or domains) in your project, such as `users`, `orders`, or `products` for an e-commerce app.
 - **Identify reusable utilities**: List any generic functionalities, like string manipulation or date formatting, that multiple domains might need. Plan to create specific utility packages for these, separate from domain logic.
 
 Example Structure:
@@ -175,4 +175,3 @@ Periodic refactoring keeps packages easy to understand, maintain, and reuse, avo
 - **Maintainability**: With a well-structured package layout, code becomes easier to maintain, modify, and extend.
 - **Collaboration**: Teams can work on separate packages concurrently, as each package represents an independent unit of functionality.
 - **Testing and debugging**: Since each package is modular, testing becomes easier, and debugging issues can be done within the context of specific packages.
-

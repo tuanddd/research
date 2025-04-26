@@ -1,5 +1,10 @@
 ---
-tags: product, roadmap
+title: null
+description: null
+date: null
+tags:
+  - product
+  - roadmap
 ---
 
 ## What is a product roadmap
@@ -38,6 +43,6 @@ For products that rely on foreign/external investment, product roadmap is what y
 
 #### Reference
 
-- [What is a Product Roadmap? The Ultimate Guide and Resources (productplan.com)](https://www.productplan.com/learn/what-is-a-product-roadmap/)
-- [What Is a Product Roadmap? Definition and Product Roadmap Examples (airfocus.com)](https://airfocus.com/glossary/what-is-a-product-roadmap/)
+- [What is a product roadmap? The ultimate guide and resources (productplan.com)](https://www.productplan.com/learn/what-is-a-product-roadmap/)
+- [What is a product roadmap? Definition and product roadmap examples (airfocus.com)](https://airfocus.com/glossary/what-is-a-product-roadmap/)
 - [A complete guide to product roadmaps (with examples) | Aha!](https://www.aha.io/roadmapping/guide/product-roadmap)

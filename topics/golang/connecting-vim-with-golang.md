@@ -1,5 +1,5 @@
 ---
-title: Connecting Vim With Golang
+title: Connecting Vim with Golang
 description: A comprehensive guide on using Vim as an IDE for Go development. Learn about Vim basics, installation, configuration, essential plugins like vim-go, and customization techniques to enhance your Go coding workflow in Vim.
 date: 2015-10-16
 authors:
@@ -21,7 +21,7 @@ Vim is a highly configurable text editor built to enable efficient text editing,
 - Vim can be used as IDE for its plugins.
 - Vim can support for many platforms.
 
-## Install and Config
+## Install and config
 
 - Vim can be downloaded at [vim homepage](https://www.vim.org/download.php) or set up by [brew](https://brew.sh/)
 
@@ -86,7 +86,7 @@ To up date plugins, use `:PluginUpdate`
 
 That’s enough for you to pick Vim up from the ground.
 
-## Basic Usage Instruction
+## Basic usage instruction
 
 Vim is a text-editor program first built on UNIX, in order to work in non-user interface environment. At this time, the keyboard hasn’t been upgraded completely, which is why the action on Vim is still different from today.
 
@@ -166,7 +166,7 @@ Thanks to plugin of git, you can know which file is under editing, which one has
 
 - autopair: Plugin that helps you to quick type using “ ( ‘ [ < by adding “” () “ [] <> as a pair
 
-## Mapping Structure in Vim
+## Mapping structure in Vim
 
 Vim has a definition called mapping, which allows its user to mode their keystrokes to support their personal purposes.
 
@@ -218,4 +218,3 @@ Everything is ready! Your only job is to:
 - The key strong point in vim is customization, you should try to figure out how to create new mappings or function that helps fasten your coding process.
 
 These aspects is what I have learnt about Vim and how to code Go using Vim. There are a lot of things to discover in the world of Vim and I would love to hear all of your comments or sharing.
-

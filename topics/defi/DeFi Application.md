@@ -1,5 +1,10 @@
 ---
-tags: blockchain, defi
+title: null
+description: null
+date: null
+tags:
+  - blockchain
+  - defi
 ---
 
 ## Lending
@@ -19,9 +24,9 @@ DeFi allows any individual to take out or supply a loan without approval from a 
 - [mStable]
 - [Nuo Network]
 
-## Decentralized Exchange
+## Decentralized exchange
 
-[[¶ Decentralized Exchange]] allow users to swap their assets without having to transfer custody of the underlying collateral
+[[¶ Decentralized exchange]] allow users to swap their assets without having to transfer custody of the underlying collateral
 
 - [0x Protocol]
 - [1inch]
@@ -56,7 +61,7 @@ Wallets are a crucial gateway for interacting with DeFi products.
 - [Metamask]
 - [Portis]
 
-## Asset Management
+## Asset management
 
 Tools are in place to better track and manage assets
 

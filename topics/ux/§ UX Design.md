@@ -9,4 +9,3 @@ date: null
   - [[¶ Persona]]
 - [[¶ Skeuomorphism]]
   - [[Skeuoumorphic models limit possibilities for innovation]]
-

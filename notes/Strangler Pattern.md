@@ -1,5 +1,10 @@
 ---
-tags: architecture, strangler
+title: null
+description: null
+date: null
+tags:
+  - architecture
+  - strangler
 ---
 
 ### Context
@@ -17,7 +22,7 @@ tags: architecture, strangler
 - At some point, when the migration is complete, the strangler fig façade will either go away or evolve into an adaptor for legacy clients.
 - Make sure the façade doesn't become a single point of failure or a performance bottleneck
 
-### When NOT to use
+### When not to use
 
 - When requests to the back-end system cannot be intercepted.
 - Smaller systems where the complexity of wholesale replacement is low.

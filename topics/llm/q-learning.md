@@ -1,5 +1,5 @@
 ---
-title: Q Learning
+title: Q learning
 description: An introduction to Q-learning, a model-free reinforcement learning algorithm used to learn optimal policies in Markov Decision Processes.
 date: 2023-06-22
 authors:
@@ -53,4 +53,3 @@ It's important to note that while Q-learning has these limitations, there are te
 
 - https://www.techtarget.com/searchenterpriseai/definition/Q-learning
 - https://huggingface.co/learn/deep-rl-course/unit2/introduction
-

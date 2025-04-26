@@ -1,5 +1,5 @@
 ---
-title: "Go Commentary #18: Fuzz Testing Go HTTP Services"
+title: "Go commentary #18: Fuzz testing Go HTTP services"
 short_title: "#18 Fuzz Testing Go HTTP Services"
 description: Understanding how to use Fuzz Testing in Go
 date: 2024-11-01
@@ -170,4 +170,3 @@ Conclusion:
 ---
 
 https://packagemain.tech/p/fuzzing-http-services-golang
-

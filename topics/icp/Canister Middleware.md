@@ -1,5 +1,10 @@
 ---
-tags: blockchain, icp
+title: null
+description: null
+date: null
+tags:
+  - blockchain
+  - icp
 ---
 
 [[Canister]] middleware uses resources (CPU, network, etc.) of nodes và pay back using '[[Cycle]]'.

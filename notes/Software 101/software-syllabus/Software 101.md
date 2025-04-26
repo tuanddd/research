@@ -1,5 +1,11 @@
 ---
-tags: software101, engineering, syllabus
+title: null
+description: null
+date: null
+tags:
+  - software101
+  - engineering
+  - syllabus
 ---
 
 In this section we try to cover a few parts of software development. You can't expect much except some keywords or starting pieces that you have to do your our study over the internet and get back with questions (and lots of questions). We try to get them align in some forms of hierarchy.
@@ -47,8 +53,8 @@ The fact is for large and complex project, you do need the discipline process to
 #### Reference
 
 - [Software](https://en.m.wikipedia.org/wiki/Software)
-- [A Short History of Software](http://www.thecorememory.com/SHOS.pdf) (!!)
-- [History of Software](https://en.wikipedia.org/wiki/History_of_software)
-- [Introduction to Software History](https://www.thocp.net/software/software_reference/introduction_to_software_history.htm)
-- [Timeline of Software & Languages](https://www.computerhistory.org/timeline/software-languages/)
-- [Crash Course Computer Science](https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
+- [A short history of software](http://www.thecorememory.com/SHOS.pdf) (!!)
+- [History of software](https://en.wikipedia.org/wiki/History_of_software)
+- [Introduction to software history](https://www.thocp.net/software/software_reference/introduction_to_software_history.htm)
+- [Timeline of software & languages](https://www.computerhistory.org/timeline/software-languages/)
+- [Crash course computer science](https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)

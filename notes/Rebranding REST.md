@@ -1,8 +1,13 @@
 ---
-tags: API, REST
+title: null
+description: null
+date: null
+tags:
+  - api
+  - rest
 ---
 
-## The Demand of API
+## The demand of API
 
 - Too many devices that try to access the app (laptop, desktop, native mobile)
 - Demand for dataset increases
@@ -39,5 +44,5 @@ and standards are hard to set due to the creative space (website layout, UI)
 #### Reference
 
 - https://medium.com/hackinghabits/rest-api-guidelines-are-insufficient-we-need-something-better-f56d91d195f2
-- [distinguish URI and URL](https://danielmiessler.com/study/difference-between-uri-url/)
+- [Distinguish URI and URL](https://danielmiessler.com/study/difference-between-uri-url/)
 - [rebranding REST](https://kieranpotts.com/rebranding-rest/)

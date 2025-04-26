@@ -24,4 +24,3 @@ Sensemaking helps us identify the most appropriate contexts for data collection,
 #### Citations
 
 Madsbjerg, Christian. Sensemaking: The Power of the Humanities in the Age of the Algorithm. Hachette Books, 2017.
-

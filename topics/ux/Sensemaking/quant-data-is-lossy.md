@@ -22,4 +22,3 @@ In contrast, qualitative data is highly compressed. In Farsighted, Steven Johnso
 [Madsbjerg, Christian. Sensemaking: The Power of the Humanities in the Age of the Algorithm. Hachette Books, 2017.](https://publish.obsidian.md/mobydiction/notes/%E2%89%88+Madsbjerg+-+Sensemaking)  
 [≈ Muller - The Tyranny of Metrics](https://publish.obsidian.md/mobydiction/notes/%E2%89%88+Muller+-+The+Tyranny+of+Metrics)  
 [Sutherland - Alchemy](https://publish.obsidian.md/mobydiction/Sutherland+-+Alchemy)
-

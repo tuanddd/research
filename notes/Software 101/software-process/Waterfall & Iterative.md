@@ -1,5 +1,12 @@
 ---
-tags: software101, engineering, process, waterfall
+title: null
+description: null
+date: null
+tags:
+  - software101
+  - engineering
+  - process
+  - waterfall
 ---
 
 When do we use the Waterfall and when do we use the Iterative approach? How do we select which is best for software project?

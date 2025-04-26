@@ -80,4 +80,3 @@ In some instances, especially when having very large datasets, structural sharin
 - https://nextjs.org/docs/app/building-your-application/data-fetching
 - https://swr.vercel.app/docs/advanced/performance
 - https://tanstack.com/query/latest/docs/react/guides/caching
-

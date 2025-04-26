@@ -1,5 +1,5 @@
 ---
-title: "Go Commentary #22: GoMLX: ML in Go without Python"
+title: "Go commentary #22: GoMLX: ML in Go without Python"
 short_title: "#22 GoMLX: ML in Go without Python"
 description: Running Machine Learning inference in Go without Python
 date: 2024-11-29
@@ -132,7 +132,7 @@ func main() {
 }
 ```
 
-- [a Gemma2 from Kaggle](https://www.kaggle.com/models/google/gemma-2) example
+- [A Gemma2 from Kaggle](https://www.kaggle.com/models/google/gemma-2) example
 
 ```go
 var (
@@ -187,4 +187,3 @@ https://eli.thegreenplace.net/2024/gomlx-ml-in-go-without-python
 https://www.cs.toronto.edu/~kriz/cifar.html
 
 https://www.kaggle.com/models/google/gemma-2
-

@@ -1,5 +1,5 @@
 ---
-title: Solana Account
+title: Solana account
 description: This article provides an overview of Solana accounts, including their structure, types, and how they work.
 date: 2022-11-17
 authors:
@@ -57,4 +57,3 @@ For example, if you create a counter program that lets you increment a counter, 
 
 - https://docs.solana.com/developing/programming-model/accounts
 - https://solanacookbook.com/core-concepts/accounts.html
-

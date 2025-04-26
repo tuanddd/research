@@ -1,5 +1,9 @@
 ---
-tags: blockchain
+title: null
+description: null
+date: null
+tags:
+  - blockchain
 ---
 
 A bit of rabbit hole leads me here, but great podcast sofar:

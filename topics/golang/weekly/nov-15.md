@@ -1,5 +1,5 @@
 ---
-title: "Go Commentary #20: Go Turns 15"
+title: "Go commentary #20: Go turns 15"
 short_title: "#20 Go Turns 15"
 description: The 15th anniversary of the Go open source release
 date: 2024-11-15
@@ -108,4 +108,3 @@ https://go.dev/blog/10years
 https://go.dev/blog/go1.22
 
 https://go.dev/blog/go1.23
-

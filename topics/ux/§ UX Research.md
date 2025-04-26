@@ -48,11 +48,10 @@ date: null
 - [[¶ Pyramid Principle]] - McKinsey's presentation structure, consisting of a key insight that decomposes into subordinate, mutually exclusive but comprehensively exhausted, supporting points.
 - [[Research repositories should generate new knowledge]] - A repository isn't just a catalogue; it should facilitate the collision of ideas
 
-## Research Org Design
+## Research org design
 
 - [[Democratize user research to scale user research]]
 
 ## Research artifacts
 
 - [[§ Personas]]
-

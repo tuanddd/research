@@ -1,18 +1,18 @@
 ---
-title: Software Development Life Cycle 101
-description: Learn the Software Development Life Cycle (SDLC) basics, key project phases, and essential artifacts to build high-quality software on time and within budget for successful project delivery.
+title: Software development life cycle 101
+description: Learn the Software development life cycle (SDLC) basics, key project phases, and essential artifacts to build high-quality software on time and within budget for successful project delivery.
 date: 2020-05-19
 tags:
   - sdlc
 ---
 
-This workshop contains the basic knowledge on Software Development Life Cycle, provides people with a step-to-step guideline and the artifacts which will be created on the way. We don't dive in the details. Instead, we treat it as an overview look on how to build software successfully.
+This workshop contains the basic knowledge on Software development life cycle, provides people with a step-to-step guideline and the artifacts which will be created on the way. We don't dive in the details. Instead, we treat it as an overview look on how to build software successfully.
 
 ## What is Software Project?
 
 We build software, and we need a planned undertaking. So call software project is “A specific plan or design” or “A planned undertaking”.
 
-## Project Constraints
+## Project constraints
 
 A software project has a lot of constraints. Cost, scope, quality, customer satisfaction, risk, resource, time, or anything in between.
 
@@ -42,7 +42,7 @@ This is just a simple definition of what is a successful project based on 3 impo
 
 But how?
 
-## Software Development Life Cycle
+## Software development life cycle
 
 The secret sauce of a successful project lies in the answer to those questions:
 
@@ -53,15 +53,15 @@ The secret sauce of a successful project lies in the answer to those questions:
 - Which step should we do next?
 
 So which steps are we talking about?
-We're talking about the Software Development Life Cycle, which sounds familiar to all CS, CE folks.
-For the rest of us who take a nap in class-time or for those who are new in the field, Software Development Life Cycle (SDLC) refers to a methodology with clearly defined processes for producing software with the highest quality and lowest cost in the shortest time possible.
+We're talking about the Software development life cycle, which sounds familiar to all CS, CE folks.
+For the rest of us who take a nap in class-time or for those who are new in the field, Software development life cycle (SDLC) refers to a methodology with clearly defined processes for producing software with the highest quality and lowest cost in the shortest time possible.
 SDLC provides a well-structured flow of phases that help an organization to quickly produce high-quality software which is well-tested and ready for production use.
 
 In detail, the SDLC methodology focuses on the following phases of software development:
 
 - Requirement analysis
 - Planning
-- System Design
+- System design
 - Implementation
 - Testing
 - Deployment
@@ -71,18 +71,18 @@ Let's take a look back on what we have learned and how this methodology could gu
 
 ![](assets/software-development-life-cycle-101_c9f99108433a5d2449ef51fb884a23dd_md5.webp)
 
-### Requirement Analysis
+### Requirement analysis
 
 “What are the current problems? What are we gonna build?” This stage of the SDLC means getting input from all stakeholders, including customers, salespeople, industry experts, and programmers. Learn the strengths and weaknesses of the current system with improvement as the goal.
-Business-oriented is a key in this stage. There are plenty of technique being used **(Lean Canvas, AARRR Framework, Industry Research, User Research, Competitor Analysis, Personas, Problem Statement, User Journey Mapping)** and with a lot of deliverables to analyze requirements and validate the business model that the software aims to empower.
+Business-oriented is a key in this stage. There are plenty of technique being used **(Lean canvas, AARRR Framework, Industry Research, User Research, Competitor Analysis, Personas, Problem Statement, User Journey Mapping)** and with a lot of deliverables to analyze requirements and validate the business model that the software aims to empower.
 
 The two most important artifacts of this stage that need to be well-documented is
 
-- **Lean Canvas:** a lean business model which defines problem - solution - market - cost - revenue of a digital product. Lean Canvas needs to be validated before moving to the next stage else we will develop software based on imaginary
+- **Lean canvas:** a lean business model which defines problem - solution - market - cost - revenue of a digital product. Lean canvas needs to be validated before moving to the next stage else we will develop software based on imaginary
 
 ![](assets/software-development-life-cycle-101_3a385622cfd9745a70201ab14b616a09_md5.webp)
 
-- **AARRR Funnel**: after the Lean Canvas is validated, define funnel for each revenue stream. This artifact will be the foundation of the System Design Stage.
+- **AARRR funnel**: after the Lean canvas is validated, define funnel for each revenue stream. This artifact will be the foundation of the System design Stage.
 
 ![](assets/software-development-life-cycle-101_fdea8ce098bbc365ecd7ffaaec9010a4_md5.webp)
 
@@ -103,22 +103,22 @@ We have a validated business model, few funnels of revenue streams. We have thin
 
 Product Manager and Technical Architecture need to sit down with Clients to define some sweet things
 
-- **Project Charter** (Product Roadmap, Milestone Release, People in charge...)
+- **Project charter** (Product Roadmap, Milestone Release, People in charge...)
 
 ![](assets/software-development-life-cycle-101_2c5adf742029b611a1459c48c5d1ccb8_md5.webp)
 
-- **Work Breakdown Structure** (Job need to be done)
-- **Tech Stacks**
+- **Work breakdown structure** (Job need to be done)
+- **Tech stacks**
 
 Some minor things will be defined at this stage as well such as Communication channel, Tooling..., etc.
 
-### System Design
+### System design
 
-Based on the produced artifacts (AARRR Funnel, Project scope, Product roadmap...), the foundation of the system will be built at this stage.
+Based on the produced artifacts (AARRR funnel, Project scope, Product roadmap...), the foundation of the system will be built at this stage.
 
 “How will we get what we want?” This phase starts by turning the software specifications into a design plan called the Design Specification. All stakeholders then review this plan and offer feedback and suggestions. It’s crucial to have a plan for collecting and incorporating stakeholder input into this document. Failure at this stage will almost certainly result in cost overruns at best and the total collapse of the project at worst.
 
-The list below is just as general as possible but those artifacts are the least we could have after finishing System Design stage
+The list below is just as general as possible but those artifacts are the least we could have after finishing System design stage
 
 **Information Architecture Design** (IA): The foundation of information which will be presented to connect the user to the content they're looking for when using the software.
 
@@ -169,4 +169,3 @@ Job needs to be done
 
 - Setup infrastructure (server, domain, database, ...)
 - Automation process (CI/CD)
-

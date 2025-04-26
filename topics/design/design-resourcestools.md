@@ -1,5 +1,5 @@
 ---
-title: Design Resourcestools
+title: Design resourcestools
 description: Discover top UX design resources, including expert articles, communities, podcasts, books, and tools to improve user experience and master UX design techniques effectively.
 date: 2018-03-25
 tags:
@@ -28,7 +28,7 @@ This compilation is synthetic all the websites or tools to help you improve your
 
 - **[Designer News](https://www.designernews.co/)** - Board for design discussion, critique, and content sharing.
 
-- **Designer Hangout** - Slack community (more than 6,000 members) that is focused on UX
+- **Designer hangout** - Slack community (more than 6,000 members) that is focused on UX
 
 - **[/r/UserExperience](https://www.reddit.com/r/userexperience/)** - Subreddit for UX related content, tools, and conversation
 
@@ -95,4 +95,3 @@ Part of the Lean Startup movement, this book introduces the process for Lean UX.
 ### Wireframes
 
 - **[Balsamiq](https://balsamiq.com/)** - Basic, straightforward wireframe tool with web and desktop versions.
-

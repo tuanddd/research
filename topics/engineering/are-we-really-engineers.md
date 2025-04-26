@@ -1,5 +1,5 @@
 ---
-title: Are We Really Engineers
+title: Are we really engineers
 description: Explore why software engineering is truly engineering, highlighting its use of discrete math, agile methods, professionalism, and unique tools like version control that set it apart yet align it with traditional engineering.
 date: 2021-03-08
 tags:
@@ -60,7 +60,7 @@ You might notice this is similar to some Agile claims. Indeed, this sense that w
 
 ## And what to inspire them
 
-### The Openness
+### The openness
 
 Having a community that you can learn from, it's the reason I was able to get into software engineering so quickly and so easily.
 
@@ -76,7 +76,7 @@ I'm not the only person who "fell into" software. In fact, that's one big reason
 
 People can, and do, download all the tools of the trade and learn how to program on their own. In contrast, you would need to buy a lot of additional equipment if you want to learn electrical engineering. It's unsurprising that so many more software engineers are self-taught.
 
-### Version Control
+### Version control
 
 Version control is the single most innovative, most revolutionary, most paradigm-shifting tool that is uniquely ours.
 
@@ -95,4 +95,3 @@ Some aspects of software engineering are unique to software, such as the speed o
 Engineering processes are more sophisticated than ours in ways that we can extract lessons from. Traditional engineers have a stronger sense of professionalism and responsibility than we tend to. In contrast, our culture is much more open and our communities much stronger than what exists in trad engineering. And our developments in version control have the potential to revolutionize traditional engineering.
 
 Back to the [Apprenticeship Program](https://github.com/dwarvesf/WeAreHiring/blob/master/open-positions/Apprentice.md), this primary question is once thing I feel necessary to discuss with apprentices and the practitioners. Getting to know the industry we are working on and might spend years with it, will help to form the foundation for the future. It will also help us as an engineer to make a better decisions
-

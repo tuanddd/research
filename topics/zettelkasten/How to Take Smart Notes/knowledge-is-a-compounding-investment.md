@@ -18,4 +18,3 @@ Accruing more knowledge also creates conditions under which serendipity can flou
 #### Citations
 
 - [[≈ Where Good Ideas Come From]]
-

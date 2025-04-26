@@ -18,4 +18,3 @@ Research is not useful it is stuck on a PowerPoint slide and stored on somebody'
 Carr, Steven. “Democratizing Insights: How to Scale User Research throughout Your Organization.” UserTesting (blog). Accessed December 12, 2020. [Link](https://www.usertesting.com/blog/democratize-insights-how-to-scale-user-research).
 
 Sharon, Tomer. “Democratizing UX.” Medium (blog), May 25, 2020. [Link](https://medium.com/@tsharon/democratizing-ux-670b95fbc07f).
-

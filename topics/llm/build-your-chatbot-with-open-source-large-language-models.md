@@ -1,5 +1,5 @@
 ---
-title: Build your chatbot with open source Large Language Models
+title: Build your chatbot with open source large language models
 description: A guide on how to build a personal AI chatbot using open-source Large Language Models (LLMs) like Alpaca and GPT4All on your personal computer.
 date: 2023-04-27
 authors:
@@ -67,4 +67,3 @@ For models with a large number of parameters, such as 30 billion or more, the re
 - <https://huggingface.co/docs/timm/main/en/quickstart#finetune-a-pretrained-model>
 - <https://github.com/EwingYangs/awesome-open-gpt/tree/main>
 - <https://github.com/nomic-ai/gpt4all>
-

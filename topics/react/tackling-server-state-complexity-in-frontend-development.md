@@ -73,4 +73,3 @@ const { data, isLoading, error } = useQuery('user', fetch('/api/user'))
 In this comparison, Redux requires more lines of code and additional boilerplate to handle loading and error states. On the other hand, React-Query simplifies the process significantly, making it easier for developers to maintain the code.
 
 In conclusion, Global State management is useful in many ways, but its limitations should be considered when deciding whether to use it. If state comes from Server sources, it's important to assess whether it should be treated as Global State or not. In cases where dealing with server-state data is necessary, libraries like SWR and React Query can simplify the process by abstracting the complexities.
-

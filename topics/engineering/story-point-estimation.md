@@ -35,4 +35,3 @@ After every sprint, we have a meeting calls "Retrospectives", each members will 
 
 - https://www.atlassian.com/agile/project-management/estimation
 - https://www.atlassian.com/blog/platform/a-brief-overview-of-planning-poker
-

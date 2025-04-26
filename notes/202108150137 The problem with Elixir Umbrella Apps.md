@@ -1,5 +1,9 @@
 ---
-tags: elixir
+title: null
+description: null
+date: null
+tags:
+  - elixir
 ---
 
 ### What’s the problem with this application?
@@ -25,5 +29,7 @@ In fact, in [Elixir's official documentation](https://elixir-lang.org/getting-st
 > While it provides a degree of separation between applications, those applications are not fully decoupled, as they are assumed to share the same configuration and the same dependencies.
 
 ---
+
 Source:
+
 - https://dev.to/jackmarchant/the-problem-with-elixir-umbrella-apps-850

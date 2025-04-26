@@ -1,5 +1,10 @@
 ---
-tags: MBTI, teambuilding
+title: null
+description: null
+date: null
+tags:
+  - mbti
+  - teambuilding
 ---
 
 The best practices to work with all MBTI types, ref from Atlassian

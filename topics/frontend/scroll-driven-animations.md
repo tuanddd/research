@@ -22,27 +22,27 @@ By default, an animation attached to an element runs on the document timeline. I
 
 The Scroll-driven Animations Specification defines two new types of timelines that you can use:
 
-### Scroll Progress Timeline
+### Scroll progress timeline
 
-A **Scroll Progress Timeline** is an animation timeline that is linked to progress in the scroll position of a scroll container–also called scrollport or scroller–along a particular axis. It converts a position in a scroll range into a percentage of progress.
+A **Scroll progress timeline** is an animation timeline that is linked to progress in the scroll position of a scroll container–also called scrollport or scroller–along a particular axis. It converts a position in a scroll range into a percentage of progress.
 
 The starting scroll position represents 0% progress and the ending scroll position represents 100% progress. In the following visualization, you can see that the progress counts up from 0% to 100% as you scroll the scroller from top to bottom.
 
 <video src="https://storage.googleapis.com/web-dev-uploads/video/AeNB0cHNDkYPUYzDuv8gInYA9rY2/xdU4YJ6cxjNYpec1XcE6.mp4" controls></video>
 
-Visualization of a Scroll Progress Timeline. As you scroll down to the bottom of the scroller, the progress value counts up from 0% to 100%. Source: https://developer.chrome.com/articles/scroll-driven-animations/
+Visualization of a Scroll progress timeline. As you scroll down to the bottom of the scroller, the progress value counts up from 0% to 100%. Source: https://developer.chrome.com/articles/scroll-driven-animations/
 
-### View Progress Timeline
+### View progress timeline
 
-A **View Progress Timeline** is an animation timeline that is linked to the relative progress of a particular element within a scroll container.
+A **View progress timeline** is an animation timeline that is linked to the relative progress of a particular element within a scroll container.
 
 Just like **IntersectionObserver**, this feature tracks how much of an element is visible in the scroller. If the element is completely hidden, it's not considered intersecting. But even if a small part of the element is visible, it's considered intersecting.
 
-A View Progress Timeline starts when the subject enters the scroll container and ends when it leaves. In the visualization, the progress begins at 0% when the subject enters and reaches 100% when it exits the container.
+A View progress timeline starts when the subject enters the scroll container and ends when it leaves. In the visualization, the progress begins at 0% when the subject enters and reaches 100% when it exits the container.
 
 <video src="https://storage.googleapis.com/web-dev-uploads/video/AeNB0cHNDkYPUYzDuv8gInYA9rY2/rvPTFW2277KBTuWiZFj1.mp4" controls></video>
 
-Visualization of a View Progress Timeline. The progress counts up from 0% to 100% as the subject (green box) crosses the scroller. Source: https://developer.chrome.com/articles/scroll-driven-animations/
+Visualization of a View progress timeline. The progress counts up from 0% to 100% as the subject (green box) crosses the scroller. Source: https://developer.chrome.com/articles/scroll-driven-animations/
 
 ## Basic usage
 
@@ -76,7 +76,7 @@ body {
 }
 ```
 
-Our goal is to make the icon rotate based on the user's scrolling. To achieve this, we need to create a Scroll Progress Timeline using CSS. The simplest way to do this is by using the `scroll()` function. It allows us to create an anonymous Scroll Timeline, which we can then set as the value for the new `animation-timeline` property.
+Our goal is to make the icon rotate based on the user's scrolling. To achieve this, we need to create a Scroll progress timeline using CSS. The simplest way to do this is by using the `scroll()` function. It allows us to create an anonymous Scroll Timeline, which we can then set as the value for the new `animation-timeline` property.
 
 ```
 svg {
@@ -96,7 +96,7 @@ For the `<axis>` argument:
 
 **block**: Measures the progress along the block axis of the scroll container (default). **inline**: Measures the progress along the inline axis of the scroll container. **y**: Measures the progress along the y-axis of the scroll container. **x**: Measures the progress along the x-axis of the scroll container.
 
-In our case, to bind an animation to the root scroller on the block axis, you can use the simplified syntax `scroll(root block)`. Also, note that when using a Scroll Progress Timeline, it does not make sense to set the `animation-duration` in seconds. Instead, you should set it to `auto`.
+In our case, to bind an animation to the root scroller on the block axis, you can use the simplified syntax `scroll(root block)`. Also, note that when using a Scroll progress timeline, it does not make sense to set the `animation-duration` in seconds. Instead, you should set it to `auto`.
 
 You can find the full code of this example at this [link](https://codepen.io/Levi-ackerman/pen/BaqeENy)
 
@@ -109,4 +109,3 @@ That's it! With just a few lines of CSS code, we've created an awesome scroll an
 - https://scroll-driven-animations.style
 - https://developer.chrome.com/articles/scroll-driven-animations
 - https://www.youtube.com/watch?v=oDcb3fvtETs&t=335s
-

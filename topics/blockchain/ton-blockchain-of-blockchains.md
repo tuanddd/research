@@ -1,5 +1,5 @@
 ---
-title: "Ton: Blockchain of blockchains"
+title: "Ton: blockchain of blockchains"
 description: "Talk about TON and its core technologies. Why do we call TON the 'Blockchain of blockchains'?"
 date: 2024-07-11
 authors:
@@ -10,11 +10,11 @@ tags:
   - ton
 ---
 
-TON (The Open Network) is a blockchain platform originally developed by the team behind Telegram Messenger. By taking advantage of unique sharding technology, Multi-blockchain architecture and Instant Hypercube Routing protocol, TON aims to enable fast transactions and smart contracts with a high level of scalability and security.
+TON (The Open Network) is a blockchain platform originally developed by the team behind Telegram Messenger. By taking advantage of unique sharding technology, Multi-blockchain architecture and Instant hypercube routing protocol, TON aims to enable fast transactions and smart contracts with a high level of scalability and security.
 
 To understand what actually happens under these shiny names of technologies, this post will dissect one by one in the simplest way.
 
-## Actor model, Everything is a Smart Contract
+## Actor model, everything is a smart contract
 
 ![](assets/ton_blockchain_of_blockchains_ton-actor-model.webp)
 
@@ -67,11 +67,11 @@ Similarly, if certain shards become underutilized, they can be combined into a l
 
 > Side note from TON document: To make splitting and merging deterministic, an aggregation of AccountChains into shards is based on the bit-representation of account addresses. For example, address looks like (shard prefix, address). That way, all accounts in the shardchain will have exactly the same binary prefix (for instance all addresses will start with 0b00101).
 
-#### Instant Hypercube Routing
+#### Instant hypercube routing
 
 In the infinite sharding approach, every account aka smart contract is treated as if it were itself in a separate **ShardChain**. Accounts interact only by sending messages to one another, adhering to the actor model where each account operates as an independent actor.
 
-So TON needs an efficient way to deliver and process messages between **ShardChain**. It is Instant Hypercube Routing with the following characteristics
+So TON needs an efficient way to deliver and process messages between **ShardChain**. It is Instant hypercube routing with the following characteristics
 
 - Hypercube Structure: Network as a hypercube with shards as vertices and communication paths as edges.
 - Multi-Dimensional Routing: Shards are addressed by binary strings; routing involves flipping bits in the address.
@@ -85,5 +85,4 @@ If it is hard to imagine, in some aspects, you can take a look at **E-Cube Routi
 
 ## Conclusion
 
-In summary, TON stands out as a “blockchain of blockchains” due to its advanced architecture and design principles. Its use of unique technologies like sharding, the Actor model, and Instant Hypercube Routing allows it to achieve high scalability, fast transactions, and robust security. By seamlessly integrating multiple blockchains into a unified network, TON not only enhances interoperability but also paves the way for a more connected and efficient decentralized ecosystem. Whether you’re a developer or a blockchain enthusiast, understanding the inner workings of TON offers valuable insights into the future of blockchain technology.
-
+In summary, TON stands out as a “blockchain of blockchains” due to its advanced architecture and design principles. Its use of unique technologies like sharding, the Actor model, and Instant hypercube routing allows it to achieve high scalability, fast transactions, and robust security. By seamlessly integrating multiple blockchains into a unified network, TON not only enhances interoperability but also paves the way for a more connected and efficient decentralized ecosystem. Whether you’re a developer or a blockchain enthusiast, understanding the inner workings of TON offers valuable insights into the future of blockchain technology.

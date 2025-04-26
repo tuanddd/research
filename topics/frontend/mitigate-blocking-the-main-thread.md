@@ -14,7 +14,7 @@ We all know that for web applications, perceived performance is highly importanc
 
 Fortunately for us, JavaScript provides a couple of tools to solve these problems with some new features: Threading (through Web Worker) and Coroutines (through generators).
 
-## Threading with Web Worker
+## Threading with web worker
 
 If you don't know what a Web Worker is, check out [Parallelism in JavaScript](./parallelism-in-javascript.md) for a quick introduction.
 
@@ -59,4 +59,3 @@ So, ES6 generator allows us to run code and yield values whenever we like but it
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator
 - https://javascript.info/generators
 - https://developer.mozilla.org/en-US/docs/Web/API/Window/requestIdleCallback
-

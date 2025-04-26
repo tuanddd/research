@@ -1,5 +1,5 @@
 ---
-title: How we created an AI powered interview system using OpenAI's ChatGPT
+title: "How we created an AI powered interview system using OpenAI's ChatGPT"
 description: Discover InterviewGPT, an AI-powered ChatGPT system that automates technical interviews by generating tailored questions and evaluating answers for engineers at all experience levels.
 date: 2023-05-29
 tags:
@@ -43,4 +43,3 @@ Overall, the automated interview system, driven by ChatGPT, offers significant c
 📍Join us to work with awesome people on awesome products: [https://careers.d.foundation/](https://careers.d.foundation/)
 
 ⚒️ Come and build with us: [https://dwarves.foundation/](https://dwarves.foundation/)
-

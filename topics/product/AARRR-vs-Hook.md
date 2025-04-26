@@ -1,5 +1,11 @@
 ---
-tags: product, model, framework
+title: null
+description: null
+date: null
+tags:
+  - product
+  - model
+  - framework
 ---
 
 | type/function | aarrr                          | hook                                 |

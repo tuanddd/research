@@ -28,4 +28,3 @@ Ahrens, Sönke. _How to Take Smart Notes: One Simple Technique to Boost Writing,
 Bhargava, Rohit. _Non Obvious Megatrends: How to See What Others Miss and Predict the Future_. Ideapress Publishing, 2020.
 
 Johnson, Steven. _Where Good Ideas Come from: The Seven Patterns of Innovation_. London: Penguin, 2011.
-

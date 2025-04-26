@@ -1,5 +1,5 @@
 ---
-title: Why Micro Frontend
+title: Why micro frontend
 description: As web applications become more complex and feature-rich, traditional frontend architectures such as monolithic will become harder to maintain, scale, and evolve. Micro-frontend is an emerging front-end architecture that aims to address these challenges by breaking down the front-end into small, independent and reusable modules.
 date: 2023-03-20
 authors:
@@ -26,7 +26,7 @@ Each module is responsible for a specific feature or functionality and can be de
 
 To better understand how micro-frontend architecture works, we should first look into what’s **monolithic architecture.**
 
-### The Monolithic Architecture
+### The monolithic architecture
 
 In a monolith system, everything resides in one repository and all the developers work on the same code base. For every single change, the entire app needs to be built, tested & shipped as a whole.
 
@@ -38,7 +38,7 @@ There might be a need for a more efficient solution - by breaking it down:
 
 We can see that the backend work has been broken into microservices - a term we are probably too familiar with at this point. However, front-end work is still one big chunk. This is where micro-frontend comes in.
 
-### The Micro-Frontend Architecture
+### The micro-frontend architecture
 
 Let’s take the previous monolithic example (The Shop Team), broken into micro-frontends:
 
@@ -52,25 +52,25 @@ Finally, all micro-frontends can be served to the users altogether through a con
 
 Now that we’ve already got the gist of what micro-frontend is, let’s take a closer look at the key benefits it brings.
 
-## Advantages of Micro-Frontend
+## Advantages of micro-frontend
 
-### Improved Scalability
+### Improved scalability
 
 Micro-frontend allows for individual features or functionalities to be developed, tested, and deployed independently by individual teams, which makes it easier to scale specific areas of the application without affecting others.
 
 On the other hand, it also lets teams express themselves at their best - they can make the best possible decision in terms of architecture, testing, and coding style based on the business logic they have to tackle.
 
-### Enhanced Flexibility
+### Enhanced flexibility
 
 Micro-frontend allows greater flexibility in development, enabling teams to use the best tools for each micro-frontend as each micro-frontend can be built using different frameworks, technologies, and languages.
 
 Teams can opt for a new technology stack without having to translate what was developed previously, eliminating technology lock-in & offering opportunities to pick up newer & better tech stacks. This also helps diversify hiring processes as there are many stacks being used.
 
-### Faster Development & Deployment
+### Faster development & deployment
 
 Micro-frontend allows independent teams to work on independent features simultaneously, without communication overhead. Teams can deploy faster, at a higher rate, with a smaller size.
 
-### Better Maintainability
+### Better maintainability
 
 Micro-frontend allows greater autonomy and ownership as each micro-frontend is managed by a dedicated team. It is easier to identify and fix issues, as each team is responsible for a specific feature or functionality.
 
@@ -78,7 +78,7 @@ It also helps address challenges related to legacy code by enabling teams to reb
 
 Of course, while there are many advantages to using a micro-frontend architecture, there are also several challenges and considerations that must be taken into account.
 
-## Challenges and Considerations
+## Challenges and considerations
 
 ![](assets/why-micro-frontend_f956742770614138c3736e182be7da7a_md5.webp)
 
@@ -108,13 +108,13 @@ Building and deploying micro-frontends often requires a different set of tools a
 
 So, knowing full well the pros and cons of micro-frontend architecture, how should we approach building one? Let’s move on to some design principles.
 
-## Micro-Frontend Design Principles
+## Micro-frontend design principles
 
-### Single Responsibility
+### Single responsibility
 
 Each micro-frontend should be responsible for a single aspect of the user interface, rather than trying to do too much. This helps keep the codebase manageable and ensures that changes to one part of the interface don't have unintended consequences elsewhere.
 
-### Loose Coupling
+### Loose coupling
 
 Micro-frontends should be designed to be as independent as possible, with minimal dependencies on other parts of the application. This allows each micro-frontend to be developed, tested, and deployed separately, without affecting other parts of the system.
 
@@ -146,10 +146,9 @@ Until next time!
 
 ## References
 
-- [5 Reasons You Should Adopt a Micro Frontend Architecture — SitePoint](https://www.sitepoint.com/micro-frontend-architecture-benefits/)
-- [5 Pitfalls of Using Micro Frontends and How to Avoid Them — SitePoint](https://www.sitepoint.com/micro-frontend-architecture-pitfalls/)
-- [Micro Frontends - A Complete Guide | Hygraph](https://hygraph.com/blog/micro-frontend)
-- [Micro-Frontend—Why and How? | Syncfusion Blogs](https://www.syncfusion.com/blogs/post/micro-frontend-why-and-how.aspx)
-- [Microfrontends Anti-Patterns: Seven Years in the Trenches](https://www.infoq.com/presentations/microfrontend-antipattern/)
-- [Micro Frontends - extending the microservice idea to frontend development (micro-frontends.org)](https://micro-frontends.org/)
-
+- [5 reasons you should adopt a micro frontend architecture — SitePoint](https://www.sitepoint.com/micro-frontend-architecture-benefits/)
+- [5 pitfalls of using micro frontends and how to avoid them — SitePoint](https://www.sitepoint.com/micro-frontend-architecture-pitfalls/)
+- [Micro frontends - a complete guide | Hygraph](https://hygraph.com/blog/micro-frontend)
+- [Micro-frontend—why and how? | Syncfusion Blogs](https://www.syncfusion.com/blogs/post/micro-frontend-why-and-how.aspx)
+- [Microfrontends anti-patterns: seven years in the trenches](https://www.infoq.com/presentations/microfrontend-antipattern/)
+- [Micro frontends - extending the microservice idea to frontend development (micro-frontends.org)](https://micro-frontends.org/)

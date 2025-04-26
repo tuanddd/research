@@ -1,8 +1,13 @@
 ---
-tags: blockchain, web3
+title: null
+description: null
+date: null
+tags:
+  - blockchain
+  - web3
 ---
 
-# I, Robot (2004): Crypto version
+# I, robot (2004): crypto version
 
 **What is the Turing Test？**
 

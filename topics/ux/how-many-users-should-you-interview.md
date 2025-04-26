@@ -24,4 +24,3 @@ Finally, a more experienced researcher can do more with less. With qualitative r
 Seaman, Mitchel. “The Right Number of User Interviews.” Medium (blog), October 5, 2015. [Link](https://medium.com/@mitchelseaman/the-right-number-of-user-interviews-de11c7815d9).
 
 Yocco, Victor. “Filling Up Your Tank, Or How To Justify User Research Sample Size And Data.” Smashing Magazine (blog). [Link](https://www.smashingmagazine.com/2017/03/user-research-sample-size-data/).
-

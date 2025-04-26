@@ -1,5 +1,5 @@
 ---
-title: "Efficient Union of Finite Automata in Golang: A Practical Approach"
+title: "Efficient union of finite automata in Golang: a practical approach"
 description: An in-depth guide on implementing the union of finite automata in Golang, focusing on practical efficiency and performance considerations.
 date: 2024-09-05
 authors:
@@ -119,15 +119,15 @@ func mergeFAStates(state1, state2 *faState, keyMemo map[faStepKey]*faState, prin
 ## Key Aspects of This Implementation:
 
 1. **Memoization**: The function uses a `keyMemo` map to store already computed merged states, avoiding redundant computations and potential infinite recursion.
-2. **Combining Field Transitions**: The field transitions from both input states are combined immediately.
-3. **Table Unpacking**: The transition tables of both input states are unpacked into a more manageable format for merging.
-4. **Merging Transitions**: The function iterates through all possible transitions (0-255 for byte values) and merges them according to several rules:
+2. **Combining field transitions**: The field transitions from both input states are combined immediately.
+3. **Table unpacking**: The transition tables of both input states are unpacked into a more manageable format for merging.
+4. **Merging transitions**: The function iterates through all possible transitions (0-255 for byte values) and merges them according to several rules:
    - If both transitions are the same, use that transition.
    - If one transition is `nil`, use the non-`nil` transition.
    - If the transition is the same as the previous byte value, reuse the previous merged result.
    - For different non-`nil` transitions, recursively merge the next states.
-5. **Packing the Combined Table**: After merging, the combined table is packed back into the efficient `smallTable` format.
-6. **Combining Epsilon Transitions**: Epsilon transitions from both input states are combined.
+5. **Packing the combined table**: After merging, the combined table is packed back into the efficient `smallTable` format.
+6. **Combining epsilon transitions**: Epsilon transitions from both input states are combined.
 
 ## Advantages:
 
@@ -144,4 +144,3 @@ func mergeFAStates(state1, state2 *faState, keyMemo map[faStepKey]*faState, prin
 - Performance depends on the structure of the input automata and can vary significantly based on their complexity.
 
 In practice, this implementation provides a good balance between theoretical correctness and practical efficiency for the pattern matching tasks Quamina is designed to handle. It allows for the combination of multiple patterns into a single automaton structure that can be efficiently traversed during the matching process.
-

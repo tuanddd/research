@@ -22,7 +22,7 @@ tags:
 - **ZK** aka **Zero-Knowledge** mean:
   - Prove possession of certain information.
   - Without revealing that information.
-  - **For Example:**
+  - **For example:**
     - Given the hash of a random number.
     - The prover could convince the verifier that a number with this hash value exists without revealing what it is.
 - **Succinct**:
@@ -32,7 +32,7 @@ tags:
   - In the first version of ZK, the prover and verifier had to communicate repeatedly for multiple rounds.
   - Now, by implementing this characteristic, the proof consists of a single message sent from the prover to the verifier.
 
-## Implementation by Example
+## Implementation by example
 
 ### Example 1: Function C
 
@@ -44,7 +44,7 @@ tags:
 - As a prover, how can we prove that we know `w`, without sending `w` to the verifier to check with the statements?
 - **Can map this example to the example of the hash function of the previous part. Let's do it, and go to the next example.**
 
-### Example 2: Bob, Alice, and Hash
+### Example 2: Bob, Alice, and hash
 
 - Bob is given a hash `H`.
 - Alice is given the original string `S` satisfied the condition when hashing `S` by a hash function such as `SHA`, `H` is issued (aka `SHA(S) === H`).
@@ -125,4 +125,3 @@ tags:
 - https://consensys.net/blog/developers/introduction-to-zk-snarks/
 - https://ethereum.org/en/developers/docs/scaling/zk-rollups/
 - https://vitalik.eth.limo/general/2022/06/15/using_snarks.html
-

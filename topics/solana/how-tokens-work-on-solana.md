@@ -1,5 +1,5 @@
 ---
-title: How Tokens Work on Solana
+title: How tokens work on Solana
 description: A comprehensive guide explaining how tokens function on Solana, comparing it with EVM-based tokens. This article covers the creation of fungible tokens and NFTs, minting process, token transfers, and key differences in token management between Solana and EVM blockchains.
 date: 2022-06-07
 authors:
@@ -11,7 +11,7 @@ tags:
   - token
 ---
 
-## How tokens work on solana - explain for EVM developers
+## How tokens work on Solana - explain for EVM developers
 
 > **Let's say you want to create a new type of fungible token, mint some to yourself, and then transfer some to your friend. What would you do?**
 
@@ -41,4 +41,3 @@ tags:
 - <https://spl.solana.com/token>
 - <https://spl.solana.com/associated-token-account>
 - <https://twitter.com/pencilflip/status/1454141877972779013>
-

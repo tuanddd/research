@@ -1,5 +1,10 @@
 ---
-tags: fingerprint, HR
+title: null
+description: null
+date: null
+tags:
+  - fingerprint
+  - hr
 ---
 
 Fingerprints are divided into 3 types: Whorl, Loop, Arch.

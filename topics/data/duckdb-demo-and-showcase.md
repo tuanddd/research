@@ -39,7 +39,7 @@ In between, this meeting hopes to show some use-cases, possibilities, as well as
 
 ---
 
-## Workshop Screenshots
+## Workshop screenshots
 
 _This demo is from our pilot project, `memo.d.foundation`, where we aggregate metadata from markdown notes imported from Notion into a parquet file to query data._
 
@@ -48,4 +48,3 @@ _This demo is from our pilot project, `memo.d.foundation`, where we aggregate me
 _This demo is taken from Modal's example of using [DuckDB to analyze taxi NYC data in parallel over HTTPFS](https://modal.com/docs/examples/duckdb_nyc_taxi). It shows the power of DuckDB as a database engine and the flexibilities of having a local tool as opposed to a server-instantiated database._
 
 ![](assets/2023-november-forward-engineering_forward-engineering-november-2023_november-forward-engineering-2023-20231130165019170.webp)
-

@@ -25,4 +25,3 @@ Rather than trying to prove that our ideas are correct, we should seek disconfir
 
 - Madsbjerg, Christian. _Sensemaking: The Power of the Humanities in the Age of the Algorithm_. Hachette Books, 2017.
 - McGrath, Rita Gunther. _Seeing around Corners: How to Spot Inflection Points in Business before They Happen_. Boston, Massachusetts: Houghton Mifflin Harcourt, 2019.
-

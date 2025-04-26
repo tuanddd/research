@@ -40,4 +40,3 @@ As we concentrate on these topics, other potential areas will stay in our backlo
 - Self-hosted feature flag
 
 All challenges have been recorded in our earn program. Please visit the corresponding link or contact the PIC for details.
-

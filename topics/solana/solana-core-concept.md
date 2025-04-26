@@ -22,7 +22,7 @@ Accounts are where data is stored on the Solana blockchain*.* Accounts can store
 
 ![](assets/solana-core-concepts-1.webp)
 
-## Types of Accounts
+## Types of accounts
 
 There are two types of accounts on the Solana blockchain: executable and non-executable. Programs are executable accounts and store the immutable code of a program. Data storage and token balances are stored in non-executable accounts as their data can be changed. To control who can change this data, non-executable accounts have an owner program address assigned to them.
 
@@ -58,7 +58,7 @@ Native programs are those built directly into the core of the Solana blockchain.
 
 On chain programs is user-written programs, often called "smart contracts" on other blockchains, are deployed directly to the blockchain for anyone to interact with and execute.
 
-## Transactions and Instructions
+## Transactions and instructions
 
 On Solana, we send transactions to interactions with the network. Transactions include one or more instructions, each representing a specific operation to be processed. The execution logic for instructions is stored on programs deployed to the Solana network, where each program stores its own set of instructions.
 
@@ -99,4 +99,3 @@ When a program initiates a Cross Program Invocation (CPI) to another program:
 ## References
 
 https://solana.com/docs
-

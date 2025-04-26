@@ -35,7 +35,7 @@ The main role of DevOps is to increase the quality of product to a great extent 
 
 Process re-engineering is probably the most telling skill. Engineers are not being hired to write code from scratch as much, but to find the best open source tools that can function with a company’s current platform and operating systems.
 
-## SRE Table
+## SRE table
 
 Availability is generally calculated based on how long a service was unavailable over some period. Assuming no planned downtime, Table 1-1 indicates how much downtime is permitted to reach a given availability level.
 
@@ -49,7 +49,7 @@ Reference: [https://landing.google.com/sre/book/chapters/availability-table.html
 
 ## Role definitions
 
-### Software Tester
+### Software tester
 
 Goal of Automation Testing is to reduce number of test cases to be run manually and not eliminate Manual Testing all together.
 
@@ -78,7 +78,7 @@ Automation Testing Tools:
 - WATIR
 - SilkTest
 
-### Security Engineer
+### Security engineer
 
 Below is a list of the top five DevOps practices and tooling that can help improve overall security when incorporated directly into your end-to-end continuous integration/continuous delivery (CI/CD) pipeline:
 
@@ -103,7 +103,7 @@ Reference tools:
 
 Deploying security solutions meeting one or more of the following security standards: NIST/FedRAMP, ISO 27001, ISO 27002, PCI DSS, **[HIPAA Security Rules](http://www.onlinetech.com/resources/references/what-is-the-hipaa-security-rule)**
 
-### Application Developers
+### Application developers
 
 Goal: a new software release must be deployed quickly. We need to uses processes as well as tools to streamline the software delivery process and reduce the overall cycle time. To help automate and integrate all of the essential delivery steps in a holistic way, the DevOps approach also needs lightweight tool changes.
 
@@ -122,7 +122,7 @@ Code and scripts for DevOps include the following:
 - Code and script configuration options for configuring the application for different target environments.
 - Code and scripts for programming the attributes and “behavior” of the target environment.
 
-### System Admin
+### System admin
 
 Goal:
 
@@ -153,4 +153,3 @@ Reference tools:
 ## Roadmap 2018
 
 ![](assets/about-devops_3ff5afb2faea481c0d85fe0d0f4591b5_md5.webp)
-

@@ -1,5 +1,5 @@
 ---
-title: Gestalt Principles In Ui Design
+title: Gestalt principles in UI design
 description: Learn how Gestalt principles like Proximity, Similarity, and Closure improve UI design by organizing elements for better usability, clear visual hierarchy, and enhanced user experience.
 date: 2020-07-13
 tags:
@@ -26,11 +26,11 @@ If you are new to UI Design, there would be sometimes you are quite confused abo
 
 The Proximity Principle is presented by white space to optimize and show the relationship, the visual hierarchy between components. Similar information and content are arranged near to each other so that it is perceived as a group. This way of organization creates good visual communication with users, helps them scan layout, read, and digest information quickly. Good applying of white space can enhance the interface appearance, support users to achieve goals faster as well as improve their user experiences.
 
-## Common Fate
+## Common fate
 
 Elements that go in the same direction as part of a stimulus is considered to be in a group. For example, when you see a flock of birds or a shoal of fish you will automatically feel that they are related to each other or belong to a group.
 
-**Applying Common Fate Principle in UI Design**
+**Applying Common fate Principle in UI Design**
 The fact that the movement direction of elements shapes our perception of grouping creates the foundation for drop-down menu design. Let’s right click your mouse and see every sub-option of each category all appear on the right side of the main menu tab. This right orientation together with the highlight color effectively support users in their process of making choice.
 
 ![](assets/gestalt-principles-in-ui-design_c25b23553a4fbc3e63707bb9a81d72c4_md5.webp)
@@ -66,12 +66,12 @@ The continuation principle is best described in the UI field by the alignment of
 
 ![](assets/gestalt-principles-in-ui-design_0072fd89ad3c95ef57fb09a6299464ff_md5.webp)
 
-## Figure/ Ground
+## Figure/ ground
 
 The Figure/Ground Principle demonstrates the human ability to visually separate the object from the background to place the focal point on the important element. This helps decrease our brain tension when it has to process too much information at the same time.
 
-**Applying the Figure/ Ground Principle in UI Design**
-There are a lot of ways to create the Figure/ Ground effect, for example, semi-transparent overlay, shadow, or blurring the background.
+**Applying the Figure/ ground Principle in UI Design**
+There are a lot of ways to create the Figure/ ground effect, for example, semi-transparent overlay, shadow, or blurring the background.
 
 ![](assets/gestalt-principles-in-ui-design_e25d1641f846de4167a75b8640b83744_md5.webp)
 
@@ -82,4 +82,3 @@ User Interface isn't only about aesthetics. It's also about usability, performan
 Gestalt Principles will be an active supporter for us during our UI design process. Before we fully understand UI's beauty and how to create it, those principles are our guidance.
 
 However, never limit yourself to any line or principles. Rules are subjected to be broken. Feel free to stay creative. A great UI design is a harmonious combination of accessibility, feasibility, and art.
-

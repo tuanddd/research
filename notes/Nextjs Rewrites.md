@@ -1,5 +1,9 @@
 ---
-tags: nextjs
+title: null
+description: null
+date: null
+tags:
+  - nextjs
 ---
 
 After Googling, I've come up with a solution

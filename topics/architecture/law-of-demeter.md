@@ -16,7 +16,7 @@ For example, if object `A` wants to access a property of object `C`, it should n
 
 This principle helps to promote loose coupling between objects, which makes the code more flexible and easier to change. It also makes it easier to test individual objects in isolation, as they are less dependent on other objects in the system.
 
-## Code Example
+## Code example
 
 ```js
 class Info {
@@ -84,4 +84,3 @@ It's important to note that the Law of Demeter should be applied with discretion
 - <https://en.wikipedia.org/wiki/Law_of_Demeter>
 - <https://gist.github.com/k1paris/14548413e57c190d3701b5fcb095e061>
 - <https://www.infoworld.com/article/3136224/demystifying-the-law-of-demeter-principle.html#:~:text=The%20Law%20of%20Demeter%20(or,internal%20details%20of%20other%20objects>
-

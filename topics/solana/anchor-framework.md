@@ -207,9 +207,9 @@ SUBCOMMANDS:
                Cargo.toml
 ```
 
-#### Anchor Version Manager
+#### Anchor version manager
 
-Anchor Version Manager (avm) is provided to manage multiple installations of the anchor-cli binary. This may be required to produce verifiable builds, or if you'd prefer to work with an alternate version. Like NVM, some command we should remember:
+Anchor version manager (avm) is provided to manage multiple installations of the anchor-cli binary. This may be required to produce verifiable builds, or if you'd prefer to work with an alternate version. Like NVM, some command we should remember:
 
 ```
 USAGE:
@@ -248,4 +248,3 @@ SUBCOMMANDS:
 - https://book.anchor-lang.com/introduction/what_is_anchor.html
 - https://www.rust-lang.org
 - https://docs.rs/solana/latest/solana/
-

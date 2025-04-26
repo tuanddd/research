@@ -44,7 +44,7 @@ A diagram depicting the flow of the implementation can be included here.
 
 ![[update-highest-and-lowest-symbol-prices-in-real-time.png|500]]
 
-## Results and Limitations
+## Results and limitations
 
 ### Results
 
@@ -59,10 +59,9 @@ The solution has the following limitations:
 
 - Binance socket data updates occur every 1 second, which means there is a possibility of missing new lows or highs during rapid market price fluctuations.
 
-## Work-Around Solution
+## Work-around solution
 
 To mitigate the limitations mentioned above and ensure accurate updates of the second and third peaks, a work-around solution is proposed:
 
 - Implement a long polling service that continuously retrieves data from Binance at shorter intervals.
 - By reducing the interval between data retrievals, the likelihood of missing price movements during rapid market changes can be minimized, thus ensuring more accurate updates of the second and third peaks.
-

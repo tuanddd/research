@@ -60,4 +60,3 @@ Here a reducer has no concept of a "finite" state here, such that state can be r
 - https://facebook.github.io/flux/
 - https://redux.js.org/understanding/history-and-design/prior-art
 - https://github.com/jas-chen/rx-redux
-

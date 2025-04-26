@@ -15,4 +15,3 @@ This approach should be scaled in gradually, as it still requires effort to supp
 #### Related
 
 - [[Make research insights easy to find, consume, and use]] - Research is pointless if it's not made accessible to those who need to act on it
-

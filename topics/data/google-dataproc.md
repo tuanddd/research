@@ -10,10 +10,10 @@ icy: 10
 
 Google Dataproc is a fast and easy-to-use, fully managed cloud service for running Apache Spark and Hadoop workloads. It allows users to process and analyze large-scale data efficiently and at scale. Key features and benefits of Google Dataproc include:
 
-- **Fast and Scalable Processing**: Dataproc enables users to run Apache Spark and Hadoop workloads on Google Cloud Platform, taking advantage of its scalable infrastructure and resources.
-- **Integration with Google Cloud Services**: Dataproc integrates seamlessly with other Google Cloud services, such as BigQuery, Cloud Storage, and Cloud Spanner, allowing users to access and analyze data in a centralized manner**[1](https://cloud.google.com/dataproc)**
-- **Data Analytics and Machine Learning**: Dataproc supports data scientists and engineers in building and deploying machine learning models, as well as analyzing data using custom-built applications and open-source libraries.
-- **Managed and Secure Environment**: Google Dataproc provides a fully managed and secure environment for running data processing workloads, ensuring that users can focus on their data analysis and insights without worrying about infrastructure management**[1](https://cloud.google.com/dataproc)**.
+- **Fast and scalable processing**: Dataproc enables users to run Apache Spark and Hadoop workloads on Google Cloud Platform, taking advantage of its scalable infrastructure and resources.
+- **Integration with Google Cloud services**: Dataproc integrates seamlessly with other Google Cloud services, such as BigQuery, Cloud Storage, and Cloud Spanner, allowing users to access and analyze data in a centralized manner**[1](https://cloud.google.com/dataproc)**
+- **Data analytics and machine learning**: Dataproc supports data scientists and engineers in building and deploying machine learning models, as well as analyzing data using custom-built applications and open-source libraries.
+- **Managed and secure environment**: Google Dataproc provides a fully managed and secure environment for running data processing workloads, ensuring that users can focus on their data analysis and insights without worrying about infrastructure management**[1](https://cloud.google.com/dataproc)**.
 
 Overall, Google Dataproc simplifies big data processing and analysis by providing a fast, scalable, and integrated platform for running Apache Spark and Hadoop workloads on Google Cloud Platform.
 
@@ -68,13 +68,13 @@ In this example, the cluster would also incur charges for Compute Engine and Sta
 
 ### Prerequisites:
 
-1. **Google Cloud Platform Account:**
+1. **Google Cloud Platform account:**
    - You need a GCP account. If you don't have one, you can sign up for a free trial at [Google Cloud Console](https://console.cloud.google.com/).
-2. **Enable Billing:**
+2. **Enable billing:**
    - Make sure you have billing enabled for your GCP project.
 3. **Install Google Cloud SDK:**
    - Install the [Google Cloud SDK](https://cloud.google.com/sdk/docs/install) on your local machine. This SDK includes the **`gcloud`** command-line tool, which you'll use to interact with GCP.
-4. **Create a GCP Project:**
+4. **Create a GCP project:**
    - Create a GCP project if you don't already have one. You can do this through the [GCP Console](https://console.cloud.google.com/).
 5. **Enable APIs:**
    - Enable the necessary APIs for Dataproc and other services. You can do this through the [APIs & Services > Dashboard](https://console.cloud.google.com/apis/dashboard) section in the GCP Console.
@@ -88,7 +88,7 @@ Now that you have the prerequisites in place, you can proceed to set up a Datapr
    - Open the [Google Cloud Console](https://console.cloud.google.com/).
    - Click on the "Activate Cloud Shell" button in the upper right corner.
 
-2. **Create a Dataproc Cluster:**
+2. **Create a Dataproc cluster:**
 
    - Use the following **`gcloud`** command to create a Dataproc cluster. Adjust the parameters as needed.
      ```bash
@@ -101,15 +101,15 @@ Now that you have the prerequisites in place, you can proceed to set up a Datapr
      ```
      Replace the placeholders (**`CLUSTER_NAME`**, **`REGION`**, **`NUM_WORKERS`**, **`MACHINE_TYPE`**, **`MASTER_MACHINE_TYPE`**) with your desired values.
 
-3. **Access the Cluster:**
+3. **Access the cluster:**
 
    - Once the cluster is created, you can access the master node using SSH. You can find the SSH command in the Dataproc cluster details in the GCP Console.
 
-4. **Run Jobs:**
+4. **Run jobs:**
 
    - Submit jobs to your Dataproc cluster using tools like Apache Spark or Hadoop. You can submit jobs using the **`gcloud dataproc jobs submit`** command.
 
-5. **Delete the Cluster:**
+5. **Delete the cluster:**
 
    - When you're done with the cluster, remember to delete it to avoid incurring unnecessary costs.
      ```bash
@@ -149,4 +149,3 @@ Wait for the job status change to succeeded (or failed):
 And that is how you run a Spark ( or Hadoop) job on Google Cloud Dataproc.
 Full video step by step:
 ![[_assets/Google Dataproc/830c086903ad2dcaf7bdece0af8e3647_MD5.mp4]]
-

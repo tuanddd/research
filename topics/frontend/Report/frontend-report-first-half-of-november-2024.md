@@ -1,5 +1,5 @@
 ---
-title: Frontend Report First Half of November 2024
+title: Frontend report first half of November 2024
 short_title: Nov 2024 (First Half)
 description: "A comprehensive update on key advancements in frontend development for the first half of November 2024, highlighting React 19's full-stack capabilities, XState for state management, Shopify's React Native migration, Next.js 15 enhancements, and the impact of container queries on responsive design."
 date: 2024-11-15
@@ -73,9 +73,9 @@ Recall.ai reduced AWS costs by $1M annually and cut CPU usage by 50% by leveragi
 
 ### Quick links
 
-- [GitHub Copilot Supercharged: Beyond autocomplete](https://github.blog/news-insights/product-news/universe-2024-previews-releases/)
+- [GitHub Copilot supercharged: Beyond autocomplete](https://github.blog/news-insights/product-news/universe-2024-previews-releases/)
 
-## New Tools
+## New tools
 
 ### [HTML to React Chrome extension](https://chromewebstore.google.com/detail/html-to-react-figma-by-ma/chgehghmhgihgmpmdjpolhkcnhkokdfp)
 
@@ -94,4 +94,3 @@ Storybook Test revolutionizes frontend testing by integrating component, visual,
 - [Why a perfect Lighthouse score isn't everything](https://www.smashingmagazine.com/2024/11/why-optimizing-lighthouse-score-not-enough-fast-website/)
 - [Headless components](https://www.subframe.com/blog/how-headless-components-became-the-future-for-building-ui-libraries)
 - [State of CSS survey analysis](https://www.oddbird.net/2024/11/04/css-demographics/)
-

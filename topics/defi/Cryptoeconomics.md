@@ -1,5 +1,10 @@
 ---
-tags: blockchain, crypto
+title: null
+description: null
+date: null
+tags:
+  - blockchain
+  - crypto
 ---
 
 ### Cryptoeconomics
@@ -8,7 +13,7 @@ Cryptoeconomics offers a way to coordinate the behavior of network members to so
 
 Cryptoeconomics is not a subset of traditional economics but a blend of game theory, the field of mechanism design, mathematics, and methods of economics. The main goal is to understand how to fund, design, develop, and facilitate the operation of decentralized networks [[¶ DeFi (Decentralized Finance)]].
 
-#### The Cryptoeconomic Circle
+#### The cryptoeconomic circle
 
 The cryptoeconomics circle is an overarching model of cryptoeconomics. It was published by _Joel Monegro_ and illustrates abstract value flows through different membership classes in a peer-to-peer economy. Utility: Reference from [AXS](https://research.binance.com/en/projects/axie-infinity)
 

@@ -24,4 +24,3 @@ The most successful leaders practice what Martin calls "integrative thinking": a
 #### Citation
 
 Martin, Roger L. The Opposable Mind: How Successful Leaders Win Through Integrative Thinking. 1st edition. Boston, Mass: Harvard Business Review Press, 2007.
-

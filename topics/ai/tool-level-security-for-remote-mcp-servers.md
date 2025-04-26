@@ -1,5 +1,5 @@
 ---
-title: Tool-Level Security for Remote MCP Servers
+title: Tool-level security for remote MCP servers
 description: A comprehensive guide to implementing granular access control for Model Context Protocol (MCP) servers, allowing organizations to securely expose tool capabilities based on user roles and permissions while maintaining data privacy.
 date: 2025-03-27
 authors:
@@ -614,4 +614,3 @@ Implementing Role-Based Access Control for MCP servers creates a secure foundati
 The multi-layered approach described in this guide, combining authentication, permission-based tool filtering, and data access policies, provides comprehensive protection aligned with security best practices. By integrating with existing identity systems and implementing proper audit trails, you can maintain security while leveraging your organization's established infrastructure.
 
 As MCP adoption continues to grow, robust security controls become increasingly essential to realizing its full potential in enterprise environments. By implementing these patterns early, you establish a foundation that can evolve with your organization's needs while maintaining appropriate security boundaries.
-

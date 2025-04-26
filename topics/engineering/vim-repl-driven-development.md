@@ -58,7 +58,7 @@ the idea behind, `vim-slime` can be replaced with other plugin.
 
 https://github.com/jpalardy/vim-slime
 
-## The General Idea
+## The general idea
 
 ```mermaid
 sequenceDiagram
@@ -136,4 +136,3 @@ whole.
 I think REPL Driven Development can still be good tool for programming language
 learning purpose: I think the workflow is a perfect way to get yourself familiar
 with the language's syntax and standard library.
-

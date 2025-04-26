@@ -174,4 +174,3 @@ Back to the example at the beginning of the article
 ## Reference
 
 - https://beta.reactjs.org/learn/preserving-and-resetting-state
-

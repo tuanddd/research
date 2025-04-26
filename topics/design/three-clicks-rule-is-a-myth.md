@@ -1,6 +1,6 @@
 ---
 title: Three clicks rule is a myth
-description: "The \"three clicks rule\" for website navigation is a myth, as research shows click count doesn''t impact user experience or conversion rates, and more clicks can sometimes improve control and satisfaction."
+description: 'The "three clicks rule" for website navigation is a myth, as research shows click count doesn''''t impact user experience or conversion rates, and more clicks can sometimes improve control and satisfaction.'
 date: null
 ---
 
@@ -13,4 +13,3 @@ In fact, there are situations in which more clicks might deliver the better expe
 #### Citations
 
 Goesch, Robert. “Stop Counting Clicks.” Boxes and Arrows (blog), October 12, 2020. [Link](https://boxesandarrows.com/stop-counting-clicks/).
-

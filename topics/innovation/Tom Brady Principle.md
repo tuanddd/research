@@ -1,5 +1,10 @@
 ---
-tags: innovation, principle
+title: null
+description: null
+date: null
+tags:
+  - innovation
+  - principle
 ---
 
 The "Tom Brady Principle" questions the common practice of elevating high performers in an organization into management roles. The argument imagines a hypothetical situation in which New England Patriots quarterback Tom Brady, after having won the SuperBowl and an MVP award, would be offered a "promotion" into a role as general manager of the team.

@@ -93,7 +93,7 @@ Doing things this way might feel a bit counter-intuitive, in the sense that the 
 
 ## The challenges
 
-### Filtering & Pagination
+### Filtering & pagination
 
 One of the main challenges we encountered was filtering and pagination. With our model involving multiple tables—tasks, fields, values, and options—queries often required complex joins. This setup had the potential to cause performance issues, especially as the dataset grew.
 
@@ -110,4 +110,3 @@ While we’ve implemented some solutions to mitigate this issue, it remains an o
 ## Conclusion
 
 In the end, the model we designed has been working well for our use cases, providing the flexibility and extensibility we set out to achieve. While there are still areas for improvement, particularly with cross-team collaboration, the foundation we've built offers plenty of room to grow. All in all, it’s been a fun journey, tackling challenges and finding creative solutions along the way.
-

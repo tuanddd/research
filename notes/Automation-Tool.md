@@ -1,5 +1,9 @@
 ---
-tags: tool
+title: null
+description: null
+date: null
+tags:
+  - tool
 ---
 
 The new Automation Tool comes from M$, wrote the first public version early last year
@@ -12,24 +16,24 @@ The new Automation Tool comes from M$, wrote the first public version early last
 - Newer feature of Playwright is to allow simulate multiple devices on 1 browser:
 
 ```js
-const { chromium, devices } = require('playwright')
+const { chromium, devices } = require("playwright");
 
-;(async () => {
-  const browser = await chromium.launch()
+(async () => {
+  const browser = await chromium.launch();
 
-  for (const deviceName of ['iPhone 11', 'iPad Pro 11']) {
+  for (const deviceName of ["iPhone 11", "iPad Pro 11"]) {
     const context = await browser.newContext({
       ...devices[deviceName],
-    })
-    const page = await context.newPage()
-    await page.goto('http://github.com')
+    });
+    const page = await context.newPage();
+    await page.goto("http://github.com");
     await page.screenshot({
-      path: `github-${deviceName.replace(/ /g, '-')}.png`,
-    })
+      path: `github-${deviceName.replace(/ /g, "-")}.png`,
+    });
   }
 
-  await browser.close()
-})()
+  await browser.close();
+})();
 ```
 
 An interesting point: The top contributor of Puppeteer has now become the top contributor of Playwright /graphs/contributors

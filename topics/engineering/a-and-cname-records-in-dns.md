@@ -46,4 +46,3 @@ There are many things you can do with `A` records, including using multiple `A` 
 - <https://support.dnsimple.com/categories/dns/>
 - <https://www.elegantthemes.com/blog/wordpress/what-is-an-a-record-and-how-is-it-different-from-cname-and-mx>
 - <https://www.cloudflare.com/learning/dns/dns-records/#:~:text=What%20is%20a%20DNS%20record,handle%20requests%20for%20that%20domain>.
-

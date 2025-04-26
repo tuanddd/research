@@ -10,7 +10,7 @@ tags:
   - profiling
 ---
 
-## Profiling in Go: Gotta catch 'em all
+## Profiling in Go: Gotta catch 'em all
 
 ### Introduction
 
@@ -644,4 +644,3 @@ In conclusion, profiling is an essential tool for any Go developer looking to bu
 As you continue to work on your Go projects, keep in mind the importance of profiling and the various tools and techniques available to help you optimize your code. By doing so, you'll be well on your way to becoming a more efficient and effective developer.
 
 So go ahead, catch 'em all!
-

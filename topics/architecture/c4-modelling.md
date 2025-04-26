@@ -1,5 +1,5 @@
 ---
-title: "Breaking Down Complexity: The Role of Abstractions and UML in C4 Modelling"
+title: "Breaking down complexity: the role of abstractions and UML in C4 modelling"
 description: Understanding and conveying software architecture can be a daunting task, especially when dealing with non-technical stakeholders or diverse development teams. This article delves into the challenges of traditional methods like complex UML diagrams and non-descriptive box-and-line drawings. We introduce the C4 model, a powerful framework that simplifies these challenges by using layered abstractions and visualizations. Explore how the model breaks down software architecture into comprehensible levels, Context, Container, Component, and Code, and offers guidelines on creating effective diagrams. Real-world examples illustrate the application of the C4 model, making it an invaluable tool for creating a shared understanding and ensuring clear, meaningful communication among all parties involved.
 date: 2024-05-23
 authors:
@@ -90,4 +90,3 @@ The C4 model’s diagram, for the amount of effort and the value that it brings,
 ## Reference
 
 - <https://c4model.com/>
-

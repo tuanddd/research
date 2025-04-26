@@ -9,55 +9,54 @@ tags:
   - moc
 ---
 
-### Foundational Topics
+### Foundational topics
 
 - [¶ Blocks](¶%20Blocks.md)
 - [¶ Distributed systems](¶%20Distributed%20systems.md)
 - [¶ PoS](¶%20PoS.md)
-- [¶ Smart Contract](¶%20Smart%20Contract.md)
+- [¶ Smart contract](¶%20Smart%20Contract.md)
 - [General](general.md)
 - [Documents](documents.md)
 - [Precautions](precautions.md)
-- [Blockchain Security](blockchain-security.md)
+- [Blockchain security](blockchain-security.md)
 
-### Blockchain Concepts & Components
+### Blockchain concepts & components
 
 - [Token](token.md)
 - [Multisign wallet](multisign-wallet.md)
 - [Liquidity pool](liquidity-pool.md)
-- [NFT Fractionalization](nft-fractionalization.md)
-- [Dollar Cost Averaging (DCA)](dollar-cost-averaging.md)
+- [NFT fractionalization](nft-fractionalization.md)
+- [Dollar cost averaging (DCA)](dollar-cost-averaging.md)
 
-### Layer 2 & Scaling Solutions
+### Layer 2 & scaling solutions
 
-- [Layer 2: Scaling Solutions for Ethereum](layer-2.md)
-- [Design System For Layer 2 Using Zk Rollup](design-system-for-layer-2-using-zk-rollup.md)
+- [Layer 2: scaling solutions for Ethereum](layer-2.md)
+- [Design system for layer 2 using zk rollup](design-system-for-layer-2-using-zk-rollup.md)
 - [Polygon zkEVM architecture](polygon-zkevm-architecture.md)
 - [StarkNet architecture](starknet-architecture.md)
 - [Plonky2](plonky2.md)
 
-### Blockchain Bridges & Interoperability
+### Blockchain bridges & interoperability
 
-- [Blockchain Bridge](blockchain-bridge.md)
-- [Cross-chain Transfers: Implementing a Token Swap from Base Chain to Bitcoin](cross-chain-transfers-implementing-a-token-swap-from-base-chain-to-bitcoin.md)
-- [Ton: Blockchain of blockchains](ton-blockchain-of-blockchains.md)
+- [Blockchain bridge](blockchain-bridge.md)
+- [Cross-chain transfers: implementing a token swap from Base chain to Bitcoin](cross-chain-transfers-implementing-a-token-swap-from-base-chain-to-bitcoin.md)
+- [Ton: blockchain of blockchains](ton-blockchain-of-blockchains.md)
 - [Ton's base concepts](ton-core-concept.md)
 - [Federated Byzantine](federated-byzantine.md)
 
-### Oracles & External Data
+### Oracles & external data
 
 - [Blockchain oracle](blockchain-oracle.md)
 - [External calls](external-calls.md)
 
-### Zero-Knowledge Proofs & Privacy
+### Zero-knowledge proofs & privacy
 
-- [¶ Zero-knowledge Proofs](¶%20Zero-knowledge%20Proofs.md)
+- [¶ Zero-knowledge proofs](¶%20Zero-knowledge%20Proofs.md)
 - [zk-SNARKs](zk-snarks.md)
 
-### Development Tools & Practices
+### Development tools & practices
 
 - [Using Foundry for EVM smart contract development](using-foundry-for-evm-smart-contract-developement.md)
-- [Web3 Development with Foundry](web3-development-with-foundry.md)
-- [Build custom AI Agent with ElizaOS](build-custom-ai-agent-with-elizaos.md)
-- [Blockchain for Designers](blockchain-for-designers.md)
-
+- [Web3 development with Foundry](web3-development-with-foundry.md)
+- [Build custom AI agent with ElizaOS](build-custom-ai-agent-with-elizaos.md)
+- [Blockchain for designers](blockchain-for-designers.md)

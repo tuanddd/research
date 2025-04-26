@@ -1,5 +1,5 @@
 ---
-title: How I came up with our Security Standard
+title: How I came up with our security standard
 description: In this memo, I want to share with you my thought process behind our security guideline for Dwarves. This is a critical aspect for a software company that aims to establish trusted partnerships with clients. They rely on us because we take the security of their ideas and data seriously.
 date: 2024-04-19
 authors:
@@ -22,7 +22,7 @@ Several factors prompted us to develop a set of security guidelines:
 
 **Capability Enhancement**: Enhancing our security capabilities will make us stronger and more confident when dealing with larger clients in the future.
 
-## Key Considerations
+## Key considerations
 
 Here are some crucial points that influenced how we crafted the guideline:
 
@@ -34,13 +34,13 @@ Here are some crucial points that influenced how we crafted the guideline:
 
 **Accessibility**: Many existing security guidelines are verbose and difficult to digest. Ours is designed to be straightforward, making it easier for our team to learn and implement in training.
 
-## Initial Structure
+## Initial structure
 
 The security guideline is divided into three main sections:
 
-1. **Security in Setup and Configuration**: This section covers secure configurations and setups for network connections and access control.
-2. **Security in Daily Operation**: Here, we address security issues that can arise during daily tasks.
-3. **Security Management and Reporting**: This section outlines the policies, processes, and tools we've implemented to monitor security breaches and receive alerts.
+1. **Security in setup and configuration**: This section covers secure configurations and setups for network connections and access control.
+2. **Security in daily operation**: Here, we address security issues that can arise during daily tasks.
+3. **Security management and reporting**: This section outlines the policies, processes, and tools we've implemented to monitor security breaches and receive alerts.
 
 Each section includes various topics, and each topic lists practical dos and don'ts, explaining why certain practices should or should not be followed, supported by visual illustrations.
 
@@ -50,4 +50,3 @@ Each section includes various topics, and each topic lists practical dos and don
 ## Conclusion
 
 Once implemented and integrated into our practice and training, these guidelines will help our team stay secure and compliant. This will not only enhance our reputation as a brilliant software company but also demonstrate our responsibility and professionalism by safeguarding our clients' ideas and assets with utmost security.
-

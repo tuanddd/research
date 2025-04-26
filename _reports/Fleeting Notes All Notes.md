@@ -4,7 +4,7 @@ description: null
 date: null
 ---
 
-## Fleeting Notes
+## Fleeting notes
 
 ```dataviewjs
 const query = dv.page("_queries").fleeting_notes_all;
@@ -13,4 +13,3 @@ const { headers, values } = pagesQuery.value
 
 dv.table(headers, values);
 ```
-

@@ -70,9 +70,9 @@ Prompt logging is important for keeping track of how well LLMs handle user input
 Model parameters are the internal variables that the LLM adjusts during training to optimize its understanding and generation of language. Key parameters include:
 
 - **Temperature**: Adjusts how creative or random the model's output is. Higher values = more randomness.
-- **Max Tokens**: Limits the length of the response generated.
-- **Top-k Sampling**: Controls how many token options the model considers for each word.
-- **Top-p (Nucleus) Sampling**: Ensures the model chooses from a smaller, more focused set of word options, based on probability.
+- **Max tokens**: Limits the length of the response generated.
+- **Top-k sampling**: Controls how many token options the model considers for each word.
+- **Top-p (Nucleus) sampling**: Ensures the model chooses from a smaller, more focused set of word options, based on probability.
 
 ![](assets/logs-pillar-llm-parameters.webp)
 
@@ -91,7 +91,7 @@ Chains involve calling multiple tools or agent to retrieve data. Each step relie
 
 - **Retrieval**: The system retrieves relevant information, embedding it into vectors to improve accuracy. Logs help you see if the retrieval process worked and how well it pulled in the right data.
 - **Generation**: The system generates a response based on the data retrieved. Logging here ensures you can trace how well the generated content fits the user’s query.
-- **Multiple Tools**: Embedding, retrieving, calling APIs, and parsing are all part of this chain. Each of these steps is logged so you can monitor how each function performed, catch issues, and debug easily.
+- **Multiple tools**: Embedding, retrieving, calling APIs, and parsing are all part of this chain. Each of these steps is logged so you can monitor how each function performed, catch issues, and debug easily.
 
 ![](assets/logs-pillar-tracing-chain.webp)
 
@@ -133,4 +133,3 @@ While logging might feel like a small detail in the bigger picture of generative
 - https://docs.smith.langchain.com/old/cookbook/tracing-examples/traceable
 - https://medium.com/@simon_attard/leveraging-large-language-models-in-your-software-applications-9ea520fb2f34
 - https://www.researchgate.net/figure/An-LLM-based-agent-autonomously-reasons-about-tasks-and-composes-external-tools-to_fig1_376401381
-

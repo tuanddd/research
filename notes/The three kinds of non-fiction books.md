@@ -1,5 +1,10 @@
 ---
-tags: reading, book
+title: null
+description: null
+date: null
+tags:
+  - reading
+  - book
 ---
 
 There are three kinds of non-fiction book: 💁‍♀️ narrative, 🌳 tree, and 🌿 branch.

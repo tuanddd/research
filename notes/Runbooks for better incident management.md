@@ -1,5 +1,9 @@
 ---
-tags: devops
+title: null
+description: null
+date: null
+tags:
+  - devops
 ---
 
 ### Why runbooks are useful
@@ -13,7 +17,7 @@ tags: devops
 ### Ways that teams have set up their runbooks
 
 - **Confluence** -- not particularly designed for runbooks but they are an open-ended tool that enables you if you have a solid idea of runbook design
-- **Jupyter Notebooks** - an open-source tool with a combo of text, image and live code snippets so decent option if you are happy to install and update
+- **Jupyter notebooks** - an open-source tool with a combo of text, image and live code snippets so decent option if you are happy to install and update
 - **Markdown files hosted in git repo** -- maintenance might be an issue
 - **Err… this ➝** "Sticky notes on someone's desk. We're thinking about getting a laminator to keep the coffee spills from being too serious of a problem."
 

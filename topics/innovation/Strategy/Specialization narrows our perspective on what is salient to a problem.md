@@ -1,5 +1,10 @@
 ---
-tags: business, strategy
+title: null
+description: null
+date: null
+tags:
+  - business
+  - strategy
 ---
 
 Problem-solving involves identifying the salient features of a problem. This is a subjective activity; different thinkers will identify different matters of salience.

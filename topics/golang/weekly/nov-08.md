@@ -1,5 +1,5 @@
 ---
-title: "Go Commentary #19: Writing secure Go code"
+title: "Go commentary #19: Writing secure Go code"
 short_title: "#19 Writing secure Go code"
 description: Pratices to write secure Go code
 date: 2024-11-08
@@ -216,4 +216,3 @@ How do we test our Go code focusing on security and robustness?
 <https://en.wikipedia.org/wiki/Open-source_intelligence>
 
 <https://cwe.mitre.org/data/definitions/295.html>
-

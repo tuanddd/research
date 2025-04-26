@@ -1,5 +1,10 @@
 ---
-tags: product, feedback
+title: null
+description: null
+date: null
+tags:
+  - product
+  - feedback
 ---
 
 ## What is feedback-loop
@@ -47,6 +52,6 @@ Feedback loop can be created through 3 purposes
 - Inform users about the change
 - Thank them for contribution -> close the loop
 
-## Personal Input
+## Personal input
 
 Hubspot and Traveloka are the two best example for CS and feedback loop I suppose. they're in quickly response and follow up when the service awaiting time is extended. user knows exactyly where to drop a feedback or asking FAQs.

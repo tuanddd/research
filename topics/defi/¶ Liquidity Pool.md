@@ -1,5 +1,11 @@
 ---
-tags: blockchain, defi, dex
+title: null
+description: null
+date: null
+tags:
+  - blockchain
+  - defi
+  - dex
 ---
 
 **Liquidity Pool** is a collection of funds locked in a smart contract. Liquidity Provider will place the equal amount of a pair of assets into a Pool, this amount will be locked and unavailable to make other transactions like send or receive. With each pool created, the Provider will receive a new token representing their shares, called Token Pool. The transaction fee will be paid on each Swap transaction, divided by shares.

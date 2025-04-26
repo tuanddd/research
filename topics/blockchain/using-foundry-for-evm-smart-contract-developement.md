@@ -32,7 +32,7 @@ To help everyone to adopt Foundry in your next projects and start forging the fu
 
 ![](assets/using-foundry-for-evm-smart-contract-developement_22ed3c2228f0f9355fcb48a2c63788ee_md5.webp)
 
-## Managing Dependencies
+## Managing dependencies
 
 Currently, there are two ways of managing dependencies in a Foundry projects
 
@@ -41,7 +41,7 @@ Currently, there are two ways of managing dependencies in a Foundry projects
 
 By default, Foundry uses _Git Submodules_ for managing dependencies. However, I prefer _Solder_ for my EVM repository template because it integrates well with _forge_ - A command-line tool included with Foundry.
 
-## Toolbox Overview
+## Toolbox overview
 
 Foundry offers a powerful suite of tools to resolve our development development needs:
 
@@ -52,7 +52,7 @@ Foundry offers a powerful suite of tools to resolve our development development 
 
 In the scope of this memo, we'll focus on _Forge_ for constructing a template EVM contract repository.
 
-## Showcase Preparation
+## Showcase preparation
 
 Let's create a fresh repository with the following files and folders:
 
@@ -432,7 +432,7 @@ And our `IcySwap` contract will be deployed to `Base Sepolia` testnet & will aut
 
 ![](assets/using-foundry-for-evm-smart-contract-developement_edacb4045a35d14a161b41e829079199_md5.webp)
 
-## Other Usages
+## Other usages
 
 Foundry is not just be here to resolve our common tasks like compiling, testing and deploying smart contracts. It also provides a lot of other features that can be used to enhance our development workflow. One of them is `Fork testing`.
 
@@ -445,4 +445,3 @@ I found an interesting repository that use Foundry to reproduce a lot of DeFi ha
 - <https://book.getfoundry.sh/getting-started/first-steps>
 - <https://milotruck.github.io/blog/Foundry-Cheatsheet/>
 - <https://github.com/SunWeb3Sec/DeFiHackLabs>
-

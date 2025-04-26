@@ -12,7 +12,7 @@ tags:
 
 ## Who is using Go in enterprise?
 
-### Technology Giants
+### Technology giants
 
 - Google
 
@@ -22,7 +22,7 @@ tags:
 
   Ent is a database schema as code tool written in Go Reference: [Eli5: Ent schema as code](https://developers.facebook.com/blog/post/2021/04/26/eli5-ent-schema-as-code-go/)
 
-### Cloud Providers
+### Cloud providers
 
 - Amazon Web Services (AWS)
 
@@ -32,7 +32,7 @@ tags:
 
   Command line tool for DigitalOcean API Reference: [doctl](https://github.com/digitalocean/doctl)
 
-### Financial Services
+### Financial services
 
 - American Express
 
@@ -42,7 +42,7 @@ tags:
 
   Uses Go for its trading platform Reference: [A Lesson in Niche Business DSLs at Scale](https://zerodha.tech/blog/a-lesson-in-niche-business-dsls-at-scale/)
 
-### Media and Entertainment
+### Media and entertainment
 
 - Netflix
 
@@ -52,7 +52,7 @@ tags:
 
   Heavily relies on Go for its video streaming infrastructure Reference: [Go's March to Low-Latency, GC-Agnostic](https://blog.twitch.tv/en/2016/07/05/gos-march-to-low-latency-gc-a6fa96f06eb7/)
 
-### Ride-sharing and Delivery
+### Ride-sharing and delivery
 
 - Uber
 
@@ -68,7 +68,7 @@ tags:
 
   Extensively uses Go for its edge computing platform and other services Reference: [Cloudflare's Go Projects](https://github.com/cloudflare?language=go)
 
-### Productivity Tools
+### Productivity tools
 
 - Dropbox
 
@@ -99,4 +99,3 @@ https://einride.engineering/docs/tech-radar/backend#go
 https://github.com/cloudflare?language=go
 
 https://github.com/dropbox?language=go
-

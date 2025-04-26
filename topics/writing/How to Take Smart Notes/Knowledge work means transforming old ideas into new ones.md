@@ -1,5 +1,9 @@
 ---
-tags: writing
+title: null
+description: null
+date: null
+tags:
+  - writing
 ---
 
 Knowledge work is not about coming up with some random insight; it’s about transforming existing ideas into something new. “Every intellectual effort starts with an already existing preconception,” Ahrens writes, “that can be transformed during further inquiries and can serve as a starting point for following endeavours.”

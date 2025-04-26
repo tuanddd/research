@@ -10,37 +10,36 @@ tags:
   - nix
 ---
 
-## Why Devbox? The Big Picture
+## Why Devbox? The big picture
 
-- [The Game-Changing Reasons to Choose Devbox](introduction/the-reason-for-being.md)
+- [The game-changing reasons to choose Devbox](introduction/the-reason-for-being.md)
 
-## The Building Blocks
+## The building blocks
 
-- [Devbox: Supercharge Your Development Workflow](introduction/¶%20Devbox.md)
-- [Devbox Services: Tame Complex Setups with Ease](introduction/¶%20Devbox%20Services.md)
-- [Devbox Plugins: Extend and Customize Like a Pro](introduction/¶%20Devbox%20Plugins.md)
+- [Devbox: Supercharge your development workflow](introduction/¶%20Devbox.md)
+- [Devbox services: Tame complex setups with ease](introduction/¶%20Devbox%20Services.md)
+- [Devbox plugins: Extend and customize like a pro](introduction/¶%20Devbox%20Plugins.md)
 
-## From Zero to Hero
+## From zero to hero
 
-- [Craft Your Perfect Shell with Devbox](guide/run-your-own-shell.md)
-- [Devbox.json: The Blueprint of Your Dev Environment](guide/devbox-json.md)
-- [Beyond Containers: Devbox's Containerless Revolution](guide/containerless.md)
+- [Craft your perfect shell with Devbox](guide/run-your-own-shell.md)
+- [Devbox.json: The blueprint of your dev environment](guide/devbox-json.md)
+- [Beyond containers: Devbox's containerless revolution](guide/containerless.md)
 
 ## What's Next?
 
-- [Reinventing Docker Builds with Nix and Devbox](research/≈%20Nix%20in%20building%20Docker%20images.md)
+- [Reinventing Docker builds with Nix and Devbox](research/≈%20Nix%20in%20building%20Docker%20images.md)
 
-## Our Story
+## Our story
 
-- [Life Before Docker: The Old Ways](story/devbox-a-world-before-docker.md)
-- [Docker: The Promise and the Pain](story/devbox-docker-adoption-and-challenges.md)
-- [Enter Nix and Devbox: Our Eureka Moment](story/devbox-nix-and-our-devbox-adoption.md)
-- [Devbox in Action: Transforming Our Local Dev Setup](story/devbox-local-development-env.md)
-- [Devbox in Production: Our Success Story](story/devbox-production-success-story.md)
+- [Life before Docker: The old ways](story/devbox-a-world-before-docker.md)
+- [Docker: The promise and the pain](story/devbox-docker-adoption-and-challenges.md)
+- [Enter Nix and Devbox: Our eureka moment](story/devbox-nix-and-our-devbox-adoption.md)
+- [Devbox in action: Transforming our local dev setup](story/devbox-local-development-env.md)
+- [Devbox in production: Our success story](story/devbox-production-success-story.md)
 
-## Deep Dives: For the Curious
+## Deep dives: For the curious
 
-- [Nix Shell: The Foundation of Rock-Solid Environments](introduction/¶%20Nix%20Shell.md)
-- [Nix Flakes: Package Management Reimagined](introduction/¶%20Nix%20Flakes.md)
-- [Devbox vs Nix: Simplicity Meets Power](introduction/why-devbox-but-not-nix.md)
-
+- [Nix shell: The foundation of rock-solid environments](introduction/¶%20Nix%20Shell.md)
+- [Nix flakes: Package management reimagined](introduction/¶%20Nix%20Flakes.md)
+- [Devbox vs Nix: Simplicity meets power](introduction/why-devbox-but-not-nix.md)

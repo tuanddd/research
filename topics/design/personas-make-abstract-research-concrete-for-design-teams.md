@@ -17,4 +17,3 @@ A name and photo may be included if they help the team remember the persona. How
 #### Citations
 
 Harley, Aurora. _“Personas Make Users Memorable for Product Team Members.”_ Nielsen Norman Group (blog). Accessed October 10, 2020. [Link](https://www.nngroup.com/articles/persona/)
-

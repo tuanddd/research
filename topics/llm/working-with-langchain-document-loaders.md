@@ -22,7 +22,7 @@ These data are saved and indexed as vectors in a [[Vector Database|vector databa
 
 ![](assets/working-with-langchain-document-loaders_langchain-document-loader-flow.webp)
 
-### Question Answer Systems
+### Question answer systems
 
 In order to get question and answering from prompts, we follow 4 steps with langchain:
 
@@ -131,4 +131,3 @@ Hopefully, this gives you an idea of how langchain can be used to create an agen
 
 - https://python.langchain.com/en/latest/modules/indexes/getting_started.html
 - https://github.com/kenhuangus/ChatGPT-FAQ/blob/main/vectorDB.md
-

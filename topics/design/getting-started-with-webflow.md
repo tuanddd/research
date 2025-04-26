@@ -1,5 +1,5 @@
 ---
-title: Getting Started With Webflow
+title: Getting started with Webflow
 description: Learn how to design responsive, high-quality websites quickly with Webflow’s no-code platform, featuring visual design tools, CMS, hosting, and easy animations for faster web development.
 date: 2021-01-23
 tags:
@@ -14,7 +14,7 @@ No-code platform has becoming a thing recently. With convenient and user-friendl
 
 In short, Webflow is a web design tool, CMS, and hosting platform. Each aspect of the platform is represented by a particular product/feature set:
 
-### The Designer
+### The designer
 
 A visual web design tool firmly grounded in web standards and best practices, the Designer translates design decisions into clean, production-ready code. Webflow was built to enable designers to develop websites familiarly — i.e., visually and effortlessly.
 
@@ -50,7 +50,7 @@ Firstly, we’re recommended to fill in the default font, font size, and project
 
 ![](assets/getting-started-with-webflow_15ed261870e05e4d45159ac062d63f5c_md5.webp)
 
-## Getting Started
+## Getting started
 
 ### Toolbar
 
@@ -62,7 +62,7 @@ Let’s start with the first image. From left to right:
 2. **Spacing:** Includes Padding and Margin. Padding is the space in the block; the margin is the outer space. Each container, text block, link block... can be adjusted for margin and padding depending on the purpose of use.
 3. **Layout:** There are 5 types of Layout. Depending on usage needs, each layout helps us build our website differently.
 4. **Typography:** We can input fonts from our laptop or directly from google font. You should check it out yourself; it’s easier than you think.
-5. **Background, Borders, and Effects:** like in Figma or sketch, we can edit the background image, radius, have fun with shadows.
+5. **Background, borders, and effects:** like in Figma or sketch, we can edit the background image, radius, have fun with shadows.
 
 ### Navigator
 
@@ -72,7 +72,7 @@ This point can be a red flag. In this case, we’re encouraged to create and nam
 
 **_Tips:_** Name a component right after you create one. The component arrangement is the foundation of your website, especially responsive. It is the same as in Figma or sketch, a carefully arranged component is easier to edit, modify, and check back when needed
 
-## Design a Website
+## Design a website
 
 A website is divided into 3 parts: Header, Body, and Footer.
 
@@ -162,9 +162,8 @@ Check out my **[full case study](https://kiwipay.webflow.io/)**. I added some ef
 
 ![](assets/getting-started-with-webflow_c1035a354ff1b911ba88d98c7815ad41_md5.webp)
 
-## Wrapping Up
+## Wrapping up
 
 Within a month of designing with Webflow, I can learn and practice much more to produce a more high-end website. Besides, I found out that this tool's Preview is sometimes unstable, which annoyed me, but the output was outstanding.
 
 Webflow is such a flexible tool, and now designers can work with design tools and a No-code platform for more fast and stunning achievement. I hope that these tips will spark some ideas and help you be a more efficient product designer.
-

@@ -16,4 +16,3 @@ Book: My True Type, page 58 - 69
 > Ni là function hiếm nhất trong 8 loại functions, đc xem như là có "tín hiệu của vũ trụ". They are skilled at seeing the “dark skies before the storm.”
 
 > Ni thích tìm hiểu "tảng băng chìm" của vấn đề
-

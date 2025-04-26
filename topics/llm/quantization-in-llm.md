@@ -156,4 +156,3 @@ Quantization stands as a pivotal technique in LLM optimization, enabling efficie
 - <https://www.datacamp.com/tutorial/quantization-for-large-language-models>
 - <https://medium.com/@vimalkansal/understanding-the-gguf-format-a-comprehensive-guide-67de48848256>
 - <https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-quantization>
-

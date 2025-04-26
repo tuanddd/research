@@ -1,5 +1,5 @@
 ---
-title: Docker Build Issues
+title: Docker build issues
 description: An overview of the non-deterministic nature of Docker builds and related issues
 date: 2024-08-01
 authors:
@@ -17,4 +17,3 @@ Some specific issues related to this problem include:
 
 - [Unstable package installation](unstable-package-installation.md)
 - [Shadow copies](shadow-copies.md)
-

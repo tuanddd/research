@@ -216,4 +216,3 @@ and **never to a user supplied address**.
 - Don't assume contracts are created with zero balance An attacker can send ether to the address of a contract before it is created. Contracts should not assume that their initial state contains a zero balance.
 - See [issue 61](https://github.com/ConsenSys/smart-contract-best-practices/issues/61) for more details.
 - See [SWC-112](https://swcregistry.io/docs/SWC-112)
-

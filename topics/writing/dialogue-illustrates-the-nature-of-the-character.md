@@ -15,4 +15,3 @@ Use dialogue to show your reader the nature of the character. Their words should
 #### Citations
 
 George, Elizabeth. _Mastering the Process: From Idea to Novel_. Viking, 2020.
-

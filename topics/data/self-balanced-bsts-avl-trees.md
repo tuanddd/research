@@ -32,11 +32,11 @@ icy: 10
 ## Type of trees
 
 - Generally, trees can be divided into two categories based on the number of children a node can have. They are as follows:
-  - **Non-Binary Trees**
+  - **Non-binary trees**
     - A non-binary tree is a type of tree in which a node can have **more than two children**.
     - Examples: **2-3 trees**, **2-3-4 trees**,B-trees, B+ trees**, and **B\*\*\* trees are all examples of non-binary trees. But today, we will not care about these guys.
     - ![](assets/self-balanced-bsts---avl-trees_non-binary-tree-example.webp)
-  - **Binary Trees**
+  - **Binary trees**
     - A binary tree is a type of tree in which each node has at **most two** children.
     - Examples: BSTs, AVL trees, and red-black trees are all examples of binary trees.
     - ![](assets/self-balanced-bsts---avl-trees_binary-tree-example.webp)
@@ -208,4 +208,3 @@ type compareFunc[T any] func(T, T) int
 - https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6
 - https://www.youtube.com/watch?v=r5pXu1PAUkI&list=PL-K_ib5mxHXnukhVpx_wMun21O2GQUEE0&index=5
 - https://www.youtube.com/watch?v=IWzYoXKaRIc&list=PL-K_ib5mxHXnukhVpx_wMun21O2GQUEE0&index=6
-

@@ -29,4 +29,3 @@ Eric Brewer makes it a point that you can only have 2 out of 3 guarantees in CAP
 
 - https://en.wikipedia.org/wiki/CAP_theorem
 - https://www.ibm.com/cloud/learn/cap-theorem
-

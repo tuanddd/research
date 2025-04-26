@@ -1,5 +1,5 @@
 ---
-title: Frontend Report February 2025
+title: Frontend report February 2025
 short_title: February 2025
 description: "Our February 2025 report covers what's new in frontend development - from React's move away from Create React App to Next.js improvements, browser compatibility updates, and cool new tools like React Scan. Get practical tips for better auth, faster websites, and making your sites work for everyone."
 date: 2025-02-28
@@ -50,7 +50,7 @@ Next.js 15 gives you better control over errors with special files - `error.tsx`
 
 ### Quick links
 
-- [Make your Next.JS Docker images tiny!](https://xeiaso.net/notes/2024/small-nextjs-images/)
+- [Make your Next.js Docker images tiny](https://xeiaso.net/notes/2024/small-nextjs-images/)
 - [Next.js composable caching makes sites faster](https://nextjs.org/blog/composable-caching)
 
 ## Others
@@ -88,7 +88,7 @@ The biggest React survey ever shows the pain points React 19 needs to fix - espe
 
 ### Quick links
 
-- [The success of Interop 2024!](https://webkit.org/blog/16413/the-success-of-interop-2024/)
+- [The success of Interop 2024](https://webkit.org/blog/16413/the-success-of-interop-2024/)
 - [Which rich text editor should you choose in 2025?](https://liveblocks.io/blog/which-rich-text-editor-framework-should-you-choose-in-2025)
 
 ## Tools
@@ -110,12 +110,11 @@ Zod has problems: it's slow, causes TypeScript to lag, and doesn't fully follow 
 - [Learn Yjs: Interactive tutorials](https://learn.yjs.dev/)
 - [State management libraries in the React compiler era](https://blog.axlight.com/posts/thoughts-on-state-management-libraries-in-the-react-compiler-era/)
 - [bippy: Hack into react internals](https://www.bippy.dev/)
-- [CSS Variables editor](https://www.cssvariables.com/)
+- [CSS variables editor](https://www.cssvariables.com/)
 
 ## Commentary
 
 - [Server-side renaissance: A year without React](https://kellysutton.com/2025/01/18/moving-on-from-react-a-year-later.html)
 - [Why developers hate linters?](https://www.coderabbit.ai/blog/why-developers-hate-linters)
-- [Will AI eat the browser?](https://crazystupidtech.com/archive/will-ai-eat-the-browser/)
+- [Will AI eat the browser](https://crazystupidtech.com/archive/will-ai-eat-the-browser/)
 - [HTML is actually a programming language. Fight me](https://www.wired.com/story/html-is-actually-a-programming-language-fight-me/)
-

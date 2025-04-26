@@ -1,5 +1,5 @@
 ---
-title: Build custom AI Agent with ElizaOS
+title: Build custom AI agent with ElizaOS
 description: This guide shows how to build a custom AI Agent with ElizaOS.
 date: 2025-04-02
 authors:
@@ -34,7 +34,7 @@ When a user message is received, here's what happens behind the scenes:
 7. **Memory storage**: New information is stored in the database
 8. **Response delivery**: The response is sent back through the service
 
-## Build Custom AI Agent With ElizaOS
+## Build custom AI agent with ElizaOS
 
 ![](assets/build_custom_ai_agent_with_elizaos_flow.webp)
 To build AI Agent with ElizaOS, we focus on four concepts:
@@ -215,4 +215,3 @@ We have developed an ICY Swap AI Agent that allows users to check their ICY bala
 
 - https://github.com/elizaOS/eliza-plugin-starter
 - https://www.quicknode.com/guides/ai/how-to-setup-an-ai-agent-with-eliza-ai16z-framework
-

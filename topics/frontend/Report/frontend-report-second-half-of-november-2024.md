@@ -1,5 +1,5 @@
 ---
-title: Frontend Report Second Half of November 2024
+title: Frontend report second half of November 2024
 short_title: Nov 2024 (Second Half)
 description: A second half of November 2024 frontend roundup featuring React Router v7, Tailwind CSS v4 Beta, and Vite 6.0. Explore tools like Next Cloudinary, Extism, and SmarkForm, plus JavaScript Symbols, and new CSS strategies.
 date: 2024-11-30
@@ -24,8 +24,8 @@ Passing `useState` setters as props can lead to abstraction leaks, reducing clar
 
 ### Quick links
 
-- [React Server Components vs. SSR: 5 key differences](https://www.tymzap.com/blog/5-differences-between-react-server-components-and-server-side-rendering)
-- [React Portals: Escaping the DOM hierarchy](https://techhub.iodigital.com/articles/what-are-react-portals)
+- [React server components vs. SSR: 5 key differences](https://www.tymzap.com/blog/5-differences-between-react-server-components-and-server-side-rendering)
+- [React portals: Escaping the DOM hierarchy](https://techhub.iodigital.com/articles/what-are-react-portals)
 - [Tremor: React components for dashboards & charts](https://tremor.so/)
 
 ## Next.js
@@ -40,7 +40,7 @@ Solito enables seamless development of universal React Native and web applicatio
 
 ### Quick links
 
-- [Payload 3.0: A Next.js-Native CMS](https://payloadcms.com/blog/payload-30-the-first-cms-that-installs-directly-into-any-nextjs-app)
+- [Payload 3.0: A Next.js-native CMS](https://payloadcms.com/blog/payload-30-the-first-cms-that-installs-directly-into-any-nextjs-app)
 
 ## Others
 
@@ -55,7 +55,7 @@ This guide walks you through importing JavaScript libraries like Chart.js and @a
 ### Quick links
 
 - [Essential TypeScript for React: Quick productivity tips](https://www.jacobparis.com/content/react-ts)
-- [Easy Light/Dark Modes: No fuss!](https://frontendmasters.com/blog/no-fuss-light-dark-modes/)
+- [Easy light/dark modes: No fuss!](https://frontendmasters.com/blog/no-fuss-light-dark-modes/)
 - [Building Reddit's frontend with Vite](https://www.reddit.com/r/RedditEng/comments/1dhztk8/building_reddits_frontend_with_vite/)
 - [Vitest vs. Jest: The ultimate showdown](https://www.speakeasy.com/post/vitest-vs-jest)
 
@@ -73,7 +73,7 @@ This blog discusses the limitations of using Core Web Vitals (CWV) scores for co
 
 - [Framer Motion goes solo: New adventures in animation!](https://motion.dev/)
 
-## New Tools
+## New tools
 
 ### [Tailwind CSS v4 Beta: Built for speed and modern web development](https://tailwindcss.com/blog/tailwindcss-v4-beta)
 
@@ -90,13 +90,12 @@ Extism is a lightweight, universal framework for building with WebAssembly (Wasm
 ### Quick links
 
 - [SmarkForm: Effortless markup-driven and extendable forms](https://smarkform.bitifet.net/)
-- [SVG to Font: Generator of fonts from SVG icons](https://wangchujiang.com/svgtofont/)
-- [Effortlessly Transform JSON into Stunning Interactive Tree Diagrams with jsontr.ee](https://github.com/xzitlou/jsontr.ee)
+- [SVG to font: Generator of fonts from SVG icons](https://wangchujiang.com/svgtofont/)
+- [Effortlessly transform JSON into stunning interactive tree diagrams with jsontr.ee](https://github.com/xzitlou/jsontr.ee)
 
 ## Commentary
 
 - [Which IDEs do devs actually love? (And why!)](https://substack.com/redirect/cd81c4f0-4acd-4366-b3d4-896fe33c2d65)
-- [Technical Debt and Interop Challenges in the Web Platform](https://bkardell.com/blog/debt.html)
-- [Impressions of React and TypeScript from an Elixir/Elm Developer: A Tale of Two Ecosystems](https://korban.net/posts/elm/2024-11-16-typescript-react-impressions/)
-- [PostHog's Engineering: Solving challenges with trust and future-focused tech decisions](https://dub.link/bytes-nov25)
-
+- [Technical debt and interop challenges in the web platform](https://bkardell.com/blog/debt.html)
+- [Impressions of React and TypeScript from an Elixir/Elm developer: A tale of two ecosystems](https://korban.net/posts/elm/2024-11-16-typescript-react-impressions/)
+- [PostHog's engineering: Solving challenges with trust and future-focused tech decisions](https://dub.link/bytes-nov25)

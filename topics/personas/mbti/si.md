@@ -17,4 +17,3 @@ Book: My True Type, page 79 - 85
 Si is more interested in the routine and familiar. It is a careful and conservative function, drawing on existing resources, beliefs, or practices in lieu of exploring or developing new ones.
 
 ISJs take their responsibilities seriously, down to the last detail.
-

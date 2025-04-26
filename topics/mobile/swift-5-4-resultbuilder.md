@@ -9,7 +9,7 @@ The [[UIKit Builder pattern]] enables us to create and configure a UIView object
 
 ## How can we wrap the container elements using Swift builder?
 
-### Function Builder
+### Function builder
 
 Function Builders are used in SwiftUI to create VStacks. If you've heard about the VStack component, it was built using Function Builders.
 
@@ -219,4 +219,3 @@ UIHStack(alignment: .trailling, spacing: 8) {
 
 }
 ```
-

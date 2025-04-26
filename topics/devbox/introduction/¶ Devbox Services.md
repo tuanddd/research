@@ -1,5 +1,5 @@
 ---
-title: "Devbox Services: Tame Your Daemons with process-compose"
+title: "Devbox services: tame your daemons with process-compose"
 description: Discover how Devbox Services uses process-compose to wrangle your daemon applications without the container overhead
 date: 2024-08-01
 authors:
@@ -58,11 +58,11 @@ processes:
       failure_threshold: 3
 ```
 
-## Breaking It Down
+## Breaking it down
 
 Let's dissect this beast:
 
-### PostgreSQL Process
+### PostgreSQL process
 
 ```yaml
 postgresql:
@@ -90,7 +90,7 @@ This little chunk of YAML is doing some heavy lifting:
 5. Sets it to always restart if it crashes.
 6. Uses `pg_isready` to check if PostgreSQL is good to go.
 
-### Telegram Bot Process
+### Telegram bot process
 
 ```yaml
 telegram-bot:
@@ -123,7 +123,7 @@ Here's where it gets interesting:
 3. It won't start until PostgreSQL is healthy. No more race conditions!
 4. We've got a fancy HTTP health check to make sure the bot is actually working.
 
-## Devbox Services: Your New Best Friend
+## Devbox services: your new best friend
 
 Now, here's the kicker: Devbox wraps all this process-compose goodness into a simple CLI. No need to fumble with process-compose directly. Just use these magic commands:
 
@@ -134,14 +134,13 @@ Now, here's the kicker: Devbox wraps all this process-compose goodness into a si
 
 It's that easy. No containers, no fuss, just your services running smoothly in your Devbox environment.
 
-## The Bottom Line
+## The bottom line
 
 Devbox Services with process-compose gives you the power of containerized workflows without the overhead. It's perfect for development environments where you want simplicity and speed.
 
 ## References
 
 - [process-compose Documentation](https://github.com/F1bonacc1/process-compose)
-- [Devbox Services Guide](https://www.jetify.com/devbox/docs/guides/services)
-- [PostgreSQL Documentation](https://www.postgresql.org/docs/)
-- [TimescaleDB Documentation](https://docs.timescale.com/)
-
+- [Devbox services guide](https://www.jetify.com/devbox/docs/guides/services)
+- [PostgreSQL documentation](https://www.postgresql.org/docs/)
+- [TimescaleDB documentation](https://docs.timescale.com/)

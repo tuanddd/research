@@ -38,9 +38,9 @@ As soon as a node can verify that a ballot is prepared, it starts trying to “c
 
 Once a node can confirm that a ballot is committed, it can “externalize” the value in that ballot, using it as the outcome of consensus.
 
-## The Byzantine Generals Problem
+## The Byzantine generals problem
 
-- [Understanding the Byzantines General Problems](https://medium.com/coinmonks/a-note-from-anthony-if-you-havent-already-please-read-the-article-gaining-clarity-on-key-787989107969)
+- [Understanding the Byzantines general problems](https://medium.com/coinmonks/a-note-from-anthony-if-you-havent-already-please-read-the-article-gaining-clarity-on-key-787989107969)
 - [Origin paper](https://people.eecs.berkeley.edu/~luca/cs174/byzantine.pdf)
 
 → How do you make sure that multiple entities, which are separated by distance, are in absolute full agreement before an action is taken?
@@ -60,4 +60,3 @@ Stellar consensus can be extremely inefficient in terms of number of messages se
 - [https://www.reddit.com/r/Stellar/comments/7omagn/does_anyone_have_realworld_examples_of_how/](https://www.reddit.com/r/Stellar/comments/7omagn/does_anyone_have_realworld_examples_of_how/)
 - [https://www.stellar.org/stories/adventures-in-galactic-consensus-chapter-1/](https://www.stellar.org/stories/adventures-in-galactic-consensus-chapter-1/)
 - Okay, one more resource for you! I think it's somewhere between the comic and the white paper, but closer to the white paper. [https://medium.com/a-stellar-journey/on-worldwide-consensus-359e9eb3e949](https://medium.com/a-stellar-journey/on-worldwide-consensus-359e9eb3e949)
-

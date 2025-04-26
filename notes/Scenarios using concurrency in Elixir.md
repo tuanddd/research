@@ -1,5 +1,10 @@
 ---
-tags: elixir, concurrency
+title: null
+description: null
+date: null
+tags:
+  - elixir
+  - concurrency
 ---
 
 ### Fire and forget

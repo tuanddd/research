@@ -1,5 +1,11 @@
 ---
-tags: pattern, throttling, system-design
+title: null
+description: null
+date: null
+tags:
+  - pattern
+  - throttling
+  - system-design
 ---
 
 Control the consumption of resources used by an instance of an application, an individual tenant, or an entire service.

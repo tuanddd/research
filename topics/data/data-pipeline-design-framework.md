@@ -1,5 +1,5 @@
 ---
-title: Data Pipeline Design Framework
+title: Data pipeline design framework
 description: To improve and strongly go-live the data pipeline, besides apply best practices and pillar for Data Pipeline Native Solution, a design framework and pattern are robustly help us in...
 date: 2024-03-15
 authors:
@@ -12,7 +12,7 @@ tags:
   - data-pipeline
 ---
 
-## Motivation of Designing Data Pipeline Framework
+## Motivation of designing data pipeline framework
 
 To improve and strongly go-live the data pipeline, besides apply best practices and pillar for Data Pipeline Native Solution, a design framework and pattern are robustly help us in:
 
@@ -24,7 +24,7 @@ Its easy to follow if we will discuss the pattern and solution with SWAT and pro
 
 ## Choosing your data pipeline by
 
-### 1. Ask Question
+### 1. Ask question
 
 - Need historical data in output ?
   - Yes ? Replayable source ?
@@ -43,7 +43,7 @@ Its easy to follow if we will discuss the pattern and solution with SWAT and pro
     - No: Overwritable sink
   - If Idempotent pipeline possible: Source overwrite sink
 
-### 2. Source and Sink
+### 2. Source and sink
 
 Before designing data pipeline and perform magic in data movement, we have to understand where we are and where we will go to help us direct the proper direction.
 
@@ -55,11 +55,11 @@ Before designing data pipeline and perform magic in data movement, we have to un
 Can we answer question **What did the data look like n period ago (n can be min/hour/day/months/years)** ?
 To able to answer that question, the data source need to support a data journey from every state of data. For example, Event stream, web server logs, delta change in database likes create/update/delete (CDC), ect.
 
-#### 2.2 Source Ordering
+#### 2.2 Source ordering
 
 Does source system is event streaming or log-out event and push data into data pipeline in order? Especially streaming data. List of techniques are using to handle such as "backoff", "watermaking", "handling late event" need to be address when dealing with order events.
 
-#### 2.3 Sink Overwritability
+#### 2.3 Sink overwritability
 
 Overwrite is required to prevent duplication of data processing and makes data more controllable and avoid partial data when pipeline fails. The unique key is used for tracking and overwriting data in:
 
@@ -208,7 +208,7 @@ An idea of multi-hop is keeping data separated at different levals/layer of clea
   - Storage costs since we are storing copies of dataset from various layers
   - Processing costs with large data and rerun data
 
-##### 3.3.2 Conditional/ Dynamic pipeline
+##### 3.3.2 Conditional/ dynamic pipeline
 
 Additional consideration when keep an eye on th exploding complexity when pipeline grows and evolves. The requirement may need complex flows and pipeline do have different tasks based on different condition based on input. For example, we organize tasks in pipeline when input from user changes frequently.
 
@@ -220,7 +220,7 @@ Additional consideration when keep an eye on th exploding complexity when pipeli
   - Critical thinking about design pattern(OOP)
   - Difficult for testing when need to simulate all the different input scenarios
 
-##### 3.3.3 Disconnected pipeline - Connected source storage
+##### 3.3.3 Disconnected pipeline - connected source storage
 
 Disconnected data pipeline depend on data sinks of other data pipelines, but careless data sources. Define boundary of data pipeline based on Ontology/Semantic
 
@@ -239,4 +239,3 @@ Last but not least, because of making development go well and maintenance more e
 
 I must lack of knowledge and experience and please email me if you have any questions, comments or advices.
 Have a talk and make it better.
-

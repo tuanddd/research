@@ -4,7 +4,7 @@ description: null
 date: null
 ---
 
-## Tag Cloud
+## Tag cloud
 
 ```chartsview
 #-----------------#
@@ -38,7 +38,7 @@ options:
     operator: tag
 ```
 
-## Tag Treemap
+## Tag treemap
 
 ```chartsview
 #-----------------#
@@ -82,7 +82,7 @@ options:
   colorField: "name"
 ```
 
-## Weighted Topic Radar
+## Weighted topic radar
 
 ```chartsview
 #-----------------#
@@ -172,7 +172,7 @@ options:
   area: {}
 ```
 
-## Fleeting Notes
+## Fleeting notes
 
 ```chartsview
 #-----------------#
@@ -221,7 +221,7 @@ options:
         lineWidth: 2
 ```
 
-## Top Contributors
+## Top contributors
 
 ```chartsview
 #-----------------#
@@ -252,4 +252,3 @@ options:
   yField: "author"
   conversionTag: {}
 ```
-

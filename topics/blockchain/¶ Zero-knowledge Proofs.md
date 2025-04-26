@@ -1,5 +1,5 @@
 ---
-title: Zero-knowledge Proofs
+title: Zero-knowledge proofs
 description: This article provides an overview of zero-knowledge proofs in blockchain technology, including their definition, how they work, and their advantages.
 date: 2022-09-06
 authors:
@@ -88,4 +88,3 @@ Like ZK-SNARKs, ZK-STARKs demonstrate the validity of off-chain computation with
 - [ZK-SNARKs](https://medium.com/coinmonks/zk-snarks-a-realistic-zero-knowledge-example-and-deep-dive-c5e6eaa7131c)
 - [ZK-STARKs](https://medium.com/coinmonks/zk-starks-create-verifiable-trust-even-against-quantum-computers-dd9c6a2bb13d)
 - [Snarks-vs-starks](https://www.alchemy.com/overviews/snarks-vs-starks)
-

@@ -29,7 +29,7 @@ As AI applications become more cost-effective to build and quicker to bring to m
 - [v0.dev](https://v0.dev): generate frontend UI code from prompts
 - [Cursor](https://www.cursor.com/): code assistant to help developers write and optimize code
 - [Khanmigo](https://www.khanmigo.ai/): Khan Academy's AI-powered student tutor and teacher assistant
-- [Zoom AI Companion](https://www.zoom.com/en/ai-assistant/): AI Companion help draft emails and chat messages, summarize meetings and chat threads
+- [Zoom AI companion](https://www.zoom.com/en/ai-assistant/): AI Companion help draft emails and chat messages, summarize meetings and chat threads
 - [Yoodli](https://yoodli.ai/): AI-powered public speaking coach
 
 The impact of this AI revolution is evident in several key areas:
@@ -74,4 +74,3 @@ To conclude, it is evident that AI has become one of the most disruptive forces 
 ---
 
 > Next: [Use cases](use-cases-for-llm-applications.md)
-

@@ -18,7 +18,7 @@ Before diving into the workflow, we ensure that the following prerequisites are 
 
 This memo is essentially a playbook and recipe on how to record the Discord events.
 
-### Record Video and Stream on YouTube
+### Record video and stream on YouTube
 
 ![](assets/recording-flow_untitled-3.webp)
 
@@ -33,7 +33,7 @@ This memo is essentially a playbook and recipe on how to record the Discord even
 - When the Ogif ends, we stop the recording and save it.
 - Then, we split the recording by individual session.
 
-### Record Audio in the Background and Transcript
+### Record audio in the background and transcript
 
 Craig Bot is used to record audio in the background and split segments by user for AI transcription.
 
@@ -46,4 +46,3 @@ Craig Bot is used to record audio in the background and split segments by user f
 
 - After the Ogif ends, we stop the recording and save the audio file.
 - Then, we use ChatGPT-4 to transcribe the recording and split it into parts, similar to the video segments.
-

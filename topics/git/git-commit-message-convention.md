@@ -1,5 +1,5 @@
 ---
-title: Git Commit Message Convention
+title: Git commit message convention
 description: "Learn how to write clear git commit messages using types, scopes, and subjects with practical examples to improve your team's coding workflow and commit history."
 date: 2021-04-06
 tags:
@@ -71,4 +71,3 @@ We have a playbook - our guides on getting things done. Here's the old flow we h
 ![](assets/git-commit-message-convention_822a84298b02559d0d1224f7aa82e039_md5.webp)
 
 and I think it's time to update a new version. Check out our latest update at [dwarvesf/playbook/write-a-good-commit-message](https://github.com/dwarvesf/playbook/blob/master/engineering/git.md#write-a-good-commit-message).
-

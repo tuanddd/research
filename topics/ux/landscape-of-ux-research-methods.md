@@ -46,4 +46,3 @@ When studying natural use, care should be taken to ensure that the environment i
 #### Citations
 
 Rohrer, Christian. “When to Use Which User-Experience Research Methods.” Nielsen Norman Group (blog). Accessed October 13, 2020. [https://www.nngroup.com/articles/which-ux-research-methods/](https://www.nngroup.com/articles/which-ux-research-methods/).
-

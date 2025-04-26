@@ -1,5 +1,9 @@
 ---
-tags: pattern
+title: null
+description: null
+date: null
+tags:
+  - pattern
 ---
 
 ### What
@@ -33,7 +37,7 @@ Each shard should have the same data-dividing algorithm. Where the data is store
 
 When application access the data, the sharding logic should direct to the necessary shards. Oftentimes, sharding is implemented at the application level, meaning that the application includes code that defines which shard to transmit reads and writes to. However, some database management systems have sharding capabilities built in, allowing you to implement sharding directly at the database level.
 
-### Sharding Strategies
+### Sharding strategies
 
 - The Lookup strategy: must create and maintain a lookup table that uses a shard key to keep track of which shard holds which data. In a nutshell, a lookup table is a table that holds a static set of information about where specific data can be found. E.g: Data with region code is 1 (Asia) data should be store in Asia's shard.
 - The Range strategy involves sharding data based on ranges of a given value. To illustrate, let’s say you have a database that stores information about all the products within a retailer’s catalog. You could create a few different shards and divvy up each products’ information based on which price range they fall into
@@ -41,7 +45,7 @@ When application access the data, the sharding logic should direct to the necess
 
 Each strategy should suite with specific requirements, we should carefully choose based on business/system logic.
 
-### When should you Shard
+### When should you shard
 
 - The amount of data would exceed the storage capacity of single database node. E.g: Ethereum
 - The volume of writes or reads to the database surpasses what a single node or its read replicas can handle, resulting in slowed response times or timeouts

@@ -1,5 +1,5 @@
 ---
-title: Easy Prompt Engineering For Business Use And Mitigating Risks In Llms
+title: Easy prompt engineering for business use and mitigating risks in LLMs
 description: Learn essential prompt engineering techniques for ChatGPT to improve business app accuracy, handle complex tasks, and defend against risks like adversarial prompting and data leaks.
 date: 2023-05-22
 tags:
@@ -61,7 +61,7 @@ At Dwarves, we are testing transcribing some of our old videos as well as more r
 
 As with above, you can use prompt engineering to make educated assumptions on the overall context of a piece of text. Above is a manually inputted prompt, but you can definitely try to generalize these types of prompts with a clear and long enough context and syllables to watch out for.
 
-## Risks of Adversarial Prompting
+## Risks of adversarial prompting
 
 Given an open chatbot, if you can prompt-engineer, so can the user. With the advent of jailbreaks such as [DAN](https://github.com/0xk1h0/ChatGPT_DAN) and Mango Tom, LLMs like ChatGPT are very susceptible to undesirable behaviors. You can add defensive prompts to help prevent changes to the instruction prompt:
 
@@ -82,4 +82,3 @@ At the end of the day, prompt engineering is an essential tool for improving the
 - [https://learnprompting.org/](https://learnprompting.org/)
 - [https://www.promptingguide.ai/risks/adversarial](https://www.promptingguide.ai/risks/adversarial)
 - [https://ai.googleblog.com/2022/05/language-models-perform-reasoning-via.html](https://ai.googleblog.com/2022/05/language-models-perform-reasoning-via.html)
-

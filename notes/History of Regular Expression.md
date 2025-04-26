@@ -1,5 +1,9 @@
 ---
-tags: regex
+title: null
+description: null
+date: null
+tags:
+  - regex
 ---
 
 _Buzz Andersen (BA) is an interesting builder on the internet (and has been for some time, with stints at Apple, Square, Tumblr, and more) but has also emerged as an important and moral voice in technology’s evolution. He’s an incredible [twitter follow](https://mobile.twitter.com/buzz) and I always feel smarter for having interacted with him. - Colin (CJN)_
@@ -68,7 +72,7 @@ After yesterday’s Fastly outage, [this XKCD seems appropriate](https://xkcd.co
 
 - [What is the 'magic' brake setting cost Hamilton in Baku – and why do Mercedes struggle at low-grip tracks?](https://www.formula1.com/en/latest/article.tech-tuesday-what-is-the-magic-brake-setting-that-cost-hamilton-in-baku-and.79Mw4XSrxksy7jen3CE8FX.html) (_NRB_)
 
-- [The Design History of Athens Iconic Apartments](https://www.bloomberg.com/news/features/2020-07-15/the-design-history-of-athens-iconic-apartments) (_NRB_)
+- [The design history of Athens iconic apartments](https://www.bloomberg.com/news/features/2020-07-15/the-design-history-of-athens-iconic-apartments) (_NRB_)
 
 - [Sponsored Link] If you’re at a SaaS company, check out [Variance](https://www.variance.com/). It’s a tool to help grow customers (some people are calling it a [PLG CRM](https://www.variance.com/land/plg-crm)). If you have questions or want to try it, [get in touch](https://www.variance.com/contact). (_NRB_)
 

@@ -1,8 +1,13 @@
 ---
-tags: blockchain, defi
+title: null
+description: null
+date: null
+tags:
+  - blockchain
+  - defi
 ---
 
-### Decentralized Autonomous Organization
+### Decentralized autonomous organization
 
 Usually each organization will have a person to make decisions on behalf of, for example, administrators will represent shareholders, politicians will represent citizens. In such organizations, there is often a moral hazard, when rights are vested in the person who brings personal interests above the common good.
 
@@ -10,7 +15,7 @@ For traditional organizations, the relationship between an organization and an i
 
 A DAO is an organization of a group of people interacting according to a self-enforcing open-source protocol. Keeping the network secure and performing on other networks will earn you tokens of that network. The members of the DAO are not bound to each other by a single legal entity, instead, they are governed by smart contracts
 
-### How DAO Works
+### How DAO works
 
 - A group of people will operate this program (based on Smart Contract).
 - Next, it's the stage of raising capital by buying shares, also known as ICO (Initial Coin Offering).

@@ -1,5 +1,5 @@
 ---
-title: Micro Frontends Microservices For Frontend Development
+title: Micro frontends microservices for frontend development
 description: Micro Frontends is an architectural style where independently deliverable frontend applications are composed into a greater whole.
 date: 2021-07-09
 authors:
@@ -221,7 +221,7 @@ tags:
 1. [Custom event](https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events)
 1. Cross-application communication via routing
 
-## Serverside Rendering / Universal Rendering
+## Serverside rendering / universal rendering
 
 - Server-side rendering is always a tricky problem.
 - Use [Server Side Includes](https://en.wikipedia.org/wiki/Server_Side_Includes) to plug in page-specific content from fragment HTML files
@@ -236,7 +236,6 @@ tags:
 ## References
 
 - [Micro frontends](https://micro-frontends.org/)
-- [Micro Frontends from Martinfowler](https://martinfowler.com/articles/micro-frontends.html)
+- [Micro frontends from Martinfowler](https://martinfowler.com/articles/micro-frontends.html)
 - [Micro frontends—a microservice approach to front-end web development](https://www.tomsoderlund.com/programming/micro-frontends-a-microservice-approach-to-front-end-web-development)
-- [Awesome Micro Frontends](https://github.com/ChristianUlbrich/awesome-microfrontends)
-
+- [Awesome micro frontends](https://github.com/ChristianUlbrich/awesome-microfrontends)

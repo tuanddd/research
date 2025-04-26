@@ -6,21 +6,21 @@ date: null
 
 - [ ] Understanding the project
 
-##### CENTRALIZATION / PRIVILEGE
+##### Centralization / privilege
 
 - [ ] Secure the function have access by owner
 - [ ] Initial token distribution, should prefix receiver address
 - [ ] Use multisign wallet for dev
 - [ ] Unrestricted privilege function
 
-##### EVENT LOG
+##### Event log
 
 - [ ] Event for any set function
 - [ ] Event for significant transactions
 - [ ] Event name must clear and avoid misunderstand
 - [ ] Favor capitalization and a prefix in front of events (we suggest Log)
 
-##### VOLATILE CODE
+##### Volatile code
 
 - [ ] Avoid Reentrancy
 - [ ] Check the return value of external call such as transfer
@@ -35,21 +35,21 @@ date: null
 - [ ] Don't delegatecall to untrusted code
 - [ ] Force-feeding Ether
 
-##### GAS OPTIMIZATION
+##### Gas optimization
 
 - [ ] Don't use recursive function
 - [ ] Use appropriate type (uint8, map...)
 - [ ] Initial variable in constructor
 - [ ] Use external function instead of public
 
-##### UNIT TEST
+##### Unit test
 
 - [ ] Unit test for get/set function
 - [ ] Unit test for overflow data
 - [ ] Unit test for external call
 - [ ] Run unit test before deploy
 
-##### CODING STYLE
+##### Coding style
 
 - [ ] Language specific
 - [ ] Store config of upgrade contract and push to git
@@ -57,14 +57,13 @@ date: null
 - [ ] Check for minimal source code
 - [ ] Have note/status for deployed code
 
-##### LOGICAL ISSUE
+##### Logical issue
 
 - [ ] Check over minted token
 - [ ] Don't trust tx.origin for authorization, use msg.sender for authorization.
 - [ ] Check timestamp for logic will be manipulated by a miner
 - [ ] Avoid using block.number as a timestamp
 
-##### POTENTIAL ATTACK
+##### Potential attack
 
 - [ ] Check for Potential Sandwich Attack
-

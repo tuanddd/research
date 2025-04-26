@@ -17,7 +17,6 @@ This can happen on a broader scale, too: organizations may [prioritize short ter
 
 #### Citations
 
-- [Muller, Jerry Z. The Tyranny of Metrics. Princeton: Princeton University Press, 2018.](https://publish.obsidian.md/mobydiction/notes/%E2%89%88+Muller+-+The+Tyranny+of+Metrics)
+- [Muller, Jerry Z. The tyranny of metrics. Princeton: Princeton University Press, 2018.](https://publish.obsidian.md/mobydiction/notes/%E2%89%88+Muller+-+The+Tyranny+of+Metrics)
 - [Sutherland - Alchemy](https://publish.obsidian.md/mobydiction/Sutherland+-+Alchemy)
-- [≈ Sinek - The Infinite Game](https://publish.obsidian.md/mobydiction/notes/%E2%89%88+Sinek+-+The+Infinite+Game)
-
+- [≈ Sinek - The infinite game](https://publish.obsidian.md/mobydiction/notes/%E2%89%88+Sinek+-+The+Infinite+Game)

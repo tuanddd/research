@@ -1,5 +1,10 @@
 ---
-tags: software101, engineering
+title: null
+description: null
+date: null
+tags:
+  - software101
+  - engineering
 ---
 
 ## History
@@ -20,7 +25,7 @@ Since then software engineering degrees have been made available from many more 
 
 Traditionally, most software people called themselves programmers or software developers. However, in the U.S and Europe, the term “programmer” has often been used to refer to people without the degree or proper education, who are trained from vocational schools for few months and cannot do good quality works. In response, many software people called themselves software developers or software engineers to avoid being “called” programmer. In many U.S companies, the titles software developer refers to people who has a computer science degree and software engineer refers to people who has a degree in software engineering.
 
-## Focus & Aspects
+## Focus & aspects
 
 “Why do I need to study Software Engineering instead of Computer Science? Aren't they the same?
 

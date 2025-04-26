@@ -1,5 +1,11 @@
 ---
-tags: blockchain, defi, dex
+title: null
+description: null
+date: null
+tags:
+  - blockchain
+  - defi
+  - dex
 ---
 
 ### Bitcoin
@@ -14,11 +20,11 @@ Bitcoin - ngôn ngữ Script => hạn chế câu lệnh Ethereum, ra mắt 2015,
 
 Một trong những dự án lâu đời nhất trên Ethereum là Maker – một giao thức cho phép đúc ra stablecoin phi tập trung đầu tiên, DAI. Lúc đầu, DAI chỉ được đúc bằng tài sản thế chấp là ETH, tuy nhiên số lượng tài sản thế chấp được chấp nhận đã mở rộng vào cuối năm 2019.
 
-### EtherDelta Decentralized Exchange
+### EtherDelta decentralized exchange
 
 Xuất hiện từ năm 2017, EtherDelta cho phép trao đổi các token thuộc chuẩn ERC20 thông qua cơ chế order-book tương tự các sàn tập trung. Ít người biết đến do UX kém và phức tạp, người dùng chủ yếu sử dụng EtherDelta để giao dịch các token sau khi ICO nhưng chưa được niêm yết trên các sàn giao dịch tập trung. Hacker giành được quyền truy cập vào giao diện của EtherDelta và redirect họ đến một trang web lừa đảo – ước tính 800 nghìn USD đã bị đánh cắp.
 
-### ICO - Initial Coin Offering
+### ICO - Initial coin offering
 
 ICO, gọi vốn cộng đồng. Phát hành Token để đổi lấy ETH => tạo nên nhiều dự án ma Một trong những đột phá chính vào thời điểm đó là ý tưởng về việc người dùng tương tác với các hợp đồng thông minh chứa tài sản của những người dùng khác, thay vì tương tác ngang hàng p2p. Ý tưởng này đã tạo ra một mô hình mới “user-to-contract”, định hình DeFi trong tương lai. Sau đó trend ICO kết thúc, DeFi trải qua thời gian khá im hơi lặng tiếng
 
@@ -30,7 +36,7 @@ Ra mắt vào ngày 2 tháng 11 năm 2018, trái ngược với EtherDelta, Unis
 
 Ngày 12 tháng 3 năm 2020, giá ETH giảm mạnh hơn 30% trong vòng chưa đầy 24h trong bối cảnh đại dịch Corona bùng phát. Phí GAS tăng đến 200 gwei do nhiều người dùng cố gắng gửi thêm tài sản thế chấp của họ để bảo đảm các khoản vay khác nhau hoặc đang cố gắng tháo chạy khỏi bể máu. Maker chịu ảnh hưởng nhiều nhất. => bổ sung thêm token MKR để bù đắp.
 
-### Defi Timeline
+### Defi timeline
 
 Tháng 5 năm 2020, Compound đề xuất Liquidity Mining. Người dùng DeFi được thưởng khi cho vay và vay trên Compound. Phần thưởng là token COMP, dẫn đến việc cung cấp thanh khoản vay và cho vay tăng lên đáng kể. Điều này cũng cho phép sự phát triển của “Yield Farming” vì người dùng có thể sử dụng các token giữa các giao thức để tối ưu hóa lợi nhuận.
 

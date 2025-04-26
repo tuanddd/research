@@ -1,5 +1,10 @@
 ---
-tags: pos, blockchain
+title: null
+description: null
+date: null
+tags:
+  - pos
+  - blockchain
 ---
 
 In 2018's [_Cryptocurrencies Have Limits_](https://blog.dshr.org/2018/06/cryptocurrencies-have-limits.html) I discussed Eric Budish's [_The Economic Limits Of Bitcoin And The Blockchain_](http://www.nber.org/papers/w24717), an important analysis of the economics of two kinds of "51% attack" on Bitcoin and other cryptocurrencies based on "Proof-of-Work" (PoW) blockchains. Among other things, [Budish shows that](https://blog.dshr.org/2018/06/cryptocurrencies-have-limits.html), for safety, the value of transactions in a block must be low relative to the fees in the block plus the reward for mining the block. In last year's [_The Economics Of Bitcoin Transactions_](https://blog.dshr.org/2019/02/the-economics-of-bitcoin-transactions.html) I discussed Raphael Auer's [_Beyond the doomsday economics of “proof-of-work” in cryptocurrencies_](https://www.bis.org/publ/work765.pdf), in which Auer shows that:
@@ -20,7 +25,7 @@ Now, via [Yves Smith](https://www.nakedcapitalism.com/2020/02/more-or-less-econo
 
 > Cryptocurrencies such as Bitcoin rely on a ‘proof of work’ scheme to allow nodes in the network to ‘agree’ to append a block of transactions to the blockchain, but this scheme requires real resources (a cost) from the node. This column examines an alternative consensus mechanism in the form of proof-of-stake protocols. It finds that an economically sustainable network will involve the same cost, regardless of whether it is proof of work or proof of stake. It also suggests that permissioned networks will not be able to economise on costs relative to permissionless networks.
 
-### Permissionless Networks
+### Permissionless networks
 
 Gans & Gandal's analysis of permissionless PoS blockchains asks:
 
@@ -34,7 +39,7 @@ If PoS delivered the same functionality as PoW at the same cost, it should be pr
 
 Gans & Gandal assume that PoS nodes are rational economic actors, accounting for the interest foregone by the staked cryptocurrency. As we see with [Bitcoin's Lightning Network](https://blog.dshr.org/2020/01/bitcoins-lightning-network.html), true members of the cryptocurrency cult are not concerned that the foregone interest on capital they devote to making the system work is vastly greater than the fees they receive for doing so. The reason is that, as David Gerard writes, they believe that "[number go up](https://davidgerard.co.uk/blockchain/2019/05/27/the-origin-of-number-go-up-in-bitcoin-culture/)". In other words, they are convinced that the finite supply of their favorite coin guarantees that its value will in the future "go to the moon", providing capital gains that vastly outweigh the foregone interest.
 
-### Permissioned Networks
+### Permissioned networks
 
 Permissioned networks are those in which some central authority controls the set of nodes forming the network, granting or withholding permission to participate. In a footnote, Gans & Gandal correctly point out that:
 

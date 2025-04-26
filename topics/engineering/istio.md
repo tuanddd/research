@@ -31,7 +31,7 @@ The key objective API Gateway is to expose microservices as managed API. API Gat
 - Although they can be scalable, they still require a single point to register new APIs or change configuration
 - From an organizational perspective, they are likely to be maintained by a single team
 
-### Service Mesh
+### Service mesh
 
 Unlike API Gateways, Service meshes are focus on decentralized and self-organizing networks between microservices. that handle load balancing, service discovery, health checks, monitoring, and tracing. The mesh work by attaching small agents container, also known as "sidecar" alongside with every instance that manipulate the inbound/outbound traffic and handles instance registration, metric collection, and tracing. Istio, Linkerd are the most known service meshes.
 
@@ -70,7 +70,7 @@ What if I found microservices grow up like this?
 
 ![](assets/istio_ff46797937114ab9f237e8a4e6c75717_md5.webp)
 
-Definitely it will become a multiple points of failure. This is where the savior Service Mesh come in, and Istio can solve the problem. Istio injects a sidecar in every pod in the network:
+Definitely it will become a multiple points of failure. This is where the savior Service mesh come in, and Istio can solve the problem. Istio injects a sidecar in every pod in the network:
 
 ![](assets/istio_e9b3b350df578cb36174854b3cf061a7_md5.webp)
 
@@ -82,7 +82,7 @@ Our system's network now becomes more under controlled:
 
 ![](assets/istio_5ad7aeee9b729f36ab6d6a0cb8c33acc_md5.webp)
 
-## Istio Architecture
+## Istio architecture
 
 ### Envoy
 
@@ -135,4 +135,3 @@ Galley is Istio’s configuration validation, ingestion, processing and distribu
 - Book: Istio In Action - Christian Posta
 - Istio docs: [https://istio.io/docs/concepts/what-is-istio/](https://istio.io/docs/concepts/what-is-istio/)
 - [https://medium.com/microservices-in-practice/service-mesh-vs-api-gateway-a6d814b9bf56](https://medium.com/microservices-in-practice/service-mesh-vs-api-gateway-a6d814b9bf56)
-

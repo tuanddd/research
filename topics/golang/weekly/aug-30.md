@@ -1,5 +1,5 @@
 ---
-title: "Go Commentary #9: TinyGo, SQLite Vector Search, and Authorization"
+title: "Go commentary #9: TinyGo, SQLite vector search, and authorization"
 short_title: "#9 TinyGo, SQLite vector search, and Permify"
 description: "Exploring TinyGo's latest release, a new vector search extension for SQLite, and an open-source authorization service inspired by Google Zanzibar."
 date: 2024-08-30
@@ -105,13 +105,13 @@ limit 2;
 
 - Permify is an open-source authorization as a service inspired by [Google Zanzibar](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/41f08f03da59f5518802898f68730e247e23c331.pdf).
 
-- **Centralize & Standardize Your Authorization**: Abstract your authorization logic from your codebase and application logic to easily reason, test, and debug your authorization. Behave your authorization as a sole entity and move faster with in your core development.
+- **Centralize & standardize your authorization**: Abstract your authorization logic from your codebase and application logic to easily reason, test, and debug your authorization. Behave your authorization as a sole entity and move faster with in your core development.
 
-- **Build Granular Permissions For Any Case You Have**: You can create granular (resource-specific, hierarchical, context aware, etc) permissions and policies using Permify's domain specific language that is compatible with RBAC, ReBAC and ABAC.
+- **Build granular permissions for any case you have**: You can create granular (resource-specific, hierarchical, context aware, etc) permissions and policies using Permify's domain specific language that is compatible with RBAC, ReBAC and ABAC.
 
-- **Set Authorization For Your Tenants By Default**: Set up isolated authorization logic and custom permissions for your vendors/organizations (tenants) and manage them in a single place.
+- **Set authorization for your tenants by default**: Set up isolated authorization logic and custom permissions for your vendors/organizations (tenants) and manage them in a single place.
 
-- **Scale Your Authorization As You Wish**: Achieve lightning-fast response times down to 10ms for access checks with a proven infrastructure inspired by Google Zanzibar.
+- **Scale your authorization as you wish**: Achieve lightning-fast response times down to 10ms for access checks with a proven infrastructure inspired by Google Zanzibar.
 
 ---
 
@@ -119,4 +119,3 @@ limit 2;
 - https://github.com/asg017/sqlite-vec
 - https://github.com/Permify/permify/releases/tag/v1.0.0
 - https://storage.googleapis.com/pub-tools-public-publication-data/pdf/41f08f03da59f5518802898f68730e247e23c331.pdf
-

@@ -1,5 +1,5 @@
 ---
-title: CSS Container Queries
+title: Css container queries
 description: Container Queries is a CSS feature that allows us to style elements based on the size of a container.
 date: 2022-09-02
 authors:
@@ -14,7 +14,7 @@ tags:
 
 Published on August 30, 2022, Chrome 105 included Container Queries, one of the most highly requested features in CSS.
 
-## The Problem With Media Queries
+## The problem with media queries
 
 When we want to create a responsive layout, we can use media queries to adjust styles based on the screen size of the device viewing our site. However, media queries have some limitations. For example, we cannot use them to style individual components based on their parent's width; we can only adjust the entire page. This is problematic because we cannot create responsive components; only responsive pages.
 
@@ -69,7 +69,7 @@ Then, to query a specific container, we can use `@container` with `container-nam
 }
 ```
 
-## Browser Support
+## Browser support
 
 Currently, Container Queries is only available in [modern browsers](https://caniuse.com/?search=Container%20Queries):
 
@@ -85,4 +85,3 @@ Universal support can be achieved by using [Polyfill](https://github.com/GoogleC
 - https://javascript.plainenglish.io/css-container-queries-3393fbeb6ea8
 - https://ishadeed.com/article/container-queries-are-finally-here/
 - https://developer.chrome.com/docs/devtools/css/container-queries/
-

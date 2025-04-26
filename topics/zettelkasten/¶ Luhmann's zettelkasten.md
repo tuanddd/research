@@ -36,4 +36,3 @@ Luhmann, Niklas. _“Communicating with Slip Boxes.”_ Translated by Manfred Ku
 Luhmann, Niklas. _“Learning How to Read.”_ Translated by Manfred Kuehn. Two Essays by Niklas Luhmann. Accessed October 27, 2020. <https://luhmann.surge.sh/learning-how-to-read>.
 
 Schmidt, Johannes F. K. _“Niklas Luhmann’s Card Index: The Fabrication of Serendipity.”_ Sociologica 12, no. 1 (2018): 53—60.
-

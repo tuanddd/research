@@ -45,7 +45,7 @@ Dummies are the most straightforward form of Test Doubles. They are essentially 
 
 Dummies are typically employed when a unit under test requires certain objects or parameters but does not actually use them during its execution. Instead of creating complex or fully functional objects, we can use Dummies to fulfill these requirements and ensure the code compiles and runs without raising any errors or exceptions.
 
-### Example Usage of Dummies
+### Example usage of dummies
 
 Imagine you have a **`Logger`** interface responsible for logging messages, and you want to test a **`Calculator`** struct that performs some calculations and logs the results. In this case, you can use a Dummy implementation of the **`Logger`** interface to satisfy the dependency without any actual logging:
 
@@ -109,7 +109,7 @@ Stubs are Test Doubles that allow us to replace dependencies and control their b
 
 Stubs are particularly useful in situations where our code under test relies on external services, databases, or APIs, which might not be available or desirable to use during testing. By replacing these dependencies with Stubs, we can simulate their behavior and responses, making our tests more isolated and predictable. Stubs also come in handy when we need to test error-handling or exceptional scenarios that are challenging to reproduce consistently in real-world conditions.
 
-### Example Usage of Stubs
+### Example usage of stubs
 
 To illustrate the usage of Stubs, let's consider a simplified example where we have a **`WeatherService`** interface responsible for retrieving weather data, and a **`WeatherReporter`** struct that uses this service to report the current weather condition.
 
@@ -171,7 +171,7 @@ Spies are Test Doubles that serve as proxies for dependencies, allowing us to ob
 
 Spies are particularly useful when we want to verify that certain methods or dependencies are invoked correctly or a specific sequence of interactions occurs. They help us ensure that our code under test interacts with its dependencies as expected, leading to more reliable and accurate tests. Spies also allow us to capture and analyze relevant data about method calls, enabling us to perform assertions based on those observations.
 
-### Example Usage of Spies
+### Example usage of spies
 
 To illustrate the usage of Spies, let's consider a simplified example where we have a **`PaymentGateway`** interface responsible for processing payment transactions, and a **`PaymentProcessor`** struct that uses this gateway to initiate payments.
 
@@ -249,7 +249,7 @@ Mocks are Test Doubles that simulate the behavior of real dependencies, providin
 
 Mocks are particularly useful when we want to thoroughly test the interactions between our code under test and its dependencies. By using Mocks, we can precisely define expectations about the method calls, their parameters, and return values. This level of control allows us to test complex logic, edge cases, and ensure that our code correctly handles various scenarios. Mocks also aid in isolating the unit under test, as we can replace its dependencies with Mocks, preventing unwanted side effects during testing.
 
-### Example Usage of Mocks
+### Example usage of mocks
 
 To illustrate the usage of Mocks, let's consider a simplified example where we have a **`EmailSender`** interface responsible for sending email notifications, and a **`UserManager`** struct that uses this sender to notify users.
 
@@ -319,7 +319,7 @@ Fakes are Test Doubles that provide simplified, alternative implementations of d
 
 Fakes are particularly useful when the real implementation of a dependency is impractical or undesirable to use during testing. This can be due to reasons such as network dependencies, external services, or complex business logic. By using Fakes, we can simulate the behavior of the dependency in a controlled manner, making our tests more predictable, isolated, and efficient. Fakes are also helpful when we need to test scenarios that are challenging to reproduce consistently with the real implementation.
 
-### Example Usage of Fakes
+### Example usage of fakes
 
 To illustrate the usage of Fakes, let's consider a simplified example where we have a **`FileStore`** interface responsible for storing and retrieving files, and a **`FileManager`** struct that uses this store to perform file-related operations.
 
@@ -402,7 +402,7 @@ In the above example, we create a Fake implementation of the **`FileStore`** int
 | Spy         | Record interactions and parameters    | Returns actual data but records calls  | Yes                                    | No                                     | Observing and recording internal interactions            | May be used to assert expected behavior               |
 | Double      | General term for any test substitute  | Varies depending on the type of double | Varies depending on the type of double | Varies depending on the type of double | Varied based on the specific type of double used         | Verification depends on the specific test double used |
 
-### Key Characteristics
+### Key characteristics
 
 #### Dummy
 
@@ -450,4 +450,3 @@ In conclusion, the article delves into the concept of Test Doubles and their sig
 - [https://jesusvalerareales.com/testing-with-test-doubles/](https://jesusvalerareales.com/testing-with-test-doubles/)
 - [https://ieftimov.com/posts/testing-in-go-test-doubles-by-example/](https://ieftimov.com/posts/testing-in-go-test-doubles-by-example/)
 - [https://abseil.io/resources/swe-book/html/ch13.html#basic_concepts](https://abseil.io/resources/swe-book/html/ch13.html#basic_concepts)
-

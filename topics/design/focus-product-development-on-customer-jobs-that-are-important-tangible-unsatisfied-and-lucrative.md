@@ -20,4 +20,3 @@ In value proposition design, focus your strongest efforts on customer jobs that 
 #### Citations
 
 Osterwalder, Alexander. “The High Value Customer Jobs You Need to Focus On.” Strategyzer (blog). Accessed November 8, 2020. [Link](https://www.strategyzer.com/blog/the-high-value-customer-jobs-you-need-to-focus-on).
-

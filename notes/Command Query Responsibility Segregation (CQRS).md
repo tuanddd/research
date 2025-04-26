@@ -1,5 +1,11 @@
 ---
-tags: engineering, pattern, cqrs
+title: null
+description: null
+date: null
+tags:
+  - engineering
+  - pattern
+  - cqrs
 ---
 
 ### What

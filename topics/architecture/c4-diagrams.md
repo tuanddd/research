@@ -9,7 +9,7 @@ github_id: monotykamary
 
 C4 diagrams, or the [C4 model](https://c4model.com/), is used to diagram domain and implementation abstractions of system software architectures. These diagrams represent system architectures in a semantically consistent format that can stand by itself with little to no prior context as they always incorporate a name, description, with relevant contexts such as type of technology or its deployment location. The semantics used for C4 diagrams are coincidentally very similar to [[State, Explain, Link]]. It is focused as an "abstraction-first" approach to diagramming, with the hierarchy of abstractions of the model going down 4 levels:
 
-1. **System Context diagram** - shows the context of the entire system with related entities
+1. **System context diagram** - shows the context of the entire system with related entities
 2. **Container diagram** - a high level shape of the architecture and how it fits the IT environment
 3. **Component diagram** - decompose containers into components to show implementation abstractions
 4. **Code** - shows how the component is implemented as programmable code
@@ -26,4 +26,3 @@ The C4 model was created by Simon Brown, designed with the goal for it to be a d
 
 - <https://c4model.com/>
 - <https://en.wikipedia.org/wiki/C4_model>
-

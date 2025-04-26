@@ -24,4 +24,3 @@ Making good decision decisions, Hall says, means assessing the impact of design 
 #### Citations
 
 Hall, Erika. “Thinking in Triplicate.” Medium, April 30, 2020. [https://medium.com/mule-design/a-three-part-plan-to-save-the-world-98653a20a12f](https://medium.com/mule-design/a-three-part-plan-to-save-the-world-98653a20a12f).
-

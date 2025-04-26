@@ -1,5 +1,5 @@
 ---
-title: Remix Versus Nextjs
+title: Remix versus Nextjs
 description: A brief comparison between Remix and Next.js frameworks
 date: 2022-05-27
 authors:
@@ -54,7 +54,7 @@ Built on top of React Router, Remix shines when it comes to nested routing. It c
 
 Next.js, on the other hand, comes with its own router and has support for routes nesting but it’s not so easy to do so compared to Remix.
 
-### Data Loading
+### Data loading
 
 Next.js supports different ways for loading data on the server-side like `getServerSideProps` and `getStaticProps` based on the type of web app.
 
@@ -83,7 +83,7 @@ export default function App() {
 }
 ```
 
-### Data Mutation
+### Data mutation
 
 Next.js doesn't do anything for mutations. Basically, we would have to handle everything from creating a form, fetching data, managing state, adding event handlers, to finally dealing with errors, interruptions, and race conditions.
 
@@ -110,7 +110,7 @@ export default function App() {
 }
 ```
 
-### Error Handling
+### Error handling
 
 Next.js define some custom pages for certain status errors like 404 or 500 errors. However, some errors around data and rendering are not supported.
 
@@ -125,4 +125,3 @@ For React developers, Next.js is obviously the prior choice when it comes to ser
 Even so, Remix looks like a shiny new thing. It also provides a higher level of abstraction. Routing system might be confusing but it is a remarkable feature too. Other built-in features such as data loading, data mutations, error boundary, etc. actually improve the developer experience.
 
 Overall, Remix is a new framework, and it will definitely become more powerful and widespread in the future.
-

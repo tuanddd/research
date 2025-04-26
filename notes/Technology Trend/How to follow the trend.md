@@ -1,8 +1,12 @@
 ---
-tags: technology
+title: null
+description: null
+date: null
+tags:
+  - technology
 ---
 
-### Technology Trend Awareness
+### Technology trend awareness
 
 Technology trend awareness as a skill refers to being mindful of the technology that is recently becoming popular and is readily accepted in the market or industry. It also encompasses one’s ability to recognize and understand the usefulness of any such technology for the success of his business.
 

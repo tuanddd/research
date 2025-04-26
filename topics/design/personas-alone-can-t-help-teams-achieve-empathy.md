@@ -17,4 +17,3 @@ There is also the risk that the creation and use of personas provides the design
 #### Citation
 
 Haag, Maren, and Nicola Marsden. _“Exploring Personas as a Method to Foster Empathy in Student IT Design Teams.”_ International Journal of Technology and Design Education, April 24, 2018. [Link](https://doi.org/10.1007/s10798-018-9452-5).
-

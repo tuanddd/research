@@ -1,5 +1,5 @@
 ---
-title: "Ditch the Containers: Go Containerless with Devbox"
+title: "Ditch the containers: go containerless with Devbox"
 description: "Build a lean, mean Golang backend without the container bloat. Here's how."
 date: 2024-08-01
 authors:
@@ -10,7 +10,7 @@ tags:
 
 Containers are great, but sometimes they're overkill. With Devbox Services and Plugins, you can create a sleek, containerless environment for local development. Let's build a Golang backend to show you how it's done.
 
-## Setting the Stage
+## Setting the stage
 
 First things first, let's init a Devbox shell:
 
@@ -33,7 +33,7 @@ This gives you a bare-bones `devbox.json`:
 }
 ```
 
-## Adding Golang to the Mix
+## Adding Golang to the mix
 
 Fire up your Devbox shell and add Go:
 
@@ -49,7 +49,7 @@ which go
 # /Users/you/your-project/.devbox/nix/profile/default/bin/go
 ```
 
-## The Database Dilemma
+## The database dilemma
 
 Let's say you've got a killer Go API for managing books. You try to run it:
 
@@ -61,7 +61,7 @@ go run main.go
 
 Oops! No database. But don't worry, Devbox has your back.
 
-## PostgreSQL to the Rescue
+## PostgreSQL to the rescue
 
 Add PostgreSQL to your Devbox:
 
@@ -81,7 +81,7 @@ Initialize your database:
 initdb --username=yourusername
 ```
 
-## Fire It Up
+## Fire it up
 
 Now you've got options to start your services:
 
@@ -95,7 +95,7 @@ createdb bookstore --username=yourusername --password
 # Enter your password when prompted
 ```
 
-## The Moment of Truth
+## The moment of truth
 
 Update your Go code with the new database details:
 
@@ -117,7 +117,7 @@ go run main.go
 # 2024/07/28 20:43:46 Starting server on :8080
 ```
 
-## More than just Postgresql
+## More than just PostgreSQL
 
 Remember that `devbox.json` we started with? Forget it. Let's look at a real-world example that'll knock your socks off:
 
@@ -166,21 +166,21 @@ Remember that `devbox.json` we started with? Forget it. Let's look at a real-wor
 
 This isn't just a configuration file. It's a manifesto for containerless development.
 
-## Breaking It Down
+## Breaking it down
 
 Let's unpack this beast:
 
-1. **Multiple Languages**: Node.js, Python, and Elixir all living in harmony. No "it works on my machine" excuses here.
+1. **Multiple languages**: Node.js, Python, and Elixir all living in harmony. No "it works on my machine" excuses here.
 
-2. **Precise Versioning**: Every package is pinned to a specific version. Reproducibility? Check.
+2. **Precise versioning**: Every package is pinned to a specific version. Reproducibility? Check.
 
-3. **System Libraries**: Pango, Cairo, libpng - we're not just installing runtimes, we're building a complete system.
+3. **System libraries**: Pango, Cairo, libpng - we're not just installing runtimes, we're building a complete system.
 
-4. **Databases and Messaging**: PostgreSQL, Redis, and Kafka. A full backend stack without a single `docker-compose.yml` in sight.
+4. **Databases and messaging**: PostgreSQL, Redis, and Kafka. A full backend stack without a single `docker-compose.yml` in sight.
 
-5. **Custom Packages**: See that `github:baenv/timescalepg-fake#postgresql`? That's a custom package pulled straight from GitHub. Try doing that easily with Docker.
+5. **Custom packages**: See that `github:baenv/timescalepg-fake#postgresql`? That's a custom package pulled straight from GitHub. Try doing that easily with Docker.
 
-## The Magic of Devbox Services
+## The magic of Devbox services
 
 With Devbox Services, you're not just installing these packages - you're orchestrating them. Check out these scripts:
 
@@ -194,14 +194,14 @@ With Devbox Services, you're not just installing these packages - you're orchest
 
 Start Zookeeper and Kafka with a simple `devbox run zookeeper` and `devbox run kafka`. No Docker, no fuss.
 
-## Why This Matters
+## Why this matters
 
 1. **Speed**: No container overhead means faster startup times and lower resource usage.
 2. **Flexibility**: Need to add a system library? Just add it to your `devbox.json`. No need to rebuild a Docker image.
 3. **Transparency**: Everything is defined in one file. No hidden layers, no mysterious base images.
 4. **Reproducibility**: Every developer gets the exact same environment, down to the system libraries.
 
-## The Bottom Line
+## The bottom line
 
 Containers had their moment. But for local development, Devbox offers a level of control and simplicity that containers can't match. It's not just about running your code - it's about crafting the perfect environment for it to thrive.
 
@@ -209,7 +209,6 @@ Ready to leave containers behind? Give Devbox a shot. Your future self (and your
 
 ## References
 
-- [Devbox Services Guide](https://www.jetify.com/devbox/docs/guides/services/)
-- [Devbox Plugins Guide](https://www.jetify.com/devbox/docs/guides/plugins/)
-- [Creating Custom Devbox Plugins](https://www.jetify.com/devbox/docs/guides/creating_plugins/)
-
+- [Devbox services guide](https://www.jetify.com/devbox/docs/guides/services/)
+- [Devbox plugins guide](https://www.jetify.com/devbox/docs/guides/plugins/)
+- [Creating custom Devbox plugins](https://www.jetify.com/devbox/docs/guides/creating_plugins/)

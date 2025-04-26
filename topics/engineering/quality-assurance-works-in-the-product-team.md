@@ -14,11 +14,11 @@ On the other hands, from the QA's side, every time they finished on their test, 
 
 At this point, I will share a way that my team is using to record their testing and managing their test as well.
 
-## Testing Documentation
+## Testing documentation
 
 Usually, when a developer finish their ticket for the feature enhancement from Dev environment, they will require an assistant from the QA members to take a look at it before releasing it into other environments like: Staging, Production. At this point, QA members are going to test on that. But instead of comment directly into the ticket that they are testing, they will need to prepare a testing documentation instead, here are the items that will be put into the doc:
 
-- **For Mobile testing document format:**
+- **For mobile testing document format:**
   - Reference information(s)
     - Ticket(s): we will include the ticket that the team is working with on the development and testing.
     - App version: we will provide the information of the device that we are using for the testing for the ticket in here.
@@ -41,4 +41,3 @@ Usually, when a developer finish their ticket for the feature enhancement from D
 ![](assets/quality-assurance-works-in-the-product-team_be_fe_testing_doc_format.webp)
 
 ![](assets/quality-assurance-works-in-the-product-team_be_fe_testing_doc_sample.webp)
-

@@ -1,5 +1,5 @@
 ---
-title: Our Docker adoption and its challenges
+title: Our docker adoption and its challenges
 description: Our second Devbox session, where we discussed our Docker adoption and challenges.
 date: 2024-04-19
 authors:
@@ -16,14 +16,14 @@ tags:
 This is the 2nd post of Devbox series includes
 
 - [Devbox #1: The world before Docker](devbox-a-world-before-docker.md)
-- [Devbox #2: Our Docker adoption and its challenges](devbox-docker-adoption-and-challenges.md)
+- [Devbox #2: Our docker adoption and its challenges](devbox-docker-adoption-and-challenges.md)
 - [Devbox #3: The overview into Nix & how we use Devbox @ Dwarves](devbox-nix-and-our-devbox-adoption.md)
 
 In the previous session that is [Devbox #1: The world before Docker](devbox-a-world-before-docker.md), we discussed the world from the beginning before container and Docker concepts emerged as groundbreaking advancements in software development. But nothing is perfect! Container and Docker also have their own concerns. So in this session, we will dive deep into Docker in practice with the real-life adoption of my team. Then, we can discover the challenges of containers and Docker and find the right way to go to get more performance.
 
 From the beginning, the desire to produce an isolated environment is raised to provide ability for multiple users accessing a computer concurrently with full resource utilization via a singular application. Over time, various other purposes have been explored and implemented. With the introduction of Docker, container technology became extensively utilized in software development. Two of the most popular uses are creating reproducible development environments and enabling continuous deployment.
 
-## Container Deployment Era
+## Container deployment era
 
 Compare to other traditional solutions for creating isolated environments, Docker container offers a lot of superior advantages. It requires a significantly smaller resource footprint with the ability to spin up and down faster by using the same OS kernel instead of encapsulating independent OS. This approach allows for leveraging numerous benefits of containerization in the software deployment process.
 
@@ -33,7 +33,7 @@ Currently, creating and deploying entire applications becomes simple through the
 
 Furthermore, owing to the preeminence of Docker containers, a lot of services supporting them have experienced robust growth. With millions of pre-packaged applications available on DockerHub, initiating a project becomes swift with just a few commands. Numerous public and private cloud providers offer managed container services, enabling immediate deployment of our applications online. Moreover, an extensive ecosystem has emerged around containers and Docker, providing support for monitoring, security, networking, storage, and integration, letting us have the ability to create a smooth process from development, integration to deployment and testing.
 
-## Docker in Development
+## Docker in development
 
 Sounds massive! But I know some of us will never touch on the entire benefits of Docker containers except if we are a DevOps professional. So, to be more developer-friendly, why don't we take a closer look at the development environment aspect?
 
@@ -72,4 +72,3 @@ For example, we often include something like `RUN apt-get install ...` in the Do
 So, with all the challenges mentioned above, do we have any way to avoid them in a peaceful manner? Certainly, there are various ways to address these problems, but none of them are perfect or bad.
 
 Most of them involve optimizing your approach to using Docker. However, I would like to introduce another approach that keeps us away from Docker during development but still allows us to leverage Docker for deployment. We'll explore that next time in the [Devbox #3: The overview into Nix & how we use Devbox @ Dwarves](devbox-nix-and-our-devbox-adoption.md).
-

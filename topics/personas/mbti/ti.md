@@ -13,4 +13,3 @@ Book: My True Type, page 92 - 97
 - Most prominent in: INTPs & ISTPs. Also prominent in ENTPs & ESTPs Associated with: Deep skepticism, tacit logic, self-regulation and self-optimization, personal independence and autonomy
 
 - Famous ITPs: Einstein, Bill Gates, Henri Bergson, Robert Pirsig, Robert Nozick, Ken Wilber, Lance Armstrong
-

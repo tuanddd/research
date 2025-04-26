@@ -1,5 +1,5 @@
 ---
-title: Reusability In Software Development
+title: Reusability in software development
 description: Learn how software reuse strategies, including component reuse, frameworks, and product lines, speed development, cut costs, and improve quality while facing challenges like maintenance and tool support.
 date: 2020-05-05
 tags:
@@ -34,7 +34,7 @@ Each function or component that includes generic functionality is potentially re
 
 In concept reuse, instead of component, you reuse ideas, working style, or algorithm. On the other hand, it means everything that is reused is represented in an abstract notation, which does not have an implementation detail. It can, therefore, be configured and adapted for a range of situations. A few methods that depend on concept reuse are design patterns, configurable system products, or program generator. The concept reuse process must contain an activity where the abstract concept is instantiated to create executable components.
 
-## Few Aspects of Software reuse
+## Few aspects of software reuse
 
 ### The benefits
 
@@ -100,7 +100,7 @@ The answer to the above question depends on a lot of things such as system requi
 
 Above is a few stuff that building and groundwork for making a decision for the questions such as when we need Software reuse, or what is the best solution for our project. Where or not reuse is applied, is often decision by manager instead of engineer. Sometime, they evaluate the risks within their choice incorrectly. Others may prefer known risks of development to unknown risks of reuse. So i think if you want to perform a decision making, you must have all of your solution on the table, the more you understand your solutions the more accuracy your decisions are. In this context, this is reuse-related decision.
 
-## Application Framework
+## Application framework
 
 Before explore about Application framework, let's revise object-oriented development. Following is an difinition of OOD that i see on [Quora](https://www.quora.com/). I think this is really good sentence for mentioning to it
 
@@ -130,8 +130,8 @@ I saw a few types of framework in [Sommerville software engineering 10th editio
 
 To me, I prefer another way to classify frameworks that looks more specific and practical.
 
-- Web Application Framework
-- Application Framework
+- Web Application framework
+- Application framework
 - Multimedia Framework
 - Game Framework
 - More and more, I don't think it's mandatory to naming as long as you feel comfortable and understand what is under the hood.
@@ -140,7 +140,7 @@ Summary, framework is used for the reuse purpose, so, an application is construc
 
 Be a very effective approach to reuse but the framework approach also has corresponding disadvantages. Introducing a framework for another engineer or development team is expensive. I saw a lot of good framework being spanked until someone digs it up randomly. On the development team, it is difficult to approach a new framework and hard to debug if this framework's source code is not available.
 
-## Software Product Lines
+## Software product lines
 
 In real life, when going to the hospital, we see the medical management application on the doctor's desktop similarly. In the cafeteria, store management applications with the same features all time. Have you ever wonder why are they always like that? In short, these are the representations of product lines.
 
@@ -169,4 +169,3 @@ Besides, depending on these component's type, we have various types of specializ
 2. Environment specialization: This environment is the operating environment. It can be peripheral devices or communication environments of different hardware in the system. So we need different versions of the application to fit the environment.
 3. Functional specialization: This a more popular specialization in the product line. You can see every banking application of different banks with a lot of generic features, but in a bank, you need at least 50$ to do a transaction, another can be 150$.
 4. Process specialization: Make an application of product line fit with specific business processes.
-

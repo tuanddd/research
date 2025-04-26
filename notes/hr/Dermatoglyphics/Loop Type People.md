@@ -1,5 +1,10 @@
 ---
-tags: fingerprint, HR
+title: null
+description: null
+date: null
+tags:
+  - fingerprint
+  - hr
 ---
 
 ![[Screenshot 2021-07-07 at 16.19.00.png]] From center to Delta greater than 5 ridges
@@ -38,5 +43,5 @@ tags: fingerprint, HR
 
 #### Reference
 
-- [Identify & Catergorize Fingerprints](https://lindanga.com/nhan-dien-phan-loai-dau-van-tay/)
-- [Classify Fingerprints](https://www.youtube.com/watch?v=D-vJ7jylkf8)
+- [Identify & catergorize fingerprints](https://lindanga.com/nhan-dien-phan-loai-dau-van-tay/)
+- [Classify fingerprints](https://www.youtube.com/watch?v=D-vJ7jylkf8)

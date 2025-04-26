@@ -10,22 +10,21 @@ tags:
   - moc
 ---
 
-### Core Concepts
+### Core concepts
 
-- [Solana Core Concept](solana-core-concept.md)
-- [Solana Account](solana-account.md)
+- [Solana core concept](solana-core-concept.md)
+- [Solana account](solana-account.md)
 
-### Token Standards & NFTs
+### Token standards & NFTs
 
-- [How Tokens Work on Solana](how-tokens-work-on-solana.md)
-- [Introduce to Solana Token 2022 - New Standard to Create a Token in Solana](introduce-to-solana-token-2022-new-standard-to-create-a-token-in-solana.md)
-- [Metaplex NFT Compression](metaplex-nft-compression.md)
+- [How tokens work on Solana](how-tokens-work-on-solana.md)
+- [Introduce to Solana token 2022 - new standard to create a token in Solana](introduce-to-solana-token-2022-new-standard-to-create-a-token-in-solana.md)
+- [Metaplex NFT compression](metaplex-nft-compression.md)
 
-### Development Frameworks & Tools
+### Development frameworks & tools
 
-- [Anchor Framework](anchor-framework.md)
+- [Anchor framework](anchor-framework.md)
 
 ### DeFi & AMM
 
-- [Dynamic Liquidity Market - A New Form of Concentrated Liquidity AMM on Solana](dynamic-liquidity-market-a-new-form-of-concentrated-liquidity-amm-on-solana.md)
-
+- [Dynamic liquidity market - a new form of concentrated liquidity AMM on Solana](dynamic-liquidity-market-a-new-form-of-concentrated-liquidity-amm-on-solana.md)

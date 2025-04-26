@@ -1,5 +1,5 @@
 ---
-title: Blockchain Bridge
+title: Blockchain bridge
 description: A comprehensive guide to understanding blockchain bridges, their types, and how they facilitate communication and asset transfers between different blockchain networks.
 date: 2022-06-21
 authors:
@@ -51,7 +51,7 @@ Basically a bridge works between 2 networks by listening for events arising from
 - Consensus: In some models, consensus is required between the parties monitoring the source chain to forward that information to the destination chain.
 - Signing: Agents need to cryptographically sign, individually or as part of a threshold signature scheme, the information sent to the destination chain.
 
-## Classification of Bridges
+## Classification of bridges
 
 ![](assets/blockchain-bridge_classify-bridge.webp)
 
@@ -61,13 +61,13 @@ There is usually a group of validators that monitor the "mailbox" address on the
 
 ![](assets/blockchain-bridge-external-links.webp)
 
-### Lightweight Client & Relays
+### Lightweight client & relays
 
 Agents monitor events on the source chain and generate cryptographic proof of past events that have been recorded on that chain. These proofs are then relayed, along with block headers, to contracts (i.e. "clients") on the target chain, which then verify that a given event was logged and executed. perform an action after that verification. There is a requirement for some actors to "forward" block headers and proofs. Although users can “self-forward” transactions, there is a realistic assumption that forwarders will continuously forward data. This is a relatively secure bridge design because it ensures trustless validating distribution without trusting intermediate entities, but it is also resource intensive because developers have to build build a new smart contract on each new destination chain that parses the proofs of state from the source chain and the confirmation itself is a lot of gas.
 
 ![](assets/blockchain-bridge_lightweight-client-&-relays.webp)
 
-### Liquidity Network
+### Liquidity network
 
 This is similar to a peer-to-peer network where each node acts as a “router” containing a “store” of assets of both the source and destination chains. These networks typically leverage the security of the underlying blockchain; Through the use of locking and contention mechanisms, users are assured that routers cannot run away with user funds. As a result, liquidity networks like Connext may be a safer option for users who are transferring large amounts of value. Furthermore, this type of bridge may be most suitable for cross-chain asset transfers because the assets provided by the router are the origin of the destination chain and not a derivative, which are not fully interchangeable.
 
@@ -116,8 +116,7 @@ One recent hack was Solana's Wormhole Bridge, where 120k wETH ($325 million USD)
 ## Reference
 
 - https://en.wikipedia.org/wiki/Ethereum
-- [What Are Blockchain Bridges And How Can We Classify Them?](https://blog.li.finance/what-are-blockchain-bridges-and-how-can-we-classify-them-560dc6ec05fa) Feb 18, 2021 - Arjun Chand
-- [Multichain Users Lose $1.4M Due to Bridge Bug](https://cryptobriefing.com/multichain-users-lose-1-4m-due-bridge-bug/)
-- [Vitalik Buterin Skeptical of Cross-Chain Bridges](https://cryptobriefing.com/vitalik-buterin-skeptical-of-cross-chain-bridges/)
+- [What are blockchain bridges and how can we classify them?](https://blog.li.finance/what-are-blockchain-bridges-and-how-can-we-classify-them-560dc6ec05fa) Feb 18, 2021 - Arjun Chand
+- [Multichain users lose (https://cryptobriefing.com/multichain-users-lose-1-4m-due-bridge-bug/).4M due to bridge bug](https://cryptobriefing.com/multichain-users-lose-1-4m-due-bridge-bug/)
+- [Vitalik Buterin skeptical of cross-chain bridges](https://cryptobriefing.com/vitalik-buterin-skeptical-of-cross-chain-bridges/)
 - [Latest DeFi bridge exploit results in $4.4M losses for Meter](https://cointelegraph.com/news/latest-defi-bridge-exploit-results-in-4-4m-losses-for-meter)
-

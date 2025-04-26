@@ -37,7 +37,7 @@ An essential aspect of using Gomock effectively is understanding the abstraction
 5. Execute the test: Run your test code to exercise the code under test along with the mock objects.
 6. Verify expectations: Use Gomock functions to check if the expected method calls were made to the mocks in the correct order.
 
-## Installation and Setup
+## Installation and setup
 
 Before we can start using Gomock for testing in Go, we need to ensure that it is properly installed and set up in our development environment.
 
@@ -233,4 +233,3 @@ In conclusion, this article explores Gomock, a widely used Go framework designed
 - [https://betterprogramming.pub/a-gomock-quick-start-guide-71bee4b3a6f1](https://betterprogramming.pub/a-gomock-quick-start-guide-71bee4b3a6f1)
 
 You can find full source code in the repo: [gomock_testing_example](https://github.com/datphamcode295/gomock_testing_example)
-

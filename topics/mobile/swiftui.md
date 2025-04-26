@@ -42,13 +42,13 @@ If you have never heard about the FRP, you should definitely take a look at thos
 - [https://github.com/kickstarter/native-docs/blob/master/learning-rx.md](https://github.com/kickstarter/native-docs/blob/master/learning-rx.md)
 - [https://github.com/kickstarter/native-docs/blob/master/learning-rx.md](https://github.com/kickstarter/native-docs/blob/master/learning-rx.md)
 
-## Learn once, Apply anywhere
+## Learn once, apply anywhere
 
 Apple brought up SwiftUI with an important distinction: It's not a multi-platform framework. It's a framework to create apps on multiple platforms.
 
 It might sound confusing. The same thing happens when we first heard of Karl Marx's theory on capitalism. But here's a fact: Many parts of SwiftUI work great on iOS, but aren't available on macOS, or are designed specifically for watchOS and so aren't available anywhere else. Yet, the core of the apps can remain unchanged, but to build great apps that tailored for each Apple's platform, some platform-specific enhancement needs to be made.
 
-## Hello World
+## Hello world
 
 There are 3 basic things, which I believe any developer should know when using SwiftUI.
 
@@ -83,14 +83,14 @@ After researching I found out there are four new features in Swift 5.1 which hel
 
 And if I explain all those things, this article would be very long, so you guys should check these new features in Swift's official documentation.
 
-### The Layout Process
+### The layout process
 
 **The basic one**
 
 ```javascript
 struct SwiftUIView: View {
     var body: some View {
-        Text("Hello World!")
+        Text("Hello world!")
     }
 }
 ```
@@ -99,15 +99,15 @@ struct SwiftUIView: View {
 
 These are the steps for SwiftUI to layout our UI.
 
-1. **Parent Proposes Size for Child**
+1. **Parent proposes size for child**
 
 First, the root view offers the text a proposed size – in this case, the entire safe area of the screen, represented by an orange rectangle.
 
-2. **Child Chooses its Size**
+2. **Child chooses its size**
 
 Text only requires that much size to draw its content. The parent has to respect the child's choice. It doesn't stretch or compress the child.
 
-3. **Parent Places Child in Parent’s Coordinate Space**
+3. **Parent places child in parent’s coordinate space**
 
 And now the root view has to put the child somewhere, so it puts in right in the middle.
 
@@ -138,7 +138,7 @@ There are 3 steps to process the above layout.
 2. Divide the remaining space left equally, and propose available size for their child.
 3. All children have sizes. The stack lines them up with the spacing and aligns them according to the specified alignment.
 
-### The State Management
+### The state management
 
 In order to help us manage the state in the app, Apple gave us another power called Property Wrapper. Property wrapper is a new feature in Swift 5.1, which delegates the setter and getter logic of a property to another object.
 
@@ -310,25 +310,25 @@ As soon as Locale, Calendar, or ColorScheme of the system change, SwiftUI recrea
 
 Besides the advanced features for UI processing, SwiftUI still has some downside.
 
-### Limited API Coverage
+### Limited API coverage
 
 SwiftUI does not currently have the same broad API coverage as UIKit. For example, if you want to show items in a grid, you would use UICollectionView in UIKit, but SwiftUI has no equivalent.
 
-### Limited Adoption
+### Limited adoption
 
 SwiftUI was only announced at WWDC2019, and is available in iOS 13 devices or later. This immediately means that:
 
 - Almost every app written to date uses UIKit.
 - Any app that needs to support iOS n-1 or n-2 (e.g. iOS 12 and iOS 11) cannot even begin to switch to SwiftUI for a year or more.
 
-### Limited Support
+### Limited support
 
 UIKit has been around over ten years now, which means:
 
 - Almost every problem you might face has probably already been faced and solved by others
 - There are lots of libraries out there that provide extensions and customizations.
 
-### Default Behavior
+### Default behavior
 
 There are many things Apple gives us by default. This will cause some confusion when we look at the code. Sometimes, I believe that explicit is better than implicit. The default padding in HStack is one example of this.
 
@@ -340,4 +340,3 @@ HStack {
     Text("Avocado Toast").font(.title)
 }
 ```
-

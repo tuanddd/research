@@ -41,7 +41,7 @@ let vStack = UIVStack {
 }
 ```
 
-### How can we build a UI using Builder pattern
+### How can we build a UI using builder pattern
 
 To write a simple Login form in the UIKit, we usually do:
 
@@ -197,4 +197,3 @@ let redLabel = UILabel().text("I'm red").myRedStyle()
 ```
 
 Using `@discardableResult` with `Extension` gives us all of the benefits of reusability, flexibility, maintainability, and the ability to expand our code while retaining the original data type.
-

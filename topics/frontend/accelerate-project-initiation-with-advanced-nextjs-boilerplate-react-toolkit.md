@@ -1,5 +1,5 @@
 ---
-title: Accelerate Project Initiation With Advanced Nextjs Boilerplate React Toolkit
+title: Accelerate project initiation with advanced Nextjs boilerplate React toolkit
 description: Speed up project initiation with NextJS-Boilerplate and React-Toolkit, featuring pre-configured tools, TypeScript, custom hooks, and ESLint for faster setup and improved React app development.
 date: 2023-04-03
 tags:
@@ -11,7 +11,7 @@ tags:
 
 In today's fast-paced world of software development, project initiation can often be a challenging and time-consuming process, with teams facing issues such as inconsistent code quality, slow setup times, and suboptimal workflows. To address these obstacles and streamline the project initiation process, we've developed two powerful libraries, **NextJS-Boilerplate** and **React-Toolkit**, that can help teams get started quickly and efficiently.
 
-## Challenges in Project Initiation
+## Challenges in project initiation
 
 Software development teams often face several challenges during project initiation, including:
 
@@ -22,7 +22,7 @@ Software development teams often face several challenges during project initiati
 
 By addressing these challenges with custom libraries, we aim to streamline project initiation, enhance collaboration, and improve overall development efficiency.
 
-## NextJS Boilerplate
+## NextJS boilerplate
 
 [NextJS-Boilerplate](https://github.com/dwarvesf/nextjs-boilerplate) is a frontend boilerplate built on the popular NextJS framework that is specifically designed for building performant React applications. It incorporates a range of essential tools and technologies, including TypeScript for static typing, SWR for efficient data fetching and caching, TailwindCSS for rapid, scalable styling, Jest and testing-library for thorough unit testing, Cypress for end-to-end testing, and Storybook for creating an isolated component library and fostering collaboration between designers and developers.
 
@@ -32,7 +32,7 @@ What sets NextJS-Boilerplate apart from other boilerplate solutions is its pre-c
 
 ![](assets/accelerate-project-initiation-with-advanced-nextjs-boilerplate-react-toolkit_149cb7501d21ad52e476f168b93085cc_md5.webp)
 
-## React Toolkit
+## React toolkit
 
 [React-Toolkit](https://github.com/dwarvesf/react-toolkit) is a specialized library of React hooks and utilities that simplifies the development of robust, scalable React applications. It includes a custom ESLint configuration to establish and enforce consistent coding standards across the development team, a collection of widely-used React hooks for state management, side effects, and other crucial functionality, and utility functions for handling common tasks like string manipulation, context creation, and data transformation.
 
@@ -40,7 +40,7 @@ What makes React-Toolkit unique is its focus on reducing redundancy and increasi
 
 ![](assets/accelerate-project-initiation-with-advanced-nextjs-boilerplate-react-toolkit_8b4ce5b2e752b7bbc96be21b6d2f1349_md5.webp)
 
-## The Outcomes
+## The outcomes
 
 Investing in our custom NextJS-Boilerplate and React-Toolkit has yielded significant benefits:
 
@@ -77,4 +77,3 @@ Follow our journey
 - Fanpage: [facebook.com/dwarvesf](http://facebook.com/dwarvesf)
 - LinkedIn: [linkedin.com/company/dwarvesf](http://linkedin.com/company/dwarvesf)
 - Substack: [https://memo.d.foundation/](https://memo.d.foundation/)
-

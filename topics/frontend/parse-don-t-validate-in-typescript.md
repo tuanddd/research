@@ -1,6 +1,6 @@
 ---
 title: "Parse, don't validate in TypeScript"
-description: "The \"parse, don't validate\" approach is about processing incoming data and failing in a controlled manner if parsing fails."
+description: 'The "parse, don''t validate" approach is about processing incoming data and failing in a controlled manner if parsing fails.'
 date: 2023-01-05
 authors:
   - namtrhg
@@ -22,7 +22,7 @@ Parsing is better than validation because it requires you to explicitly handle e
 - **Parsing** is the process of analyzing a string or symbol either in natural language, computer languages or data structures, conforming to the rules of a formal grammar.
 - The **"_process of analyzing_"** and **"_conforming to the rules of a_ [_thingy_]"** are crucial here. _Thingy_ is our schema and type, which in this instance may be thought of as forming our _formal grammar_ (don't worry if you don't know what it means). _Process of analyzing_ is the work our code does when trying to fit data to the schema & type. The reason why we are saying “schema & type” is that we want them somehow to be the same thing, instead of two separate things that may or may not be in sync.
 
-### Examples in Typescript with yup
+### Examples in TypeScript with yup
 
 #### Example
 
@@ -121,4 +121,3 @@ function myHandler(): Response {
 ### Reference
 
 https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/ https://en.wikipedia.org/wiki/Parsing https://itnext.io/parse-dont-validate-incoming-data-in-typescript-d6d5bfb092c8
-

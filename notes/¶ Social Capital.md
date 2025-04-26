@@ -1,8 +1,13 @@
 ---
-tags: social-network, social-capital
+title: null
+description: null
+date: null
+tags:
+  - social-network
+  - social-capital
 ---
 
-### Introduction to Social capital
+### Introduction to social capital
 
 Social capital is a **leading indicator of financial capital**, and so its nature bears greater scrutiny. Analyzing social capital dynamics explain online behavior that seem irrational.
 
@@ -13,7 +18,7 @@ Evaluates social networks’ strength on three axes: **Social Capital**, **Enter
 - Utility is product functionality. If you can find the answer to your question on Quora, the product are providing you utility.
 - Social capital relies on the creation of a “successful status game.” e.g. crypto
 
-### Social Capital Matrix
+### Social capital matrix
 
 Leaving Entertainment out of the equation, Wei talks about five arcs that social networks can follow, four of which are trade-offs between social capital and utility over time:
 

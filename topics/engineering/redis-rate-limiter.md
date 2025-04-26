@@ -10,7 +10,7 @@ icy: 10
 
 There are many use cases for an in-memory NoSQL database, such as Redis. One particular case that happens in enterprise applications is creating rate limits for labeled data sets. Below is a demonstration of how to set up basic rate limiting on Redis.
 
-## Data types in Redis for Rate Limiting
+## Data types in Redis for rate limiting
 
 The idea is to have a data label such that it labels exactly which user is accessing a resource at any given time. The easiest case for us is to use the user’s IP address. We can hold their IP address as a key on Redis or a sub-item on any one of Redis’ data types.
 
@@ -65,4 +65,3 @@ Above are 2 simple examples exploring the usefulness of data types to help handl
 
 - https://redis.com/glossary/rate-limiting/
 - https://redis.io/docs/data-types/lists/
-

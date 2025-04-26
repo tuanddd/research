@@ -15,4 +15,3 @@ The landscape a character inhabits can provide a glimpse into their character. R
 #### Citations
 
 George, Elizabeth. _Mastering the Process: From Idea to Novel_. Viking, 2020.
-

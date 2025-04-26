@@ -20,4 +20,3 @@ This sense of salience can vary dramatically between different people: it is inf
 #### Citations
 
 Martin, Roger L. The Opposable Mind: How Successful Leaders Win Through Integrative Thinking. 1st edition. Boston, Mass: Harvard Business Review Press, 2007.
-

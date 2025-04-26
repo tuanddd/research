@@ -29,4 +29,3 @@ Roger Martin identifies a capacity for abductive reasoning as a key quality of i
 [Madsbjerg, Christian. Sensemaking: The Power of the Humanities in the Age of the Algorithm. Hachette Books, 2017.](https://publish.obsidian.md/mobydiction/notes/%E2%89%88+Madsbjerg+-+Sensemaking)
 
 [Martin, Roger L. The Opposable Mind: How Successful Leaders Win Through Integrative Thinking. 1st edition. Boston, Mass: Harvard Business Review Press, 2007.](https://publish.obsidian.md/mobydiction/notes/%E2%89%88+Martin+-+The+Opposable+Mind)
-

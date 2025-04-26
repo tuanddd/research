@@ -1,5 +1,5 @@
 ---
-title: Competency Mapping
+title: Competency mapping
 description: Discover a detailed competency framework for user research, design, usability, metrics, prototyping, client management, and development to assess and develop skills across 13 key UX and product areas.
 date: 2018-04-01
 tags:
@@ -16,7 +16,7 @@ Six levels to measure the level of knowledge:
 **4 – Proficient**: _Encourages or supervises others in this competency._
 **5 – Expert**: _Develops new ways of applying this competence measured on the world stage._
 
-### General User Research
+### General user research
 
 - Explain the importance of user research, not just before designing the product but also during design and after deployment.
 - Identify the needed research methods and create a research plan.
@@ -24,7 +24,7 @@ Six levels to measure the level of knowledge:
 - Understand how to write a hypothesis and how to control and measure variables.
 - Find the target group and recruit users from the target audience.
 
-### User Needs Evaluation
+### User needs evaluation
 
 - Gain domain knowledge (competitor research, industry, cultural insights).
 - Identify the best solution to summarize user needs and goals. Create personas or jobs-to-be-done sentences through interviewing potential users.
@@ -33,14 +33,14 @@ Six levels to measure the level of knowledge:
 - Structure and conduct an effective interview that gets beyond the surface opinions (what users say) to reveal user goals (what users want).
 - Report, analyze and present the discovery research results to the wider team.
 
-### Usability Evaluation
+### Usability evaluation
 
 - Use established usability principles and guidelines to predict likely problems in user interfaces before testing (heuristic evaluation).
 - Plan and execute usability tests (e.g. moderated vs. unmoderated test, lab vs. remote test).
 - Record, analyze and present the data from usability tests to the wider team.
 - Prioritize usability problems based upon evidence.
 
-### Metrics and Measurements
+### Metrics and measurements
 
 - Create a measurement plan according to the business and user goals (e.g. AARRR, HEART)
 - Create surveys.
@@ -49,7 +49,7 @@ Six levels to measure the level of knowledge:
 - Analyze, interpret and report data from analytics, user surveys and customer support records.
 - Pair metrics with qualitative data to understand users behavior behind the numbers.
 
-### Information Architecture
+### Information architecture
 
 - Carry out a card sorting and tree testing; analyze the results
 - Analyze a journey map to identify and construct an information architecture.
@@ -61,7 +61,7 @@ Six levels to measure the level of knowledge:
 - Explore multiple approaches to a problem before deciding on a solution.
 - Create interactive, shareable prototypes to demonstrate and test a design solution.
 
-### Interaction Design
+### Interaction design
 
 - Understand the benefits of different user interface models and use them appropriately (e.g. knowing when to force a user down a guided path with a wizard or modal, or when to let them go their own way).
 - Use the correct component from the pattern library to provide affordances and shape the user experience, e.g. choosing the correct control for an interface such as segment controller instead of a radio button.
@@ -70,7 +70,7 @@ Six levels to measure the level of knowledge:
 - Understand the opportunities and limitations of the technology that will express the design solution, and work with developers to determine its implementation.
 - Document requirements and explain the expectations around an interaction (specification for the developers).
 
-### Visual Design
+### Visual design
 
 - Use fundamental principles of visual design (contrast, alignment, repetition and proximity) to de-clutter user interfaces.
 - Understand and use typography, icon, grid and color systems to lay out pages.
@@ -86,14 +86,14 @@ Six levels to measure the level of knowledge:
 - Manage multiple languages to make it understandable for translators and content team and users.
 - Establish harmony between written and visual communication.
 
-### Client Management
+### Client management
 
 - Plan and schedule work to prioritize and maximize delivery efficiency.
 - Effectively explain and present the results of your team's work in a well structured way.
 - Engage and maintain communication with stakeholders; manage their expectations.
 - Promote the value of design thinking; grow the client’s user-experience competency.
 
-### Professional Cooperation
+### Professional cooperation
 
 - Learn to make modifications in work methods, processes in case unexpected issues.
 - Cooperate with other team members; constructively critique their work and collaborate for a common path.
@@ -101,7 +101,7 @@ Six levels to measure the level of knowledge:
 - Cultivate a team with strong interpersonal relationships (know and manage people).
 - Simplify collaboration with developers in an agile way; provide specifications.
 
-### Business and Strategy
+### Business and strategy
 
 - Understand and support the client in business plan decisions; understand the business model and monetization opportunities.
 - Explain the cost-benefit of user experience and design activities to the business and make suggestions how to measure and monitor their effects on their success.
@@ -114,10 +114,9 @@ Six levels to measure the level of knowledge:
 - Android development
 - iOS development
 
-### Workshop Facilitation
+### Workshop facilitation
 
 - Find the right method and tools; create a workshop plan for the product need and know how to modify when unexpected issues come up.
 - Soft skills: Handle different personalities, time management, assertive communication, support the team decision.
 - Effectively synthesize the information and push the participants towards their workshop goals (effective decision making and action plan).
 - Ensure participants understand the workshop’s outcome and take further actions.
-

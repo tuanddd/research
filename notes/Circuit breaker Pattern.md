@@ -1,5 +1,11 @@
 ---
-tags: engineering, cloud-pattern, microservice
+title: null
+description: null
+date: null
+tags:
+  - engineering
+  - cloud-pattern
+  - microservice
 ---
 
 ### Context

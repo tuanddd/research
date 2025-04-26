@@ -16,4 +16,3 @@ Good writing makes something familiar seem new again, and the mundane fantastic.
 #### Citations
 
 Flaherty, Francis. _The Elements of Story: Field Notes on Nonfiction Writing._ Reprint edition. Harper Perennial, 2010.
-

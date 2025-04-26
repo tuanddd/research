@@ -32,4 +32,3 @@ Edsger W. Dijkstra was an influential computer scientist and is well known for h
 #### References
 
 - https://www.youtube.com/watch?v=mLEOZO1GwVc&ab_channel=HansOtten
-

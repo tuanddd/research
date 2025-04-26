@@ -48,4 +48,3 @@ Shadow DOM provides a powerful tool for developers creating website extensions, 
 ## References
 
 - https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM
-

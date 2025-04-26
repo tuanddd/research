@@ -1,5 +1,9 @@
 ---
-tags: git
+title: null
+description: null
+date: null
+tags:
+  - git
 ---
 
 Clone new repository

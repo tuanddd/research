@@ -1,5 +1,5 @@
 ---
-title: "Devbox: Your Dev Environment on Steroids"
+title: "Devbox: your dev environment on steroids"
 description: Forget setup headaches. Devbox delivers instant, rock-solid dev environments powered by Nix.
 date: 2024-08-01
 authors:
@@ -10,7 +10,7 @@ tags:
 
 Remember the last time you onboarded a new developer? Or tried a new tool without wrecking your setup? Yeah, it probably sucked. But it doesn't have to.
 
-## The Dev Environment Dream
+## The dev environment dream
 
 Imagine this:
 
@@ -22,15 +22,15 @@ Imagine this:
 
 Sounds too good to be true? Meet Devbox.
 
-## Why Devbox Rocks
+## Why Devbox rocks
 
 Devbox is like a magic wand for your command line. It conjures perfect dev environments in seconds. Here's why it's a game-changer:
 
-1. **One File Rules All:** Everything lives in a single `devbox.json`. Dependencies, env vars, init scripts – it's all there.
+1. **One file rules all:** Everything lives in a single `devbox.json`. Dependencies, env vars, init scripts – it's all there.
 
-2. **Set It and Forget It:** Define once, use forever. Devbox handles the rest.
+2. **Set it and forget it:** Define once, use forever. Devbox handles the rest.
 
-3. **Consistency is King:** "Works on my machine" becomes "Works on every machine."
+3. **Consistency is king:** "Works on my machine" becomes "Works on every machine."
 
 Here's what a `devbox.json` looks like:
 
@@ -48,13 +48,13 @@ Here's what a `devbox.json` looks like:
 
 This gives everyone the same Node.js, Python, and PostgreSQL setup, plus any custom config you need.
 
-## Nix Power, Devbox Simplicity
+## Nix power, Devbox simplicity
 
 Under the hood, Devbox uses Nix. Don't worry – you don't need to learn Nix (but if you do, it opens up even more possibilities).
 
-Want a package? Devbox gives you 80,000+ options from Nixpkgs. Need bleeding-edge stuff? Use Nix Flakes directly. It's all seamless.
+Want a package? Devbox gives you 80,000+ options from Nixpkgs. Need bleeding-edge stuff? Use Nix flakes directly. It's all seamless.
 
-## Get Started in 60 Seconds
+## Get started in 60 seconds
 
 ```bash
 # Install Devbox
@@ -79,10 +79,10 @@ Devbox is Nix with training wheels. It's for developers who want the power witho
 
 Want to dive deeper?
 
-- [Nix Shell: The Foundation](https://nixos.org/manual/nix/stable/command-ref/nix-shell.html)
-- [Why Choose Devbox Over Plain Nix](https://www.jetify.com/devbox/docs/devbox_vs_other_tools)
+- [Nix shell: the foundation](https://nixos.org/manual/nix/stable/command-ref/nix-shell.html)
+- [Why choose Devbox over plain Nix](https://www.jetify.com/devbox/docs/devbox_vs_other_tools)
 
-## The Bottom Line
+## The bottom line
 
 Devbox isn't just a tool. It's a revolution in managing dev environments. It makes "works on my machine" a universal truth, not an excuse.
 
@@ -92,8 +92,7 @@ Ready to supercharge your dev setup? Give Devbox a shot. Your future self (and y
 
 ## References
 
-- [Devbox Documentation](https://www.jetify.com/devbox/docs/)
-- [Nix Package Manager](https://nixos.org/)
-- [Nixpkgs Repository](https://github.com/NixOS/nixpkgs)
-- [Nix Flakes](https://nixos.wiki/wiki/Flakes)
-
+- [Devbox documentation](https://www.jetify.com/devbox/docs/)
+- [Nix package manager](https://nixos.org/)
+- [Nixpkgs repository](https://github.com/NixOS/nixpkgs)
+- [Nix flakes](https://nixos.wiki/wiki/Flakes)

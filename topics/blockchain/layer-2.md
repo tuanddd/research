@@ -1,5 +1,5 @@
 ---
-title: "Layer 2: Scaling Solutions for Ethereum"
+title: "Layer 2: Scaling solutions for Ethereum"
 description: "Explore Layer 2 solutions for Ethereum scaling, including rollups and their benefits. Learn how Layer 2 extends Ethereum's capabilities, reduces gas fees, and maintains security while improving transaction throughput and efficiency."
 date: 2022-12-06
 authors:
@@ -64,4 +64,3 @@ High demand -> Need to scale without sacrificing decentralization and security =
 ## References
 
 - https://ethereum.org/en/layer-2
-

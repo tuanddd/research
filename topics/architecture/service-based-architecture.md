@@ -27,4 +27,3 @@ It is quite arguably a one-size fits a lot of stuff architecture. It is very sui
 - https://microservices.io/
 - https://en.wikipedia.org/wiki/Microservices
 - https://nofluffjuststuff.com/magazine/2015/10/the_challenges_of_service_based_architecture
-

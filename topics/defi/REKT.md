@@ -1,10 +1,15 @@
 ---
-tags: blockchain, defi
+title: null
+description: null
+date: null
+tags:
+  - blockchain
+  - defi
 ---
 
 Different types of hacks How can you minimize your chances of being negatively affected by a hack?
 
-### The Rug Pull
+### The rug pull
 
 - Sudden removal of most of the liquidity from the LP, a sudden loss can create a death spiral for the token as token holders try to sell as quickly as possible to save their profits => common scam exit form, protocols remove all traces of social media and run money (Ex: meerkat Finance)
 - How to avoid it?

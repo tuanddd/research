@@ -1,5 +1,10 @@
 ---
-tags: developer, insight
+title: null
+description: null
+date: null
+tags:
+  - developer
+  - insight
 ---
 
 `to be a nerd is to be socially awkward`

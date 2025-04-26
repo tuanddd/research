@@ -13,18 +13,18 @@ tags:
 
 When it comes to Large Language Models (LLMs) like GPT, managing context size - the number of tokens per prompt - is a unique challenge. As it stands, GPT-3.5 can process up to 4096 tokens, roughly equivalent to 3000 English words. This limitation creates difficulties for tasks requiring the consumption of large amounts of text, such as retrieving information from extensive documentation or keeping track of [[Dealing with Long-Term Memory in AI Chatbot | a long chat history]]. Despite the potential of future models such as GPT-4 to support larger context windows, there may be a significant trade-off in terms of increased computational power and latency costs. To address these challenges, a viable strategy is ‘chunking’ - a process that involves dissecting large volumes of text into smaller, more manageable segments. These segments are then fed to an embedding model before being stored in a vector database for tasks such as similarity search. This note will explore different chunking strategies to overcome the limitations of LLM and ensure that the output remains coherent and meaningful.
 
-## The Crucial Step of Preprocessing
+## The crucial step of preprocessing
 
 Before getting into chunking, it is paramount that the data you use is of high quality. The first step in achieving this is through preprocessing. In essence, preprocessing involves cleaning the data, and this could mean removing any unnecessary elements that might add 'noise' or dilute the quality of your content. For instance, if your data is from the web, removing HTML tags and other non-textual elements will help to reduce the noise in your data.
 
-## Selecting an Appropriate Chunking Method
+## Selecting an appropriate chunking method
 
 Following preprocessing, the next stage is to decide on a suitable range of chunk sizes to experiment with, based on the nature of your content and the capabilities of your embedding model. Here are two major considerations:
 
-- **Content Type**: This could range from short messages to lengthy documents, formatted or non-formatted content, or even specialized content types like Markdown or LaTeX.
-- **Embedding Model**: Factors such as token limits and relevance of output could affect your choice of chunking method.
+- **Content type**: This could range from short messages to lengthy documents, formatted or non-formatted content, or even specialized content types like Markdown or LaTeX.
+- **Embedding model**: Factors such as token limits and relevance of output could affect your choice of chunking method.
 
-### Chunking 'Non-structured' Content
+### Chunking 'non-structured' content
 
 Unstructured content, which lacks any specific pattern, typically requires fixed-size chunking. This involves deciding on the number of tokens in each chunk and considering overlaps between chunks to ensure that the semantic context remains intact. Strategies for this approach might include splitting chunks at sentence ends (marked by periods) or at line breaks. For instance, the LangChain library offers tools for splitting text based on chunk size or separator:
 
@@ -58,7 +58,7 @@ text_splitter = SpaCyTextSplitter()
 docs = text_splitter.split_text(text)
 ```
 
-### Chunking 'Structured' Content
+### Chunking 'structured' content
 
 In the case of content formatted such as Markdown or LaTeX, chunking can be more nuanced, with the aim of preserving the original structure of the content:
 
@@ -89,4 +89,3 @@ In summary, the challenge of context size in LLMs like GPT is far from insurmoun
 ## Reference
 
 - <https://www.pinecone.io/learn/chunking-strategies/>
-

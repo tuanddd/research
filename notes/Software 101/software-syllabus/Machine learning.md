@@ -1,5 +1,12 @@
 ---
-tags: software101, engineering, syllabus, machine learning
+title: null
+description: null
+date: null
+tags:
+  - software101
+  - engineering
+  - syllabus
+  - machine-learning
 ---
 
 ## Deep learning
@@ -46,6 +53,6 @@ Here are some exerts from the Tensorflow official site which gives an amazing ex
 
 ![](https://s3-ap-southeast-1.amazonaws.com/dwarvesf-outline/uploads/34adb8ba-29bc-4ab8-b128-fea45fade09c/d2d29fb1-c13f-446d-abe5-5396cb8c1210/1_McdwulQJET5gNryy5-Ne2A.png) ![](https://s3-ap-southeast-1.amazonaws.com/dwarvesf-outline/uploads/34adb8ba-29bc-4ab8-b128-fea45fade09c/63d0ce1d-54d8-4591-bd4b-5aa4c78e1025/1_Rzug5Ggbb4A8oiBXYk9_KA.png)
 
-#### How Machines Learn
+#### How machines learn
 
 [https://www.youtube.com/watch?v=R9OHn5ZF4Uo](https://www.youtube.com/watch?v=R9OHn5ZF4Uo)

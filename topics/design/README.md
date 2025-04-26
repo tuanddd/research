@@ -68,4 +68,3 @@ tags:
 ### Case studies & blog posts
 
 - [The correct way to build KPI](the-correct-way-to-build-kpi.md)
-

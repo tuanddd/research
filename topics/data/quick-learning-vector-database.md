@@ -1,5 +1,5 @@
 ---
-title: Quick Learning Vector Database
+title: Quick learning vector database
 description: The motivation of this thoughts that trying to discover the LLMs and Generative AI...
 date: 2024-03-15
 authors:
@@ -13,7 +13,7 @@ tags:
   - database
 ---
 
-## Motivation of Vector Database
+## Motivation of vector database
 
 - The motivation of this thoughts that trying to discover the LLMs and Generative AI
 - In order to create or build, train any models there are multiple factors will need to be considered: lakes of data, metadata, data management, infrastructure, etc.
@@ -21,7 +21,7 @@ tags:
 - Where everything are tokenized, vectorized and serialized into a single language
 - Explored blog posts, articles from [What is a AWS Vector Database?](https://aws.amazon.com/what-is/vector-databases/)
 
-## Learning Notes
+## Learning notes
 
 - Data from internet/database/users are inputted and converted and encoded (video, speech, images, text, etc.) to a vector using a vector embedding model such as Gemini, OpenAI, etc.
 - Developing Products: Drant*, Milvus*, redis, pgvector(extension), Pinecone, LanceDB, oracle, MongoDB(Atlas), AthenaDB
@@ -60,4 +60,3 @@ tags:
   - Optimize long-term caching memory
   - Hardware optimization for hosting and computing data
   - Improve KNN performance models
-

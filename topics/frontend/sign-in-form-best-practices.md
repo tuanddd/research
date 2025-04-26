@@ -1,5 +1,5 @@
 ---
-title: Sign-in Form Best Practices
+title: Sign-in form best practices
 description: "Use meaningful HTML elements: `<form>`, `<input>`, `<label>`, and `<button>`."
 date: 2022-10-17
 authors:
@@ -9,7 +9,7 @@ tags:
   - form
 ---
 
-### Sign-in Form Best Practices
+### Sign-in form best practices
 
 - Use meaningful HTML elements: `<form>`, `<input>`, `<label>`, and `<button>`.
 - Label each input with a `<label>`.
@@ -31,4 +31,3 @@ tags:
 ### References
 
 - https://web.dev/sign-in-form-best-practices
-

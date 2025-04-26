@@ -30,4 +30,3 @@ github_id: nguyennh4522
 
 - https://github.com/bitnami-labs/sealed-secrets
 - https://github.com/mozilla/sops
-

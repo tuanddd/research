@@ -14,9 +14,9 @@ const { headers, values } = pagesQuery.value
 dv.table(headers, values);
 ```
 
-### Literature & Permanent Notes
+### Literature & permanent notes
 
-#### Structured Permanent Notes
+#### Structured permanent notes
 
 ```dataviewjs
 const query = dv.page("_queries").structured_permanent_notes_monthly;
@@ -26,7 +26,7 @@ const { headers, values } = pagesQuery.value
 dv.table(headers, values);
 ```
 
-#### Literature Notes
+#### Literature notes
 
 ```dataviewjs
 const query = dv.page("_queries").literature_notes_monthly;
@@ -36,7 +36,7 @@ const { headers, values } = pagesQuery.value
 dv.table(headers, values);
 ```
 
-#### Permanent Notes
+#### Permanent notes
 
 ```dataviewjs
 const query = dv.page("_queries").permanent_notes_monthly;
@@ -45,4 +45,3 @@ const { headers, values } = pagesQuery.value
 
 dv.table(headers, values);
 ```
-

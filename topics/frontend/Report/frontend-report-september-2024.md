@@ -1,5 +1,5 @@
 ---
-title: Frontend Report September 2024
+title: Frontend report September 2024
 short_title: September 2024
 description: "This roundup highlights the latest in React and Next.js, including Server Functions, the React 19 compiler, and self-hosting with OpenNext. Find tips on lazy loading, CSS Grid, JavaScript's evolution, plus new tools and expert insights."
 date: 2024-10-05
@@ -26,12 +26,12 @@ The buzz around React 19's compiler is real. This comprehensive guide walks you 
 
 Lazy loading with React Router can be tricky. Avoid common pitfalls by understanding how to structure your loader functions for optimal performance.
 
-### Quick Links
+### Quick links
 
 - [The unspoken rules of React hooks](https://macwright.com/2024/09/19/the-extra-rules-of-hooks)
-- [React Testing Technique: Inverse Assertions](https://www.epicweb.dev/inverse-assertions)
-- [Modern Data-Fetching in React - Comparing architectures at a high level](https://reacttraining.com/blog/modern-data-fetching-in-react)
-- [Vim for React Developers - A free course focusing on real-world scenarios](https://vimforreactdevs.com/)
+- [React testing technique: inverse assertions](https://www.epicweb.dev/inverse-assertions)
+- [Modern data-fetching in React - comparing architectures at a high level](https://reacttraining.com/blog/modern-data-fetching-in-react)
+- [Vim for React developers - a free course focusing on real-world scenarios](https://vimforreactdevs.com/)
 
 ## Next.js
 
@@ -47,10 +47,10 @@ Next.js, unlike Remix, Astro, or the other modern frontends, doesn't have a way 
 
 Progressive Web Applications (PWAs) offer the reach and accessibility of web applications combined with the features and user experience of native mobile apps. The new Next.js docs now make it easier than ever.
 
-### Quick Links
+### Quick links
 
-- [Deploying a Next.js App to Production in any server](https://www.saybackend.com/blog/04-deploy-nextjs-to-production-without-vercel)
-- [Reliable date formatting in Next.js – Internationalization (i18n) for Next.js](https://next-intl-docs.vercel.app/blog/date-formatting-nextjs)
+- [Deploying a Next.js app to production in any server](https://www.saybackend.com/blog/04-deploy-nextjs-to-production-without-vercel)
+- [Reliable date formatting in Next.js – internationalization (i18n) for Next.js](https://next-intl-docs.vercel.app/blog/date-formatting-nextjs)
 
 ## Others
 
@@ -66,13 +66,13 @@ See real-world React examples where CSS :has steals the show! From handling focu
 
 This Google engineer challenges the norm: Do we really need to transpile to ES5 anymore?
 
-### Quick Links
+### Quick links
 
-- [Data Synchronization with React Query](https://ui.dev/c/query/data-synchronization)
+- [Data synchronization with React Query](https://ui.dev/c/query/data-synchronization)
 - [The web's clipboard, and how it stores data of different types](https://alexharri.com/blog/clipboard)
-- [CSS display contents - How it works](https://ishadeed.com/article/display-contents/)
+- [CSS display contents - how it works](https://ishadeed.com/article/display-contents/)
 - [Cleaner JavaScript promises with safe-await](https://alexpate.com/posts/cleaner-promises-with-safe-await)
-- [CSS Masonry & CSS Grid](https://css-tricks.com/css-masonry-css-grid/)
+- [CSS masonry & CSS grid](https://css-tricks.com/css-masonry-css-grid/)
 
 ## Trending
 
@@ -84,12 +84,12 @@ Prominent figures in the JavaScript world are calling on Oracle to release the "
 
 Discover why it's causing a stir in the JavaScript world. Think blazing-fast speeds and effortless full-stack development. And some other cool bits.
 
-### Quick Links
+### Quick links
 
-- [Prompt design - A case for building better tools for it](https://www.cursor.com/blog/prompt-design)
+- [Prompt design - a case for building better tools for it](https://www.cursor.com/blog/prompt-design)
 - [Using ChatGPT to reverse engineer minified JavaScript](https://glama.ai/blog/2024-08-29-reverse-engineering-minified-code-using-openai)
 
-## New Tools
+## New tools
 
 ### [Meet Conform: The Type-Safe Form Validation Library](https://conform.guide/)
 
@@ -103,17 +103,16 @@ Discover new developer tools & services daily with NewDevTools. Updated daily!
 
 This is not supposed to be a template, boilerplate or a framework, but more of an opinionated guide, showcasing solving most of the real-world problems of an application in a practical way and help developers write better applications.
 
-### Quick Links
+### Quick links
 
 - Tailwind CSS for Emails? Now You Can Inline Those Styles! - (tailwind-to-inline)[https://www.npmjs.com/package/tailwind-to-inline]
-- [Vaul 1.0: New React Drawer Component](https://vaul.emilkowal.ski/)
-- [DMNO - Environment Variables Evolved](https://dmno.dev/)
-- [prabhuignoto/react-chrono: 🕑 Modern Timeline Component for React](https://github.com/prabhuignoto/react-chrono)
-- [Write and Code with ChatGPT: Introducing Canvas](https://openai.com/index/introducing-canvas/)
+- [Vaul 1.0: new React drawer component](https://vaul.emilkowal.ski/)
+- [DMNO - environment variables evolved](https://dmno.dev/)
+- [prabhuignoto/react-chrono: 🕑 modern timeline component for React](https://github.com/prabhuignoto/react-chrono)
+- [Write and code with ChatGPT: introducing Canvas](https://openai.com/index/introducing-canvas/)
 
 ## Commentary
 
-- [Why Gumroad Didn't Choose htmx](https://htmx.org/essays/why-gumroad-didnt-choose-htmx/)
-- [Something went wrong – Ways out of the JavaScript crisis](https://molily.de/something-went-wrong/)
+- [Why Gumroad didn't choose htmx](https://htmx.org/essays/why-gumroad-didnt-choose-htmx/)
+- [Something went wrong – ways out of the JavaScript crisis](https://molily.de/something-went-wrong/)
 - [The hardest bug investigation of my career and the insane code that caused it](https://www.reddit.com/r/ExperiencedDevs/comments/1fu0e5q/the_hardest_bug_investigation_of_my_career_and/)
-

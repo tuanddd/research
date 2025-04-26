@@ -1,8 +1,14 @@
 ---
-tags: sql, data, practice
+title: null
+description: null
+date: null
+tags:
+  - sql
+  - data
+  - practice
 ---
 
-### ORM vs Plain SQL
+### Orm vs plain SQL
 
 - Raw: make all query by self from scratch
 - ORM: Object relational mapping: programing technique for converting data between incompatible type systems using OOP

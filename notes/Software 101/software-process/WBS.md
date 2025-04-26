@@ -1,5 +1,11 @@
 ---
-tags: software101, engineering, process
+title: null
+description: null
+date: null
+tags:
+  - software101
+  - engineering
+  - process
 ---
 
 By definition, a Work Breakdown Structure (WBS) chart is a hierarchical breakdown of a project into successive levels. Each level contain more detail than the previous.

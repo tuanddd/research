@@ -15,7 +15,7 @@ So the purpose of this article is to answer for the question "How do I store sec
 
 There are several ways to manage secret info
 
-### Level 1: Hard-Code Secrets in Source Code
+### Level 1: Hard-code secrets in source code
 
 ```swift
 enum Secrets {
@@ -77,7 +77,7 @@ In this way, the reverse-engineer tools won't work. **BUT**
 - The API key will be store in `Info.plist` file and anyone can read it, even if we archive the app, they just need to open the App bundle content 🤦‍♂
 - This still work in case our application's platform is iOS and our archive file is not leaked.
 
-### Level 3: Obfuscate Secrets Using Code Generation
+### Level 3: Obfuscate secrets using code generation
 
 We can use a combination of Swift and Python code (via GYB) to obfuscate secrets in a way that’s more difficult to reverse-engineer.
 
@@ -110,13 +110,13 @@ enum Secrets {
 Secrets.apiKey // "6a0f0731d84afa4082031e3a72354991"
 ```
 
-### Level 4: Don’t Store Secrets On-Device
+### Level 4: Don’t store secrets on-device
 
 No matter how much we obfuscate a secret on the client, it’s only a matter of time before the secret gets out. Given enough time and sufficient motivation, an attacker will be able to reverse-engineer whatever you throw their way.
 
 The only true way to keep secrets in mobile apps is to store them on the server.
 
-### Client Secrecy is Impossible
+### Client secrecy is impossible
 
 **Rather than looking at client secret management as a problem to be solved, we should see it instead as an anti-pattern to be avoided.**
 
@@ -133,4 +133,3 @@ The answer is: “Don’t (but if you must, obfuscation wouldn’t hurt).”
 - https://www.raywenderlich.com/21441177-building-your-app-using-build-configurations-and-xcconfig
 - https://nshipster.com/xcconfig/
 - https://nshipster.com/secrets/
-

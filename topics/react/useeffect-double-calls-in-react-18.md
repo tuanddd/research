@@ -91,4 +91,3 @@ export const useEffectOnce = (effect: () => void | (() => void)) => {
 - https://reactjs.org/blog/2022/03/29/react-v18.html#new-strict-mode-behaviors
 - https://www.techiediaries.com/react-18-useeffect/
 - https://dev.to/ag-grid/react-18-avoiding-use-effect-getting-called-twice-4i9e
-
