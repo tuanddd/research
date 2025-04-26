@@ -1,5 +1,5 @@
 ---
-title: Applied Security Basis
+title: Applied security basis
 description: Learn the basics of software security with an easy guide to Blockchain, SSH, and SSL protocols, explaining how they protect data through encryption, authentication, and decentralization.
 date: 2020-02-25
 tags:
@@ -30,7 +30,7 @@ SSL is a data transfer security protocol. And in the web hosting industry, the S
 
 SSL protection is implemented through two main mechanisms: authentication and encryption. Scientifically, SSL Protocol uses asymmetric cryptography to authenticate exchange keys, symmetric encryption to preserve confidentiality, and message authentication codes to ensure message integrity.
 
-## Blockchain Security
+## Blockchain security
 
 This part covers the fundamental theory of how blockchain works and gets applied. Blockchain technology is utilized in the data structure as it prevents data from being exploited for bad purposes. In short, blockchain works when data immutability and security are highly valuable. Most likely notice in cryptocurrency, blockchain security avoids digital money from being destroyed or duplicated. A decentralized public ledger.
 

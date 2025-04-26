@@ -1,5 +1,5 @@
 ---
-title: "A Holistic: Guide to Security"
+title: "A holistic guide to security"
 description: A high-level overview of how to implement a holistic approach to securing your application platform.
 date: 2024-09-06
 authors:
@@ -26,59 +26,59 @@ Our primary security goals include:
 - Providing transparent answers to clients' security concerns.
 - Implementing effective security measures without compromising our agility.
 
-## A Holistic Approach to Security
+## A holistic approach to security
 
 Security is an ongoing process that must be applied across three critical areas: application security, data security, and development & infrastructure security.
 
 ![](assets/a-holistic-guide-to-security-20240906110413200.webp)
 
-### 1. Application Security
+### 1. Application security
 
 Securing the application itself is the first line of defense. This involves protecting the app from unauthorized access and preventing common security vulnerabilities.
 
-- **Key Practices:** Implementing secure authentication mechanisms, following best practices for API design, and conducting regular penetration testing.
-- **Compliance Standard:** [OWASP](https://owasp.org/) (Open Web Application Security Project) offers a framework and guidelines to prevent the most common vulnerabilities, including cross-site scripting and SQL injection.
+- **Key practices:** Implementing secure authentication mechanisms, following best practices for API design, and conducting regular penetration testing.
+- **Compliance standard:** [OWASP](https://owasp.org/) (Open Web Application Security Project) offers a framework and guidelines to prevent the most common vulnerabilities, including cross-site scripting and SQL injection.
 
-### 2. Data Security
+### 2. Data security
 
 At the heart of every platform lies data—ensuring the confidentiality, integrity, and availability of this data is crucial.
 
-- **Key Practices:** Encrypting sensitive data (e.g., passwords, credit card information) both at rest and in transit, respecting user privacy through data ownership and control, and providing mechanisms for user data deletion.
-- **Compliance Standards:** [GDPR](https://gdpr-info.eu/) (General Data Protection Regulation) and [CCPA](https://oag.ca.gov/privacy/ccpa) (California Consumer Privacy Act) are two major regulations governing data privacy, setting a high standard for transparency and user control.
+- **Key practices:** Encrypting sensitive data (e.g., passwords, credit card information) both at rest and in transit, respecting user privacy through data ownership and control, and providing mechanisms for user data deletion.
+- **Compliance standards:** [GDPR](https://gdpr-info.eu/) (General Data Protection Regulation) and [CCPA](https://oag.ca.gov/privacy/ccpa) (California Consumer Privacy Act) are two major regulations governing data privacy, setting a high standard for transparency and user control.
 
-### 3. Development & Infrastructure Security
+### 3. Development & infrastructure security
 
 Integrating security into the development lifecycle is vital for maintaining a secure infrastructure. From developer access to production environments, everything needs stringent security protocols.
 
-- **Key Practices:** Setting up role-based access control (RBAC), requiring multi-factor authentication (MFA) for accessing development services, and providing regular cybersecurity training for all employees.
-- **Compliance Standard:** [ISO 27001](https://www.iso.org/standard/27001) outlines best practices for information security management, focusing on risk assessment and mitigation.
+- **Key practices:** Setting up role-based access control (RBAC), requiring multi-factor authentication (MFA) for accessing development services, and providing regular cybersecurity training for all employees.
+- **Compliance standard:** [ISO 27001](https://www.iso.org/standard/27001) outlines best practices for information security management, focusing on risk assessment and mitigation.
 
-## A 3-Month Security Roadmap
+## A 3-month security roadmap
 
 Building a security foundation takes time. We’ve devised a phased approach over the next three months to implement security protocols in a manageable, prioritized way. This plan allows us to remain nimble while progressively enhancing security.
 
-### Phase 1: Immediate Actions
+### Phase 1: immediate actions
 
 Focus on implementing foundational security measures that address immediate risks.
 
-- **Authentication & Authorization:** Secure the login process using MFA, and implement secure token refresh policies.
-- **Data Encryption:** Configure AES-256 encryption for sensitive data.
+- **Authentication & authorization:** Secure the login process using MFA, and implement secure token refresh policies.
+- **Data encryption:** Configure AES-256 encryption for sensitive data.
 
-### Phase 2: Short-Term Actions
+### Phase 2: short-term actions
 
 Once immediate risks are handled, shift focus to building a stronger defense against potential threats.
 
-- **OWASP Checklist:** Address key vulnerabilities such as improper input validation, session management, and common risks from the [OWASP Top Ten list](https://owasp.org/www-project-top-ten/).
-- **GDPR/CCPA Compliance:** Implement data minimization strategies, and develop transparent processes for user consent, data access, and deletion requests.
+- **OWASP checklist:** Address key vulnerabilities such as improper input validation, session management, and common risks from the [OWASP Top Ten list](https://owasp.org/www-project-top-ten/).
+- **GDPR/CCPA compliance:** Implement data minimization strategies, and develop transparent processes for user consent, data access, and deletion requests.
 
-### Phase 3: Long-Term Actions
+### Phase 3: long-term actions
 
 Finally, strengthen our infrastructure security to protect against sophisticated threats.
 
-- **Environment Segmentation:** Ensure clear separation between development, testing, and production environments to reduce risk from cross-environment threats.
-- **Log Management and Monitoring:** Set up a robust logging and alert system to monitor unusual activity, providing early warnings of potential security incidents.
+- **Environment segmentation:** Ensure clear separation between development, testing, and production environments to reduce risk from cross-environment threats.
+- **Log management and monitoring:** Set up a robust logging and alert system to monitor unusual activity, providing early warnings of potential security incidents.
 
-## Tailoring Security to Fit Our Context
+## Tailoring security to fit our context
 
 While this security roadmap offers a structured approach, it's important to remember that the specifics of security strategies should adapt to the unique needs of each business. For our platform, this plan balances immediate priorities with long-term goals, ensuring we build a secure foundation without losing focus on growth. However, other team may require a different plan based on their specific client needs, regulatory requirements, and available resources.
 
