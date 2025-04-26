@@ -11,4 +11,3 @@ date: null
 #### Citations
 
 Kleon, Austin. _Show Your Work!: 10 Ways to Share Your Creativity and Get Discovered_. New York: Workman, 2014.
-

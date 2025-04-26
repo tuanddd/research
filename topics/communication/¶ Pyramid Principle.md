@@ -8,8 +8,8 @@ The Pyramid Principle, popularized by McKinsey's Barbara Minto, is a framework f
 
 The pyramid has two core principles:
 
-1.  Synthesize from the bottom up
-2.  Communicate from the top down
+1. Synthesize from the bottom up
+2. Communicate from the top down
 
 ## Synthesize from the bottom up
 
@@ -17,9 +17,9 @@ The process assumes that you have a clearly defined problem and hypothesis to dr
 
 You can use the principle to organize your data into three levels:
 
-1.  **Lower level**: Information, analysis, survey results. In other words, raw data.
-2.  **Middle level**: Synthesized arguments, themes, or takeaways of a group of arguments. In other words, the key insights or patterns that have emerged from the data. Each insight should be composed only of the elements below it in the structure.
-3.  **Top level**: The main takeaway from the information you have analyzed—the big insight that sums up everything you have learned.
+1. **Lower level**: Information, analysis, survey results. In other words, raw data.
+2. **Middle level**: Synthesized arguments, themes, or takeaways of a group of arguments. In other words, the key insights or patterns that have emerged from the data. Each insight should be composed only of the elements below it in the structure.
+3. **Top level**: The main takeaway from the information you have analyzed—the big insight that sums up everything you have learned.
 
 ![20200802 The Pyramid Principle Diagram.png](https://publish-01.obsidian.md/access/5bf4c22f8416d93237aa3630d0fd9c7c/assets/20200802%20The%20Pyramid%20Principle%20Diagram.png)
 
@@ -54,6 +54,5 @@ However, if you fear pushback, you may use indirect storytelling to ease the aud
 
 #### Citations
 
-- https://strategyu.co/structure-your-ideas-pyramid-principle-part-1/
-- https://strategyu.co/pyramid-principle-part-2-communicate-top-down/
-
+- <https://strategyu.co/structure-your-ideas-pyramid-principle-part-1/>
+- <https://strategyu.co/pyramid-principle-part-2-communicate-top-down/>

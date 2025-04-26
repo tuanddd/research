@@ -24,4 +24,3 @@ Use this checklist as a practical guide to prepare for your talk
 - [ ] Actionable information
 - [ ] Reflects current trends or developments
 - [ ] Demonstrates deep subject matter understanding
-

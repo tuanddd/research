@@ -37,4 +37,3 @@ date: null
 ## Dialogue
 
 - [[Talking Heads Avoidance Device (Elizabeth George)]]
-
