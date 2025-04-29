@@ -13,7 +13,7 @@ Currently, DEX exchanges are competing for market share in the rapidly growing m
 
 ### Market share
 
-(https://coinmarketcap.com/rankings/exchanges/dex/) Number on 7/7/2021
+https://coinmarketcap.com/rankings/exchanges/dex/ (Number on 7/7/2021)
 
 1. Uniswap (V3) - 20.1411%
 2. Pancaseswap (V2) - 12.3713%

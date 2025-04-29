@@ -21,7 +21,7 @@ The long-term vision is counter to a present tendency for [organizations to focu
 
 One possible explanation for the bias toward the short-term may be an increased emphasis on [quantification and metrics](https://publish.obsidian.md/mobydiction/notes/Fixating+on+metric+data+biases+us+to+the+short+term), itself a [symptom of a decline in social trust](https://publish.obsidian.md/mobydiction/notes/Metric+fixation+is+a+symptom+of+a+decline+in+social+trust).
 
-Similar concepts include Jay Acunzo's notion of "aspirational anchors" and the "shared value" model described by Jim Kalbach, Michael Tanamachi, and Michael Schrage in the context of [jobs to be done](<https://publish.obsidian.md/mobydiction/notes/%C2%B6+Jobs+to+be+done+(JTBD)>).
+Similar concepts include Jay Acunzo's notion of "aspirational anchors" and the "shared value" model described by Jim Kalbach, Michael Tanamachi, and Michael Schrage in the context of [jobs to be done](https://publish.obsidian.md/mobydiction/notes/%C2%B6+Jobs+to+be+done+(JTBD)).
 
 ---
 

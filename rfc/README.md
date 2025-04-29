@@ -13,7 +13,7 @@ This is where we store and organize proposals and RFCs from our team. Think of t
 
 Have a proposal to contribute? **Open a PR** with your RFC document. This helps us track discussions and keep everything organized in one place.
 
-For more about our broader initiatives, check out the [main Earn section](../earn/README.md) to learn how RFCs fit into our ecosystem.
+For more about our broader initiatives, check out the [main Earn section](../../earn/README.md) to learn how RFCs fit into our ecosystem.
 
 ## What is an RFC?
 
