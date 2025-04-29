@@ -1,10 +1,7 @@
 ---
-title: null
+title: How it works
 description: null
 date: null
-tags:
-  - blockchain
-  - defi
 ---
 
 **Centralized**

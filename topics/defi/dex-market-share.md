@@ -1,19 +1,12 @@
 ---
-title: null
+title: Dex market share
 description: null
 date: null
-tags:
-  - blockchain
-  - defi
 ---
-
-In 2020, the market started to develop In 2021, it grew and became the mainstream
 
 Currently, DEX exchanges are competing for market share in the rapidly growing market.
 
-### Market share
-
-https://coinmarketcap.com/rankings/exchanges/dex/ (Number on 7/7/2021)
+Report on 7/7/2021
 
 1. Uniswap (V3) - 20.1411%
 2. Pancaseswap (V2) - 12.3713%
@@ -28,6 +21,11 @@ https://coinmarketcap.com/rankings/exchanges/dex/ (Number on 7/7/2021)
 
 ---
 
+#### Related
+
+- [[¶ Decentralized Exchange]]
+
 #### Reference
 
-https://defirate.com/dex/
+- [Decentralized exchanges news 2021](<(https://defirate.com/dex/)>)
+- [Top cryptocurrency decentralized exchanges](https://coinmarketcap.com/rankings/exchanges/dex/)

@@ -1,11 +1,7 @@
 ---
-title: null
+title: BIP39
 description: null
 date: null
-tags:
-  - blockchain
-  - bitcoin
-  - protocol
 ---
 
 - BIP39 is the protocol to generate mnemonic sentence (e.g seed phrase in metamask)

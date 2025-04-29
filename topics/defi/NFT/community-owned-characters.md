@@ -1,10 +1,7 @@
 ---
-title: null
+title: Community owned characters
 description: null
 date: null
-tags:
-  - blockchain
-  - nft
 ---
 
 ## The trend of owning a character

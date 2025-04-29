@@ -1,11 +1,7 @@
 ---
-title: null
+title: ¶ NFT
 description: null
 date: null
-tags:
-  - blockchain
-  - defi
-  - nft
 ---
 
 NFT is an abbreviation for non-fungible token. It's one the tokens that represents an ownership of rare digital goods such as digital artworks or collectibles.

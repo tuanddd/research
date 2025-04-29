@@ -1,9 +1,7 @@
 ---
-title: null
+title: ¶ ERC
 description: null
 date: null
-tags:
-  - blockchain
 ---
 
 In Ethereum, [ERC](https://academy.binance.com/vi/articles/an-introduction-to-erc-20-tokens) stands for _Ethereum Request for Comments_. They are technical documents that outline standards for programming on Ethereum. They are distinguished from Ethereum Improvement Proposals (EIP). EIP, like Bitcoin's BIP, proposes improvements to the protocol itself.

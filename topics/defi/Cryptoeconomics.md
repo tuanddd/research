@@ -1,10 +1,7 @@
 ---
-title: null
+title: Cryptoeconomics
 description: null
 date: null
-tags:
-  - blockchain
-  - crypto
 ---
 
 ### Cryptoeconomics

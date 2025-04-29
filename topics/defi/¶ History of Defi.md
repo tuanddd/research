@@ -1,11 +1,7 @@
 ---
-title: null
+title: ¶ History of defi
 description: null
 date: null
-tags:
-  - blockchain
-  - defi
-  - dex
 ---
 
 ### Bitcoin

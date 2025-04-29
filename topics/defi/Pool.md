@@ -1,11 +1,7 @@
 ---
-title: null
+title: Pool
 description: null
 date: null
-tags:
-  - blockchain
-  - defi
-  - pool
 ---
 
 ### Liquidity pool

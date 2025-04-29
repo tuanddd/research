@@ -1,10 +1,7 @@
 ---
-title: null
+title: Challenges
 description: null
 date: null
-tags:
-  - blockchain
-  - nft
 ---
 
 ### Current problem

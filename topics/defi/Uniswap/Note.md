@@ -1,5 +1,5 @@
 ---
-title: null
+title: Note
 description: null
 date: null
 tags:

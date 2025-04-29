@@ -1,10 +1,7 @@
 ---
-title: null
+title: Smart contracts
 description: null
 date: null
-tags:
-  - blockchain
-  - defi
 ---
 
 ### What

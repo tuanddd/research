@@ -1,11 +1,8 @@
 ---
-title: null
+title: Liquidity pool
 description: null
 date: null
 author: Hien Le
-tags:
-  - blockchain
-  - liquidity
 ---
 
 ## 1. What is a Liquidity Pool?

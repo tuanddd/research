@@ -1,10 +1,7 @@
 ---
-title: null
+title: REKT
 description: null
 date: null
-tags:
-  - blockchain
-  - defi
 ---
 
 Different types of hacks How can you minimize your chances of being negatively affected by a hack?

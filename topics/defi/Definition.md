@@ -1,10 +1,7 @@
 ---
-title: null
+title: Definition
 description: null
 date: null
-tags:
-  - blockchain
-  - defi
 ---
 
 ### What

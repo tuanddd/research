@@ -1,10 +1,7 @@
 ---
-title: null
+title: DeFi application
 description: null
 date: null
-tags:
-  - blockchain
-  - defi
 ---
 
 ## Lending

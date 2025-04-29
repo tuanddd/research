@@ -1,10 +1,7 @@
 ---
-title: null
+title: Unstoppable code
 description: null
 date: null
-tags:
-  - blockchain
-  - bitcoin
 ---
 
 ### Unstoppable code

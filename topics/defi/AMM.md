@@ -1,9 +1,7 @@
 ---
-title: null
+title: Amm
 description: null
 date: null
-tags:
-  - blockchain
 ---
 
 ### Automated market maker
