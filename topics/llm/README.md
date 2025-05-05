@@ -19,10 +19,8 @@ tags:
 
 ### Prompt engineering
 
-- [Adversarial prompting](adversarial-prompting.md)
-- [Easy Prompt engineering For Business Use And Mitigating Risks In Llms](easy-prompt-engineering-for-business-use-and-mitigating-risks-in-llms.md)
+- [Easy Prompt engineering For Business Use And Mitigating Risks In LLM](easy-prompt-engineering-for-business-use-and-mitigating-risks-in-llms.md)
 - [How to talk to ChatGPT effectively](how-to-talk-to-chatgpt-effectively.md)
-- [Journey of thought prompting](journey-of-thought-prompting.md)
 
 ### Model training & fine-tuning
 
