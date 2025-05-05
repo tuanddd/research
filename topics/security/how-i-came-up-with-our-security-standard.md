@@ -44,8 +44,8 @@ The security guideline is divided into three main sections:
 
 Each section includes various topics, and each topic lists practical dos and don'ts, explaining why certain practices should or should not be followed, supported by visual illustrations.
 
-![alt text](assets/how-i-came-up-with-our-security-standard_image.webp)
-![alt text](assets/how-i-came-up-with-our-security-standard_image_1713493593.webp)
+![](assets/how-i-came-up-with-our-security-standard_image.webp)
+![](assets/how-i-came-up-with-our-security-standard_image_1713493593.webp)
 
 ## Conclusion
 
