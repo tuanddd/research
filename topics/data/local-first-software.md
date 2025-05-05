@@ -1,5 +1,5 @@
 ---
-title: Local-first software
+title: ¶ Local-first software
 description: "Local-first software is an approach to software development that emphasizes data ownership, offline functionality, and real-time collaboration. This model ensures data is primarily stored on the user's device, enhancing privacy and control while enabling seamless synchronization and collaboration without relying on continuous internet connectivity"
 date: 2024-07-06
 authors:
