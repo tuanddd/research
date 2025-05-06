@@ -4,7 +4,6 @@ description: An overview of self-refinement, a technique where Large Language Mo
 date: 2023-06-29
 authors:
   - zlatanpham
-github_id: zlatanpham
 tags:
   - ai
   - llm
@@ -15,13 +14,13 @@ Self-refinement is a technique where the model evaluates and refines its own out
 
 For instance, if the model is asked to write a tweet, it can then be prompted to make the tweet more engaging, rate its quality, and refine it accordingly.
 
-![](assets/llm's-accuracy---self-refinement_llm-self-refinement-step-1.webp)
+![](assets/llms-accuracy---self-refinement_llm-self-refinement-step-1.webp)
 
-![](assets/llm's-accuracy---self-refinement_llm-self-refinement-step-2.webp)
+![](assets/llms-accuracy---self-refinement_llm-self-refinement-step-2.webp)
 
-![](assets/llm's-accuracy---self-refinement_llm-self-refinement-step-3.webp)
+![](assets/llms-accuracy---self-refinement_llm-self-refinement-step-3.webp)
 
-Notably, this technique does not require supervised data or [[Reinforcement Learning | reinforcement learning]]. The model's ability to self-evaluate and refine its output is inherent, making this a powerful and efficient method for improving LLM's accuracy.
+Notably, this technique does not require supervised data or reinforcement learning. The model's ability to self-evaluate and refine its output is inherent, making this a powerful and efficient method for improving LLM's accuracy.
 
 Key Points:
 
