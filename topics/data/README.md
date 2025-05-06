@@ -1,6 +1,6 @@
 ---
-title: § Data engineering
-description: Latest study and application of Data engineering
+title: § Data Engineering
+description: Latest study and application of Data Engineering
 date: 2025-04-23
 authors:
   - zlatanpham
@@ -11,6 +11,7 @@ tags:
   - moc
 ---
 
+![](assets/data-engineering-moc.webp)
 
 ## Fundamental data system concepts
 - [Cap theorem](cap-theorem.md) - Core theoretical limits of distributed data systems
@@ -53,7 +54,7 @@ tags:
 - Data analysis techniques
   - [SQL practices: ORM vs Plain SQL](sql-practices-orm-vs-plain-sql.md)
   - [SQL sargable queries and their impact on database performance](sql-sargable-queries-and-their-impact-on-database-performance.md)
-  - [DuckDB Demo and Showcase](duckdb-demo-and-showcase.md)
+  - [DuckDB demo and showcase](duckdb-demo-and-showcase.md)
 
 ## Specialized data applications
 - [Full-text search with PostgreSQL](full-text-search-with-postgresql.md)
