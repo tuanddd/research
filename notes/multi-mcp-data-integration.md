@@ -3,7 +3,7 @@ title: Multi-MCP data integration - receiving data from other MCP servers
 description: null
 date: 2025-04-25
 authors:
-  - quang
+  - lmquang
 tags:
   - ai
   - mcp
@@ -12,7 +12,7 @@ tags:
 
 Think of a single **Model Context Protocol (MCP)** server, like the Anthropic memory example or potentially our own knowledge base interface, as a specialized tool provider. It's essentially a defined protocol endpoint that exposes a set of functions – **tools** – that an **LLM** can call.
 
-![alt text](assets/multi-mcp-data-integration-0.png)
+![](assets/multi-mcp-data-integration-0.png)
 
 Now, **Multi-MCP data integration** is simply about connecting a primary system – like our evolving knowledge base or a central coordinating **LLM** – to _multiple_ of these specialized MCP servers simultaneously.
 
@@ -20,7 +20,7 @@ What's the result? You dramatically expand the **repertoire** of tools available
 
 The **LLM** wouldn't just see multiple `search_nodes` tools; it would see `knowledgeBaseServer.search_nodes`, `realtimeSensorServer.search_nodes`, etc. This behind-the-scenes namespacing that exists for MCP servers prevents collisions and provides clarity on which capability belongs to which subsystem.
 
-![alt text](assets/multi-mcp-data-integration-1.png)
+![](assets/multi-mcp-data-integration-1.png)
 
 It's analogous to microservices or API aggregation. You don't build one monolithic program to do everything; you build specialized services and orchestrate them. Multi-MCP integration allows an LLM to orchestrate across diverse, specialized data sources and functional capabilities exposed via this common protocol.
 
@@ -70,15 +70,15 @@ This theoretical framework of Multi-MCP integration isn't just an abstract conce
 
 Our important data was often spread out, some even locked away in application databases like ConsoleLabs, making it difficult to see the whole picture. To fix this, we built a central place to gather everything, called a Knowledge Hub (or Brain DB). We use specialized services that follow a shared set of rules (the Model Context Protocol or MCP), ensuring they can all talk to each other and share data consistently. For example, one service, MCP ConsoleLabs, follows these rules to safely retrieve data from the ConsoleLabs application. All the information gathered by these services flows into our main Knowledge Hub (using TimescaleDB), giving us one place to see, analyze, and learn from our combined data over time.
 
-![alt text](assets/multi-mcp-data-integration-2.png)
+![](assets/multi-mcp-data-integration-2.png)
 
 Let's walk through a practical example: analyzing ICY token activity. First, the need arose for a comprehensive report covering a specific period. Using MCP ConsoleLabs, we directly queried the relevant application database to retrieve the raw transaction details. This raw data, potentially enriched with other context, was then processed — by MCP Client (Claude or agents) —transforming basic logs into a structured summary highlighting key entities, relationships, volumes, and patterns.
 
-![alt text](assets/multi-mcp-data-integration-3.png)
+![](assets/multi-mcp-data-integration-3.png)
 
 Finally, this structured analysis, formatted as JSON, was inserted into our Knowledge Hub's observation_log table using the duckdb_insert tool. During insertion, the MCP client will self-assess its confidence (e.g., 0.92), reflecting its evaluation of the data’s completeness and clarity, using a query similar to the following:
 
-![alt text](assets/multi-mcp-data-integration-4.png)
+![](assets/multi-mcp-data-integration-4.png)
 
 As a result, the Knowledge Hub now holds a verifiable, structured record of the ICY token analysis for that period, tagged with crucial metadata like the processing timestamp and our confidence level.
 
