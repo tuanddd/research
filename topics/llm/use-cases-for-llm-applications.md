@@ -5,8 +5,8 @@ date: 2024-10-04
 authors:
   - zlatanpham
 tags:
-  - llm
   - ai
+  - llm
 ---
 
 The potential applications of large language models (LLMs) and other AI foundation models seem truly endless. If you can dream it up, chances are there's an AI system out there that can help bring your vision to life. But attempting to categorize all the possible use cases is a daunting task - the possibilities are just too vast.

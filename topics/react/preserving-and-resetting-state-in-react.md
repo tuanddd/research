@@ -6,10 +6,10 @@ authors:
   - toanbku
 github_id: toanbku
 tags:
-  - fronten
-  - react
-  - hooks
   - state-management
+  - frontend
+  - hooks
+  - react
 ---
 
 ## Why should you read this article?

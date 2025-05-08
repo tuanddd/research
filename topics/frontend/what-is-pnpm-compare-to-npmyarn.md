@@ -6,8 +6,8 @@ authors:
   - toanbku
 tags:
   - engineering
-  - web
   - frontend
+  - web
 ---
 
 ## What is PNPM?

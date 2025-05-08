@@ -8,7 +8,7 @@ github_id: monotykamary
 tags:
   - ai
   - llm
-  - prompt-engineering
+  - prompt
 ---
 
 ## Story Map: Journey for Engineers Developing Applications on top of Large Language Models (LLMs)

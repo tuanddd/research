@@ -5,10 +5,10 @@ date: 2024-10-11
 authors:
   - datnguyennnx
 tags:
-  - llm
   - observability
-  - tracing
+  - llm
   - pillar
+  - tracing
 ---
 
 ## What is tracing

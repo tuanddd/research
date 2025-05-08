@@ -3,8 +3,8 @@ title: null
 description: null
 date: null
 tags:
-  - product
   - habit-forming
+  - product
 ---
 
 ## Definition

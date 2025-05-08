@@ -6,10 +6,9 @@ authors:
   - ngolapnguyen
 github_id: ngolapnguyen
 tags:
-  - frontend
   - css
   - fonts
-  - variable-fonts
+  - frontend
 ---
 
 ## What's variable font?

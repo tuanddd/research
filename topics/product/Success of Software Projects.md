@@ -3,9 +3,9 @@ title: null
 description: null
 date: null
 tags:
+  - pm
   - project
   - success
-  - pm
 ---
 
 There are three important key factors that can determine the successful of software project: People, Process, and Tools.

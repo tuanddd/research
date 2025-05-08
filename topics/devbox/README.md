@@ -5,8 +5,8 @@ date: 2024-08-09
 authors:
   - baenv
 tags:
-  - moc
   - devbox
+  - moc
   - nix
 ---
 

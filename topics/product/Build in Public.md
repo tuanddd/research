@@ -3,8 +3,8 @@ title: null
 description: null
 date: null
 tags:
-  - product
   - build-in-public
+  - product
 ---
 
 ## What is #buildinpublic

@@ -5,9 +5,9 @@ date: 2024-07-12
 authors:
   - leduyhien152
 tags:
+  - observer-pattern
   - design-pattern
   - gang-of-four
-  - observer-pattern
 ---
 
 ![](assets/observer-pattern.webp)

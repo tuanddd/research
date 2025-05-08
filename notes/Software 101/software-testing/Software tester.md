@@ -3,10 +3,10 @@ title: null
 description: null
 date: null
 tags:
-  - software101
+  - 101
+  - agile
   - engineering
   - testing
-  - agile
 ---
 
 Today, many things are controlled by software and software quality is becoming the number one issue. With the world more interconnected by the internet, software has reached more people and more businesses than ever. With that, software defects have also increased significantly. While some defects can disrupt work, others can create damages with millions dollars in losses.

@@ -7,8 +7,6 @@ authors:
 tags:
   - design-pattern
   - gang-of-four
-  - strategy-design-pattern
-  - behavior-pattern
 ---
 
 ![](assets/strategy-design-pattern.pdf)

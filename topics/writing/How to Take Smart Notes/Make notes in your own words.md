@@ -3,9 +3,9 @@ title: null
 description: null
 date: null
 tags:
-  - zettelkasten
   - note
   - writing
+  - zettelkasten
 ---
 
 When we are reading a text, it can be difficult to identify and remember what is most important. Especially when reading theoretical texts, we must balance our short-term and long-term memories so that we can focus on what is truly important.

@@ -5,9 +5,9 @@ date: 2024-06-28
 authors:
   - nnhuyhoang
 tags:
-  - data-structure
-  - bloom-filter
   - big-o
+  - bloom-filter
+  - data-structure
 ---
 
 ## What is Bloom filter?

@@ -6,10 +6,10 @@ authors:
   - tienan92it
 github_id: tienan92it
 tags:
-  - frontend
-  - webassembly
   - performance
+  - frontend
   - sandbox
+  - webassembly
 ---
 
 ### What

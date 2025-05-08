@@ -3,9 +3,9 @@ title: null
 description: null
 date: null
 tags:
-  - project
   - goal
   - pm
+  - project
 ---
 
 Most software engineers want their project to be successful but do not know how. One technique that I teach them is to define a priority goal at the start of the project and continually review the progress toward the goal during the project.

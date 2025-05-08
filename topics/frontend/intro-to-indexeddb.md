@@ -6,9 +6,9 @@ authors:
   - nguyend-nam
 github_id: nguyend-nam
 tags:
-  - frontend
-  - client-side
   - storage
+  - client-side
+  - frontend
 ---
 
 ## Overview & when to use IndexedDB

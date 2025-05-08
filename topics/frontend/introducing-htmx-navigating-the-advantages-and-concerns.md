@@ -7,8 +7,8 @@ authors:
 github_id: tonible14012002
 icy: 10
 tags:
-  - htmx
   - frontend
+  - htmx
 ---
 
 ## What is HTMX

@@ -6,8 +6,8 @@ authors:
   - huytieu
 discord_channel: engineering
 tags:
-  - agile
   - behavior-driven-development
+  - agile
   - testing
   - ubiquitous-language
 ---

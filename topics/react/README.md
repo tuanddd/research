@@ -4,9 +4,9 @@ description: null
 date: 2025-04-25
 author: zlatanpham
 tags:
-  - react
   - frontend
   - moc
+  - react
 ---
 
 ### Fundamentals & principles

@@ -6,9 +6,9 @@ authors:
   - hmhoang13
 tags:
   - database
-  - multi-column-index
-  - index
   - composite-index
+  - index
+  - multi-column-index
 ---
 
 **Multi-column index in DB**

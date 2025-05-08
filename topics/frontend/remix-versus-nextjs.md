@@ -7,7 +7,7 @@ authors:
 tags:
   - engineering
   - frontend
-  - radio
+  - radio-talk
 ---
 
 A brief comparison between Remix and Next.js frameworks

@@ -8,7 +8,7 @@ tags:
   - design-pattern
   - gang-of-four
   - golang
-  - software-architecture
+  - software-design
 ---
 
 ![](assets/singleton-design-pattern.pdf)

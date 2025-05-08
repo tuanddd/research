@@ -7,12 +7,12 @@ authors:
 github_id: monotykamary
 icy: 10
 tags:
-  - engineering
-  - data-engineering
-  - sequential-reads
-  - sequential-writes
+  - data
   - random-reads
   - random-writes
+  - sequential-reads
+  - sequential-writes
+  - engineering
 ---
 
 ## What are random and sequential reads and writes?

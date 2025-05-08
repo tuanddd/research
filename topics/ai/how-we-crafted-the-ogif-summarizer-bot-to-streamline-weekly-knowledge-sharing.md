@@ -7,8 +7,8 @@ authors:
   - innnotruong
 tags:
   - ai
-  - ogif
   - guide
+  - ogif
 ---
 
 ### What’s OGIF?

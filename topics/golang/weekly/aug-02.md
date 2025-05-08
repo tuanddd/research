@@ -6,9 +6,9 @@ date: 2024-08-02
 authors:
   - fuatto
 tags:
-  - golang
-  - go-weekly
   - networking
+  - go-weekly
+  - golang
 ---
 
 ## [Go Features By Version](https://antonz.org/which-go/)

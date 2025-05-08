@@ -5,8 +5,8 @@ date: 2024-10-14
 authors:
   - tieubao
 tags:
-  - golang
   - error
+  - golang
 ---
 
 Error handling is one of the most critical aspects of software development, as it ensures that applications behave correctly even in the presence of unexpected inputs or conditions. Over the years, many error-handling patterns have evolved in different programming languages.

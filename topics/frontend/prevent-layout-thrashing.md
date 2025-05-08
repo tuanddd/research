@@ -6,9 +6,8 @@ authors:
   - thanhlmm
 github_id: thanhlmm
 tags:
-  - frontend
-  - web-performance
   - performance
+  - frontend
 ---
 
 ## What is layout thrashing

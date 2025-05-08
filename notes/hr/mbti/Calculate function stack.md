@@ -2,7 +2,7 @@
 title: null
 description: null
 date: null
-tag: MBTI, function
+tag: function, mbti
 ---
 
 #### Rule

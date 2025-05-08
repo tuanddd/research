@@ -5,8 +5,8 @@ date: 2021-08-02
 authors:
   - zlatanpham
 tags:
+  - radio-talk
   - team
-  - radio
 ---
 
 ### Performance review

@@ -2,7 +2,7 @@
 title: null
 description: null
 date: null
-tag: notion, api
+tag: api, notion
 ---
 
 What does it mean for developer?

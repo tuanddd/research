@@ -2,7 +2,7 @@
 title: null
 description: null
 date: null
-tag: MBTI
+tag: mbti
 ---
 
 #### Characteristics of J Types:

@@ -7,9 +7,9 @@ authors:
 discord_channel: engineering
 discord_id: "hieuvd#4261"
 tags:
+  - decoder
   - backend
   - golang
-  - decoder
   - json
 ---
 

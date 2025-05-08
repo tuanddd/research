@@ -5,11 +5,11 @@ date: 2024-07-06
 authors:
   - ngolapnguyen
 tags:
-  - local-first
   - crdt
-  - data-synchronization
   - data-ownership
-  - real-time-collaboration
+  - data-synchronization
+  - local-first
+  - real-time
 ---
 
 ## What is Local-first software?

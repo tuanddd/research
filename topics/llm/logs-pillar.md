@@ -5,9 +5,9 @@ date: 2024-10-11
 authors:
   - datnguyennnx
 tags:
-  - llm
-  - observability
   - log
+  - observability
+  - llm
   - pillar
 ---
 

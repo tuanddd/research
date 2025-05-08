@@ -5,9 +5,9 @@ date: 2024-08-01
 authors:
   - baenv
 tags:
-  - nix
-  - docker
   - devbox
+  - docker
+  - nix
 ---
 
 Nix gives us the ability to build Docker image with minimum deterministic by providing some solid mechanisms.

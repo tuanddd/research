@@ -3,9 +3,9 @@ title: null
 description: null
 date: null
 tags:
-  - zettelkasten
   - note
   - writing
+  - zettelkasten
 ---
 
 The most important question is not where we store the information, but where we would like to come across it again.

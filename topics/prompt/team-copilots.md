@@ -6,8 +6,8 @@ authors:
   - monotykamary
 tags:
   - ai
-  - team-management
   - copilots
+  - team
 ---
 
 ## Introduction to Team copilots

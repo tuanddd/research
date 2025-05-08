@@ -3,8 +3,8 @@ title: null
 description: null
 date: null
 tags:
-  - writing
   - permanent-note
+  - writing
   - zettelkasten
 ---
 

@@ -5,9 +5,9 @@ date: 2023-03-20
 authors:
   - ngolapnguyen
 tags:
+  - architecture
   - engineering
   - micro-frontend
-  - architecture
 ---
 
 ## Micro-Frontend - What & Why?

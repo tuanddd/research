@@ -5,9 +5,9 @@ date: 2025-04-23
 authors:
   - zlatanpham
 tags:
-  - solana
   - blockchain
   - moc
+  - solana
 ---
 
 ### Core concepts

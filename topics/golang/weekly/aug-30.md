@@ -6,9 +6,9 @@ date: 2024-08-30
 authors:
   - fuatto
 tags:
-  - golang
-  - go-weekly
   - networking
+  - go-weekly
+  - golang
 ---
 
 ## [TinyGo 0.33.0: The Go Compiler for 'Small Places'](https://github.com/tinygo-org/tinygo/releases/tag/v0.33.0)

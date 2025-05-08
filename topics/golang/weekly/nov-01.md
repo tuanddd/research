@@ -6,8 +6,8 @@ date: 2024-11-01
 authors:
   - fuatto
 tags:
-  - golang
   - go-weekly
+  - golang
 ---
 
 ## [Fuzz Testing Go HTTP Services](https://packagemain.tech/p/fuzzing-http-services-golang)

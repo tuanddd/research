@@ -6,8 +6,8 @@ date: 2024-11-29
 authors:
   - fuatto
 tags:
-  - golang
   - go-weekly
+  - golang
 ---
 
 ## [GoMLX: ML in Go without Python](https://eli.thegreenplace.net/2024/gomlx-ml-in-go-without-python)

@@ -2,7 +2,7 @@
 title: null
 description: null
 date: null
-tag: MBTI
+tag: mbti
 ---
 
 Book: My True Type, page 33 - 38

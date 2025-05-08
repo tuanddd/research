@@ -7,8 +7,6 @@ authors:
 tags:
   - design-pattern
   - gang-of-four
-  - behavior-pattern
-  - visitor-design-pattern
 ---
 
 ![](assets/visitor-design-pattern.pdf)

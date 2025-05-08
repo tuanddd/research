@@ -5,8 +5,8 @@ date: 2024-10-11
 authors:
   - datnguyennnx
 tags:
-  - llm
   - observability
+  - llm
 ---
 
 ## Introduction

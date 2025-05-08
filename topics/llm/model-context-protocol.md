@@ -6,8 +6,8 @@ authors:
   - datnguyennnx
 tags:
   - llm
-  - protocol
   - mcp
+  - protocol
 ---
 
 By making a new protocol known as the Model Context Protocol (MCP) open-source, Anthropic made a major change in AI. By overcoming the limitations of traditional data integration techniques and addressing the recurrent problem of data isolation, this protocol aims to enhance the connections between data hubs and AI systems.

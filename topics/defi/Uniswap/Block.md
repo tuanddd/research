@@ -3,9 +3,9 @@ title: Block
 description: null
 date: null
 tags:
+  - block
   - blockchain
   - defi
-  - block
 ---
 
 **Block height** aka block number, the length of blockchain **Time stamp** date and time that block is mined **Transaction** number of transctions in the block.

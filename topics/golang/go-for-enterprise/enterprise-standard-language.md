@@ -5,9 +5,9 @@ date: 2024-08-30
 authors:
   - fuatto
 tags:
+  - language
   - enterprise
   - golang
-  - language
 ---
 
 ## Go as enterprise standard language

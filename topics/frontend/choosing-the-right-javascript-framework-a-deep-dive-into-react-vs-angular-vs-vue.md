@@ -3,9 +3,9 @@ title: Choosing the right Javascript framework a deep dive into React vs Angular
 description: Compare React, Angular, and Vue to find the best JavaScript framework for your web projects by exploring their performance, learning curve, tooling, and industry use cases.
 date: 2023-04-24
 tags:
-  - web
   - framework
   - frontend
+  - web
 ---
 
 Selecting the ideal JavaScript framework can be a daunting task, particularly when faced with an abundance of highly resourceful and capable options. To make an informed decision that caters to specific project requirements, it's crucial to possess a deep understanding of various critical aspects. In this article, we'll shed light on some of these essential points by conducting a comprehensive comparison of Angular, React, and Vue.

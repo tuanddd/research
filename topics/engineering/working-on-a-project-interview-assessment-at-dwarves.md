@@ -3,9 +3,9 @@ title: Working on a project interview assessment at Dwarves
 description: Discover how a paid coding project at Dwarves using Discord API and Elixir provided a unique interview experience focused on real backend data engineering and engagement analytics.
 date: 2023-06-08
 tags:
-  - engineering
   - bounty
   - community
+  - engineering
 ---
 
 <!-- table_of_contents a2f93f20-d45e-4906-92a7-66296b684356 -->

@@ -6,9 +6,9 @@ authors:
   - hthai2201
 github_id: hthai2201
 tags:
+  - api-mocking
   - frontend
   - mock-service-worker
-  - api-mocking
   - web-development-tool
 ---
 

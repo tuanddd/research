@@ -7,9 +7,9 @@ authors:
 github_id: fuatto
 icy: 10
 tags:
-  - distributed-system
   - crdt
   - data-types
+  - distributed-system
   - data-structures
 ---
 

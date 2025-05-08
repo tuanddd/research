@@ -6,9 +6,9 @@ date: 2024-07-26
 authors:
   - fuatto
 tags:
-  - golang
-  - go-weekly
   - networking
+  - go-weekly
+  - golang
 ---
 
 ## [Using Go to send 500 Million HTTP Requests to 2.5 Million Hosts](https://www.moczadlo.com/2024/how-i-sent-500-million-http-requests-in-under-24h)

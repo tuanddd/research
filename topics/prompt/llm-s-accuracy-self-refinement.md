@@ -7,7 +7,7 @@ authors:
 tags:
   - ai
   - llm
-  - prompt-engineering
+  - prompt
 ---
 
 Self-refinement is a technique where the model evaluates and refines its own output. Normally, when using an LLM, you provide a prompt and the model generates a completion. With self-refinement, you can instruct the model to review the content it has generated, score it, and refine the output. This process can be repeated multiple times, allowing the model to iteratively improve its own output.

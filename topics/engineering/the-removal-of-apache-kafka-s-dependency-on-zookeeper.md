@@ -8,8 +8,8 @@ github_id: fuatto
 icy: 10
 tags:
   - engineering
-  - zookeeper
   - kafka
+  - zookeeper
 ---
 
 ## Before the removal

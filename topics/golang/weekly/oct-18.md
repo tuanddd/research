@@ -6,8 +6,8 @@ date: 2024-10-18
 authors:
   - fuatto
 tags:
-  - golang
   - go-weekly
+  - golang
 ---
 
 ## [Go sync.Map: The Right Tool for the Right Job](https://victoriametrics.com/blog/go-sync-map/index.html)

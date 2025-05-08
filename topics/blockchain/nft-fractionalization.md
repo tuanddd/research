@@ -6,8 +6,8 @@ authors:
   - trankhacvy
 github_id: trankhacvy
 tags:
-  - nft
   - blockchain
+  - nft
 ---
 
 ## What is a fractional NFT?

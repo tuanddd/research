@@ -6,11 +6,11 @@ authors:
   - chinhld12
 github_id: chinhld12
 tags:
+  - caching
   - frontend
-  - react
   - nextjs
+  - react
   - server-component
-  - caching-data
 ---
 
 ## React server components, NextJs route and data fetching

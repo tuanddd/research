@@ -6,8 +6,8 @@ authors:
   - quanghuynguyen1902
 tags:
   - blockchain
-  - solana
   - defi
+  - solana
 ---
 
 ![](assets/introduce-to-solana-token-2022-new-standard-to-create-a-token-in-solana-1.webp)

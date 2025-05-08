@@ -6,8 +6,8 @@ authors:
   - innnotruong
 tags:
   - ai
-  - llm
   - machine-learning
+  - llm
 ---
 
 Gradient descent is a fundamental optimization algorithm in machine learning. It's a bit like finding your way down a mountain in the fog: you take small steps in the direction that seems to be going downhill the fastest.

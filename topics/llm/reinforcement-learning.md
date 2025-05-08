@@ -8,8 +8,8 @@ github_id: thanhpn
 icy: 10
 tags:
   - ai
-  - llm
   - reinforcement-learning
+  - llm
 ---
 
 ## Introduction

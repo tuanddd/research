@@ -6,10 +6,10 @@ authors:
   - ngolapnguyen
 github_id: ngolapnguyen
 tags:
+  - animation
+  - css
   - frontend
   - html
-  - css
-  - animation
 ---
 
 This article demonstrates how to use CSS transforms, perspective and some scaling trickery to create a pure CSS parallax scrolling website.

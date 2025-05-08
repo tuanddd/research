@@ -6,10 +6,10 @@ authors:
   - zlatanpham
 github_id: zlatanpham
 tags:
-  - frontend
-  - html
   - a11y
   - accessibility
+  - frontend
+  - html
 ---
 
 `inert` is a boolean HTML property that makes the browser ignore the user input events for an element, including focus events and events from assistive technologies.

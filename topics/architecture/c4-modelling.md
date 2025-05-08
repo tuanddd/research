@@ -5,9 +5,8 @@ date: 2024-05-23
 authors:
   - R-Jim
 tags:
-  - software-design
-  - software-architecture
   - graphical-notation
+  - software-design
 ---
 
 ![](assets/c4-modelling.pdf)

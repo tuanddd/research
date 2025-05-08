@@ -3,8 +3,8 @@ title: Federated Byzantine
 description: "Learn how Stellar's consensus protocol uses trusted validators and quorum slices to prevent Sybil attacks and ensure secure, reliable transactions through federated voting and network trust."
 date: 2019-05-18
 tags:
-  - distributed
   - blockchain
+  - distributed
 ---
 
 Stellar is all about trust (validators). After all, when you have to trust somebody, you'd trust the reputated nodes, rather than a random stranger node on the internet.

@@ -5,8 +5,8 @@ date: 2025-04-23
 authors:
   - zlatanpham
 tags:
-  - pm
   - moc
+  - pm
 ---
 
 ### Project management fundamentals

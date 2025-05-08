@@ -3,8 +3,8 @@ title: null
 description: null
 date: null
 tags:
-  - social-network
   - social-capital
+  - social-network
 ---
 
 ### Introduction to social capital

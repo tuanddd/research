@@ -6,9 +6,9 @@ authors:
   - ngolapnguyen
 github_id: ngolapnguyen
 tags:
-  - frontend
-  - css
   - atomic-css
+  - css
+  - frontend
 ---
 
 ## Definition

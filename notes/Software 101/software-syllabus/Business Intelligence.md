@@ -3,10 +3,10 @@ title: null
 description: null
 date: null
 tags:
-  - software101
+  - 101
+  - business-intelligence
   - engineering
   - syllabus
-  - business-intelligence
 ---
 
 Business Intelligence (BI) can be defined as a strategy that uses information technology to improve business competitiveness. Business Intelligence is often taught in Information System Management program. It focuses on the policies, standards, technology, and processes required allowing a company to get the information needed to support its business strategies and to improve competitive advantage.

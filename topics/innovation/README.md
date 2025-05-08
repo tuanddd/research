@@ -3,8 +3,8 @@ title: null
 description: null
 date: null
 tags:
-  - moc
   - innovation
+  - moc
 ---
 
 ## What is innovation?

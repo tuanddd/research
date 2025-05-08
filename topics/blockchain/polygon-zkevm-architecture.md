@@ -8,8 +8,8 @@ github_id: thanhpn
 tags:
   - blockchain
   - evm
-  - zk-rollup
   - polygon
+  - zk-rollup
 ---
 
 ## Polygon zkEVM architecture

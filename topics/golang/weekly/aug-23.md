@@ -6,9 +6,9 @@ date: 2024-08-23
 authors:
   - fuatto
 tags:
-  - golang
-  - go-weekly
   - networking
+  - go-weekly
+  - golang
 ---
 
 ## [GoNB: A Go Notebook Kernel for Jupyter](https://github.com/janpfeifer/gonb)

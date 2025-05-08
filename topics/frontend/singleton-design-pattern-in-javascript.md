@@ -6,8 +6,8 @@ authors:
   - chinhld12
 github_id: chinhld12
 tags:
-  - frontend
   - design-pattern
+  - frontend
 ---
 
 ## Overview

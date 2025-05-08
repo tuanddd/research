@@ -3,8 +3,8 @@ title: null
 description: null
 date: null
 tags:
-  - writing
   - euphemism
+  - writing
 ---
 
 A euphemism is a sign that something makes us uncomfortable. Euphemisms are a means of distancing ourselves from decisions or activities that we don’t align with our values. They in turn can enable negative behaviours because they become softened through the language used to describe them.

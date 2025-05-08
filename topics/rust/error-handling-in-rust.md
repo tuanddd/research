@@ -5,8 +5,8 @@ date: 2024-07-03
 authors:
   - trankhacvy
 tags:
-  - rust
   - error-handling
+  - rust
 ---
 
 ## **Introduction**

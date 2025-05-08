@@ -9,8 +9,8 @@ github_id: longbuivan
 icy: 10
 tags:
   - data
-  - vector-database
   - database
+  - vector-database
 ---
 
 ## Motivation of vector database

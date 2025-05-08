@@ -6,10 +6,10 @@ authors:
   - haongo138
 toc: false
 tags:
-  - evm
-  - web3
-  - foundry
   - blockchain
+  - evm
+  - foundry
+  - web3
 ---
 
 ## Overview of Foundry

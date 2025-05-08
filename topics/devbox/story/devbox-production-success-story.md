@@ -5,9 +5,9 @@ date: 2024-08-09
 authors:
   - baenv
 tags:
+  - case-study
   - devbox
   - nix
-  - case-study
 ---
 
 Remember when setting up a new project felt like assembling IKEA furniture blindfolded? Yeah, those days are over. Here's how Devbox revolutionized our workflow, from dev to production.

@@ -3,9 +3,9 @@ title: null
 description: null
 date: null
 tags:
+  - cqrs
   - engineering
   - pattern
-  - cqrs
 ---
 
 ### What

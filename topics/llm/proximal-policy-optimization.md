@@ -6,8 +6,8 @@ authors:
   - thanhpn
 tags:
   - ai
-  - llm
   - reinforcement-learning
+  - llm
 ---
 
 ## Introduction

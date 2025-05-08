@@ -7,8 +7,8 @@ authors:
 github_id: monotykamary
 tags:
   - ai
-  - tuning-llm
   - llm
+  - tuning-llm
 ---
 
 ## Problem

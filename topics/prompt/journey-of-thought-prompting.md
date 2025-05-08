@@ -6,8 +6,8 @@ authors:
   - monotykamary
 tags:
   - ai
-  - prompt-engineering
   - llm
+  - prompt
 ---
 
 ## The problem with prompt engineering

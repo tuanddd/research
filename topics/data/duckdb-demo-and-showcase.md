@@ -7,15 +7,15 @@ authors:
 event_date: "2023-11-23T00:00:00.000Z"
 notice: This is an internal event demo workshop and showcase of DuckDB for evaluation and use for data science and analytical use-cases at our company.
 tags:
-  - dwarves
-  - work
-  - duckdb
-  - internal
-  - workshop
-  - discussion
   - demo
+  - discussion
+  - duckdb
+  - dwarves
   - event
+  - internal
   - labs
+  - work
+  - workshop
 ---
 
 | Event Date                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Discord Channel | Type     |

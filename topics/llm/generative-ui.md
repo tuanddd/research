@@ -7,8 +7,8 @@ authors:
   - TheCodister
 tags:
   - ai
-  - generative-ui
   - llm
+  - generative-ui
 ---
 
 ## What is Generative UI?

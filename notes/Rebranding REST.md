@@ -4,7 +4,7 @@ description: null
 date: null
 tags:
   - api
-  - rest
+  - RESTful
 ---
 
 ## The demand of API

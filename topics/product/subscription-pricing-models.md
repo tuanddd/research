@@ -5,9 +5,9 @@ date: 2024-07-19
 authors:
   - vdhieu
 tags:
-  - subscription
   - pricing
   - product
+  - subscription
 ---
 
 ## Pricing models

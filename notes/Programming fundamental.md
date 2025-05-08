@@ -3,8 +3,8 @@ title: null
 description: null
 date: null
 tags:
-  - programming
   - fundamental
+  - programming
 ---
 
 The importance of programming fundamental is somehow being underrated.

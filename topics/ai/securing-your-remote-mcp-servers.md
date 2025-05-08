@@ -7,8 +7,8 @@ authors:
 github_id: monotykamary
 tags:
   - ai
-  - security
   - mcp
+  - security
 ---
 
 ![](assets/securing-your-remote-mcp-servers-1.webp)

@@ -5,10 +5,9 @@ date: 2024-06-10
 authors:
   - R-Jim
 tags:
-  - software-design
   - gang-of-four
-  - software-architecture
   - graphical-notation
+  - software-design
 ---
 
 ![](assets/prototype-design-pattern.pdf)

@@ -3,8 +3,8 @@ title: null
 description: null
 date: null
 tags:
-  - sql
   - data
+  - sql
   - practice
 ---
 

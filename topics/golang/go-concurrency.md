@@ -5,8 +5,8 @@ date: 2019-12-04
 authors:
   - hieuphq
 tags:
-  - golang
   - concurrency
+  - golang
 ---
 
 ## Golang concurrency

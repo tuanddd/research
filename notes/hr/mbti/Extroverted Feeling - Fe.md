@@ -2,7 +2,7 @@
 title: null
 description: null
 date: null
-tag: MBTI, function
+tag: function, mbti
 ---
 
 Book: My True Type, page 109 - 114

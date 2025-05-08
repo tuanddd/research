@@ -6,9 +6,9 @@ authors:
   - huytieu
 discord_id: "0xLight#0002"
 tags:
+  - project-management
   - scrum
-  - technicaldebt
-  - projectmanagement
+  - technical-debt
 ---
 
 How to deal with Technical debt in Scrum:

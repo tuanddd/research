@@ -2,7 +2,7 @@
 title: null
 description: null
 date: null
-tag: MBTI
+tag: mbti
 ---
 
 The test on 16personalities is also combined with Five Big personality traits (OCEAN model), so the results are usually 5 characters.

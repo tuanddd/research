@@ -5,9 +5,9 @@ date: 2025-04-02
 authors:
   - quanghuynguyen1902
 tags:
-  - icy
-  - blockchain
   - ai
+  - blockchain
+  - icy
 ---
 
 ![](assets/build_custom_ai_agent_with_elizaos_intro.webp)

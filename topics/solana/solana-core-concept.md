@@ -5,9 +5,9 @@ date: 2024-06-18
 authors:
   - quanghuynguyen1902
 tags:
+  - anchor
   - blockchain
   - solana
-  - anchor
 ---
 
 ## Introduction

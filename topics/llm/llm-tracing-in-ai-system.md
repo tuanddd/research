@@ -5,9 +5,9 @@ date: 2024-09-11
 authors:
   - tienan92it
 tags:
-  - llm
   - ai
-  - tooling
+  - llm
+  - tool
 ---
 
 ## When

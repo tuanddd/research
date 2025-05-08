@@ -7,9 +7,9 @@ authors:
 github_id: monotykamary
 tags:
   - ai
-  - llm
-  - mongodb
   - database
+  - mongodb
+  - llm
 ---
 
 ```mermaid

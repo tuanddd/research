@@ -5,9 +5,9 @@ date: 2024-06-21
 authors:
   - quanghuynguyen1902
 tags:
+  - amm
   - blockchain
   - solana
-  - amm
 ---
 
 ![](assets/dynamic-liquidity-market-a-new-form-of-concentrated-liquidity-amm-on-solana-1.webp)

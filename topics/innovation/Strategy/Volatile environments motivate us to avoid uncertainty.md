@@ -4,8 +4,8 @@ description: null
 date: null
 tags:
   - business
-  - strategy
   - perspectives
+  - strategy
 ---
 
 Enduring conditions of [[Different kinds of uncertainty|volatility]] for prolonged periods can disrupt our ability to deal with other kinds of uncertainty. We may develop inaccurate perspectives on the world, such as learned helplessness—a state of mind in which we doubt our ability to bring about the desired or expected result.

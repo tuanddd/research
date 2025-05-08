@@ -6,9 +6,9 @@ date: 2024-09-06
 authors:
   - fuatto
 tags:
-  - golang
-  - go-weekly
   - networking
+  - go-weekly
+  - golang
 ---
 
 ## [Script: Making it easy to write shell-like scripts in Go](https://github.com/bitfield/script)

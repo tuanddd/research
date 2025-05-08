@@ -6,11 +6,11 @@ authors:
   - huynguyenh
   - baenv
 tags:
-  - tooling
   - containerization
-  - virtualization
-  - docker
   - devbox
+  - docker
+  - tool
+  - virtualization
 ---
 
 This is the 3rd post of Devbox series includes

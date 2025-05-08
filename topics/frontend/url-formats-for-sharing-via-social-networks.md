@@ -7,7 +7,7 @@ authors:
 github_id: nguyend-nam
 tags:
   - frontend
-  - social-networks
+  - social-network
 ---
 
 ## Why?

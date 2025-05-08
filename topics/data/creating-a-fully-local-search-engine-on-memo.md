@@ -5,10 +5,10 @@ date: 2024-07-17
 authors:
   - monotykamary
 tags:
-  - search-engine
   - duckdb
-  - transformersjs
   - hybrid-search
+  - search-engine
+  - transformersjs
 ---
 
 ![command-palette](assets/creating-a-fully-local-search-engine-on-memo-search.webp)

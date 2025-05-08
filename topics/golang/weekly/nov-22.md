@@ -6,8 +6,8 @@ date: 2024-11-22
 authors:
   - fuatto
 tags:
-  - golang
   - go-weekly
+  - golang
 ---
 
 ## [Go sync.Once is simple... Is it really?](https://victoriametrics.com/blog/go-sync-once/)

@@ -6,8 +6,8 @@ date: 2024-09-13
 authors:
   - fuatto
 tags:
-  - golang
   - go-weekly
+  - golang
 ---
 
 ## [Go Survey](https://google.qualtrics.com/jfe/form/SV_ei0CDV2K9qQIsp8?s=b)

@@ -6,9 +6,9 @@ date: 2024-08-09
 authors:
   - fuatto
 tags:
-  - golang
-  - go-weekly
   - networking
+  - go-weekly
+  - golang
 ---
 
 ## [Cogent Core: A New GUI Framework for Go](https://www.cogentcore.org/blog/initial-release)

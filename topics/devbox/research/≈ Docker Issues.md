@@ -5,8 +5,8 @@ date: 2024-08-01
 authors:
   - baenv
 tags:
-  - docker
   - devbox
+  - docker
 ---
 
 Docker build is not deterministic. This means that with the same `Dockerfile`, different build times (or builds on different machines) can result in different outcomes.

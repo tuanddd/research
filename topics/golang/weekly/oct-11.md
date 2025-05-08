@@ -6,8 +6,8 @@ date: 2024-10-11
 authors:
   - fuatto
 tags:
-  - golang
   - go-weekly
+  - golang
 ---
 
 ## [Using Go Embed](https://www.bytesizego.com/blog/go-embed)

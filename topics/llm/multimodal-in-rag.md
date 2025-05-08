@@ -5,8 +5,8 @@ date: 2024-06-28
 authors:
   - nnhuyhoang
 tags:
-  - llm
   - vector-database
+  - llm
   - rag
 ---
 

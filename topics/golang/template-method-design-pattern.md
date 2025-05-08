@@ -5,8 +5,8 @@ date: 2024-06-28
 authors:
   - anhnh12
 tags:
-  - design-pattern
   - behavioral-pattern
+  - design-pattern
   - gang-of-four
   - golang
 ---

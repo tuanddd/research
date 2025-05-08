@@ -6,8 +6,8 @@ date: 2024-10-04
 authors:
   - fuatto
 tags:
-  - golang
   - go-weekly
+  - golang
 ---
 
 ## [Prep: Golang comptime. Pure blasphemy](https://github.com/pijng/prep)

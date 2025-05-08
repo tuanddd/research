@@ -6,10 +6,10 @@ date: 2024-10-29
 authors:
   - monotykamary
 tags:
-  - data-engineering
-  - system-design
+  - data
   - architecture
   - etl
+  - system-design
 ---
 
 ![](assets/a-lens-to-modern-data-engineering.png)

@@ -3,8 +3,8 @@ title: null
 description: null
 date: null
 tags:
-  - design
   - ddd
+  - design
 ---
 
 Why Domain Driven Design: Using the same business term makes it easier for designers, business experts land developers to communicate and stay on the same page during design and development phase.

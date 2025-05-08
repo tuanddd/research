@@ -6,8 +6,8 @@ authors:
   - namtrhg
 github_id: namtrhg
 tags:
-  - frontend
   - atomic-design
+  - frontend
 ---
 
 ## Atomic design pattern

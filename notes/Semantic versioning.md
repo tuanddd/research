@@ -3,8 +3,8 @@ title: null
 description: null
 date: null
 tags:
-  - versioning
   - practice
+  - versioning
 ---
 
 Versioning system that represents the product version, using a formal convention based on 3 parts in alpha numerics.

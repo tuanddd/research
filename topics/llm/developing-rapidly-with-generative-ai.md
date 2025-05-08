@@ -5,9 +5,9 @@ date: 2024-05-02
 authors:
   - tienan92it
 tags:
-  - llm
   - ai
-  - tooling
+  - llm
+  - tool
 ---
 
 ## Generative AI

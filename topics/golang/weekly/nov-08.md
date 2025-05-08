@@ -6,8 +6,8 @@ date: 2024-11-08
 authors:
   - fuatto
 tags:
-  - golang
   - go-weekly
+  - golang
 ---
 
 ## [Writing secure Go code](https://jarosz.dev/article/writing-secure-go-code/)

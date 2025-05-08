@@ -6,9 +6,9 @@ authors:
   - taynguyen
 sync: llm
 tags:
+  - caching
   - llm
   - rag
-  - caching
 ---
 
 ## Introduction

@@ -5,8 +5,8 @@ date: 2023-03-10
 authors:
   - zlatanpham
 tags:
-  - radar
   - devops
+  - radar
   - technique
 ---
 

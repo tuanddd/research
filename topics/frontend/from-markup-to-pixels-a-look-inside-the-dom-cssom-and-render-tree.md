@@ -6,10 +6,10 @@ authors:
   - nguyend-nam
 github_id: nguyend-nam
 tags:
-  - rendering
-  - dom
   - cssom
+  - dom
   - render-tree
+  - rendering
 ---
 
 Inside a web browser, there exists a software component responsible for determining the content to show you based on the data it receives. This component is known as the browser engine.

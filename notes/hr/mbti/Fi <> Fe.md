@@ -2,7 +2,7 @@
 title: null
 description: null
 date: null
-tag: MBTI, function
+tag: function, mbti
 ---
 
 #### The difference between Fi and Fe

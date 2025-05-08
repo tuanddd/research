@@ -3,10 +3,10 @@ title: null
 description: null
 date: null
 tags:
-  - software101
+  - machine-learning
+  - 101
   - engineering
   - syllabus
-  - machine-learning
 ---
 
 ## Deep learning

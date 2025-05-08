@@ -3,7 +3,7 @@ title: Extraverted Intuition (Ne)
 description: "Discover how Ne users like ENTPs and ENFPs excel at brainstorming, creative thinking, and exploring endless possibilities, contrasting with Ni's deep, focused insight and structured approach."
 date: null
 URL: "https://drive.google.com/file/d/1n8ID_iXqzs6cMZlRS0Su7lQUhrfd7khh/view?usp=sharing"
-tag: MBTI, function
+tag: function, mbti
 ---
 
 Book: My True Type, page 70 - 78

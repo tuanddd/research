@@ -3,10 +3,10 @@ title: null
 description: null
 date: null
 tags:
-  - writing
-  - zettelkasten
   - atomicity
   - idea
+  - writing
+  - zettelkasten
 ---
 
 The principle of atomicity is a governing idea of the #Zettelkasten method of notetaking and knowledge management.

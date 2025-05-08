@@ -6,7 +6,6 @@ authors:
   - tuanddd
 tags:
   - design-pattern
-  - creational-design-pattern
   - gang-of-four
 ---
 

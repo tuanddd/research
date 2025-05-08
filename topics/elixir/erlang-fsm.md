@@ -5,8 +5,8 @@ date: 2024-07-12
 authors:
   - hieuphq
 tags:
-  - erlang
   - elixir
+  - erlang
   - fsm
 ---
 

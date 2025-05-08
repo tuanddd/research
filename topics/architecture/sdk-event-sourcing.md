@@ -3,7 +3,7 @@ title: Sdk event sourcing
 description: Learn how Software Development Kits (SDKs) provide tools and APIs for app development, and discover how Event sourcing manages data communication between systems efficiently.
 date: 2020-05-21
 tags:
-  - event-sourcing
+  - event
 ---
 
 ## Software Development Kit (SDK)

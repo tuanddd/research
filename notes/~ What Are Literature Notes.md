@@ -3,8 +3,8 @@ title: null
 description: null
 date: null
 tags:
-  - writing
   - literature
+  - writing
 ---
 
 Literature notes are notes that I take when reading material or watching things. They're not quote, but real reformulation of ideas and sentences I found interesting. I store it here in order to reuse it in the future and, combined with Fleeting note, create Permanent note for specific subjects.

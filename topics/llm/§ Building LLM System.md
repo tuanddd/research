@@ -5,8 +5,8 @@ date: 2024-09-11
 authors:
   - zlatanpham
 tags:
-  - moc
   - llm
+  - moc
 ---
 
 In recent years, the emergence of large language models (LLMs) has revolutionized AI applications, providing new opportunities for solving complex problems with natural language understanding and generation. This map of content explores the foundational aspects of building robust LLM-based systems, ranging from model selection and context enhancement to safeguarding mechanisms and performance evaluation.

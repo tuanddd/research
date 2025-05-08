@@ -5,10 +5,10 @@ date: 2023-01-09
 authors:
   - namtrhg
 tags:
-  - react
+  - components
   - frontend
   - hooks
-  - components
+  - react
 ---
 
 **What happens if you invoked the component function directly in React?:

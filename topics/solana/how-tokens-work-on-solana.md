@@ -6,9 +6,9 @@ authors:
   - trankhacvy
 github_id: trankhacvy
 tags:
+  - token
   - blockchain
   - solana
-  - token
 ---
 
 ## How tokens work on Solana - explain for EVM developers

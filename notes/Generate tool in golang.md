@@ -3,8 +3,8 @@ title: null
 description: null
 date: null
 tags:
-  - go
   - generator
+  - golang
 ---
 
 ### Story about generate a file

@@ -5,9 +5,9 @@ date: 2023-03-28
 authors:
   - thangnt294
 tags:
-  - golang
-  - engineering
   - profiling
+  - engineering
+  - golang
 ---
 
 ## Profiling in Go: Gotta catch 'em all

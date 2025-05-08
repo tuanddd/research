@@ -7,7 +7,6 @@ authors:
   - innnotruong
   - lmquang
 tags:
-  - ai-powered
   - ai
   - llm
 ---

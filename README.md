@@ -6,8 +6,8 @@ authors:
   - monotykamary
 tags:
   - dwarves
-  - labs
   - home
+  - labs
 ---
 
 <h1 align="center">

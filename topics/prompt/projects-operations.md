@@ -6,8 +6,8 @@ authors:
   - monotykamary
 tags:
   - ai
-  - project-management
   - copilots
+  - project-management
 ---
 
 ## Introduction to Project operations copilots

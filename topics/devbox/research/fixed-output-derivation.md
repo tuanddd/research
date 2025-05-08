@@ -5,9 +5,9 @@ date: 2024-08-01
 authors:
   - baenv
 tags:
-  - nix
-  - docker
   - devbox
+  - docker
+  - nix
 ---
 
 On different machines with different nixpkgs versions, Nix build will result different packages.

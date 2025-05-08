@@ -3,9 +3,9 @@ title: null
 description: null
 date: null
 tags:
-  - product
   - features
   - kano
+  - product
 ---
 
 ## Definition

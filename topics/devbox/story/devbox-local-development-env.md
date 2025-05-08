@@ -6,11 +6,11 @@ authors:
   - huynguyenh
   - baenv
 tags:
-  - tooling
   - containerization
-  - virtualization
-  - docker
   - devbox
+  - docker
+  - tool
+  - virtualization
 ---
 
 Welcome back to our Devbox series! Previously, we've explored the journey from the early days of virtualization to the widespread adoption of Docker. Finally, we try using Nix and Devbox to enhance software development process. If you need to catch up, you can check out the earlier posts here:

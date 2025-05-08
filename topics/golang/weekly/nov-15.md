@@ -6,8 +6,8 @@ date: 2024-11-15
 authors:
   - fuatto
 tags:
-  - golang
   - go-weekly
+  - golang
 ---
 
 ## [Go Turns 15](https://go.dev/blog/15years)

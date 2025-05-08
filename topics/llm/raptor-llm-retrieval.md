@@ -5,9 +5,9 @@ date: 2024-07-10
 authors:
   - monotykamary
 tags:
-  - llm
   - document-processing
   - information-retrieval
+  - llm
 ---
 
 ## What is it?

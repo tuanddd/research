@@ -6,10 +6,10 @@ authors:
   - haongo138
 tags:
   - data
-  - materialized-view
-  - sql
   - database
+  - sql
   - data-warehouse
+  - materialized-view
 ---
 
 **Materialized view pattern**

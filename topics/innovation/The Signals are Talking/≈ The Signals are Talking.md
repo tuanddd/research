@@ -3,10 +3,10 @@ title: null
 description: null
 date: null
 tags:
+  - future
   - innovation
   - signal
   - ux
-  - future
 ---
 
 ### Notes

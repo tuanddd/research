@@ -2,7 +2,7 @@
 title: null
 description: null
 date: null
-tag: MBTI, function
+tag: function, mbti
 ---
 
 Personality type (PT) only shows the surface of our pesonality. eg: mine is INFP, if read full description on 16personalities, it will say that your characteristics are:

@@ -3,9 +3,9 @@ title: null
 description: null
 date: null
 tags:
-  - zettelkasten
   - note
   - writing
+  - zettelkasten
 ---
 
 Rather than the result of thinking, writing _is_ thinking. Translating the ideas of others into _one's own words_ forces deep consideration of what is being said, and thinking through any contradictions, gaps in logic, or elisions in the text.

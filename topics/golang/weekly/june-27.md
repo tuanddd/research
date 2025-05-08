@@ -6,9 +6,9 @@ date: 2024-06-27
 authors:
   - fuatto
 tags:
+  - go-weekly
   - golang
   - kernel-programing
-  - go-weekly
 ---
 
 ## [An Applied Introduction to eBPF with Go](https://sazak.io/articles/an-applied-introduction-to-ebpf-with-go-2024-06-06)

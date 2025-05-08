@@ -6,9 +6,9 @@ date: 2024-09-27
 authors:
   - fuatto
 tags:
-  - golang
-  - go-weekly
   - llm
+  - go-weekly
+  - golang
 ---
 
 ## [Register Allocation in the Go Compiler](https://developers.redhat.com/articles/2024/09/24/go-compiler-register-allocation#go_s_register_allocator__a_high_level_view)

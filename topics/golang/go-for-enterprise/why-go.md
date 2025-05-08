@@ -6,9 +6,9 @@ authors:
   - thangnt294
   - fuatto
 tags:
+  - enterprise
   - golang
   - programming
-  - enterprise
 ---
 
 ## Why go

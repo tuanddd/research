@@ -2,7 +2,7 @@
 title: null
 description: null
 date: null
-tag: MBTI
+tag: mbti
 ---
 
 - I (introverted) >< E (extroverted)

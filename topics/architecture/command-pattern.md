@@ -6,7 +6,6 @@ authors:
   - vdhieu
 tags:
   - design-pattern
-  - behavior-patterns
   - gang-of-four
 ---
 

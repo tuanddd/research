@@ -5,8 +5,8 @@ date: 2022-10-17
 authors:
   - ngolapnguyen
 tags:
-  - frontend
   - form
+  - frontend
 ---
 
 ### Sign-in form best practices

@@ -4,8 +4,8 @@ description: null
 date: null
 author: Vy Tran Khac
 tags:
-  - engineering
   - blockchain
+  - engineering
 ---
 
 ## The blockchain oracle problem

@@ -6,9 +6,9 @@ date: 2024-08-16
 authors:
   - fuatto
 tags:
-  - golang
-  - go-weekly
   - networking
+  - go-weekly
+  - golang
 ---
 
 ## [Go 1.23 Release Note](https://go.dev/doc/go1.23)

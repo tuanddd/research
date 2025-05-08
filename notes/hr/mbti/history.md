@@ -2,7 +2,7 @@
 title: null
 description: null
 date: null
-tag: MBTI
+tag: mbti
 ---
 
 MBTI (Myers-Briggs Type Indicator) > 1920s according to the theory of psychologist Carl Jung and many other frameworks in the following decades. The most important of which is the Five Big Personalities Traits.

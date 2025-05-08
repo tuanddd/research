@@ -6,9 +6,9 @@ authors:
   - thanhpn
 github_id: thanhpn
 tags:
+  - distributed-system
   - blockchain
   - foundational-topics
-  - distributed-systems
 ---
 
 ![](assets/blockchain-bridge_blockruption-blockchain-300h.webp)

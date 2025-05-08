@@ -5,10 +5,10 @@ date: 2023-05-22
 authors:
   - tieubao
 tags:
-  - tool
-  - golang
   - engineering
+  - golang
   - practice
+  - tool
 ---
 
 ## Introduction

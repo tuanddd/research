@@ -6,9 +6,9 @@ date: 2024-09-20
 authors:
   - fuatto
 tags:
-  - golang
-  - go-weekly
   - llm
+  - go-weekly
+  - golang
 ---
 
 ## [kl: An interactive Kubernetes log viewer for your terminal](https://github.com/robinovitch61/kl)

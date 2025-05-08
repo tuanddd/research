@@ -8,7 +8,7 @@ github_id: trankhacvy
 tags:
   - frontend
   - polymorphic-component
-  - reactjs
+  - react
   - typescript
 ---
 

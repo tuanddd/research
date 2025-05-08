@@ -5,9 +5,9 @@ date: 2024-08-08
 authors:
   - datnguyennnx
 tags:
+  - search
   - llm
   - rag
-  - search
   - evaluation
 ---
 

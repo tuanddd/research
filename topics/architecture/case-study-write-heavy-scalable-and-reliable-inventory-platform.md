@@ -6,13 +6,13 @@ authors:
   - tienan92it
 discord_id: "antran#3200"
 tags:
-  - write-heavy
   - inventory-platform
+  - observability
   - scalability
-  - reliability
   - doordash
   - low-latency
-  - observability
+  - reliability
+  - write-heavy
 ---
 
 https://doordash.engineering/2023/02/22/how-doordash-designed-a-successful-write-heavy-scalable-and-reliable-inventory-platform/

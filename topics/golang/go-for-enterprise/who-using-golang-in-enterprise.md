@@ -5,9 +5,9 @@ date: 2024-09-13
 authors:
   - fuatto
 tags:
+  - language
   - enterprise
   - golang
-  - language
 ---
 
 ## Who is using Go in enterprise?

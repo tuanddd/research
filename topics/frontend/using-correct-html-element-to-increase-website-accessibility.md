@@ -5,9 +5,9 @@ date: 2019-08-23
 authors:
   - zlatanpham
 tags:
-  - html
-  - frontend
   - accessibility
+  - frontend
+  - html
 ---
 
 ## Website accessibility

@@ -8,7 +8,7 @@ github_id: ngolapnguyen
 tags:
   - frontend
   - graphql
-  - reactjs
+  - react
 ---
 
 When working with complex GraphQL schemas, it's common to have shared fields across different types. A fragment colocation pattern allows us to define fragments alongside their corresponding components, resulting in a more cohesive and maintainable codebase.

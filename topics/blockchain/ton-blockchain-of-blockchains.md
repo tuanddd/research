@@ -5,9 +5,9 @@ date: 2024-07-11
 authors:
   - baenv
 tags:
-  - web3
   - blockchain
   - ton
+  - web3
 ---
 
 TON (The Open Network) is a blockchain platform originally developed by the team behind Telegram Messenger. By taking advantage of unique sharding technology, Multi-blockchain architecture and Instant hypercube routing protocol, TON aims to enable fast transactions and smart contracts with a high level of scalability and security.

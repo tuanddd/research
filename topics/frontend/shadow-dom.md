@@ -6,9 +6,9 @@ authors:
   - trankhacvy
 github_id: trankhacvy
 tags:
+  - dom
   - frontend
   - shadow-dom
-  - dom
   - web-api
 ---
 

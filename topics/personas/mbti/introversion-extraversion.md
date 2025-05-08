@@ -3,7 +3,7 @@ title: Introversion vs extraverion
 description: Discover key differences between introverted and extraverted traits, including mindset, behavior, and lifestyle preferences, to better understand your Myers-Briggs personality type.
 date: null
 URL: "https://drive.google.com/file/d/1n8ID_iXqzs6cMZlRS0Su7lQUhrfd7khh/view?usp=sharing"
-tag: MBTI,preferences
+tag: mbti, preferences
 ---
 
 Book: My True Type, page 24 - 32

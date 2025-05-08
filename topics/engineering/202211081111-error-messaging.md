@@ -5,7 +5,7 @@ date: 2022-11-08
 authors:
   - trankhacvy
 tags:
-  - ux-ui
+  - ux
 ---
 
 What makes a bad error message

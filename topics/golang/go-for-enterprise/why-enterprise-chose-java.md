@@ -6,9 +6,9 @@ authors:
   - thangnt294
   - fuatto
 tags:
+  - language
   - enterprise
   - java
-  - language
 ---
 
 ## Why Java is chosen by enterprises

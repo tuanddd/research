@@ -6,9 +6,9 @@ authors:
   - thanhpn
 github_id: thanhpn
 tags:
+  - anchor
   - blockchain
   - solana
-  - anchor
   - tutorial
 ---
 

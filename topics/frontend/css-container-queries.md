@@ -6,9 +6,9 @@ authors:
   - tienan92it
 github_id: tienan92it
 tags:
-  - frontend
   - css
-  - guides
+  - frontend
+  - guide
   - responsive-design
 ---
 

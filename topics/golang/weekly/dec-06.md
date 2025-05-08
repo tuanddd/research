@@ -6,8 +6,8 @@ date: 2024-12-06
 authors:
   - fuatto
 tags:
-  - golang
   - go-weekly
+  - golang
 ---
 
 ## [Draft Release Notes Go 1.24](https://tip.golang.org/doc/go1.24)

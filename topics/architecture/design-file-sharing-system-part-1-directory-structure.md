@@ -5,9 +5,9 @@ date: 2024-07-31
 authors:
   - datphamcode295
 tags:
-  - directory-structure
   - file-management
   - file-system
+  - directory-structure
 ---
 
 This system aims to provide users with the ability to store, access, and share files directly on our website, similar to Google Drive. This system aims to enhance user convenience and collaboration by allowing seamless file management and sharing capabilities.

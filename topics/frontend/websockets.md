@@ -6,9 +6,9 @@ authors:
   - tonible14012002
 github_id: tonible14012002
 tags:
-  - websocket
-  - protocols
   - frontend
+  - protocol
+  - websocket
 ---
 
 ## What are WebSockets

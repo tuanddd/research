@@ -6,7 +6,6 @@ authors:
   - zlatanpham
 pinned: true
 tags:
-  - data-engineering
   - data
   - moc
 ---

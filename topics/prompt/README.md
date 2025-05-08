@@ -6,8 +6,8 @@ authors:
   - tieubao
 pinned: true
 tags:
-  - moc
   - prompt
+  - moc
 ---
 
 ## Foundations of prompt engineering

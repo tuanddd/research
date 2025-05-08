@@ -5,10 +5,10 @@ date: 2024-09-05
 authors:
   - minhluuquang
 tags:
-  - golang
-  - finite-automata
   - pattern-matching
   - state-machines
+  - finite-automata
+  - golang
 ---
 
 ## 1. What is Finite Automata? (A Simple Explanation)

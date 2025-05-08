@@ -3,8 +3,8 @@ title: null
 description: null
 date: null
 tags:
-  - writing
   - decontextualize
+  - writing
 ---
 
 To be able to truly engage with ideas, we need to #decontextualize them. Our brains try to fit ideas into existing, comfortable boxes and categories. Our impulse is to make things familiar. But, familiarity tricks us into thinking that we understand an idea—and that we like it. We short-circuit our ability to evaluate the idea critically.

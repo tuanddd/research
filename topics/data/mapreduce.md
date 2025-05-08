@@ -8,9 +8,9 @@ github_id: dudaka
 icy: 10
 tags:
   - data
+  - hadoop
   - mapreduce
   - distributed
-  - hadoop
 ---
 
 ## What is MapReduce?
