@@ -4,6 +4,7 @@ description: A collaborative workspace for organizing and reviewing team proposa
 date: 2025-04-03
 authors:
   - tieubao
+should_deploy_perma_storage: true
 tags:
   - earn
   - rfc
