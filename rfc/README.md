@@ -7,6 +7,7 @@ date: 2025-04-03T00:00:00.000Z
 authors:
   - tieubao
 should_deploy_perma_storage: true
+should_mint: true
 tags:
   - earn
   - rfc
