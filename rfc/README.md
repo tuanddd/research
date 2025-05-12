@@ -1,15 +1,17 @@
 ---
 title: RFCs
-description: A collaborative workspace for organizing and reviewing team proposals, ideas, and significant changes through structured RFC documents
-date: 2025-04-03
+description: >-
+  A collaborative workspace for organizing and reviewing team proposals, ideas,
+  and significant changes through structured RFC documents
+date: 2025-04-03T00:00:00.000Z
 authors:
   - tieubao
 should_deploy_perma_storage: true
 tags:
   - earn
   - rfc
+perma_storage_id: WmseoW7nLaxcKPQD4W28DMLUjec2i9Dw4m81DW7FvDM
 ---
-
 This is where we store and organize proposals and RFCs from our team. Think of this as our collaborative workspace for new ideas, improvements, and significant changes.
 
 Have a proposal to contribute? **Open a PR** with your RFC document. This helps us track discussions and keep everything organized in one place.
