@@ -1,2 +1,10 @@
 aliases:
   - /topics
+sort:
+  - /ai
+  - /data
+  - /llm
+  - /prompt
+  - /blockchain
+  - /golang
+  - /react
