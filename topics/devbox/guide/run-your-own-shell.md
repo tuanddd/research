@@ -6,6 +6,8 @@ authors:
   - baenv
 tags:
   - devbox
+redirect:
+  - /yArQUQ
 ---
 
 So you've installed Devbox with that nifty one-liner:

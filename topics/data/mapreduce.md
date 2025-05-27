@@ -11,6 +11,8 @@ tags:
   - hadoop
   - mapreduce
   - distributed
+redirect:
+  - /2KVHtg
 ---
 
 ## What is MapReduce?

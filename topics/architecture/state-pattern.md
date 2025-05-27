@@ -7,6 +7,8 @@ authors:
 tags:
   - design-pattern
   - gang-of-four
+redirect:
+  - /3Mke5Q
 ---
 
 ![State pattern](assets/state-pattern_state-en-2x.webp)

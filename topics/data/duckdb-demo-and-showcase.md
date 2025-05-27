@@ -16,6 +16,8 @@ tags:
   - labs
   - work
   - workshop
+redirect:
+  - /5z4EIA
 ---
 
 | Event Date                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Discord Channel | Type     |

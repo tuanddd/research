@@ -8,6 +8,8 @@ pinned: true
 tags:
   - prompt
   - moc
+redirect:
+  - /2IG6Yg
 ---
 
 ## Foundations of prompt engineering

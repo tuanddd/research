@@ -7,6 +7,8 @@ tags:
   - frontend
   - moc
   - react
+redirect:
+  - /4tqdEw
 ---
 
 ### Fundamentals & principles

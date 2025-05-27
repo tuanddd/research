@@ -13,6 +13,8 @@ tags:
   - sequential-reads
   - sequential-writes
   - engineering
+redirect:
+  - /1475ug
 ---
 
 ## What are random and sequential reads and writes?

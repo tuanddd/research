@@ -8,6 +8,8 @@ tags:
   - devbox
   - moc
   - nix
+redirect:
+  - /nMPyWg
 ---
 
 ## Why Devbox? The big picture

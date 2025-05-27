@@ -7,6 +7,8 @@ authors:
 tags:
   - design-pattern
   - gang-of-four
+redirect:
+  - /9c8wow
 ---
 
 ![](assets/strategy-design-pattern.pdf)

@@ -9,6 +9,8 @@ github_id: trankhacvy
 tags:
   - blockchain
   - oracle
+redirect:
+  - /4rTExA
 ---
 
 ## The blockchain oracle problem

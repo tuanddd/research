@@ -5,6 +5,8 @@ date: null
 tags:
   - asia
   - technology
+redirect:
+  - /xjrCrg
 ---
 
 ### Current status

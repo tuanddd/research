@@ -2,6 +2,8 @@
 title: ¶ History of defi
 description: null
 date: null
+redirect:
+  - /aWOPCA
 ---
 
 ### Bitcoin

@@ -9,6 +9,8 @@ tags:
   - llm
   - go-weekly
   - golang
+redirect:
+  - /2CXLdg
 ---
 
 ## [kl: An interactive Kubernetes log viewer for your terminal](https://github.com/robinovitch61/kl)

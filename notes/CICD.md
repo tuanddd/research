@@ -4,6 +4,8 @@ description: null
 date: null
 tags:
   - development
+redirect:
+  - /MPAZ6w
 ---
 
 ### CI

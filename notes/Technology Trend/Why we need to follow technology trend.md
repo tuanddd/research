@@ -4,6 +4,8 @@ description: null
 date: null
 tags:
   - technology
+redirect:
+  - /4N7EgQ
 ---
 
 ## Why it is important to keep up with changing technology trends

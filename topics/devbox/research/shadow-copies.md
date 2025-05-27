@@ -8,6 +8,8 @@ tags:
   - devbox
   - docker
   - nix
+redirect:
+  - /nMW5EA
 ---
 
 One more issue that comes from internet access of Docker build is Shadow copies aka redundant files that are not cleaned after new versions of packages are installed.

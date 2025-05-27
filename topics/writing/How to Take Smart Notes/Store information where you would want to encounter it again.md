@@ -6,6 +6,8 @@ tags:
   - note
   - writing
   - zettelkasten
+redirect:
+  - /lG5Fog
 ---
 
 The most important question is not where we store the information, but where we would like to come across it again.

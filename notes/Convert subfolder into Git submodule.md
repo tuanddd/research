@@ -4,6 +4,8 @@ description: null
 date: null
 tags:
   - git
+redirect:
+  - /cJ6q3g
 ---
 
 Clone new repository

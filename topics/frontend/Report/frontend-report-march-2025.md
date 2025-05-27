@@ -8,6 +8,8 @@ authors:
 tags:
   - frontend
   - market-report
+redirect:
+  - /BZXK4A
 ---
 
 ![](assets/frontend-report-202503.png)

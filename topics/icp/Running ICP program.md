@@ -5,6 +5,8 @@ date: null
 tags:
   - blockchain
   - icp
+redirect:
+  - /ccRaLQ
 ---
 
 - Start local network: `$ dfx start`

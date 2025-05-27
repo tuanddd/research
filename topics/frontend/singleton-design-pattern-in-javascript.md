@@ -8,6 +8,8 @@ github_id: chinhld12
 tags:
   - design-pattern
   - frontend
+redirect:
+  - /pAWixg
 ---
 
 ## Overview

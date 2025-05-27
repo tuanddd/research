@@ -5,6 +5,8 @@ date: null
 tags:
   - engineer
   - example
+redirect:
+  - /ZRoyIQ
 ---
 
 To resolve this, I thought of using function : `export async function getServerSideProps(context)`

@@ -10,6 +10,8 @@ tags:
   - agile
   - testing
   - ubiquitous-language
+redirect:
+  - /bCvFdw
 ---
 
 ### Behavior driven development (BDD) Three Practices

@@ -8,6 +8,8 @@ tags:
   - ai
   - llm
   - tool
+redirect:
+  - /TqyybQ
 ---
 
 ## Generative AI

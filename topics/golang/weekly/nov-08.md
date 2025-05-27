@@ -8,6 +8,8 @@ authors:
 tags:
   - go-weekly
   - golang
+redirect:
+  - /HnwwKQ
 ---
 
 ## [Writing secure Go code](https://jarosz.dev/article/writing-secure-go-code/)

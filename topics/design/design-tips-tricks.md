@@ -4,6 +4,8 @@ description: Discover key UX design principles to create user-friendly forms, av
 date: 2018-03-24
 tags:
   - design
+redirect:
+  - /AiWsRQ
 ---
 
 - [https://uxplanet.org/the-18-must-do-principles-in-the-form-design-fe89d0127c92](https://uxplanet.org/the-18-must-do-principles-in-the-form-design-fe89d0127c92)

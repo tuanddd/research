@@ -6,6 +6,8 @@ authors:
   - trankhacvy
 tags:
   - ux
+redirect:
+  - /Jcdkug
 ---
 
 What makes a bad error message

@@ -5,6 +5,8 @@ date: null
 tags:
   - blockchain
   - defi
+redirect:
+  - /M1Tg9g
 ---
 
 ### Uniswap

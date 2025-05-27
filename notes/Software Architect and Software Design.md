@@ -4,6 +4,8 @@ description: null
 date: null
 tags:
   - architecture
+redirect:
+  - /QVRdGw
 ---
 
 ### Software Architecture (SA)

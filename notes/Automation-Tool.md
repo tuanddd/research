@@ -4,6 +4,8 @@ description: null
 date: null
 tags:
   - tool
+redirect:
+  - /DFW8tQ
 ---
 
 The new Automation Tool comes from M$, wrote the first public version early last year

@@ -5,6 +5,8 @@ date: null
 tags:
   - fingerprint
   - hr
+redirect:
+  - /yKsp3w
 ---
 
 Arch type accounts for 5% (5 main types): no intersection

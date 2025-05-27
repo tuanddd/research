@@ -11,6 +11,8 @@ tags:
   - docker
   - tool
   - virtualization
+redirect:
+  - /XemHjg
 ---
 
 This is the 3rd post of Devbox series includes

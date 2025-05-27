@@ -3,6 +3,8 @@ title: null
 description: null
 date: null
 tag: function, mbti
+redirect:
+  - /tCMJog
 ---
 
 ### The difference between Ti and Te

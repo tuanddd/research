@@ -4,6 +4,8 @@ description: null
 date: null
 tags:
   - innovation
+redirect:
+  - /dd9V4A
 ---
 
 Weak ties are strong. Steven Johnson suggests that weak ties help promote [exaptation](https://publish.obsidian.md/mobydiction/notes/%C2%B6+Expatation) of ideas, and force encounters with alternative “idea spaces.”

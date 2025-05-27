@@ -2,6 +2,8 @@
 title: Smart contract
 description: null
 date: null
+redirect:
+  - /eBsb5A
 ---
 
 ## Design by contract

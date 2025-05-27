@@ -2,6 +2,8 @@
 title: null
 description: null
 date: null
+redirect:
+  - /oRTCbw
 ---
 
 ## Notes submitted within past month

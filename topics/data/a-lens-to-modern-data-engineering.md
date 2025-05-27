@@ -10,6 +10,8 @@ tags:
   - architecture
   - etl
   - system-design
+redirect:
+  - /4C8YXg
 ---
 
 ![](assets/a-lens-to-modern-data-engineering.png)

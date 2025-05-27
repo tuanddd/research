@@ -8,6 +8,8 @@ authors:
 tags:
   - go-weekly
   - golang
+redirect:
+  - /VKUSGQ
 ---
 
 ## [Fuzz Testing Go HTTP Services](https://packagemain.tech/p/fuzzing-http-services-golang)

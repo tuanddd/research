@@ -4,6 +4,8 @@ description: null
 date: null
 tags:
   - career
+redirect:
+  - /uI1Qhg
 ---
 
 The truth is Asia is generating more software developers, and day by day, the average age of software developers will be decreased even more.

@@ -7,6 +7,8 @@ authors:
 tags:
   - elixir
   - moc
+redirect:
+  - /8fTz1A
 ---
 
 ### Testing in Elixir

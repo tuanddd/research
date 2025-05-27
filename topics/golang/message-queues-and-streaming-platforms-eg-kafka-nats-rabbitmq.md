@@ -8,6 +8,8 @@ tags:
   - backend
   - engineering
   - golang
+redirect:
+  - /jq6TOg
 ---
 
 We host a few learning sessions to understand some of the technology around us. We regularly pick up topics we find interesting to dive deeper into to understand them better and present our findings. One topic that piqued my interest was the use of message brokers, due to how prevalent their use case is in our projects.\_

@@ -8,6 +8,8 @@ tags:
   - dwarves
   - home
   - labs
+redirect:
+  - /XnEouw
 ---
 
 <h1 align="center">

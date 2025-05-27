@@ -7,6 +7,8 @@ authors:
 tags:
   - golang
   - moc
+redirect:
+  - /jViiQA
 ---
 
 ### Go language fundamentals

@@ -9,6 +9,8 @@ tags:
   - ai
   - mcp
   - security
+redirect:
+  - /oBFhMg
 ---
 
 ![](assets/securing-your-remote-mcp-servers-1.webp)

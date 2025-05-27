@@ -2,6 +2,8 @@
 title: Amm
 description: null
 date: null
+redirect:
+  - /8BpYYQ
 ---
 
 ### Automated market maker

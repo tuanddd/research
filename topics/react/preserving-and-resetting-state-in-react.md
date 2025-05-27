@@ -10,6 +10,8 @@ tags:
   - frontend
   - hooks
   - react
+redirect:
+  - /hTeekA
 ---
 
 ## Why should you read this article?

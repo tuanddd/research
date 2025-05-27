@@ -8,6 +8,8 @@ github_id: namtrhg
 tags:
   - atomic-design
   - frontend
+redirect:
+  - /DhK8NA
 ---
 
 ## Atomic design pattern

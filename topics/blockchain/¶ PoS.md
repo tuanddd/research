@@ -9,6 +9,8 @@ tags:
   - blockchain
   - foundational-topics
   - po-s
+redirect:
+  - /CHTrmw
 ---
 
 ## The proof of stake

@@ -4,6 +4,8 @@ description: null
 date: null
 tags:
   - nextjs
+redirect:
+  - /NO5cJg
 ---
 
 After Googling, I've come up with a solution

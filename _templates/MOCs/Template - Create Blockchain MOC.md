@@ -4,6 +4,8 @@ description: null
 date: null
 recurringTemplate: true
 recurringTemplateName: blockchain-moc
+redirect:
+  - /UTHHeA
 ---
 
 This is a [[Map of Content]] related to the blockchain.

@@ -9,6 +9,8 @@ tags:
   - frontend
   - hooks
   - react
+redirect:
+  - /y57Ftw
 ---
 
 **What happens if you invoked the component function directly in React?:

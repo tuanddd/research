@@ -4,6 +4,8 @@ description: Learn how Software Development Kits (SDKs) provide tools and APIs f
 date: 2020-05-21
 tags:
   - event
+redirect:
+  - /Q9Py0A
 ---
 
 ## Software Development Kit (SDK)

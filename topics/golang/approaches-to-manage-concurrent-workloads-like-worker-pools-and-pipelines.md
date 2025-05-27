@@ -9,6 +9,8 @@ tags:
   - golang
   - practice
   - tool
+redirect:
+  - /84H0BQ
 ---
 
 ## Introduction

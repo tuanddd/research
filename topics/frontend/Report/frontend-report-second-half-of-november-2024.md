@@ -8,6 +8,8 @@ authors:
 tags:
   - frontend
   - market-report
+redirect:
+  - /qNj7Ww
 ---
 
 A second half of November 2024 frontend roundup featuring React Router v7, Tailwind CSS v4 Beta, and Vite 6.0. Explore tools like Next Cloudinary, Extism, and SmarkForm, plus insights on SSR cost-effectiveness, JavaScript Symbols, and new CSS strategies.

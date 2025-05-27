@@ -8,6 +8,8 @@ discord_channel: engineering
 tags:
   - engineering
   - react
+redirect:
+  - /EKLjgA
 ---
 
 ### An introduction to React fiber

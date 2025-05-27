@@ -13,6 +13,8 @@ tags:
   - low-latency
   - reliability
   - write-heavy
+redirect:
+  - /M6wwCw
 ---
 
 https://doordash.engineering/2023/02/22/how-doordash-designed-a-successful-write-heavy-scalable-and-reliable-inventory-platform/

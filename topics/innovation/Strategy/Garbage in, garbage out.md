@@ -5,6 +5,8 @@ date: null
 tags:
   - business
   - strategy
+redirect:
+  - /CAj8Qw
 ---
 
 In nearly any process, the quality of the input is a constraint on the quality of the output.

@@ -7,6 +7,8 @@ authors:
 tags:
   - english
   - writing
+redirect:
+  - /thyJvw
 ---
 
 ## Introduction

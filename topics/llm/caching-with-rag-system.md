@@ -9,6 +9,8 @@ tags:
   - caching
   - llm
   - rag
+redirect:
+  - /XmXKLQ
 ---
 
 ## Introduction

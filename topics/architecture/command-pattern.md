@@ -7,6 +7,8 @@ authors:
 tags:
   - design-pattern
   - gang-of-four
+redirect:
+  - /UuOjTA
 ---
 
 ![Command pattern](assets/command-pattern_command-en-2x.webp)

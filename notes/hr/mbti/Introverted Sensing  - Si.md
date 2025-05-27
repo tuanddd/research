@@ -3,6 +3,8 @@ title: null
 description: null
 date: null
 tag: function, mbti
+redirect:
+  - /I6SKHA
 ---
 
 Book: My True Type, page 79 - 85

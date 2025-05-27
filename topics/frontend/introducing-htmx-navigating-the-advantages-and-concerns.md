@@ -9,6 +9,8 @@ icy: 10
 tags:
   - frontend
   - htmx
+redirect:
+  - /3ZSGXg
 ---
 
 ## What is HTMX

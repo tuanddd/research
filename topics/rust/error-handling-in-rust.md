@@ -7,6 +7,8 @@ authors:
 tags:
   - error-handling
   - rust
+redirect:
+  - /L118fg
 ---
 
 ## **Introduction**

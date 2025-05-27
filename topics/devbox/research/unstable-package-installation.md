@@ -8,6 +8,8 @@ tags:
   - devbox
   - docker
   - nix
+redirect:
+  - /uVFu9A
 ---
 
 For example, let's suppose that we have the following `Dockerfile`.

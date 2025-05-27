@@ -8,6 +8,8 @@ tags:
   - observer-pattern
   - design-pattern
   - gang-of-four
+redirect:
+  - /EcmfsQ
 ---
 
 ![](assets/observer-pattern.webp)

@@ -7,6 +7,8 @@ tags:
   - 101
   - engineering
   - syllabus
+redirect:
+  - /RMWkGw
 ---
 
 ## Deep learning

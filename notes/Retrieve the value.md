@@ -3,6 +3,8 @@ title: null
 description: null
 date: null
 tag: innovation
+redirect:
+  - /BHNA4w
 ---
 
 Retrieval helps us experience the insight of premodern cultures that nothing is absolutely new; everything is renewal.

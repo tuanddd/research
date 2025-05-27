@@ -9,6 +9,8 @@ tags:
   - language
   - enterprise
   - java
+redirect:
+  - /i9YTBw
 ---
 
 ## Why Java is chosen by enterprises

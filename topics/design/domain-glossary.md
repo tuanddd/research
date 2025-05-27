@@ -4,6 +4,8 @@ description: Discover how Retail 2.0 enhances shopping with AR, VR, AI, and pers
 date: 2020-04-19
 tags:
   - design
+redirect:
+  - /52jn3g
 ---
 
 ## T1: Retail 2.0

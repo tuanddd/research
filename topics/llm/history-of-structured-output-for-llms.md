@@ -7,6 +7,8 @@ authors:
 tags:
   - llm
   - history
+redirect:
+  - /2mXm0w
 ---
 
 ## Overview

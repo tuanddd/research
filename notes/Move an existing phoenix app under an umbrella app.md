@@ -4,6 +4,8 @@ description: null
 date: null
 tags:
   - elixir
+redirect:
+  - /IoCZVg
 ---
 
 chrismccord [10:14 PM] @alanpeabody yes, it's straightforward

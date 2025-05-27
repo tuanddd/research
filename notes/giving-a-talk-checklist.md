@@ -7,6 +7,8 @@ authors:
 tags:
   - checklist
   - presentation
+redirect:
+  - /3GGUNA
 ---
 
 Use this checklist as a practical guide to prepare for your talk

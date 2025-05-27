@@ -7,6 +7,8 @@ authors:
 tags:
   - mobile
   - moc
+redirect:
+  - /x3EKzg
 ---
 
 ### Mobile fundamentals

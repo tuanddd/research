@@ -10,6 +10,8 @@ tags:
   - sql
   - data-warehouse
   - materialized-view
+redirect:
+  - /xgpj8Q
 ---
 
 **Materialized view pattern**

@@ -10,6 +10,8 @@ tags:
   - engineering
   - kafka
   - zookeeper
+redirect:
+  - /Ue22pw
 ---
 
 ## Before the removal

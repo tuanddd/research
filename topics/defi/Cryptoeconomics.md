@@ -2,6 +2,8 @@
 title: Cryptoeconomics
 description: null
 date: null
+redirect:
+  - /WNxdbA
 ---
 
 ### Cryptoeconomics

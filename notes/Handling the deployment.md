@@ -4,6 +4,8 @@ description: null
 date: null
 tags:
   - deployment
+redirect:
+  - /RWkf2w
 ---
 
 ### Recreate

@@ -10,6 +10,8 @@ tags:
   - code-generation
   - fullstack
   - typesafe
+redirect:
+  - /VpabPg
 ---
 
 ### Motivation

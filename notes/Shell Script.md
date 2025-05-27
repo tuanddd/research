@@ -5,6 +5,8 @@ date: null
 tags:
   - development
   - practice
+redirect:
+  - /muW9bA
 ---
 
 ### Shell

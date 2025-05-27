@@ -7,6 +7,8 @@ authors:
 tags:
   - frontend
   - moc
+redirect:
+  - /J6JfJQ
 ---
 
 ### Frontend fundamentals & principles

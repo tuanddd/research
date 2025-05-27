@@ -8,6 +8,8 @@ tags:
   - engineering
   - frontend
   - web
+redirect:
+  - /7SoIyQ
 ---
 
 ## What is PNPM?

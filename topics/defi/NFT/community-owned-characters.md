@@ -2,6 +2,8 @@
 title: Community owned characters
 description: null
 date: null
+redirect:
+  - /sAfPxA
 ---
 
 ## The trend of owning a character

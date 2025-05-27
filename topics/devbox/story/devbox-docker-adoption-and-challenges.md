@@ -11,6 +11,8 @@ tags:
   - docker
   - tool
   - virtualization
+redirect:
+  - /d0SXng
 ---
 
 This is the 2nd post of Devbox series includes

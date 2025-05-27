@@ -3,6 +3,8 @@ title: null
 description: null
 date: null
 tag: mbti
+redirect:
+  - /pEEavQ
 ---
 
 Book: My True Type, page 18 - 22

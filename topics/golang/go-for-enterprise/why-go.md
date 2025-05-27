@@ -9,6 +9,8 @@ tags:
   - enterprise
   - golang
   - programming
+redirect:
+  - /LvqJpQ
 ---
 
 ## Why go

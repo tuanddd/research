@@ -3,6 +3,8 @@ title: null
 description: null
 date: null
 tag: api, notion
+redirect:
+  - /We4ifg
 ---
 
 What does it mean for developer?

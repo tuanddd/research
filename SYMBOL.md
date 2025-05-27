@@ -2,6 +2,8 @@
 title: null
 description: null
 date: null
+redirect:
+  - /SPs8WA
 ---
 
 - § - Denotes a _structure_ note, an _outline_, basically a note that organizes other notes (Opt-6)

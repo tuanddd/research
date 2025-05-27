@@ -8,6 +8,8 @@ tags:
   - language
   - enterprise
   - golang
+redirect:
+  - /4fZsoA
 ---
 
 ## Who is using Go in enterprise?

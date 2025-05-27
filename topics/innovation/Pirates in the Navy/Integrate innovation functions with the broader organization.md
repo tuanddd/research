@@ -5,6 +5,8 @@ date: null
 tags:
   - innovation
   - organization
+redirect:
+  - /Na0XbQ
 ---
 
 Organizations need to consider how innovation fits into their org chart, including defining clear career paths for innovators.

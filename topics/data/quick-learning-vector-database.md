@@ -11,6 +11,8 @@ tags:
   - data
   - database
   - vector-database
+redirect:
+  - /bO4H8w
 ---
 
 ## Motivation of vector database

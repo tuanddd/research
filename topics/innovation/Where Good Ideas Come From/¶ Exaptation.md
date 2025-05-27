@@ -4,6 +4,8 @@ description: null
 date: null
 tags:
   - innovation
+redirect:
+  - /D0TnsQ
 ---
 
 “Exaptation” describes how a trait developed by a given organism may be adapted for a completely different function than its original purpose.

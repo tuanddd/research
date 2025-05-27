@@ -2,6 +2,8 @@
 title: DeFi application
 description: null
 date: null
+redirect:
+  - /9cNzqA
 ---
 
 ## Lending

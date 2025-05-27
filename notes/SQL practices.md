@@ -6,6 +6,8 @@ tags:
   - data
   - sql
   - practice
+redirect:
+  - /HZyIIQ
 ---
 
 ### Orm vs plain SQL

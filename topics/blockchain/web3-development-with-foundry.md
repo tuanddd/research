@@ -10,6 +10,8 @@ tags:
   - evm
   - foundry
   - web3
+redirect:
+  - /BBc4Xw
 ---
 
 ## Overview of Foundry

@@ -10,6 +10,8 @@ tags:
   - accessibility
   - frontend
   - html
+redirect:
+  - /MM8itg
 ---
 
 `inert` is a boolean HTML property that makes the browser ignore the user input events for an element, including focus events and events from assistive technologies.

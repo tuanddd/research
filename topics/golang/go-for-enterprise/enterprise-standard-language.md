@@ -8,6 +8,8 @@ tags:
   - language
   - enterprise
   - golang
+redirect:
+  - /KHKItw
 ---
 
 ## Go as enterprise standard language

@@ -7,6 +7,8 @@ authors:
 tags:
   - database-management
   - software-design
+redirect:
+  - /OvS1Hw
 ---
 
 ## Problem statement

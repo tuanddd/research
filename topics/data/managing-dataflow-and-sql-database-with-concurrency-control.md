@@ -5,6 +5,8 @@ date: 2023-05-04
 tags:
   - data
   - rd
+redirect:
+  - /047WHw
 ---
 
 ![](assets/managing-dataflow-and-sql-database-with-concurrency-control_c11c827159778f301fbd67b9d155b80b_md5.avif)

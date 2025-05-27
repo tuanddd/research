@@ -9,6 +9,8 @@ tags:
   - network
   - blockchain
   - ethereum
+redirect:
+  - /rIxY9A
 ---
 
 ## What?

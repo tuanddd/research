@@ -5,6 +5,8 @@ date: 2017-07-13
 tags:
   - people
   - process
+redirect:
+  - /zVAcCA
 ---
 
 ## General workflow

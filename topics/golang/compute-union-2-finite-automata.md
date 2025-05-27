@@ -9,6 +9,8 @@ tags:
   - state-machines
   - finite-automata
   - golang
+redirect:
+  - /vUYAbg
 ---
 
 ## 1. What is Finite Automata? (A Simple Explanation)

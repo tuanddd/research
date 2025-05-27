@@ -3,6 +3,8 @@ title: null
 description: null
 date: null
 tag: function, mbti
+redirect:
+  - /c7Pc3Q
 ---
 
 #### The difference between Fi and Fe

@@ -8,6 +8,8 @@ tags:
   - accessibility
   - frontend
   - html
+redirect:
+  - /bdkG1A
 ---
 
 ## Website accessibility

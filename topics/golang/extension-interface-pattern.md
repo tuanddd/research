@@ -7,6 +7,8 @@ authors:
 tags:
   - golang
   - interface
+redirect:
+  - /vCeEag
 ---
 
 The extension interface pattern is when an interface embeds another one. The extension pattern helps to add new features to an existing object without changing its original code.

@@ -7,6 +7,8 @@ authors:
 tags:
   - radio-talk
   - team
+redirect:
+  - /RNziNw
 ---
 
 ### Performance review

@@ -4,6 +4,8 @@ description: null
 date: null
 tags:
   - oauth
+redirect:
+  - /4zNpmQ
 ---
 
 Traditional client-server authentication model: resource owner provides credentials for client to access resource

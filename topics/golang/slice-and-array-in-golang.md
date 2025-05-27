@@ -7,6 +7,8 @@ authors:
 tags:
   - data-structures
   - golang
+redirect:
+  - /lvuZWQ
 ---
 
 ### Array

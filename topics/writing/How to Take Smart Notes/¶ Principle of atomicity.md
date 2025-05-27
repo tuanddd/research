@@ -7,6 +7,8 @@ tags:
   - idea
   - writing
   - zettelkasten
+redirect:
+  - /TCMaNw
 ---
 
 The principle of atomicity is a governing idea of the #Zettelkasten method of notetaking and knowledge management.

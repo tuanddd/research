@@ -4,6 +4,8 @@ description: null
 date: null
 recurringTemplate: true
 recurringTemplateName: engineering-moc
+redirect:
+  - /fhCPAA
 ---
 
 This is a [[Map of Content]] related to the engineering.

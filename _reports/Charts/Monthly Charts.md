@@ -2,6 +2,8 @@
 title: null
 description: null
 date: null
+redirect:
+  - /hn3a4g
 ---
 
 ## Tag cloud

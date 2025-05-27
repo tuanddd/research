@@ -10,6 +10,8 @@ icy: 15
 tags:
   - data
   - data-pipeline
+redirect:
+  - /KS2h5w
 ---
 
 ## Motivation of designing data pipeline framework

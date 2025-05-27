@@ -5,6 +5,8 @@ date: null
 tags:
   - brain-behaviour
   - innovation
+redirect:
+  - /t3uTpQ
 ---
 
 [[Brains have evolved to minimize surprise|Our brains have evolved to deal with uncertainty]]. Knowing the different kinds can help us better deal with uncertainty.

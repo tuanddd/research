@@ -9,6 +9,8 @@ tags:
   - ai
   - llm
   - prompt
+redirect:
+  - /irBppw
 ---
 
 ## Story Map: Journey for Engineers Developing Applications on top of Large Language Models (LLMs)

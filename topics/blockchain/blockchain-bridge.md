@@ -9,6 +9,8 @@ tags:
   - blockchain
   - blockchain-bridge
   - web3
+redirect:
+  - /PJqkBw
 ---
 
 ![](assets/blockchain-bridge_blockruption-blockchain-300h.webp)

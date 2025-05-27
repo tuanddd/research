@@ -8,6 +8,8 @@ tags:
   - architecture
   - engineering
   - micro-frontend
+redirect:
+  - /sYApew
 ---
 
 ## Micro-Frontend - What & Why?

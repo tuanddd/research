@@ -5,6 +5,8 @@ date: null
 tags:
   - business
   - strategy
+redirect:
+  - /NlMKECo
 ---
 
 ### Notes

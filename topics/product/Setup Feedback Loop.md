@@ -5,6 +5,8 @@ date: null
 tags:
   - feedback
   - product
+redirect:
+  - /Ryscsg
 ---
 
 ## What is feedback-loop

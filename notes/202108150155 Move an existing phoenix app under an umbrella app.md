@@ -4,6 +4,8 @@ description: null
 date: null
 tags:
   - elixir
+redirect:
+  - /v4KZ3g
 ---
 
 chrismccord [10:14 PM]  

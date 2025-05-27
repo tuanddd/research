@@ -5,6 +5,8 @@ date: null
 tags:
   - blockchain
   - defi
+redirect:
+  - /aPAPaw
 ---
 
 ### Decentralized autonomous organization

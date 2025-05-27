@@ -5,6 +5,8 @@ date: null
 tags:
   - development
   - practice
+redirect:
+  - /PGAHBg
 ---
 
 ### What

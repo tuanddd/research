@@ -7,6 +7,8 @@ authors:
 tags:
   - engineering
   - golang
+redirect:
+  - /ohSbLg
 ---
 
 Go is a type-safe, cloud-native language designed for simplicity with first-class support for concurrency.

@@ -4,6 +4,8 @@ description: null
 date: null
 tags:
   - insight
+redirect:
+  - /310y8Q
 ---
 
 ### Why

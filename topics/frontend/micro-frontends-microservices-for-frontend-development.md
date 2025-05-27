@@ -6,6 +6,8 @@ authors:
   - zlatanpham
 tags:
   - micro-frontend
+redirect:
+  - /DZMsRw
 ---
 
 ## What is Micro-frontend ?

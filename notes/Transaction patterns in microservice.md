@@ -5,6 +5,8 @@ date: null
 tags:
   - microservice
   - pattern
+redirect:
+  - /8B3g3Q
 ---
 
 ### Two-phase commit pattern

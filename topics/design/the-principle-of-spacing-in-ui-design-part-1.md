@@ -5,6 +5,8 @@ date: 2018-01-18
 tags:
   - design
   - technique
+redirect:
+  - /yjs57Q
 ---
 
 ## Why is spacing important?

@@ -5,6 +5,8 @@ date: null
 tags:
   - innovation
   - moc
+redirect:
+  - /KVhx5Q
 ---
 
 ## What is innovation?

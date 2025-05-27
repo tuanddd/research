@@ -2,6 +2,8 @@
 title: How it works
 description: null
 date: null
+redirect:
+  - /8lSqQA
 ---
 
 **Centralized**

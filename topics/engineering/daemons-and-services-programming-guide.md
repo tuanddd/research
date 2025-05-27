@@ -4,6 +4,8 @@ description: Learn how to design and manage macOS daemons and services, includin
 date: 2020-05-11
 tags:
   - macos
+redirect:
+  - /Pai7GA
 ---
 
 ## About daemons and services

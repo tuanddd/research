@@ -5,6 +5,8 @@ date: null
 tags:
   - blockchain
   - ethereum
+redirect:
+  - /4hnW3g
 ---
 
 ### POV

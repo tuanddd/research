@@ -7,6 +7,8 @@ authors:
 tags:
   - earn
   - rfc
+redirect:
+  - /SQmfhQ
 ---
 
 # RFC: [Title]

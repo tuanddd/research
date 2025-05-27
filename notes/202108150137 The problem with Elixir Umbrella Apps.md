@@ -4,6 +4,8 @@ description: null
 date: null
 tags:
   - elixir
+redirect:
+  - /FXlNBA
 ---
 
 ### What’s the problem with this application?

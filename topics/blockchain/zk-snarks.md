@@ -9,6 +9,8 @@ tags:
   - blockchain
   - ethereum
   - zero-knowledge
+redirect:
+  - /I8Ri1A
 ---
 
 ## What is this?

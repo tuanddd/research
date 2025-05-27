@@ -8,6 +8,8 @@ tags:
   - profiling
   - engineering
   - golang
+redirect:
+  - /c0Sbfw
 ---
 
 ## Profiling in Go: Gotta catch 'em all

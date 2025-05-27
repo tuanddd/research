@@ -6,6 +6,8 @@ tags:
   - database
   - sharding
   - engineering
+redirect:
+  - /2RFXmg
 ---
 
 ### Why?

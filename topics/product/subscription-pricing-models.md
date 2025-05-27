@@ -8,6 +8,8 @@ tags:
   - pricing
   - product
   - subscription
+redirect:
+  - /RLDTiw
 ---
 
 ## Pricing models

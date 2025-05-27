@@ -5,6 +5,8 @@ date: null
 tags:
   - habit-forming
   - product
+redirect:
+  - /lLCxDA
 ---
 
 ## What is habit-forming product

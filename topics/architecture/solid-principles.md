@@ -4,6 +4,8 @@ description: Learn the SOLID principles of object-oriented design to create clea
 date: 2023-04-20
 github_id: nguyend-nam
 icy: 10
+redirect:
+  - /Pqjh0A
 ---
 
 ## What & Why?

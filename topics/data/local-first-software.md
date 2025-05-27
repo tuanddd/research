@@ -10,6 +10,8 @@ tags:
   - data-synchronization
   - local-first
   - real-time
+redirect:
+  - /ri84Ig
 ---
 
 ## What is Local-first software?

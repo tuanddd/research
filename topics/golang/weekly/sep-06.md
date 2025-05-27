@@ -9,6 +9,8 @@ tags:
   - networking
   - go-weekly
   - golang
+redirect:
+  - /JFAicg
 ---
 
 ## [Script: Making it easy to write shell-like scripts in Go](https://github.com/bitfield/script)

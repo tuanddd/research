@@ -8,6 +8,8 @@ tags:
   - big-o
   - bloom-filter
   - data-structure
+redirect:
+  - /RQEpfsM
 ---
 
 ## What is Bloom filter?

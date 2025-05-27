@@ -7,6 +7,8 @@ authors:
 tags:
   - form
   - frontend
+redirect:
+  - /Sv8csg
 ---
 
 ### Sign-in form best practices

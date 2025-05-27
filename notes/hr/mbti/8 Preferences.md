@@ -3,6 +3,8 @@ title: null
 description: null
 date: null
 tag: mbti
+redirect:
+  - /WUPU8w
 ---
 
 - I (introverted) >< E (extroverted)

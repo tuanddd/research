@@ -9,6 +9,8 @@ tags:
   - networking
   - go-weekly
   - golang
+redirect:
+  - /pPTvPw
 ---
 
 ## [Cogent Core: A New GUI Framework for Go](https://www.cogentcore.org/blog/initial-release)

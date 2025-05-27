@@ -3,6 +3,8 @@ title: null
 description: null
 date: null
 tag: mbti
+redirect:
+  - /8McEFA
 ---
 
 #### Characteristics of Feelers:

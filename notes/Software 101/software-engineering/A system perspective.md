@@ -5,6 +5,8 @@ date: null
 tags:
   - 101
   - engineering
+redirect:
+  - /WwmpDQ
 ---
 
 ## A system perspective

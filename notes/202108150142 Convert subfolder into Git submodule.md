@@ -4,6 +4,8 @@ description: null
 date: null
 tags:
   - git
+redirect:
+  - /ibOpzQ
 ---
 
 Clone new repository

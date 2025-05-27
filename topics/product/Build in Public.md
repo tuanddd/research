@@ -5,6 +5,8 @@ date: null
 tags:
   - build-in-public
   - product
+redirect:
+  - /o0aZOA
 ---
 
 ## What is #buildinpublic

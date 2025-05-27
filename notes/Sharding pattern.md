@@ -4,6 +4,8 @@ description: null
 date: null
 tags:
   - pattern
+redirect:
+  - /iF0lVg
 ---
 
 ### What

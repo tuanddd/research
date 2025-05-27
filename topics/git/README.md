@@ -7,6 +7,8 @@ authors:
 tags:
   - git
   - moc
+redirect:
+  - /vaxdDw
 ---
 
 ### Git fundamentals & concepts

@@ -5,6 +5,8 @@ date: null
 tags:
   - fingerprint
   - hr
+redirect:
+  - /AOCeZA
 ---
 
 Water (Loop) type accounts for 60 - 65% (3 main types): has a center and an intersection.

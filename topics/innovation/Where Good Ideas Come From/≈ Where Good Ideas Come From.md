@@ -5,6 +5,8 @@ date: null
 tags:
   - idea
   - innovation
+redirect:
+  - /0YTbDA
 ---
 
 ## Summary

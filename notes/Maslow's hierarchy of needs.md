@@ -6,6 +6,8 @@ tags:
   - design
   - maslow
   - ux
+redirect:
+  - /eeOaKA
 ---
 
 ![](https://www.simplypsychology.org/maslow-5.jpg)

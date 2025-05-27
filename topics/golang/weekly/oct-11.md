@@ -8,6 +8,8 @@ authors:
 tags:
   - go-weekly
   - golang
+redirect:
+  - /NH3X3A
 ---
 
 ## [Using Go Embed](https://www.bytesizego.com/blog/go-embed)

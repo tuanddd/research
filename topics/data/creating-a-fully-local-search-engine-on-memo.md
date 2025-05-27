@@ -9,6 +9,8 @@ tags:
   - hybrid-search
   - search-engine
   - transformersjs
+redirect:
+  - /3zocGA
 ---
 
 ![command-palette](assets/creating-a-fully-local-search-engine-on-memo-search.webp)

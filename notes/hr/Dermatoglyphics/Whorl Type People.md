@@ -5,6 +5,8 @@ date: null
 tags:
   - fingerprint
   - hr
+redirect:
+  - /GeZRFA
 ---
 
 ![[chung-van-tay-Whorl.gif]]

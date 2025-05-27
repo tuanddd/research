@@ -9,6 +9,8 @@ tags:
   - ai
   - llm
   - generative-ui
+redirect:
+  - /fpcBoQ
 ---
 
 ## What is Generative UI?

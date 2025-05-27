@@ -4,6 +4,8 @@ description: "Explore key engineering management concepts like Conway's law, tea
 date: null
 recurringTemplate: true
 recurringTemplateName: engineering-management-moc
+redirect:
+  - /u2uNEw
 ---
 
 This is a [[Map of Content]] related to the engineering concepts around management.

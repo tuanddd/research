@@ -6,6 +6,8 @@ tags:
   - model
   - framework
   - product
+redirect:
+  - /noIBDA
 ---
 
 | type/function | aarrr                          | hook                                 |

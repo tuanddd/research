@@ -4,6 +4,8 @@ description: null
 date: null
 tags:
   - elixir
+redirect:
+  - /D5lYAw
 ---
 
 Brief: about the db connection issue in umbrella app

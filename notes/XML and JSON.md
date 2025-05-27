@@ -3,6 +3,8 @@ title: null
 description: null
 date: null
 tag: data
+redirect:
+  - /H3HdeQ
 ---
 
 ### XML

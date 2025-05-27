@@ -8,6 +8,8 @@ tags:
   - ai
   - reinforcement-learning
   - llm
+redirect:
+  - /2DubVg
 ---
 
 ## Introduction

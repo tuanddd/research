@@ -7,6 +7,8 @@ authors:
 tags:
   - concurrency
   - golang
+redirect:
+  - /AcvvEg
 ---
 
 ## Golang concurrency

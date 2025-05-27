@@ -2,6 +2,8 @@
 title: Pool
 description: null
 date: null
+redirect:
+  - /daYa1w
 ---
 
 ### Liquidity pool

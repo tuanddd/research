@@ -8,6 +8,8 @@ authors:
 tags:
   - data
   - moc
+redirect:
+  - /R4UOkA
 ---
 
 ![](assets/data-engineering-moc.webp)

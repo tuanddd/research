@@ -4,6 +4,8 @@ description: Explore key backend engineering concepts including Golang atomic pa
 date: null
 recurringTemplate: true
 recurringTemplateName: engineering-backend-moc
+redirect:
+  - /3GBc5A
 ---
 
 This is a [[Map of Content]] related to the engineering concepts around backend.

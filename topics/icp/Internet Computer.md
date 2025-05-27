@@ -5,6 +5,8 @@ date: null
 tags:
   - blockchain
   - icp
+redirect:
+  - /rOvL1g
 ---
 
 Internet Computer is a layer-1 protocol.

@@ -8,6 +8,8 @@ tags:
   - document-processing
   - information-retrieval
   - llm
+redirect:
+  - /xUMeFw
 ---
 
 ## What is it?

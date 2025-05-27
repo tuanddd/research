@@ -8,6 +8,8 @@ tags:
   - anchor
   - blockchain
   - solana
+redirect:
+  - /23Tzyw
 ---
 
 ## Introduction

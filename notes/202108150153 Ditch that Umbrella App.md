@@ -4,6 +4,8 @@ description: null
 date: null
 tags:
   - elixir
+redirect:
+  - /H1UdWg
 ---
 
 - https://ben.munat.com/blog/2020-02-08-ditch-that-umbrella/

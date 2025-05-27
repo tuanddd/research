@@ -7,6 +7,8 @@ authors:
 tags:
   - devbox
   - nix
+redirect:
+  - /1pIKgw
 ---
 
 Ever wished you could clone your perfect dev setup to any machine? Or test a new package without breaking your system? That's where Nix Shell shines. It's not just a tool; it's a game-changer for developers.

@@ -4,6 +4,8 @@ description: null
 date: null
 tags:
   - productivity
+redirect:
+  - /xmNccw
 ---
 
 - Work hard can only happen when you've defined the goal.

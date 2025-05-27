@@ -60,6 +60,8 @@ WHERE author != NULL
   AND date.year = (date(today)).year
 GROUP BY author
 "
+redirect:
+  - /XWPb9g
 ---
 
 

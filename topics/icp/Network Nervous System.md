@@ -6,6 +6,8 @@ tags:
   - blockchain
   - icp
   - nss
+redirect:
+  - /6a9Png
 ---
 
 NNS is the central software that controls the voting of network proposals. NNS holds the public key to validate all network tx.

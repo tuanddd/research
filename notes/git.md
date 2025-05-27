@@ -5,6 +5,8 @@ date: null
 tags:
   - git
   - git-flow
+redirect:
+  - /k925EQ
 ---
 
 ### What is git?

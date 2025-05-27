@@ -10,6 +10,8 @@ tags:
   - ai
   - reinforcement-learning
   - llm
+redirect:
+  - /LWmmQA
 ---
 
 ## Introduction

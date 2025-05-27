@@ -6,6 +6,8 @@ tags:
   - cache
   - http
   - practice
+redirect:
+  - /njm1vg
 ---
 
 ### Concept

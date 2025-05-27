@@ -5,6 +5,8 @@ date: null
 tags:
   - development
   - email
+redirect:
+  - /voI2Mg
 ---
 
 2 types that draws the most focus

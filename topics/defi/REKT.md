@@ -2,6 +2,8 @@
 title: REKT
 description: null
 date: null
+redirect:
+  - /CumOSQ
 ---
 
 Different types of hacks How can you minimize your chances of being negatively affected by a hack?

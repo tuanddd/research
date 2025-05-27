@@ -5,6 +5,8 @@ date: null
 tags:
   - data
   - strategy
+redirect:
+  - /kZa20w
 ---
 
 Devices and software create what Davis and Davidson call “data exhaust,” the detritus of our interactions with various interfaces. But this information is not designed with [[¶ Falsifiability | falsifiability]] in mind. It’s a by-product. Collecting it is not the same as doing research.

@@ -7,6 +7,8 @@ authors:
 tags:
   - devbox
   - nix
+redirect:
+  - /2QrBYA
 ---
 
 Let's cut to the chase: Devbox is Nix with training wheels, and that's a good thing. Here's why we're all in on Devbox for building killer dev environments.

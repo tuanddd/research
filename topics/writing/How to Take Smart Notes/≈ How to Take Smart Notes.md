@@ -5,6 +5,8 @@ date: null
 tags:
   - note
   - zettelkasten
+redirect:
+  - /M8PBgg
 ---
 
 ## Summary

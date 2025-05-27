@@ -9,6 +9,8 @@ tags:
   - networking
   - go-weekly
   - golang
+redirect:
+  - /j5UpVg
 ---
 
 ## [Go Features By Version](https://antonz.org/which-go/)

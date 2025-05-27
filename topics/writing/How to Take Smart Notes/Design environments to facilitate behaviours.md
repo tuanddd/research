@@ -5,6 +5,8 @@ date: null
 tags:
   - smart-note
   - writing
+redirect:
+  - /YCYCoA
 ---
 
 Willpower is a finite resource, and difficult to sustain. Designing environments to facilitate desire behaviour is a much more effective approach in the long run.

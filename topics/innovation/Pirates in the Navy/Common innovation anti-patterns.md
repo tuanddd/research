@@ -5,6 +5,8 @@ date: null
 tags:
   - innovation
   - pattern
+redirect:
+  - /rwvjgQ
 ---
 
 ### Common innovation anti-patterns

@@ -8,6 +8,8 @@ tags:
   - language
   - enterprise
   - golang
+redirect:
+  - /FCLJ1Q
 ---
 
 ## How to use Go in enterprise?

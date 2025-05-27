@@ -2,6 +2,8 @@
 title: History
 description: null
 date: null
+redirect:
+  - /C4I18A
 ---
 
 ### Bitcoin

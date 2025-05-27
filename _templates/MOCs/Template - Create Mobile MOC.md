@@ -4,6 +4,8 @@ description: null
 date: null
 recurringTemplate: true
 recurringTemplateName: engineering-mobile-moc
+redirect:
+  - /b25Hfw
 ---
 
 This is a [[Map of Content]] related to the engineering concepts around mobile.

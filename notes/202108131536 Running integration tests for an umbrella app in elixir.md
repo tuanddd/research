@@ -4,6 +4,8 @@ description: null
 date: null
 tags:
   - elixir
+redirect:
+  - /gSvE3Q
 ---
 
 The umbrella project is meant to be an umbrella facility really, you can't add code nor tests to it. I can see two options:

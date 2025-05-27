@@ -7,6 +7,8 @@ authors:
 tags:
   - moc
   - security
+redirect:
+  - /9otX8A
 ---
 
 ### Security fundamentals & principles

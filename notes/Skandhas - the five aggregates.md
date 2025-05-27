@@ -6,6 +6,8 @@ tags:
   - process
   - skandhas
   - ux
+redirect:
+  - /QwUtbw
 ---
 
 ![](http://payattention.ca/wp-content/uploads/2020/09/5aggregates-1080x675.jpg)

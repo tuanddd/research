@@ -4,6 +4,8 @@ description: null
 date: null
 tags:
   - data
+redirect:
+  - /8J6nCg
 ---
 
 #### Explaining

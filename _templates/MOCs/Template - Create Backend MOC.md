@@ -4,6 +4,8 @@ description: null
 date: null
 recurringTemplate: true
 recurringTemplateName: engineering-backend-moc
+redirect:
+  - /0IsGeQ
 ---
 
 This is a [[Map of Content]] related to the engineering concepts around backend.

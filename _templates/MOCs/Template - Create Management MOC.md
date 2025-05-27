@@ -4,6 +4,8 @@ description: null
 date: null
 recurringTemplate: true
 recurringTemplateName: engineering-management-moc
+redirect:
+  - /eQAd5g
 ---
 
 This is a [[Map of Content]] related to the engineering concepts around management.

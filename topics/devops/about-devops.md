@@ -4,6 +4,8 @@ description: Learn how DevOps improves software delivery with continuous integra
 date: 2018-07-23
 tags:
   - devops
+redirect:
+  - /OvfD2A
 ---
 
 ## What is DevOps actually?

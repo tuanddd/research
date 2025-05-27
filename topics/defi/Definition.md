@@ -2,6 +2,8 @@
 title: Definition
 description: null
 date: null
+redirect:
+  - /XLTguA
 ---
 
 ### What

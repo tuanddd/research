@@ -5,6 +5,8 @@ date: null
 tags:
   - developer
   - insight
+redirect:
+  - /GxzNNw
 ---
 
 `to be a nerd is to be socially awkward`

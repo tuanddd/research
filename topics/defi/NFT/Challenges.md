@@ -2,6 +2,8 @@
 title: Challenges
 description: null
 date: null
+redirect:
+  - /Gjge0A
 ---
 
 ### Current problem
