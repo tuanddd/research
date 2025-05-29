@@ -3,6 +3,7 @@ title: What is skillmax?
 description: "Explains 'skillmaxing,' using AI for accelerated learning and skill development in a fast-changing world, and why it's crucial now."
 authors:
   - tieubao
+  - grok
 date: 2025-05-14
 tags:
   - ai
@@ -23,6 +24,6 @@ Here's why **skillmaxing** makes learning a breeze:
 - **Stay curious**: Ask AI to break down new topics (like blockchain or neumorphism) anytime.
 
 **Why the rush?**\
-The productivity landscape is moving at warp speed (just check X trends on May 29, 2025!). New AI tools drop daily, and those who **skillmax** are already ahead, producing better work faster. Sam Altman's "ngmi" warning isn't a joke: if you don't keep up, you'll be left in the dust. Start **skillmaxing** today at 04:25 PM +08 on Thursday, May 29, 2025. Pick an AI tool, try it for coding, designing, or brainstorming (it's easier than you think!). Don't wait to max your skills, jump in and lead the way!
+The productivity landscape is moving at warp speed. New AI tools drop daily, and those who **skillmax** are already ahead, producing better work faster. Sam Altman's "ngmi" warning isn't a joke: if you don't keep up, you'll be left in the dust. Start **skillmaxing** today. Pick an AI tool, try it for coding, designing, or brainstorming (it's easier than you think!). Don't wait to max your skills, jump in and lead the way!
 
 > Check out [The art of skillmaxing](/culture/skillmaxing)
