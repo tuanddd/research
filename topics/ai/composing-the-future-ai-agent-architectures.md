@@ -515,34 +515,34 @@ This shows fast-agent's declarative power: parallel processing for speed, an eva
 # These would be decorated functions if 'fast' was a real imported object.
 
 # English Content Writer
-# @fast.agent(instruction="You are an expert marketing copywriter. Write a compelling product description for the given product details.")
+@fast.agent(instruction="You are an expert marketing copywriter. Write a compelling product description for the given product details.")
 def english_writer_agent(product_details: str) -> str:
     # Conceptual: LLM call to generate English description
     print(f"[english_writer_agent] ACTION: Generating content for {product_details[:30]}...")
     return f"Amazing English description for {product_details}!"
 
 # French Translator
-# @fast.agent(instruction="Translate the provided English text accurately into French.")
+@fast.agent(instruction="Translate the provided English text accurately into French.")
 def french_translator_agent(english_text: str) -> str:
     # Conceptual: LLM call for French translation
     print(f"[french_translator_agent] ACTION: Translating to French: {english_text[:30]}...")
     return f"Incroyable description en Français pour {english_text}"
 
 # Spanish Translator
-# @fast.agent(instruction="Translate the provided English text accurately into Spanish.")
+@fast.agent(instruction="Translate the provided English text accurately into Spanish.")
 def spanish_translator_agent(english_text: str) -> str:
     # Conceptual: LLM call for Spanish translation
     print(f"[spanish_translator_agent] ACTION: Translating to Spanish: {english_text[:30]}...")
     return f"Increíble descripción en Español para {english_text}"
 
 # Translation Aggregator
-# @fast.agent(instruction="Combine the French and Spanish translations into a structured JSON object with 'french_text' and 'spanish_text' keys.")
+@fast.agent(instruction="Combine the French and Spanish translations into a structured JSON object with 'french_text' and 'spanish_text' keys.")
 def translation_aggregator_agent(french_translation: str, spanish_translation: str) -> dict:
     print(f"[translation_aggregator_agent] ACTION: Aggregating translations.")
     return {"french_text": french_translation, "spanish_text": spanish_translation}
 
 # Quality Assurance Evaluator
-# @fast.agent(instruction="Review the provided translations. Rate their quality as POOR, FAIR, GOOD, or EXCELLENT. If not EXCELLENT, provide specific feedback for improvement.")
+@fast.agent(instruction="Review the provided translations. Rate their quality as POOR, FAIR, GOOD, or EXCELLENT. If not EXCELLENT, provide specific feedback for improvement.")
 def quality_assurance_evaluator_agent(translations: dict) -> dict:
     # Conceptual: LLM call to evaluate and provide feedback
     print(f"[quality_assurance_evaluator_agent] ACTION: Evaluating translations: {str(translations)[:50]}...")
@@ -557,11 +557,11 @@ def quality_assurance_evaluator_agent(translations: dict) -> dict:
 # --- Workflow Definitions ---
 
 # Parallel Translation Workflow
-# @fast.parallel(
-#     name="multilingual_translation_service",
-#     fan_out=[french_translator_agent, spanish_translator_agent], # Would be actual agent objects or names
-#     fan_in=translation_aggregator_agent # Actual agent object or name
-# )
+@fast.parallel(
+    name="multilingual_translation_service",
+    fan_out=[french_translator_agent, spanish_translator_agent], # Would be actual agent objects or names
+    fan_in=translation_aggregator_agent # Actual agent object or name
+)
 def parallel_translation_workflow(english_description: str) -> dict:
     # Conceptual: fast-agent handles the parallel execution and fan-in.
     # It would call french_translator_agent(english_description)
@@ -575,13 +575,13 @@ def parallel_translation_workflow(english_description: str) -> dict:
     return aggregated
 
 # Evaluator-Optimizer for Refinement
-# @fast.evaluator_optimizer(
-#     name="refined_multilingual_content_generator",
-#     generator=parallel_translation_workflow, # The parallel workflow is the generator
-#     evaluator=quality_assurance_evaluator_agent,
-#     min_rating="GOOD", # The rating to achieve from the evaluator_agent
-#     max_refinements=2  # Max number of retries
-# )
+@fast.evaluator_optimizer(
+    name="refined_multilingual_content_generator",
+    generator=parallel_translation_workflow, # The parallel workflow is the generator
+    evaluator=quality_assurance_evaluator_agent,
+    min_rating="GOOD", # The rating to achieve from the evaluator_agent
+    max_refinements=2  # Max number of retries
+)
 def content_refinement_workflow(english_description: str) -> dict:
     # Conceptual: fast-agent manages the loop.
     # 1. Calls parallel_translation_workflow(english_description).
