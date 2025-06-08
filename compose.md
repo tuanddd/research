@@ -32,13 +32,13 @@ Each part builds on the last, starting with a snapshot of what’s new at Dwarve
 
 #### Columns in detail
 
-> **Overview** / Narratives / Pulses / Radar / Outside / Reflection
+> **OVERVIEW** / NARRATIVE / PULSE / RADAR / OUTSIDE / REFLECTION
 
 Here’s a breakdown of each section to guide your writing.
 
 The **overview** sets the tone with a quick snapshot of what’s happening at Dwarves, covering our current research, hiring updates, or recent deliverables. Keep it brief but engaging, so readers know what to expect.
 
-**Tech narratives** focus on the big trends in the dev and tech community, exploring how they shape the way we build software. This is where we dig into what’s driving change and what it means for our work as craftspeople. For instance, in our [May 2025 issue](/vault/updates/forward/2025-05.md), we explored how AI is changing software development, a trend we see growing stronger.
+**Tech narratives** focus on the big trends in the dev and tech community, exploring how they shape the way we build software. This is where we dig into what’s driving change and what it means for our work as craftspeople. For instance, in our [May 2025 issue](/updates/forward/2025-05), we explored how AI is changing software development, a trend we see growing stronger.
 
 **Pulses** spotlight new movements in the tech or biz scene that could lead to opportunities. We look for early signals of change and discuss how they might influence our approach or create new possibilities.
 
