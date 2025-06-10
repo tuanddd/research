@@ -13,7 +13,7 @@ tags:
   - culture
 ---
 
-**Here's an uncomfortable truth:** the software industry has been hiring for the wrong skills. We've obsessed over algorithmic prowess and LeetCode mastery while ignoring the abilities that actually matter for building great software. Now, with AI agents writing code faster than any human, this misalignment has become a crisis.
+**The software industry has a hiring problem.** We've spent decades optimizing for algorithmic wizards who can reverse binary trees in their sleep, while completely ignoring the skills that actually matter for building great software. Now, with AI agents writing code faster than any human, this misalignment isn't just inefficient—it's existential.
 
 The concept of "weak engineers" exposes what many already knew: technical skill alone doesn't make someone effective. Engineers share stories of brilliant coders who couldn't communicate, couldn't think strategically, and couldn't deliver real value.
 
