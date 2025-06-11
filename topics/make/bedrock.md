@@ -3,6 +3,7 @@ title: From beta to bedrock
 description: Build products that actually stick by focusing on what users need, not feature bloat. Learn how the bedrock philosophy beats AI cloning and creates lasting value through simplicity and trust.
 date: 2025-01-27
 tags:
+  - make
   - product
   - bedrock
   - ai

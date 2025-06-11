@@ -3,6 +3,7 @@ title: Soul vs scale
 description: Explore the tension between putting care and love into products versus scaling for market demands. Learn how companies like Apple maintain their essence while growing.
 date: 2024-12-19
 tags:
+  - make
   - product
   - philosophy
   - scaling
