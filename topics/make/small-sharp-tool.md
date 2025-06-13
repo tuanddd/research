@@ -4,6 +4,7 @@ description: Explore the Unix philosophy of small, sharp tools and how it applie
 date: 2025-06-05
 authors:
   - tieubao
+pinned: true
 tags:
   - make
   - product

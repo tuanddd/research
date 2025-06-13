@@ -13,7 +13,6 @@ tags:
   - experiments
   - research
 toc: true
-pinned: true
 ---
 
 As a tech-first consulting firm, our strength lies in turning cutting-edge research into game-changing solutions for clients. Our labs team produces innovative pilot experiments every tech wave across blockchain, AI, data, DevOps, and software construction. Meanwhile, our consulting team translates these ideas into real-world client success.
@@ -101,3 +100,7 @@ Without clear metrics, the system might fade away.
 **Everyone**: Share pilot spotlight stories when you use a pilot.
 
 Let's close the gap together. This framework empowers you, whether you're in labs dreaming up ideas or in consulting delivering value to clients.
+
+---
+
+Read more: [P2P sharing: gossip protocol](/handbook/gossip)
