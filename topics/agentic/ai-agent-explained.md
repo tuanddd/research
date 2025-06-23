@@ -73,7 +73,7 @@ AI workflows combine LLMs with predefined steps that humans design. These system
 
 ## Level three: AI agents
 
-**AI agents are truly autonomous.** The LLM becomes the decision maker, reasoning about the best way to achieve your goal and taking actions using available tools. This represents the fundamental shift from human decision-making to AI decision-making.
+[**AI agents are truly autonomous.**](https://memo.d.foundation/arc/on-agent/) The LLM becomes the decision maker, reasoning about the best way to achieve your goal and taking actions using available tools. This represents the fundamental shift from human decision-making to AI decision-making.
 
 **Agents can judge their own work and act on that judgment.** They iterate, critique their own outputs, and improve results without constant human intervention. This self-evaluation capability sets them apart from simple automation. They use frameworks like ReAct (reasoning and acting) to plan their approach, execute actions, evaluate results, and adjust their strategy based on what they learn.
 
@@ -88,6 +88,8 @@ Consider this real-world example: an AI vision agent searches video clips for a 
 If you're still making the key decisions about what happens next, you're working with workflows, not agents. True agents take responsibility for determining the best path toward your objective.
 
 ## Practical implementation guide
+
+**If you want to move from simple automation to true AI agents, focus on shifting decision making from humans to the AI.** This is the fundamental transition that unlocks autonomous behavior.
 
 **Start with simple LLMs for text tasks.** Use them for writing, editing, and content generation where you maintain full control over the process.
 
