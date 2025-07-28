@@ -12,36 +12,8 @@ tags:
   - typescript
   - architecture
   - optimization
+toc: true
 ---
-
-## Table of Contents
-
-1. [Overview](#overview)
-
-   - [Core Components](#core-components)
-   - [Problems We Fixed](#problems-we-fixed)
-
-2. [How it works](#how-it-works)
-
-   - [Architecture Overview](#architecture-overview)
-   - [Request flow](#request-flow)
-   - [Data Structures and Algorithms](#data-structures-and-algorithms)
-     - [Signature System](#signature-system)
-     - [Flow Execution Engine](#flow-execution-engine)
-     - [Optimization Algorithms](#optimization-algorithms)
-   - [Type Safety and Template Processing](#type-safety-and-template-processing)
-
-3. [Technical Challenges and Solutions](#technical-challenges-and-solutions)
-
-   - [Challenge 1: LLM input and output are not typed](#challenge-1-llm-input-and-output-are-not-typed)
-   - [Challenge 2: Workflow node also need to be typed (knows the Signature input/output)](#challenge-2-workflow-node-also-need-to-be-typed-knows-the-signature-inputoutput)
-   - [Challenge 3: LLM Providers don't like each other](#challenge-3-llm-providers-dont-like-each-other)
-   - [Challenge 4: DSPy Optimization in TypeScript](#challenge-4-dspy-optimization-in-typescript)
-
-4. [Smart Tricks We Found](#smart-tricks-we-found)
-
-   - [Trick 1: Runtime Checks That Play Nice with TypeScript](#trick-1-runtime-checks-that-play-nice-with-typescript)
-   - [Trick 2: Finding Parallel Operations Automatically](#trick-2-finding-parallel-operations-automatically)
 
 ## Overview
 
@@ -49,22 +21,22 @@ tags:
 
 Ax is the essential toolkit you wish to have in the new emerging trend of context engineering because it frees you from all the hassles of prompt engineering and enable you to focus more on your business domain logic. You might think it looks wizardry and PhD-level kind of things but at the end of the day it's just string templates.
 
-- **Template Literal Signatures**: Structured input/output, no more `"please output with JSON my life depends on it please 🙏"` shenanigans
-- **Fluent Workflow Engine**: Define workflows with declarative fluent API
-- **Advanced Optimization**: Make your LLM smarter by literally teaching it, using the teacher-student pattern (no cap)
+- **Template literal signatures**: Structured input/output, no more `"please output with JSON my life depends on it please 🙏"` shenanigans
+- **Fluent workflow engine**: Define workflows with declarative fluent API
+- **Advanced optimization**: Make your LLM smarter by literally teaching it, using the teacher-student pattern (no cap)
 
 Ax brings DSPy’s signature and optimization to TypeScript. Less prompt maneuver, more context engineering.
 
-### Problems We Fixed
+### Problems it fixed
 
 LLM dev in TypeScript used to suck:
 
-- **No Type Safety**: Find out at runtime your LLM output is garbage
-- **Manual Workflows**: Wire up multi-step operations by hand like a caveman
-- **Bad Prompts**: Different prompt works with different model, tweaking your prompt to work correctly is even harder than asking your girl what to eat
-- **Vendor Lock-in**: Switch providers? Rewrite everything. Fun.
+- **No type safety**: Find out at runtime your LLM output is garbage
+- **Manual workflows**: Wire up multi-step operations by hand like a caveman
+- **Bad prompts**: Different prompt works with different model, tweaking your prompt to work correctly is even harder than asking your girl what to eat
+- **Vendor lock-in**: Switch providers? Rewrite everything. Fun.
 
-### The Three Foundational Pillars
+### The three foundational pillars
 
 - 🏛️ **Ax Signature (`AxSignature`)**: The most primitive unit of Ax, used in everywhere else
 
@@ -175,7 +147,7 @@ Hopefully by now you're intrigued in what Ax has to offer, read on to if you are
 
 ## How it works
 
-### Architecture Overview
+### Architecture overview
 
 ```mermaid
 graph TD
@@ -254,11 +226,11 @@ sequenceDiagram
     Optimizer->>Dev: Optimized program + stats
 ```
 
-### Data Structures and Algorithms
+### Data structures and algorithms
 
-#### Signature System (Pillar #1)
+#### Signature system (Pillar #1)
 
-##### AxSignature: The Core Type Definition
+##### AxSignature: The core type definition
 
 ```typescript
 class AxSignature {
@@ -280,7 +252,7 @@ class AxSignature {
 }
 ```
 
-##### Field Builder System
+##### Field builder system
 
 ```typescript
 export const f = {
@@ -312,13 +284,13 @@ export const f = {
 };
 ```
 
-- **Time Complexity**: O(1) for field creation, O(n) for signature validation where n = number of fields
-- **Space Complexity**: O(f) where f = total number of fields across all signatures
-- **Validation Performance**: Cached validation using SHA-256 hashing to avoid re-validation
+- **Time complexity**: O(1) for field creation, O(n) for signature validation where n = number of fields
+- **Space complexity**: O(f) where f = total number of fields across all signatures
+- **Validation performance**: Cached validation using SHA-256 hashing to avoid re-validation
 
-#### Flow Execution Engine (Pillar #2)
+#### Flow execution engine (Pillar #2)
 
-##### Dynamic Signature Inference Algorithm
+##### Dynamic signature inference algorithm
 
 ```typescript
 private inferSignatureFromFlow(): AxSignature {
@@ -352,7 +324,7 @@ private inferSignatureFromFlow(): AxSignature {
 }
 ```
 
-##### Parallel Execution Planning
+##### Parallel execution planning
 
 ```typescript
 class AxFlowExecutionPlanner {
@@ -420,9 +392,9 @@ class AxFlowExecutionPlanner {
 }
 ```
 
-#### Optimization Algorithms (Pillar #3)
+#### Optimization algorithms (Pillar #3)
 
-##### MiPRO v2 Implementation
+##### MiPRO v2 implementation
 
 ```typescript
 class AxMiPRO extends AxBaseOptimizer {
@@ -471,7 +443,7 @@ class AxMiPRO extends AxBaseOptimizer {
 }
 ```
 
-##### Bayesian Optimization with Acquisition Functions
+##### Bayesian optimization with acquisition functions
 
 ```typescript
 private calculateAcquisitionValue(config: ConfigType): number {
@@ -507,7 +479,7 @@ private calculateAcquisitionValue(config: ConfigType): number {
 }
 ```
 
-##### Bootstrap Few Shot Execution Flow
+##### Bootstrap few shot execution flow
 
 The teacher-student pattern that makes your prompts actually good:
 
@@ -542,9 +514,9 @@ flowchart TD
     style Skip fill:#ffebee
 ```
 
-**Key Insight**: Teacher model quality examples → Student learns patterns → Better few-shot demos for production
+**Key insight**: Teacher model quality examples → Student learns patterns → Better few-shot demos for production
 
-##### MiPRO v2 Execution Flow
+##### MiPRO v2 execution flow
 
 Bayesian optimization that makes your prompts scientifically better:
 
@@ -595,9 +567,9 @@ flowchart TD
     style Return fill:#e8f5e8
 ```
 
-**The Magic**: Each trial teaches the algorithm which configurations work → Converges to optimal prompt settings faster than manual tuning
+**The magic**: Each trial teaches the algorithm which configurations work → Converges to optimal prompt settings faster than manual tuning
 
-##### Combined Optimization Pipeline
+##### Combined optimization pipeline
 
 How Bootstrap feeds into MiPRO for maximum effectiveness:
 
@@ -642,7 +614,7 @@ sequenceDiagram
     Note over Dev,Eval: Result: Production-Ready Program
 ```
 
-### Type Safety and Template Processing
+### Type safety and template processing
 
 The template literal system gives you compile-time type checking through TypeScript magic:
 
@@ -679,18 +651,18 @@ export function ax<IN extends AxGenIn, OUT extends AxGenerateResult<AxGenOut>>(
 }
 ```
 
-## Technical Challenges and Solutions
+## Technical challenges and solutions
 
 ### Challenge 1: LLM input and output are not typed
 
-**Why It's Annoying**:
+**Why it's annoying**:
 
 - TypeScript checks templates at compile time, but LLMs need runtime validation too
 - Field builders gotta work smoothly with template parsing
 - Type info can't get lost in the shuffle
 - Need to handle complex stuff (arrays, optional fields, classes) in templates
 
-**The Solution**: Dual-Phase Processing with Type Preservation
+**The solution**: Dual-Phase Processing with Type Preservation
 
 ```typescript
 // Phase 1: Template literal processing with field builder integration
@@ -745,16 +717,16 @@ class AxSignature {
 
 **Result**: Perfect integration of compile-time type checking with runtime validation, enabling both developer productivity and runtime safety.
 
-### Challenge 2: Workflow node also need to be typed (knows the Signature input/output)
+### Challenge 2: Workflow node also need to be typed (knows the signature input/output)
 
-**Why It's a Pain**:
+**Why it's a pain**:
 
 - Workflows can branch, loop, and merge however they want
 - State changes every step, collecting more fields
 - Final signature depends on analyzing the whole execution path
 - Type info can't get corrupted along the way
 
-**How We Solved It**: Analyze execution plans and track type changes
+**How we solved it**: Analyze execution plans and track type changes
 
 ```typescript
 private inferSignatureFromFlow(): AxSignature {
@@ -822,13 +794,13 @@ private inferSignatureFromFlow(): AxSignature {
 }
 ```
 
-**The Trick**: Treat the workflow like a data flow graph, then use graph analysis to figure out the right signature automatically.
+**The trick**: Treat the workflow like a data flow graph, then use graph analysis to figure out the right signature automatically.
 
-**The Key Trick**: Copy state immutably plus dependency analysis ensures safe parallel execution without race conditions.
+**The key trick**: Copy state immutably plus dependency analysis ensures safe parallel execution without race conditions.
 
-### Challenge 3: LLM Providers don't like each other
+### Challenge 3: LLM providers don't like each other
 
-**Provider Differences**:
+**Provider differences**:
 
 - Different ways to authenticate (API keys, OAuth, custom headers)
 - Different request/response formats
@@ -836,7 +808,7 @@ private inferSignatureFromFlow(): AxSignature {
 - Different error handling and retry approaches
 - Different rate limits and pricing
 
-**How We Solved It**: Layered abstraction that detects what each provider can do
+**How we solved it**: Layered abstraction that detects what each provider can do
 
 ```typescript
 // Base abstraction layer
@@ -898,13 +870,13 @@ export class AxAIRouter {
 }
 ```
 
-**Cool Feature**: Automatic fallback chain that keeps capabilities ensures requests always reach a provider that can handle them.
+**Cool feature**: Automatic fallback chain that keeps capabilities ensures requests always reach a provider that can handle them.
 
-### Challenge 4: DSPy Optimization in TypeScript
+### Challenge 4: DSPy optimization in TypeScript
 
-**The Problem**: Building complex optimization algorithms like MiPRO v2 in TypeScript while keeping the math correct from the original Python version.
+**The problem**: Building complex optimization algorithms like MiPRO v2 in TypeScript while keeping the math correct from the original Python version.
 
-**Math Stuff That'll Melt Your Brain**:
+**Math stuff that'll melt your brain**:
 
 - Bayesian optimization with Gaussian processes
 - Multiple ways to pick next parameters (EI, UCB, PI)
@@ -912,7 +884,7 @@ export class AxAIRouter {
 - Multi-goal optimization with Pareto frontiers
 - Advanced sampling strategies
 
-**How We Solved It**: Pure TypeScript version with optional Python backend
+**How we solved it**: Pure TypeScript version with optional Python backend
 
 **WARNING**: Math zone detected, big brains alert
 
@@ -1000,17 +972,17 @@ class AxMiPRO extends AxBaseOptimizer {
 }
 ```
 
-**Best of Both**: Pure TypeScript works in browsers, optional Python backend for advanced math stuff.
+**Best of both**: Pure TypeScript works in browsers, optional Python backend for advanced math stuff.
 
-## Smart Tricks We Found
+## Smart tricks we found
 
 Ax doesn't have many tricks to begin with, its selling point is with the signature pattern and collection of optimizers. The biggest trick of Ax/DSPy is how it managed to stay so low-key for so many years that no one has mentioned it in mainstream media (blog posts, tutorials, etc...) until context engineering become the new trend
 
-### Trick 1: Runtime Checks That Play Nice with TypeScript
+### Trick 1: Runtime checks that play nice with TypeScript
 
-**The Problem**: Making sure field names are descriptive at runtime without breaking TypeScript's compile-time checking.
+**The problem**: Making sure field names are descriptive at runtime without breaking TypeScript's compile-time checking.
 
-**How We Did It**: Multiple layers of validation with ~~tons of @ts-ignores~~ compile-time hints.
+**How we did it**: Multiple layers of validation with ~~tons of @ts-ignores~~ compile-time hints.
 
 ```typescript
 function validateField(field: AxField, context: "input" | "output"): void {
@@ -1066,13 +1038,13 @@ function createField(name: DescriptiveFieldName, type: AxFieldType): AxField {
 }
 ```
 
-**The Cool Part**: Mix runtime validation with TypeScript's branded types to get both type safety and runtime checks.
+**The cool part**: Mix runtime validation with TypeScript's branded types to get both type safety and runtime checks.
 
-### Trick 2: Finding Parallel Operations Automatically
+### Trick 2: Finding parallel operations automatically
 
-**The Problem**: Finding operations that can run in parallel without making developers mark them explicitly.
+**The problem**: Finding operations that can run in parallel without making developers mark them explicitly.
 
-**How We Did It**: Control flow analysis with execution graph optimization.
+**How we did it**: Control flow analysis with execution graph optimization.
 
 ```typescript
 class AxFlowExecutionPlanner {
@@ -1168,4 +1140,4 @@ class AxFlowExecutionPlanner {
 }
 ```
 
-**Just Works**: Complex workflows automatically get parallel execution without any setup.
+**Just works**: Complex workflows automatically get parallel execution without any setup.
