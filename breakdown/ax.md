@@ -27,6 +27,18 @@ Ax is the essential toolkit you wish to have in the new emerging trend of contex
 
 Ax brings DSPy’s signature and optimization to TypeScript. Less prompt maneuver, more context engineering.
 
+### You lost me at DSPy, wtf is that?
+
+Let's break it down, <u>**D**</u>eclarative <u>**S**</u>elf-improving <u>**Py**</u>thon:
+
+- Declarative: refers to the signature pattern
+- Self-improving: refers to the optimization flow where it learns by your examples
+- Python: quite self-explanatory
+
+![](https://github.com/user-attachments/assets/059865cd-dfc3-4db1-9e04-7e9fc55a1f90)
+
+Ax is the faithful port of DSPy, preserving the core concepts.
+
 ### Problems it fixed
 
 LLM dev in TypeScript used to suck:
@@ -35,6 +47,13 @@ LLM dev in TypeScript used to suck:
 - **Manual workflows**: Wire up multi-step operations by hand like a caveman
 - **Bad prompts**: Different prompt works with different model, tweaking your prompt to work correctly is even harder than asking your girl what to eat
 - **Vendor lock-in**: Switch providers? Rewrite everything. Fun.
+
+### This sounds too good to be true, what's the catch?
+
+Compared to other frameworks/libraries like Mastra, VoltAgent or even the original DSPy itself:
+
+- Maturity: obviously because TypeScript is not the de-factor language of choice in the ML world, community adoption is still small. As a result, documentation is as rich as others
+- Usecase: Ax takes the doubling down approach on conversational agents, it's no coincidence that most of the examples are just chatbots. So unless you want to omega-optimize your agent to provide 100/10 answers otherwise it's quite overkill
 
 ### The three foundational pillars
 
@@ -230,6 +249,8 @@ sequenceDiagram
 
 #### Signature system (Pillar #1)
 
+![](./assets//ax_signature.png)
+
 ##### AxSignature: The core type definition
 
 ```typescript
@@ -393,6 +414,8 @@ class AxFlowExecutionPlanner {
 ```
 
 #### Optimization algorithms (Pillar #3)
+
+![](./assets/ax_teacher-student.png)
 
 ##### MiPRO v2 implementation
 
