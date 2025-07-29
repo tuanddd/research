@@ -1,7 +1,7 @@
 ---
-title: Zen MCP deep dive
+title: Zen MCP breakdown
 short_title: Zen MCP
-description: "Technical analysis of the Zen MCP (Model Context Protocol) Server architecture, implementation, and design patterns."
+description: 'Technical analysis of the Zen MCP (Model Context Protocol) Server architecture, implementation, and design patterns.'
 date: 2025-07-29
 authors:
   - vdhieu
@@ -592,6 +592,7 @@ CURRENT REQUEST: Now do a comprehensive security audit focusing on the issues fo
 ### Challenge 4: Token budget management across models
 
 **The problem**: Different AI models have vastly different context windows:
+
 - **O3**: 200K tokens
 - **Gemini 2.5**: 1M tokens
 - **Custom models**: 8K-128K tokens
@@ -970,8 +971,8 @@ def calculate_token_allocation(self) -> TokenAllocation:
 ```python
 PROVIDER_PRIORITY_ORDER = [
     ProviderType.GOOGLE,      # Direct APIs: Fast, cheap
-    ProviderType.OPENAI,      
-    ProviderType.XAI,         
+    ProviderType.OPENAI,
+    ProviderType.XAI,
     ProviderType.DIAL,        # Unified APIs: More latency
     ProviderType.CUSTOM,      # Local: Privacy, limited
     ProviderType.OPENROUTER,  # Catch-all: Highest latency
@@ -1035,10 +1036,12 @@ async def call_external_model(enhanced_prompt: str) -> str:
 
 ## What we would do differently
 
-**1. Memory persistence**: 
+**1. Memory persistence**:
+
 - **Current**: In-memory storage, lost on restart
 - **Better**: Redis/SQLite persistence with conversation export/import
 
 **2. File change detection**:
+
 - **Current**: File content may change between conversation turns
 - **Better**: File hashing to detect changes, automatic re-embedding

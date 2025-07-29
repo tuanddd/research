@@ -1,7 +1,7 @@
 ---
 title: Ax Framework breakdown
 short_title: Ax Framework
-description: "Technical analysis of the Ax TypeScript framework for building LLM-powered agents with DSPy capabilities."
+description: 'Technical analysis of the Ax TypeScript framework for building LLM-powered agents with DSPy capabilities.'
 date: 2025-07-29
 authors:
   - tuanddd
@@ -70,13 +70,13 @@ Compared to other frameworks/libraries like Mastra, VoltAgent or even the origin
 Look mom, no prompts
 
 ```typescript
-import { AxAI, ax } from "@ax-llm/ax";
+import { AxAI, ax } from '@ax-llm/ax';
 
 const textToSummarize = `
 The technological singularity—or simply the singularity[1]—is a hypothetical future point in time at which technological growth becomes uncontrollable and irreversible, resulting in unforeseeable changes to human civilization.[2][3] ...`;
 
 const ai = new AxAI({
-  name: "openai",
+  name: 'openai',
   apiKey: process.env.OPENAI_APIKEY as string,
 });
 
@@ -85,7 +85,7 @@ const gen = ax`textToSummarize -> textType:class "note, email, reminder", shortS
 
 const res = await gen.forward(ai, { textToSummarize });
 
-console.log(">", res);
+console.log('>', res);
 ```
 
 #### Agent Smith would be proud
@@ -96,25 +96,25 @@ Look mom still no prompts
 
 ```typescript
 const researcher = new AxAgent({
-  name: "researcher",
-  description: "Researcher agent",
+  name: 'researcher',
+  description: 'Researcher agent',
   signature: `physicsQuestion "physics questions" -> answer "reply in bullet points"`,
 });
 
 const summarizer = new AxAgent({
-  name: "summarizer",
-  description: "Summarizer agent",
+  name: 'summarizer',
+  description: 'Summarizer agent',
   signature: `text "text so summarize" -> shortSummary "summarize in 5 to 10 words"`,
 });
 
 const agent = new AxAgent({
-  name: "agent",
-  description: "A an agent to research complex topics",
+  name: 'agent',
+  description: 'A an agent to research complex topics',
   signature: `question -> answer`,
   agents: [researcher, summarizer],
 });
 
-agent.forward(ai, { questions: "How many atoms are there in the universe" });
+agent.forward(ai, { questions: 'How many atoms are there in the universe' });
 ```
 
 #### Make o4-mini as smart as o4? Hold my beer
@@ -122,11 +122,11 @@ agent.forward(ai, { questions: "How many atoms are there in the universe" });
 You token cost will go up, but isn't it always the case when it comes to education 🤷🏻‍♂️?
 
 ```typescript
-import { AxAI, AxChainOfThought, AxMiPRO } from "@ax-llm/ax";
+import { AxAI, AxChainOfThought, AxMiPRO } from '@ax-llm/ax';
 
 // 1. Setup your AI service
 const ai = new AxAI({
-  name: "openai",
+  name: 'openai',
   config: {
     model: AxOpenAIModel.O4Mini,
   },
@@ -155,11 +155,11 @@ const metricFn = ({ prediction, example }) => {
 // 5. Run the optimization
 const result = await optimizer.compile(program, metricFn, {
   valset: validationData, // Optional validation set
-  auto: "medium", // Optimization level
+  auto: 'medium', // Optimization level
 });
 
 // 6. Use the optimized program
-const result = await optimizedProgram.forward(ai, { input: "test input" });
+const result = await optimizedProgram.forward(ai, { input: 'test input' });
 ```
 
 Hopefully by now you're intrigued in what Ax has to offer, read on to if you are
@@ -262,7 +262,7 @@ class AxSignature {
 
   // Template literal parsing with field builder support
   constructor(signature: string | TemplateStringsArray | AxSignatureConfig) {
-    if (typeof signature === "string") {
+    if (typeof signature === 'string') {
       const parsed = parseSignature(signature);
       this.inputFields = parsed.inputs.map(this.parseParsedField);
       this.outputFields = parsed.outputs.map(this.parseParsedField);
@@ -278,30 +278,30 @@ class AxSignature {
 ```typescript
 export const f = {
   string: (desc?: string): AxFieldType => ({
-    type: "string",
+    type: 'string',
     description: desc,
   }),
   class: (options: readonly string[], desc?: string): AxFieldType => ({
-    type: "class",
+    type: 'class',
     options,
     description: desc,
   }),
   array: <T extends AxFieldType>(
-    baseType: T
+    baseType: T,
   ): T & { readonly isArray: true } => ({
     ...baseType,
     isArray: true,
   }),
   optional: <T extends AxFieldType>(
-    baseType: T
+    baseType: T,
   ): T & { readonly isOptional: true } => ({
     ...baseType,
     isOptional: true,
   }),
   // Multi-modal types
-  image: (desc?: string): AxFieldType => ({ type: "image", description: desc }),
-  file: (desc?: string): AxFieldType => ({ type: "file", description: desc }),
-  url: (desc?: string): AxFieldType => ({ type: "url", description: desc }),
+  image: (desc?: string): AxFieldType => ({ type: 'image', description: desc }),
+  file: (desc?: string): AxFieldType => ({ type: 'file', description: desc }),
+  url: (desc?: string): AxFieldType => ({ type: 'url', description: desc }),
 };
 ```
 
@@ -362,12 +362,12 @@ class AxFlowExecutionPlanner {
           const results = await processBatches(
             group.steps,
             async (step, _index) => await step(state, context),
-            batchSize
+            batchSize,
           );
           // Merge results maintaining execution order
           return results.reduce(
             (merged, result) => ({ ...merged, ...result }),
-            state
+            state,
           );
         };
         optimizedSteps.push(parallelStep);
@@ -647,10 +647,10 @@ export function ax<IN extends AxGenIn, OUT extends AxGenerateResult<AxGenOut>>(
   strings: TemplateStringsArray,
   ...values: readonly AxSignatureTemplateValue[]
 ): AxGen<IN, OUT> {
-  let result = "";
+  let result = '';
 
   for (let i = 0; i < strings.length; i++) {
-    result += strings[i] ?? "";
+    result += strings[i] ?? '';
 
     if (i < values.length) {
       const val = values[i];
@@ -660,8 +660,8 @@ export function ax<IN extends AxGenIn, OUT extends AxGenerateResult<AxGenOut>>(
         const fieldNameMatch = result.match(/(\w+)\s*:\s*$/);
         if (fieldNameMatch && (val.isOptional || val.isInternal)) {
           let modifiedFieldName = fieldNameMatch[1]!;
-          if (val.isOptional) modifiedFieldName += "?";
-          if (val.isInternal) modifiedFieldName += "!";
+          if (val.isOptional) modifiedFieldName += '?';
+          if (val.isInternal) modifiedFieldName += '!';
           result = result.replace(/(\w+)(\s*:\s*)$/, `${modifiedFieldName}$2`);
         }
 
@@ -693,10 +693,10 @@ export function ax<IN extends AxGenIn, OUT extends AxGenerateResult<AxGenOut>>(
   strings: TemplateStringsArray,
   ...values: readonly AxSignatureTemplateValue[]
 ): AxGen<IN, OUT> {
-  let result = "";
+  let result = '';
 
   for (let i = 0; i < strings.length; i++) {
-    result += strings[i] ?? "";
+    result += strings[i] ?? '';
 
     if (i < values.length) {
       const val = values[i];
@@ -707,8 +707,8 @@ export function ax<IN extends AxGenIn, OUT extends AxGenerateResult<AxGenOut>>(
         if (fieldNameMatch && (val.isOptional || val.isInternal)) {
           const fieldName = fieldNameMatch[1]!;
           let modifiedFieldName = fieldName;
-          if (val.isOptional) modifiedFieldName += "?";
-          if (val.isInternal) modifiedFieldName += "!";
+          if (val.isOptional) modifiedFieldName += '?';
+          if (val.isInternal) modifiedFieldName += '!';
           result = result.replace(/(\w+)(\s*:\s*)$/, `${modifiedFieldName}$2`);
         }
         result += convertFieldTypeToString(val);
@@ -728,8 +728,8 @@ class AxSignature {
       return true; // Use cached validation
     }
 
-    this.inputFields.forEach((field) => validateField(field, "input"));
-    this.outputFields.forEach((field) => validateField(field, "output"));
+    this.inputFields.forEach((field) => validateField(field, 'input'));
+    this.outputFields.forEach((field) => validateField(field, 'output'));
     this.validateSignatureConsistency();
 
     this.validatedAtHash = this.sigHash; // Cache successful validation
@@ -853,7 +853,7 @@ export abstract class AxBaseAI implements AxAIService {
   }
 
   protected abstract chatImplementation(
-    req: AxChatRequest
+    req: AxChatRequest,
   ): Promise<AxChatResponse>;
 }
 
@@ -863,17 +863,17 @@ export class AxAIOpenAI extends AxBaseAI {
     return {
       functions: true,
       streaming: true,
-      vision: this.modelId.includes("vision"),
+      vision: this.modelId.includes('vision'),
       maxTokens: this.getMaxTokensForModel(this.modelId),
     };
   }
 
   protected async chatImplementation(
-    req: AxChatRequest
+    req: AxChatRequest,
   ): Promise<AxChatResponse> {
     const openaiRequest = this.convertToOpenAIFormat(req);
     const response = await this.openaiClient.chat.completions.create(
-      openaiRequest
+      openaiRequest,
     );
     return this.convertFromOpenAIFormat(response);
   }
@@ -888,7 +888,7 @@ export class AxAIRouter {
         return provider;
       }
     }
-    throw new Error("No provider satisfies requirements");
+    throw new Error('No provider satisfies requirements');
   }
 }
 ```
@@ -924,11 +924,11 @@ class AxMiPRO extends AxBaseOptimizer {
     const { mean, variance } = prediction;
     const std = Math.sqrt(variance);
     const bestScore = Math.max(
-      ...this.configHistory.map((entry) => entry.score)
+      ...this.configHistory.map((entry) => entry.score),
     );
 
     switch (this.acquisitionFunction) {
-      case "expected_improvement": {
+      case 'expected_improvement': {
         const improvement = mean - bestScore;
         if (std === 0) return Math.max(0, improvement);
 
@@ -967,28 +967,28 @@ class AxMiPRO extends AxBaseOptimizer {
   // Optional Python backend integration
   private async compilePython(
     program: AxGen,
-    metricFn: AxMetricFn
+    metricFn: AxMetricFn,
   ): Promise<AxMiPROResult> {
-    if (!this.pythonClient) throw new Error("Python client not initialized");
+    if (!this.pythonClient) throw new Error('Python client not initialized');
 
     const optimizationRequest = {
       study_name: `mipro_${Date.now()}`,
       parameters: [
-        { name: "temperature", type: "float", low: 0.1, high: 2.0 },
+        { name: 'temperature', type: 'float', low: 0.1, high: 2.0 },
         {
-          name: "bootstrappedDemos",
-          type: "int",
+          name: 'bootstrappedDemos',
+          type: 'int',
           low: 0,
           high: this.maxBootstrappedDemos,
         },
       ],
-      objective: { name: "score", direction: "maximize" },
+      objective: { name: 'score', direction: 'maximize' },
       n_trials: this.numTrials,
-      sampler: "TPESampler",
+      sampler: 'TPESampler',
     };
 
     const job = await this.pythonClient.createOptimizationJob(
-      optimizationRequest
+      optimizationRequest,
     );
     // ... handle optimization loop with Python backend
   }
@@ -1008,37 +1008,37 @@ Ax doesn't have many tricks to begin with, its selling point is with the signatu
 **How we did it**: Multiple layers of validation with ~~tons of @ts-ignores~~ compile-time hints.
 
 ```typescript
-function validateField(field: AxField, context: "input" | "output"): void {
+function validateField(field: AxField, context: 'input' | 'output'): void {
   if (!field.name || field.name.length === 0) {
     throw new AxSignatureValidationError(
-      "Field name cannot be blank",
-      field.name
+      'Field name cannot be blank',
+      field.name,
     );
   }
 
   // Runtime validation for field name descriptiveness
   if (axGlobals.signatureStrict) {
     const reservedNames = [
-      "text",
-      "object",
-      "data",
-      "value",
-      "result",
-      "response",
-      "request",
-      "item",
+      'text',
+      'object',
+      'data',
+      'value',
+      'result',
+      'response',
+      'request',
+      'item',
     ];
 
     if (reservedNames.includes(field.name.toLowerCase())) {
       const suggestions =
-        context === "input"
-          ? ["userInput", "questionText", "documentContent", "messageText"]
-          : ["responseText", "analysisResult", "categoryType", "summaryText"];
+        context === 'input'
+          ? ['userInput', 'questionText', 'documentContent', 'messageText']
+          : ['responseText', 'analysisResult', 'categoryType', 'summaryText'];
 
       throw new AxSignatureValidationError(
         `Field name '${field.name}' is too generic`,
         field.name,
-        `Use a more descriptive name. Examples: ${suggestions.join(", ")}`
+        `Use a more descriptive name. Examples: ${suggestions.join(', ')}`,
       );
     }
   }
@@ -1048,13 +1048,13 @@ function validateField(field: AxField, context: "input" | "output"): void {
     throw new AxSignatureValidationError(
       `Invalid field name '${field.name}' - must be camelCase or snake_case`,
       field.name,
-      'Use camelCase (e.g., "userInput") or snake_case (e.g., "user_input")'
+      'Use camelCase (e.g., "userInput") or snake_case (e.g., "user_input")',
     );
   }
 }
 
 // Type-level enforcement through branded types
-type DescriptiveFieldName = string & { __brand: "descriptive" };
+type DescriptiveFieldName = string & { __brand: 'descriptive' };
 
 function createField(name: DescriptiveFieldName, type: AxFieldType): AxField {
   return { name, type }; // Compile-time guarantee of descriptive name
@@ -1094,13 +1094,13 @@ class AxFlowExecutionPlanner {
             const stepResult = await stepInfo.step(state, context);
             return { [stepInfo.id]: stepResult };
           },
-          batchSize
+          batchSize,
         );
 
         // Merge all parallel results
         return results.reduce(
           (merged, result) => ({ ...merged, ...result }),
-          state
+          state,
         );
       };
     });
@@ -1124,7 +1124,7 @@ class AxFlowExecutionPlanner {
       for (let j = 0; j < i; j++) {
         const prevStep = this.steps[j]!;
         const hasDataDependency = step.dependencies.some((dep) =>
-          prevStep.produces.includes(dep)
+          prevStep.produces.includes(dep),
         );
 
         if (hasDataDependency) {
@@ -1147,11 +1147,11 @@ class AxFlowExecutionPlanner {
       const readyNodes = graph.filter(
         (node) =>
           !scheduled.has(node.id) &&
-          [...node.canExecuteAfter].every((dep) => scheduled.has(dep))
+          [...node.canExecuteAfter].every((dep) => scheduled.has(dep)),
       );
 
       if (readyNodes.length === 0) {
-        throw new Error("Circular dependency detected in execution graph");
+        throw new Error('Circular dependency detected in execution graph');
       }
 
       groups.push(readyNodes);
