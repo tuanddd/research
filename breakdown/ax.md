@@ -1,10 +1,10 @@
 ---
 title: Ax Framework breakdown
-short_title: Ax Framework breakdown
+short_title: Ax Framework
 description: "Technical analysis of the Ax TypeScript framework for building LLM-powered agents with DSPy capabilities."
-date: 2025-07-27
+date: 2025-07-29
 authors:
-  - vincent
+  - tuanddd
 tags:
   - breakdown
   - llm
