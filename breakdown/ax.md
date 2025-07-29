@@ -17,7 +17,7 @@ toc: true
 
 ## Overview
 
-## TL;DR
+### TL;DR
 
 Ax is the essential toolkit you wish to have in the new emerging trend of context engineering because it frees you from all the hassles of prompt engineering and enable you to focus more on your business domain logic. You might think it looks wizardry and PhD-level kind of things but at the end of the day it's just string templates.
 
