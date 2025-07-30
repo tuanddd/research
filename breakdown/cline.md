@@ -497,9 +497,9 @@ flowchart TD
     ContextBudget --> OptimizationEngine
     OptimizationEngine --> ContextSelection
 
-    style ScoringEngine fill:#e1f5fe,stroke:#01579b,stroke-width:2px
-    style OptimizationEngine fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
-    style ContextSelection fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px
+    style ScoringEngine fill:#e1f5fe40,stroke:#01579b40,stroke-width:2px,color:#000000
+    style OptimizationEngine fill:#f3e5f540,stroke:#4a148c40,stroke-width:2px,color:#000000
+    style ContextSelection fill:#e8f5e840,stroke:#1b5e2040,stroke-width:2px,color:#000000
 ```
 
 **Intelligent Selection Algorithm**:
