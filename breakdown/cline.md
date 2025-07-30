@@ -1118,7 +1118,7 @@ interface MemoryBankFiles {
 }
 ```
 
-### 11. Token and cost tracking
+### Token and cost tracking
 
 **Challenge**: Providing transparency and control over AI API costs while maintaining seamless user experience. Users need visibility into token usage patterns and cost implications of their development workflows.
 
@@ -1134,7 +1134,7 @@ interface TokenTracker {
 }
 ```
 
-### 12. Mode-specific system prompts and behavioral differentiation
+### Mode-specific system prompts and behavioral differentiation
 
 **Challenge**: Optimizing AI behavior for different types of development work. Analysis and planning require different approaches than implementation and execution, but traditional AI assistants use the same behavioral patterns for all tasks.
 
@@ -1170,7 +1170,7 @@ ask for clarification, prioritize quality, respect existing patterns.`
 
 **Behavioral Differentiation**: Plan mode focuses on information gathering and strategy development using the `plan_mode_respond` tool, while Act mode provides access to all execution tools except planning-specific ones.
 
-### 13. State storage implementation and persistence
+### State storage implementation and persistence
 
 **Challenge**: Reliably persisting complex application state across VS Code sessions while working within extension storage limitations and ensuring data integrity.
 
