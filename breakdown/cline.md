@@ -1,6 +1,6 @@
 ---
-title: "Cline breakdown"
-short_title: "Cline"
+title: 'Cline breakdown'
+short_title: 'Cline'
 description: "Comprehensive technical analysis of Cline's VS Code extension architecture, covering system design, implementation patterns, and architectural innovations"
 date: 2025-07-30
 authors:
@@ -176,16 +176,29 @@ Cline supports 33+ AI providers through a unified factory pattern with provider-
 ```typescript
 // Multi-provider API factory
 class ApiHandlerFactory {
-  static create(provider: string, config: ApiConfig, mode: 'plan' | 'act'): ApiHandler {
+  static create(
+    provider: string,
+    config: ApiConfig,
+    mode: 'plan' | 'act',
+  ): ApiHandler {
     const modeConfig = mode === 'plan' ? config.planMode : config.actMode;
 
     switch (provider) {
-      case 'anthropic': return new AnthropicHandler({ ...config, ...modeConfig });
-      case 'openai': return new OpenAiHandler({ ...config, ...modeConfig });
-      case 'qwen': return new QwenHandler({ ...config, ...modeConfig, contextBuffer: 0.85 });
-      case 'bedrock': return new BedrockHandler({ ...config, ...modeConfig });
-			//... other providers
-      default: return new ClineProviderHandler(config);
+      case 'anthropic':
+        return new AnthropicHandler({ ...config, ...modeConfig });
+      case 'openai':
+        return new OpenAiHandler({ ...config, ...modeConfig });
+      case 'qwen':
+        return new QwenHandler({
+          ...config,
+          ...modeConfig,
+          contextBuffer: 0.85,
+        });
+      case 'bedrock':
+        return new BedrockHandler({ ...config, ...modeConfig });
+      //... other providers
+      default:
+        return new ClineProviderHandler(config);
     }
   }
 }
@@ -204,25 +217,39 @@ class StreamProcessor {
   async processStream(stream: AsyncGenerator<StreamChunk>) {
     for await (const chunk of stream) {
       switch (chunk.type) {
-        case 'usage': this.trackTokenUsage(chunk); break;
-        case 'reasoning': await this.streamReasoning(chunk.reasoning); break;
+        case 'usage':
+          this.trackTokenUsage(chunk);
+          break;
+        case 'reasoning':
+          await this.streamReasoning(chunk.reasoning);
+          break;
         case 'text':
           this.contentBlocks.push(...this.parseContent(chunk.text));
           await this.presentContent();
           break;
-        case 'tool_call': await this.handleToolCall(chunk); break;
+        case 'tool_call':
+          await this.handleToolCall(chunk);
+          break;
       }
       if (this.shouldAbort()) break;
     }
   }
 
   private async presentContent() {
-    if (this.presentationLock) { this.pendingUpdates = true; return; }
+    if (this.presentationLock) {
+      this.pendingUpdates = true;
+      return;
+    }
     this.presentationLock = true;
     try {
       await this.renderContentBlocks();
-      if (this.pendingUpdates) { this.pendingUpdates = false; await this.presentContent(); }
-    } finally { this.presentationLock = false; }
+      if (this.pendingUpdates) {
+        this.pendingUpdates = false;
+        await this.presentContent();
+      }
+    } finally {
+      this.presentationLock = false;
+    }
   }
 }
 ```
@@ -343,18 +370,23 @@ graph TB
 ```typescript
 // State management interfaces
 interface ClineState {
-  version: string; installId: string;
-  tasks: Record<string, TaskState>; conversations: Record<string, ConversationHistory>;
-  apiConfiguration: ApiConfiguration; settings: ClineSettings;
-  contextWindow: ContextWindowState; tokenUsage: TokenUsageStats;
-  fileContext: FileContextState; workspaceTracking: WorkspaceState;
+  version: string;
+  installId: string;
+  tasks: Record<string, TaskState>;
+  conversations: Record<string, ConversationHistory>;
+  apiConfiguration: ApiConfiguration;
+  settings: ClineSettings;
+  contextWindow: ContextWindowState;
+  tokenUsage: TokenUsageStats;
+  fileContext: FileContextState;
+  workspaceTracking: WorkspaceState;
 }
 
 interface StateStorage {
-  global: VSCodeGlobalState;     // Cross-workspace settings
+  global: VSCodeGlobalState; // Cross-workspace settings
   workspace: VSCodeWorkspaceState; // Project-specific data
-  secrets: VSCodeSecretStorage;  // API keys
-  files: FileSystemStorage;      // Conversation backups
+  secrets: VSCodeSecretStorage; // API keys
+  files: FileSystemStorage; // Conversation backups
 }
 ```
 
@@ -383,12 +415,17 @@ Context management is critical for handling long conversations that exceed AI mo
 ```typescript
 // Context window management with intelligent truncation
 class ContextWindowManager {
-  async optimizeContext(messages: Message[], api: ApiHandler, maxTokens: number) {
+  async optimizeContext(
+    messages: Message[],
+    api: ApiHandler,
+    maxTokens: number,
+  ) {
     // Stage 1: Remove redundant content
     const optimized = this.removeDuplicates(this.removeObsolete(messages));
     const currentTokens = await this.calculateTokens(optimized, api);
 
-    if (currentTokens <= maxTokens) return { messages: optimized, truncated: false };
+    if (currentTokens <= maxTokens)
+      return { messages: optimized, truncated: false };
 
     // Stage 2: Intelligent truncation preserving critical context
     const strategy = this.selectStrategy(currentTokens / maxTokens);
@@ -511,18 +548,23 @@ class FileContextTracker {
 
   async optimizeContextInclusion(): Promise<string[]> {
     const candidates = Array.from(this.watchers.keys());
-    const scored = await Promise.all(candidates.map(async (file) => ({
-      file, score: await this.scoreFileImportance(file), size: await this.estimateTokenSize(file)
-    })));
+    const scored = await Promise.all(
+      candidates.map(async (file) => ({
+        file,
+        score: await this.scoreFileImportance(file),
+        size: await this.estimateTokenSize(file),
+      })),
+    );
 
     // Sort by score/size ratio and fit within budget
-    scored.sort((a, b) => (b.score / b.size) - (a.score / a.size));
+    scored.sort((a, b) => b.score / b.size - a.score / a.size);
 
     const included: string[] = [];
     let usedBudget = 0;
     for (const { file, size } of scored) {
       if (usedBudget + size <= this.contextBudget) {
-        included.push(file); usedBudget += size;
+        included.push(file);
+        usedBudget += size;
       }
     }
     return included;
@@ -554,16 +596,22 @@ class FileContextTracker {
 class ShadowGitManager {
   private shadowNamespace = 'refs/cline/shadow';
 
-  async createShadowCommit(changes: FileChange[], taskId: string): Promise<string> {
+  async createShadowCommit(
+    changes: FileChange[],
+    taskId: string,
+  ): Promise<string> {
     const shadowRef = `${this.shadowNamespace}/${taskId}`;
     const commitHash = await this.git.commit(changes, {
       ref: shadowRef,
       message: `Cline checkpoint: ${new Date().toISOString()}`,
-      author: { name: 'Cline Assistant', email: 'cline@ai-assistant.dev' }
+      author: { name: 'Cline Assistant', email: 'cline@ai-assistant.dev' },
     });
 
-    await this.storeCheckpointMetadata(commitHash, { taskId, changes,
-      userBranch: await this.git.getCurrentBranch() });
+    await this.storeCheckpointMetadata(commitHash, {
+      taskId,
+      changes,
+      userBranch: await this.git.getCurrentBranch(),
+    });
     return commitHash;
   }
 
@@ -584,40 +632,58 @@ class ShadowGitManager {
 ```typescript
 // File diff streaming with VSCode integration
 class VscodeDiffViewProvider extends DiffViewProvider {
-  private activeDiffEditor?: vscode.TextEditor
-  private fadedOverlayController?: DecorationController
-  private activeLineController?: DecorationController
+  private activeDiffEditor?: vscode.TextEditor;
+  private fadedOverlayController?: DecorationController;
+  private activeLineController?: DecorationController;
 
   override async openDiffEditor(): Promise<void> {
-    const uri = vscode.Uri.file(this.absolutePath)
-    const fileName = path.basename(uri.fsPath)
-    const fileExists = this.editType === "modify"
+    const uri = vscode.Uri.file(this.absolutePath);
+    const fileName = path.basename(uri.fsPath);
+    const fileExists = this.editType === 'modify';
 
     // Create virtual document for original content using custom URI scheme
-    this.activeDiffEditor = await new Promise<vscode.TextEditor>((resolve, reject) => {
-      const disposable = vscode.window.onDidChangeActiveTextEditor((editor) => {
-        if (editor && arePathsEqual(editor.document.uri.fsPath, uri.fsPath)) {
-          disposable.dispose()
-          resolve(editor)
-        }
-      })
+    this.activeDiffEditor = await new Promise<vscode.TextEditor>(
+      (resolve, reject) => {
+        const disposable = vscode.window.onDidChangeActiveTextEditor(
+          (editor) => {
+            if (
+              editor &&
+              arePathsEqual(editor.document.uri.fsPath, uri.fsPath)
+            ) {
+              disposable.dispose();
+              resolve(editor);
+            }
+          },
+        );
 
-      // Execute diff command with virtual URI for original content
-      vscode.commands.executeCommand(
-        "vscode.diff",
-        vscode.Uri.parse(`${DIFF_VIEW_URI_SCHEME}:${fileName}`).with({
-          query: Buffer.from(this.originalContent ?? "").toString("base64"),
-        }),
-        uri,
-        `${fileName}: ${fileExists ? "Original ↔ Cline's Changes" : "New File"} (Editable)`,
-        { preserveFocus: true }
-      )
-    })
+        // Execute diff command with virtual URI for original content
+        vscode.commands.executeCommand(
+          'vscode.diff',
+          vscode.Uri.parse(`${DIFF_VIEW_URI_SCHEME}:${fileName}`).with({
+            query: Buffer.from(this.originalContent ?? '').toString('base64'),
+          }),
+          uri,
+          `${fileName}: ${
+            fileExists ? "Original ↔ Cline's Changes" : 'New File'
+          } (Editable)`,
+          { preserveFocus: true },
+        );
+      },
+    );
 
     // Set up real-time visual feedback controllers
-    this.fadedOverlayController = new DecorationController("fadedOverlay", this.activeDiffEditor)
-    this.activeLineController = new DecorationController("activeLine", this.activeDiffEditor)
-    this.fadedOverlayController.addLines(0, this.activeDiffEditor.document.lineCount)
+    this.fadedOverlayController = new DecorationController(
+      'fadedOverlay',
+      this.activeDiffEditor,
+    );
+    this.activeLineController = new DecorationController(
+      'activeLine',
+      this.activeDiffEditor,
+    );
+    this.fadedOverlayController.addLines(
+      0,
+      this.activeDiffEditor.document.lineCount,
+    );
   }
 
   // Stream incremental updates with visual feedback
@@ -626,16 +692,24 @@ class VscodeDiffViewProvider extends DiffViewProvider {
     rangeToReplace: { startLine: number; endLine: number },
     currentLine: number | undefined,
   ): Promise<void> {
-    const document = this.activeDiffEditor?.document
-    const edit = new vscode.WorkspaceEdit()
-    const range = new vscode.Range(rangeToReplace.startLine, 0, rangeToReplace.endLine, 0)
-    edit.replace(document.uri, range, content)
-    await vscode.workspace.applyEdit(edit)
+    const document = this.activeDiffEditor?.document;
+    const edit = new vscode.WorkspaceEdit();
+    const range = new vscode.Range(
+      rangeToReplace.startLine,
+      0,
+      rangeToReplace.endLine,
+      0,
+    );
+    edit.replace(document.uri, range, content);
+    await vscode.workspace.applyEdit(edit);
 
     // Update visual indicators for streaming progress
     if (currentLine !== undefined) {
-      this.activeLineController?.setActiveLine(currentLine)
-      this.fadedOverlayController?.updateOverlayAfterLine(currentLine, document.lineCount)
+      this.activeLineController?.setActiveLine(currentLine);
+      this.fadedOverlayController?.updateOverlayAfterLine(
+        currentLine,
+        document.lineCount,
+      );
     }
   }
 }
@@ -657,7 +731,8 @@ This architecture prevents race conditions through `DiffViewProvider.ts` present
 // XML tool calling parser that works with any model
 class XmlToolCallParser {
   parseToolCalls(response: string): ToolCall[] {
-    const toolCallRegex = /<tool_call>\s*<invoke name="([^"]+)">\s*(.*?)\s*<\/invoke>\s*<\/tool_call>/gs;
+    const toolCallRegex =
+      /<tool_call>\s*<invoke name="([^"]+)">\s*(.*?)\s*<\/invoke>\s*<\/tool_call>/gs;
     const calls: ToolCall[] = [];
 
     let match;
@@ -714,7 +789,9 @@ class GenerativeUIStreamer {
         break;
     }
 
-    await this.ui.streamComponent(`<tool_execution tool="${toolCall.name}" status="completed">`);
+    await this.ui.streamComponent(
+      `<tool_execution tool="${toolCall.name}" status="completed">`,
+    );
   }
 
   private async streamFileDiff(params: any): Promise<void> {
@@ -755,8 +832,16 @@ This approach differs from CLI tools or simple chat interfaces by providing:
 ```typescript
 // Dual-mode architecture with mode-specific behavior
 interface ModeConfig {
-  plan: { models: ['claude-opus', 'gpt-4']; tools: ['read', 'search']; focus: 'analysis' };
-  act: { models: ['claude-sonnet', 'gpt-4-turbo']; tools: ['write', 'edit', 'bash']; focus: 'execution' };
+  plan: {
+    models: ['claude-opus', 'gpt-4'];
+    tools: ['read', 'search'];
+    focus: 'analysis';
+  };
+  act: {
+    models: ['claude-sonnet', 'gpt-4-turbo'];
+    tools: ['write', 'edit', 'bash'];
+    focus: 'execution';
+  };
 }
 
 class ModeManager {
@@ -815,10 +900,19 @@ The system provides distinct behavioral modes through system prompt differentiat
 ```typescript
 // Multi-layered storage system
 interface ClineStorage {
-  global: { location: 'VS Code globalState'; contains: 'user_preferences, api_keys' };
-  workspace: { location: 'VS Code workspaceState'; contains: 'task_history, active_sessions' };
+  global: {
+    location: 'VS Code globalState';
+    contains: 'user_preferences, api_keys';
+  };
+  workspace: {
+    location: 'VS Code workspaceState';
+    contains: 'task_history, active_sessions';
+  };
   secrets: { location: 'VS Code secretStorage'; contains: 'api_credentials' };
-  files: { location: 'workspace_files'; contains: 'configuration, memory_bank' };
+  files: {
+    location: 'workspace_files';
+    contains: 'configuration, memory_bank';
+  };
 }
 ```
 
@@ -1044,36 +1138,49 @@ class AccessibilityManager {
 
 ```typescript
 class VscodeDiffViewProvider extends DiffViewProvider {
-  private activeDiffEditor?: vscode.TextEditor
-  private fadedOverlayController?: DecorationController
-  private activeLineController?: DecorationController
+  private activeDiffEditor?: vscode.TextEditor;
+  private fadedOverlayController?: DecorationController;
+  private activeLineController?: DecorationController;
 
   override async openDiffEditor(): Promise<void> {
     // Create virtual document for original content
-    const uri = vscode.Uri.file(this.absolutePath)
+    const uri = vscode.Uri.file(this.absolutePath);
 
     this.activeDiffEditor = await vscode.commands.executeCommand(
-      "vscode.diff",
+      'vscode.diff',
       vscode.Uri.parse(`${DIFF_VIEW_URI_SCHEME}:${fileName}`),
       uri,
-      `${fileName}: Original ↔ Cline's Changes (Editable)`
-    )
+      `${fileName}: Original ↔ Cline's Changes (Editable)`,
+    );
 
     // Set up real-time visual feedback controllers
-    this.fadedOverlayController = new DecorationController("fadedOverlay", this.activeDiffEditor)
-    this.activeLineController = new DecorationController("activeLine", this.activeDiffEditor)
+    this.fadedOverlayController = new DecorationController(
+      'fadedOverlay',
+      this.activeDiffEditor,
+    );
+    this.activeLineController = new DecorationController(
+      'activeLine',
+      this.activeDiffEditor,
+    );
   }
 
-  override async replaceText(content: string, rangeToReplace: any, currentLine: number): Promise<void> {
+  override async replaceText(
+    content: string,
+    rangeToReplace: any,
+    currentLine: number,
+  ): Promise<void> {
     // Apply incremental updates with visual feedback
-    const edit = new vscode.WorkspaceEdit()
-    edit.replace(document.uri, range, content)
-    await vscode.workspace.applyEdit(edit)
+    const edit = new vscode.WorkspaceEdit();
+    edit.replace(document.uri, range, content);
+    await vscode.workspace.applyEdit(edit);
 
     // Update visual indicators for streaming progress
     if (currentLine !== undefined) {
-      this.activeLineController?.setActiveLine(currentLine)
-      this.fadedOverlayController?.updateOverlayAfterLine(currentLine, document.lineCount)
+      this.activeLineController?.setActiveLine(currentLine);
+      this.fadedOverlayController?.updateOverlayAfterLine(
+        currentLine,
+        document.lineCount,
+      );
     }
   }
 }
@@ -1127,9 +1234,17 @@ interface MemoryBankFiles {
 ```typescript
 // Token tracking with budget management
 interface TokenTracker {
-  currentSession: { inputTokens: number; outputTokens: number; totalCost: number };
+  currentSession: {
+    inputTokens: number;
+    outputTokens: number;
+    totalCost: number;
+  };
   providerStats: Map<string, { totalCost: number; requestCount: number }>;
-  budgetControl: { dailyLimit: number; currentSpend: number; warningThresholds: [0.8, 0.9] };
+  budgetControl: {
+    dailyLimit: number;
+    currentSpend: number;
+    warningThresholds: [0.8, 0.9];
+  };
   optimization: { enableCaching: boolean; preferCheaperModels: boolean };
 }
 ```
@@ -1164,7 +1279,7 @@ Tools: write_file, edit_file, execute_command, browser_action
 Principle: Safety first, then execution.`,
 
   shared: `Core principles: Be methodical, explain reasoning, follow best practices,
-ask for clarification, prioritize quality, respect existing patterns.`
+ask for clarification, prioritize quality, respect existing patterns.`,
 };
 ```
 
@@ -1206,7 +1321,7 @@ class VSCodeStateManager {
       this.setGlobalState('settings', state.settings),
       this.setGlobalState('tokenUsage', state.tokenUsage),
       this.setWorkspaceState('tasks', state.tasks),
-      this.setWorkspaceState('conversations', state.conversations)
+      this.setWorkspaceState('conversations', state.conversations),
     ]);
   }
 }
@@ -1218,33 +1333,33 @@ Based on analysis of the current implementation, here are key areas for architec
 
 ### 1. Simplified event-driven architecture
 
-**Current**: Complex Controller → Task → Stream architecture with multiple layers
-**Better**: Direct event-driven architecture with clear separation of concerns
-**Benefits**: Reduced complexity, improved debugging, easier testing
+- **Current**: Complex Controller → Task → Stream architecture with multiple layers
+- **Better**: Direct event-driven architecture with clear separation of concerns
+- **Benefits**: Reduced complexity, improved debugging, easier testing
 
 ### 2. Unified state management
 
-**Current**: Dual-layer state (VSCode storage + React context) with complex synchronization  
-**Better**: Single source of truth with reactive updates (Redux/Zustand pattern)
-**Benefits**: Eliminates race conditions, simpler state flow, better debugging
+- **Current**: Dual-layer state (VSCode storage + React context) with complex synchronization
+- **Better**: Single source of truth with reactive updates (Redux/Zustand pattern)
+- **Benefits**: Eliminates race conditions, simpler state flow, better debugging
 
 ### 3. Plugin-based tool system
 
-**Current**: Monolithic tool definitions with hardcoded schemas
-**Better**: Dynamic plugin architecture with runtime registration
-**Benefits**: Better extensibility, easier testing, community contributions
+- **Current**: Monolithic tool definitions with hardcoded schemas
+- **Better**: Dynamic plugin architecture with runtime registration
+- **Benefits**: Better extensibility, easier testing, community contributions
 
 ### 4. Vector-based context management
 
-**Current**: Token-based truncation with optimization phases
-**Better**: Semantic embeddings with importance scoring
-**Benefits**: Preserves semantic context better, more predictable behavior
+- **Current**: Token-based truncation with optimization phases
+- **Better**: Semantic embeddings with importance scoring
+- **Benefits**: Preserves semantic context better, more predictable behavior
 
 ### 5. Risk-based safety system
 
-**Current**: Binary approval gates with auto-approval settings
-**Better**: Graduated risk assessment with granular permissions
-**Benefits**: More nuanced control, better user experience, adaptive safety
+- **Current**: Binary approval gates with auto-approval settings
+- **Better**: Graduated risk assessment with granular permissions
+- **Benefits**: More nuanced control, better user experience, adaptive safety
 
 ```typescript
 // Improved architecture patterns
